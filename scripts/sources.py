@@ -54,6 +54,7 @@ SOURCES = {
 }
 
 FETCH_URLS = {
+    "yoyapai": "https://yoyapai.com/category/mianfeijiedian",
     "au1rxx": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
     "freesub": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
     "xiaoji235": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/clashnodecc.txt",
