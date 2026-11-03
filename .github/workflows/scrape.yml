@@ -51,6 +51,46 @@ jobs:
       - name: Install mihomo core
         run: bash scripts/install_mihomo.sh
 
+      # 抓取步骤都用 `|| echo warning` 容错,语法/清单错误会被吞到后面才爆;
+      # 这里先做一次静态自检,坏掉立刻红,报错位置也更直接。
+      - name: 脚本自检(语法 + 来源清单格式)
+        run: |
+          python - <<'PY'
+          import pathlib
+          import sys
+
+          errs = []
+          for p in sorted(pathlib.Path("scripts").glob("*.py")):
+              try:
+                  compile(p.read_text(encoding="utf-8"), str(p), "exec")
+              except SyntaxError as e:
+                  errs.append(f"{p}:{e.lineno}: {e.msg}")
+          if errs:  # 语法不过就别 import 了,否则只会抛原始 traceback
+              raise SystemExit("[FAIL] 脚本语法错误:\n  " + "\n  ".join(errs))
+
+          sys.path.insert(0, str(pathlib.Path("scripts").resolve()))
+          import sources
+
+          errs = [
+              f"SOURCES[{k!r}] 应为 (名称, 主页) 两元组, 实际 {v!r}"
+              for k, v in sources.SOURCES.items()
+              if not (isinstance(v, tuple) and len(v) == 2 and all(isinstance(x, str) for x in v))
+          ]
+          errs += [
+              f"FETCH_URLS[{k!r}] 应为字符串, 实际 {v!r}"
+              for k, v in sources.FETCH_URLS.items()
+              if not isinstance(v, str)
+          ]
+          if errs:
+              raise SystemExit("[FAIL] 自检未通过:\n  " + "\n  ".join(errs))
+
+          print("[OK] 语法与来源清单正常: SOURCES %d 个, FETCH_URLS %d 个"
+                % (len(sources.SOURCES), len(sources.FETCH_URLS)))
+          print("     抓取来源: %s" % ", ".join(sorted(sources.FETCH_URLS)))
+          print("     非 fetch 来源: %s"
+                % ", ".join(sorted(set(sources.SOURCES) - set(sources.FETCH_URLS))))
+          PY
+
       # 私有仓库: release 资产匿名不可读, 测速统一用 Cloudflare
       - name: Scrape yoyapai
         run: python scripts/scraper.py || echo "::warning::yoyapai 抓取失败，跳过该来源"
