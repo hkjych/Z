@@ -1,4 +1,3 @@
-# 宣传：vl.wzml.cc.cd 免费视频解析
 
 # proxy-node
 
