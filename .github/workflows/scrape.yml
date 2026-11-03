@@ -2,7 +2,7 @@ name: 定时抓取清洗节点
 
 on:
   schedule:
-    - cron: '0 */4 * * *'        # 每 4 小时(UTC 00/04/08/12/16/20)
+    - cron: '0 */12 * * *'       # 每 12 小时(UTC 00/12 = 北京 08/20)
   workflow_dispatch:             # 手动触发
     inputs:
       dry_run:
