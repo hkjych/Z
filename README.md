@@ -12,14 +12,8 @@
 
 ## 订阅链接
 
-> **本仓库已设为私有**: 上面的 `raw.githubusercontent.com` 直链对未登录的客户端返回 404, ghproxy 镜像同样失效。
-> 订阅时把令牌拼进地址 (令牌只需对该仓库有 Contents 只读权限):
->
-> ```
-> https://<TOKEN>@raw.githubusercontent.com/hkjych/Z/main/output/aio/clash.yaml
-> ```
->
-> 私有仓库的 release 资产同样需要授权, 因此测速只用 Cloudflare 那一路。
+> **直链可用**: 公开仓库，直接复制下面任一地址到客户端即可；国内网络走 ghproxy 镜像列。
+> 测速只用 Cloudflare 那一路（release 资产未发布，权重归一化后结果仍可比）。
 >
 > **AIO 精选(推荐)**:全部来源的节点先测 `https://www.gstatic.com/generate_204` 判可达,再对可达节点**真实下载 20MB 文件测速**;每个节点名都带 `[x.xMB/s]` 标注,并生成多个分组标签页:
 
