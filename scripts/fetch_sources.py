@@ -4,6 +4,8 @@
 设计要点:
   * 原始文件写入 .raw.yaml(不入库),已发布的 clash.yaml 只在清洗+内核校验
     通过后才被替换 —— 下载失败时旧文件保持原样,不会被重新盖上"更新时间";
+  * 只发分享链接(ss:// vmess:// ...)的来源先由 uri_to_clash 转成 Clash
+    proxies,再交给 sanitize.py,否则这类来源永远卡在"顶层不是映射";
   * 单个来源失败不影响其它来源,只有全部失败才返回非 0。
 
 用法:
@@ -15,6 +17,7 @@ import sys
 
 import requests
 
+import uri_to_clash
 from sources import FETCH_URLS, GH_PROXY, mirror_url
 
 HEADERS = {"User-Agent": "proxy-node-bot/1.0"}
@@ -40,10 +43,15 @@ def fetch_one(name, url):
             resp.raise_for_status()
             if not resp.content.strip():
                 raise ValueError("返回内容为空")
+            # 少数来源只发分享链接(ss:// vmess:// ...),先转成 Clash proxies,
+            # 否则 sanitize.py 必然报「顶层不是映射」。已经是 Clash 配置的原样写盘。
+            body, note = uri_to_clash.maybe_convert(resp.content)
             with open(dst, "wb") as f:
-                f.write(resp.content)
+                f.write(body)
             print(f"  [OK] {name} ({len(resp.content)} bytes)")
-            return len(resp.content)
+            if note:
+                print(f"  [CONVERT] {name}: {note}")
+            return len(body)
         except Exception as e:
             last_err = e
             print(f"  [WARN] {name} 下载失败({u}): {e}")

@@ -62,6 +62,8 @@
 
 每个来源的 `clash.yaml` 在发布前都会经过 `scripts/sanitize.py` 处理,并在**内核校验通过后**才替换线上文件:
 
+- **分享链接类来源**(只发 `ss://` / `vmess://` / `vless://` / `trojan://` / `hysteria2://` / `tuic://` 文本,或整份 base64)在下载阶段先由 `scripts/uri_to_clash.py` 转成 Clash `proxies`,再走下面的清洗流程;单源默认最多保留 1200 个节点(`URI_MAX_NODES` 可改,`0` 为不限),避免把几千个节点塞进测速环节撑爆 35 分钟的 job;解析不出参数的链接、mihomo 不认的传输层(xhttp 等)和未知 ss 加密方式直接丢弃;
+
 - 按 go-yaml v3 的码点白名单检查**解码后**的每个字符串值,丢弃含控制字符的节点 —— 这是 FlClash 报 `yaml: control characters are not allowed` 的根因;
 - 剔除上游错误页残留的垃圾顶层键(如 `error code: 520`);
 - **名称唯一性**:重复节点名/组名、节点名与组名冲突自动改名或丢弃(否则 mihomo 直接拒绝加载整份配置:`proxy xxx is the duplicate name`);
@@ -86,7 +88,8 @@ output/
 scripts/
   sources.py               # 来源清单(名称/主页/下载 URL,集中维护)
   scraper.py               # 抓取 yoyapai.com 文章并下载最新订阅
-  fetch_sources.py         # 下载其它来源到 output/<name>/clash.raw.yaml(暂存)
+  fetch_sources.py         # 下载其它来源到 output/<name>/clash.raw.yaml(分享链接自动转 Clash)
+  uri_to_clash.py          # 分享链接(ss/vmess/vless/trojan/hysteria2/tuic)→ Clash proxies
   sanitize.py              # 清洗(控制字符/垃圾键/重名/悬空引用)+ 内核门禁
   test_nodes.py            # 内核可达性 + 20MB 测速 + 生成 AIO
   check_sources.py         # 校验 output/ 与来源清单一致(防孤儿目录)
