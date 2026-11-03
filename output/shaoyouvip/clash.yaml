@@ -1,0 +1,45 @@
+proxies:
+- name: "\U0001F1E8\U0001F1FFCZ_1|1.4MB/s"
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\u8BF4\u660E-\u6765\u6E90: shaoyouvip/free"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 2 \u4E2A\u5B57\u7B26"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-03 13:39 (CST)"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+proxy-groups:
+- name: "\u8BF4\u660E"
+  type: select
+  proxies:
+  - "\u8BF4\u660E-\u6765\u6E90: shaoyouvip/free"
+  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 2 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-03 13:39 (CST)"
+  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"

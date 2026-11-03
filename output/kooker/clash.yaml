@@ -1,0 +1,572 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F2\U0001F1FEMY_1|912KB/s"
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40006
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: "\U0001F1EB\U0001F1EEFI_1|713KB/s"
+  obfs: ''
+  obfs-password: ''
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  port: 443
+  server: 217.60.73.56
+  skip-cert-verify: true
+  sni: forshynewh.duckdns.org
+  type: hysteria2
+  up: ''
+- name: "\u8BF4\u660E-\u6765\u6E90: kooker/FreeSubsCheck"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1123 \u4E2A\u5B57\u7B26"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-03 13:39 (CST)"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+proxy-groups:
+- name: "\u8BF4\u660E"
+  type: select
+  proxies:
+  - "\u8BF4\u660E-\u6765\u6E90: kooker/FreeSubsCheck"
+  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1123 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-03 13:39 (CST)"
+  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
+- name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  type: select
+  proxies:
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F680 \u624B\u52A8\u5207\u6362"
+  include-all: true
+  type: select
+- name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  type: url-test
+  include-all: true
+  interval: 300
+  tolerance: 50
+- name: "\U0001F4F2 \u7535\u62A5\u6D88\u606F"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F4AC Ai\u5E73\u53F0"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F4F9 \u6CB9\u7BA1\u89C6\u9891"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F3A5 \u5948\u98DE\u89C6\u9891"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F3A5 \u5948\u98DE\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F4FA \u5DF4\u54C8\u59C6\u7279"
+  type: select
+  proxies:
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F4FA \u54D4\u54E9\u54D4\u54E9"
+  type: select
+  proxies:
+  - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+- name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - DIRECT
+- name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\U0001F4E2 \u8C37\u6B4CFCM"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\u24C2\uFE0F \u5FAE\u8F6FBing"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\u24C2\uFE0F \u5FAE\u8F6F\u4E91\u76D8"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - DIRECT
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\U0001F3B6 \u7F51\u6613\u97F3\u4E50"
+  type: select
+  include-all: true
+  filter: "(?i)\u7F51\u6613|\u97F3\u4E50|NetEase|Music"
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+- name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+- name: "\U0001F6D1 \u5E7F\u544A\u62E6\u622A"
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: "\U0001F343 \u5E94\u7528\u51C0\u5316"
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: "\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
+  type: select
+  proxies:
+  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - DIRECT
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  include-all: true
+  filter: "(?i)\u6E2F|HK|hk|Hong Kong|HongKong|hongkong"
+  type: url-test
+  interval: 300
+  tolerance: 50
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+  include-all: true
+  filter: "(?i)\u65E5\u672C|\u5DDD\u65E5|\u4E1C\u4EAC|\u5927\u962A|\u6CC9\u65E5|\u57FC\
+    \u7389|\u6CAA\u65E5|\u6DF1\u65E5|JP|Japan"
+  type: url-test
+  interval: 300
+  tolerance: 50
+- name: "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+  include-all: true
+  filter: "(?i)\u7F8E|\u6CE2\u7279\u5170|\u8FBE\u62C9\u65AF|\u4FC4\u52D2\u5188|\u51E4\
+    \u51F0\u57CE|\u8D39\u5229\u8499|\u7845\u8C37|\u62C9\u65AF\u7EF4\u52A0\u65AF|\u6D1B\
+    \u6749\u77F6|\u5723\u4F55\u585E|\u5723\u514B\u62C9\u62C9|\u897F\u96C5\u56FE|\u829D\
+    \u52A0\u54E5|US|United States"
+  type: url-test
+  interval: 300
+  tolerance: 50
+- name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+  include-all: true
+  filter: "(?i)\u53F0|\u65B0\u5317|\u5F70\u5316|TW|Taiwan"
+  type: url-test
+  interval: 300
+  tolerance: 50
+- name: "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+  include-all: true
+  filter: "(?i)\u65B0\u52A0\u5761|\u5761|\u72EE\u57CE|SG|Singapore"
+  type: url-test
+  interval: 300
+  tolerance: 50
+- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+  include-all: true
+  filter: "(?i)KR|Korea|KOR|\u9996\u5C14|\u97E9|\u97D3"
+  type: url-test
+  interval: 300
+  tolerance: 50
+- name: "\U0001F3A5 \u5948\u98DE\u8282\u70B9"
+  include-all: true
+  filter: "(?i)NF|\u5948\u98DE|\u89E3\u9501|Netflix|NETFLIX|Media"
+  type: select
+rule-providers:
+  LocalAreaNetwork:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+rules:
+- "PROCESS-NAME,subs-check.exe,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "PROCESS-NAME,subs-check,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,LocalAreaNetwork,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,UnBan,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,BanAD,\U0001F6D1 \u5E7F\u544A\u62E6\u622A"
+- "RULE-SET,BanProgramAD,\U0001F343 \u5E94\u7528\u51C0\u5316"
+- "RULE-SET,GoogleFCM,\U0001F4E2 \u8C37\u6B4CFCM"
+- "RULE-SET,GoogleCN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,SteamCN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,Bing,\u24C2\uFE0F \u5FAE\u8F6FBing"
+- "RULE-SET,OneDrive,\u24C2\uFE0F \u5FAE\u8F6F\u4E91\u76D8"
+- "RULE-SET,Microsoft,\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
+- "RULE-SET,Apple,\U0001F34E \u82F9\u679C\u670D\u52A1"
+- "RULE-SET,Telegram,\U0001F4F2 \u7535\u62A5\u6D88\u606F"
+- "RULE-SET,AI,\U0001F4AC Ai\u5E73\u53F0"
+- "RULE-SET,NetEaseMusic,\U0001F3B6 \u7F51\u6613\u97F3\u4E50"
+- "RULE-SET,Epic,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+- "RULE-SET,Origin,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+- "RULE-SET,Sony,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+- "RULE-SET,Steam,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+- "RULE-SET,Nintendo,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+- "RULE-SET,YouTube,\U0001F4F9 \u6CB9\u7BA1\u89C6\u9891"
+- "RULE-SET,Netflix,\U0001F3A5 \u5948\u98DE\u89C6\u9891"
+- "RULE-SET,Bahamut,\U0001F4FA \u5DF4\u54C8\u59C6\u7279"
+- "RULE-SET,BilibiliHMT,\U0001F4FA \u54D4\u54E9\u54D4\u54E9"
+- "RULE-SET,Bilibili,\U0001F4FA \u54D4\u54E9\u54D4\u54E9"
+- "RULE-SET,ChinaMedia,\U0001F30F \u56FD\u5185\u5A92\u4F53"
+- "RULE-SET,ProxyMedia,\U0001F30D \u56FD\u5916\u5A92\u4F53"
+- "RULE-SET,ProxyGFWlist,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "RULE-SET,ChinaDomain,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,ChinaCompanyIp,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "RULE-SET,Download,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "GEOIP,CN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+- "MATCH,\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
