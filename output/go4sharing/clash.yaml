@@ -4,141 +4,143 @@ mode: Global
 log-level: info
 external-controller: :9090
 proxies:
-- name: "\u65B0\u52A0\u5761 - \u65B0\u52A0\u5761 - 1"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjxjp.m2k699.com
+- name: "\u7231\u5C14\u5170 - \u90FD\u67CF\u6797 - 1"
+  server: 34.249.214.108
+  port: 443
+  type: http
+  tls: true
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  delay: 1322
+- name: "\u5FB7\u56FD - \u6CD5\u5170\u514B\u798F - 1"
+  server: 158.173.154.5
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1709
+- name: "\u5FB7\u56FD - \u6CD5\u5170\u514B\u798F - 2"
+  server: 158.173.154.1
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 984
+- name: "\u6CD5\u56FD - \u5DF4\u9ECE - 2"
+  server: 82.65.162.76
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 2470
+- name: "\u6CD5\u56FD - \u91CC\u6602 - 1"
+  server: 83.206.1.225
+  port: 8090
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1157
+- name: "\u8377\u5170 - \u963F\u59C6\u65AF\u7279\u4E39 - 2"
+  server: 84.17.47.124
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 986
+- name: "\u8377\u5170 - \u963F\u59C6\u65AF\u7279\u4E39 - 3"
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  delay: 1594
+- name: "\u8377\u5170 - \u963F\u59C6\u65AF\u7279\u4E39 - 4"
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  delay: 1713
+- name: "\u8377\u5170 - \u963F\u59C6\u65AF\u7279\u4E39 - 5"
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1943
+- name: "\u8377\u5170 - \u963F\u59C6\u65AF\u7279\u4E39 - 6"
+  server: 84.17.47.123
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  delay: 1924
+- name: "\u8377\u5170 - \u54C8\u52D2\u59C6 - 1"
+  server: 51.159.225.196
+  port: 23856
+  type: http
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+  delay: 2605
+- name: "\u62C9\u8131\u7EF4\u4E9A - \u91CC\u52A0 - 1"
+  server: 185.219.159.16
+  port: 443
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  delay: 2414
+- name: "\u7F8E\u56FD - Boardman - 1"
+  server: 44.248.167.117
+  port: 8443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 913
+- name: "\u65E5\u672C - \u4E1C\u4EAC - 1"
+  server: 154.36.158.197
+  port: 8388
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: BeaUf9c0AEWH40Pu
+  cipher: aes-256-gcm
+  delay: 1523
+- name: "\u610F\u5927\u5229 - Milan - 1"
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  country: "\U0001F1F3\U0001F1FF NZ"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 2906
+- name: "\u610F\u5927\u5229 - Milan - 2"
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  delay: 1326
+  delay: 1015
 - cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 1"
+  name: "\u610F\u5927\u5229 - Milan - 3"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.99
+  server: 202.50.253.63
   type: ss
   udp: true
-  delay: 1654
+  delay: 1219
 - cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 2"
+  name: "\u610F\u5927\u5229 - Milan - 4"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
   udp: true
-  delay: 1422
-- cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 3"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-  delay: 1398
-- cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 4"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-  delay: 1022
-- cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 5"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-  delay: 612
-- name: "\u5370\u5EA6 - \u73ED\u52A0\u7F85\u723E - 1"
-  server: in.tronsg.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: Trojan@82164024
-  skip-cert-verify: true
-  udp: true
-  delay: 2257
-- name: "\u4E2D\u56FD - \u5408\u80A5 - 1"
-  server: 112.132.215.108
-  type: vmess
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  servername: 112.132.215.108
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  delay: 1109
-- name: "\u4E2D\u56FD - \u53F0\u6E7E - 2"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjtw.m2k699.com
-  skip-cert-verify: false
-  sni: tjtw.m2k699.com
-  type: trojan
-  udp: true
-  delay: 1527
-- name: "\u4E2D\u56FD - \u9999\u6E2F - 3"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjxg.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-  delay: 1342
-- name: "\u4E2D\u56FD - \u9999\u6E2F - 4"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjadly.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-  delay: 1322
-- name: "\u4E2D\u56FD - \u9999\u6E2F - 5"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjmlxy.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-  delay: 1144
-- name: "\u4E2D\u56FD - \u9999\u6E2F - 6"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjyn.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-  delay: 1147
-- name: "\u4E2D\u56FD - \u9999\u6E2F - 7"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjterq.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-  delay: 2142
-- name: "\u4E2D\u56FD - \u9999\u6E2F - 8"
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjyg.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-  delay: 2921
+  delay: 2298
 - name: "\u8BF4\u660E-\u6765\u6E90: go4sharing/sub"
   type: trojan
   server: 127.0.0.1
@@ -147,14 +149,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 63 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 94 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-03 18:04 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-04 00:57 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -174,6 +176,6 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: go4sharing/sub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 63 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-03 18:04 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 94 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-04 00:57 (CST)"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
