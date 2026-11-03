@@ -47,8 +47,7 @@ profile:
   store-fake-ip: true
   store-selected: true
 proxies:
-- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_ff9ee1ab"
+- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_ff9ee1ab"
   port: 443
   server: 43.155.62.157
   type: http
@@ -58,15 +57,14 @@ proxies:
   tls: true
   type: http
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos_dokng.com_a813ca7e"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 18.143.163.241
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - cipher: chacha20-ietf-poly1305
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_83153416"
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -89,8 +87,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_450a5730"
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_450a5730"
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -100,18 +97,16 @@ proxies:
   server: 18.143.63.164
   type: ss
   udp: true
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_8853a869"
-  password: "1234"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_8853a869"
+  password: '1234'
   port: 2080
   server: 13.214.213.66
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - encryption: none
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_69d64529"
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_69d64529"
   network: tcp
   port: 50131
   server: 18.136.202.0
@@ -120,32 +115,30 @@ proxies:
   tls: true
   type: vless
   uuid: 1796b9ed-3b73-4b5f-ae12-6f5dca4c776d
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e4405807"
-  password: "1234"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e4405807"
+  password: '1234'
   port: 2080
   server: 13.212.235.123
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F50D]_dokng.com_7bb21324"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 47.129.155.166
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos_dokng.com_02ba6e35"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.229.54.109
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - encryption: none
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2e02fea8"
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2e02fea8"
   network: tcp
   port: 50131
   server: 13.229.122.122
@@ -154,33 +147,31 @@ proxies:
   tls: true
   type: vless
   uuid: 82ce33f5-985b-4913-8213-b928c1c4d930
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6\
-    ]_dokng.com_17fbfe15"
-  password: "1234"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_dokng.com_17fbfe15"
+  password: '1234'
   port: 2080
   server: 54.151.160.36
   skip-cert-verify: true
   type: http
-  username: "1234"
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_38117f1c"
-  password: "1234"
+  username: '1234'
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_38117f1c"
+  password: '1234'
   port: 2080
   server: 13.229.91.101
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AA\U0001F50D]_dokng.com_76e9313c"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 18.143.144.220
   skip-cert-verify: true
   type: http
   udp: true
-  username: "1234"
+  username: '1234'
 - alpn:
   - ''
-  alterId: "0"
+  alterId: '0'
   cipher: auto
   name: "C\U0001F7E0\U0001F1E8\U0001F1F3hos[\U0001F39E\uFE0F\U0001F4E6]_dokng.com_c6c209ee"
   network: ws
@@ -195,112 +186,107 @@ proxies:
     headers: {}
     path: /
   xudp: true
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7896b4ab"
-  password: "1234"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
+  password: '1234'
   port: 2080
   server: 13.212.207.226
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AA\u2708\uFE0F]_dokng.com_b83de358"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.212.55.110
   skip-cert-verify: true
   type: http
-  username: "1234"
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0360a354"
-  password: "1234"
+  username: '1234'
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0360a354"
+  password: '1234'
   port: 2080
   server: 13.212.249.115
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA\U0001F3AA]_dokng.com_9a3d7a66"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.229.236.228
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA]_dokng.com_c607ceae"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.212.87.168
   skip-cert-verify: true
   type: http
-  username: "1234"
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6\
-    ]_dokng.com_7b001401"
-  password: "1234"
+  username: '1234'
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_dokng.com_7b001401"
+  password: '1234'
   port: 2080
   server: 54.255.133.243
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\u2708\uFE0F]_dokng.com_51a7e463"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.250.6.249
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD]_dokng.com_0416957a"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.250.8.222
   skip-cert-verify: true
   type: http
-  username: "1234"
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
-  password: "1234"
+  username: '1234'
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
+  password: '1234'
   port: 2080
   server: 52.221.234.145
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 18.143.167.6
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F50D]_dokng.com_d363cfc0"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.250.6.200
   skip-cert-verify: true
   type: http
   udp: true
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AA]_dokng.com_8fbc2880"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 54.251.149.207
   skip-cert-verify: true
   type: http
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos_dokng.com_c22575f5"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 13.229.57.163
   skip-cert-verify: true
   type: http
   udp: true
-  username: "1234"
+  username: '1234'
 - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AD\U0001F3AA\U0001F4E6]_dokng.com_a075a65c"
-  password: "1234"
+  password: '1234'
   port: 2080
   server: 47.129.174.248
   skip-cert-verify: true
   type: http
-  username: "1234"
-- name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_65a5452e"
+  username: '1234'
+- name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_65a5452e"
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -309,15 +295,13 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F50D\
-    ]_dokng.com_8f17f544"
+- name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F50D]_dokng.com_8f17f544"
   port: 10007
   server: 118.25.131.160
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F39E\
-    \uFE0F]_dokng.com_8acecb07"
+- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F39E\uFE0F]_dokng.com_8acecb07"
   password: ''
   port: 10808
   server: 123.58.219.171
@@ -342,18 +326,17 @@ proxies:
     path: /
   xudp: true
 - name: "C\U0001F7E0\U0001F1ED\U0001F1F0hos[\U0001F4FA]_dokng.com_099454ad"
-  password: "111"
+  password: '111'
   port: 11211
   server: 47.243.173.50
   skip-cert-verify: true
   type: socks5
-  username: "111"
+  username: '111'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e59ee48e"
-  password: "0324fbc29561"
+  name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e59ee48e"
+  password: 0324fbc29561
   port: 443
   server: 684616s4.df6h451rh.xin
   skip-cert-verify: true
@@ -378,8 +361,7 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
 - name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F39E\uFE0F]_dokng.com_23257430"
   password: null
@@ -389,8 +371,7 @@ proxies:
   username: null
 - encryption: none
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f6b05a8a"
+  name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f6b05a8a"
   network: tcp
   port: 50131
   server: 13.113.64.241
@@ -414,8 +395,7 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- name: "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_348c8da2"
+- name: "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_348c8da2"
   password: null
   port: 9443
   server: 149.88.99.209
@@ -425,27 +405,24 @@ proxies:
   username: null
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2d587ee4"
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2d587ee4"
   port: 46105
   reality-opts:
     public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: "28f5c1f8f98a"
+    short-id: 28f5c1f8f98a
   server: funagfrdfs.alixxplay.com
   servername: www.lamer.com.sg
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - cipher: aes-256-cfb
-  name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9569ed11"
+  name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9569ed11"
   password: amazonskr05
   port: 443
   server: 15.223.1.51
   type: ss
   udp: true
-- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cb9256f2"
+- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cb9256f2"
   password: ''
   port: 10808
   server: 101.36.104.239
@@ -454,21 +431,18 @@ proxies:
   type: socks5
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1b81f86d"
+- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1b81f86d"
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_609c62be"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_609c62be"
   port: 9443
   server: 152.233.9.239
   skip-cert-verify: true
   tls: true
   type: http
 - cipher: chacha20-ietf
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_32badc18"
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_32badc18"
   obfs: tls1.2_ticket_auth
   obfs-param: 6f5218522.douyin.com
   password: di15PV
@@ -477,8 +451,7 @@ proxies:
   protocol-param: 218522:0hfCJk
   server: api.meituan88.com
   type: ssr
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_82281b65"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   password: null
   port: 9443
   server: 152.233.9.239
@@ -486,8 +459,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_93f6101c"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_93f6101c"
   password: None
   port: 9443
   server: 149.36.51.161
@@ -505,8 +477,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1c3c73a3"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1c3c73a3"
   port: 443
   server: purecambogiasl.live
   skip-cert-verify: true
@@ -518,8 +489,7 @@ proxies:
   server: 113.22.224.63
   skip-cert-verify: true
   type: socks5
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_46d7d8b2"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_46d7d8b2"
   password: null
   port: 443
   server: 87.249.132.97
@@ -543,24 +513,21 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a88e970f"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a88e970f"
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: "D\U0001F534\U0001F1FB\U0001F1F3hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_e52ce08d"
+- name: "D\U0001F534\U0001F1FB\U0001F1F3hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_e52ce08d"
   password: null
   port: 1083
   server: 113.22.224.63
   type: socks5
   udp: true
   username: null
-- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b5bafa8e"
+- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b5bafa8e"
   password: null
   port: 443
   server: 79.127.156.177
@@ -568,8 +535,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7b90dbc6"
+- name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7b90dbc6"
   password: null
   port: 9443
   server: 149.36.51.157
@@ -577,30 +543,26 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3eea6840"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3eea6840"
   port: 443
   server: fullmanfirm.icu
   skip-cert-verify: true
   sni: fullmanfirm.icu
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_eb0b24e9"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eb0b24e9"
   port: 443
   server: 154.26.139.24
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cb4b704b"
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cb4b704b"
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_52d5ac45"
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_52d5ac45"
   password: None
   port: 443
   server: 149.36.50.129
@@ -610,8 +572,7 @@ proxies:
   type: http
   udp: true
 - cipher: rc4-md5
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_73294fbd"
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_73294fbd"
   obfs: tls1.2_ticket_auth
   obfs-param: 6f5218522.douyin.com
   password: di15PV
@@ -620,8 +581,7 @@ proxies:
   protocol-param: 218522:0hfCJk
   server: api.meituan88.com
   type: ssr
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_5ed03181"
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_5ed03181"
   password: null
   port: 443
   server: 149.36.50.1
@@ -629,8 +589,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_20704a3e"
+- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_20704a3e"
   password: None
   port: 443
   server: 149.36.51.129
@@ -638,8 +597,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_6c932673"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\u2728\U0001F39E\uFE0F]_dokng.com_6c932673"
   password: null
   port: 443
   server: jgwynphotoarts.pro
@@ -647,8 +605,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_808de880"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_808de880"
   password: None
   port: 443
   server: mmgr.club
@@ -656,8 +613,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3374aeb9"
+- name: "C\U0001F7E0\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3374aeb9"
   password: null
   port: 443
   server: 34.249.214.108
@@ -665,24 +621,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_82b1b44a"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_82b1b44a"
+  password: 'null'
   port: 443
   server: jgwynphotoarts.pro
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_da7c19de"
+  username: 'null'
+- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da7c19de"
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_61140d14"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_61140d14"
   password: None
   port: 443
   server: purecambogiasl.live
@@ -690,8 +643,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8c7ae75e"
+- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8c7ae75e"
   password: None
   port: 443
   server: 146.70.244.2
@@ -699,8 +651,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f51f6e12"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f51f6e12"
   password: None
   port: 443
   server: jgwynphotoarts.pro
@@ -710,8 +661,7 @@ proxies:
   username: null
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_67f98718"
+  name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67f98718"
   network: tcp
   port: 443
   reality-opts:
@@ -733,8 +683,7 @@ proxies:
   type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_d237c504"
+  name: "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F]_dokng.com_d237c504"
   network: tcp
   port: 443
   reality-opts:
@@ -747,8 +696,7 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- name: "C\U0001F7E0\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5c7f9d7d"
+- name: "C\U0001F7E0\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c7f9d7d"
   password: null
   port: 443
   server: 18.200.158.139
@@ -756,8 +704,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f29f736e"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f29f736e"
   password: 29086912-33e4-4e06-ba2b-60f1a195864f
   port: 24999
   server: tjxjp.m2k699.com
@@ -765,8 +712,7 @@ proxies:
   sni: www.itunes.com
   type: trojan
   udp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_137ef924"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_137ef924"
   password: null
   port: 443
   server: 148.135.10.80
@@ -774,8 +720,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_4c325231"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4c325231"
   password: null
   port: 443
   server: 37.120.233.18
@@ -783,8 +728,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e7cfa50d"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e7cfa50d"
   password: None
   port: 443
   server: 37.120.233.18
@@ -793,22 +737,19 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3331892b"
+- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3331892b"
   port: 9443
   server: 185.221.132.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a04e8fa8"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a04e8fa8"
   port: 443
   server: carolinafreigh.fun
   sni: carolinafreigh.fun
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_63e28654"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e28654"
   password: null
   port: 443
   server: purecambogiasl.live
@@ -816,8 +757,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_868024dc"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_868024dc"
   password: null
   port: 443
   server: 79.76.126.155
@@ -825,8 +765,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1b0c8e57"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1b0c8e57"
   password: null
   port: 443
   server: goedkoopgeluid.icu
@@ -834,24 +773,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ab7907fb"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ab7907fb"
+  password: 'null'
   port: 443
   server: berniesbodybla.fun
   tls: true
   type: http
-  username: "null"
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2ea91ae9"
+  username: 'null'
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2ea91ae9"
   password: None
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_bff06010"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bff06010"
   password: null
   port: 9443
   server: 149.88.27.46
@@ -859,8 +795,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ad2e47da"
+- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ad2e47da"
   password: null
   port: 443
   server: 146.70.244.18
@@ -868,15 +803,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e423df34"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e423df34"
   port: 9443
   server: 149.88.27.33
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1fb07b97"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1fb07b97"
   password: null
   port: 443
   server: kimberlymilano.icu
@@ -884,16 +817,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b74edc3f"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b74edc3f"
   port: 443
   server: 185.246.153.42
   skip-cert-verify: true
   sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_21756f2c"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_21756f2c"
   password: null
   port: 443
   server: webdrone.club
@@ -901,15 +832,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_62bb2c7c"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_62bb2c7c"
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_3f82d6be"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_3f82d6be"
   port: 443
   server: kimberlymilano.icu
   sni: kimberlymilano.icu
@@ -931,8 +860,7 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
-- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c377c6fc"
+- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c377c6fc"
   password: ''
   port: 443
   server: 146.70.244.2
@@ -940,8 +868,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7569cc30"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7569cc30"
   password: null
   port: 443
   server: jewelscollecti.icu
@@ -949,15 +876,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_045fb906"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_045fb906"
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7a1884f3"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7a1884f3"
   password: null
   port: 443
   server: mmgr.club
@@ -968,23 +893,20 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_42aa23bf"
-  password: "0324fbc29561"
+  name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_42aa23bf"
+  password: 0324fbc29561
   port: 443
   server: 56481.df6h451rh.xin
   skip-cert-verify: true
   sni: images.ctfassets.net
   type: anytls
-- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2cadc6f0"
+- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2cadc6f0"
   port: 443
   server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f89d41d4"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f89d41d4"
   port: 443
   server: 103.97.88.154
   skip-cert-verify: true
@@ -993,8 +915,7 @@ proxies:
   type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6\
-    ]_dokng.com_49767fd3"
+  name: "A\U0001F7E2\U0001F1F7\U0001F1FAres[\U0001F3AC\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_49767fd3"
   network: tcp
   port: 443
   reality-opts:
@@ -1008,8 +929,7 @@ proxies:
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
 - cipher: rc4-md5
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a01e3718"
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a01e3718"
   obfs: tls1.2_ticket_auth
   obfs-param: 6f5218522.douyin.com
   password: di15PV
@@ -1018,8 +938,7 @@ proxies:
   protocol-param: 218522:0hfCJk
   server: api.meituan88.com
   type: ssr
-- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_c8c42a57"
+- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_c8c42a57"
   port: 443
   server: 37.120.156.18
   skip-cert-verify: true
@@ -1033,8 +952,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_db89f7a0"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_db89f7a0"
   password: sni="goedkoopgeluid.icu"
   port: 443
   server: goedkoopgeluid.icu
@@ -1043,24 +961,22 @@ proxies:
   tls: true
   type: http
   username: None
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ff301d61"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff301d61"
+  password: 'null'
   port: 443
   server: webdrone.club
   tls: true
   type: http
-  username: "null"
+  username: 'null'
 - name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F4FA\U0001F50D]_dokng.com_72dc0f38"
   password: lk59gDrTm2
   port: 18603
   server: www.777061.xyz
   sni: www.777061.xyz
   type: trojan
-- alterId: "2"
+- alterId: '2'
   cipher: auto
-  name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_ca2c77e6"
+  name: "A\U0001F7E2\U0001F1ED\U0001F1F0res[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_ca2c77e6"
   network: ws
   port: 60852
   server: hkgb707.ifastcdncache.com
@@ -1074,8 +990,7 @@ proxies:
       Host: g.autoimg.cn
     path: /
   xudp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8e3e1d23"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e3e1d23"
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -1090,21 +1005,18 @@ proxies:
   server: 128.199.113.85
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_80acd294"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_80acd294"
   port: 22222
   server: 64.118.155.2
   skip-cert-verify: true
   type: http
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ec84b940"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec84b940"
   password: null
   port: 9090
   server: 104.248.151.93
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_89de4d1d"
+- name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_89de4d1d"
   password: null
   port: 443
   server: 146.70.221.18
@@ -1112,8 +1024,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E7\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_895a114b"
+- name: "D\U0001F534\U0001F1E7\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_895a114b"
   password: None
   port: 443
   server: 146.70.176.242
@@ -1122,8 +1033,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_4abf4d80"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4abf4d80"
   password: None
   port: 9443
   server: 149.88.27.46
@@ -1133,17 +1043,15 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7bc7ddb9"
-  password: "null"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7bc7ddb9"
+  password: 'null'
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_87bfa5c5"
+  username: 'null'
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_87bfa5c5"
   password: None
   port: 9443
   server: 213.139.9.142
@@ -1151,16 +1059,14 @@ proxies:
   tls: true
   type: http
 - cipher: chacha20-ietf
-  name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_164a4761"
+  name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_164a4761"
   obfs: tls1.2_ticket_auth
   password: dongtaiwang.com
   port: 33336
   protocol: auth_chain_a
   server: 109.104.153.43
   type: ssr
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a74c39f7"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a74c39f7"
   password: null
   port: 443
   server: 31.7.62.50
@@ -1168,8 +1074,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_fa1f2d8d"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fa1f2d8d"
   password: ''
   port: 9002
   server: 193.176.84.37
@@ -1178,8 +1083,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_da509960"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da509960"
   password: null
   port: 443
   server: voteshirleysew.club
@@ -1187,8 +1091,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f18e041b"
+- name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f18e041b"
   password: None
   port: 443
   server: 146.70.221.18
@@ -1198,16 +1101,14 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0b3b46c7"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0b3b46c7"
+  password: 'null'
   port: 443
   server: carolinafreigh.fun
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_aba416be"
+  username: 'null'
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_aba416be"
   password: null
   port: 9002
   server: 84.17.47.123
@@ -1215,8 +1116,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_78f4a4fd"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_78f4a4fd"
   password: None
   port: 443
   server: zebpay.site
@@ -1224,13 +1124,11 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_049361e7"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_049361e7"
   port: 9090
   server: 167.172.76.176
   type: http
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_fed9fc96"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_fed9fc96"
   password: null
   port: 443
   server: 37.120.233.50
@@ -1239,8 +1137,7 @@ proxies:
   type: http
   username: null
 - cipher: rc4-md5
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3fb70d97"
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3fb70d97"
   obfs: tls1.2_ticket_auth
   obfs-param: 6f5218522.douyin.com
   password: di15PV
@@ -1249,8 +1146,7 @@ proxies:
   protocol-param: 218522:0hfCJk
   server: api.meituan88.com
   type: ssr
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_449f82be"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_449f82be"
   password: null
   port: 9002
   server: 84.17.47.149
@@ -1260,13 +1156,12 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_886105d9"
+  name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_886105d9"
   network: tcp
   port: 2094
   reality-opts:
     public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: "55986a94e2228791"
+    short-id: 55986a94e2228791
   server: 213.152.165.200
   servername: www.apple.com
   skip-cert-verify: false
@@ -1277,13 +1172,12 @@ proxies:
   uuid: c439a2b1-cef0-4560-b337-eff829991f74
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_f93e7f0f"
+  name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_f93e7f0f"
   network: tcp
   port: 443
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: "afee962d"
+    short-id: afee962d
   server: pl1.mycloud1.org
   servername: pl1.mycloud1.org
   skip-cert-verify: false
@@ -1292,14 +1186,13 @@ proxies:
   type: vless
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7c4c4168"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7c4c4168"
+  password: 'null'
   port: 443
   server: purecambogiasl.live
   tls: true
   type: http
-  username: "null"
+  username: 'null'
 - name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AA]_dokng.com_ff7bbfb6"
   password: null
   port: 10808
@@ -1323,8 +1216,7 @@ proxies:
   udp: true
   udp-over-tcp: true
   udp-over-tcp-version: 2
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d2853196"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d2853196"
   port: 9090
   server: 167.99.74.174
   type: http
@@ -1332,8 +1224,7 @@ proxies:
   port: 999
   server: 38.194.236.106
   type: http
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_49f0432e"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_49f0432e"
   port: 4443
   server: 83.172.143.53
   skip-cert-verify: true
@@ -1343,15 +1234,13 @@ proxies:
   port: 999
   server: 45.5.94.243
   type: http
-- name: "A\U0001F7E2\U0001F1FF\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_71f71160"
+- name: "A\U0001F7E2\U0001F1FF\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_71f71160"
   port: 8443
   server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_06c11c91"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_06c11c91"
   password: null
   port: 443
   server: efr-marktplatz.club
@@ -1359,23 +1248,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_25669227"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_25669227"
   password: None
   port: 443
   server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ce9e1b37"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ce9e1b37"
   port: 443
   server: tzoa.fun
   sni: tzoa.fun
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_decfe8e7"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_decfe8e7"
   password: None
   port: 9002
   server: 193.176.84.21
@@ -1383,8 +1269,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_930ce850"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_930ce850"
   password: ''
   port: 443
   server: zebpay.site
@@ -1395,8 +1280,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_132c014b"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_132c014b"
   port: 8443
   server: 45.145.73.240
   skip-cert-verify: true
@@ -1419,8 +1303,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_209eaff6"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_209eaff6"
   password: null
   port: 9002
   server: 138.199.35.210
@@ -1428,27 +1311,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9b573d8c"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9b573d8c"
   port: 443
   server: purposebydesig.club
   sni: purposebydesig.club
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\u2708\uFE0F\
-    ]_dokng.com_c359662d"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\u2708\uFE0F]_dokng.com_c359662d"
   port: 9090
   server: 128.199.116.219
   type: http
-- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_df239572"
+- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_df239572"
   port: 9443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5e5ade52"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5e5ade52"
   password: null
   port: 443
   server: 87.106.223.158
@@ -1460,38 +1339,33 @@ proxies:
   port: 999
   server: 45.174.243.20
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0ae131d7"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0ae131d7"
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7965ac3d"
+- name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7965ac3d"
   port: 9443
   server: 149.36.51.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_0db00e0d"
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_0db00e0d"
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3ec254da"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2cb9ff64"
+- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2cb9ff64"
   password: null
   port: 9443
   server: 135.136.1.2
@@ -1499,8 +1373,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_73f7e688"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_73f7e688"
   password: null
   port: 443
   server: 38.247.141.135
@@ -1508,8 +1381,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b0b75721"
+- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b0b75721"
   port: 443
   server: 82.102.17.178
   skip-cert-verify: true
@@ -1530,8 +1402,7 @@ proxies:
   ws-opts:
     headers:
       Host: santehdv.site
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /media/stream/qUWu2oaFgxAw
   xudp: true
 - name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_549727c0"
@@ -1543,16 +1414,14 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ce6f4f58"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ce6f4f58"
   password: None
   port: 9002
   server: 193.176.84.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_181fd52c"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_181fd52c"
   password: null
   port: 9002
   server: 84.17.47.148
@@ -1560,8 +1429,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_578adde4"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_578adde4"
   password: null
   port: 443
   server: zebpay.site
@@ -1569,8 +1437,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_568e6b70"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_568e6b70"
   password: None
   port: 443
   server: efr-marktplatz.club
@@ -1578,32 +1445,28 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_80a4f8f5"
+- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_80a4f8f5"
   password: None
   port: 443
   server: 85.203.39.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cf89b8b3"
-  password: "null"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cf89b8b3"
+  password: 'null'
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0789ea12"
+  username: 'null'
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0789ea12"
   port: 9002
   server: 84.17.47.124
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_80138a41"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_80138a41"
   password: None
   port: 9002
   server: 193.176.84.29
@@ -1611,8 +1474,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E7\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_38a27677"
+- name: "D\U0001F534\U0001F1E7\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_38a27677"
   password: null
   port: 9443
   server: 185.164.35.16
@@ -1620,8 +1482,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_74d3e768"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_74d3e768"
   password: ''
   port: 9002
   server: 138.199.35.212
@@ -1630,8 +1491,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_aa8d405f"
+- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_aa8d405f"
   password: null
   port: 9443
   server: 79.127.156.177
@@ -1639,8 +1499,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_412dd6e0"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_412dd6e0"
   port: 443
   server: zebpay.site
   sni: zebpay.site
@@ -1654,8 +1513,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cca1a7e1"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cca1a7e1"
   password: None
   port: 9002
   server: 193.176.84.19
@@ -1663,16 +1521,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_83989905"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83989905"
+  password: 'null'
   port: 443
   server: efr-marktplatz.club
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a35727d2"
+  username: 'null'
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a35727d2"
   password: null
   port: 9002
   server: 84.17.47.125
@@ -1680,8 +1536,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_9e50c1e6"
+- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_9e50c1e6"
   password: ''
   port: 443
   server: 185.216.35.66
@@ -1690,8 +1545,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1EC\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_bd621a63"
+- name: "D\U0001F534\U0001F1EC\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd621a63"
   password: None
   port: 443
   server: 149.22.85.65
@@ -1699,8 +1553,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7bfc9aaf"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7bfc9aaf"
   password: null
   port: 9002
   server: 138.199.35.206
@@ -1708,8 +1561,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5c4f76a8"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5c4f76a8"
   password: null
   port: 443
   server: purposebydesig.club
@@ -1717,8 +1569,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0933ca80"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0933ca80"
   password: null
   port: 9443
   server: 31.171.154.66
@@ -1726,15 +1577,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3dfb009e"
+- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3dfb009e"
   port: 443
   server: 94.177.163.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_238da015"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_238da015"
   password: None
   port: 9002
   server: 193.176.84.26
@@ -1742,16 +1591,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1668ea55"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1668ea55"
+  password: 'null'
   port: 443
   server: tzoa.fun
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b3ff3855"
+  username: 'null'
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3ff3855"
   password: null
   port: 9002
   server: 158.173.154.5
@@ -1761,8 +1608,7 @@ proxies:
   username: null
 - client-fingerprint: chrome
   encryption: none
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ff855081"
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff855081"
   network: ws
   port: 2096
   server: se13-node.rumedia-cdn.com
@@ -1774,12 +1620,10 @@ proxies:
   ws-opts:
     headers:
       Host: st5ff8a.rumedia-cdn.com
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /cdn/v3/live
   xudp: true
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1f406845"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1f406845"
   password: null
   port: 9002
   server: 193.176.84.20
@@ -1795,8 +1639,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_4b55ac5f"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4b55ac5f"
   password: None
   port: 443
   server: carolinafreigh.fun
@@ -1804,23 +1647,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6db0fc2c"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6db0fc2c"
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_262714de"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_262714de"
   port: 443
   server: crosscards.site
   sni: crosscards.site
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b01fc6dc"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b01fc6dc"
   password: null
   port: 9002
   server: 138.199.35.208
@@ -1828,31 +1668,27 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8ebd1ade"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8ebd1ade"
   port: 8090
   server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c09c3f93"
-  password: "e4b72b531a2d10900519"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c09c3f93"
+  password: e4b72b531a2d10900519
   port: 443
   server: 162.243.146.243
   sni: a2f392f3.acsnet.co
   tls: true
   type: http
   username: testuser1
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c60226f1"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c60226f1"
   port: 443
   server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8bd7fb72"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8bd7fb72"
   password: None
   port: 9002
   server: 193.176.84.40
@@ -1860,22 +1696,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6c7ec50c"
+- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6c7ec50c"
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2320978c"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2320978c"
   port: 443
   server: 137.175.22.84
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_4628e154"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4628e154"
   port: 443
   server: efr-marktplatz.club
   sni: efr-marktplatz.club
@@ -1890,29 +1723,25 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a1a03795"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a1a03795"
   port: 9443
   server: 149.88.27.46
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d1778b29"
+- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d1778b29"
   port: 9443
   server: 185.245.84.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3df7bcd5"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3df7bcd5"
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c562a771"
+- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c562a771"
   password: null
   port: 9443
   server: 149.88.96.12
@@ -1920,8 +1749,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5edb8d34"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5edb8d34"
   password: None
   port: 9443
   server: 37.120.213.210
@@ -1929,16 +1757,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ccc98c47"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ccc98c47"
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_46213476"
+- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_46213476"
   password: null
   port: 443
   server: 185.94.192.210
@@ -1946,8 +1772,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_bffcd77d"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bffcd77d"
   password: None
   port: 443
   server: 87.249.132.97
@@ -1956,8 +1781,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cb6cfa3e"
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cb6cfa3e"
   password: null
   port: 9443
   server: 87.249.132.97
@@ -1965,39 +1789,34 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9085ec51"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9085ec51"
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_36cad4a9"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_36cad4a9"
   port: 9002
   server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a5aeddab"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a5aeddab"
   port: 9002
   server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0618cdac"
+- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0618cdac"
   password: None
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ce3956c2"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ce3956c2"
   password: null
   port: 9002
   server: 138.199.35.199
@@ -2007,13 +1826,12 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a610b01a"
+  name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a610b01a"
   network: tcp
   port: 2092
   reality-opts:
     public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: "716b7eba38125f3a"
+    short-id: 716b7eba38125f3a
   server: 213.152.165.203
   servername: www.apple.com
   skip-cert-verify: false
@@ -2022,23 +1840,20 @@ proxies:
   type: vless
   udp: true
   uuid: 901cb432-3807-404a-9bb8-987814b000ca
-- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f0d0499c"
+- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f0d0499c"
   port: 9443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9cb07023"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9cb07023"
   password: None
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a2231fdd"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a2231fdd"
   password: None
   port: 9443
   server: 31.171.154.66
@@ -2068,8 +1883,7 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b3015b3e"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3015b3e"
   password: None
   port: 9002
   server: 193.176.84.25
@@ -2077,8 +1891,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_295196f5"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_295196f5"
   password: null
   port: 9443
   server: 37.120.213.210
@@ -2086,8 +1899,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6\
-    ]_dokng.com_f29ba664"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_dokng.com_f29ba664"
   password: null
   port: 443
   server: 31.171.154.66
@@ -2095,8 +1907,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_769b92d7"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_769b92d7"
   password: ''
   port: 443
   server: kimberlymilano.icu
@@ -2104,15 +1915,13 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_071a491a"
+- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_071a491a"
   port: 443
   server: 62.210.27.111
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_58da35c6"
+- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_58da35c6"
   password: null
   port: 9443
   server: 185.245.84.50
@@ -2134,27 +1943,23 @@ proxies:
   ws-opts:
     headers:
       Host: wstg.datasynctrue.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
     path: /api/connect
   xudp: true
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a3222b8d"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a3222b8d"
   password: None
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6da4940f"
+- name: "C\U0001F7E0\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6da4940f"
   port: 9443
   server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_090c2263"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_090c2263"
   password: null
   port: 9002
   server: 84.17.47.126
@@ -2162,8 +1967,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_aba567e8"
+- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_aba567e8"
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -2171,8 +1975,7 @@ proxies:
   type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_51efbe70"
+  name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F]_dokng.com_51efbe70"
   network: tcp
   port: 443
   reality-opts:
@@ -2185,15 +1988,13 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_351f7141"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_351f7141"
   port: 443
   server: 156.146.56.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E7\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2dbadf2e"
+- name: "D\U0001F534\U0001F1E7\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2dbadf2e"
   password: None
   port: 443
   server: 146.70.123.98
@@ -2201,8 +2002,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_622cadae"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_622cadae"
   password: null
   port: 443
   server: 149.36.50.129
@@ -2210,16 +2010,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3a778467"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a778467"
   port: 9002
   server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7495908f"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7495908f"
   password: null
   port: 8443
   server: 44.229.69.166
@@ -2227,22 +2025,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f9a7a740"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f9a7a740"
   port: 9443
   server: 31.171.155.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_232b47f5"
+- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_232b47f5"
   port: 443
   server: 185.216.35.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5748674e"
+- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5748674e"
   password: null
   port: 443
   server: 185.93.106.214
@@ -2250,8 +2045,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_67435526"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67435526"
   port: 443
   server: 141.94.16.4
   skip-cert-verify: true
@@ -2261,8 +2055,7 @@ proxies:
   port: 999
   server: 187.249.120.139
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_fa9dd909"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fa9dd909"
   password: None
   port: 9002
   server: 138.199.35.219
@@ -2270,30 +2063,26 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_13bb1fbc"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_13bb1fbc"
   port: 443
   server: 103.82.101.43
   skip-cert-verify: true
   sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d28f0884"
+- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d28f0884"
   port: 8443
   server: 77.221.136.60
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2a3ab6a1"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2a3ab6a1"
   port: 443
   server: jgwynphotoarts.pro
   sni: jgwynphotoarts.pro
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_18ecaa3e"
+- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_18ecaa3e"
   password: null
   port: 443
   server: 37.120.156.34
@@ -2303,26 +2092,23 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_90d22b17"
+  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_90d22b17"
   port: 21899
   reality-opts:
     public-key: kvLUYW6fwHXutu8Z4On6mi61kjslCyCc8ErFffUM1D0
-    short-id: "dedce016e3671418"
+    short-id: dedce016e3671418
   server: jdy7.ea7.lol
   servername: yahoo.com
   tls: true
   type: vless
   uuid: fb69a6b9-980c-48c2-a94f-5f95868a2d2a
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a8e49557"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a8e49557"
   port: 8443
   server: 35.84.133.236
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_d5a33f44"
+- name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d5a33f44"
   port: 9443
   server: 192.159.101.174
   skip-cert-verify: true
@@ -2334,17 +2120,15 @@ proxies:
   server: 181.232.190.121
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_39eed596"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_39eed596"
+  password: 'null'
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "C\U0001F7E0\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_5b5762e8"
+  username: 'null'
+- name: "C\U0001F7E0\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_5b5762e8"
   password: null
   port: 443
   server: 109.248.147.66
@@ -2354,8 +2138,7 @@ proxies:
   username: null
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_206791e2"
+  name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_206791e2"
   network: tcp
   port: 443
   reality-opts:
@@ -2383,25 +2166,22 @@ proxies:
   type: vless
   udp: true
   uuid: ca926603-c678-4639-b726-a5b82d7e110c
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7e26cc39"
-  password: "null"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7e26cc39"
+  password: 'null'
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_253eed88"
+  username: 'null'
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_253eed88"
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8eb7da94"
+- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8eb7da94"
   password: null
   port: 343
   server: 133.18.200.207
@@ -2409,8 +2189,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_19f240f6"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_19f240f6"
   password: None
   port: 443
   server: fullmanfirm.icu
@@ -2418,8 +2197,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_79d8b3d0"
+- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_79d8b3d0"
   password: None
   port: 9443
   server: 185.245.84.50
@@ -2428,8 +2206,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_02619dd0"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_02619dd0"
   password: None
   port: 9002
   server: 138.199.35.201
@@ -2437,8 +2214,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_4af4a28d"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4af4a28d"
   password: null
   port: 443
   server: 129.153.93.183
@@ -2446,8 +2222,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_256dedbc"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_256dedbc"
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
@@ -2458,8 +2233,7 @@ proxies:
   port: 8095
   server: 45.8.88.156
   type: http
-- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_fc18927e"
+- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fc18927e"
   password: null
   port: 443
   server: 149.36.51.129
@@ -2467,18 +2241,16 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_902e7569"
-  password: "null"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_902e7569"
+  password: 'null'
   port: 9002
   server: 84.17.47.147
   skip-cert-verify: true
   sni: 84.17.47.147
   tls: true
   type: http
-  username: "null"
-- name: "C\U0001F7E0\U0001F1F2\U0001F1FEhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_480d1bcf"
+  username: 'null'
+- name: "C\U0001F7E0\U0001F1F2\U0001F1FEhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_480d1bcf"
   password: null
   port: 9443
   server: 152.233.3.14
@@ -2486,8 +2258,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a8036833"
+- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a8036833"
   password: null
   port: 443
   server: 130.195.250.34
@@ -2495,30 +2266,26 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b218a6a3"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b218a6a3"
   port: 443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3bcb64c0"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3bcb64c0"
   port: 443
   server: 162.244.227.36
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e3642aa7"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e3642aa7"
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1ED\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a5141b87"
+- name: "D\U0001F534\U0001F1ED\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a5141b87"
   password: null
   port: 443
   server: 146.70.203.18
@@ -2526,8 +2293,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_24d941b9"
+- name: "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24d941b9"
   password: null
   port: 443
   server: 146.70.221.34
@@ -2535,25 +2301,22 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_da2e23c4"
-  password: "null"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da2e23c4"
+  password: 'null'
   port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a31d2fff"
+  username: 'null'
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a31d2fff"
   password: None
   port: 443
   server: 82.66.235.221
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3c84b2dc"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3c84b2dc"
   password: null
   port: 9443
   server: 154.47.25.78
@@ -2563,8 +2326,7 @@ proxies:
   username: null
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_24db847c"
+  name: "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24db847c"
   port: 8443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -2575,8 +2337,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_92c4aed8"
+- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_92c4aed8"
   password: None
   port: 443
   server: 37.120.156.34
@@ -2584,8 +2345,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F3AA\U0001F39E\uFE0F\U0001F4E6\U0001F50D\
-    ]_dokng.com_43ff2571"
+- name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F3AA\U0001F39E\uFE0F\U0001F4E6\U0001F50D]_dokng.com_43ff2571"
   password: null
   port: 443
   server: 178.219.43.226
@@ -2593,23 +2353,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_785dc054"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_785dc054"
   port: 443
   server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2bb190b7"
+- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2bb190b7"
   password: None
   port: 9443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_9ef4f842"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_9ef4f842"
   port: 9443
   server: 31.171.154.66
   skip-cert-verify: true
@@ -2617,13 +2374,12 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_268806b6"
+  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_268806b6"
   network: tcp
   port: 2095
   reality-opts:
     public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: "3869d49a9a79e06a"
+    short-id: 3869d49a9a79e06a
   server: 213.152.165.200
   servername: www.apple.com
   skip-cert-verify: false
@@ -2632,8 +2388,7 @@ proxies:
   type: vless
   udp: true
   uuid: b38712cb-e4aa-4462-b7e3-df20508d2b39
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ba08d4dd"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ba08d4dd"
   password: null
   port: 9002
   server: 138.199.35.203
@@ -2646,8 +2401,7 @@ proxies:
   server: 190.93.229.1
   type: http
 - cipher: 2022-blake3-aes-128-gcm
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b3d9f61f"
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3d9f61f"
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:NjRjZGI3OTgtZWUyMS00OA==
   plugin: gost-plugin
   plugin-opts:
@@ -2662,8 +2416,7 @@ proxies:
   udp: true
   udp-over-tcp: true
   udp-over-tcp-version: 2
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8ae36140"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8ae36140"
   password: null
   port: 443
   server: 116.202.172.99
@@ -2671,16 +2424,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3b6bf33f"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3b6bf33f"
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_92556506"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_92556506"
   password: ''
   port: 1081
   server: 107.191.47.162
@@ -2689,8 +2440,7 @@ proxies:
   type: socks5
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_60c7d940"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_60c7d940"
   port: 9002
   server: 193.176.84.23
   skip-cert-verify: true
@@ -2699,13 +2449,12 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d3d77fe8"
+  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d3d77fe8"
   network: tcp
   port: 2095
   reality-opts:
     public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: "3869d49a9a79e06a"
+    short-id: 3869d49a9a79e06a
   server: 213.152.165.204
   servername: www.apple.com
   skip-cert-verify: false
@@ -2714,23 +2463,20 @@ proxies:
   type: vless
   udp: true
   uuid: f3ac0d2c-4b86-4f53-8070-89f69daba8f5
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7c52cc78"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7c52cc78"
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0b4f0e28"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0b4f0e28"
   port: 443
   server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8eec2461"
+- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8eec2461"
   password: null
   port: 443
   server: 149.88.96.12
@@ -2738,8 +2484,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_735ca059"
+- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_735ca059"
   password: None
   port: 443
   server: 130.195.250.18
@@ -2755,13 +2500,12 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d2459b08"
+  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d2459b08"
   network: tcp
   port: 2095
   reality-opts:
     public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: "3869d49a9a79e06a"
+    short-id: 3869d49a9a79e06a
   server: 213.152.165.205
   servername: www.apple.com
   skip-cert-verify: false
@@ -2770,8 +2514,7 @@ proxies:
   type: vless
   udp: true
   uuid: f3ac0d2c-4b86-4f53-8070-89f69daba8f5
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_490bf2c4"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_490bf2c4"
   password: null
   port: 443
   server: 185.164.138.156
@@ -2779,39 +2522,34 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c9e7ae50"
-  password: "null"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c9e7ae50"
+  password: 'null'
   port: 443
   server: 185.140.209.235
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3da00baa"
+  username: 'null'
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3da00baa"
   password: None
   port: 443
   server: 149.22.88.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6e48a485"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6e48a485"
   port: 9443
   server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8dff432f"
+- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8dff432f"
   port: 443
   server: 185.221.132.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a0d944a3"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a0d944a3"
   password: None
   port: 443
   server: 193.239.236.134
@@ -2825,7 +2563,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: eCJwHto6UMfRpXErgAoIdvM13jTHrWqgBbIoj3apKkY
-    short-id: "eecfe76af97a6132"
+    short-id: eecfe76af97a6132
   server: gr1.originmesh.online
   servername: gr1.originmesh.online
   skip-cert-verify: false
@@ -2834,8 +2572,7 @@ proxies:
   type: vless
   udp: true
   uuid: 35da102e-536b-4103-9632-58c7c4c6303b
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1a62785b"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a62785b"
   password: ''
   port: 443
   server: fullmanfirm.icu
@@ -2843,8 +2580,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b2f1a194"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b2f1a194"
   password: null
   port: 9443
   server: 213.139.9.142
@@ -2853,8 +2589,7 @@ proxies:
   type: http
   username: null
 - client-fingerprint: chrome
-  name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d0ade7dc"
+  name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d0ade7dc"
   network: ws
   password: humanity
   port: 2053
@@ -2865,11 +2600,9 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_1775ab53"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1775ab53"
   port: 8090
   server: 82.96.128.175
   skip-cert-verify: true
@@ -2882,16 +2615,14 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c745045d"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c745045d"
   port: 443
   server: 185.246.153.28
   skip-cert-verify: true
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ec18e549"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ec18e549"
   password: null
   port: 443
   server: 193.233.75.115
@@ -2899,8 +2630,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_566b18be"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_566b18be"
   password: null
   port: 443
   server: 212.102.63.61
@@ -2908,16 +2638,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_66f96a8b"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_66f96a8b"
   port: 9002
   server: 193.176.84.22
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c36db8a7"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c36db8a7"
   port: 443
   server: 217.92.132.233
   skip-cert-verify: true
@@ -2931,8 +2659,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_34ccbd9f"
+- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_34ccbd9f"
   password: null
   port: 443
   server: 130.195.250.18
@@ -2941,11 +2668,11 @@ proxies:
   type: http
   username: null
 - name: "A\U0001F7E2\U0001F1F9\U0001F1FCres_dokng.com_c5568042"
-  password: "111"
+  password: '111'
   port: 1080
   server: 106.107.236.110
   type: socks5
-  username: "111"
+  username: '111'
 - name: "D\U0001F534\U0001F1F3\U0001F1F1hos_dokng.com_61ad02f1"
   password: ''
   port: 1080
@@ -2953,28 +2680,24 @@ proxies:
   type: socks5
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_47836c39"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_47836c39"
   port: 9090
   server: 128.199.121.61
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cfdbfd42"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cfdbfd42"
   port: 443
   server: 193.239.236.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_001dd114"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_001dd114"
   password: None
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_37c76867"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_37c76867"
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
@@ -2994,22 +2717,19 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1EE\U0001F1F3hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_1b23a856"
+- name: "D\U0001F534\U0001F1EE\U0001F1F3hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_1b23a856"
   port: 443
   server: 110.173.188.221
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_595d4b27"
+- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_595d4b27"
   port: 443
   server: 185.183.105.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_85463d05"
+- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_85463d05"
   password: null
   port: 9443
   server: 84.17.50.214
@@ -3017,23 +2737,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F9\U0001F1FChos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_69bf9397"
+- name: "D\U0001F534\U0001F1F9\U0001F1FChos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_69bf9397"
   password: 29086912-33e4-4e06-ba2b-60f1a195864f
   port: 24999
   server: tjtw.m2k699.com
   skip-cert-verify: true
   sni: www.itunes.com
   type: trojan
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6d16d882"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6d16d882"
   port: 443
   server: 71.43.26.234
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6bbe933a"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6bbe933a"
   password: null
   port: 443
   server: 45.63.38.134
@@ -3041,15 +2758,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_33218f06"
+- name: "A\U0001F7E2\U0001F1E9\U0001F1EAres[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_33218f06"
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_d85a93d5"
+- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d85a93d5"
   password: null
   port: 443
   server: fan.240104.xyz
@@ -3058,8 +2773,7 @@ proxies:
   type: http
   username: null
 - client-fingerprint: chrome
-  name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_19904362"
+  name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_19904362"
   network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
@@ -3068,8 +2782,7 @@ proxies:
   sni: 45.32.52.173
   type: trojan
   udp: true
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_51d701ca"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_51d701ca"
   password: null
   port: 443
   server: 159.69.94.125
@@ -3077,24 +2790,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b2688550"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b2688550"
   password: None
   port: 9443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_a8045201"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_a8045201"
   password: None
   port: 9443
   server: 31.171.155.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_63e1523b"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e1523b"
   password: null
   port: 443
   server: 149.22.88.65
@@ -3102,8 +2812,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5088397e"
+- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5088397e"
   port: 9443
   server: 135.136.1.2
   skip-cert-verify: true
@@ -3117,8 +2826,7 @@ proxies:
   port: 1082
   server: 129.213.192.89
   type: socks5
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_fed26656"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fed26656"
   password: null
   port: 443
   server: 149.102.245.65
@@ -3126,23 +2834,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1a08e400"
+- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1a08e400"
   port: 443
   server: 31.186.220.204
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6e6a2c6c"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6e6a2c6c"
   password: null
   port: 22222
   server: 193.25.215.182
   type: socks5
   udp: true
   username: null
-- name: "A\U0001F7E2\U0001F1EE\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3725a575"
+- name: "A\U0001F7E2\U0001F1EE\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3725a575"
   password: null
   port: 443
   server: 62.90.77.30
@@ -3150,15 +2855,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1519a3a0"
+- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1519a3a0"
   port: 443
   server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_254e60a6"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_254e60a6"
   password: None
   port: 9002
   server: 193.176.84.31
@@ -3166,8 +2869,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_da81ef84"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_da81ef84"
   password: None
   port: 9002
   server: 138.199.35.200
@@ -3175,8 +2877,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8c949f1d"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8c949f1d"
   password: null
   port: 8443
   server: 54.190.176.228
@@ -3184,8 +2885,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_34a41e08"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_34a41e08"
   password: null
   port: 9002
   server: 193.176.84.38
@@ -3199,8 +2899,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_f977f4d2"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_f977f4d2"
   password: null
   port: 9443
   server: 84.233.178.33
@@ -3208,18 +2907,16 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_930e561e"
-  password: "null"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_930e561e"
+  password: 'null'
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
   sni: 193.176.84.39
   tls: true
   type: http
-  username: "null"
-- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e4a4c124"
+  username: 'null'
+- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e4a4c124"
   password: None
   port: 443
   server: 12.202.180.10
@@ -3229,22 +2926,19 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5012d8c8"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5012d8c8"
   password: null
   port: 9090
   server: 152.42.170.187
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1E6hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_94fa860a"
+- name: "D\U0001F534\U0001F1E8\U0001F1E6hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_94fa860a"
   port: 443
   server: 4.172.245.121
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_06db8839"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_06db8839"
   password: None
   port: 9002
   server: 138.199.35.217
@@ -3252,15 +2946,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1b1ce93f"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1b1ce93f"
   port: 19362
   server: 51.159.225.197
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0e98105a"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0e98105a"
   password: None
   port: 443
   server: 149.50.216.65
@@ -3268,16 +2960,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_01f49dd6"
+- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_01f49dd6"
   password: None
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ad98be5f"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ad98be5f"
   password: null
   port: 9443
   server: 169.150.199.1
@@ -3285,8 +2975,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_68942936"
+- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_68942936"
   password: null
   port: 443
   server: 85.203.39.130
@@ -3294,8 +2983,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e2fb216b"
+- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e2fb216b"
   password: ''
   port: 9443
   server: 95.153.32.2
@@ -3305,15 +2993,13 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d7f07cb0"
+- name: "D\U0001F534\U0001F1EA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d7f07cb0"
   port: 8090
   server: 80.24.34.107
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_67e56d53"
+- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
   password: null
   port: 443
   server: 172.64.68.89
@@ -3321,8 +3007,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_690643f6"
+- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_690643f6"
   password: null
   port: 443
   server: 12.221.146.147
@@ -3330,8 +3015,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ebb1a01b"
+- name: "D\U0001F534\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ebb1a01b"
   password: null
   port: 9443
   server: 149.88.98.81
@@ -3339,8 +3023,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1F7\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f50c73f0"
+- name: "A\U0001F7E2\U0001F1F7\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f50c73f0"
   password: null
   port: 443
   server: 185.163.110.194
@@ -3348,8 +3031,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_b4fe7692"
+- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b4fe7692"
   password: null
   port: 9443
   server: 149.36.51.161
@@ -3357,15 +3039,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2b1ff10e"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2b1ff10e"
   port: 9443
   server: 198.44.135.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a7976bf9"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a7976bf9"
   password: null
   port: 9443
   server: 149.88.21.140
@@ -3373,8 +3053,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7886d398"
+- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7886d398"
   password: None
   port: 443
   server: 151.115.54.133
@@ -3382,31 +3061,27 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1c6cb296"
+- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1c6cb296"
   port: 443
   server: 185.94.192.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9827b083"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9827b083"
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b2353366"
-  password: "null"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b2353366"
+  password: 'null'
   port: 9002
   server: 193.176.84.16
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "C\U0001F7E0\U0001F1EE\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b9fb82b7"
+  username: 'null'
+- name: "C\U0001F7E0\U0001F1EE\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b9fb82b7"
   password: None
   port: 443
   server: 169.150.248.17
@@ -3416,29 +3091,25 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3d969588"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3d969588"
   port: 11080
   server: 172.245.108.219
   skip-cert-verify: true
   type: socks5
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6\
-    ]_dokng.com_09592fae"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_09592fae"
   port: 8090
   server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3138c2ff"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3138c2ff"
   password: None
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_bd192656"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd192656"
   password: null
   port: 443
   server: 212.102.63.31
@@ -3446,39 +3117,34 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8e59d554"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e59d554"
   port: 443
   server: 206.223.161.47
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6694b0e8"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6694b0e8"
   port: 443
   server: 149.22.85.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b1448db8"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b1448db8"
   port: 443
   server: 216.107.139.82
   skip-cert-verify: true
   sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_245be5da"
-  password: "null"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_245be5da"
+  password: 'null'
   port: 9002
   server: 193.176.84.30
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d305a7ec"
+  username: 'null'
+- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d305a7ec"
   password: null
   port: 443
   server: 185.221.132.242
@@ -3486,8 +3152,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_009f2d3b"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_009f2d3b"
   password: None
   port: 443
   server: 212.102.63.1
@@ -3495,8 +3160,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_812a49d6"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_812a49d6"
   password: None
   port: 443
   server: 212.102.63.31
@@ -3505,8 +3169,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_01abab49"
+- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_01abab49"
   password: null
   port: 8081
   server: 31.32.19.111
@@ -3514,8 +3177,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d5afcc8a"
+- name: "D\U0001F534\U0001F1E8\U0001F1EDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d5afcc8a"
   password: null
   port: 9443
   server: 149.88.27.33
@@ -3523,8 +3185,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b3dc63c1"
+- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b3dc63c1"
   password: null
   port: 443
   server: 12.202.180.10
@@ -3532,8 +3193,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_b9f6c730"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b9f6c730"
   password: null
   port: 443
   server: 84.17.50.193
@@ -3541,34 +3201,29 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_895424c2"
+- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_895424c2"
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3a4daf1d"
+- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3a4daf1d"
   port: 443
   server: 85.203.39.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6\
-    ]_dokng.com_2226fec1"
+- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_dokng.com_2226fec1"
   port: 443
   server: 149.22.86.14
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9cbcc1c0"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1F4res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9cbcc1c0"
   port: 8080
   server: 181.129.16.218
   type: http
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_60e0e12f"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_60e0e12f"
   password: null
   port: 9443
   server: 84.17.50.129
@@ -3582,8 +3237,7 @@ proxies:
   server: 176.111.37.216
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_b3f34a76"
+- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b3f34a76"
   password: None
   port: 443
   server: 149.22.86.1
@@ -3598,22 +3252,19 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_9bac9bc8"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9bac9bc8"
   port: 8443
   server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1EE\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_eb57a4f8"
+- name: "C\U0001F7E0\U0001F1EE\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_eb57a4f8"
   port: 443
   server: 169.150.248.17
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f517a03a"
+- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f517a03a"
   password: None
   port: 443
   server: 185.94.192.210
@@ -3625,15 +3276,13 @@ proxies:
   port: 8080
   server: 38.51.207.104
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_3acae6be"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3acae6be"
   port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e11c0c19"
+- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e11c0c19"
   password: null
   port: 9443
   server: 152.233.16.174
@@ -3641,8 +3290,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_8e19c6ec"
+- name: "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8e19c6ec"
   port: 443
   server: 91.92.250.33
   skip-cert-verify: true
@@ -3653,8 +3301,7 @@ proxies:
   server: 43.229.79.252
   skip-cert-verify: true
   type: http
-- name: "C\U0001F7E0\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_26b0dc97"
+- name: "C\U0001F7E0\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_26b0dc97"
   password: None
   port: 443
   server: 109.248.147.66
@@ -3662,16 +3309,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_96845fbf"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_96845fbf"
   password: None
   port: 443
   server: 198.44.135.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_fbef30d9"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_fbef30d9"
   password: null
   port: 443
   server: 89.150.35.94
@@ -3679,8 +3324,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_edf11c69"
+- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_edf11c69"
   password: ''
   port: 443
   server: 149.22.86.1
@@ -3688,23 +3332,20 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5f056d03"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5f056d03"
   port: 9443
   server: 84.233.178.33
   skip-cert-verify: true
   tls: true
   type: http
-- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_2434be8b"
+- name: "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2434be8b"
   password: None
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ef9ed0d7"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ef9ed0d7"
   password: null
   port: 443
   server: 82.65.162.76
@@ -3712,15 +3353,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_f0025ab7"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f0025ab7"
   port: 443
   server: 198.44.135.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_53295f5c"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_53295f5c"
   password: null
   port: 443
   server: 193.239.236.134
@@ -3728,8 +3367,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b28387d2"
+- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b28387d2"
   port: 443
   server: 185.183.105.146
   skip-cert-verify: true
@@ -3766,23 +3404,20 @@ proxies:
   port: 4040
   server: 190.0.246.211
   type: http
-- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d227b762"
+- name: "C\U0001F7E0\U0001F1F1\U0001F1FAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d227b762"
   password: None
   port: 9443
   server: 185.221.132.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_6da98c2d"
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_6da98c2d"
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d453c38f"
+- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d453c38f"
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
@@ -3797,8 +3432,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_88c3ed90"
+- name: "D\U0001F534\U0001F1E7\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_88c3ed90"
   password: null
   port: 9443
   server: 169.150.237.1
@@ -3806,15 +3440,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_939259dc"
+- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_939259dc"
   port: 443
   server: 185.245.84.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1d946f80"
+- name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1d946f80"
   password: None
   port: 443
   server: 146.70.242.130
@@ -3822,15 +3454,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_94884474"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_94884474"
   port: 443
   server: 5.255.118.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F2\U0001F1FDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_946b3a9f"
+- name: "D\U0001F534\U0001F1F2\U0001F1FDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_946b3a9f"
   password: null
   port: 999
   server: 189.51.168.165
@@ -3840,23 +3470,20 @@ proxies:
   port: 4040
   server: 190.0.246.213
   type: http
-- name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_74ce3d18"
+- name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_74ce3d18"
   password: None
   port: 9443
   server: 149.36.51.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ad9b8b65"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ad9b8b65"
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1EE\U0001F1F9res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_74e83c9e"
+- name: "A\U0001F7E2\U0001F1EE\U0001F1F9res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_74e83c9e"
   password: null
   port: 443
   server: 95.229.15.89
@@ -3864,50 +3491,44 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_cee0a31e"
+- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cee0a31e"
   password: None
   port: 9443
   server: 135.136.1.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_695f4604"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_695f4604"
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_642e3258"
+- name: "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_642e3258"
   password: None
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_58b82ebe"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_58b82ebe"
   password: None
   port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_62caac5f"
-  password: "e4b72b531a2d10900519"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_62caac5f"
+  password: e4b72b531a2d10900519
   port: 443
   server: 82.196.9.7
   sni: 52c40907.acsnet.co
   tls: true
   type: http
   username: testuser1
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_62113475"
-  password: "e4b72b531a2d10900519"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_62113475"
+  password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
   skip-cert-verify: true
@@ -3915,30 +3536,26 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: "D\U0001F534\U0001F1ED\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_0eca974d"
+- name: "D\U0001F534\U0001F1ED\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_0eca974d"
   port: 443
   server: 154.47.29.174
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E7\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_0b4359d3"
+- name: "D\U0001F534\U0001F1E7\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0b4359d3"
   port: 443
   server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a019a231"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a019a231"
   password: None
   port: 443
   server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_5bb324a2"
+- name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5bb324a2"
   port: 443
   server: 87.120.103.242
   skip-cert-verify: true
@@ -3948,8 +3565,7 @@ proxies:
   port: 8666
   server: 45.228.89.114
   type: http
-- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7ca1311c"
+- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7ca1311c"
   password: null
   port: 9443
   server: 95.153.32.2
@@ -3957,8 +3573,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_ff887d33"
+- name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ff887d33"
   password: None
   port: 443
   server: 79.142.77.63
@@ -3966,24 +3581,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7590ca37"
+- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7590ca37"
   port: 443
   server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1fccc9ca"
-  password: "0324fbc29561"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1fccc9ca"
+  password: 0324fbc29561
   port: 443
   server: 98416548.df6h451rh.xin
   skip-cert-verify: true
   sni: images.ctfassets.net
   type: anytls
   udp: true
-- name: "D\U0001F534\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_a1477f4c"
+- name: "D\U0001F534\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_a1477f4c"
   port: 9443
   server: 198.44.157.19
   skip-cert-verify: true
@@ -3991,13 +3603,12 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_80c240f2"
+  name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_80c240f2"
   network: tcp
   port: 2095
   reality-opts:
     public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: "3869d49a9a79e06a"
+    short-id: 3869d49a9a79e06a
   server: 213.152.165.201
   servername: www.apple.com
   skip-cert-verify: false
@@ -4006,8 +3617,7 @@ proxies:
   type: vless
   udp: true
   uuid: b38712cb-e4aa-4462-b7e3-df20508d2b39
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_90280cba"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_90280cba"
   password: null
   port: 443
   server: 68.235.56.51
@@ -4015,8 +3625,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_138d3b67"
+- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_138d3b67"
   password: ''
   port: 443
   server: 185.219.159.16
@@ -4024,8 +3633,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_a2cc7036"
+- name: "C\U0001F7E0\U0001F1F5\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_a2cc7036"
   password: null
   port: 443
   server: 149.22.86.14
@@ -4039,28 +3647,25 @@ proxies:
   port: 443
   reality-opts:
     public-key: RKDT6fVgcZS8Qfzhv5rbeHRIflA3UTKD_HNLJyOoUwk
-    short-id: "25349b36802f"
+    short-id: 25349b36802f
   server: 195.72.166.251
   servername: www.lloydsbankinggroup.com
   tls: true
   type: vless
   uuid: 64c05afc-ce81-4ba0-b697-afa04da1427e
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e49c7f1b"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e49c7f1b"
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_26bd5908"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26bd5908"
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_6dda1640"
+- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6dda1640"
   password: null
   port: 9002
   server: 193.176.84.36
@@ -4068,22 +3673,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EC\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_7129f6a8"
+- name: "D\U0001F534\U0001F1EC\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_7129f6a8"
   port: 443
   server: 195.54.178.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_40d7a1a3"
+- name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_40d7a1a3"
   port: 443
   server: 96.5.129.85
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EB\U0001F1EEhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_83e835b5"
+- name: "D\U0001F534\U0001F1EB\U0001F1EEhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83e835b5"
   password: null
   port: 8080
   server: 65.109.179.56
@@ -4098,8 +3700,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_e73d582a"
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_e73d582a"
   password: None
   port: 443
   server: 149.102.245.65
@@ -4107,8 +3708,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_14edef50"
+- name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_14edef50"
   password: null
   port: 443
   server: 87.120.103.226
@@ -4118,13 +3718,12 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_b93e4873"
+  name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b93e4873"
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: "8a9725533854a7e8"
+    short-id: 8a9725533854a7e8
   server: 66.90.115.125
   servername: www.apple.com
   skip-cert-verify: false
@@ -4137,15 +3736,13 @@ proxies:
   port: 999
   server: 82.152.138.127
   type: http
-- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1647a2a3"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1647a2a3"
   port: 443
   server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_dcd1a64f"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_dcd1a64f"
   password: null
   port: 443
   server: 152.233.20.206
@@ -4153,15 +3750,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1E8\U0001F1FFres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_d0576f5e"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1FFres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d0576f5e"
   port: 443
   server: 193.35.104.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_1fd3ab19"
+- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1fd3ab19"
   password: null
   port: 9443
   server: 213.177.229.161
@@ -4169,8 +3764,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "A\U0001F7E2\U0001F1E8\U0001F1FEres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_221c71bf"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1FEres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_221c71bf"
   password: None
   port: 443
   server: 213.207.130.34
@@ -4180,8 +3774,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "C\U0001F7E0\U0001F1EE\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_ecf79958"
+- name: "C\U0001F7E0\U0001F1EE\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_ecf79958"
   password: ''
   port: 443
   server: 169.150.248.17
@@ -4189,15 +3782,13 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_7108edb3"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_7108edb3"
   port: 443
   server: 207.5.30.9
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F3\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_12c2f4b3"
+- name: "D\U0001F534\U0001F1F3\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_12c2f4b3"
   password: null
   port: 9443
   server: 146.70.170.210
@@ -4205,9 +3796,8 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_87eec561"
-  password: "e4b72b531a2d10900519"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_87eec561"
+  password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
   sni: 93b6d804.acsnet.co
@@ -4218,15 +3808,13 @@ proxies:
   port: 44443
   server: 179.184.163.133
   type: http
-- name: "D\U0001F534\U0001F1ED\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7c1a483f"
+- name: "D\U0001F534\U0001F1ED\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7c1a483f"
   port: 443
   server: 154.47.29.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_7f9fa854"
+- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7f9fa854"
   password: ''
   port: 443
   server: 149.22.85.65
@@ -4235,8 +3823,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_a886daec"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a886daec"
   password: null
   port: 8090
   server: 24.142.229.178
@@ -4244,8 +3831,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_c63c7573"
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c63c7573"
   password: null
   port: 443
   server: 198.44.135.27
@@ -4253,8 +3839,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_04de2326"
+- name: "D\U0001F534\U0001F1EA\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_04de2326"
   password: null
   port: 9443
   server: 95.153.31.66
@@ -4266,8 +3851,7 @@ proxies:
   port: 999
   server: 168.90.13.32
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_97eba0f1"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_97eba0f1"
   password: ''
   port: 443
   server: 149.34.248.65
@@ -4277,49 +3861,42 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA\
-    ]_dokng.com_340f87cf"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_340f87cf"
   port: 44499
   server: 45.61.188.134
   type: socks5
-- name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e70669c4"
+- name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e70669c4"
   port: 443
   server: 142.44.210.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_431c69cc"
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_431c69cc"
   port: 443
   server: 43.160.239.37
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_e422b3f4"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e422b3f4"
   password: None
   port: 443
   server: 206.223.183.16
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1EA\U0001F1E8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_09afc96e"
+- name: "D\U0001F534\U0001F1EA\U0001F1E8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_09afc96e"
   port: 9443
   server: 38.165.231.71
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1E8\U0001F1FEres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA\
-    ]_dokng.com_c4751386"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1FEres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_c4751386"
   port: 443
   server: 213.207.130.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1E7\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_474cb040"
+- name: "D\U0001F534\U0001F1E7\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_474cb040"
   port: 443
   server: 185.164.35.16
   skip-cert-verify: true
@@ -4338,16 +3915,14 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_67679cc5"
+- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67679cc5"
   password: None
   port: 9443
   server: 169.150.199.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD\
-    ]_dokng.com_dc4c5a1e"
+- name: "A\U0001F7E2\U0001F1E8\U0001F1E6res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_dc4c5a1e"
   password: null
   port: 443
   server: 206.223.183.13
@@ -4362,8 +3937,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 9904 \u4E2A\u5B57\u7B26"
+- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 9904 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -4377,14 +3951,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
-  type: trojan
-  server: 127.0.0.1
-  port: 443
-  password: dummy
-  udp: true
-  skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
+- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -4396,11 +3963,9 @@ proxy-groups:
   type: select
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: Ruk1ng001/freeSub"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 9904 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 9904 \u4E2A\u5B57\u7B26"
   - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-10-25 23:20 (CST)"
-  - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
-  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
+  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
 - interval: 300
   lazy: true
   name: "\u267B\uFE0F"
@@ -4422,8 +3987,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"
@@ -4444,8 +4008,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AA\U0001F50D]_dokng.com_76e9313c"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6bbe933a"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA]_dokng.com_c607ceae"
-  - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_d237c504"
+  - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F]_dokng.com_d237c504"
   - "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2434be8b"
   - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cb9256f2"
   - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1b81f86d"
@@ -4510,8 +4073,7 @@ proxy-groups:
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6db0fc2c"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_ba08d4dd"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_8014db02"
-  - "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F39E\uFE0F\
-    ]_dokng.com_8acecb07"
+  - "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F39E\uFE0F]_dokng.com_8acecb07"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0464a06d"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_253eed88"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2ce4c208"
@@ -4535,8 +4097,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b93e4873"
   - "C\U0001F7E0\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24db847c"
   - "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1519a3a0"
-  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\u2708\uFE0F\
-    ]_dokng.com_c359662d"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA\u2708\uFE0F]_dokng.com_c359662d"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3ec254da"
   - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_63e1523b"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_32badc18"
@@ -4631,8 +4192,7 @@ proxy-groups:
   - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_902e7569"
   - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_090c2263"
   - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cca1a7e1"
-  - "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_51efbe70"
+  - "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F]_dokng.com_51efbe70"
   - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a35727d2"
   - "D\U0001F534\U0001F1F7\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_24d941b9"
   - "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5bb324a2"
@@ -4720,8 +4280,7 @@ proxy-groups:
   - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b2f1a194"
   - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_045fb906"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d9f9993e"
-  - "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F3AA\U0001F39E\uFE0F\U0001F4E6\U0001F50D\
-    ]_dokng.com_43ff2571"
+  - "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F3AA\U0001F39E\uFE0F\U0001F4E6\U0001F50D]_dokng.com_43ff2571"
   - "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67679cc5"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4b55ac5f"
   - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_decfe8e7"
@@ -4779,8 +4338,7 @@ proxy-groups:
   - "D\U0001F534\U0001F1EC\U0001F1E7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AA]_dokng.com_642e3258"
   - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e3642aa7"
   - "C\U0001F7E0\U0001F1ED\U0001F1F0hos[\U0001F4FA]_dokng.com_099454ad"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_6c932673"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\u2728\U0001F39E\uFE0F]_dokng.com_6c932673"
   - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_49f0432e"
   - "D\U0001F534\U0001F1E6\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_0933ca80"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_73294fbd"
@@ -5117,8 +4675,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "\u267B\uFE0F"
@@ -5146,8 +4703,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"
@@ -5203,8 +4759,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AA\U0001F50D]_dokng.com_76e9313c"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6bbe933a"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA]_dokng.com_c607ceae"
-  - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_d237c504"
+  - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F]_dokng.com_d237c504"
   - "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2434be8b"
   - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_d2853196"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_3da00baa"
@@ -5270,8 +4825,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"
@@ -5292,8 +4846,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AA\U0001F50D]_dokng.com_76e9313c"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_6bbe933a"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA]_dokng.com_c607ceae"
-  - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F\
-    ]_dokng.com_d237c504"
+  - "A\U0001F7E2\U0001F1F9\U0001F1F7res[\U0001F4FA\U0001F3AA\u2728\U0001F39E\uFE0F]_dokng.com_d237c504"
   - "B\U0001F7E1\U0001F1FA\U0001F1F8biz[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2434be8b"
   - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cb9256f2"
   - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_1b81f86d"
@@ -5367,8 +4920,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"
@@ -5473,8 +5025,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"
@@ -5514,8 +5065,7 @@ proxy-groups:
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_83153416"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7896b4ab"
   - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_67e56d53"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F\
-    ]_dokng.com_e68b3244"
+  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F3AD\U0001F4E6\u2708\uFE0F]_dokng.com_e68b3244"
   - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_c45ae8d8"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_82281b65"
   - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_48f719bc"

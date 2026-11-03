@@ -9,7 +9,7 @@ set -uo pipefail
 
 TAG="${SPEEDTEST_TAG:-test}"
 ASSET="${SPEEDTEST_ASSET:-speedtest-20mb.bin}"
-REPO="${GITHUB_REPOSITORY:-wzmwayne/proxy-node}"
+REPO="${GITHUB_REPOSITORY:-hkjych/Z}"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${ASSET}"
 # 测速本身必须直连(镜像只用于检查/上传),镜像仅作为本地可达性兜底
 MIRROR_URL="${GH_PROXY:+${GH_PROXY%/}/}${URL}"

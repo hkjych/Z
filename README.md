@@ -12,11 +12,20 @@
 
 ## 订阅链接
 
+> **本仓库已设为私有**: 上面的 `raw.githubusercontent.com` 直链对未登录的客户端返回 404, ghproxy 镜像同样失效。
+> 订阅时把令牌拼进地址 (令牌只需对该仓库有 Contents 只读权限):
+>
+> ```
+> https://<TOKEN>@raw.githubusercontent.com/hkjych/Z/main/output/aio/clash.yaml
+> ```
+>
+> 私有仓库的 release 资产同样需要授权, 因此测速只用 Cloudflare 那一路。
+>
 > **AIO 精选(推荐)**:全部来源的节点先测 `https://www.gstatic.com/generate_204` 判可达,再对可达节点**真实下载 20MB 文件测速**;每个节点名都带 `[x.xMB/s]` 标注,并生成多个分组标签页:
 
 | 标签页 | 内容 |
 |--------|------|
-| `说明` | 来源数 / 延迟通过数 / 测速统计 / 更新时间 / 作者 |
+| `说明` | 来源数 / 延迟通过数 / 测速统计 / 更新时间 |
 | `⚡ 高速节点(>2MB/s)` | 实测速度 > 2MB/s 的节点(第一梯队) |
 | `🏅 优质节点` | 1~2MB/s 且延迟 ≤ 1500ms(**与高速互斥**,两组不重叠) |
 | `🚀 节点选择(全部精选)` | 全部通过延迟 + 测速的节点(默认出口) |
@@ -25,19 +34,19 @@
 
 | 类型 | 直连 | ghproxy.net 镜像(国内网络) |
 |------|------|------------------------------|
-| **AIO 精选(合并全部来源)** | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/aio/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/aio/clash.yaml |
+| **AIO 精选(合并全部来源)** | https://raw.githubusercontent.com/hkjych/Z/main/output/aio/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/aio/clash.yaml |
 
 **单来源订阅(直连 + ghproxy 镜像)**:
 
 | 来源 | 直连 | ghproxy.net 镜像 |
 |------|------|-------------------|
-| yoyapai.com | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/yoyapai/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/yoyapai/clash.yaml |
-| Au1rxx/free-vpn-subscriptions | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/au1rxx/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/au1rxx/clash.yaml |
-| Ruk1ng001/freeSub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/freesub/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/freesub/clash.yaml |
-| ripaojiedian/freenode | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/ripaojiedian/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/ripaojiedian/clash.yaml |
-| zhangkaiitugithub/passcro | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/passcro/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/passcro/clash.yaml |
-| anaer.github.io/Sub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/anaer/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/anaer/clash.yaml |
-| xiaoji235/airport-free | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/xiaoji235/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/xiaoji235/clash.yaml |
+| yoyapai.com | https://raw.githubusercontent.com/hkjych/Z/main/output/yoyapai/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/yoyapai/clash.yaml |
+| Au1rxx/free-vpn-subscriptions | https://raw.githubusercontent.com/hkjych/Z/main/output/au1rxx/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/au1rxx/clash.yaml |
+| Ruk1ng001/freeSub | https://raw.githubusercontent.com/hkjych/Z/main/output/freesub/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/freesub/clash.yaml |
+| ripaojiedian/freenode | https://raw.githubusercontent.com/hkjych/Z/main/output/ripaojiedian/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/ripaojiedian/clash.yaml |
+| zhangkaiitugithub/passcro | https://raw.githubusercontent.com/hkjych/Z/main/output/passcro/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/passcro/clash.yaml |
+| anaer.github.io/Sub | https://raw.githubusercontent.com/hkjych/Z/main/output/anaer/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/anaer/clash.yaml |
+| xiaoji235/airport-free | https://raw.githubusercontent.com/hkjych/Z/main/output/xiaoji235/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/xiaoji235/clash.yaml |
 
 > 仅提供 Clash (Mihomo) 格式。直接复制链接到 FlClash / Clash Verge Rev / Mihomo 的订阅导入框即可。
 
@@ -46,7 +55,7 @@
 1. **合并去重**:按完整节点配置(协议/服务器/端口/凭据)去重,忽略节点名;
 2. **可达性**:内核 REST API 逐节点请求 `generate_204`(默认 5s 超时),不可达即淘汰;
 3. **测速(两个测试文件都测 + 加权平均)**:对可达节点启动"出口绑定"监听器(`listeners` + `proxy: 节点名`),并发真实下载两个 20MB 测速文件——
-   1. 本仓库 [release: test](https://github.com/wzmwayne/proxy-node/releases/tag/test) 的 `speedtest-20mb.bin`(不可压缩随机数据,权重 **0.4**);
+   1. 本仓库 [release: test](https://github.com/hkjych/Z/releases/tag/test) 的 `speedtest-20mb.bin`(不可压缩随机数据,权重 **0.4**);
    2. Cloudflare 的 `speed.cloudflare.com/__down?bytes=20000000`(权重 **0.6**,权重更高);
 
    **加权平均即为该节点的最终速度**(某个文件不可用时按剩余权重归一化,只有一个测到就用它;取不到有效数据则标 `[测速失败]`);

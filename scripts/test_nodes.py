@@ -45,7 +45,7 @@ TEST_URL = "https://www.gstatic.com/generate_204"
 #   2. Cloudflare 20MB 下载端点
 # 两个文件都测,按权重(CF 0.6 / release 0.4)加权平均作为节点最终速度。
 RELEASE_SPEED_URL = (
-    "https://github.com/wzmwayne/proxy-node/releases/download/test/speedtest-20mb.bin"
+    "https://github.com/hkjych/Z/releases/download/test/speedtest-20mb.bin"
 )
 SPEED_BYTES = 20_000_000
 
@@ -78,8 +78,7 @@ GROUP_TYPES = {
     "Pass", "ShadowTLS", "Reject", "Direct",
 }
 SKIP_NAMES = {"GLOBAL", "DIRECT", "REJECT", "PASS"}
-AUTHOR = "wzmwayne"
-REPO = "https://github.com/wzmwayne/proxy-node"
+REPO = "https://github.com/hkjych/Z"
 
 # AIO 节点名标注:重新生成时可重复运行(先剥掉旧标注)
 ANNOTATION_RE = None
@@ -455,7 +454,6 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         fake_names.append("说明-测速: 本次跳过(测试文件不可达)")
     fake_names += [
         f"说明-更新时间: {now} (CST)",
-        f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO}",
     ]
 

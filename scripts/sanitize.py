@@ -11,7 +11,7 @@
      "proxy xxx is the duplicate name",整份配置加载失败);
   4. 悬空引用:丢弃节点/分组后,修复 group->proxy、group->group、rule->目标
      的失效引用(否则 mihomo 报 "proxy group[0]: xxx: 'yyy' not found");
-  5. 说明节点:注入"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/作者;
+  5. 说明节点:注入"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/仓库;
   6. 输出为纯 ASCII YAML(非 ASCII 以 \\uXXXX 转义,兼容所有 YAML 解析器);
   7. 写入前二次解析校验 + 可选 mihomo 内核 `-t` 门禁,任一不过即拒绝发布。
 
@@ -33,8 +33,7 @@ import yaml
 
 from sources import SOURCES
 
-AUTHOR = "wzmwayne"
-REPO = "https://github.com/wzmwayne/proxy-node"
+REPO = "https://github.com/hkjych/Z"
 
 # go-yaml v3 会把这些字符串解析为非字符串(yaml.v3 resolve.go):
 #   显式映射的 bool/null/inf/nan,以及 int/float/timestamp 样式。
@@ -168,12 +167,11 @@ def strip_injected(data):
 
 
 def inject_fake_nodes(data, source_label, dropped_count, escaped_chars, time_str, fixes=0):
-    """注入一组"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/作者/仓库。"""
+    """注入一组"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/仓库。"""
     names = [
         f"说明-来源: {source_label}",
         f"说明-清洗结果: 清理 {dropped_count} 个节点、修复 {fixes} 处引用、转译 {escaped_chars} 个字符",
         f"说明-更新时间: {time_str} (CST)",
-        f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO}",
     ]
     proxies = data.get("proxies")
