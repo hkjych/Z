@@ -70,38 +70,21 @@ proxies:
   tfo: false
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: "\u5176\u4ED6-005"
-  type: vless
-  network: ws
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  server: 104.16.111.202
-  servername: jp3.yohototo.top
-  port: 443
-  skip-cert-verify: false
-  tls: true
+- name: "\u5FB7\u56FD-001 |1.6MB/s"
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  skip-cert-verify: true
   udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- name: "\u5176\u4ED6-006"
-  type: vless
-  network: ws
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-  server: 172.66.47.45
-  servername: ezaccess-project-f62c30.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: ezaccess-project-f62c30.pages.dev
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-  client-fingerprint: chrome
-- name: "\u5FB7\u56FD-001"
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  protocol: udp
+  up: 500
+- name: "\u5FB7\u56FD-002"
   type: vless
   network: ws
   uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
@@ -117,20 +100,6 @@ proxies:
       Host: nexostore.xnetaro.ir
     path: /wss?TELEGRAM----
   client-fingerprint: firefox
-- name: "\u5FB7\u56FD-002 |1.6MB/s"
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  protocol: udp
-  up: 500
 - name: "\u610F\u5927\u5229-001"
   type: vless
   network: ws
@@ -162,22 +131,6 @@ proxies:
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u745E\u58EB-001"
-  type: vless
-  network: ws
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  server: 195.141.65.98
-  servername: 148-253-210-191.sslip.io
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: 148-253-210-191.sslip.io
-    path: /test-ws
-  client-fingerprint: chrome
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-001 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
   server: 193.176.84.35
@@ -185,14 +138,21 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-002 |1.4MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-002 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-003 |1.4MB/s"
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-003 |1.3MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-004 |1.3MB/s"
   type: http
   server: 193.176.84.36
   port: 9002
@@ -200,86 +160,124 @@ proxies:
   tls: true
   udp: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-004 |1.2MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-005 |1.2MB/s"
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-005 |1.1MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s"
   type: http
   server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.0MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+  type: http
+  server: 193.176.84.30
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
   type: http
   server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1020KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-010 |1020KB/s"
   type: http
   server: 193.176.84.22
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |943KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-011 |968KB/s"
+  type: http
+  server: 193.176.84.37
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-012 |943KB/s"
   type: http
   server: 193.176.84.34
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |891KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-013 |891KB/s"
   type: http
   server: 193.176.84.31
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-010 |768KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-014 |768KB/s"
   type: http
   server: 193.176.84.24
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-011 |731KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-015 |731KB/s"
   type: http
   server: 193.176.84.19
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-012 |586KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-016 |639KB/s"
+  type: http
+  server: 193.176.84.20
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-017 |622KB/s"
+  type: http
+  server: 193.176.84.21
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-018 |586KB/s"
   type: http
   server: 193.176.84.25
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-013 |557KB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-019 |557KB/s"
   type: http
   server: 193.176.84.39
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F8E\u56FD-001"
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-020 |554KB/s"
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  skip-cert-verify: true
+  tls: true
 - name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 38.28.193.188
@@ -292,20 +290,21 @@ proxies:
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-004"
-  type: vless
-  network: ws
-  uuid: 36592d47-b9f5-4e8f-949e-45ac05472aab
-  server: 141.193.213.21
-  servername: site.check-looks.space
-  port: 2083
+- name: "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
+  type: http
+  server: 138.199.35.198
+  port: 9002
   skip-cert-verify: true
   tls: true
-  udp: true
-  tfo: false
+- name: "\u7F8E\u56FD-005"
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 63.141.128.30
+  port: 8880
   ws-opts:
     headers:
-      Host: site.check-looks.space
+      Host: vms.lifetime42.workers.dev
     path: /
 - name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
@@ -313,16 +312,16 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 5.255.118.82
   port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
+  type: http
+  server: 51.159.225.196
+  port: 23856
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-004 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -339,14 +338,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 111 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 139 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-04 19:48 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-05 03:05 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -366,6 +365,6 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 111 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-04 19:48 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 139 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-05 03:05 (CST)"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"

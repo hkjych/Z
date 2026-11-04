@@ -1,77 +1,7 @@
 proxies:
-- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9"
-  type: vless
-  server: 172.64.153.153
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: "\u7F8E\u56FD+FDCServers\u6570\u636E\u4E2D\u5FC3"
-  type: vless
-  server: 198.16.113.219
-  port: 8443
-  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: "69984b9e02545831"
 - name: "\u65B0\u897F\u5170+V2CROSS.COM"
   type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9 #2"
-  type: vless
-  server: 172.67.68.157
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9 #3"
-  type: vless
-  server: 104.20.5.134
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9 #4"
-  type: vless
-  server: 172.64.229.133
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: "\u65B0\u897F\u5170+V2CROSS.COM #2"
-  type: ss
-  server: 202.50.253.45
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -82,7 +12,28 @@ proxies:
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl2.nexfile.net
-- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9 #5"
+- name: "\u65B0\u897F\u5170+V2CROSS.COM #2"
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u5E0C\u814A+V2CROSS.COM"
+  type: hysteria2
+  server: 144.24.109.215
+  port: 51000
+  password: d105c6ae-621b-47c1-b85b-075fd6a39aca
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD+V2CROSS.COM"
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9"
   type: vless
   server: 104.17.108.213
   port: 443
@@ -96,26 +47,58 @@ proxies:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
-- name: "\u7F8E\u56FD+V2CROSS.COM"
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.2fa.cat
-  sni: www.cloudflare.com
-  skip-cert-verify: true
 - name: "\u65B0\u897F\u5170+V2CROSS.COM #3"
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9 #2"
+  type: vless
+  server: 104.24.46.107
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: "\u65B0\u897F\u5170+V2CROSS.COM #4"
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u5E0C\u814A+V2CROSS.COM"
+- name: "\u65B0\u897F\u5170+V2CROSS.COM #5"
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD+CloudFlare\u8282\u70B9 #3"
+  type: vless
+  server: 172.67.68.157
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: "\u7F8E\u56FD+V2CROSS.COM #2"
   type: hysteria2
-  server: 144.24.109.215
-  port: 51000
-  password: d105c6ae-621b-47c1-b85b-075fd6a39aca
-  sni: cn.cremedelamer.com
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  sni: xship.top
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6765\u6E90: Pawdroid/Free-servers"
   type: trojan
@@ -125,14 +108,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 41 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 35 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-04 19:48 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-05 03:05 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -152,6 +135,6 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: Pawdroid/Free-servers"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 41 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-04 19:48 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 35 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-05 03:05 (CST)"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
