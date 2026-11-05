@@ -1,91 +1,74 @@
 proxies:
-- name: "CF\u4E2D\u8F6C_1105128730 L0"
+- name: "CF\u4E2D\u8F6C_110605239 L6"
   type: vmess
-  server: 104.21.57.84
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  server: 172.67.187.145
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /ws
     headers:
-      Host: v2ray1.dozapp.xyz
-- name: "CF\u4E2D\u8F6C_1105128973 L6"
+      Host: vmess.lbw666.dpdns.org
+- name: "CF\u4E2D\u8F6C_110605244 L0"
   type: vmess
-  server: 188.114.97.1
-  port: 443
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  server: 104.17.147.222
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  servername: www.windowssearchtools.com
   network: ws
   ws-opts:
-    path: /truth
+    path: /ws
     headers:
-      Host: www.windowssearchtools.com
-- name: "\u4E39\u9EA6_110512001+M46"
-  type: ss
-  server: 158.173.24.73
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\u4E39\u9EA6_110512002+M60"
+      Host: vmess.lbw666.dpdns.org
+- name: "\u4E39\u9EA6_110605001+M60"
   type: ss
   server: 158.173.20.208
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\u4EE5\u8272\u5217_110512001+L28"
+- name: "\u4E39\u9EA6_110605002+M46"
+  type: ss
+  server: 158.173.24.73
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: "\u4EE5\u8272\u5217_110605001+L28"
   type: trojan
   server: 64.176.163.182
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
-- name: "\u4F0A\u6717_110512001+L0"
-  type: ss
-  server: 151.241.19.29
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u4F0A\u6717_110512002+L0"
+  skip-cert-verify: true
+- name: "\u4F0A\u6717_110605001+L0"
   type: ss
   server: 151.241.19.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u4FC4\u7F57\u65AF\u8054\u90A6_110512001+L25"
+- name: "\u4F0A\u6717_110605002+L0"
   type: ss
-  server: 46.17.46.27
-  port: 18443
+  server: 151.241.19.29
+  port: 19999
   cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u4FC4\u7F57\u65AF\u8054\u90A6_110512292+L0"
-  type: ss
-  server: 185.22.153.192
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
-- name: "\u4FC4\u7F57\u65AF\u8054\u90A6_110512293+L0"
+- name: "\u4FC4\u7F57\u65AF\u8054\u90A6_110605264+L0"
   type: ss
   server: 38.60.223.125
   port: 13108
   cipher: aes-128-gcm
   password: "8722de56b6c0b3f6a4d01cf91c07e6aa"
   udp: true
-- name: "\u52A0\u62FF\u5927_110512004 L36"
+- name: "\u52A0\u62FF\u5927_110605004 L36"
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -93,190 +76,182 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: "\u52A0\u62FF\u5927_110512020+M45"
+- name: "\u52A0\u62FF\u5927_110605020+M45"
   type: ss
   server: 149.22.95.183
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\u52A0\u62FF\u5927_110512021+L36"
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: "\u52A0\u62FF\u5927_110512022+L36"
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: "\u52A0\u62FF\u5927_110512023+M59"
+- name: "\u52A0\u62FF\u5927_110605021+M59"
   type: ss
   server: 51.79.64.198
   port: 8119
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: "\u52A0\u62FF\u5927_110512026+L36"
+- name: "\u52A0\u62FF\u5927_110605022+L36"
   type: ss
-  server: 51.222.141.125
-  port: 445
+  server: 51.222.136.236
+  port: 8882
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  password: kDWvXYZoTBcGkC4
   udp: true
-- name: "\u52A0\u62FF\u5927_110512027+M59"
+- name: "\u52A0\u62FF\u5927_110605023+M59"
   type: ss
   server: 51.79.85.185
   port: 8118
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: "\u52A0\u62FF\u5927_110512028+L36"
+- name: "\u52A0\u62FF\u5927_110605024+L36"
   type: ss
-  server: 51.222.12.127
-  port: 445
+  server: 51.222.200.165
+  port: 5000
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\u52A0\u62FF\u5927_110512113+H92"
+- name: "\u52A0\u62FF\u5927_110605030+H92"
   type: ss
   server: 158.51.121.221
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u5357\u975E_110512001+H81"
+- name: "\u5357\u975E_110605001+H81"
   type: ss
   server: 185.230.230.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u57C3\u53CA_110512018+L0"
-  type: ss
-  server: 38.54.59.78
-  port: 16676
-  cipher: aes-128-gcm
-  password: "c58938bbf5410f996b13983264fb2229"
-  udp: true
-- name: "\u58A8\u897F\u54E5_110512007+M42"
+- name: "\u58A8\u897F\u54E5_110605001+M42"
   type: trojan
   server: 216.238.80.100
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: connectwithtopemployersandfindidealjobs.com
-- name: "\u5965\u5730\u5229_110512001+L0"
+- name: "\u5965\u5730\u5229_110605001+L0"
   type: ss
   server: 152.53.1.57
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
   udp: true
-- name: "\u5FB7\u56FD_110512004 L0"
-  type: vmess
-  server: 176.65.151.175
-  port: 11674
-  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
-  alterId: 0
-  cipher: auto
+- name: "\u5DF4\u897F_110605001+L37"
+  type: trojan
+  server: 216.238.104.154
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: "\u5FB7\u56FD_110512006+M65"
+  skip-cert-verify: true
+- name: "\u5FB7\u56FD_110605006+M65"
   type: trojan
   server: 193.108.119.15
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.iloverussia2026.com
-- name: "\u5FB7\u56FD_110512438+M69"
-  type: ss
-  server: 193.108.119.2
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u5FB7\u56FD_110512439+M67"
-  type: ss
-  server: 23.157.88.43
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u5FB7\u56FD_110512440+M67"
-  type: ss
-  server: 193.108.117.111
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u5FB7\u56FD_110512441+H77"
-  type: ss
-  server: 193.108.117.84
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u5FB7\u56FD_110512442+H71"
-  type: ss
-  server: 193.108.118.247
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u5FB7\u56FD_110512443+H73"
+- name: "\u5FB7\u56FD_110605007+H73"
   type: ss
   server: 193.108.119.3
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u5FB7\u56FD_110512444+H89"
+- name: "\u5FB7\u56FD_110605008+M69"
   type: ss
-  server: 193.108.119.83
+  server: 193.108.119.2
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u5FB7\u56FD_110512445+L33"
+- name: "\u5FB7\u56FD_110605009+H77"
   type: ss
-  server: 57.129.76.233
+  server: 193.108.117.84
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u5FB7\u56FD_110512446+H"
+- name: "\u5FB7\u56FD_110605010+M48"
   type: ss
-  server: 57.129.83.85
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
   udp: true
-- name: "\u5FB7\u56FD_110512447+M50"
+- name: "\u5FB7\u56FD_110605011+M50"
   type: ss
   server: 193.108.116.98
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u610F\u5927\u5229_110512160+M50"
+- name: "\u5FB7\u56FD_110605012+H89"
+  type: ss
+  server: 193.108.119.83
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u5FB7\u56FD_110605013+L33"
+  type: ss
+  server: 57.129.76.233
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u5FB7\u56FD_110605014+M67"
+  type: ss
+  server: 193.108.117.111
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u5FB7\u56FD_110605015+H71"
+  type: ss
+  server: 193.108.118.247
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u5FB7\u56FD_110605016+H"
+  type: ss
+  server: 57.129.83.85
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u5FB7\u56FD_110605017+L18"
+  type: ss
+  server: 213.202.208.199
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: "\u5FB7\u56FD_110605018+M67"
+  type: ss
+  server: 23.157.88.43
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u610F\u5927\u5229_110605001+M50"
   type: ss
   server: 149.50.215.234
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u6377\u514B_110512001+M58"
+- name: "\u6377\u514B_110605001+M58"
   type: ss
   server: 45.86.51.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u65B0\u52A0\u5761_110512004 L0"
+- name: "\u65B0\u52A0\u5761_110605002 L0"
   type: vmess
   server: 149.88.23.202
   port: 18000
@@ -284,84 +259,101 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: "\u65B0\u52A0\u5761_110512005+L37"
+- name: "\u65B0\u52A0\u5761_110605005+L37"
   type: trojan
   server: 149.28.130.108
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: searchcreativejobsandshowcaseyourartistictalents.com
-- name: "\u65B0\u52A0\u5761_110512006+L0"
+- name: "\u65B0\u52A0\u5761_110605007+L0"
   type: trojan
   server: 139.180.146.200
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
+  sni: 139.180.146.200
   skip-cert-verify: true
-- name: "\u65B0\u52A0\u5761_110512342+M46"
+- name: "\u65B0\u52A0\u5761_110605008+M46"
   type: ss
   server: 149.88.106.73
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u65B0\u52A0\u5761_110512343+L0"
-  type: ss
-  server: 149.88.107.47
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u65B0\u52A0\u5761_110512344+M50"
-  type: ss
-  server: 149.88.107.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u65B0\u52A0\u5761_110512345+L0"
-  type: ss
-  server: 149.88.106.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u65B0\u52A0\u5761_110512346+L0"
+- name: "\u65B0\u52A0\u5761_110605009+L0"
   type: ss
   server: 15.235.164.133
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u65B0\u52A0\u5761_110512347+L7"
+- name: "\u65B0\u52A0\u5761_110605010+M50"
   type: ss
-  server: 15.235.182.183
+  server: 149.88.107.74
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u65B0\u52A0\u5761_110512348+L7"
+- name: "\u65B0\u52A0\u5761_110605012+L7"
   type: ss
   server: 51.79.228.131
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u65B0\u52A0\u5761_110512352+H"
+- name: "\u65B0\u52A0\u5761_110605013+L0"
   type: ss
-  server: 139.59.238.97
-  port: 10573
-  cipher: aes-128-gcm
-  password: "19fbcc079ca9dbfa619450de97b233ab"
+  server: 149.88.106.74
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u65E5\u672C_110512034+L0"
+- name: "\u65B0\u52A0\u5761_110605014+L0"
+  type: ss
+  server: 149.88.107.47
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u65B0\u52A0\u5761_110605015+L7"
+  type: ss
+  server: 15.235.182.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u65B0\u52A0\u5761_110605346 L0"
+  type: vmess
+  server: 43.108.103.167
+  port: 123
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: "\u65E5\u672C_110605009+L0"
   type: trojan
   server: 167.179.108.225
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   skip-cert-verify: true
-- name: "\u672A\u77E5_110512089"
+- name: "\u667A\u5229_110605001+L37"
+  type: trojan
+  server: 64.176.7.205
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
+- name: "\u672A\u77E5_110605053+M56"
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: "\u672A\u77E5_110605057"
   type: vmess
   server: www.windowsmsidownloads.com
   port: 443
@@ -376,35 +368,7 @@ proxies:
     path: /truth
     headers:
       Host: www.windowsmsidownloads.com
-- name: "\u672A\u77E5_110512091"
-  type: vmess
-  server: www.gptcloudai.com
-  port: 443
-  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: www.gptcloudai.com
-  network: ws
-  ws-opts:
-    path: /truth
-    headers:
-      Host: www.gptcloudai.com
-- name: "\u672A\u77E5_1105122243"
-  type: vmess
-  server: n5.mobiza.ir
-  port: 2095
-  uuid: bca8c159-df05-4bb6-9b75-92aabc2be45f
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dash.mobiza.ir
-- name: "\u6CD5\u56FD_110512003 L39"
+- name: "\u6CD5\u56FD_110605001 L39"
   type: vmess
   server: 54.37.131.126
   port: 80
@@ -417,105 +381,105 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: "\u6CD5\u56FD_110512202+H94"
-  type: ss
-  server: 79.137.99.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u6CD5\u56FD_110512203+H"
-  type: ss
-  server: 172.99.189.142
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u6CD5\u56FD_110512204+H"
+- name: "\u6CD5\u56FD_110605004+H"
   type: ss
   server: 38.109.228.110
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u6CD5\u56FD_110512205+H94"
+- name: "\u6CD5\u56FD_110605005+H94"
+  type: ss
+  server: 79.137.99.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u6CD5\u56FD_110605006+H"
+  type: ss
+  server: 172.99.189.142
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u6CD5\u56FD_110605007+H94"
   type: ss
   server: 23.162.152.22
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u6CD5\u56FD_110512207+L12"
-  type: ss
-  server: 195.154.61.224
-  port: 15983
-  cipher: aes-128-gcm
-  password: "52639a2401a38ae1cc3298cc1859dfcb"
-  udp: true
-- name: "\u6CE2\u5170_110512001+L28"
+- name: "\u6CE2\u5170_110605001+L28"
   type: trojan
   server: 70.34.252.255
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-- name: "\u6FB3\u5927\u5229\u4E9A_110512032+H80"
+- name: "\u6FB3\u5927\u5229\u4E9A_110605033+H80"
   type: trojan
   server: 45.63.30.142
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: connectwithemployerstohireyouridealteam.com
-- name: "\u745E\u5178_110512145+L22"
+- name: "\u745E\u5178_110605002+L22"
   type: trojan
   server: 70.34.207.14
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
-- name: "\u745E\u5178_110512146+L36"
+- name: "\u745E\u5178_110605004+L36"
   type: ss
   server: 138.199.55.243
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u745E\u58EB_110512002+L0"
+- name: "\u745E\u58EB_110605002+L0"
   type: ss
   server: 178.83.185.156
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u745E\u58EB_110512039+H95"
+- name: "\u745E\u58EB_110605003+H95"
   type: ss
   server: 23.166.88.189
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u745E\u58EB_110512040+H"
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u745E\u58EB_110512041+M51"
-  type: ss
-  server: 186.190.215.251
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u745E\u58EB_110512042+H96"
+- name: "\u745E\u58EB_110605004+H96"
   type: ss
   server: 23.166.88.127
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_110512015 M56"
+- name: "\u745E\u58EB_110605005+H"
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u745E\u58EB_110605006+M51"
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F57\u9A6C\u5C3C\u4E9A_110605078+L0"
+  type: ss
+  server: 82.152.132.211
+  port: 8044
+  cipher: chacha20-ietf-poly1305
+  password: dCamglzrORaopqbpBlptzbt9QdiH4CSN
+  udp: true
+- name: "\u7F8E\u56FD_110605017 M56"
   type: vmess
   server: 67.220.95.3
   port: 18000
@@ -523,7 +487,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: "\u7F8E\u56FD_110512016 H86"
+- name: "\u7F8E\u56FD_110605018 H86"
   type: vmess
   server: 38.91.107.49
   port: 18000
@@ -531,7 +495,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: "\u7F8E\u56FD_110512017 H71"
+- name: "\u7F8E\u56FD_110605019 H71"
   type: vmess
   server: 38.110.1.246
   port: 18000
@@ -539,321 +503,98 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: "\u7F8E\u56FD_110512026 L1"
-  type: vmess
-  server: 43.130.35.53
-  port: 10087
-  uuid: 8e93b009-f1af-448a-b8ef-b110849a35f0
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: "\u7F8E\u56FD_110512028 L16"
-  type: vmess
-  server: 172.86.108.79
-  port: 42906
-  uuid: 9bcfd3b5-5f71-4938-b1d2-f8fdd895095d
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /9bcfd3b5-5f71-4938-b1d2-f8fdd895095d-vm
-    headers:
-      Host: www.bing.com
-- name: "\u7F8E\u56FD_110512029+M55"
+- name: "\u7F8E\u56FD_110605031+M55"
   type: ss
   server: 193.151.163.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_110512030+M58"
-  type: ss
-  server: 193.151.160.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_110512031+M58"
+- name: "\u7F8E\u56FD_110605032+M58"
   type: ss
   server: 193.151.160.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_110512032+H"
-  type: trojan
-  server: 169.197.140.218
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+- name: "\u7F8E\u56FD_110605033+M58"
+  type: ss
+  server: 193.151.160.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: "\u7F8E\u56FD_110512033+M63"
-  type: trojan
-  server: 66.163.112.121
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: www.unlockyourfuturefindyourperfectcareer.com
-- name: "\u7F8E\u56FD_110512034+M67"
+- name: "\u7F8E\u56FD_110605034+M67"
   type: trojan
   server: 66.163.112.13
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.unlockyourfuturefindyourperfectcareer.com
-- name: "\u7F8E\u56FD_110512035+H96"
-  type: ss
-  server: 172.111.38.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_110512036+M63"
+- name: "\u7F8E\u56FD_110605035+H"
   type: trojan
-  server: 167.88.61.52
+  server: 169.197.140.218
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-- name: "\u7F8E\u56FD_110512037+H"
+  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+- name: "\u7F8E\u56FD_110605036+M63"
   type: trojan
-  server: 66.163.114.114
+  server: 66.163.112.121
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: "\u7F8E\u56FD_110512038+M60"
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\u7F8E\u56FD_110512039+M60"
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\u7F8E\u56FD_110512040+M60"
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: "\u7F8E\u56FD_110512041+M41"
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: "\u7F8E\u56FD_110512042+L0"
-  type: ss
-  server: 49.51.39.148
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: LCvps-199-168-136-193-bak8443
-  udp: true
-- name: "\u7F8E\u56FD_110512043+L0"
-  type: trojan
-  server: 66.163.114.166
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: "\u7F8E\u56FD_110512044+M67"
-  type: trojan
-  server: 66.163.122.26
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
-- name: "\u7F8E\u56FD_110512045+M63"
-  type: trojan
-  server: 66.163.114.132
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: "\u7F8E\u56FD_110512046+H"
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+- name: "\u7F8E\u56FD_110605037+H"
   type: trojan
   server: 216.152.156.42
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: "\u7F8E\u56FD_110512047+H"
-  type: trojan
-  server: 216.152.156.65
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: "\u7F8E\u56FD_110512048+L0"
-  type: trojan
-  server: 167.88.61.198
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
-- name: "\u7F8E\u56FD_110512049+M61"
-  type: trojan
-  server: 216.152.147.48
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: courses.connectingpeoplewithgreatjobs.com
-- name: "\u7F8E\u56FD_110512050+M61"
-  type: trojan
-  server: 216.152.147.79
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: blog.connectingpeoplewithgreatjobs.com
-- name: "\u7F8E\u56FD_110512051+M60"
-  type: trojan
-  server: 170.101.101.19
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: "\u7F8E\u56FD_110512052+H"
-  type: trojan
-  server: 216.152.147.152
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: learn.connectingpeoplewithgreatjobs.com
-- name: "\u7F8E\u56FD_110512055+L25"
-  type: trojan
-  server: 69.164.240.85
-  port: 50875
-  password: nwilryafgkyvuxauc8pz
-  udp: true
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512056+L38"
-  type: trojan
-  server: 66.23.203.21
-  port: 59689
-  password: ae7eb4dwyaz25pxwgq59
-  udp: true
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512059+L20"
+- name: "\u7F8E\u56FD_110605038+H96"
   type: ss
-  server: 15.204.246.132
-  port: 7307
+  server: 172.111.38.72
+  port: 19999
   cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_110512065+M41"
+- name: "\u7F8E\u56FD_110605039+H"
+  type: trojan
+  server: 66.163.114.114
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: "\u7F8E\u56FD_110605042+M60"
   type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: "\u7F8E\u56FD_110512074+M63"
-  type: trojan
-  server: 66.163.127.155
+  server: 37.19.198.243
   port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  sni: indyourperfectremotetechjobfromthecomfortofhome.com
-- name: "\u7F8E\u56FD_110512089+H"
-  type: trojan
-  server: 216.152.147.74
+- name: "\u7F8E\u56FD_110605043+M60"
+  type: ss
+  server: 37.19.198.160
   port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  sni: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512093+M63"
-  type: trojan
-  server: 167.88.61.20
+- name: "\u7F8E\u56FD_110605044+M60"
+  type: ss
+  server: 37.19.198.244
   port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  sni: api.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512095"
-  type: trojan
-  server: sclass-c1.catcat321.com
-  port: 20086
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512096"
-  type: trojan
-  server: Sclass-00.catcat321.com
-  port: 20123
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512097"
+- name: "\u7F8E\u56FD_110605047"
   type: trojan
   server: Sclass-C1.catcat321.com
   port: 20086
   password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
   sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_110512198"
-  type: trojan
-  server: sclass-00.catcat321.com
-  port: 20123
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_1105123900+H86"
-  type: ss
-  server: 38.22.17.129
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123901+M63"
-  type: trojan
-  server: 66.163.114.126
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: "\u7F8E\u56FD_1105123902+H94"
-  type: ss
-  server: 167.17.64.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123903+H81"
-  type: ss
-  server: 38.22.17.214
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123904+H74"
-  type: ss
-  server: 66.163.125.120
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123905+M63"
-  type: trojan
-  server: 66.163.112.31
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: unlockyourfuturefindyourperfectcareer.com
-- name: "\u7F8E\u56FD_1105123906+H"
+- name: "\u7F8E\u56FD_110605050+H"
   type: trojan
   server: 66.163.114.245
   port: 443
@@ -861,39 +602,92 @@ proxies:
   udp: true
   sni: findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: true
-- name: "\u7F8E\u56FD_1105123907+L0"
+- name: "\u7F8E\u56FD_110605051+H81"
+  type: ss
+  server: 38.91.100.39
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605054+L25"
+  type: trojan
+  server: 69.164.240.85
+  port: 50875
+  password: nwilryafgkyvuxauc8pz
+  udp: true
+  sni: 69.164.240.85
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD_110605055+M50"
+  type: trojan
+  server: 66.163.114.45
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: "\u7F8E\u56FD_110605056+H"
+  type: trojan
+  server: 169.197.140.214
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+- name: "\u7F8E\u56FD_110605057+L0"
   type: trojan
   server: 66.163.112.242
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: 66.163.112.242
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_1105123908"
+  sni: resources.unlockyourfuturefindyourperfectcareer.com
+- name: "\u7F8E\u56FD_110605059+H"
   type: trojan
-  server: Sclass-C1.catcat321.com
-  port: 20065
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: "\u7F8E\u56FD_1105123910+M63"
-  type: trojan
-  server: 66.163.112.142
+  server: 216.152.156.65
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: cdn.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: true
-- name: "\u7F8E\u56FD_1105123911 L38"
-  type: vmess
-  server: 23.95.165.21
-  port: 32080
-  uuid: 38820c74-5e1e-44f7-a5b3-bff7f7c66286
-  alterId: 0
-  cipher: auto
+- name: "\u7F8E\u56FD_110605062+L38"
+  type: trojan
+  server: 66.23.203.21
+  port: 59689
+  password: ae7eb4dwyaz25pxwgq59
   udp: true
-- name: "\u7F8E\u56FD_1105123912+M63"
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD_110605063+H81"
+  type: ss
+  server: 38.22.17.214
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605064+M63"
+  type: trojan
+  server: 66.163.118.40
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: cdn.discovergreatjobsandadvanceyourcareer.com
+- name: "\u7F8E\u56FD_110605065+M67"
+  type: trojan
+  server: 169.197.140.224
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+- name: "\u7F8E\u56FD_110605067+H84"
+  type: ss
+  server: 38.128.66.32
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605068+M63"
+  type: trojan
+  server: 66.163.112.31
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: unlockyourfuturefindyourperfectcareer.com
+- name: "\u7F8E\u56FD_110605069+M63"
   type: trojan
   server: 216.152.155.131
   port: 443
@@ -901,422 +695,401 @@ proxies:
   udp: true
   sni: 216.152.155.131
   skip-cert-verify: true
-- name: "\u7F8E\u56FD_1105123913+M63"
-  type: trojan
-  server: 66.163.114.106
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: "\u7F8E\u56FD_1105123914+H94"
-  type: ss
-  server: 172.111.36.123
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123916+H83"
-  type: ss
-  server: 167.17.64.175
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123917+M63"
-  type: trojan
-  server: 66.163.118.40
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: cdn.discovergreatjobsandadvanceyourcareer.com
-- name: "\u7F8E\u56FD_1105123918+M63"
-  type: trojan
-  server: 66.163.112.171
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: learn.unlockyourfuturefindyourperfectcareer.com
-- name: "\u7F8E\u56FD_1105123919+M67"
-  type: ss
-  server: 167.17.71.167
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123920+M57"
-  type: ss
-  server: 84.20.27.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123921+M50"
-  type: trojan
-  server: 170.101.101.112
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: "\u7F8E\u56FD_1105123922+L0"
-  type: ss
-  server: 66.163.118.103
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123923+H90"
-  type: ss
-  server: 167.17.64.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123924+H84"
-  type: ss
-  server: 38.128.66.32
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123925+H81"
-  type: ss
-  server: 38.91.100.39
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123926+M61"
-  type: trojan
-  server: 216.152.147.93
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: connectingpeoplewithgreatjobs.com
-- name: "\u7F8E\u56FD_1105123927+H79"
-  type: ss
-  server: 137.184.89.151
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123928+M50"
-  type: trojan
-  server: 66.163.114.45
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: "\u7F8E\u56FD_1105123929+M63"
-  type: trojan
-  server: 66.163.112.147
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: courses.unlockyourfuturefindyourperfectcareer.com
-- name: "\u7F8E\u56FD_1105123930 L38"
-  type: vmess
-  server: 23.95.165.21
-  port: 52080
-  uuid: 296ce89e-03c8-40ed-aca1-736005884460
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: "\u7F8E\u56FD_1105123931+M64"
-  type: ss
-  server: 38.121.43.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123932+M61"
-  type: trojan
-  server: 216.152.147.201
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: resources.connectingpeoplewithgreatjobs.com
-- name: "\u7F8E\u56FD_1105123933+H75"
-  type: ss
-  server: 162.251.62.31
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123934+M63"
-  type: trojan
-  server: 169.197.140.245
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: "\u7F8E\u56FD_1105123935+H76"
-  type: ss
-  server: 169.197.142.68
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123936+H"
-  type: trojan
-  server: 169.197.140.171
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: "\u7F8E\u56FD_1105123937+H90"
-  type: ss
-  server: 216.106.178.169
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123938+M50"
-  type: ss
-  server: 15.204.247.244
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: "\u7F8E\u56FD_1105123939+H87"
-  type: ss
-  server: 149.40.57.133
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123940+H79"
-  type: ss
-  server: 38.22.17.219
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123941+L0"
-  type: ss
-  server: 38.121.43.225
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123942+H70"
-  type: ss
-  server: 149.40.57.138
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123943+H80"
-  type: ss
-  server: 169.197.140.247
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123944+H90"
-  type: ss
-  server: 38.143.66.146
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123945+M67"
-  type: ss
-  server: 38.121.43.231
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123946+H70"
-  type: ss
-  server: 38.91.107.19
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123947+H89"
-  type: ss
-  server: 167.88.63.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123948+H85"
-  type: ss
-  server: 38.91.107.57
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123949+H84"
-  type: ss
-  server: 167.88.62.203
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123950+M63"
+- name: "\u7F8E\u56FD_110605070+M63"
   type: trojan
   server: 66.163.112.76
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: api.unlockyourfuturefindyourperfectcareer.com
-- name: "\u7F8E\u56FD_1105123951+H91"
-  type: ss
-  server: 67.220.73.178
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123952+H85"
-  type: ss
-  server: 38.22.17.139
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123953+H85"
-  type: ss
-  server: 167.17.67.171
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u7F8E\u56FD_1105123954+H"
-  type: trojan
-  server: 169.197.140.214
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: "\u7F8E\u56FD_1105123955+H88"
+  sni: 66.163.112.76
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD_110605071+H88"
   type: ss
   server: 23.150.152.38
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123956+H82"
+- name: "\u7F8E\u56FD_110605072+H74"
   type: ss
-  server: 149.40.57.135
+  server: 66.163.125.120
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123958+H"
-  type: trojan
-  server: 169.197.140.169
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: api.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: "\u7F8E\u56FD_1105123959+M67"
-  type: trojan
-  server: 169.197.140.224
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: "\u7F8E\u56FD_1105123960+H88"
+- name: "\u7F8E\u56FD_110605073+H79"
   type: ss
-  server: 38.64.138.135
+  server: 137.184.89.151
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123961+H80"
+- name: "\u7F8E\u56FD_110605075+M63"
+  type: trojan
+  server: 66.163.112.147
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: courses.unlockyourfuturefindyourperfectcareer.com
+- name: "\u7F8E\u56FD_110605076+H80"
   type: ss
   server: 167.88.62.56
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123962+H75"
+- name: "\u7F8E\u56FD_110605077+H76"
+  type: ss
+  server: 169.197.142.68
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605078+H70"
+  type: ss
+  server: 38.91.107.19
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605079+H89"
+  type: ss
+  server: 167.88.63.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605080+H"
+  type: trojan
+  server: 169.197.140.171
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+- name: "\u7F8E\u56FD_110605081+L0"
+  type: ss
+  server: 66.163.118.103
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605083+H75"
+  type: ss
+  server: 162.251.62.31
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605084+H84"
+  type: ss
+  server: 167.88.62.203
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605085+L0"
+  type: ss
+  server: 38.121.43.225
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605086+H75"
   type: trojan
   server: 167.88.61.85
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.browseseniorrolesandenhanceyourcareertoday.com
-- name: "\u7F8E\u56FD_1105123963+H89"
+- name: "\u7F8E\u56FD_110605087+H90"
   type: ss
-  server: 62.93.179.117
+  server: 167.17.64.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123964+M68"
+- name: "\u7F8E\u56FD_110605088+M50"
+  type: trojan
+  server: 170.101.101.112
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: "\u7F8E\u56FD_110605089+M63"
+  type: trojan
+  server: 66.163.114.126
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: "\u7F8E\u56FD_110605090+M63"
+  type: trojan
+  server: 169.197.140.245
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+- name: "\u7F8E\u56FD_110605091+H80"
+  type: ss
+  server: 169.197.140.247
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605092+L20"
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: "\u7F8E\u56FD_110605094+M68"
   type: ss
   server: 38.91.107.188
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123965 M56"
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: aes-128-gcm
-  udp: true
-- name: "\u7F8E\u56FD_1105123966+M61"
+- name: "\u7F8E\u56FD_110605095+L0"
   type: trojan
-  server: 216.152.147.89
+  server: 167.88.61.198
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.connectingpeoplewithgreatjobs.com
-- name: "\u7F8E\u56FD_1105123967+H78"
+  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
+- name: "\u7F8E\u56FD_110605097+H87"
+  type: ss
+  server: 149.40.57.133
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605098+H"
+  type: trojan
+  server: 169.197.140.169
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD_110605099+M61"
+  type: trojan
+  server: 216.152.147.201
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: resources.connectingpeoplewithgreatjobs.com
+- name: "\u7F8E\u56FD_110605100+M50"
+  type: trojan
+  server: 167.88.61.193
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: browseseniorrolesandenhanceyourcareertoday.com
+- name: "\u7F8E\u56FD_110605104+H90"
+  type: ss
+  server: 216.106.178.169
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605105+L0"
+  type: ss
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: "\u7F8E\u56FD_110605106+H85"
+  type: ss
+  server: 38.22.17.139
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605107+H90"
+  type: ss
+  server: 38.143.66.146
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605108+H83"
+  type: ss
+  server: 167.17.64.175
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605109+H78"
   type: ss
   server: 167.88.63.39
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123968+H89"
+- name: "\u7F8E\u56FD_110605110+H85"
+  type: ss
+  server: 167.17.67.171
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605112+H89"
   type: ss
   server: 62.93.179.97
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123993+M63"
-  type: trojan
-  server: 66.163.127.215
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: courses.indyourperfectremotetechjobfromthecomfortofhome.com
-- name: "\u7F8E\u56FD_1105123996+H76"
+- name: "\u7F8E\u56FD_110605113+H70"
   type: ss
-  server: 149.40.57.134
+  server: 149.40.57.138
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123997+M40"
+- name: "\u7F8E\u56FD_110605114+H91"
   type: ss
-  server: 64.42.181.100
-  port: 12994
-  cipher: aes-128-gcm
-  password: "3b6e8dd05cbe6dbb013e175cdec214dc"
+  server: 67.220.73.178
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u7F8E\u56FD_1105123998"
+- name: "\u7F8E\u56FD_110605115+H86"
   type: ss
-  server: us-nyc-global2.xeovo.net
-  port: 9000
+  server: 38.22.17.129
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605116+H94"
+  type: ss
+  server: 172.111.36.123
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605117+H79"
+  type: ss
+  server: 38.22.17.219
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605118+H88"
+  type: ss
+  server: 38.64.138.135
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605119+M64"
+  type: ss
+  server: 38.121.43.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605120+M63"
+  type: trojan
+  server: 66.163.112.142
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: cdn.unlockyourfuturefindyourperfectcareer.com
+- name: "\u7F8E\u56FD_110605121+M67"
+  type: ss
+  server: 38.121.43.231
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605122+H94"
+  type: ss
+  server: 167.17.64.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605123+M60"
+  type: trojan
+  server: 170.101.101.19
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: "\u7F8E\u56FD_110605126+M63"
+  type: trojan
+  server: 66.163.112.171
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: learn.unlockyourfuturefindyourperfectcareer.com
+- name: "\u7F8E\u56FD_110605128+H82"
+  type: ss
+  server: 149.40.57.135
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605129+H85"
+  type: ss
+  server: 38.91.107.57
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605130+M57"
+  type: ss
+  server: 84.20.27.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605131+M41"
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: "\u7F8E\u56FD_110605132+M67"
+  type: ss
+  server: 167.17.71.167
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605133+H89"
+  type: ss
+  server: 62.93.179.117
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_110605157+L0"
+  type: ss
+  server: 49.51.39.148
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: pn6E56A7qktsmFhNR1Tl2sbahAhK
+  password: LCvps-199-168-136-193-bak8443
   udp: true
-- name: "\u7F8E\u56FD_1105124004+L0"
+- name: "\u7F8E\u56FD_110605180+L32"
   type: ss
-  server: 64.20.53.126
-  port: 17911
-  cipher: aes-128-gcm
-  password: "97b425d61ee0dbe58449e3614dae3e89"
+  server: 207.246.112.227
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: 9AUVPZfOeSHmVCMyLvIvrl1wVLvZf7Jv
   udp: true
-- name: "\u7F8E\u56FD_1105124010+L0"
+- name: "\u7F8E\u56FD_110605184"
+  type: vmess
+  server: dog-us.kunlun01dns.com
+  port: 21010
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: "\u7F8E\u56FD_1106053952+L0"
   type: trojan
   server: 66.163.122.81
   port: 443
@@ -1324,175 +1097,243 @@ proxies:
   udp: true
   sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
-- name: "\u82F1\u56FD_110512004+M58"
+- name: "\u7F8E\u56FD_1106053955+H76"
+  type: ss
+  server: 149.40.57.134
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u7F8E\u56FD_1106053958 L38"
+  type: vmess
+  server: 23.95.165.21
+  port: 52080
+  uuid: 296ce89e-03c8-40ed-aca1-736005884460
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: "\u7F8E\u56FD_1106053964 M56"
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: aes-128-gcm
+  udp: true
+- name: "\u7F8E\u56FD_1106053989"
+  type: ss
+  server: us-nyc-global2.xeovo.net
+  port: 9000
+  cipher: chacha20-ietf-poly1305
+  password: pn6E56A7qktsmFhNR1Tl2sbahAhK
+  udp: true
+- name: "\u7F8E\u56FD_1106053991"
+  type: ss
+  server: en.nekagsm.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: jisq9cNwk2qofcBK4nYIgv7wB51sH2U1
+  udp: true
+- name: "\u7F8E\u56FD_1106053995+M50"
+  type: trojan
+  server: 66.163.122.25
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
+- name: "\u7F8E\u56FD_1106054000+M40"
+  type: ss
+  server: 216.105.168.117
+  port: 19128
+  cipher: aes-128-gcm
+  password: "41ef8a2756d6740d776055212ee20714"
+  udp: true
+- name: "\u7F8E\u56FD_1106054002+M63"
+  type: trojan
+  server: 66.163.127.225
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
+  skip-cert-verify: true
+- name: "\u82AC\u5170_110605070 L0"
+  type: vmess
+  server: 185.212.149.7
+  port: 2053
+  uuid: aeb3c019-ae83-4677-af97-846baa787ad5
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: "\u82F1\u56FD_110605004+M58"
   type: ss
   server: 185.176.206.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u82F1\u56FD_110512005+L0"
-  type: ss
-  server: 82.38.31.159
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: "\u82F1\u56FD_110512006+L0"
+- name: "\u82F1\u56FD_110605005+L0"
   type: ss
   server: 82.38.31.171
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u82F1\u56FD_110512007+L0"
+- name: "\u82F1\u56FD_110605006+L0"
   type: ss
   server: 82.38.31.170
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u82F1\u56FD_110512008+L0"
+- name: "\u82F1\u56FD_110605007+L0"
+  type: ss
+  server: 82.38.31.159
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: "\u82F1\u56FD_110605008+L0"
   type: ss
   server: 82.38.31.42
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u82F1\u56FD_110512009+L0"
+- name: "\u82F1\u56FD_110605009+L0"
   type: ss
   server: 104.239.12.81
   port: 43385
   cipher: chacha20-ietf-poly1305
   password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
   udp: true
-- name: "\u82F1\u56FD_110512015+L0"
-  type: ss
-  server: 82.38.31.157
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: "\u82F1\u56FD_110512017+L0"
-  type: ss
-  server: 82.38.31.220
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: "\u82F1\u56FD_110512348+H90"
-  type: ss
-  server: 38.114.120.221
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u82F1\u56FD_110512349+H95"
-  type: ss
-  server: 142.202.51.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u82F1\u56FD_110512350+H91"
-  type: ss
-  server: 198.244.202.215
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u82F1\u56FD_110512351+H92"
+- name: "\u82F1\u56FD_110605010+H92"
   type: ss
   server: 198.244.201.129
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u82F1\u56FD_110512352+L0"
+- name: "\u82F1\u56FD_110605011+L0"
+  type: ss
+  server: 82.38.31.157
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: "\u82F1\u56FD_110605012+L0"
+  type: ss
+  server: 82.38.31.220
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: "\u82F1\u56FD_110605013+H95"
+  type: ss
+  server: 142.202.51.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u82F1\u56FD_110605014+H90"
+  type: ss
+  server: 38.114.120.221
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u82F1\u56FD_110605015+H91"
+  type: ss
+  server: 198.244.202.215
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u82F1\u56FD_110605016+L0"
   type: ss
   server: 82.38.31.165
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u8377\u5170_110512003+L0"
+- name: "\u8377\u5170_110605003+L0"
   type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u8377\u5170_110512004+L0"
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u8377\u5170_110512005+L0"
+- name: "\u8377\u5170_110605004+L0"
   type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u8377\u5170_110512006+L0"
+- name: "\u8377\u5170_110605005+L0"
   type: ss
-  server: 202.50.253.90
+  server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u8377\u5170_110512007+L0"
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: "\u8377\u5170_110512008+L0"
+- name: "\u8377\u5170_110605006+L0"
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u8377\u5170_110512011+M55"
+- name: "\u8377\u5170_110605007+L0"
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u8377\u5170_110605008+L0"
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: "\u8377\u5170_110605009+M55"
   type: ss
   server: 193.29.139.235
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u8377\u5170_110512574+L0"
-  type: ss
-  server: 77.221.132.206
-  port: 24759
-  cipher: chacha20-ietf-poly1305
-  password: hCgbUnMaoAfSgvE8IKdnGu
-  udp: true
-- name: "\u8377\u5170_110512575"
-  type: ss
-  server: dns22.m3hrzd.ir
-  port: 1348
-  cipher: chacha20-ietf-poly1305
-  password: 6Gzfdmd2cvye1qyKoub9E7eWijMDR2lK
-  udp: true
-- name: "\u8461\u8404\u7259_110512006+M41"
+- name: "\u8461\u8404\u7259_110605006+M41"
   type: ss
   server: 185.231.233.91
   port: 17167
   cipher: aes-128-gcm
   password: "d925ddb6fe1e6e62887cf3dc3f5137f3"
   udp: true
-- name: "\u897F\u73ED\u7259_110512028+M67"
+- name: "\u897F\u73ED\u7259_110605001+M67"
   type: ss
   server: 79.127.139.242
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\u97E9\u56FD_110512063"
+- name: "\u897F\u73ED\u7259_110605028+L4"
+  type: ss
+  server: 193.148.19.214
+  port: 12798
+  cipher: aes-128-gcm
+  password: "cd706a104284a70f9cffe6ac1df63c18"
+  udp: true
+- name: "\u963F\u8054\u914B_110605085+L20"
+  type: ss
+  server: 38.180.11.182
+  port: 12146
+  cipher: aes-128-gcm
+  password: "37a7c5fb6a3109207a0860d30bedb37c"
+  udp: true
+- name: "\u97E9\u56FD_110605006"
   type: trojan
   server: kr002.zestapp778.com
   port: 48851
@@ -1500,14 +1341,7 @@ proxies:
   udp: true
   sni: kr002.zestapp778.com
   skip-cert-verify: true
-- name: "\u97E9\u56FD_110512066+L3"
-  type: ss
-  server: 3.39.252.64
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
-- name: "\u9A6C\u6765\u897F\u4E9A_110512006 L0"
+- name: "\u9A6C\u6765\u897F\u4E9A_110605001 L0"
   type: vmess
   server: 47.250.135.244
   port: 10000
@@ -1515,6 +1349,14 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
+- name: "\u9A6C\u6765\u897F\u4E9A_110605002+L0"
+  type: trojan
+  server: 47.250.84.25
+  port: 443
+  password: "5931134d1cde66bf83a54acdfebe7ab2"
+  udp: true
+  sni: moltbot.doctoroyy.net
+  skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6765\u6E90: Leon406/SubCrawler"
   type: trojan
   server: 127.0.0.1
@@ -1523,21 +1365,21 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 451 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 411 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-05 19:43 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 07:47 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
+- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -1550,6 +1392,6 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: Leon406/SubCrawler"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 451 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-05 19:43 (CST)"
-  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/hkjych/Z"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 411 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 07:47 (CST)"
+  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
