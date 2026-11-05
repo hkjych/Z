@@ -58,10 +58,16 @@ def fetch_one(name, url):
     raise last_err
 
 
+# 由 scraper.py 抓取的来源:FETCH_URLS 里登记的是"文章分类页"(HTML),
+# 默认再下载一遍会把刚抓到的订阅覆盖成网页,导致该来源每轮清洗都失败。
+SCRAPED_BY_SCRAPER = {"yoyapai"}
+
+
 def main():
     if GH_PROXY:
         print(f"  [INFO] 使用 GitHub 镜像 GH_PROXY={GH_PROXY}(仅抓取节点文件,测速不走镜像)")
-    names = sys.argv[1:] if len(sys.argv) > 1 else list(FETCH_URLS)
+    names = (sys.argv[1:] if len(sys.argv) > 1
+             else [n for n in FETCH_URLS if n not in SCRAPED_BY_SCRAPER])
     unknown = [n for n in names if n not in FETCH_URLS]
     if unknown:
         raise SystemExit(f"[FAIL] 未知来源: {unknown} (可选: {', '.join(FETCH_URLS)})")

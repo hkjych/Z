@@ -35,7 +35,7 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from sanitize import SafeDumper, fake_proxy
+from sanitize import SafeDumper, clean_label, clean_proxy_name, fake_proxy
 from sources import SOURCES
 
 TEST_URL = "https://www.gstatic.com/generate_204"
@@ -79,6 +79,7 @@ GROUP_TYPES = {
 }
 SKIP_NAMES = {"GLOBAL", "DIRECT", "REJECT", "PASS"}
 REPO = "https://github.com/hkjych/Z"
+REPO_SLUG = "hkjych/Z"      # 说明节点里只写 owner/repo,不带网址
 
 # AIO 节点名标注:重新生成时可重复运行(先剥掉旧标注)
 ANNOTATION_RE = None
@@ -369,6 +370,14 @@ def load_inputs(inputs):
                 continue
             if str(p["name"]).startswith("说明-"):
                 continue
+            # 上游 AIO(如 hkjych/A、以及本仓库自身的 aio)节点名带本项目的
+            # "[12.3MB/s] / [测速失败] / [未测速]" 标注。它和原始来源里的同名节点
+            # (例如 🇮🇹IT意大利丨yoyapai.com)会在 annotate() 里被 strip_annotation()
+            # 剥成同一个名字,再被贴上同样的标签,最终生成两条完全同名的 proxy,
+            # mihomo 报 "proxy xxx is the duplicate name" 并拒绝加载整份配置。
+            # 入库前先剥掉旧标注,让去重/改名在这一层就完成;
+            # 再把名字里的网址(yoyapai.com 之类)删掉,统一成干净名字。
+            p = dict(p, name=clean_proxy_name(strip_annotation(p["name"])))
             key = hashlib.sha1(
                 json.dumps({k: v for k, v in p.items() if k != "name"},
                            sort_keys=True, ensure_ascii=False).encode("utf-8")
@@ -376,7 +385,7 @@ def load_inputs(inputs):
             if key in seen_cfg:
                 continue
             seen_cfg.add(key)
-            name = str(p["name"])
+            name = p["name"]
             if name in merged:
                 dup_names += 1
                 i = 2
@@ -389,6 +398,27 @@ def load_inputs(inputs):
             n += 1
         per_source[inp] = n
     return list(merged.values()), per_source, dup_names, src_of_name
+
+
+def dedupe_names(proxies):
+    """标注后的最后一道唯一性保障:重名会让 mihomo 拒绝加载整份配置。
+
+    不同来源可能给出"同名但不同配置"的节点(load_inputs 只按配置去重,
+    并给重名加 " #2" 后缀);一旦 annotate() 剥掉旧标注再贴上同样的速度标签,
+    两份名字就会重新撞在一起,所以这里统一补后缀兜底。
+    """
+    seen, out = set(), []
+    for p in proxies:
+        name = str(p["name"])
+        if name in seen:
+            i = 2
+            while f"{name} #{i}" in seen:
+                i += 1
+            name = f"{name} #{i}"
+            p = dict(p, name=name)
+        seen.add(name)
+        out.append(p)
+    return out
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
@@ -428,7 +458,7 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
             tag = f"[{rate:.1f}MB/s]"
         return dict(p, name=f"{tag} {base}")
 
-    annotated = [annotate(p, r) for p, _, r in ordered]
+    annotated = dedupe_names([annotate(p, r) for p, _, r in ordered])
     names = [p["name"] for p in annotated]
     name_of = {id(p): a["name"] for (p, _, _), a in zip(ordered, annotated)}
     fast_names = [name_of[id(p)] for p, _, _ in fast]
@@ -454,7 +484,7 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         fake_names.append("说明-测速: 本次跳过(测试文件不可达)")
     fake_names += [
         f"说明-更新时间: {now} (CST)",
-        f"说明-仓库: {REPO}",
+        f"说明-仓库: {REPO_SLUG}",
     ]
 
     groups = [{"name": "说明", "type": "select", "proxies": fake_names}]
@@ -480,9 +510,9 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
     for src, members in per_src.items():
-        label = SOURCES.get(src, (src, ""))[0]
+        label = clean_label(SOURCES.get(src, (src, ""))[0])
         groups.append({"name": f"📦 {label}", "type": "select", "proxies": members})
-    src_stat = {SOURCES.get(s, (s, ""))[0]: len(m) for s, m in per_src.items()}
+    src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
 
     return {
         "mixed-port": 7890,

@@ -17,7 +17,7 @@ concurrency:
 
 env:
   PYTHONUNBUFFERED: "1"
-  MIHOMO_VERSION: v1.19.9
+  MIHOMO_VERSION: latest      # 自动取 MetaCubeX/mihomo 最新发行版;要锁定版本就写成 v1.19.33
   MIHOMO_DIR: ${{ github.workspace }}/.cache/geo
 
 jobs:
@@ -40,13 +40,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: 缓存 mihomo 内核与地理库
+      # 只缓存地理库(几十 MB、几乎不变);内核本身每轮按最新版重新下载,
+      # 避免缓存把版本钉死,也省掉"版本一变就得换 key"的麻烦。
+      - name: 缓存地理库
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.cache/mihomo
-            .cache/geo
-          key: mihomo-${{ env.MIHOMO_VERSION }}-${{ runner.arch }}
+          path: .cache/geo
+          key: geo-${{ runner.arch }}-v1
 
       - name: Install mihomo core
         run: bash scripts/install_mihomo.sh

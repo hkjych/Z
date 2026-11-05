@@ -34,6 +34,145 @@ import yaml
 from sources import SOURCES
 
 REPO = "https://github.com/hkjych/Z"
+REPO_SLUG = "hkjych/Z"          # 说明节点里只写 owner/repo,不带网址
+
+# 节点名里不允许出现网址/域名(yoyapai.com、https://xxx 之类)。
+# 只认"带点的主机名",所以 IPv4(1.2.3.4)、版本号(v1.19.9)不会被误伤。
+_URLISH = re.compile(
+    r"(?i)(?:https?://|www[.])[^ \t丨|｜,，、]+"
+    r"|(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z]{2,24}(?:/[^ \t丨|｜,，、]*)?"
+)
+
+
+def _host_head(host) -> str:
+    """取网址的首段(去掉协议、www、端口、路径与后缀):yoyapai.com -> yoyapai。"""
+    h = str(host)
+    low = h.lower()
+    for prefix in ("https://", "http://", "www."):
+        if low.startswith(prefix):
+            h = h[len(prefix):]
+            break
+    for sep in ("/", "?", "#"):
+        h = h.split(sep)[0]
+    h = h.split(":")[0]
+    return h.split(".")[0] or ""
+
+
+_BRACKET_PAIRS = {"[": "]", "(": ")", "（": "）", "【": "】"}
+
+
+def _strip_unbalanced(s: str) -> str:
+    """删掉没有配对的括号(网址被删后常会剩半只括号)。"""
+    for op, cl in _BRACKET_PAIRS.items():
+        while s.count(op) > s.count(cl):
+            i = s.rfind(op)
+            s = s[:i] + s[i + 1:]
+        while s.count(cl) > s.count(op):
+            i = s.rfind(cl)
+            s = s[:i] + s[i + 1:]
+    return s
+
+
+_NAME_SEPS = " \t-_·,，、/=|" + chr(92)
+
+
+def clean_proxy_name(name) -> str:
+    """删掉节点名里的网址/域名,并清掉因此悬空的分隔符。
+
+    "🇮🇹IT意大利丨yoyapai.com"   -> "🇮🇹IT意大利"
+    "🇩🇪DE德国丨yoyapai.com (11)" -> "🇩🇪DE德国丨(11)"
+    """
+    s = str(name)
+    if not _URLISH.search(s):
+        return s
+    kept = []
+    for part in re.split(r"[丨|｜]", s):
+        t = _URLISH.sub("", part)
+        t = re.sub(r"[ \t]{2,}", " ", t).strip(_NAME_SEPS)
+        if t:
+            kept.append(t)
+    out = "丨".join(kept).strip(_NAME_SEPS)
+    out = re.sub(r"丨([（(\[])", r"\1", out)   # "…丨(2)" -> "…(2)",不留悬空分隔符
+    out = re.sub(r"[\[(（【]\s*[\])）】]", "", out)      # 删掉被清空后剩下的空括号
+    out = _strip_unbalanced(out)
+    out = re.sub(r"[ \t]{2,}", " ", out).strip(_NAME_SEPS)
+    if out and re.search(r"[0-9A-Za-z\u4e00-\u9fff]", out):
+        return out
+    # 名字里只剩表情/符号(如 "📦 yoyapai.com")时,退回网址首段,避免出现纯符号名
+    head = _host_head(_URLISH.search(s).group(0))
+    return head or "节点"
+
+
+def clean_label(label) -> str:
+    """分组/说明用的名称:删网址,但整段都是网址时保留首段(yoyapai.com -> yoyapai)。"""
+    s = str(label)
+    if not _URLISH.search(s):
+        return s
+    s = _URLISH.sub(lambda m: _host_head(m.group(0)), s)
+    s = re.sub(r"[ \t]{2,}", " ", s).strip()
+    return s.strip(_NAME_SEPS) or "节点"
+
+
+# 浏览器指纹取值(mihomo 的 client-fingerprint);带 chrome-120 之类的版本号也算
+_BROWSER_FP_RE = re.compile(
+    r"(?i)^(chrome|chromium|firefox|safari|edge|360|qq|ios|android|random|randomized)(-\d+)?$"
+)
+# TLS 证书固定(pinning)的取值:64 位十六进制 / 冒号分隔的十六进制 / base64
+_CERT_PIN_RE = re.compile(
+    r"^(?:[0-9A-Fa-f]{64}|(?:[0-9A-Fa-f]{2}:){31}[0-9A-Fa-f]{2}|[A-Za-z0-9+/]{43}=?)$"
+)
+
+
+def normalize_proxy_fields(proxy: dict) -> list:
+    """把上游常见的老字段/错字段改成 mihomo 认识的写法,返回修复说明。
+
+    `fingerprint` 在 mihomo 里是 TLS 证书固定,浏览器指纹必须写 `client-fingerprint`;
+    取值是 chrome/firefox 之类时直接改名,整个订阅才不会因为一个节点被内核拒绝。
+    """
+    fixes = []
+    name = str(proxy.get("name", "?"))[:24]
+
+    # REALITY 必须开 TLS,否则 mihomo 报 "REALITY requires TLS" 拒绝整份配置
+    if proxy.get("reality-opts") and proxy.get("tls") is not True:
+        proxy["tls"] = True
+        fixes.append(f"{name}: REALITY 补 tls: true")
+
+    # alpn 里有非法码点(上游写坏的 UTF-8):丢掉这个可选字段,别连累整份订阅
+    alpn = proxy.get("alpn")
+    if isinstance(alpn, list) and any(
+        isinstance(x, str) and find_bad_codepoints(x) for x in alpn
+    ):
+        del proxy["alpn"]
+        fixes.append(f"{name}: 丢弃含非法码点的 alpn")
+
+    fp = proxy.get("fingerprint")
+    if fp is None:
+        return fixes
+    value = fp.strip() if isinstance(fp, str) else ""
+    if value and _BROWSER_FP_RE.match(value):
+        if "client-fingerprint" not in proxy:
+            proxy["client-fingerprint"] = value
+        del proxy["fingerprint"]
+        fixes.append(f"{name}: fingerprint->client-fingerprint({value})")
+    elif value and _CERT_PIN_RE.match(value):
+        pass                     # 真的是证书固定,原样保留
+    else:
+        del proxy["fingerprint"]
+        fixes.append(f"{name}: 丢弃非法 fingerprint({str(fp)[:16]})")
+    return fixes
+
+
+def _rewrite_rule_target(rule: str, rename: dict) -> str:
+    """规则出口被改名时同步改写(否则该条规则会变成悬空引用被丢弃)。"""
+    target = rule_target(rule)
+    if target is None or target not in rename:
+        return rule
+    parts = split_rule_fields(rule)
+    idx = 1 if parts and parts[0].upper() in _NO_PAYLOAD_RULES else 2
+    if idx < len(parts):
+        parts[idx] = rename[target]
+        return ",".join(parts)
+    return rule
 
 # go-yaml v3 会把这些字符串解析为非字符串(yaml.v3 resolve.go):
 #   显式映射的 bool/null/inf/nan,以及 int/float/timestamp 样式。
@@ -64,7 +203,7 @@ KNOWN_TOP_LEVEL_KEYS = {
     "sniffer", "sniffing", "ntp", "experimental", "profile", "tunnel", "tls",
     "http", "socks", "script", "geodata-mode", "geodata-loader", "geox-url",
     "geo-auto-update", "geo-update-interval", "geosite-matcher",
-    "unified-delay", "tcp-concurrent", "find-process-mode", "global-client-fingerprint",
+    "unified-delay", "tcp-concurrent", "find-process-mode",
     "global-ua", "keep-alive-idle", "keep-alive-interval", "disable-keep-alive",
     "cfw-latency-url", "cfw-latency-type", "cfw-latency-timeout",
     "cfw-conn-break-strategy", "clash-for-android", "url-rewrite",
@@ -169,10 +308,10 @@ def strip_injected(data):
 def inject_fake_nodes(data, source_label, dropped_count, escaped_chars, time_str, fixes=0):
     """注入一组"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/仓库。"""
     names = [
-        f"说明-来源: {source_label}",
+        f"说明-来源: {clean_label(source_label)}",
         f"说明-清洗结果: 清理 {dropped_count} 个节点、修复 {fixes} 处引用、转译 {escaped_chars} 个字符",
         f"说明-更新时间: {time_str} (CST)",
-        f"说明-仓库: {REPO}",
+        f"说明-仓库: {REPO_SLUG}",
     ]
     proxies = data.get("proxies")
     if isinstance(proxies, list):
@@ -255,10 +394,18 @@ def deep_clean(node, removed=None):
     return node
 
 
+# mihomo 1.19.x 起移除的顶层配置:保留会被内核直接判为错误
+REMOVED_TOP_KEYS = {"global-client-fingerprint"}
+
+
 def drop_junk_keys(data):
     """剔除上游错误页残留的标量顶层键(如 "error code: 520")。"""
     dropped, kept_unknown = [], []
     for k in list(data.keys()):
+        if k in REMOVED_TOP_KEYS:
+            dropped.append((k, "mihomo 已移除,改在各节点上写 client-fingerprint"))
+            del data[k]
+            continue
         if k in KNOWN_TOP_LEVEL_KEYS:
             continue
         if isinstance(data[k], (dict, list)):
@@ -447,6 +594,41 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
 
     dropped_names = {name for name, _ in dropped_nodes}
 
+    # 2.4) 字段规范化:老字段/错字段改成 mihomo 认识的写法(否则单个节点就能让门禁红)
+    field_fixes = []
+    for p in data["proxies"]:
+        if isinstance(p, dict):
+            field_fixes.extend(normalize_proxy_fields(p))
+
+    # 2.5) 名称去网址:节点名彻底删掉域名,分组名退化成首段,并同步改写引用
+    rename = {}
+    for p in data["proxies"]:
+        old = str(p.get("name", "") or "")
+        new = clean_proxy_name(old)
+        if new != old:
+            rename[old] = new
+            p["name"] = new
+    for g in data.get("proxy-groups") or []:
+        if not isinstance(g, dict):
+            continue
+        old = str(g.get("name", "") or "")
+        new = clean_label(old)
+        if new != old:
+            rename.setdefault(old, new)
+            g["name"] = new
+    if rename:
+        for g in data.get("proxy-groups") or []:
+            if not isinstance(g, dict):
+                continue
+            refs = g.get("proxies")
+            if isinstance(refs, list):
+                g["proxies"] = [rename.get(r, r) if isinstance(r, str) else r for r in refs]
+        if isinstance(data.get("rules"), list):
+            data["rules"] = [
+                _rewrite_rule_target(r, rename) if isinstance(r, str) else r
+                for r in data["rules"]
+            ]
+
     # 3) 清洗 proxy-groups:剔除引用已删节点的项;组字段含非法码点则丢组
     if isinstance(data.get("proxy-groups"), list):
         cleaned = []
@@ -525,13 +707,17 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
     os.replace(tmp, dst)
 
     total = len(dropped_nodes) + len(dup_nodes) + len(dropped_groups) + len(dup_groups) \
-        + dropped_rules + len(dropped_other) + len(junk_keys) + len(fixes)
+        + dropped_rules + len(dropped_other) + len(junk_keys) + len(fixes) + len(rename) + len(field_fixes)
     print(f"[OK] {src} -> {dst} (来源: {source_label})")
     print(f"     节点: 丢弃 {len(dropped_nodes)} 个(控制字符)、{len(dup_nodes)} 个(无名/重复)")
     if dropped_names:
         print(f"     被丢弃节点示例: {[n for n, _ in dropped_nodes][:5]}")
     if renamed_nodes:
         print(f"     重命名冲突节点 {len(renamed_nodes)} 个: {renamed_nodes[:3]}")
+    if rename:
+        print(f"     名称去网址 {len(rename)} 个: {list(rename.items())[:3]}")
+    if field_fixes:
+        print(f"     字段规范化 {len(field_fixes)} 处: {field_fixes[:3]}")
     if dropped_groups:
         print(f"     分组: 丢弃 {len(dropped_groups)} 个(控制字符)")
     if dup_groups:
