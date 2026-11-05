@@ -95,7 +95,9 @@ def clean_proxy_name(name) -> str:
     out = re.sub(r"丨([（(\[])", r"\1", out)   # "…丨(2)" -> "…(2)",不留悬空分隔符
     out = re.sub(r"[\[(（【]\s*[\])）】]", "", out)      # 删掉被清空后剩下的空括号
     out = _strip_unbalanced(out)
-    out = re.sub(r"[ \t]{2,}", " ", out).strip(_NAME_SEPS)
+    out = re.sub(r"_{2,}", "_", out)                 # dokng.com 删掉后常留下 "__"
+    out = re.sub(r"[丨|｜]{2,}", "丨", out)
+    out = re.sub(r"[ \t]{2,}", " ", out).strip(_NAME_SEPS + "：:")
     if out and re.search(r"[0-9A-Za-z\u4e00-\u9fff]", out):
         return out
     # 名字里只剩表情/符号(如 "📦 yoyapai.com")时,退回网址首段,避免出现纯符号名
@@ -158,7 +160,7 @@ def normalize_proxy_fields(proxy: dict) -> list:
         pass                     # 真的是证书固定,原样保留
     else:
         del proxy["fingerprint"]
-        fixes.append(f"{name}: 丢弃非法 fingerprint({str(fp)[:16]})")
+        fixes.append(f"{name}: 丢弃非法 fingerprint({str(fp)[:16] or '空值'})")
     return fixes
 
 
