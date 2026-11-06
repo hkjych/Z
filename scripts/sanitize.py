@@ -34,7 +34,7 @@ import yaml
 from sources import SOURCES
 
 REPO = "https://github.com/hkjych/Z"
-AUTHOR = "wzmwayne"             # 上游作者
+AUTHOR = "github"             # 上游作者
 REPO_SLUG = "hkjych/Z"          # 说明节点里只写 owner/repo,不带网址
 
 # 节点名里不允许出现网址/域名(yoyapai.com、https://xxx 之类)。
