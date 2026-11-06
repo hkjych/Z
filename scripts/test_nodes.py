@@ -91,7 +91,9 @@ def _annotation_re():
 
     global ANNOTATION_RE
     if ANNOTATION_RE is None:
-        ANNOTATION_RE = re.compile(r"^\[(?:\d+(?:\.\d+)?\s*MB/s|测速失败|未测速)\]\s+")
+        ANNOTATION_RE = re.compile(
+            r"^\[(?:[⚡🏅])?(?:\d+(?:\.\d+)?\s*MB/s|测速失败|未测速)\]\s*"
+        )
     return ANNOTATION_RE
 
 
@@ -478,27 +480,35 @@ def build_groups(names, fast_names=None, quality_names=None):
     master_name = "🔰 总模式"
     manual_name = "🚀 手动选择"
     auto = {"name": "♻️ 自动选择", "type": "url-test", "url": TEST_URL,
-            "interval": 300, "tolerance": 50, "proxies": names}
+            "interval": 300, "tolerance": 50, "include-all-proxies": True}
     lowest = {"name": "⏳ 延迟最低", "type": "url-test", "url": TEST_URL,
-              "interval": 300, "tolerance": 0, "lazy": False, "proxies": names}
+              "interval": 300, "tolerance": 0, "lazy": False, "include-all-proxies": True}
     fallback = {"name": "🔁 故障转移", "type": "fallback", "url": TEST_URL,
-                "interval": 300, "proxies": names}
+                "interval": 300, "include-all-proxies": True}
     balance = {"name": "⚖️ 负载均衡", "type": "load-balance", "url": TEST_URL,
-               "interval": 300, "strategy": "round-robin", "proxies": names}
+               "interval": 300, "strategy": "round-robin", "include-all-proxies": True}
     # 国内直连:默认 DIRECT;想屏蔽国内流量可选 REJECT。
     # 不能把 manual 放进这里,否则 手动选择 <-> 国内直连 互相引用会被内核判为环。
     domestic = {"name": "🇨🇳 国内直连", "type": "select",
                 "proxies": ["DIRECT", "REJECT"]}
-    # 手动选择:只放全部节点,不再嵌任何分组
-    manual = {"name": manual_name, "type": "select", "proxies": names}
+    # 手动选择:收全部节点(用 include-all-proxies 条件收录,不再重复列名字)
+    manual = {"name": manual_name, "type": "select", "include-all-proxies": True}
 
+    # 高速/优质:同样 include-all-proxies,再用 filter 按名字里的 ⚡/🏅 标记筛选;
+    # 没有匹配时用 DIRECT 兜底,避免出现空分组
     extras = []
     if fast_names is not None:
-        extras.append({"name": "⚡ 高速节点", "type": "select",
-                       "proxies": fast_names or ["DIRECT"]})
+        fast = {"name": "⚡ 高速节点", "type": "select",
+                "include-all-proxies": True, "filter": "⚡"}
+        if not fast_names:      # 一个都没筛到时给 DIRECT 兜底,避免空分组
+            fast["proxies"] = ["DIRECT"]
+        extras.append(fast)
     if quality_names is not None:
-        extras.append({"name": "🏅 优质节点", "type": "select",
-                       "proxies": quality_names or ["DIRECT"]})
+        quality = {"name": "🏅 优质节点", "type": "select",
+                   "include-all-proxies": True, "filter": "🏅"}
+        if not quality_names:
+            quality["proxies"] = ["DIRECT"]
+        extras.append(quality)
 
     # 总模式:唯一入口;第一项=自动选择,即默认值
     picks = [auto, manual] + extras + [lowest, fallback, balance, domestic]
@@ -535,11 +545,16 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
     ordered = fast + quality_only + rest   # 全部精选:高速 -> 优质 -> 其余按延迟
 
     def annotate(p, rate):
+        """给节点名打标签;⚡/🏅 是分组筛选用的一次性标记,剥掉即可还原原名。"""
         base = strip_annotation(p["name"])
         if not speed_enabled or p["name"] not in tested_names:
             tag = "[未测速]"          # 本轮没有对它做测速(例如受 --speed-max-nodes 限制)
         elif rate is None:
             tag = "[测速失败]"
+        elif rate > threshold:
+            tag = f"[⚡{rate:.1f}MB/s]"          # 高速:filter 用 ⚡ 选中
+        elif rate >= quality_min_speed:
+            tag = f"[🏅{rate:.1f}MB/s]"          # 优质:filter 用 🏅 选中
         else:
             tag = f"[{rate:.1f}MB/s]"
         return dict(p, name=f"{tag} {base}")
