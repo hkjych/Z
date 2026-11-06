@@ -462,16 +462,18 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
         "external-controller": "127.0.0.1:9090",
         "proxies": ordered,
         "proxy-groups": groups,
-        "rules": ["GEOIP,CN,🇨🇳 国内直连", "MATCH,🚀 手动选择"],
+        "rules": ["GEOIP,CN,🇨🇳 国内直连", "MATCH,🔰 总模式"],
     }, src_stat
 
 
 def build_groups(names):
     """生成统一的出口分组(不再有说明/来源分组)。
 
-    手动选择(含另外四个自动组) / 自动选择(url-test) / 延迟最低(tolerance=0)
-    / 故障转移(fallback) / 负载均衡(load-balance, round-robin)。
+    总模式(select,第一个选项=默认自动选择) / 手动选择 / 自动选择(url-test)
+    / 延迟最低(tolerance=0) / 故障转移(fallback) / 负载均衡(load-balance, round-robin)
+    / 国内直连(select{DIRECT,REJECT})。
     """
+    master_name = "🔰 总模式"
     manual_name = "🚀 手动选择"
     auto = {"name": "♻️ 自动选择", "type": "url-test", "url": TEST_URL,
             "interval": 300, "tolerance": 50, "proxies": names}
@@ -488,7 +490,11 @@ def build_groups(names):
     manual = {"name": manual_name, "type": "select",
               "proxies": [auto["name"], lowest["name"], fallback["name"],
                           balance["name"], domestic["name"]] + names}
-    return [manual, auto, lowest, fallback, balance, domestic]
+    # 总模式:唯一入口,把六个出口收在一层里;第一项=自动选择,即默认值
+    master = {"name": master_name, "type": "select",
+              "proxies": [auto["name"], manual_name, lowest["name"],
+                          fallback["name"], balance["name"], domestic["name"]]}
+    return [master, manual, auto, lowest, fallback, balance, domestic]
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
@@ -552,7 +558,7 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         "external-controller": "127.0.0.1:9090",
         "proxies": annotated,
         "proxy-groups": groups,
-        "rules": ["GEOIP,CN,🇨🇳 国内直连", "MATCH,🚀 手动选择"],
+        "rules": ["GEOIP,CN,🇨🇳 国内直连", "MATCH,🔰 总模式"],
     }, len(fast), len(quality), src_stat
 
 
