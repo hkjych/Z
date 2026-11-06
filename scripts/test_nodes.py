@@ -23,6 +23,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import shutil
 import socket
 import string
@@ -80,6 +81,101 @@ GROUP_TYPES = {
 SKIP_NAMES = {"GLOBAL", "DIRECT", "REJECT", "PASS"}
 REPO = "https://github.com/hkjych/Z"
 AUTHOR = ""          # 上游作者,写进 说明-作者
+# ---- 按国家编排:从名字里认出国家/地区,排序时聚在一起 -------------------
+# 顺序按国内用户常用程度排;不在表里的国家排在最后,再按名字排。
+COUNTRY_ORDER = [
+    "HK", "MO", "TW", "JP", "KR", "SG", "US", "CA", "GB", "DE",
+    "NL", "FR", "IT", "ES", "PT", "SE", "FI", "NO", "DK", "PL",
+    "CH", "AT", "IE", "BE", "CZ", "HU", "RO", "UA", "RU", "TR",
+    "AE", "SA", "IL", "IN", "TH", "VN", "MY", "PH", "ID", "AU",
+    "NZ", "BR", "AR", "CL", "PE", "CO", "MX", "ZA", "EG", "NG", "KZ",
+]
+_FLAG_RE = re.compile("[\U0001F1E6-\U0001F1FF]{2}")
+_CODE_RE = re.compile(
+    r"(?i)(?<![A-Za-z])(HK|MO|TW|JP|KR|SG|US|CA|GB|UK|DE|NL|FR|IT|ES|PT|SE|FI|NO|"
+    r"DK|PL|CH|AT|IE|BE|CZ|HU|RO|UA|RU|TR|AE|SA|IL|IN|TH|VN|MY|PH|ID|AU|NZ|BR|"
+    r"AR|CL|PE|CO|MX|ZA|EG|NG|KZ)(?![A-Za-z])"
+)
+_CN_COUNTRY = {
+    "香港": "HK", "澳门": "MO", "澳門": "MO", "台湾": "TW", "台灣": "TW",
+    "日本": "JP", "韩国": "KR", "韓國": "KR", "新加坡": "SG", "美国": "US",
+    "美國": "US", "加拿大": "CA", "英国": "GB", "英國": "GB", "德国": "DE",
+    "德國": "DE", "荷兰": "NL", "荷蘭": "NL", "法国": "FR", "法國": "FR",
+    "意大利": "IT", "西班牙": "ES", "葡萄牙": "PT", "瑞典": "SE", "芬兰": "FI",
+    "芬蘭": "FI", "挪威": "NO", "丹麦": "DK", "丹麥": "DK", "波兰": "PL",
+    "波蘭": "PL", "瑞士": "CH", "奥地利": "AT", "奧地利": "AT", "爱尔兰": "IE",
+    "愛爾蘭": "IE", "比利时": "BE", "比利時": "BE", "捷克": "CZ", "匈牙利": "HU",
+    "罗马尼亚": "RO", "羅馬尼亞": "RO", "乌克兰": "UA", "烏克蘭": "UA",
+    "俄罗斯": "RU", "俄羅斯": "RU", "土耳其": "TR", "阿联酋": "AE",
+    "阿聯酋": "AE", "沙特": "SA", "以色列": "IL", "印度": "IN", "泰国": "TH",
+    "泰國": "TH", "越南": "VN", "马来西亚": "MY", "馬來西亞": "MY",
+    "菲律宾": "PH", "菲律賓": "PH", "印尼": "ID", "澳大利亚": "AU",
+    "澳大利亞": "AU", "澳洲": "AU", "新西兰": "NZ", "紐西蘭": "NZ",
+    "巴西": "BR", "阿根廷": "AR", "智利": "CL", "秘鲁": "PE", "哥伦比亚": "CO",
+    "墨西哥": "MX", "南非": "ZA", "埃及": "EG", "尼日利亚": "NG",
+    "哈萨克斯坦": "KZ",
+}
+
+
+def country_of(name):
+    """从节点名里认出国家/地区代码(优先国旗,其次中文国名,最后两字母代码)。"""
+    base = strip_annotation(str(name))
+    m = _FLAG_RE.search(base)
+    if m:
+        return "".join(chr(ord(ch) - 0x1F1E6 + 65) for ch in m.group(0))
+    for word in re.findall(r"[\u4e00-\u9fff]{2,4}", base):
+        if word in _CN_COUNTRY:
+            return _CN_COUNTRY[word]
+    m = _CODE_RE.search(base)
+    if m:
+        code = m.group(1).upper()
+        return "GB" if code == "UK" else code
+    return ""
+
+
+def country_key(name):
+    """排序键:(国家序号, 国家码, 名字);认不出的国家排最后。"""
+    code = country_of(name)
+    try:
+        return (COUNTRY_ORDER.index(code), code, str(name))
+    except ValueError:
+        return (len(COUNTRY_ORDER), code or "ZZ", str(name))
+
+
+def _flag(code):
+    """ISO2 -> 国旗 emoji;认不出的用 🌐。"""
+    if len(code) != 2 or not code.isalpha() or code == "UN":
+        return "🌐"
+    return "".join(chr(0x1F1E6 + ord(ch) - 65) for ch in code.upper())
+
+
+def rebuild_names(items):
+    """把节点名统一成「国旗+英文简称+三位编号」:🇭🇰HK001 / 🇺🇸US002 …
+
+    items 是 [(proxy, delay, rate)];返回 [(item, 新名字)],并按
+    「国家顺序 + 同国家内速度从高到低」排好——编号因此就是该国家的排名。
+    认不出国家的归到 UN。原名里的日期、网址、ID 全部丢弃。
+    """
+    def rate_key(t):
+        rate = t[2]
+        return -(rate if isinstance(rate, (int, float)) else -1)
+
+    def country_sort_key(t):
+        code = country_of(t[0]["name"])
+        idx = COUNTRY_ORDER.index(code) if code in COUNTRY_ORDER else len(COUNTRY_ORDER)
+        return (idx, code or "ZZ")
+
+    # 国家在前、速度在后;不用 country_key(它把名字也拼进键里,会把速度覆盖掉)
+    ordered = sorted(items, key=lambda t: (country_sort_key(t), rate_key(t)))
+    counters, out = {}, []
+    for item in ordered:
+        code = country_of(item[0]["name"]) or "UN"
+        idx = counters.get(code, 0) + 1
+        counters[code] = idx
+        out.append((item, f"{_flag(code)}{code}{idx:03d}"))
+    return out
+
+
 REPO_SLUG = "hkjych/Z"      # 说明节点里只写 owner/repo,不带网址
 
 # AIO 节点名标注:重新生成时可重复运行(先剥掉旧标注)
@@ -444,9 +540,10 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     """
     annotated = dedupe_names([dict(p, name=strip_annotation(p["name"])) for p in proxies])
     srcs = [src_of_name.get(p["name"], "") for p in proxies]
-    pairs = sorted(zip(srcs, annotated), key=lambda sp: (sp[0], sp[1]["name"]))
-    ordered = [p for _, p in pairs]
+    named = rebuild_names([(p, None, None) for p in annotated])
+    ordered = [dict(item[0], name=nm) for item, nm in named]
     names = [p["name"] for p in ordered]
+    pairs = list(zip(srcs, ordered))
 
     per_src = {}
     for src, p in pairs:
@@ -544,30 +641,33 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
     quality = quality_only                 # 与"高速"互斥,两组不重叠
     ordered = fast + quality_only + rest   # 全部精选:高速 -> 优质 -> 其余按延迟
 
-    def annotate(p, rate):
-        """给节点名打标签;⚡/🏅 是分组筛选用的一次性标记,剥掉即可还原原名。"""
-        base = strip_annotation(p["name"])
+    def tag_of(p, rate):
+        """测速结果的标记;⚡/🏅 同时供分组 filter 使用。"""
         if not speed_enabled or p["name"] not in tested_names:
-            tag = "[未测速]"          # 本轮没有对它做测速(例如受 --speed-max-nodes 限制)
-        elif rate is None:
-            tag = "[测速失败]"
-        elif rate > threshold:
-            tag = f"[⚡{rate:.1f}MB/s]"          # 高速:filter 用 ⚡ 选中
-        elif rate >= quality_min_speed:
-            tag = f"[🏅{rate:.1f}MB/s]"          # 优质:filter 用 🏅 选中
-        else:
-            tag = f"[{rate:.1f}MB/s]"
-        return dict(p, name=f"{tag} {base}")
+            return "[未测速]"         # 本轮没有对它做测速(例如受 --speed-max-nodes 限制)
+        if rate is None:
+            return "[测速失败]"
+        if rate > threshold:
+            return f"[⚡{rate:.1f}MB/s]"          # 高速:filter 用 ⚡ 选中
+        if rate >= quality_min_speed:
+            return f"[🏅{rate:.1f}MB/s]"          # 优质:filter 用 🏅 选中
+        return f"[{rate:.1f}MB/s]"
 
-    annotated = dedupe_names([annotate(p, r) for p, _, r in ordered])
+    # 名字统一成 🇭🇰HK001,前面保留测速标记;顺序也改为「国家 -> 速度」
+    named = rebuild_names(ordered)
+    ordered = [item[0] for item, _ in named]
+    annotated = [
+        dict(item[0], name=f"{tag_of(item[0], item[2])} {nm}")
+        for item, nm in named
+    ]
     names = [p["name"] for p in annotated]
-    name_of = {id(p): a["name"] for (p, _, _), a in zip(ordered, annotated)}
+    name_of = {id(p): a["name"] for p, a in zip(ordered, annotated)}
     fast_names = [name_of[id(p)] for p, _, _ in fast]
     quality_names = [name_of[id(p)] for p, _, _ in quality]
 
     # 不再注入"说明-"节点;分组固定为 手动/自动/延迟最低/故障转移/负载均衡
     per_src = {}
-    for p, _, _ in ordered:
+    for p in ordered:
         src = src_of_name.get(p["name"], "")
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
