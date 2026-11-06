@@ -35,6 +35,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from functools import lru_cache
 
 from sanitize import SafeDumper, clean_label, clean_proxy_name
 from sources import SOURCES
@@ -161,7 +162,7 @@ def rebuild_names(items):
         return -(rate if isinstance(rate, (int, float)) else -1)
 
     def country_sort_key(t):
-        code = country_of(t[0]["name"])
+        code = node_country(t[0])
         idx = COUNTRY_ORDER.index(code) if code in COUNTRY_ORDER else len(COUNTRY_ORDER)
         return (idx, code or "ZZ")
 
@@ -169,11 +170,153 @@ def rebuild_names(items):
     ordered = sorted(items, key=lambda t: (country_sort_key(t), rate_key(t)))
     counters, out = {}, []
     for item in ordered:
-        code = country_of(item[0]["name"]) or "UN"
+        code = node_country(item[0]) or "UN"
         idx = counters.get(code, 0) + 1
         counters[code] = idx
         out.append((item, f"{_flag(code)}{code}{idx:03d}"))
     return out
+
+
+# 补充常见国家/地区的中文名(主表里没收录的),没有的仍显示代码
+_CN_EXTRA = {
+    "AL": "阿尔巴尼亚", "AM": "亚美尼亚", "AZ": "阿塞拜疆", "BA": "波黑",
+    "BD": "孟加拉", "BG": "保加利亚", "BH": "巴林", "BN": "文莱",
+    "BO": "玻利维亚", "BT": "不丹", "BY": "白俄罗斯", "BZ": "伯利兹",
+    "CI": "科特迪瓦", "CM": "喀麦隆", "CN": "中国", "CR": "哥斯达黎加",
+    "CU": "古巴", "CY": "塞浦路斯", "DZ": "阿尔及利亚", "EC": "厄瓜多尔",
+    "EE": "爱沙尼亚", "ET": "埃塞俄比亚", "EU": "欧洲", "GE": "格鲁吉亚",
+    "GH": "加纳", "GL": "格陵兰", "GR": "希腊", "GT": "危地马拉",
+    "HN": "洪都拉斯", "HR": "克罗地亚", "IQ": "伊拉克", "IR": "伊朗",
+    "IS": "冰岛", "JM": "牙买加", "JO": "约旦", "KE": "肯尼亚",
+    "KG": "吉尔吉斯斯坦", "KH": "柬埔寨", "KW": "科威特", "LA": "老挝",
+    "LB": "黎巴嫩", "LK": "斯里兰卡", "LT": "立陶宛", "LU": "卢森堡",
+    "LV": "拉脱维亚", "MA": "摩洛哥", "MD": "摩尔多瓦", "ME": "黑山",
+    "MK": "北马其顿", "MM": "缅甸", "MN": "蒙古", "MT": "马耳他",
+    "MV": "马尔代夫", "NP": "尼泊尔", "OM": "阿曼", "PA": "巴拿马",
+    "PK": "巴基斯坦", "PR": "波多黎各", "PY": "巴拉圭", "QA": "卡塔尔",
+    "RS": "塞尔维亚", "SC": "塞舌尔", "SI": "斯洛文尼亚", "SK": "斯洛伐克",
+    "SN": "塞内加尔", "SY": "叙利亚", "TJ": "塔吉克斯坦", "TM": "土库曼斯坦",
+    "TN": "突尼斯", "TT": "特立尼达", "TZ": "坦桑尼亚", "UG": "乌干达",
+    "UY": "乌拉圭", "UZ": "乌兹别克斯坦", "VE": "委内瑞拉", "XK": "科索沃",
+}
+
+_CODE_CN = {}
+for _code, _cn in _CN_EXTRA.items():
+    _CODE_CN.setdefault(_code, _cn)
+for _cn, _code in _CN_COUNTRY.items():
+    _CODE_CN.setdefault(_code, _cn)          # 一码多名的取第一个
+
+
+def country_label(code):
+    """国家目录名:国旗 + 中文名,如 🇯🇵日本;认不出的统一 🌐全球。"""
+    if not code or code == "UN":
+        return "🌐全球"
+    return f"{_flag(code)}{_CODE_CN.get(code, code)}"
+
+
+def country_groups(items):
+    """把节点按国家归档,返回 [(目录名, 国家码)],按 COUNTRY_ORDER 排序,全球最后。
+
+    items 是 [(proxy, delay, rate)] 或 [proxy]。国家优先按服务器 IP 归属地判定,
+    查不到才退回名字线索;只有真的有节点的国家才会出现在列表里。
+    """
+    codes = set()
+    for it in items:
+        proxy = it[0] if isinstance(it, tuple) else it
+        codes.add(node_country(proxy) or "UN")
+
+    def sort_key(code):
+        idx = COUNTRY_ORDER.index(code) if code in COUNTRY_ORDER else len(COUNTRY_ORDER)
+        return (idx, code)
+
+    return [(country_label(code), code) for code in sorted(codes, key=sort_key)]
+
+
+# ---- IP 归属地反查:优先按服务器 IP 判定国家,查不到才看名字 ----------------
+_GEOIP = {"db": None, "failed": False}
+_HOST_IP = {}
+
+
+def _is_ipv4(text):
+    try:
+        socket.inet_aton(str(text))
+        return str(text).count(".") == 3
+    except OSError:
+        return False
+
+
+def _country_db():
+    """惰性加载离线 IP 归属地库(scripts/ip_country.py,CSV 形式)。
+
+    库缺失/下载失败时只打印一次 warning,调用方退回按节点名识别。
+    """
+    if _GEOIP["db"] is not None or _GEOIP["failed"]:
+        return _GEOIP["db"]
+    try:
+        import ip_country
+        path = ip_country.ensure_csv()
+        if not path:
+            raise FileNotFoundError("归属地库下载失败")
+        _GEOIP["db"] = ip_country.IpCountry(path)
+    except Exception as e:                       # noqa: BLE001
+        _GEOIP["failed"] = True
+        print(f"::warning::IP 归属地库不可用({e}),国家改按节点名推断")
+    return _GEOIP["db"]
+
+
+def warm_hosts(hosts, workers=128, timeout=1.5, budget=90.0, limit=4000):
+    """批量把域名型 server 解析成 IP,供归属地查询用。
+
+    有总时长预算:解析不完的直接放弃(那些节点退回按名字识别国家),
+    否则 DNS 挂掉时这一步能把整轮任务拖死。
+    """
+    todo = [h for h in {str(x).strip() for x in hosts if x} if not _is_ipv4(h)]
+    if not todo:
+        return
+    todo = todo[:limit]
+    socket.setdefaulttimeout(timeout)
+    t0 = time.monotonic()
+
+    def one(host):
+        try:
+            return host, socket.gethostbyname(host)
+        except Exception:                        # noqa: BLE001
+            return host, ""
+
+    ex = ThreadPoolExecutor(max_workers=workers)
+    try:
+        futs = {ex.submit(one, h): h for h in todo}
+        for fut in as_completed(futs, timeout=budget):
+            try:
+                host, ip = fut.result()
+                _HOST_IP[host] = ip
+            except Exception:                    # noqa: BLE001
+                continue
+    except Exception:                            # as_completed 超时
+        print(f"  [WARN] 域名解析超过 {budget:.0f}s,余下按名字识别国家")
+    finally:
+        ex.shutdown(wait=False, cancel_futures=True)
+    ok = sum(1 for h in todo if _HOST_IP.get(h))
+    print(f"  [INFO] server 域名解析 {ok}/{len(todo)} 成功,耗时 {time.monotonic() - t0:.0f}s")
+
+
+@lru_cache(maxsize=65536)
+def country_from_ip(server):
+    """server(IP 或域名) -> ISO2;查不到返回空串。"""
+    db = _country_db()
+    host = str(server or "").strip()
+    if not db or not host:
+        return ""
+    ip = host if _is_ipv4(host) else _HOST_IP.get(host, "")
+    if not ip:
+        return ""
+    return db.lookup(ip)
+
+
+def node_country(proxy):
+    """节点归属:先查服务器 IP,再退回名字里的国旗/中文名/代码。"""
+    code = country_from_ip(proxy.get("server"))
+    return code or country_of(proxy.get("name", ""))
 
 
 REPO_SLUG = "hkjych/Z"      # 说明节点里只写 owner/repo,不带网址
@@ -550,7 +693,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
         if src:
             per_src.setdefault(src, []).append(p["name"])
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
-    groups = build_groups(names)
+    groups = build_groups(names, dirs=country_groups(ordered))
 
     return {
         "mixed-port": 7890,
@@ -565,7 +708,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     }, src_stat
 
 
-def build_groups(names, fast_names=None, quality_names=None):
+def build_groups(names, fast_names=None, quality_names=None, dirs=None):
     """生成统一的出口分组(不再有说明/来源分组)。
 
     总模式(select,第一个选项=默认自动选择) 里收:自动选择 / 手动选择 /
@@ -588,8 +731,16 @@ def build_groups(names, fast_names=None, quality_names=None):
     # 不能把 manual 放进这里,否则 手动选择 <-> 国内直连 互相引用会被内核判为环。
     domestic = {"name": "🇨🇳 国内直连", "type": "select",
                 "proxies": ["DIRECT", "REJECT"]}
-    # 手动选择:收全部节点(用 include-all-proxies 条件收录,不再重复列名字)
-    manual = {"name": manual_name, "type": "select", "include-all-proxies": True}
+    # 手动选择:里面是「国旗+中文名」的国家目录;每个目录才装节点
+    dirs = dirs or []
+    manual = {"name": manual_name, "type": "select",
+              "proxies": [label for label, _ in dirs] or ["DIRECT"]}
+    # 国家目录用 include-all-proxies + filter(按名字里的「国旗+代码」筛),不复制节点清单
+    country_dir_groups = [
+        {"name": label, "type": "select", "include-all-proxies": True,
+         "filter": re.escape(_flag(code) + code) + r"\d{3,}"}
+        for label, code in dirs
+    ]
 
     # 高速/优质:同样 include-all-proxies,再用 filter 按名字里的 ⚡/🏅 标记筛选;
     # 没有匹配时用 DIRECT 兜底,避免出现空分组
@@ -611,7 +762,7 @@ def build_groups(names, fast_names=None, quality_names=None):
     picks = [auto, manual] + extras + [lowest, fallback, balance, domestic]
     master = {"name": master_name, "type": "select",
               "proxies": [g["name"] for g in picks]}
-    return [master] + picks
+    return [master] + picks + country_dir_groups
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
@@ -672,7 +823,8 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
-    groups = build_groups(names, fast_names=fast_names, quality_names=quality_names)
+    groups = build_groups(names, fast_names=fast_names, quality_names=quality_names,
+                          dirs=country_groups(ordered))
 
     return {
         "mixed-port": 7890,
@@ -779,6 +931,10 @@ def main():
         print(f"        {os.path.basename(os.path.dirname(src)):16s} +{n}")
     if not proxies:
         raise SystemExit("[FAIL] 无任何节点可测")
+
+    # 有归属地库时,先把域名型 server 批量解析成 IP(改名要用)
+    if _country_db():
+        warm_hosts([p.get("server") for p in proxies])
 
     if args.merge_only:
         print("[1.5/5] 直接合并模式: 跳过延迟与测速,只做去重/改名/分组")
