@@ -74,18 +74,55 @@ def _strip_unbalanced(s: str) -> str:
     return s
 
 
+# 节点名里不允许出现日期/时间(上游爱写 "2026-10.15更新" 之类)。
+# 顺序:先整日期,再紧凑日期,再月-日,再时间,最后一个裸年份。
+_DATE_RES = [
+    re.compile(r"(?<!\d)(?:19|20)\d{2}\s*[-./年]\s*(?:0?[1-9]|1[0-2])"
+               r"(?:\s*[-./月]\s*(?:0?[1-9]|[12]\d|3[01])\s*日?)?(?!\d)"),
+    re.compile(r"(?<!\d)(?:19|20)\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])(?!\d)"),
+    re.compile(r"(?<!\d)(?:0[1-9]|1[0-2])[-./月](?:0?[1-9]|[12]\d|3[01])日?(?!\d)"),
+    re.compile(r"(?<!\d)(?:[01]?\d|2[0-3]):[0-5]\d(?::[0-5]\d)?(?!\d)"),
+    re.compile(r"(?<!\d)(?:19|20)\d{2}(?!\d)"),
+]
+
+
+def strip_datetime(s: str) -> str:
+    """删掉名字里的日期与时间,连带清掉因此剩下的空括号／悬空的"更新"。"""
+    for r in _DATE_RES:
+        s = r.sub("", s)
+    # "KR韩国( 2026-10.15更新)" -> "KR韩国( 更新)" -> "KR韩国"
+    s = re.sub(r"[(（【\[]\s*更新(?:时间|日期|于)?\s*[)）】\]]", "", s)
+    s = re.sub(r"[\s丨|｜_·,，、-]*更新$", "", s)
+    return s
+
+
+def _tidy_name(s: str) -> str:
+    """收尾:折叠多余分隔符、删空括号、去首尾悬空符号。"""
+    s = re.sub(r"[ \t]{2,}", " ", s)
+    s = re.sub(r"_{2,}", "_", s)
+    s = re.sub(r"[丨|｜]{2,}", "丨", s)
+    s = re.sub(r"[\[(（【]\s*[\])）】]", "", s)
+    s = _strip_unbalanced(s)
+    s = re.sub(r"[ \t]{2,}", " ", s)
+    return s.strip(_NAME_SEPS + "：:")
+
+
 _NAME_SEPS = " \t-_·,，、/=|" + chr(92)
 
 
 def clean_proxy_name(name) -> str:
-    """删掉节点名里的网址/域名,并清掉因此悬空的分隔符。
+    """删掉节点名里的网址/域名与日期时间,并清掉因此悬空的分隔符。
 
-    "🇮🇹IT意大利丨yoyapai.com"   -> "🇮🇹IT意大利"
-    "🇩🇪DE德国丨yoyapai.com (11)" -> "🇩🇪DE德国丨(11)"
+    "🇮🇹IT意大利丨yoyapai.com"        -> "🇮🇹IT意大利"
+    "KR韩国( 2026-10.15更新)"        -> "KR韩国"
+    "🇩🇪DE德国丨yoyapai.com (11)"     -> "🇩🇪DE德国(11)"
     """
-    s = str(name)
+    raw = str(name)
+    s = strip_datetime(raw)
     if not _URLISH.search(s):
-        return s
+        out = _tidy_name(s)
+        return out or "节点"
+
     kept = []
     for part in re.split(r"[丨|｜]", s):
         t = _URLISH.sub("", part)
@@ -94,11 +131,7 @@ def clean_proxy_name(name) -> str:
             kept.append(t)
     out = "丨".join(kept).strip(_NAME_SEPS)
     out = re.sub(r"丨([（(\[])", r"\1", out)   # "…丨(2)" -> "…(2)",不留悬空分隔符
-    out = re.sub(r"[\[(（【]\s*[\])）】]", "", out)      # 删掉被清空后剩下的空括号
-    out = _strip_unbalanced(out)
-    out = re.sub(r"_{2,}", "_", out)                 # dokng.com 删掉后常留下 "__"
-    out = re.sub(r"[丨|｜]{2,}", "丨", out)
-    out = re.sub(r"[ \t]{2,}", " ", out).strip(_NAME_SEPS + "：:")
+    out = _tidy_name(out)
     if out and re.search(r"[0-9A-Za-z\u4e00-\u9fff]", out):
         return out
     # 名字里只剩表情/符号(如 "📦 yoyapai.com")时,退回网址首段,避免出现纯符号名
@@ -309,11 +342,13 @@ def strip_injected(data):
 
 
 def inject_fake_nodes(data, source_label, dropped_count, escaped_chars, time_str, fixes=0):
-    """注入一组"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/仓库。"""
+    """注入一组"说明-"假节点与"说明"分组,承载来源/清洗结果/仓库。
+
+    不再写"说明-更新时间":节点名里一律不带日期时间(时间戳看仓库的提交时间即可)。
+    """
     names = [
         f"说明-来源: {clean_label(source_label)}",
         f"说明-清洗结果: 清理 {dropped_count} 个节点、修复 {fixes} 处引用、转译 {escaped_chars} 个字符",
-        f"说明-更新时间: {time_str} (CST)",
         f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO_SLUG}",
     ]
