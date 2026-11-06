@@ -134,7 +134,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -149,7 +148,6 @@ proxies:
   udp: true
   tls: true
   servername: Telegram-Leviko_v2ray
-  sni: Telegram-Leviko_v2ray
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -556,7 +554,6 @@ proxies:
   udp: true
   tls: true
   servername: www.microsoft.com
-  sni: www.microsoft.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -688,7 +685,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -714,7 +710,6 @@ proxies:
   udp: true
   tls: true
   servername: www.sony.co.uk
-  sni: www.sony.co.uk
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -975,7 +970,6 @@ proxies:
   udp: true
   tls: true
   servername: localhost
-  sni: localhost
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -988,7 +982,6 @@ proxies:
   udp: true
   tls: true
   servername: localhost
-  sni: localhost
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1001,7 +994,6 @@ proxies:
   udp: true
   tls: true
   servername: localhost
-  sni: localhost
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1058,7 +1050,6 @@ proxies:
   udp: true
   tls: true
   servername: localhost
-  sni: localhost
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1072,7 +1063,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1333,7 +1323,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1347,7 +1336,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1362,7 +1350,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1433,7 +1420,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1509,7 +1495,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1534,7 +1519,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1579,7 +1563,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1645,7 +1628,6 @@ proxies:
   udp: true
   tls: true
   servername: www.intel.com
-  sni: www.intel.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1718,7 +1700,6 @@ proxies:
   udp: true
   tls: true
   servername: /?BIA_TELEGRAM@i10VPN
-  sni: /?BIA_TELEGRAM@i10VPN
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1759,7 +1740,6 @@ proxies:
   udp: true
   tls: true
   servername: Telegram-Leviko_v2ray
-  sni: Telegram-Leviko_v2ray
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1910,7 +1890,6 @@ proxies:
   udp: true
   tls: true
   servername: www.unlockyourfuturefindyourperfectcareer.com
-  sni: www.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: false
 - type: trojan
   name: 🇦🇺_澳大利亚
@@ -2072,7 +2051,6 @@ proxies:
   udp: true
   tls: true
   servername: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: false
 - type: trojan
   name: 🇺🇸_美国 (55)
@@ -2188,7 +2166,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2203,7 +2180,6 @@ proxies:
   udp: true
   tls: true
   servername: /
-  sni: /
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2298,7 +2274,6 @@ proxies:
   udp: true
   tls: true
   servername: v2rayNplus--v2rayNplus--v2rayNplus
-  sni: v2rayNplus--v2rayNplus--v2rayNplus
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2312,7 +2287,6 @@ proxies:
   udp: true
   tls: true
   servername: www.connectingpeoplewithgreatjobs.com
-  sni: www.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
 - type: trojan
   name: 🇺🇸_美国 (65)
@@ -2351,7 +2325,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2400,7 +2373,6 @@ proxies:
   udp: true
   tls: true
   servername: www.nextjobopportunityandclaimyouridealrole.com
-  sni: www.nextjobopportunityandclaimyouridealrole.com
   skip-cert-verify: false
 - type: vmess
   name: 🇺🇸_美国 (71)
@@ -2465,7 +2437,6 @@ proxies:
   udp: true
   tls: true
   servername: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   skip-cert-verify: false
 - type: vless
   name: 🇺🇸_美国 (75)
@@ -2476,7 +2447,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2524,7 +2494,6 @@ proxies:
   udp: true
   tls: true
   servername: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   skip-cert-verify: false
 - type: vless
   name: 🇨🇦_加拿大 (8)
@@ -2535,7 +2504,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2570,7 +2538,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2585,7 +2552,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2648,7 +2614,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2726,7 +2691,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2755,7 +2719,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2788,7 +2751,6 @@ proxies:
   udp: true
   tls: true
   servername: www.searchnationwidecareerchangehelperandguidancetoday.com
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: false
 - type: vless
   name: 🇺🇸_美国 (97)
@@ -2846,7 +2808,6 @@ proxies:
   udp: true
   tls: true
   servername: www.iloverussia2026.com
-  sni: www.iloverussia2026.com
   skip-cert-verify: false
 - type: trojan
   name: 🇩🇪_德国 (19)
@@ -2901,7 +2862,6 @@ proxies:
   udp: true
   tls: true
   servername: www.yourultimateprofessionalcareerhub.com
-  sni: www.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
 - type: vless
   name: 🇬🇧_英国 (3) (2)
@@ -2912,7 +2872,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM--MARAMBASHI--MARAMBASHI
-  sni: /?TELEGRAM--MARAMBASHI--MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2927,7 +2886,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2942,7 +2900,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---EVAY_VPN---EVAY_VPN---EVAY_VPN---EVAY_VPN
-  sni: /?Telegram---EVAY_VPN---EVAY_VPN---EVAY_VPN---EVAY_VPN
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3039,7 +2996,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3084,7 +3040,6 @@ proxies:
   udp: true
   tls: true
   servername: www.techadvisor.com
-  sni: www.techadvisor.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3109,7 +3064,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3178,7 +3132,6 @@ proxies:
   udp: true
   tls: true
   servername: www.foxsports.com
-  sni: www.foxsports.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3223,7 +3176,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3343,7 +3295,6 @@ proxies:
   udp: true
   tls: true
   servername: www.sony.co.uk
-  sni: www.sony.co.uk
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3357,7 +3308,6 @@ proxies:
   udp: true
   tls: true
   servername: www.indyourperfectremotetechjobfromthecomfortofhome.com
-  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
   skip-cert-verify: false
 - type: trojan
   name: 🇳🇱_荷兰 (28)
@@ -3408,7 +3358,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3483,7 +3432,6 @@ proxies:
   udp: true
   tls: true
   servername: www.tradingview.com
-  sni: www.tradingview.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3498,7 +3446,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3513,7 +3460,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3574,7 +3520,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3680,7 +3625,6 @@ proxies:
   udp: true
   tls: true
   servername: www.discovergreatjobsandadvanceyourcareer.com
-  sni: www.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
 - type: vless
   name: 🇩🇪_德国 (32)
@@ -3857,7 +3801,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3935,7 +3878,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -3950,7 +3892,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4000,7 +3941,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4015,7 +3955,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:

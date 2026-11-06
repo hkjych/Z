@@ -941,7 +941,6 @@ proxies:
   server: 172.67.203.46
   port: 443
   name: 🇳🇱 002 | ⬇️ 703KB/s
-  sni: www.cordweave.com
   client-fingerprint: chrome
   alpn:
   - http/1.1
@@ -1461,7 +1460,6 @@ proxies:
   server: starlink-ft.251313.xyz
   port: 443
   password: https://xship.2fa.cat
-  sni: www.cloudflare.com
   skip-cert-verify: true
   tfo: false
 - type: wireguard

@@ -1183,7 +1183,6 @@ proxies:
   port: 9002
   server: 193.176.84.21
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
 - name: D🔴🇺🇸hos[🎬🤖📺🎭]_be3627b8
@@ -1775,7 +1774,6 @@ proxies:
   port: 9002
   server: 193.176.84.37
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   username: ''
@@ -2543,7 +2541,6 @@ proxies:
   port: 9002
   server: 193.176.84.16
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
 - name: D🔴🇦🇱hos[🤖📺🎭🎪]_af2e91b5
@@ -3447,7 +3444,6 @@ proxies:
   server: 198.16.113.220
   servername: www.apple.com
   skip-cert-verify: false
-  sni: www.apple.com
   tls: true
   type: vless
   udp: true
@@ -3507,7 +3503,6 @@ proxies:
   server: 198.16.113.218
   servername: www.apple.com
   skip-cert-verify: false
-  sni: www.apple.com
   tls: true
   type: vless
   udp: true
@@ -3757,7 +3752,6 @@ proxies:
   server: 198.16.113.221
   servername: www.apple.com
   skip-cert-verify: false
-  sni: www.apple.com
   tls: true
   type: vless
   udp: true

@@ -2565,7 +2565,6 @@ proxies:
   port: 443
   server: 3.36.90.103
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
@@ -2712,7 +2711,6 @@ proxies:
   port: 443
   server: 13.212.205.194
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305

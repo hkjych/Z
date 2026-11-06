@@ -4,7 +4,6 @@ proxies:
   server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
 - name: '>>@oneclickvpnkeys::HK'
   type: hysteria2
@@ -116,28 +115,24 @@ proxies:
   server: 13.125.233.159
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
   skip-cert-verify: true
 - name: '🇸🇬 新加坡 | SGP #3'
   type: hysteria2
   server: 13.212.85.246
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
   skip-cert-verify: true
 - name: '🇰🇷 韩国 | KOR #2 #2'
   type: hysteria2
   server: 54.180.236.157
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
   skip-cert-verify: true
 - name: '🇸🇬 新加坡 | SGP #1'
   type: hysteria2
   server: 54.251.78.89
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
   skip-cert-verify: true
 - name: 🧿97@oneclickvpnkeys
   type: hysteria2
@@ -172,7 +167,6 @@ proxies:
   server: 204.152.221.177
   port: 443
   password: GnVqzYNYGYRXNUq8fBOxGsv9pNBdYvKP
-  sni: www.bing.com
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 0Jy/BjMrgPxwRG9bx YIyZz2hqUfE7Cf
@@ -388,14 +382,12 @@ proxies:
   server: 142.11.207.17
   port: 443
   password: kztyblVC7ZlEKR3ZO5HW
-  sni: www.bing.com
   skip-cert-verify: true
 - name: 🇳🇱 The Netherlands, Amsterdam | [BL]
   type: hysteria2
   server: fi-p1.h1cloud.net
   port: 25482
   password: p5xt6oLOA3qikIaj
-  sni: www.bing.com
   skip-cert-verify: true
 - name: '@confiig_hub #1'
   type: hysteria2
@@ -601,14 +593,14 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: UVqvTTy4pr77CJ2linjEnA==:HNWPQ7l1ZYYrGNt2RYtenQ==
   udp: true
-- name: t
+- name: ConfigsHub
   type: ss
   server: 81.12.33.19
   port: 8080
   cipher: 2022-blake3-aes-128-gcm
   password: gXqk6/19VX5/wJYYbnV20Q==:6cVD2k4nm6xF0YXKa48ciQ==
   udp: true
-- name: 't #2'
+- name: 'ConfigsHub #2'
   type: ss
   server: 23.175.201.177
   port: 63691
@@ -1252,14 +1244,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Ds3hlPero5ov6gae
   udp: true
-- name: T
+- name: Vpn_Mafia
   type: ss
   server: 103.120.178.193
   port: 31348
   cipher: chacha20-ietf-poly1305
   password: EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz
   udp: true
-- name: 'T #2'
+- name: 'Vpn_Mafia #2'
   type: ss
   server: 64.188.77.159
   port: 8390
@@ -1448,7 +1440,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: TFElG2FVqyqG
   udp: true
-- name: 'T #3'
+- name: 'Vpn_Mafia #3'
   type: ss
   server: 31.76.30.79
   port: 10808
@@ -1987,7 +1979,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 't #3'
+- name: 'ConfigsHub #3'
   type: ss
   server: 82.38.31.213
   port: 8080
@@ -2092,7 +2084,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: mrs2e9a
   udp: true
-- name: 'T #4'
+- name: 'Vpn_Mafia #4'
   type: ss
   server: 20.166.49.191
   port: 443
@@ -2351,7 +2343,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 't #4'
+- name: 'ConfigsHub #4'
   type: ss
   server: 82.38.31.174
   port: 8080
@@ -2365,14 +2357,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 't #5'
+- name: 'ConfigsHub #5'
   type: ss
   server: 82.38.31.175
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 't #6'
+- name: 'ConfigsHub #6'
   type: ss
   server: 82.38.31.26
   port: 8080
@@ -2603,7 +2595,7 @@ proxies:
   cipher: chacha20-ietf
   password: asd123456
   udp: true
-- name: 'T #5'
+- name: 'Vpn_Mafia #5'
   type: ss
   server: 103.36.91.32
   port: 8388
@@ -2834,7 +2826,7 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 'T #6'
+- name: 'Vpn_Mafia #6'
   type: ss
   server: 18.189.171.163
   port: 443
@@ -3128,7 +3120,7 @@ proxies:
   cipher: aes-256-gcm
   password: MjNhN2QwNmFlYTRlZGMxNWVlOTI0MGI0MTU4MDY1
   udp: true
-- name: 't #7'
+- name: 'ConfigsHub #7'
   type: ss
   server: kyiv02.npvnot.com
   port: 443
@@ -3149,7 +3141,7 @@ proxies:
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
-- name: 't #8'
+- name: v2ray_configs_pools
   type: ss
   server: 46.17.43.227
   port: 18443
@@ -3688,7 +3680,7 @@ proxies:
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: 't #9'
+- name: 'ConfigsHub #8'
   type: ss
   server: 51.83.192.80
   port: 8388
@@ -3786,7 +3778,7 @@ proxies:
   cipher: aes-256-gcm
   password: qpSevKaUXYQKvSjp
   udp: true
-- name: 't #10'
+- name: 'ConfigsHub #9'
   type: ss
   server: torian.ir
   port: 5061
@@ -3930,7 +3922,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: discoverparttimepositionsandsupplementyourincomeguide.com
-- name: 't #11'
+- name: 'ConfigsHub #10'
   type: trojan
   server: 167.88.61.193
   port: 443
@@ -4007,7 +3999,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
 - name: vpnsal
   type: trojan
   server: 170.101.101.112
@@ -4050,7 +4041,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #10'
   type: trojan
   server: 170.101.101.67
@@ -4181,7 +4171,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.connectingpeoplewithgreatjobs.com
 - name: 'CA #2'
   type: trojan
   server: 216.152.147.93
@@ -4195,7 +4184,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.nextjobopportunityandclaimyouridealrole.com
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #18'
   type: trojan
   server: 216.152.155.158
@@ -4231,7 +4219,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: true
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #21'
   type: trojan
@@ -4308,7 +4295,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: true
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #26'
   type: trojan
@@ -4367,7 +4353,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
 - name: 'United #3'
   type: trojan
   server: 66.163.114.114
@@ -4416,7 +4401,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.discovergreatjobsandadvanceyourcareer.com
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #39'
   type: trojan
   server: 66.163.118.244
@@ -4472,7 +4456,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #43'
   type: trojan
   server: 66.163.122.81
@@ -4493,7 +4476,6 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
 - name: '🇳🇱 trojan-NL-... #2'
   type: trojan
   server: 66.163.127.155
@@ -4553,21 +4535,18 @@ proxies:
   port: 443
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
   udp: true
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
 - name: 'United #4'
   type: trojan
   server: www.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
   udp: true
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
 - name: 🇯🇵
   type: trojan
   server: 5.34.222.4
   port: 43074
   password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
   udp: true
-  sni: iepl.jpz2.cat.bilibili.com¬e=@FreeOnlineVPN
   skip-cert-verify: true
 - name: 'Config #8'
   type: trojan
@@ -4826,14 +4805,12 @@ proxies:
   port: 50887
   password: "6ec301428255a78a1d826988d86cc87e"
   udp: true
-  sni: www.nintendogames.net
 - name: '@leviconfigs🪐-27'
   type: trojan
   server: 95.40.43.135
   port: 50887
   password: "6ec301428255a78a1d826988d86cc87e"
   udp: true
-  sni: www.nintendogames.net
 - name: '⚡ #8'
   type: trojan
   server: hik160.pacemakere.com
@@ -5141,7 +5118,6 @@ proxies:
   port: 41973
   password: BxceQaOe
   udp: true
-  sni: t.me/ripaojiedian¬e=@FreeOnlineVPN
   skip-cert-verify: true
 - name: '⚡ #26'
   type: trojan
@@ -5456,7 +5432,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-2.global.ssl.fastly.net
-- name: 't #12'
+- name: 'ConfigsHub #11'
   type: trojan
   server: 167.82.76.7
   port: 443
@@ -5540,7 +5516,7 @@ proxies:
     path: /de
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
-- name: 'T #7'
+- name: 'Vpn_Mafia #7'
   type: trojan
   server: 13.192.168.51
   port: 443
@@ -6355,7 +6331,7 @@ proxies:
   password: "f0eb8c92ce8946aaba856569cff1a16b"
   udp: true
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-- name: 't #13'
+- name: 'ConfigsHub #12'
   type: trojan
   server: 121.127.33.130
   port: 443
@@ -6518,7 +6494,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6530,7 +6505,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6542,7 +6516,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6554,7 +6527,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6566,7 +6538,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6578,7 +6549,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6590,7 +6560,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6602,7 +6571,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6614,7 +6582,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6626,7 +6593,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6638,7 +6604,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6650,7 +6615,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6662,7 +6626,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6674,7 +6637,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6686,7 +6648,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.creationlong.org
   network: ws
   ws-opts:
     path: /assignment
@@ -6698,7 +6659,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6710,7 +6670,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6722,7 +6681,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -6734,7 +6692,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6746,7 +6703,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6758,7 +6714,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6770,7 +6725,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6782,7 +6736,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6794,7 +6747,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6806,7 +6758,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6818,7 +6769,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmloud.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6830,7 +6780,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6842,7 +6791,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.multiplydose.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6854,7 +6802,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6872,7 +6819,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6884,7 +6830,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6896,7 +6841,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6908,7 +6852,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -6920,7 +6863,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6943,7 +6885,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: //assignment
@@ -6955,7 +6896,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6967,7 +6907,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6979,7 +6918,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6991,7 +6929,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7003,7 +6940,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7015,7 +6951,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7027,7 +6962,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7039,7 +6973,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7051,7 +6984,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7063,7 +6995,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7075,7 +7006,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7087,7 +7017,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7099,7 +7028,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7111,7 +7039,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7123,7 +7050,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.creationlong.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7135,7 +7061,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7147,7 +7072,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7159,7 +7083,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7171,7 +7094,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7183,7 +7105,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7195,7 +7116,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7207,7 +7127,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7219,7 +7138,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7231,7 +7149,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7243,7 +7160,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7255,7 +7171,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /
@@ -7267,7 +7182,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7279,7 +7193,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -7291,7 +7204,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7303,7 +7215,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7315,7 +7226,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7333,7 +7243,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7345,7 +7254,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7357,7 +7265,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7369,7 +7276,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
@@ -7381,7 +7287,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7393,7 +7298,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7405,7 +7309,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: //assignment
@@ -7417,7 +7320,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7429,7 +7331,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7441,7 +7342,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7453,7 +7353,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7465,7 +7364,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7477,7 +7375,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7489,7 +7386,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7501,7 +7397,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7513,7 +7408,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7525,7 +7419,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7537,7 +7430,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7549,7 +7441,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7561,7 +7452,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7573,7 +7463,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7585,7 +7474,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.gossipglove.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7597,7 +7485,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.multiplydose.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7609,7 +7496,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7621,7 +7507,6 @@ proxies:
   port: 443
   password: humanity
   udp: true
-  sni: www.ignitelimit.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7706,7 +7591,6 @@ proxies:
   port: 443
   password: mitivpn
   udp: true
-  sni: www.firefox.com
   network: ws
   ws-opts:
     path: /
@@ -8165,7 +8049,7 @@ proxies:
     path: /vless-ws
     headers:
       Host: speedtestmark.com
-- name: 't #14'
+- name: 'ConfigsHub #13'
   type: vless
   server: 217.19.122.170
   port: 2053
@@ -8178,7 +8062,7 @@ proxies:
   reality-opts:
     public-key: GyYuIjccJJRQZM72MGdBQEwGwGR9e0UMNlJxw0sQR2M
     short-id: "38560e0003d69843"
-- name: 't #15'
+- name: 'ConfigsHub #14'
   type: vless
   server: 217.19.122.170
   port: 2083
@@ -8575,7 +8459,7 @@ proxies:
   reality-opts:
     public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
     short-id: "7a3f9e2b1c8d4f6a"
-- name: 't #16'
+- name: 'ConfigsHub #15'
   type: vless
   server: 178.17.60.69
   port: 443
@@ -8588,7 +8472,7 @@ proxies:
   reality-opts:
     public-key: lBCt9m_PzWWdm1HvyZtJyCupmcySkfphwArSyPLPKXk
     short-id: "19c0051ae9f3d7f0"
-- name: 't #17'
+- name: 'ConfigsHub #16'
   type: vless
   server: 91.92.33.230
   port: 443
@@ -9606,7 +9490,7 @@ proxies:
   reality-opts:
     public-key: nA87ol2_2BADZHfXhH00wy3fNe4R8TiGG_IQbzWbPnA
     short-id: "56c96c1d14"
-- name: 't #18'
+- name: ConfigFori
   type: vless
   server: 149.210.243.176
   port: 443
@@ -9620,7 +9504,7 @@ proxies:
     path: /
     headers:
       Host: vpn47.cc.cd
-- name: 't #19'
+- name: 'ConfigFori #2'
   type: vless
   server: 194.76.173.6
   port: 2053
@@ -9710,7 +9594,7 @@ proxies:
   reality-opts:
     public-key: hGGVm0PiHJwNL34pBG6NLtbFGYVdcWhDu5zHYDoct08
     short-id: "4360e536"
-- name: 't #20'
+- name: 'ConfigsHub #17'
   type: vless
   server: 57.131.21.102
   port: 8080
@@ -9862,13 +9746,13 @@ proxies:
   port: 443
   uuid: 0aec6598-7fb5-44e6-bff7-a4d550117830
   udp: true
-- name: 't #21'
+- name: 'ConfigsHub #18'
   type: vless
   server: us22.sofast.live
   port: 58011
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   udp: true
-- name: 'T #8'
+- name: 'Vpn_Mafia #8'
   type: vless
   server: 185.79.138.71
   port: 448
@@ -10184,7 +10068,7 @@ proxies:
     path: /
     headers:
       Host: xwrivr.pages.dev
-- name: 't #22'
+- name: 'ConfigsHub #19'
   type: vless
   server: 94.183.152.153
   port: 443
@@ -10702,7 +10586,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1591 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1589 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -10728,6 +10612,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Eleven1985/Scrape-By-Country'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1591 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1589 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

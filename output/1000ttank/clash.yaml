@@ -179,7 +179,6 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1828372350
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -616,7 +615,6 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: …
   type: hysteria2
 - cipher: aes-256-gcm
   name: shadowsocks-1827146336
@@ -925,7 +923,6 @@ proxies:
   port: 50160
   server: 31.57.248.176
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1853331471
   password: 4291c983-c520-46ac-82cc-48f14bef573f
@@ -2456,7 +2453,6 @@ proxies:
   port: 50160
   server: 138.2.73.238
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1827145159
   password: usqmqUKJFIlCmvkCNSY64L3k
@@ -2603,7 +2599,6 @@ proxies:
   port: 443
   server: 66.163.114.106
   skip-cert-verify: false
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
 - name: trojan-1924748552
@@ -2683,7 +2678,6 @@ proxies:
   port: 443
   server: 208.69.78.19
   skip-cert-verify: false
-  sni: www.yourultimateprofessionalcareerhub.com
   type: trojan
   udp: true
 - name: vless-1832764138
@@ -3125,7 +3119,6 @@ proxies:
   port: 50160
   server: 140.238.213.114
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - cipher: aes-128-gcm
   name: shadowsocks-1827146131
@@ -3278,7 +3271,6 @@ proxies:
   port: 443
   server: 169.197.140.245
   skip-cert-verify: false
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   type: trojan
   udp: true
 - name: trojan-1943480639
@@ -3428,7 +3420,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1934375150
-  network: tcp%235%f0%9f%90%b2%40oneclickvpnkeys
+  network: tcp#5🐲@oneclickvpnkeys
   port: 19825
   reality-opts:
     public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
@@ -3814,7 +3806,6 @@ proxies:
   port: 51511
   server: 5.45.100.100
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: shadowsocks-1887411780
@@ -3881,7 +3872,6 @@ proxies:
   port: 443
   server: 170.101.101.53
   skip-cert-verify: false
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
   udp: true
 - name: trojan-1943481635
@@ -3953,7 +3943,6 @@ proxies:
   port: 443
   server: www.calmlunch.com
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1923819684
@@ -3961,7 +3950,6 @@ proxies:
   port: 443
   server: 172.67.203.46
   skip-cert-verify: false
-  sni: www.cordweave.com
   type: trojan
   udp: true
 - name: trojan-1934984141
@@ -3969,7 +3957,6 @@ proxies:
   port: 443
   server: 104.19.95.153
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1858673309
@@ -3977,7 +3964,6 @@ proxies:
   port: 443
   server: 104.18.8.83
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1933715118
@@ -4601,7 +4587,6 @@ proxies:
   port: 443
   server: 104.17.121.9
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1894622732
@@ -4609,7 +4594,6 @@ proxies:
   port: 443
   server: 45.130.125.126
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1853348743
@@ -4617,7 +4601,6 @@ proxies:
   port: 443
   server: 45.130.125.75
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827148954
@@ -4625,7 +4608,6 @@ proxies:
   port: 443
   server: 104.16.7.70
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827148859
@@ -4633,7 +4615,6 @@ proxies:
   port: 443
   server: 104.21.103.254
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827938592
@@ -4641,7 +4622,6 @@ proxies:
   port: 443
   server: 162.159.91.211
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827149560
@@ -4649,7 +4629,6 @@ proxies:
   port: 443
   server: 172.67.231.254
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1857007066
@@ -4657,7 +4636,6 @@ proxies:
   port: 443
   server: 104.17.121.43
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1940455323
@@ -4665,7 +4643,6 @@ proxies:
   port: 443
   server: 8.6.112.206
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1939844054
@@ -4673,7 +4650,6 @@ proxies:
   port: 443
   server: 104.25.240.193
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: '说明-来源: 1000ttank/free-vpn-clash-aggregator'

@@ -143,21 +143,18 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-003 |1.4MB/s
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-004 |1.3MB/s
   type: http
   server: 193.176.84.36
@@ -165,119 +162,102 @@ proxies:
   skip-cert-verify: true
   tls: true
   udp: true
-  sni: www.bing.com
 - name: 罗马尼亚-005 |1.2MB/s
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-006 |1.1MB/s
   type: http
   server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-008 |1.0MB/s
   type: http
   server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-009 |1.0MB/s
   type: http
   server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-010 |1020KB/s
   type: http
   server: 193.176.84.22
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-011 |968KB/s
   type: http
   server: 193.176.84.37
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-012 |943KB/s
   type: http
   server: 193.176.84.34
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-013 |891KB/s
   type: http
   server: 193.176.84.31
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-014 |768KB/s
   type: http
   server: 193.176.84.24
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-015 |731KB/s
   type: http
   server: 193.176.84.19
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-016 |639KB/s
   type: http
   server: 193.176.84.20
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-017 |622KB/s
   type: http
   server: 193.176.84.21
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-018 |586KB/s
   type: http
   server: 193.176.84.25
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-019 |557KB/s
   type: http
   server: 193.176.84.39
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-020 |554KB/s
   type: http
   server: 193.176.84.38
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 138.199.35.215
@@ -411,7 +391,6 @@ proxies:
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3
   type: hysteria2
 - name: hysteria2-1828371253
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -425,21 +404,18 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2🇨🇳
   type: hysteria2
 - name: hysteria2-1828371272
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2рҹү
   type: hysteria2
 - name: hysteria2-1828371338
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https://t.me/wangcai2
   type: hysteria2
 - name: hysteria2-1828371354
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -453,21 +429,18 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https://t.me/wangcai2🇨🇳
   type: hysteria2
 - name: hysteria2-1828371410
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: https://t.me/clashv8🇨🇳
   type: hysteria2
 - name: hysteria2-1828371507
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https://t.me/oneclickvpnkeys
   type: hysteria2
 - name: hysteria2-1828371510
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -481,14 +454,12 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1828371598
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2üá
   type: hysteria2
 - name: hysteria2-1828371613
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -523,7 +494,6 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https://t.me/wangcai2
   type: hysteria2
 - name: hysteria2-1828371668
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -537,14 +507,12 @@ proxies:
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https://t.me/wangcai2🇨🇳
   type: hysteria2
 - name: hysteria2-1828372303
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world\u0026insecure=1\u0026allowinsecure=1
   type: hysteria2
 - name: hysteria2-1828372350
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -558,7 +526,6 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1828372442
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -579,7 +546,6 @@ proxies:
   port: 50160
   server: 132.226.226.189
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1828373435
   password: "099830134df5ac3a04a4b21d39b8c395"
@@ -600,7 +566,6 @@ proxies:
   port: 50160
   server: 140.238.213.114
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1828373609
   password: "099830134df5ac3a04a4b21d39b8c395"
@@ -614,7 +579,6 @@ proxies:
   port: 50160
   server: 138.2.73.238
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1828374270
   password: "3d7634af8cb2c6cb4bac1c0efad8b43d"
@@ -642,7 +606,6 @@ proxies:
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https
   type: hysteria2
 - name: hysteria2-1828528935
   password: "3d7634af8cb2c6cb4bac1c0efad8b43d"
@@ -656,7 +619,6 @@ proxies:
   port: 50160
   server: 132.226.226.189
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1828529280
   password: "1671a252e2a97dc2bda4e515475931da"
@@ -684,14 +646,12 @@ proxies:
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
   type: hysteria2
 - name: hysteria2-1830467063
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2
   type: hysteria2
 - name: hysteria2-1832764816
   password: "96ab5cd282733fd4c312a61f972f330a"
@@ -733,14 +693,12 @@ proxies:
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: https://t.me/clashv8
   type: hysteria2
 - name: hysteria2-1832766149
   password: "b0917015b656b3dd2286b5633af0c5c1"
   port: 50160
   server: 31.57.248.176
   skip-cert-verify: true
-  sni: www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147
   type: hysteria2
 - name: hysteria2-1832863515
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -761,7 +719,6 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2üá®üá≥
   type: hysteria2
 - name: hysteria2-1832880232
   password: "099830134df5ac3a04a4b21d39b8c395"
@@ -810,14 +767,12 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2
   type: hysteria2
 - name: hysteria2-1832880319
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2рҹүёрҹүі
   type: hysteria2
 - name: hysteria2-1832881284
   password: "3d7634af8cb2c6cb4bac1c0efad8b43d"
@@ -838,7 +793,6 @@ proxies:
   port: 50160
   server: 152.67.200.82
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1832904601
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -866,28 +820,24 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2≡ƒç¿≡ƒç│
   type: hysteria2
 - name: hysteria2-1853331426
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
   type: hysteria2
 - name: hysteria2-1853331439
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2ⁿß
   type: hysteria2
 - name: hysteria2-1853331449
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2рҹүҹү
   type: hysteria2
 - name: hysteria2-1853331471
   password: 4291c983-c520-46ac-82cc-48f14bef573f
@@ -901,28 +851,24 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2��
   type: hysteria2
 - name: hysteria2-1853331545
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: httpst.mewangcai2
   type: hysteria2
 - name: hysteria2-1853331556
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2рҹүрҹү
   type: hysteria2
 - name: hysteria2-1853331557
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af
   type: hysteria2
 - name: hysteria2-1853331559
   password: "3d7634af8cb2c6cb4bac1c0efad8b43d"
@@ -936,42 +882,36 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%c3%b0%c2%9f%c2%87%c2%a8%c3%b0%c2%9f%c2%87%c2%b3
   type: hysteria2
 - name: hysteria2-1853331567
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96
   type: hysteria2
 - name: hysteria2-1853331593
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%ef%a3%bf%c3%bc%c3%a1
   type: hysteria2
 - name: hysteria2-1853331597
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2ð\x9f\x87¨ð\x9f\x87³
   type: hysteria2
 - name: hysteria2-1853331601
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2üáüá
   type: hysteria2
 - name: hysteria2-1853331603
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2ⁿß«ⁿß
   type: hysteria2
 - name: hysteria2-1853331608
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -992,7 +932,6 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%80%d2%b9%d2%af
   type: hysteria2
 - name: hysteria2-1853341683
   password: u63SxILNwtrQZ7Y1ZrFaZfsA
@@ -1013,7 +952,6 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
-  sni: vk.com#🍁97@oneclickvpnkeysvless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@166.88.35.245:80?encryption=none
   type: hysteria2
 - name: hysteria2-1853487432
   password: u63SxILNwtrQZ7Y1ZrFaZfsA
@@ -1027,7 +965,6 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1853488242
   password: "1671a252e2a97dc2bda4e515475931da"
@@ -1048,7 +985,6 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2
   type: hysteria2
 - name: hysteria2-1853488313
   password: "099830134df5ac3a04a4b21d39b8c395"
@@ -1069,28 +1005,24 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1
   type: hysteria2
 - name: hysteria2-1853489155
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1
   type: hysteria2
 - name: hysteria2-1853489171
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
   type: hysteria2
 - name: hysteria2-1853501557
   password: "b0917015b656b3dd2286b5633af0c5c1"
   port: 50160
   server: 31.57.248.176
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1853502854
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1132,21 +1064,18 @@ proxies:
   port: 50160
   server: 152.67.200.82
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030061
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030070
   password: "84a506ca5aca505696a454d828420b3f"
   port: 50160
   server: 140.238.213.114
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030099
   password: github.com/Alvin9999-newpac/fanqiang
@@ -1160,42 +1089,36 @@ proxies:
   port: 50160
   server: 138.2.73.238
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030136
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030145
   password: "184cdec28da5a09450803c8debcd2cc9"
   port: 50160
   server: 138.3.208.26
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030154
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
   server: 155.248.209.237
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854030876
   password: "099830134df5ac3a04a4b21d39b8c395"
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1854059937
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1854131187
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1216,35 +1139,30 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1856442510
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
   type: hysteria2
 - name: hysteria2-1856442521
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: 'off'
   type: hysteria2
 - name: hysteria2-1858692323
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: https://t.me/clashv8\u0001f1e8\u0001f1f3
   type: hysteria2
 - name: hysteria2-1868110673
   password: "184cdec28da5a09450803c8debcd2cc9"
   port: 50160
   server: 138.3.208.26
   skip-cert-verify: true
-  sni: "1"
   type: hysteria2
 - name: hysteria2-1871753077
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1258,21 +1176,18 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2üá®üá
   type: hysteria2
 - name: hysteria2-1874927576
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2üá
   type: hysteria2
 - name: hysteria2-1875823307
   password: miaoge110
   port: 51511
   server: 5.45.100.100
   skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - name: hysteria2-1876844122
   password: 46647da9-d4b4-407f-bea6-ad0b1abc561f
@@ -1286,7 +1201,6 @@ proxies:
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: https://t.me/oneclickvpnkeys
   type: hysteria2
 - name: hysteria2-1880873612
   password: "96ab5cd282733fd4c312a61f972f330a"
@@ -1307,7 +1221,6 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%e2%81%bf%c3%9f%c2%ab%e2%81%bf%c3%9f
   type: hysteria2
 - name: hysteria2-1910185368
   password: "d4ca9415f0eac7897472e1e5b86d2e96"
@@ -1328,7 +1241,6 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2ôøωôøωôøωôøω
   type: hysteria2
 - name: hysteria2-1926289829
   password: github.com/Alvin9999-newpac/fanqiang
@@ -1356,7 +1268,6 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: …
   type: hysteria2
 - name: hysteria2-1932656534
   password: d62s7ghfehm742us
@@ -1398,7 +1309,6 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%253a%252f%252ft.me%252fwangcai2%25d1%2580%25d2%25b9%25d2%25af%25d1%2591%25d1%2580%25d2%25b9%25d2%25af%25d1%2596
   type: hysteria2
 - name: hysteria2-1938971779
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1454,7 +1364,6 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3a%2f%2ft.me%2fwangcai2%e2%89%a1%c6%92%c3%a7
   type: hysteria2
 - name: hysteria2-1945507344
   password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
@@ -2449,7 +2358,6 @@ proxies:
   port: 443
   server: 104.21.103.254
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827148954
@@ -2457,7 +2365,6 @@ proxies:
   port: 443
   server: 104.16.7.70
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827149109
@@ -2465,7 +2372,6 @@ proxies:
   port: 443
   server: 185.18.250.252
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827149167
@@ -2489,7 +2395,6 @@ proxies:
   port: 443
   server: www.calmlunch.com
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827149417
@@ -2497,7 +2402,6 @@ proxies:
   port: 443
   server: 162.159.91.211
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827149560
@@ -2505,7 +2409,6 @@ proxies:
   port: 443
   server: 172.67.231.254
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827149654
@@ -2521,7 +2424,6 @@ proxies:
   port: 443
   server: 172.66.40.99
   skip-cert-verify: true
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1827188168
@@ -2529,7 +2431,6 @@ proxies:
   port: 443
   server: 188.114.97.6
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1827188340
@@ -2553,7 +2454,6 @@ proxies:
   port: 443
   server: 162.159.91.211
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1827955817
@@ -2569,7 +2469,6 @@ proxies:
   port: 443
   server: 104.16.72.50
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1849374991
@@ -2593,7 +2492,6 @@ proxies:
   port: 443
   server: 45.130.125.75
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1853461582
@@ -2601,7 +2499,6 @@ proxies:
   port: 443
   server: 104.16.71.213
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1853462719
@@ -2609,7 +2506,6 @@ proxies:
   port: 443
   server: 185.18.250.245
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1853491995
@@ -2617,7 +2513,6 @@ proxies:
   port: 443
   server: 104.18.32.47
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1856634545
@@ -2625,7 +2520,6 @@ proxies:
   port: 443
   server: www.calmlunch.com
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1857007066
@@ -2633,7 +2527,6 @@ proxies:
   port: 443
   server: 104.17.121.43
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1858673309
@@ -2641,7 +2534,6 @@ proxies:
   port: 443
   server: 104.18.8.83
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1864469628
@@ -2673,7 +2565,6 @@ proxies:
   port: 443
   server: www.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: false
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   type: trojan
   udp: true
 - name: trojan-1875790321
@@ -2697,7 +2588,6 @@ proxies:
   port: 443
   server: 45.130.125.126
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1908518028
@@ -2705,7 +2595,6 @@ proxies:
   port: 443
   server: 104.17.121.9
   skip-cert-verify: true
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1923819684
@@ -2713,7 +2602,6 @@ proxies:
   port: 443
   server: 172.67.203.46
   skip-cert-verify: false
-  sni: www.cordweave.com
   type: trojan
   udp: true
 - name: trojan-1924748552
@@ -2737,7 +2625,6 @@ proxies:
   port: 443
   server: 216.152.156.81
   skip-cert-verify: false
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   type: trojan
   udp: true
 - name: trojan-1929965335
@@ -2777,7 +2664,6 @@ proxies:
   port: 443
   server: 66.163.114.106
   skip-cert-verify: false
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
 - name: trojan-1929965352
@@ -2849,7 +2735,6 @@ proxies:
   port: 443
   server: 66.163.114.106
   skip-cert-verify: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
 - name: trojan-1930769382
@@ -2961,7 +2846,6 @@ proxies:
   port: 443
   server: 216.152.156.81
   skip-cert-verify: true
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   type: trojan
   udp: true
 - name: trojan-1933715118
@@ -3009,7 +2893,6 @@ proxies:
   port: 443
   server: 104.19.95.153
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1935007680
@@ -3121,7 +3004,6 @@ proxies:
   port: 443
   server: 45.128.76.242
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1938557333
@@ -3201,7 +3083,6 @@ proxies:
   port: 443
   server: 104.25.240.193
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1939844057
@@ -3209,7 +3090,6 @@ proxies:
   port: 443
   server: 172.64.231.133
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1939844058
@@ -3281,7 +3161,6 @@ proxies:
   port: 443
   server: 172.64.231.133
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1939845073
@@ -3289,7 +3168,6 @@ proxies:
   port: 443
   server: 172.67.223.48
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1939845075
@@ -3345,7 +3223,6 @@ proxies:
   port: 443
   server: 8.6.112.206
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1940466732
@@ -3465,7 +3342,6 @@ proxies:
   port: 443
   server: 169.197.140.245
   skip-cert-verify: false
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   type: trojan
   udp: true
 - name: trojan-1941512529
@@ -3473,7 +3349,6 @@ proxies:
   port: 443
   server: 170.101.101.53
   skip-cert-verify: false
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
   udp: true
 - name: trojan-1941512533
@@ -3633,7 +3508,6 @@ proxies:
   port: 443
   server: 104.25.0.1
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1944218172
@@ -3641,7 +3515,6 @@ proxies:
   port: 443
   server: 104.27.0.1
   skip-cert-verify: false
-  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1944436566
@@ -3657,7 +3530,6 @@ proxies:
   port: 443
   server: 208.69.78.19
   skip-cert-verify: false
-  sni: www.yourultimateprofessionalcareerhub.com
   type: trojan
   udp: true
 - name: trojan-1945021230
@@ -3809,7 +3681,6 @@ proxies:
   port: 443
   server: 104.17.206.147
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   udp: true
 - name: trojan-1947501322
@@ -3817,7 +3688,6 @@ proxies:
   port: 443
   server: 169.197.140.245
   skip-cert-verify: true
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   type: trojan
   udp: true
 - name: trojan-1947502316
@@ -8365,7 +8235,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1879502454
-  network: tcp%23%f0%9f%8e%a188%40oneclickvpnkeys
+  network: tcp#🎡88@oneclickvpnkeys
   port: 24146
   reality-opts:
     public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
@@ -9664,7 +9534,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1934375150
-  network: tcp%235%f0%9f%90%b2%40oneclickvpnkeys
+  network: tcp#5🐲@oneclickvpnkeys
   port: 19825
   reality-opts:
     public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
@@ -10248,7 +10118,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1945000640
-  network: tcp%232%f0%9f%90%8a%40oneclickvpnkeysvless%3a%2f%2fd342d11e-d424-4583-b36e-524ab1f0afa4%40185.113.223.183%3a8443%3fed%3d2560
+  network: tcp#2🐊@oneclickvpnkeysvless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.113.223.183:8443?ed=2560
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -11314,7 +11184,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ea.com
-  sni: www.ea.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -11328,7 +11197,6 @@ proxies:
   udp: true
   tls: true
   servername: www.pleadcourt.org
-  sni: www.pleadcourt.org
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -11343,7 +11211,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -11577,7 +11444,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11591,7 +11457,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -11708,7 +11573,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -11722,7 +11586,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -11764,7 +11627,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -11778,7 +11640,6 @@ proxies:
   udp: true
   tls: true
   servername: www.amazon.com
-  sni: www.amazon.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -11792,7 +11653,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11806,7 +11666,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11820,7 +11679,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11834,7 +11692,6 @@ proxies:
   udp: true
   tls: true
   servername: www.samsung.com
-  sni: www.samsung.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -11848,7 +11705,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11862,7 +11718,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11876,7 +11731,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11890,7 +11744,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -11904,7 +11757,6 @@ proxies:
   udp: true
   tls: true
   servername: www.samsung.com
-  sni: www.samsung.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -12088,7 +11940,6 @@ proxies:
   udp: true
   tls: true
   servername: www.pleadcourt.org
-  sni: www.pleadcourt.org
   skip-cert-verify: false
   alpn:
   - http/1.1
@@ -12105,7 +11956,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12136,7 +11986,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12149,7 +11998,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12162,7 +12010,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12175,7 +12022,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12188,7 +12034,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -12235,7 +12080,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12249,7 +12093,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -12291,7 +12134,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12304,7 +12146,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12319,7 +12160,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12334,7 +12174,6 @@ proxies:
   udp: true
   tls: true
   servername: www.pleadcourt.org
-  sni: www.pleadcourt.org
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12349,7 +12188,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12362,7 +12200,6 @@ proxies:
   udp: true
   tls: true
   servername: www.pleadcourt.org
-  sni: www.pleadcourt.org
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12437,7 +12274,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12450,7 +12286,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12481,7 +12316,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -12497,7 +12331,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12541,7 +12374,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12571,7 +12403,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12586,7 +12417,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12601,7 +12431,6 @@ proxies:
   udp: true
   tls: true
   servername: www.pleadcourt.org
-  sni: www.pleadcourt.org
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -12693,7 +12522,6 @@ proxies:
   password: humanity
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -12813,7 +12641,6 @@ proxies:
   port: 443
   server: 92.42.99.143
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -12971,7 +12798,6 @@ proxies:
   port: 443
   server: 179.255.127.200
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -13050,7 +12876,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -13100,7 +12925,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13237,7 +13061,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13252,7 +13075,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -13266,7 +13088,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13279,7 +13100,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13309,7 +13129,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13373,7 +13192,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13386,7 +13204,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13511,7 +13328,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13671,7 +13487,6 @@ proxies:
   udp: true
   tls: true
   servername: www.lamer.com.sg
-  sni: www.lamer.com.sg
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -13754,7 +13569,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13903,7 +13717,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -13917,7 +13730,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -13974,7 +13786,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -14642,7 +14453,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15303,7 +15113,6 @@ proxies:
   port: 443
   server: 216.152.147.89
   skip-cert-verify: false
-  sni: www.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -15365,7 +15174,6 @@ proxies:
   port: 443
   server: 216.152.147.89
   skip-cert-verify: false
-  sni: www.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -15547,7 +15355,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15561,7 +15368,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15576,7 +15382,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15590,7 +15395,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15604,7 +15408,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15618,7 +15421,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15632,7 +15434,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15645,7 +15446,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15659,7 +15459,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15740,7 +15539,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15755,7 +15553,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -15769,7 +15566,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15784,7 +15580,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15799,7 +15594,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -15936,7 +15730,6 @@ proxies:
   port: 443
   server: 208.69.78.19
   skip-cert-verify: false
-  sni: www.yourultimateprofessionalcareerhub.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -15968,7 +15761,6 @@ proxies:
   port: 443
   server: 208.69.78.19
   skip-cert-verify: true
-  sni: www.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -16275,7 +16067,6 @@ proxies:
   port: 25267
   server: de-bots4.h1cloud.net
   skip-cert-verify: true
-  sni: t.me/FuckTheWall
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -16286,7 +16077,6 @@ proxies:
   port: 25267
   server: de-bots4.h1cloud.net
   skip-cert-verify: true
-  sni: t.me/fuckthewall
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -16630,7 +16420,6 @@ proxies:
   port: 443
   server: 193.108.119.78
   skip-cert-verify: false
-  sni: www.iloverussia2026.com
   sub_tag: C002-260622
   type: trojan
   udp: true
@@ -17313,7 +17102,6 @@ proxies:
   port: 25267
   server: de-bots4.h1cloud.net
   skip-cert-verify: true
-  sni: t.me/fuckthewall
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -18114,7 +17902,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -18147,7 +17934,6 @@ proxies:
   udp: true
   tls: true
   servername: www.mozilla.org
-  sni: www.mozilla.org
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -18385,7 +18171,6 @@ proxies:
   udp: true
   tls: true
   servername: www.chip.de
-  sni: www.chip.de
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -18564,7 +18349,6 @@ proxies:
   password: humanity
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -19058,7 +18842,6 @@ proxies:
   port: 443
   server: 66.163.118.131
   skip-cert-verify: false
-  sni: www.discovergreatjobsandadvanceyourcareer.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -19079,7 +18862,6 @@ proxies:
   port: 443
   server: 66.163.118.131
   skip-cert-verify: false
-  sni: www.discovergreatjobsandadvanceyourcareer.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -20136,7 +19918,6 @@ proxies:
   port: 443
   server: 85.31.102.163
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -20170,7 +19951,6 @@ proxies:
   port: 2053
   server: 91.245.225.79
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -20248,7 +20028,6 @@ proxies:
   port: 443
   server: 166.1.36.83
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -20264,7 +20043,6 @@ proxies:
   port: 443
   server: 185.36.141.81
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -20299,7 +20077,6 @@ proxies:
   port: 443
   server: 185.220.100.168
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: T001-260618
   type: trojan
   udp: true
@@ -20332,7 +20109,6 @@ proxies:
   port: 8443
   server: 77.221.138.199
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: T001-260618
   type: trojan
   udp: true
@@ -20348,7 +20124,6 @@ proxies:
   port: 8443
   server: 5.78.92.27
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: V002-260618
   type: trojan
   udp: true
@@ -20364,7 +20139,6 @@ proxies:
   port: 2053
   server: 185.114.72.31
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: A003-260618
   type: trojan
   udp: true
@@ -20995,7 +20769,6 @@ proxies:
   port: 443
   server: 191.96.94.226
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -21410,7 +21183,7 @@ proxies:
   ws-opts:
     headers:
       Host: blackshadow.dpdns.org
-    path: /%2F195.123.218.174-443
+    path: //195.123.218.174-443
   udp: true
 - name: 🇫🇷FR_201|765KB/s|M001-260618 [5247b6a45f99]
   network: ws
@@ -21907,7 +21680,6 @@ proxies:
   port: 443
   server: 185.225.68.232
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -22318,7 +22090,6 @@ proxies:
   port: 8443
   server: 212.227.144.37
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: V002-260618
   type: trojan
   udp: true
@@ -23293,7 +23064,6 @@ proxies:
   port: 443
   server: 193.239.160.134
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -24757,7 +24527,6 @@ proxies:
   port: 443
   server: 212.227.90.142
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -24773,7 +24542,6 @@ proxies:
   port: 443
   server: 5.44.46.142
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -24825,7 +24593,6 @@ proxies:
   port: 2053
   server: 212.24.104.79
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -25019,7 +24786,6 @@ proxies:
   port: 443
   server: 195.181.244.216
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -25215,7 +24981,6 @@ proxies:
   port: 443
   server: 45.87.41.18
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: T001-260618
   type: trojan
   udp: true
@@ -25319,7 +25084,6 @@ proxies:
   port: 443
   server: 155.103.71.142
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -25335,7 +25099,6 @@ proxies:
   port: 443
   server: 5.253.189.238
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -25407,7 +25170,6 @@ proxies:
   port: 2053
   server: 82.117.245.125
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -26616,7 +26378,6 @@ proxies:
   port: 443
   server: 194.147.149.54
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -27024,7 +26785,7 @@ proxies:
       Host: vms.lifetime39.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/65.0.3325.181 Safari/537.36
-    path: /%2F
+    path: //
   xudp: true
   packet-encoding: xudp
 - name: 🇫🇷FR_502|388KB/s|B007-260618 [be00fe481823]
@@ -27348,7 +27109,7 @@ proxies:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /%2F
+    path: //
   xudp: true
   packet-encoding: xudp
 - name: 🇫🇷FR_519|1.5MB/s|M003-260806 [7db0475e5789]
@@ -29191,7 +28952,6 @@ proxies:
   port: 443
   server: 81.22.132.136
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -29395,7 +29155,6 @@ proxies:
   port: 443
   server: www.calmlunch.com
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -29428,7 +29187,6 @@ proxies:
   port: 443
   server: 45.130.125.160
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -29443,7 +29201,6 @@ proxies:
   port: 443
   server: 104.19.64.105
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M001-260618
   type: trojan
   ws-opts:
@@ -29457,7 +29214,6 @@ proxies:
   port: 443
   server: 104.17.121.71
   skip-cert-verify: false
-  sni: www.calmlunch.com
   sub_tag: M001-260618
   type: trojan
   ws-opts:
@@ -29672,7 +29428,6 @@ proxies:
   port: 2053
   server: 89.150.34.41
   skip-cert-verify: true
-  sni: www.calmlunch.com
   sub_tag: X001-260618
   type: trojan
   udp: true
@@ -30192,7 +29947,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -30207,7 +29961,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -30269,7 +30022,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -30297,7 +30049,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -30311,7 +30062,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -30325,7 +30075,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -30380,7 +30129,6 @@ proxies:
   password: humanity
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -30395,7 +30143,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -30410,7 +30157,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -30423,7 +30169,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -30436,7 +30181,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -30449,7 +30193,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -31780,7 +31523,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -31794,7 +31536,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -32028,7 +31769,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -32307,7 +32047,6 @@ proxies:
   udp: true
   tls: true
   servername: www.epicgames.com
-  sni: www.epicgames.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -32502,7 +32241,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -32553,7 +32291,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -32566,7 +32303,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -33880,7 +33616,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: ios
   reality-opts:
@@ -33895,7 +33630,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: safari
   reality-opts:
@@ -33949,7 +33683,6 @@ proxies:
   udp: true
   tls: true
   servername: www.amazon.com
-  sni: www.amazon.com
   skip-cert-verify: false
   client-fingerprint: random
   reality-opts:
@@ -33964,7 +33697,6 @@ proxies:
   udp: true
   tls: true
   servername: www.amazon.com
-  sni: www.amazon.com
   skip-cert-verify: false
   client-fingerprint: safari
   reality-opts:
@@ -33978,7 +33710,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: ios
   reality-opts:
@@ -33992,7 +33723,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -34308,7 +34038,6 @@ proxies:
   udp: true
   tls: true
   servername: www.stanford.edu
-  sni: www.stanford.edu
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -34909,7 +34638,6 @@ proxies:
   port: 443
   server: 188.114.97.6
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35232,7 +34960,6 @@ proxies:
   port: 443
   server: 104.17.44.17
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35349,7 +35076,6 @@ proxies:
   port: 443
   server: 219.76.13.177
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35447,7 +35173,6 @@ proxies:
   port: 443
   server: 172.64.145.133
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35479,7 +35204,6 @@ proxies:
   port: 443
   server: 193.23.202.65
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35494,7 +35218,6 @@ proxies:
   port: 443
   server: 185.22.172.249
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35510,7 +35233,6 @@ proxies:
   port: 443
   server: 188.114.97.3
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35526,7 +35248,6 @@ proxies:
   port: 443
   server: 46.62.164.121
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35552,7 +35273,6 @@ proxies:
   port: 443
   server: 144.31.205.106
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35569,7 +35289,6 @@ proxies:
   port: 443
   server: 45.38.3.25
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35586,7 +35305,6 @@ proxies:
   port: 443
   server: 164.92.200.68
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35601,7 +35319,6 @@ proxies:
   port: 443
   server: 188.114.97.1
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35619,7 +35336,6 @@ proxies:
   port: 443
   server: 209.38.99.120
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: T001-260618
   type: trojan
   udp: true
@@ -35651,7 +35367,6 @@ proxies:
   port: 443
   server: 46.62.230.149
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35694,7 +35409,6 @@ proxies:
   port: 443
   server: 8.47.69.0
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -35729,7 +35443,6 @@ proxies:
   port: 443
   server: 46.62.204.134
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35744,7 +35457,6 @@ proxies:
   port: 443
   server: 188.114.97.4
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35761,7 +35473,6 @@ proxies:
   port: 443
   server: 188.114.97.7
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35776,7 +35487,6 @@ proxies:
   port: 443
   server: 188.114.97.8
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35833,7 +35543,6 @@ proxies:
   port: 443
   server: 131.196.254.151
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -35857,7 +35566,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /assignment
-  sni: www.pleadcourt.org
 - name: 🇳🇱NL_233|4.2MB/s|P002-260618 [111aaa619f5f]
   password: None
   port: 9002
@@ -35894,7 +35602,6 @@ proxies:
   port: 443
   server: 172.66.40.99
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35912,7 +35619,6 @@ proxies:
   port: 443
   server: 188.114.97.6
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35929,7 +35635,6 @@ proxies:
   port: 443
   server: 188.114.98.0
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -35954,7 +35659,6 @@ proxies:
   port: 443
   server: 104.18.45.38
   skip-cert-verify: true
-  sni: www.trusteeforward.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -35968,7 +35672,6 @@ proxies:
   port: 443
   server: 104.27.201.80
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -35985,7 +35688,6 @@ proxies:
   port: 443
   server: 109.234.211.232
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36002,7 +35704,6 @@ proxies:
   port: 443
   server: 45.128.76.242
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36019,7 +35720,6 @@ proxies:
   port: 443
   server: 8.47.69.60
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36036,7 +35736,6 @@ proxies:
   port: 443
   server: 104.18.45.38
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36051,7 +35750,6 @@ proxies:
   port: 443
   server: 154.81.141.42
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36068,7 +35766,6 @@ proxies:
   port: 443
   server: 8.6.112.206
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36083,7 +35780,6 @@ proxies:
   port: 443
   server: 104.27.203.207
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36100,7 +35796,6 @@ proxies:
   port: 443
   server: 172.66.1.36
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36118,7 +35813,6 @@ proxies:
   port: 443
   server: 88.216.69.253
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36250,7 +35944,6 @@ proxies:
   port: 443
   server: 190.93.245.148
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -36299,7 +35992,6 @@ proxies:
   port: 443
   server: 148.253.212.42
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36314,7 +36006,6 @@ proxies:
   port: 443
   server: 95.85.54.197
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36330,7 +36021,6 @@ proxies:
   port: 443
   server: www.pleadcourt.org
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36348,7 +36038,6 @@ proxies:
   port: 443
   server: 188.114.98.0
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36366,7 +36055,6 @@ proxies:
   port: 443
   server: 188.226.181.61
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36383,7 +36071,6 @@ proxies:
   port: 443
   server: 83.217.222.170
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -36400,7 +36087,6 @@ proxies:
   port: 443
   server: 104.21.33.59
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36416,7 +36102,6 @@ proxies:
   port: 443
   server: 188.114.97.5
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36440,7 +36125,6 @@ proxies:
   port: 443
   server: 45.131.4.38
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -36465,7 +36149,6 @@ proxies:
   port: 443
   server: 172.64.190.13
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36483,7 +36166,6 @@ proxies:
   port: 443
   server: 162.159.133.152
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36499,7 +36181,6 @@ proxies:
   port: 443
   server: 104.16.6.70
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36523,7 +36204,6 @@ proxies:
   port: 443
   server: 108.162.194.134
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -36564,7 +36244,6 @@ proxies:
   port: 443
   server: 64.227.115.28
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -36580,7 +36259,6 @@ proxies:
   port: 443
   server: 153.92.127.26
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36596,7 +36274,6 @@ proxies:
   port: 443
   server: 192.145.30.27
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36622,7 +36299,6 @@ proxies:
   port: 443
   server: 45.128.76.242
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -36653,7 +36329,6 @@ proxies:
   port: 443
   server: 104.18.37.127
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36733,7 +36408,6 @@ proxies:
   port: 443
   server: 162.159.228.224
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36749,7 +36423,6 @@ proxies:
   port: 443
   server: 104.18.24.120
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36765,7 +36438,6 @@ proxies:
   port: 443
   server: 104.18.25.120
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36783,7 +36455,6 @@ proxies:
   port: 443
   server: 172.67.203.46
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -36884,7 +36555,6 @@ proxies:
   port: 443
   server: 162.159.84.189
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36900,7 +36570,6 @@ proxies:
   port: 443
   server: 172.64.231.133
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36918,7 +36587,6 @@ proxies:
   port: 443
   server: 104.20.55.137
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36935,7 +36603,6 @@ proxies:
   port: 443
   server: 172.67.161.247
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -36951,7 +36618,6 @@ proxies:
   port: 443
   server: 104.16.223.61
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36968,7 +36634,6 @@ proxies:
   port: 443
   server: 104.16.34.14
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -36985,7 +36650,6 @@ proxies:
   port: 443
   server: 104.17.206.147
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37000,7 +36664,6 @@ proxies:
   port: 443
   server: 104.18.192.53
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37025,7 +36688,6 @@ proxies:
   port: 443
   server: 104.18.49.85
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37042,7 +36704,6 @@ proxies:
   port: 443
   server: 104.21.102.36
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37059,7 +36720,6 @@ proxies:
   port: 443
   server: 104.25.10.54
   skip-cert-verify: false
-  sni: www.pleadcourt.org
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37074,7 +36734,6 @@ proxies:
   port: 443
   server: 104.25.238.196
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37091,7 +36750,6 @@ proxies:
   port: 443
   server: 172.67.64.188
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37165,7 +36823,6 @@ proxies:
   port: 443
   server: 172.66.0.172
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37198,7 +36855,6 @@ proxies:
   server: 172.66.0.172
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -37211,7 +36867,6 @@ proxies:
   port: 443
   server: 104.17.17.238
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37219,7 +36874,7 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/68.0.3440.106 Safari/537.36
-    path: /%2Fassignment
+    path: //assignment
 - name: 🇳🇱NL_362|2.6MB/s|M003-260806 [34513adb44b4]
   client-fingerprint: chrome
   network: ws
@@ -37227,7 +36882,6 @@ proxies:
   port: 443
   server: 104.18.72.213
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37235,7 +36889,7 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/39.0.2171.95 Safari/537.36
-    path: /%2Fassignment
+    path: //assignment
 - name: 🇳🇱NL_363|1.9MB/s|M003-260806 [3d8fc4e24fcf]
   client-fingerprint: chrome
   network: ws
@@ -37243,7 +36897,6 @@ proxies:
   port: 443
   server: 104.19.46.152
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -37251,7 +36904,7 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /%2Fassignment
+    path: //assignment
 - name: 🇳🇱NL_364|1.2MB/s|P002-260618 [750c756cee3a]
   password: None
   port: 443
@@ -37284,7 +36937,6 @@ proxies:
   port: 443
   server: 104.27.55.4
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37298,7 +36950,6 @@ proxies:
   port: 443
   server: 104.26.3.162
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37312,7 +36963,6 @@ proxies:
   port: 2053
   server: 38.180.225.247
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37326,7 +36976,6 @@ proxies:
   port: 443
   server: 172.64.229.7
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37340,7 +36989,6 @@ proxies:
   port: 443
   server: 209.97.165.213
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37354,7 +37002,6 @@ proxies:
   port: 443
   server: 172.64.153.224
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37368,7 +37015,6 @@ proxies:
   port: 443
   server: 45.8.115.202
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37382,7 +37028,6 @@ proxies:
   port: 443
   server: 172.64.154.144
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37396,7 +37041,6 @@ proxies:
   port: 443
   server: 141.133.174.88
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37410,7 +37054,6 @@ proxies:
   port: 443
   server: 185.82.218.224
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37424,7 +37067,6 @@ proxies:
   port: 443
   server: 104.18.189.153
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37438,7 +37080,6 @@ proxies:
   port: 443
   server: 104.19.43.102
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37452,7 +37093,6 @@ proxies:
   port: 443
   server: 104.16.244.188
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37466,7 +37106,6 @@ proxies:
   port: 443
   server: 104.17.145.43
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -37481,7 +37120,6 @@ proxies:
   port: 443
   server: 162.159.149.157
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37497,7 +37135,6 @@ proxies:
   port: 443
   server: 162.159.150.241
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37513,7 +37150,6 @@ proxies:
   port: 443
   server: 104.18.38.127
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37529,7 +37165,6 @@ proxies:
   port: 443
   server: 82.118.18.179
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37545,7 +37180,6 @@ proxies:
   port: 443
   server: 172.64.155.36
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37561,7 +37195,6 @@ proxies:
   port: 443
   server: 104.17.221.194
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37577,7 +37210,6 @@ proxies:
   port: 443
   server: 143.110.175.165
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37593,7 +37225,6 @@ proxies:
   port: 443
   server: 104.18.46.127
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37609,7 +37240,6 @@ proxies:
   port: 443
   server: 104.17.98.29
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37634,7 +37264,6 @@ proxies:
   port: 443
   server: 104.18.39.55
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37650,7 +37279,6 @@ proxies:
   port: 443
   server: 103.69.128.221
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37666,7 +37294,6 @@ proxies:
   port: 443
   server: 104.19.56.198
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37682,7 +37309,6 @@ proxies:
   port: 443
   server: 104.17.116.75
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37698,7 +37324,6 @@ proxies:
   port: 443
   server: 104.17.155.44
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37714,7 +37339,6 @@ proxies:
   port: 443
   server: 35.78.243.103
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37730,7 +37354,6 @@ proxies:
   port: 443
   server: 104.18.46.59
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37746,7 +37369,6 @@ proxies:
   port: 443
   server: 104.25.60.205
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37762,7 +37384,6 @@ proxies:
   port: 443
   server: 104.17.28.254
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37778,7 +37399,6 @@ proxies:
   port: 443
   server: 162.159.58.65
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37794,7 +37414,6 @@ proxies:
   port: 443
   server: 104.18.47.138
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37810,7 +37429,6 @@ proxies:
   port: 443
   server: 104.16.251.219
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37826,7 +37444,6 @@ proxies:
   port: 443
   server: 188.164.248.143
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37842,7 +37459,6 @@ proxies:
   port: 443
   server: 103.219.195.65
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37858,7 +37474,6 @@ proxies:
   port: 443
   server: 162.159.45.1
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37874,7 +37489,6 @@ proxies:
   port: 443
   server: 193.17.183.48
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37890,7 +37504,6 @@ proxies:
   port: 443
   server: 172.64.151.20
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37906,7 +37519,6 @@ proxies:
   port: 443
   server: 104.19.212.207
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37922,7 +37534,6 @@ proxies:
   port: 443
   server: 104.18.223.253
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37938,7 +37549,6 @@ proxies:
   port: 443
   server: 172.64.150.181
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37963,7 +37573,6 @@ proxies:
   port: 443
   server: 54.116.249.102
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37979,7 +37588,6 @@ proxies:
   port: 443
   server: 103.218.173.218
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -37995,7 +37603,6 @@ proxies:
   port: 443
   server: 131.196.253.141
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38011,7 +37618,6 @@ proxies:
   port: 443
   server: 178.93.160.132
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38027,7 +37633,6 @@ proxies:
   port: 443
   server: 157.245.159.88
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38043,7 +37648,6 @@ proxies:
   port: 443
   server: 212.192.221.107
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38059,7 +37663,6 @@ proxies:
   port: 443
   server: 207.180.209.128
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38075,7 +37678,6 @@ proxies:
   port: 443
   server: 77.221.139.114
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38091,7 +37693,6 @@ proxies:
   port: 443
   server: 202.61.198.53
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38107,7 +37708,6 @@ proxies:
   port: 8443
   server: 91.149.167.147
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38131,7 +37731,6 @@ proxies:
   port: 443
   server: 213.111.148.137
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38147,7 +37746,6 @@ proxies:
   port: 443
   server: 130.78.185.4
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38163,7 +37761,6 @@ proxies:
   port: 443
   server: 109.248.170.245
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38179,7 +37776,6 @@ proxies:
   port: 8443
   server: 76.13.188.13
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38195,7 +37791,6 @@ proxies:
   port: 443
   server: 5.253.29.83
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38211,7 +37806,6 @@ proxies:
   port: 443
   server: 172.237.0.160
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38227,7 +37821,6 @@ proxies:
   port: 443
   server: 179.255.127.82
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38243,7 +37836,6 @@ proxies:
   port: 443
   server: 172.64.149.78
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38259,7 +37851,6 @@ proxies:
   port: 443
   server: 104.17.28.10
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38275,7 +37866,6 @@ proxies:
   port: 443
   server: 104.18.41.167
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38299,7 +37889,6 @@ proxies:
   port: 443
   server: 172.64.148.230
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38315,7 +37904,6 @@ proxies:
   port: 443
   server: 162.159.61.183
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38331,7 +37919,6 @@ proxies:
   port: 443
   server: 104.17.135.68
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38347,7 +37934,6 @@ proxies:
   port: 443
   server: 104.17.148.111
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38363,7 +37949,6 @@ proxies:
   port: 443
   server: 162.159.128.253
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38379,7 +37964,6 @@ proxies:
   port: 443
   server: 104.17.119.105
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38395,7 +37979,6 @@ proxies:
   port: 443
   server: 104.17.159.71
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38411,7 +37994,6 @@ proxies:
   port: 443
   server: 104.16.144.215
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38427,7 +38009,6 @@ proxies:
   port: 443
   server: 104.17.110.1
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38443,7 +38024,6 @@ proxies:
   port: 443
   server: 104.17.49.122
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38469,7 +38049,6 @@ proxies:
   port: 443
   server: 104.16.245.194
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38485,7 +38064,6 @@ proxies:
   port: 443
   server: 104.19.53.114
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38501,7 +38079,6 @@ proxies:
   port: 443
   server: 104.17.162.3
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38517,7 +38094,6 @@ proxies:
   port: 443
   server: 104.18.151.172
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38533,7 +38109,6 @@ proxies:
   port: 443
   server: 104.19.154.200
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38549,7 +38124,6 @@ proxies:
   port: 443
   server: 104.19.48.73
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38565,7 +38139,6 @@ proxies:
   port: 443
   server: 104.18.255.167
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38581,7 +38154,6 @@ proxies:
   port: 443
   server: 104.17.167.134
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38597,7 +38169,6 @@ proxies:
   port: 443
   server: 172.66.0.118
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38613,7 +38184,6 @@ proxies:
   port: 443
   server: 104.17.145.145
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38629,7 +38199,6 @@ proxies:
   port: 443
   server: 172.67.74.177
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38645,7 +38214,6 @@ proxies:
   port: 443
   server: 172.67.67.89
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38661,7 +38229,6 @@ proxies:
   port: 443
   server: 104.16.240.177
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38677,7 +38244,6 @@ proxies:
   port: 443
   server: 104.19.34.37
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38693,7 +38259,6 @@ proxies:
   port: 443
   server: 104.18.33.121
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38709,7 +38274,6 @@ proxies:
   port: 443
   server: 45.32.54.55
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38725,7 +38289,6 @@ proxies:
   port: 443
   server: 129.225.185.49
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38741,7 +38304,6 @@ proxies:
   port: 443
   server: 128.199.128.117
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38757,7 +38319,6 @@ proxies:
   port: 443
   server: 141.98.41.20
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38773,7 +38334,6 @@ proxies:
   port: 8443
   server: 199.119.137.32
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38798,7 +38358,6 @@ proxies:
   port: 8443
   server: 141.164.34.161
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38814,7 +38373,6 @@ proxies:
   port: 443
   server: 87.120.126.131
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38830,7 +38388,6 @@ proxies:
   port: 443
   server: 108.165.236.229
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38846,7 +38403,6 @@ proxies:
   port: 443
   server: 144.31.120.77
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38862,7 +38418,6 @@ proxies:
   port: 443
   server: 165.22.89.207
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -38878,7 +38433,6 @@ proxies:
   server: 172.64.155.36
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -38890,7 +38444,6 @@ proxies:
   server: 162.159.58.65
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -38902,7 +38455,6 @@ proxies:
   server: 188.164.248.143
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -38914,7 +38466,6 @@ proxies:
   server: 162.159.45.1
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -38926,7 +38477,6 @@ proxies:
   server: 172.64.149.78
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -38945,7 +38495,6 @@ proxies:
   server: 162.159.61.183
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -38956,7 +38505,6 @@ proxies:
   port: 443
   server: 104.18.42.190
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -38970,7 +38518,6 @@ proxies:
   port: 443
   server: 165.22.102.89
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -38984,7 +38531,6 @@ proxies:
   port: 443
   server: 104.17.191.193
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -38998,7 +38544,6 @@ proxies:
   port: 443
   server: 104.16.65.1
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -39013,7 +38558,6 @@ proxies:
   port: 443
   server: 87.236.146.111
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39029,7 +38573,6 @@ proxies:
   port: 443
   server: 78.40.209.33
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39045,7 +38588,6 @@ proxies:
   port: 443
   server: 172.64.154.219
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39061,7 +38603,6 @@ proxies:
   port: 443
   server: 104.18.35.31
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39077,7 +38618,6 @@ proxies:
   port: 443
   server: 169.58.44.174
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39093,7 +38633,6 @@ proxies:
   port: 8443
   server: 213.109.192.6
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39109,7 +38648,6 @@ proxies:
   port: 443
   server: 103.224.84.7
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39125,7 +38663,6 @@ proxies:
   port: 443
   server: 104.17.61.37
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39141,7 +38678,6 @@ proxies:
   port: 443
   server: 172.64.52.127
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39157,7 +38693,6 @@ proxies:
   port: 443
   server: 104.19.0.1
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39173,7 +38708,6 @@ proxies:
   port: 443
   server: 104.24.144.224
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39189,7 +38723,6 @@ proxies:
   port: 443
   server: 198.41.216.1
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39205,7 +38738,6 @@ proxies:
   port: 443
   server: 131.196.254.151
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39221,7 +38753,6 @@ proxies:
   port: 443
   server: 125.7.24.251
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39237,7 +38768,6 @@ proxies:
   port: 443
   server: 195.133.92.71
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39261,7 +38791,6 @@ proxies:
   port: 8443
   server: 185.112.249.201
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39277,7 +38806,6 @@ proxies:
   port: 443
   server: 93.170.72.138
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39293,7 +38821,6 @@ proxies:
   port: 443
   server: 172.104.185.40
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39309,7 +38836,6 @@ proxies:
   port: 443
   server: 172.64.151.23
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39325,7 +38851,6 @@ proxies:
   port: 443
   server: 172.67.94.180
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39341,7 +38866,6 @@ proxies:
   port: 443
   server: 172.67.89.103
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39357,7 +38881,6 @@ proxies:
   port: 443
   server: 104.18.0.1
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39373,7 +38896,6 @@ proxies:
   port: 443
   server: 104.18.89.52
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39389,7 +38911,6 @@ proxies:
   port: 443
   server: 104.17.117.104
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39405,7 +38926,6 @@ proxies:
   port: 443
   server: 152.70.86.199
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39436,7 +38956,6 @@ proxies:
   port: 443
   server: 95.182.95.144
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39452,7 +38971,6 @@ proxies:
   port: 443
   server: 213.165.34.40
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -39489,7 +39007,6 @@ proxies:
   server: 172.64.154.219
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -39501,7 +39018,6 @@ proxies:
   server: 172.64.151.20
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -39513,7 +39029,6 @@ proxies:
   server: 172.64.150.181
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -39525,7 +39040,6 @@ proxies:
   server: 172.64.153.224
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -39537,7 +39051,6 @@ proxies:
   server: 172.64.148.230
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -39548,7 +39061,6 @@ proxies:
   port: 443
   server: 185.234.114.165
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39562,7 +39074,6 @@ proxies:
   port: 443
   server: 185.146.234.242
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39576,7 +39087,6 @@ proxies:
   port: 443
   server: 38.180.100.80
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39590,7 +39100,6 @@ proxies:
   port: 443
   server: 91.250.248.151
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39604,7 +39113,6 @@ proxies:
   port: 443
   server: 87.76.190.244
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39618,7 +39126,6 @@ proxies:
   port: 443
   server: 143.198.106.68
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39632,7 +39139,6 @@ proxies:
   port: 443
   server: 93.85.236.9
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -39646,7 +39152,6 @@ proxies:
   port: 443
   server: 168.143.108.38
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -39677,7 +39182,6 @@ proxies:
   server: 207.180.209.128
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39690,7 +39194,6 @@ proxies:
   server: 143.110.175.165
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39711,7 +39214,6 @@ proxies:
   server: 179.255.127.45
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39724,7 +39226,6 @@ proxies:
   server: 185.112.249.201
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39737,7 +39238,6 @@ proxies:
   server: 202.61.198.53
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39750,7 +39250,6 @@ proxies:
   server: 129.225.185.49
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39763,7 +39262,6 @@ proxies:
   server: 141.98.41.20
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -39776,7 +39274,6 @@ proxies:
   port: 443
   server: 3.112.41.210
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -39799,7 +39296,6 @@ proxies:
   port: 8443
   server: 185.114.72.31
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39813,7 +39309,6 @@ proxies:
   port: 443
   server: 179.255.99.31
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39827,7 +39322,6 @@ proxies:
   port: 443
   server: 52.194.44.56
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39841,7 +39335,6 @@ proxies:
   port: 443
   server: 212.2.227.187
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39855,7 +39348,6 @@ proxies:
   port: 443
   server: 179.255.111.93
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39869,7 +39361,6 @@ proxies:
   port: 443
   server: 93.86.12.49
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39883,7 +39374,6 @@ proxies:
   port: 443
   server: 173.242.51.189
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39897,7 +39387,6 @@ proxies:
   port: 443
   server: 82.26.198.25
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39911,7 +39400,6 @@ proxies:
   port: 2053
   server: 178.104.197.49
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39925,7 +39413,6 @@ proxies:
   port: 443
   server: 35.241.172.224
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39947,7 +39434,6 @@ proxies:
   port: 443
   server: 179.255.127.92
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39961,7 +39447,6 @@ proxies:
   port: 443
   server: 179.255.102.54
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39975,7 +39460,6 @@ proxies:
   port: 443
   server: 179.255.115.22
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -39989,7 +39473,6 @@ proxies:
   port: 2053
   server: 194.135.119.82
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40003,7 +39486,6 @@ proxies:
   port: 8443
   server: 202.61.226.121
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40017,7 +39499,6 @@ proxies:
   port: 443
   server: 91.196.32.217
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40031,7 +39512,6 @@ proxies:
   port: 443
   server: 208.68.180.204
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40045,7 +39525,6 @@ proxies:
   port: 443
   server: 23.246.154.144
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40059,7 +39538,6 @@ proxies:
   port: 443
   server: 179.255.127.209
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40073,7 +39551,6 @@ proxies:
   port: 443
   server: 194.114.138.162
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40095,7 +39572,6 @@ proxies:
   port: 443
   server: 179.255.136.143
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40110,7 +39586,6 @@ proxies:
   server: 212.192.221.107
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -40123,7 +39598,6 @@ proxies:
   port: 443
   server: 141.98.233.6
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40139,7 +39613,6 @@ proxies:
   port: 443
   server: 179.255.126.253
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40155,7 +39628,6 @@ proxies:
   port: 443
   server: 179.253.241.115
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40171,7 +39643,6 @@ proxies:
   port: 443
   server: 172.104.81.253
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40187,7 +39658,6 @@ proxies:
   port: 443
   server: 153.56.171.216
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40203,7 +39673,6 @@ proxies:
   port: 443
   server: 89.36.137.173
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40219,7 +39688,6 @@ proxies:
   port: 443
   server: 179.255.132.69
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -40235,7 +39703,6 @@ proxies:
   port: 443
   server: 141.164.56.22
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -40259,7 +39726,6 @@ proxies:
   port: 443
   server: 138.124.231.159
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -40283,7 +39749,6 @@ proxies:
   port: 443
   server: 107.170.40.201
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40300,7 +39765,6 @@ proxies:
   port: 443
   server: 130.49.219.112
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40316,7 +39780,6 @@ proxies:
   port: 8443
   server: 131.143.180.175
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40332,7 +39795,6 @@ proxies:
   port: 443
   server: 134.185.91.72
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40348,7 +39810,6 @@ proxies:
   port: 443
   server: 138.124.17.154
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40364,7 +39825,6 @@ proxies:
   port: 8443
   server: 14.137.237.134
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40380,7 +39840,6 @@ proxies:
   port: 443
   server: 149.28.159.222
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40396,7 +39855,6 @@ proxies:
   port: 443
   server: 168.138.176.180
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40422,7 +39880,6 @@ proxies:
   port: 443
   server: 176.12.77.235
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40438,7 +39895,6 @@ proxies:
   port: 443
   server: 179.253.234.228
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40454,7 +39910,6 @@ proxies:
   port: 443
   server: 179.253.239.152
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40470,7 +39925,6 @@ proxies:
   port: 443
   server: 179.253.247.146
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40486,7 +39940,6 @@ proxies:
   port: 443
   server: 179.253.255.157
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40502,7 +39955,6 @@ proxies:
   port: 443
   server: 179.253.255.184
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40518,7 +39970,6 @@ proxies:
   port: 443
   server: 179.253.255.213
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40534,7 +39985,6 @@ proxies:
   port: 443
   server: 179.255.111.160
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40550,7 +40000,6 @@ proxies:
   port: 443
   server: 179.255.115.39
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40566,7 +40015,6 @@ proxies:
   port: 443
   server: 179.255.115.60
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40590,7 +40038,6 @@ proxies:
   port: 443
   server: 179.255.119.131
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40606,7 +40053,6 @@ proxies:
   port: 443
   server: 179.255.132.76
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40622,7 +40068,6 @@ proxies:
   port: 443
   server: 179.255.140.28
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40638,7 +40083,6 @@ proxies:
   port: 443
   server: 179.255.99.100
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40654,7 +40098,6 @@ proxies:
   port: 8443
   server: 185.232.205.200
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40670,7 +40113,6 @@ proxies:
   port: 443
   server: 185.246.217.148
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40686,7 +40128,6 @@ proxies:
   port: 443
   server: 193.163.19.232
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40702,7 +40143,6 @@ proxies:
   port: 443
   server: 195.123.244.20
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40718,7 +40158,6 @@ proxies:
   port: 443
   server: 195.133.92.20
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40734,7 +40173,6 @@ proxies:
   port: 443
   server: 209.38.215.30
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40750,7 +40188,6 @@ proxies:
   port: 443
   server: 212.237.6.194
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40766,7 +40203,6 @@ proxies:
   port: 443
   server: 217.60.6.74
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40782,7 +40218,6 @@ proxies:
   port: 443
   server: 41.216.182.98
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40798,7 +40233,6 @@ proxies:
   port: 443
   server: 45.95.232.113
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40814,7 +40248,6 @@ proxies:
   port: 443
   server: 46.225.176.136
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40830,7 +40263,6 @@ proxies:
   port: 8443
   server: 62.182.198.47
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40846,7 +40278,6 @@ proxies:
   port: 443
   server: 62.77.155.16
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40862,7 +40293,6 @@ proxies:
   port: 8443
   server: 65.75.201.83
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40878,7 +40308,6 @@ proxies:
   port: 443
   server: 85.192.42.198
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -40894,7 +40323,6 @@ proxies:
   server: 185.82.218.224
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40907,7 +40335,6 @@ proxies:
   server: 104.16.245.194
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: P002-260618
   type: trojan
   udp: true
@@ -40920,7 +40347,6 @@ proxies:
   server: 82.118.18.179
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -40933,7 +40359,6 @@ proxies:
   server: 141.133.174.88
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -40945,7 +40370,6 @@ proxies:
   server: 83.147.254.59
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -40957,7 +40381,6 @@ proxies:
   server: 172.67.89.103
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -40969,7 +40392,6 @@ proxies:
   server: 45.32.54.55
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -40981,7 +40403,6 @@ proxies:
   server: 87.120.126.131
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -40993,7 +40414,6 @@ proxies:
   server: 144.31.120.77
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
@@ -41007,7 +40427,6 @@ proxies:
   port: 443
   server: 104.18.35.86
   skip-cert-verify: false
-  sni: www.volumerOot.coM.
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -41023,7 +40442,6 @@ proxies:
   server: 91.149.167.147
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -41036,7 +40454,6 @@ proxies:
   server: 213.111.148.137
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -41049,7 +40466,6 @@ proxies:
   server: 172.67.67.89
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: C001-260618
   type: trojan
   udp: true
@@ -41062,7 +40478,6 @@ proxies:
   port: 443
   server: 45.196.235.64
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -41078,7 +40493,6 @@ proxies:
   port: 443
   server: 207.57.123.77
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: F003-260618
   type: trojan
   udp: true
@@ -41095,7 +40509,6 @@ proxies:
   port: 443
   server: 104.25.240.193
   skip-cert-verify: false
-  sni: www.trusteeforward.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -41112,7 +40525,6 @@ proxies:
   port: 443
   server: 188.114.97.7
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -41130,7 +40542,6 @@ proxies:
   port: 443
   server: 188.114.97.8
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -41147,7 +40558,6 @@ proxies:
   port: 443
   server: 46.62.204.134
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -41163,7 +40573,6 @@ proxies:
   server: 207.57.123.77
   servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -41176,7 +40585,6 @@ proxies:
   port: 443
   server: 64.110.82.71
   skip-cert-verify: true
-  sni: www.cordweave.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -41194,7 +40602,6 @@ proxies:
   port: 443
   server: 188.114.97.6
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -41212,7 +40619,6 @@ proxies:
   port: 443
   server: 188.114.98.0
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -41230,7 +40636,6 @@ proxies:
   port: 443
   server: 188.42.145.180
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -41247,7 +40652,6 @@ proxies:
   port: 443
   server: 209.38.225.64
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -41262,7 +40666,6 @@ proxies:
   port: 443
   server: 207.57.123.112
   skip-cert-verify: false
-  sni: www.cordweave.com
   sub_tag: M001-260618
   type: trojan
   ws-opts:
@@ -41278,7 +40681,6 @@ proxies:
   port: 443
   server: 92.42.99.143
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41295,7 +40697,6 @@ proxies:
   port: 443
   server: 144.31.205.106
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41312,7 +40713,6 @@ proxies:
   port: 443
   server: 131.196.254.151
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41329,7 +40729,6 @@ proxies:
   port: 443
   server: 144.31.205.106
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41344,7 +40743,6 @@ proxies:
   port: 443
   server: 188.114.97.3
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41359,7 +40757,6 @@ proxies:
   port: 443
   server: 188.114.97.1
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41374,7 +40771,6 @@ proxies:
   port: 443
   server: 188.114.97.7
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41391,7 +40787,6 @@ proxies:
   port: 443
   server: 188.114.97.5
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41406,7 +40801,6 @@ proxies:
   port: 443
   server: 188.114.97.3
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41424,7 +40818,6 @@ proxies:
   port: 443
   server: 188.42.145.180
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41447,7 +40840,6 @@ proxies:
   port: 443
   server: 188.114.97.2
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41462,7 +40854,6 @@ proxies:
   port: 443
   server: 219.76.13.177
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41477,7 +40868,6 @@ proxies:
   port: 443
   server: 188.114.97.8
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41492,7 +40882,6 @@ proxies:
   port: 443
   server: 185.22.172.249
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41509,7 +40898,6 @@ proxies:
   port: 443
   server: 104.21.37.56
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41524,7 +40912,6 @@ proxies:
   port: 443
   server: 185.22.172.249
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41541,7 +40928,6 @@ proxies:
   port: 443
   server: 188.114.97.4
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41556,7 +40942,6 @@ proxies:
   port: 443
   server: 131.196.254.151
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41571,7 +40956,6 @@ proxies:
   port: 443
   server: 46.62.204.134
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41588,7 +40972,6 @@ proxies:
   port: 443
   server: 219.76.13.177
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41603,7 +40986,6 @@ proxies:
   port: 443
   server: 188.114.97.4
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41620,7 +41002,6 @@ proxies:
   port: 443
   server: 188.114.97.2
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41637,7 +41018,6 @@ proxies:
   port: 443
   server: 188.114.97.1
   skip-cert-verify: false
-  sni: wWw.Volumeroot.cOm.
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41654,7 +41034,6 @@ proxies:
   port: 443
   server: 104.18.4.5
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41671,7 +41050,6 @@ proxies:
   port: 443
   server: 188.114.97.5
   skip-cert-verify: false
-  sni: www.volumeroot.com
   sub_tag: S004-260618
   type: trojan
   udp: true
@@ -41896,7 +41274,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ru.nl
-  sni: www.ru.nl
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -42147,7 +41524,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   alpn:
   - h3
@@ -42732,7 +42108,6 @@ proxies:
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: R002-260618
   tls: true
   type: http
@@ -42785,7 +42160,6 @@ proxies:
   port: 9002
   server: 193.176.84.26
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: R002-260618
   tls: true
   type: http
@@ -42794,7 +42168,6 @@ proxies:
   port: 9002
   server: 193.176.84.30
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -42802,7 +42175,6 @@ proxies:
   port: 9002
   server: 193.176.84.38
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -42853,7 +42225,6 @@ proxies:
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -42861,7 +42232,6 @@ proxies:
   port: 9002
   server: 193.176.84.25
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -42903,7 +42273,6 @@ proxies:
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -42911,7 +42280,6 @@ proxies:
   port: 9002
   server: 193.176.84.37
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: R002-260618
   tls: true
   type: http
@@ -42966,7 +42334,6 @@ proxies:
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43000,7 +42367,6 @@ proxies:
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43008,7 +42374,6 @@ proxies:
   port: 9002
   server: 193.176.84.31
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: R002-260618
   tls: true
   type: http
@@ -43026,7 +42391,6 @@ proxies:
   port: 9002
   server: 193.176.84.23
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: P002-260618
   tls: true
   type: http
@@ -43045,7 +42409,6 @@ proxies:
   port: 9002
   server: 193.176.84.36
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: P002-260618
   tls: true
   type: http
@@ -43162,7 +42525,6 @@ proxies:
   port: 9002
   server: 193.176.84.16
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: R002-260618
   tls: true
   type: http
@@ -43171,7 +42533,6 @@ proxies:
   port: 9002
   server: 193.176.84.21
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43189,7 +42550,6 @@ proxies:
   port: 9002
   server: 193.176.84.40
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43223,7 +42583,6 @@ proxies:
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: R002-260618
   tls: true
   type: http
@@ -43232,7 +42591,6 @@ proxies:
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43277,7 +42635,6 @@ proxies:
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43378,7 +42735,6 @@ proxies:
   port: 9002
   server: 193.176.84.33
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43414,7 +42770,6 @@ proxies:
   port: 9002
   server: 193.176.84.19
   skip-cert-verify: true
-  sni: www.bing.com
   sub_tag: P002-260618
   tls: true
   type: http
@@ -43456,7 +42811,6 @@ proxies:
   port: 9002
   server: 193.176.84.22
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -43595,7 +42949,6 @@ proxies:
   udp: true
   tls: true
   servername: www.nvidia.com
-  sni: www.nvidia.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -43959,7 +43312,6 @@ proxies:
   udp: true
   tls: true
   servername: www.vk.com
-  sni: www.vk.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -45841,7 +45193,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: ios
   reality-opts:
@@ -45855,7 +45206,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: qq
   reality-opts:
@@ -45945,7 +45295,6 @@ proxies:
   udp: true
   tls: true
   servername: www.websupport.sk
-  sni: www.websupport.sk
   skip-cert-verify: false
   client-fingerprint: safari
   reality-opts:
@@ -46144,7 +45493,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -46287,7 +45635,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -48654,7 +48001,6 @@ proxies:
   port: 443
   server: www.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: false
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -48761,7 +48107,6 @@ proxies:
   type: trojan
   udp: true
   network: tcp
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
 - name: 🇺🇸US_378|825KB/s|S004-260618 [981065c25317]
   client-fingerprint: chrome
   password: "dba20dcb635e430fa4d3bfc303a149d2"
@@ -48803,7 +48148,6 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
 - name: 🇺🇸US_381|473KB/s|K001-260618 [03581053bc95]
   password: None
   port: 443
@@ -49686,7 +49030,6 @@ proxies:
   port: 443
   server: 216.106.186.66
   skip-cert-verify: true
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -49793,7 +49136,6 @@ proxies:
   port: 443
   server: 66.163.114.106
   skip-cert-verify: false
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
   network: tcp
@@ -50031,7 +49373,6 @@ proxies:
   port: 443
   server: 216.152.156.81
   skip-cert-verify: true
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: A001-260618
   type: trojan
   udp: true
@@ -50134,7 +49475,6 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   port: 443
   server: 216.152.155.131
-  sni: www.nextjobopportunityandclaimyouridealrole.com
   sub_tag: R002-260618
   type: trojan
   udp: true
@@ -50166,7 +49506,6 @@ proxies:
   port: 443
   server: 66.163.114.106
   skip-cert-verify: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -50255,7 +49594,6 @@ proxies:
   port: 443
   server: 66.163.112.121
   skip-cert-verify: true
-  sni: www.unlockyourfuturefindyourperfectcareer.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -50277,7 +49615,6 @@ proxies:
   port: 443
   server: 216.152.156.81
   skip-cert-verify: true
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -50407,7 +49744,6 @@ proxies:
   port: 443
   server: 216.152.155.131
   skip-cert-verify: false
-  sni: www.nextjobopportunityandclaimyouridealrole.com
   sub_tag: B007-260618
   type: trojan
   udp: true
@@ -50504,7 +49840,6 @@ proxies:
   port: 443
   server: 66.163.112.121
   skip-cert-verify: false
-  sni: www.unlockyourfuturefindyourperfectcareer.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -50749,7 +50084,6 @@ proxies:
   port: 443
   server: 216.106.186.66
   skip-cert-verify: true
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -50811,7 +50145,6 @@ proxies:
   port: 443
   server: 216.152.155.59
   skip-cert-verify: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -51305,7 +50638,6 @@ proxies:
   port: 443
   server: 169.197.140.245
   skip-cert-verify: false
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -51421,7 +50753,6 @@ proxies:
   port: 443
   server: 170.101.101.53
   skip-cert-verify: false
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: A004-260618
   type: trojan
   udp: true
@@ -51638,7 +50969,6 @@ proxies:
   port: 443
   server: 169.197.140.245
   skip-cert-verify: false
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -51682,7 +51012,6 @@ proxies:
   port: 443
   server: 170.101.101.53
   skip-cert-verify: false
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -52123,7 +51452,6 @@ proxies:
   port: 443
   server: 216.106.186.66
   skip-cert-verify: false
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -52181,7 +51509,6 @@ proxies:
   port: 443
   server: 216.106.186.66
   skip-cert-verify: false
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   sub_tag: C002-260622
   type: trojan
   udp: true
@@ -52389,7 +51716,6 @@ proxies:
   port: 18603
   server: 38.102.234.153
   skip-cert-verify: false
-  sni: www.777061.xyz
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -52400,7 +51726,6 @@ proxies:
   port: 18603
   server: www.777061.xyz
   skip-cert-verify: true
-  sni: www.777061.xyz
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -52507,7 +51832,6 @@ proxies:
   port: 18603
   server: www.777061.xyz
   skip-cert-verify: false
-  sni: www.777061.xyz
   sub_tag: M003-260806
   type: trojan
   udp: true
@@ -53214,7 +52538,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   alpn:
   - http/1.1
@@ -53627,7 +52950,6 @@ proxies:
   password: humanity
   tls: true
   servername: www.cordweave.com
-  sni: www.cordweave.com
   skip-cert-verify: true
   client-fingerprint: chrome
   network: ws
@@ -53967,7 +53289,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -54020,7 +53341,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54089,7 +53409,6 @@ proxies:
   udp: true
   tls: true
   servername: www.connectingpeoplewithgreatjobs.com
-  sni: www.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
 - type: trojan
   name: 🇨🇦_加拿大 (6)
@@ -54120,7 +53439,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54164,7 +53482,6 @@ proxies:
   udp: true
   tls: true
   servername: www.yourultimateprofessionalcareerhub.com
-  sni: www.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
 - type: vless
   name: 🇨🇭_瑞士 (4)
@@ -54175,7 +53492,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54225,7 +53541,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54240,7 +53555,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54332,7 +53646,6 @@ proxies:
   udp: true
   tls: true
   servername: /
-  sni: /
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54347,7 +53660,6 @@ proxies:
   udp: true
   tls: true
   servername: v2rayNplus--v2rayNplus--v2rayNplus
-  sni: v2rayNplus--v2rayNplus--v2rayNplus
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54391,7 +53703,6 @@ proxies:
   udp: true
   tls: true
   servername: www.iloverussia2026.com
-  sni: www.iloverussia2026.com
   skip-cert-verify: false
 - type: trojan
   name: 🇩🇪_德国 (19)
@@ -54463,7 +53774,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54561,7 +53871,6 @@ proxies:
   udp: true
   tls: true
   servername: www.microsoft.com
-  sni: www.microsoft.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54816,7 +54125,6 @@ proxies:
   udp: true
   tls: true
   servername: www.discovergreatjobsandadvanceyourcareer.com
-  sni: www.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
 - type: trojan
   name: 🇪🇸_西班牙 (6)
@@ -54857,7 +54165,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54887,7 +54194,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---EVAY_VPN---EVAY_VPN---EVAY_VPN---EVAY_VPN
-  sni: /?Telegram---EVAY_VPN---EVAY_VPN---EVAY_VPN---EVAY_VPN
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54902,7 +54208,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54940,7 +54245,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -54989,7 +54293,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55020,7 +54323,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM--MARAMBASHI--MARAMBASHI
-  sni: /?TELEGRAM--MARAMBASHI--MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55209,7 +54511,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55224,7 +54525,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55239,7 +54539,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55254,7 +54553,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55400,7 +54698,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55445,7 +54742,6 @@ proxies:
   udp: true
   tls: true
   servername: www.techadvisor.com
-  sni: www.techadvisor.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55515,7 +54811,6 @@ proxies:
   udp: true
   tls: true
   servername: Telegram-Leviko_v2ray
-  sni: Telegram-Leviko_v2ray
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -55631,7 +54926,6 @@ proxies:
   udp: true
   tls: true
   servername: www.sony.co.uk
-  sni: www.sony.co.uk
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55645,7 +54939,6 @@ proxies:
   udp: true
   tls: true
   servername: www.indyourperfectremotetechjobfromthecomfortofhome.com
-  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
   skip-cert-verify: false
 - type: trojan
   name: 🇳🇱_荷兰 (28)
@@ -55681,7 +54974,6 @@ proxies:
   udp: true
   tls: true
   servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55797,7 +55089,6 @@ proxies:
   udp: true
   tls: true
   servername: www.sony.co.uk
-  sni: www.sony.co.uk
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -55946,7 +55237,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56162,7 +55452,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56177,7 +55466,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56192,7 +55480,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56207,7 +55494,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56222,7 +55508,6 @@ proxies:
   udp: true
   tls: true
   servername: www.intel.com
-  sni: www.intel.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56247,7 +55532,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56459,7 +55743,6 @@ proxies:
   udp: true
   tls: true
   servername: www.tradingview.com
-  sni: www.tradingview.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56529,7 +55812,6 @@ proxies:
   udp: true
   tls: true
   servername: www.foxsports.com
-  sni: www.foxsports.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56742,7 +56024,6 @@ proxies:
   udp: true
   tls: true
   servername: /?BIA_TELEGRAM@i10VPN
-  sni: /?BIA_TELEGRAM@i10VPN
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56775,7 +56056,6 @@ proxies:
   udp: true
   tls: true
   servername: Telegram-Leviko_v2ray
-  sni: Telegram-Leviko_v2ray
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -56968,7 +56248,6 @@ proxies:
   udp: true
   tls: true
   servername: www.unlockyourfuturefindyourperfectcareer.com
-  sni: www.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: false
 - type: trojan
   name: 🇺🇸_美国 (42)
@@ -57120,7 +56399,6 @@ proxies:
   udp: true
   tls: true
   servername: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: false
 - type: trojan
   name: 🇺🇸_美国 (55)
@@ -57171,7 +56449,6 @@ proxies:
   udp: true
   tls: true
   servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57198,7 +56475,6 @@ proxies:
   udp: true
   tls: true
   servername: localhost
-  sni: localhost
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57290,7 +56566,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57314,7 +56589,6 @@ proxies:
   udp: true
   tls: true
   servername: localhost
-  sni: localhost
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57327,7 +56601,6 @@ proxies:
   udp: true
   tls: true
   servername: www.nextjobopportunityandclaimyouridealrole.com
-  sni: www.nextjobopportunityandclaimyouridealrole.com
   skip-cert-verify: false
 - type: vmess
   name: 🇺🇸_美国 (71)
@@ -57367,7 +56640,6 @@ proxies:
   udp: true
   tls: true
   servername: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   skip-cert-verify: false
 - type: vless
   name: 🇺🇸_美国 (75)
@@ -57378,7 +56650,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57426,7 +56697,6 @@ proxies:
   udp: true
   tls: true
   servername: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   skip-cert-verify: false
 - type: vmess
   name: 🇺🇸_美国 (80)
@@ -57485,7 +56755,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57548,7 +56817,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57577,7 +56845,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -57610,7 +56877,6 @@ proxies:
   udp: true
   tls: true
   servername: www.searchnationwidecareerchangehelperandguidancetoday.com
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: false
 - type: vless
   name: 🇺🇸_美国 (97)
@@ -58295,7 +57561,6 @@ proxies:
   server: 198.16.113.218
   servername: www.apple.com
   skip-cert-verify: false
-  sni: www.apple.com
   tls: true
   type: vless
   udp: true
@@ -59373,7 +58638,6 @@ proxies:
   server: 198.16.113.220
   servername: www.apple.com
   skip-cert-verify: false
-  sni: www.apple.com
   tls: true
   type: vless
   udp: true
@@ -59389,7 +58653,6 @@ proxies:
   server: 198.16.113.221
   servername: www.apple.com
   skip-cert-verify: false
-  sni: www.apple.com
   tls: true
   type: vless
   udp: true
@@ -59917,7 +59180,6 @@ proxies:
   port: 9002
   server: 193.176.84.16
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
 - name: D🔴🇷🇴hos[🎬🤖📺🎭]_49e2e376
@@ -60058,7 +59320,6 @@ proxies:
   port: 9002
   server: 193.176.84.37
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   username: ''
@@ -62509,7 +61770,6 @@ proxies:
   udp: true
   tls: false
   servername: www.gov.se
-  sni: www.gov.se
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -62598,7 +61858,6 @@ proxies:
   udp: true
   tls: true
   servername: www.samsung.com
-  sni: www.samsung.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -62771,7 +62030,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50197 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50111 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -62797,7 +62056,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50197 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50111 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)

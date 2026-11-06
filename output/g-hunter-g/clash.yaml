@@ -881,7 +881,7 @@ proxies:
   ws-opts:
     headers:
       Host: tw01.564895.xyz
-    path: '%2Fasdasd'
+    path: /asdasd
 - client-fingerprint: firefox
   flow: ''
   name: 🇯🇵日本｜08｜BGP
@@ -896,7 +896,7 @@ proxies:
   ws-opts:
     headers:
       Host: jp01.564895.xyz
-    path: '%2Fasdasd'
+    path: /asdasd
 - client-fingerprint: firefox
   flow: ''
   name: 🇸🇬新加坡｜07｜BGP
@@ -911,7 +911,7 @@ proxies:
   ws-opts:
     headers:
       Host: sg01.564895.xyz
-    path: '%2Fasdasd'
+    path: /asdasd
 - client-fingerprint: firefox
   flow: ''
   name: 🇸🇬新加坡｜08｜BGP
@@ -925,7 +925,7 @@ proxies:
   ws-opts:
     headers:
       Host: sg01.564895.xyz
-    path: '%2Fasdasd'
+    path: /asdasd
 - client-fingerprint: firefox
   flow: ''
   name: 🇩🇪德国｜06｜BGP
@@ -940,7 +940,7 @@ proxies:
   ws-opts:
     headers:
       Host: de01.564895.xyz
-    path: '%2Fasdasd'
+    path: /asdasd
 - client-fingerprint: firefox
   flow: ''
   name: 🇩🇪德国｜07｜BGP
@@ -955,7 +955,7 @@ proxies:
   ws-opts:
     headers:
       Host: de01.564895.xyz
-    path: '%2Fasdasd'
+    path: /asdasd
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -971,7 +971,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -987,7 +987,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1003,7 +1003,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1019,7 +1019,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1035,7 +1035,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1051,7 +1051,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1067,7 +1067,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1083,7 +1083,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1099,7 +1099,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1115,7 +1115,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1131,7 +1131,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1147,7 +1147,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1163,7 +1163,7 @@ proxies:
   ws-opts:
     headers:
       Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - name: AT_speednode_0001
   network: ws
   port: 8443

@@ -72,7 +72,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ru.nl
-  sni: www.ru.nl
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -757,7 +756,6 @@ proxies:
   udp: true
   tls: true
   servername: www.nvidia.com
-  sni: www.nvidia.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -1982,7 +1980,6 @@ proxies:
   udp: true
   tls: true
   servername: www.amazon.com
-  sni: www.amazon.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2180,7 +2177,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2317,7 +2313,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ea.com
-  sni: www.ea.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -2357,7 +2352,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2372,7 +2366,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2423,7 +2416,6 @@ proxies:
   udp: true
   tls: true
   servername: www.stanford.edu
-  sni: www.stanford.edu
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -2531,7 +2523,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2546,7 +2537,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2559,7 +2549,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2572,7 +2561,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2585,7 +2573,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2598,7 +2585,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2613,7 +2599,6 @@ proxies:
   udp: true
   tls: true
   servername: www.epicgames.com
-  sni: www.epicgames.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -2627,7 +2612,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2642,7 +2626,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2657,7 +2640,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2672,7 +2654,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2686,7 +2667,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2701,7 +2681,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2729,7 +2708,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2743,7 +2721,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2757,7 +2734,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2893,7 +2869,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2908,7 +2883,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2935,7 +2909,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2949,7 +2922,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2962,7 +2934,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -2975,7 +2946,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -2989,7 +2959,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -3003,7 +2972,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   alpn:
   - http/1.1
@@ -3019,7 +2987,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -3034,7 +3001,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -3048,7 +3014,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -3342,7 +3307,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -3634,7 +3598,6 @@ proxies:
   udp: true
   tls: true
   servername: www.vk.com
-  sni: www.vk.com
   skip-cert-verify: false
   client-fingerprint: firefox
   reality-opts:
@@ -3779,7 +3742,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -3792,7 +3754,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -3893,7 +3854,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4059,7 +4019,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4083,7 +4042,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4158,7 +4116,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4237,7 +4194,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4252,7 +4208,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   alpn:
   - h3
@@ -4330,7 +4285,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4343,7 +4297,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
@@ -4357,7 +4310,6 @@ proxies:
   udp: true
   tls: true
   servername: www.ignitelimit.com
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4440,7 +4392,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: ios
   reality-opts:
@@ -4454,7 +4405,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: qq
   reality-opts:
@@ -4523,7 +4473,6 @@ proxies:
   udp: true
   tls: false
   servername: www.gov.se
-  sni: www.gov.se
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -4615,7 +4564,6 @@ proxies:
   udp: true
   tls: true
   servername: www.amazon.com
-  sni: www.amazon.com
   skip-cert-verify: false
   client-fingerprint: random
   reality-opts:
@@ -4630,7 +4578,6 @@ proxies:
   udp: true
   tls: true
   servername: www.amazon.com
-  sni: www.amazon.com
   skip-cert-verify: false
   client-fingerprint: safari
   reality-opts:
@@ -4644,7 +4591,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4658,7 +4604,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4672,7 +4617,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4699,7 +4643,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: ios
   reality-opts:
@@ -4713,7 +4656,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -4984,7 +4926,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5241,7 +5182,6 @@ proxies:
   udp: true
   tls: true
   servername: www.lamer.com.sg
-  sni: www.lamer.com.sg
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -5394,7 +5334,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: ios
   reality-opts:
@@ -5409,7 +5348,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: safari
   reality-opts:
@@ -5424,7 +5362,6 @@ proxies:
   udp: true
   tls: true
   servername: www.mozilla.org
-  sni: www.mozilla.org
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -5540,7 +5477,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5761,7 +5697,6 @@ proxies:
   udp: true
   tls: true
   servername: www.websupport.sk
-  sni: www.websupport.sk
   skip-cert-verify: false
   client-fingerprint: safari
   reality-opts:
@@ -6214,7 +6149,6 @@ proxies:
   udp: true
   tls: true
   servername: www.chip.de
-  sni: www.chip.de
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -6369,7 +6303,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6384,7 +6317,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6412,7 +6344,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -6427,7 +6358,6 @@ proxies:
   udp: true
   tls: true
   servername: www.apple.com
-  sni: www.apple.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -6549,7 +6479,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -6563,7 +6492,6 @@ proxies:
   udp: true
   tls: true
   servername: www.calmlunch.com
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6635,7 +6563,6 @@ proxies:
   udp: true
   tls: true
   servername: www.samsung.com
-  sni: www.samsung.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
@@ -6726,7 +6653,6 @@ proxies:
   udp: true
   tls: true
   servername: www.cloudflare.com
-  sni: www.cloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:

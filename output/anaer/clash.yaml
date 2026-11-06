@@ -137,21 +137,18 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-003 |1.4MB/s
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-004 |1.3MB/s
   type: http
   server: 193.176.84.36
@@ -159,119 +156,102 @@ proxies:
   skip-cert-verify: true
   tls: true
   udp: true
-  sni: www.bing.com
 - name: 罗马尼亚-005 |1.2MB/s
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-006 |1.1MB/s
   type: http
   server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-008 |1.0MB/s
   type: http
   server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-009 |1.0MB/s
   type: http
   server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-010 |1020KB/s
   type: http
   server: 193.176.84.22
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-011 |968KB/s
   type: http
   server: 193.176.84.37
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-012 |943KB/s
   type: http
   server: 193.176.84.34
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-013 |891KB/s
   type: http
   server: 193.176.84.31
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-014 |768KB/s
   type: http
   server: 193.176.84.24
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-015 |731KB/s
   type: http
   server: 193.176.84.19
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-016 |639KB/s
   type: http
   server: 193.176.84.20
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-017 |622KB/s
   type: http
   server: 193.176.84.21
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-018 |586KB/s
   type: http
   server: 193.176.84.25
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-019 |557KB/s
   type: http
   server: 193.176.84.39
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-020 |554KB/s
   type: http
   server: 193.176.84.38
   port: 9002
   skip-cert-verify: true
   tls: true
-  sni: www.bing.com
 - name: 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 138.199.35.215

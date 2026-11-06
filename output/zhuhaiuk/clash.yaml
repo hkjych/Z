@@ -170,7 +170,7 @@ proxies:
   type: socks5
   server: 121.169.46.116
   port: 1090
-  username: Og%3D%3D
+  username: Og==
   password: Og%3D%3D
 - name: SG
   type: socks5

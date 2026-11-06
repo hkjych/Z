@@ -4444,7 +4444,6 @@ proxies:
   port: 44370
   type: trojan
   password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  sni: www.yahoo.com
   udp: true
 - name: 🇯🇵 03
   server: jp-1.gsafevpnapi.com
@@ -4458,14 +4457,12 @@ proxies:
   port: 44370
   type: trojan
   password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  sni: www.yahoo.com
   udp: true
 - name: 🇸🇬 05
   server: sg-2.gsafevpnapi.com
   port: 44370
   type: trojan
   password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  sni: www.yahoo.com
   udp: true
 - name: 🇨🇦 06
   server: 216.152.147.85
@@ -5263,7 +5260,6 @@ proxies:
     headers:
       Host: in-152.67.8.205-0200
   udp: true
-  sni: in-152.67.8.205-0200
 - name: 🇺🇸 333
   server: 129.146.77.248
   port: 39495
@@ -5295,7 +5291,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
   udp: true
-  sni: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🇺🇸 335
   server: 208.103.161.16
   port: 2096
@@ -5521,7 +5516,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸 365
@@ -5554,7 +5548,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸 369
@@ -5562,7 +5555,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: true
   udp: true
 - name: "370"
@@ -5570,7 +5562,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: true
   udp: true
 - name: 🇩🇪 371
@@ -5578,7 +5569,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.iloverussia2026.com
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸 374
@@ -5603,7 +5593,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.nextjobopportunityandclaimyouridealrole.com
   skip-cert-verify: true
   udp: true
 - name: 🇨🇦 377
@@ -5722,7 +5711,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸 394
@@ -5730,7 +5718,6 @@ proxies:
   port: 443
   type: trojan
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸 395
@@ -5771,7 +5758,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5784,7 +5770,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5934,7 +5919,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5947,7 +5931,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5960,7 +5943,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5973,7 +5955,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5986,7 +5967,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -5999,7 +5979,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6012,7 +5991,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6025,7 +6003,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6038,7 +6015,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6051,7 +6027,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6064,7 +6039,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6077,7 +6051,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6090,7 +6063,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6103,7 +6075,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6116,7 +6087,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6129,7 +6099,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6142,7 +6111,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6155,7 +6123,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6168,7 +6135,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6181,7 +6147,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6194,7 +6159,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6207,7 +6171,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6220,7 +6183,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6233,7 +6195,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6246,7 +6207,6 @@ proxies:
   port: 2000
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6281,7 +6241,6 @@ proxies:
   port: 40443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6294,7 +6253,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6307,7 +6265,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6334,7 +6291,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6347,7 +6303,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6360,7 +6315,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6373,7 +6327,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6386,7 +6339,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.ignitelimit.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6399,7 +6351,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6500,7 +6451,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -6539,7 +6489,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6551,7 +6500,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6563,7 +6511,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6575,7 +6522,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6587,7 +6533,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6599,7 +6544,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6611,7 +6555,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6635,7 +6578,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6648,7 +6590,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6661,7 +6602,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6674,7 +6614,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6687,7 +6626,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6700,7 +6638,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6713,7 +6650,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6739,7 +6675,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: //assignment
@@ -6765,7 +6700,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6778,7 +6712,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6807,7 +6740,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -6819,7 +6751,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6831,7 +6762,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6843,7 +6773,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6855,7 +6784,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6867,7 +6795,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6879,7 +6806,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6891,7 +6817,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6931,7 +6856,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -6943,7 +6867,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment?TELEGRAM--CONFIG7X--CONFIG7X
@@ -6955,7 +6878,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -6967,7 +6889,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7019,7 +6940,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7067,7 +6987,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7087,7 +7006,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7122,7 +7040,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7142,7 +7059,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7169,7 +7085,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7198,7 +7113,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7210,7 +7124,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7243,7 +7156,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7271,7 +7183,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7291,7 +7202,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7319,7 +7229,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7332,7 +7241,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -7344,7 +7252,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7356,7 +7263,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7369,7 +7275,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7382,7 +7287,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7402,7 +7306,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7426,7 +7329,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7439,7 +7341,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7451,7 +7352,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7479,7 +7379,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7509,13 +7408,11 @@ proxies:
     headers:
       Host: www.gptcloudai.com
   udp: true
-  sni: www.gptcloudai.com
 - name: 🇳🇱 604
   server: 104.18.255.167
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7528,7 +7425,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -7556,7 +7452,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7569,7 +7464,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7642,7 +7536,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7654,7 +7547,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.unlockyourfuturefindyourperfectcareer.com
   udp: true
 - name: 🇳🇱 619
   server: 82.38.31.184
@@ -7668,7 +7560,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7701,7 +7592,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7726,7 +7616,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7739,7 +7628,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7768,7 +7656,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7781,7 +7668,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7793,7 +7679,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7820,7 +7705,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7859,7 +7743,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7925,7 +7808,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -7945,7 +7827,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7972,7 +7853,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7985,7 +7865,6 @@ proxies:
   port: 25267
   type: trojan
   password: happybirthdaydaniel
-  sni: t.me%2Ffuckthewall
   skip-cert-verify: true
   udp: true
 - name: 🇸🇬 656
@@ -8016,7 +7895,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8036,7 +7914,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8049,7 +7926,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8078,7 +7954,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8110,7 +7985,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -8122,7 +7996,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8135,7 +8008,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8162,7 +8034,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   udp: true
 - name: "676"
   server: 195.238.126.20
@@ -8183,7 +8054,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8196,7 +8066,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8230,7 +8099,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8249,7 +8117,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8270,7 +8137,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8313,7 +8179,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8326,7 +8191,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8339,7 +8203,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
@@ -8351,7 +8214,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8364,7 +8226,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -8396,7 +8257,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8439,7 +8299,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8467,7 +8326,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8480,7 +8338,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8501,7 +8358,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8530,7 +8386,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8543,7 +8398,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8584,7 +8438,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8609,7 +8462,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8629,7 +8481,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
@@ -8641,7 +8492,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
   udp: true
 - name: 🇺🇸 727
   server: 216.152.155.54
@@ -8663,7 +8513,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8682,7 +8531,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8716,7 +8564,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8729,7 +8576,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8741,7 +8587,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8760,7 +8605,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8779,7 +8623,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8792,7 +8635,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -8804,7 +8646,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8841,7 +8682,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8865,7 +8705,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -8885,7 +8724,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -8916,7 +8754,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8928,7 +8765,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -8940,7 +8776,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8953,7 +8788,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -8986,7 +8820,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9006,7 +8839,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9026,7 +8858,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9039,7 +8870,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9058,7 +8888,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9071,7 +8900,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9084,7 +8912,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9112,7 +8939,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9171,7 +8997,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9183,7 +9008,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9203,7 +9027,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9216,7 +9039,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9237,7 +9059,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9250,7 +9071,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -9276,7 +9096,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9299,7 +9118,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9311,7 +9129,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9323,7 +9140,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9352,7 +9168,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9372,7 +9187,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9392,7 +9206,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9405,7 +9218,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9425,7 +9237,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9438,7 +9249,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9457,7 +9267,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9469,7 +9278,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9489,7 +9297,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9508,7 +9315,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9528,7 +9334,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9541,7 +9346,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9553,7 +9357,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9566,7 +9369,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9586,7 +9388,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -9612,10 +9413,9 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
-    path: /%2Fassignment
+    path: //assignment
     headers:
       Host: www.cordweave.com
   udp: true
@@ -9624,14 +9424,12 @@ proxies:
   port: 18603
   type: trojan
   password: lk59gDrTm2
-  sni: www.777061.xyz
   udp: true
 - name: 🇳🇱 845
   server: 89.36.137.173
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9651,7 +9449,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9671,7 +9468,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9683,7 +9479,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9695,7 +9490,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9721,7 +9515,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9741,7 +9534,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9753,7 +9545,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -9779,7 +9570,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9805,7 +9595,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9845,7 +9634,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   udp: true
 - name: 🇳🇱 873
   server: 104.239.12.81
@@ -9859,7 +9647,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9872,7 +9659,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9899,7 +9685,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9931,7 +9716,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9943,7 +9727,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -9956,7 +9739,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9968,7 +9750,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -9994,7 +9775,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10007,7 +9787,6 @@ proxies:
   port: 443
   type: trojan
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
   udp: true
 - name: 🇺🇸 894
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
@@ -10021,7 +9800,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10033,7 +9811,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10068,14 +9845,12 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.yourultimateprofessionalcareerhub.com
   udp: true
 - name: 🇳🇱 904
   server: 185.82.218.224
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10088,7 +9863,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10101,7 +9875,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10114,7 +9887,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10127,7 +9899,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10139,7 +9910,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10166,7 +9936,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10193,7 +9962,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10213,7 +9981,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10225,7 +9992,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10251,7 +10017,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10263,7 +10028,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10276,7 +10040,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10289,7 +10052,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10309,7 +10071,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10384,7 +10145,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10403,7 +10163,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10424,7 +10183,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10436,7 +10194,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10463,7 +10220,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10476,7 +10232,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10489,7 +10244,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10515,7 +10269,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10539,7 +10292,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10552,7 +10304,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10564,7 +10315,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10585,7 +10335,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10612,7 +10361,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10625,7 +10373,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10656,7 +10403,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10682,7 +10428,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10701,7 +10446,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10714,7 +10458,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10727,7 +10470,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -10753,7 +10495,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10766,7 +10507,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10793,7 +10533,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10805,7 +10544,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10818,7 +10556,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumerOot.coM.
   network: ws
   ws-opts:
     path: /assignment
@@ -10830,7 +10567,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -10851,7 +10587,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10864,7 +10599,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10877,7 +10611,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10904,7 +10637,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10931,7 +10663,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -10944,7 +10675,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -10970,7 +10700,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11003,7 +10732,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11058,7 +10786,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -11084,7 +10811,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11111,7 +10837,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -11144,7 +10869,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11193,7 +10917,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -11219,7 +10942,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -11239,7 +10961,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11260,7 +10981,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -11309,7 +11029,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11322,7 +11041,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -11334,7 +11052,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -11346,7 +11063,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11366,7 +11082,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11379,14 +11094,12 @@ proxies:
   port: 18603
   type: trojan
   password: lk59gDrTm2
-  sni: www.777061.xyz
   udp: true
 - name: 🇳🇱 1064
   server: 213.109.192.6
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11399,7 +11112,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11454,7 +11166,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11481,7 +11192,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11494,7 +11204,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -11540,7 +11249,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
@@ -11552,7 +11260,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11586,7 +11293,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11606,7 +11312,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -11626,7 +11331,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -11645,7 +11349,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -11657,7 +11360,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11670,7 +11372,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -11723,7 +11424,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11779,7 +11479,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11799,7 +11498,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11812,7 +11510,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -11824,7 +11521,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11860,7 +11556,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11911,7 +11606,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11924,7 +11618,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11937,7 +11630,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11950,7 +11642,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -11963,7 +11654,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -11975,7 +11665,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12024,7 +11713,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12036,7 +11724,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12059,13 +11746,11 @@ proxies:
     headers:
       Host: www.gptcloudai.com
   udp: true
-  sni: www.gptcloudai.com
 - name: 🇳🇱 1149
   server: 168.143.108.38
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12078,7 +11763,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12099,7 +11783,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12111,7 +11794,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12124,7 +11806,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12137,7 +11818,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12150,7 +11830,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12163,7 +11842,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12186,13 +11864,11 @@ proxies:
     headers:
       Host: www.windowsmsidownloads.com
   udp: true
-  sni: www.windowsmsidownloads.com
 - name: 🇳🇱 1162
   server: 104.25.10.54
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12204,7 +11880,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12216,7 +11891,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12244,7 +11918,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12256,7 +11929,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12275,7 +11947,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12297,7 +11968,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12310,7 +11980,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12322,7 +11991,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12350,7 +12018,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12363,7 +12030,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12375,7 +12041,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12409,7 +12074,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12428,7 +12092,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12448,7 +12111,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12467,7 +12129,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12486,7 +12147,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12584,13 +12244,11 @@ proxies:
     headers:
       Host: www.windowsmsidownloads.com
   udp: true
-  sni: www.windowsmsidownloads.com
 - name: 🇳🇱 1209
   server: 83.217.222.170
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12609,7 +12267,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12622,7 +12279,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12641,7 +12297,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12653,7 +12308,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12665,7 +12319,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12677,7 +12330,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12712,7 +12364,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12732,7 +12383,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12762,13 +12412,11 @@ proxies:
     headers:
       Host: www.windowssearchtools.com
   udp: true
-  sni: www.windowssearchtools.com
 - name: 🇳🇱 1233
   server: 172.66.1.36
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12780,7 +12428,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12792,7 +12439,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12833,7 +12479,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12882,7 +12527,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12918,7 +12562,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12937,7 +12580,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12957,7 +12599,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -12969,7 +12610,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -12981,7 +12621,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -12994,7 +12633,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13021,7 +12659,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13033,7 +12670,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13046,7 +12682,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13066,7 +12701,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -13086,7 +12720,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13099,7 +12732,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13119,7 +12751,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -13139,7 +12770,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13152,10 +12782,9 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
-    path: /%2Fassignment
+    path: //assignment
     headers:
       Host: www.cordweave.com
   udp: true
@@ -13164,7 +12793,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
@@ -13176,7 +12804,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13245,7 +12872,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13258,7 +12884,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13271,7 +12896,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13296,7 +12920,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13309,7 +12932,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -13321,7 +12943,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13333,7 +12954,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -13370,7 +12990,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13383,7 +13002,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13403,7 +13021,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13422,7 +13039,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13435,7 +13051,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13448,7 +13063,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -13467,7 +13081,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -13479,7 +13092,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13522,7 +13134,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13551,7 +13162,6 @@ proxies:
     headers:
       Host: www.windowssearchtools.com
   udp: true
-  sni: www.windowssearchtools.com
 - name: 🇳🇱 1327
   server: 82.38.31.28
   port: 8080
@@ -13564,7 +13174,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13583,7 +13192,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.volumeroot.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13603,7 +13211,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13616,7 +13223,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13635,7 +13241,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13663,7 +13268,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13675,7 +13279,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13711,7 +13314,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13746,7 +13348,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13773,7 +13374,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13786,7 +13386,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13853,7 +13452,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13866,7 +13464,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -13878,7 +13475,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13897,7 +13493,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -13916,7 +13511,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13943,7 +13537,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13956,7 +13549,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13976,7 +13568,6 @@ proxies:
   port: 8443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -13996,7 +13587,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
@@ -14008,7 +13598,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: wWw.Volumeroot.cOm.
   network: ws
   ws-opts:
     path: /assignment
@@ -14042,10 +13631,9 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
-    path: /%2Fassignment
+    path: //assignment
     headers:
       Host: www.cordweave.com
   udp: true
@@ -14054,7 +13642,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14075,7 +13662,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.trusteeforward.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14094,7 +13680,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14107,7 +13692,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14127,14 +13711,12 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.connectingpeoplewithgreatjobs.com
   udp: true
 - name: 🇫🇷 1408
   server: 5.44.46.142
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14167,7 +13749,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14188,7 +13769,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14250,7 +13830,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14262,7 +13841,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14282,7 +13860,6 @@ proxies:
   port: 2053
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14294,7 +13871,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14320,7 +13896,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14332,7 +13907,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14415,7 +13989,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14427,7 +14000,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14453,7 +14025,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14465,7 +14036,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14477,7 +14047,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14490,7 +14059,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14502,7 +14070,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14515,7 +14082,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14527,7 +14093,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14539,7 +14104,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14551,7 +14115,6 @@ proxies:
   port: 443
   type: trojan
   password: humanity
-  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
@@ -14887,7 +14450,6 @@ proxies:
     headers:
       Host: www.ubuntuupdates.com
   udp: true
-  sni: www.ubuntuupdates.com
 - name: 🇺🇸 2618
   server: 66.163.122.7
   port: 443
@@ -15055,7 +14617,6 @@ proxies:
     headers:
       Host: www.windowsmsidownloads.com
   udp: true
-  sni: www.windowsmsidownloads.com
 - name: 🇳🇱 2751
   server: 193.29.139.132
   port: 8080
@@ -15161,7 +14722,6 @@ proxies:
     headers:
       Host: www.windowssearchtools.com
   udp: true
-  sni: www.windowssearchtools.com
 - name: 🇬🇧 2804
   server: dns27.m3hrzd.ir
   port: 1353
@@ -15213,7 +14773,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
   udp: true
 - name: 🇳🇱 2875
   server: 82.38.31.198
@@ -15390,7 +14949,6 @@ proxies:
     headers:
       Host: www.windowsmsidownloads.com
   udp: true
-  sni: www.windowsmsidownloads.com
 - name: 🇳🇱 3030
   server: dns22.m3hrzd.ir
   port: 8044
@@ -15594,7 +15152,6 @@ proxies:
   port: 443
   type: trojan
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com%23%F0%9F%8D%AA99%40oneclickvpnkeystrojan%3A%2F%2F8deb189a-3aed-4865-843b-b72dae954c46%40ctcc.cloudflare.seeck.cn%3A443%3Fhost%3Dapi.85s.me
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸 3202
@@ -16151,7 +15708,6 @@ proxies:
   port: 443
   type: trojan
   password: Tg3RnK7Xp8B1
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com%23%F0%9F%8D%AA2%40oneclickvpnkeys
   skip-cert-verify: true
   udp: true
 - name: 🇩🇪 3543
@@ -16339,7 +15895,6 @@ proxies:
     short-id: "99defbf4759b"
   skip-cert-verify: true
   udp: true
-  sni: www.github.com
 - name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
   type: vless
   server: 217.60.193.1
@@ -16552,7 +16107,6 @@ proxies:
     short-id: "0809f782a29a2030"
   skip-cert-verify: true
   udp: true
-  sni: www.cloudflare.com
 - name: 🇵🇱_PL_波兰
   type: vless
   server: pl01.auragg.org
@@ -16969,7 +16523,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  sni: '@vpnine1'
   udp: true
 - name: CA 🇨🇦 | @Raydikalx | A7D452
   server: 134.195.196.211
@@ -17097,7 +16650,6 @@ proxies:
     short-id: "28f5c1f8f98a"
   network: tcp
   udp: true
-  sni: www.lamer.com.sg
 - name: 🇯🇵 JP_speednode_0019
   server: funagfrdfs.alixxplay.com
   port: 54528
@@ -17114,7 +16666,6 @@ proxies:
     short-id: "54cca3c1c1c7"
   network: tcp
   udp: true
-  sni: www.apple.com
 - name: 🇷🇺 RU_speednode_0029
   server: 147.45.47.119
   port: 443
