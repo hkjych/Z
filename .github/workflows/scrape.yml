@@ -154,7 +154,7 @@ jobs:
 
       - name: 可达性 + 测速 + 生成 AIO
         run: |
-          INPUTS=$(find output -mindepth 2 -maxdepth 2 -name clash.yaml ! -path 'output/aio/*' ! -path 'output/aio-all/*' | sort | tr '\n' ' ')
+          INPUTS=$(python scripts/list_inputs.py)
           echo "输入: $INPUTS"
           if [ -z "$INPUTS" ]; then
             echo "::error::没有可用的来源文件"; exit 1
@@ -185,7 +185,7 @@ jobs:
       # 不精选版:不做延迟/带宽测试,把所有来源节点直接去重合并
       - name: 生成 AIO 不精选（直接合并）
         run: |
-          INPUTS=$(find output -mindepth 2 -maxdepth 2 -name clash.yaml ! -path 'output/aio/*' ! -path 'output/aio-all/*' | sort | tr '\n' ' ')
+          INPUTS=$(python scripts/list_inputs.py)
           echo "输入: $INPUTS"
           if [ -z "$INPUTS" ]; then
             echo "::error::没有可用的来源文件"; exit 1

@@ -35,7 +35,7 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from sanitize import SafeDumper, clean_label, clean_proxy_name, fake_proxy
+from sanitize import SafeDumper, clean_label, clean_proxy_name
 from sources import SOURCES
 
 TEST_URL = "https://www.gstatic.com/generate_204"
@@ -437,8 +437,8 @@ def write_aio(aio, path):
 def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     """不测延迟/带宽,直接把各来源节点合并成 AIO(仅去重、名唯一、分组)。
 
-    与 build_aio 的区别:不过滤任何节点、节点名不加 [x.xMB/s] 标注,
-    分组只有 说明 / 节点选择 / 自动选择 / 各来源。
+    与 build_aio 的区别:不过滤任何节点、节点名不加 [x.xMB/s] 标注;
+    分组与精选版完全一致(手动/自动/延迟最低/故障转移/负载均衡)。
     """
     annotated = dedupe_names([dict(p, name=strip_annotation(p["name"])) for p in proxies])
     srcs = [src_of_name.get(p["name"], "") for p in proxies]
@@ -446,34 +446,12 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     ordered = [p for _, p in pairs]
     names = [p["name"] for p in ordered]
 
-    now = time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 8 * 3600))
-    fake_names = [f"说明-来源: AIO 不精选(合并 {n_inputs} 个来源)"]
-    if net_label:
-        fake_names.append(f"说明-测试网络: {net_label}")
-    fake_names += [
-        "说明-测试: 本次未测延迟/带宽,直接合并(不精选)",
-        f"说明-更新时间: {now} (CST)",
-        f"说明-作者: {AUTHOR}",
-        f"说明-仓库: {REPO_SLUG}",
-    ]
-
-    groups = [{"name": "说明", "type": "select", "proxies": fake_names}]
-    groups.append({"name": "🚀 节点选择(全部)", "type": "select", "proxies": names})
-    groups.append({
-        "name": "♻️ 自动选择",
-        "type": "url-test",
-        "url": TEST_URL,
-        "interval": 300,
-        "proxies": names,
-    })
     per_src = {}
     for src, p in pairs:
         if src:
             per_src.setdefault(src, []).append(p["name"])
-    for src, members in per_src.items():
-        label = clean_label(SOURCES.get(src, (src, ""))[0])
-        groups.append({"name": f"📦 {label}", "type": "select", "proxies": members})
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
+    groups = build_groups(names)
 
     return {
         "mixed-port": 7890,
@@ -482,10 +460,35 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
         "log-level": "info",
         "ipv6": False,
         "external-controller": "127.0.0.1:9090",
-        "proxies": [fake_proxy(n) for n in fake_names] + ordered,
+        "proxies": ordered,
         "proxy-groups": groups,
-        "rules": ["MATCH,🚀 节点选择(全部)"],
+        "rules": ["GEOIP,CN,🇨🇳 国内直连", "MATCH,🚀 手动选择"],
     }, src_stat
+
+
+def build_groups(names):
+    """生成统一的出口分组(不再有说明/来源分组)。
+
+    手动选择(含另外四个自动组) / 自动选择(url-test) / 延迟最低(tolerance=0)
+    / 故障转移(fallback) / 负载均衡(load-balance, round-robin)。
+    """
+    manual_name = "🚀 手动选择"
+    auto = {"name": "♻️ 自动选择", "type": "url-test", "url": TEST_URL,
+            "interval": 300, "tolerance": 50, "proxies": names}
+    lowest = {"name": "⏳ 延迟最低", "type": "url-test", "url": TEST_URL,
+              "interval": 300, "tolerance": 0, "lazy": False, "proxies": names}
+    fallback = {"name": "🔁 故障转移", "type": "fallback", "url": TEST_URL,
+                "interval": 300, "proxies": names}
+    balance = {"name": "⚖️ 负载均衡", "type": "load-balance", "url": TEST_URL,
+               "interval": 300, "strategy": "round-robin", "proxies": names}
+    # 国内直连:默认 DIRECT;想屏蔽国内流量可选 REJECT。
+    # 不能把 manual 放进这里,否则 手动选择 <-> 国内直连 互相引用会被内核判为环。
+    domestic = {"name": "🇨🇳 国内直连", "type": "select",
+                "proxies": ["DIRECT", "REJECT"]}
+    manual = {"name": manual_name, "type": "select",
+              "proxies": [auto["name"], lowest["name"], fallback["name"],
+                          balance["name"], domestic["name"]] + names}
+    return [manual, auto, lowest, fallback, balance, domestic]
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
@@ -494,9 +497,8 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
     tested_names = tested_names or set()
     """good: [(proxy, delay)];speeds: {name: MB/s or None};src_of_name: {name: 来源标识}
 
-    生成分组:
-      说明 / ⚡ 高速节点 / 🏅 优质节点 / 🚀 节点选择(全部精选) / ♻️ 自动选择 /
-      📦 <来源> 各来源精选(仅保留测速后的存活节点)
+    生成分组:🚀 手动选择 / ♻️ 自动选择 / ⏳ 延迟最低 / 🔁 故障转移 / ⚖️ 负载均衡
+    (不再有"说明-"节点,也不再按来源分标签页)
     """
     fast, quality_only, rest = [], [], []
     for p, delay in good:
@@ -532,59 +534,14 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
     fast_names = [name_of[id(p)] for p, _, _ in fast]
     quality_names = [name_of[id(p)] for p, _, _ in quality]
 
-    now = time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 8 * 3600))
-    fake_names = [f"说明-来源: AIO 精选(合并 {n_inputs} 个来源)"]
-    if net_label:
-        fake_names.append(f"说明-测试网络: {net_label}")
-    if delay_tested:
-        fake_names.append(f"说明-延迟测试: {len(good)}/{tested} 节点通过 generate_204")
-    else:
-        fake_names.append("说明-延迟测试: 本次跳过(手动参数),优质节点仅按速度判定")
-    if speed_enabled:
-        fake_names.append(
-            f"说明-测速: {len(fast)} 个节点 > {threshold:g} MB/s({speed_label}实测)"
-        )
-        fake_names.append(f"说明-测速覆盖: {len(tested_names)}/{len(good)} 个可达节点")
-        if target_summary:
-            fake_names.append(f"说明-测速分项: {target_summary}")
-        fake_names.append(
-            f"说明-优质节点: {quality_min_speed:g}~{threshold:g} MB/s 且延迟 ≤ "
-            f"{quality_max_delay} ms(与高速互斥,共 {len(quality)} 个)"
-        )
-    else:
-        fake_names.append("说明-测速: 本次跳过(测试文件不可达)")
-    fake_names += [
-        f"说明-更新时间: {now} (CST)",
-        f"说明-作者: {AUTHOR}",
-        f"说明-仓库: {REPO_SLUG}",
-    ]
-
-    groups = [{"name": "说明", "type": "select", "proxies": fake_names}]
-    groups.append({
-        "name": f"⚡ 高速节点(>{threshold:g}MB/s)",
-        "type": "select",
-        "proxies": fast_names or ["DIRECT"],
-    })
-    groups.append({"name": "🏅 优质节点", "type": "select", "proxies": quality_names or ["DIRECT"]})
-    groups.append({"name": "🚀 节点选择(全部精选)", "type": "select", "proxies": names})
-    groups.append({
-        "name": "♻️ 自动选择",
-        "type": "url-test",
-        "url": TEST_URL,
-        "interval": 300,
-        "proxies": names,
-    })
-
-    # 每个来源一个标签页(仅含该来源通过延迟+测速的精选节点)
+    # 不再注入"说明-"节点;分组固定为 手动/自动/延迟最低/故障转移/负载均衡
     per_src = {}
     for p, _, _ in ordered:
         src = src_of_name.get(p["name"], "")
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
-    for src, members in per_src.items():
-        label = clean_label(SOURCES.get(src, (src, ""))[0])
-        groups.append({"name": f"📦 {label}", "type": "select", "proxies": members})
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
+    groups = build_groups(names)
 
     return {
         "mixed-port": 7890,
@@ -593,9 +550,9 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         "log-level": "info",
         "ipv6": False,
         "external-controller": "127.0.0.1:9090",
-        "proxies": [fake_proxy(n) for n in fake_names] + annotated,
+        "proxies": annotated,
         "proxy-groups": groups,
-        "rules": ["MATCH,🚀 节点选择(全部精选)"],
+        "rules": ["GEOIP,CN,🇨🇳 国内直连", "MATCH,🚀 手动选择"],
     }, len(fast), len(quality), src_stat
 
 
