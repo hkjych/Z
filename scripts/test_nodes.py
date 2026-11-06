@@ -214,27 +214,6 @@ def country_label(code):
     return f"{_flag(code)}{_CODE_CN.get(code, code)}"
 
 
-def country_groups(items):
-    """把节点按国家归档,返回 [(目录名, 国家码)],按 COUNTRY_ORDER 排序,全球最后。
-
-    items 是 [(proxy, delay, rate)] 或 [proxy]。国家优先按服务器 IP 归属地判定,
-    查不到才退回名字线索;只有真的有节点的国家才会出现在列表里。
-    """
-    buckets = {}
-    for it in items:
-        proxy = it[0] if isinstance(it, tuple) else it
-        code = node_country(proxy) or "UN"
-        buckets.setdefault(code, []).append(str(proxy.get("name", "")))
-
-    def sort_key(code):
-        idx = COUNTRY_ORDER.index(code) if code in COUNTRY_ORDER else len(COUNTRY_ORDER)
-        return (idx, code)
-
-    # 目录里直接放节点名:客户端点一下就展开,不用再二级查找
-    return [(country_label(code), code, buckets[code])
-            for code in sorted(buckets, key=sort_key)]
-
-
 # ---- IP 归属地反查:优先按服务器 IP 判定国家,查不到才看名字 ----------------
 _GEOIP = {"db": None, "failed": False}
 _HOST_IP = {}
@@ -696,7 +675,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
         if src:
             per_src.setdefault(src, []).append(p["name"])
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
-    groups = build_groups(names, dirs=country_groups(ordered))
+    groups = build_groups(names)
 
     return {
         "mixed-port": 7890,
@@ -711,7 +690,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     }, src_stat
 
 
-def build_groups(names, fast_names=None, quality_names=None, dirs=None):
+def build_groups(names, fast_names=None, quality_names=None):
     """生成统一的出口分组(不再有说明/来源分组)。
 
     总模式(select,第一个选项=默认自动选择) 里收:自动选择 / 手动选择 /
@@ -735,14 +714,8 @@ def build_groups(names, fast_names=None, quality_names=None, dirs=None):
     domestic = {"name": "🇨🇳 国内直连", "type": "select",
                 "proxies": ["DIRECT", "REJECT"]}
     # 手动选择:里面是「国旗+中文名」的国家目录;每个目录才装节点
-    dirs = dirs or []
-    manual = {"name": manual_name, "type": "select",
-              "proxies": [d[0] for d in dirs] or ["DIRECT"]}
-    # 国家目录里直接列该国节点名:点开目录就能选节点,不需要再进二级列表
-    country_dir_groups = [
-        {"name": label, "type": "select", "proxies": list(members)}
-        for label, _code, members in dirs
-    ]
+    # 手动选择:收全部节点(include-all-proxies),不再分国家目录
+    manual = {"name": manual_name, "type": "select", "include-all-proxies": True}
 
     # 高速/优质:同样 include-all-proxies,再用 filter 按名字里的 ⚡/🏅 标记筛选;
     # 没有匹配时用 DIRECT 兜底,避免出现空分组
@@ -764,7 +737,7 @@ def build_groups(names, fast_names=None, quality_names=None, dirs=None):
     picks = [auto, manual] + extras + [lowest, fallback, balance, domestic]
     master = {"name": master_name, "type": "select",
               "proxies": [g["name"] for g in picks]}
-    return [master] + picks + country_dir_groups
+    return [master] + picks
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
@@ -825,9 +798,7 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
-    # 用改名后的节点建国家目录(名字必须与 proxies 里的一致)
-    groups = build_groups(names, fast_names=fast_names, quality_names=quality_names,
-                          dirs=country_groups(annotated))
+    groups = build_groups(names, fast_names=fast_names, quality_names=quality_names)
 
     return {
         "mixed-port": 7890,
