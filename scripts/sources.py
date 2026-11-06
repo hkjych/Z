@@ -27,6 +27,7 @@ def mirror_url(url: str) -> str:
 
 
 SOURCES = {
+    # 页面型来源(订阅地址每日变化,由 scrape_page_sources.py 解析)
     "yoyapai": ("yoyapai.com", "https://yoyapai.com/category/mianfeijiedian"),
     "nodetoolbox": ("NodeToolBox", "https://nodetoolbox.net/free-nodes/"),
     "jichangg": ("机场e (jichangg.world)", "https://jichangg.world/mianfei/"),
