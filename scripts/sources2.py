@@ -71,4 +71,12 @@ FETCH_URLS = {
     "shaoyou": "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml",
     "kooker": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
     "ovmvo": "https://raw.githubusercontent.com/ovmvo/FreeSub/refs/heads/main/sub/permanent/mihomo.yaml",
-    "zhuhaiuk": "https://raw.g
+    "zhuhaiuk": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
+    "g-hunter-g": "https://raw.githubusercontent.com/g-hunter-g/awesome-vpn/refs/heads/main/key.txt",
+    "GA": "https://raw.githubusercontent.com/hkjych/A/refs/heads/main/output/aio/clash.yaml",
+    "GB": "https://raw.githubusercontent.com/hkjych/B/refs/heads/master/list.meta.yml",
+    "GC": "https://raw.githubusercontent.com/hkjych/C/refs/heads/main/output/clash.yaml",
+    "GD": "https://raw.githubusercontent.com/hkjych/D/refs/heads/main/configs/protocols/AllProtocols.txt",
+    "GE": "https://raw.githubusercontent.com/hkjych/E/refs/heads/main/data/subscription.yaml",
+    "GF": "https://raw.githubusercontent.com/hkjych/F/refs/heads/main/sub/high_quality_nodes.txt",
+}
