@@ -738,7 +738,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 4ivh6F6XFBD12gEg
   udp: true
-- name: "\U0001F55211/06 09:30 | \U0001F1EC\U0001F1E7-679 | 3.5 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1EC\U0001F1E7-679 | 3.5 MB/s \U0001F525"
   type: ss
   server: 78.141.234.176
   port: 2055
@@ -1313,7 +1313,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: HSt1yjCqAg2ZJGQPS9mmDs68zLuvnbgL
   udp: true
-- name: "\U0001F55211/06 09:30 | filembad-10"
+- name: "\U0001F552 | filembad-10"
   type: ss
   server: dns22.m3hrzd.ir
   port: 1348
@@ -1741,7 +1741,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: jiUTzfdPo7fW
   udp: true
-- name: "\U0001F55211/06 09:30 | \U0001F1EC\U0001F1E7-677 | 57.3 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1EC\U0001F1E7-677 | 57.3 MB/s \U0001F525"
   type: ss
   server: 167.104.223.242
   port: 443
@@ -2287,7 +2287,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F55211/06 09:30 | filembad-43"
+- name: "\U0001F552 | filembad-43"
   type: ss
   server: 82.38.31.157
   port: 8080
@@ -2876,14 +2876,14 @@ proxies:
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4:"
+- name: "\U0001F4E1\u804A\u5929\u7FA4"
   type: ss
   server: 0.0.5.2
   port: 1
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #2"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #2"
   type: ss
   server: 0.1.0.2
   port: 2
@@ -2911,7 +2911,7 @@ proxies:
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #3"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #3"
   type: ss
   server: 2.4.6.1
   port: 3
@@ -2932,7 +2932,7 @@ proxies:
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #4"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #4"
   type: ss
   server: 3.2.5.1
   port: 4
@@ -2946,28 +2946,28 @@ proxies:
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #5"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #5"
   type: ss
   server: 4.1.8.2
   port: 2
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #6"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #6"
   type: ss
   server: 5.1.2.1
   port: 8
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #7"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #7"
   type: ss
   server: 6.3.0.4
   port: 4
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: "\U0001F4E1\u804A\u5929\u7FA4: #8"
+- name: "\U0001F4E1\u804A\u5929\u7FA4 #8"
   type: ss
   server: 6.9.8.0
   port: 7
@@ -4434,7 +4434,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.discovergreatjobsandadvanceyourcareer.com
-- name: 'Channel:'
+- name: 'Channel #8'
   type: trojan
   server: 66.163.118.251
   port: 443
@@ -4448,7 +4448,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.discovergreatjobsandadvanceyourcareer.com
-- name: 'Channel: #2'
+- name: 'Channel #9'
   type: trojan
   server: 66.163.118.62
   port: 443
@@ -4734,13 +4734,13 @@ proxies:
   udp: true
   sni: ca001.zestapp778.com
   skip-cert-verify: true
-- name: "\U0001F55211/06 09:30 | "
+- name: "\U0001F552"
   type: trojan
   server: de001.zestapp778.com
   port: 51520
   password: 5t6i121em5lkmsmk
   udp: true
-- name: 'Channel #8'
+- name: 'Channel #10'
   type: trojan
   server: fr001.zestapp778.com
   port: 16778
@@ -5171,7 +5171,7 @@ proxies:
   password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
   udp: true
   sni: stutter.freetrade.link
-- name: "\U0001F55211/06 09:30 | \U0001F1F8\U0001F1EA-353 | 56.6 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1F8\U0001F1EA-353 | 56.6 MB/s \U0001F525"
   type: trojan
   server: hamedhp790.dpdns.org
   port: 2083
@@ -5480,7 +5480,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net
-- name: "\U0001F55211/06 09:30 | canfingV2rayNG-94"
+- name: "\U0001F552 | canfingV2rayNG-94"
   type: trojan
   server: 199.232.78.101
   port: 443
@@ -5649,7 +5649,7 @@ proxies:
   password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
   udp: true
   sni: httah.freetrade.link
-- name: "\U0001F55211/06 09:30 | ProxyMtpVPN-99"
+- name: "\U0001F552 | ProxyMtpVPN-99"
   type: trojan
   server: 89.42.196.114
   port: 443
@@ -6412,7 +6412,7 @@ proxies:
     path: /Telegram=@VPsave
     headers:
       Host: rich-claw.nyc.boxd.sh
-- name: trojan-104.16.186.130-2053
+- name: trojan-104.16.186.130
   type: trojan
   server: 104.16.186.130
   port: 2053
@@ -6484,7 +6484,7 @@ proxies:
     path: /
     headers:
       Host: marvdasht.phonecomparisonblog.org
-- name: trojan-172.67.118.45-2053
+- name: trojan-172.67.118.45
   type: trojan
   server: 172.67.118.45
   port: 2053
@@ -6658,7 +6658,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-- name: 'Channel #9'
+- name: 'Channel #11'
   type: trojan
   server: 104.16.34.14
   port: 443
@@ -9570,7 +9570,7 @@ proxies:
     path: /ws/08769909-d06c-4585-9092-b051786aeeb4
     headers:
       Host: nanebaget.dpdns.org
-- name: "\U0001F55211/06 09:30 | \U0001F1F8\U0001F1EA-350 | 50.4 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1F8\U0001F1EA-350 | 50.4 MB/s \U0001F525"
   type: vless
   server: sw2.ir53.indevs.in
   port: 2081
@@ -9579,7 +9579,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: -aa7oo2wc
+- name: aa7oo2wc
   type: vless
   server: narcod-ping.numallaf.shop
   port: 58978
@@ -10246,7 +10246,7 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
       Host: pan1.global.ssl.fastly.net
-- name: "\U0001F55211/06 09:30 | \U0001F1ED\U0001F1F0-222 | 1.8 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1ED\U0001F1F0-222 | 1.8 MB/s \U0001F525"
   type: vless
   server: aws-link1.lxyun.xyz
   port: 443
@@ -10259,7 +10259,7 @@ proxies:
   reality-opts:
     public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA
     short-id: "c8660f6e"
-- name: "\U0001F55211/06 09:30 | \U0001F1ED\U0001F1F0-219 | 628 KB/s \u26A1"
+- name: "\U0001F552 | \U0001F1ED\U0001F1F0-219 | 628 KB/s \u26A1"
   type: vless
   server: aws-link2.lxyun.xyz
   port: 443
@@ -10272,7 +10272,7 @@ proxies:
   reality-opts:
     public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28
     short-id: "6afd82c0"
-- name: "\U0001F55211/06 09:30 | \U0001F1EF\U0001F1F5-497 | 1.8 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1EF\U0001F1F5-497 | 1.8 MB/s \U0001F525"
   type: vless
   server: aws-link20.lxyun.xyz
   port: 443
@@ -10285,7 +10285,7 @@ proxies:
   reality-opts:
     public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o
     short-id: "6314e825"
-- name: "\U0001F55211/06 09:30 | \U0001F30D-439 | 1.8 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F30D-439 | 1.8 MB/s \U0001F525"
   type: vless
   server: aws-link23.lxyun.xyz
   port: 443
@@ -10298,7 +10298,7 @@ proxies:
   reality-opts:
     public-key: dLmUAqcdy4Z7iucApd9zjOhkXTjl-xt_eHumShIYW0c
     short-id: "ba826a54"
-- name: "\U0001F55211/06 09:30 | \U0001F1F9\U0001F1FC-27 | 983 KB/s \u26A1"
+- name: "\U0001F552 | \U0001F1F9\U0001F1FC-27 | 983 KB/s \u26A1"
   type: vless
   server: aws-link28.lxyun.xyz
   port: 443
@@ -10311,7 +10311,7 @@ proxies:
   reality-opts:
     public-key: I0KCN29MUCJ9CnUptlwBK4Nr-NZZUNh0bQj5aXxKrDY
     short-id: "0b03cf9a"
-- name: "\U0001F55211/06 09:30 | \U0001F1ED\U0001F1F0-220 | 602 KB/s \u26A1"
+- name: "\U0001F552 | \U0001F1ED\U0001F1F0-220 | 602 KB/s \u26A1"
   type: vless
   server: aws-link3.lxyun.xyz
   port: 443
@@ -10324,7 +10324,7 @@ proxies:
   reality-opts:
     public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
     short-id: "3206e665"
-- name: "\U0001F55211/06 09:30 | \U0001F30D-438 | 382 KB/s \U0001F40C"
+- name: "\U0001F552 | \U0001F30D-438 | 382 KB/s \U0001F40C"
   type: vless
   server: aws-link31.lxyun.xyz
   port: 443
@@ -10337,7 +10337,7 @@ proxies:
   reality-opts:
     public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
     short-id: "c7487aeb"
-- name: "\U0001F55211/06 09:30 | \U0001F1ED\U0001F1F0-221 | 1.8 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1ED\U0001F1F0-221 | 1.8 MB/s \U0001F525"
   type: vless
   server: aws-link4.lxyun.xyz
   port: 443
@@ -10350,7 +10350,7 @@ proxies:
   reality-opts:
     public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
     short-id: "a31b59fe"
-- name: "\U0001F55211/06 09:30 | \U0001F1ED\U0001F1F0-218 | 1.4 MB/s \u26A1"
+- name: "\U0001F552 | \U0001F1ED\U0001F1F0-218 | 1.4 MB/s \u26A1"
   type: vless
   server: aws-link5.lxyun.xyz
   port: 443
@@ -10363,7 +10363,7 @@ proxies:
   reality-opts:
     public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
     short-id: "a49232a7"
-- name: "\U0001F55211/06 09:30 | \U0001F30D-441 | 395 KB/s \U0001F40C"
+- name: "\U0001F552 | \U0001F30D-441 | 395 KB/s \U0001F40C"
   type: vless
   server: aws-link8.lxyun.xyz
   port: 443
@@ -10376,7 +10376,7 @@ proxies:
   reality-opts:
     public-key: vDrdqD70aoQOIU5P5UU-h2h9wCu_tEOD4pGu8NOGvzA
     short-id: "55c73a28"
-- name: "\U0001F55211/06 09:30 | \U0001F30D-440 | 3 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F30D-440 | 3 MB/s \U0001F525"
   type: vless
   server: aws-link9.lxyun.xyz
   port: 443
@@ -10389,7 +10389,7 @@ proxies:
   reality-opts:
     public-key: ncsES25G1Nj31aY0kdaNrooqQOqqqaHLk8zbF2b4BGw
     short-id: "bef8fff6"
-- name: "\U0001F55211/06 09:30 | \U0001F1FA\U0001F1F8-4215 | 3.5 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1FA\U0001F1F8-4215 | 3.5 MB/s \U0001F525"
   type: vless
   server: lxyus1.777078.xyz
   port: 443
@@ -10402,7 +10402,7 @@ proxies:
   reality-opts:
     public-key: ulU6wfyain_FQnYt23NGunTAfBQNLhIBY49mvekiQB0
     short-id: "ca032f81"
-- name: "\U0001F55211/06 09:30 | \U0001F1FA\U0001F1F8-4214 | 3.4 MB/s \U0001F525"
+- name: "\U0001F552 | \U0001F1FA\U0001F1F8-4214 | 3.4 MB/s \U0001F525"
   type: vless
   server: lxyus3.777078.xyz
   port: 443
@@ -10732,13 +10732,6 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 15:29 (CST)"
-  type: trojan
-  server: 127.0.0.1
-  port: 443
-  password: dummy
-  udp: true
-  skip-cert-verify: true
 - name: "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   type: trojan
   server: 127.0.0.1
@@ -10760,6 +10753,5 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: Eleven1985/Scrape-By-Country"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1591 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 15:29 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"

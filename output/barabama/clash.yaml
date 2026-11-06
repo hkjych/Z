@@ -11742,7 +11742,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.84 Safari/537.36
     path: /assignment
-- name: "\U0001F1F3\U0001F1F1NL_459|240KB/s|F003-260618 [1971a41b2ec2]"
+- name: "\U0001F1F3\U0001F1F1NL_459|240KB/s|F003-260618 [a41b2ec2]"
   client-fingerprint: chrome
   network: ws
   password: humanity
@@ -12653,7 +12653,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: "\U0001F1FA\U0001F1F8US_133|839KB/s|P002-260618 [2066bdd63838]"
+- name: "\U0001F1FA\U0001F1F8US_133|839KB/s|P002-260618 [bdd63838]"
   password: None
   port: 9002
   server: 138.199.35.199
@@ -13305,7 +13305,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: ww11.levikogjgfdd.ir
-- name: "\U0001F1EB\U0001F1F7FR_302|662KB/s [246cb1905ff7]"
+- name: "\U0001F1EB\U0001F1F7FR_302|662KB/s [246cbff7]"
   encryption: none
   network: ws
   port: 8880
@@ -20446,7 +20446,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: vlso5.1d.mom
-- name: "\U0001F1FA\U0001F1F8US_108|732KB/s|R002-260618 [58eccf1963f4]"
+- name: "\U0001F1FA\U0001F1F8US_108|732KB/s|R002-260618 [58eccff4]"
   password: "null"
   port: 443
   server: purecambogiasl.live
@@ -24873,7 +24873,7 @@ proxies:
   sub_tag: A003-260618
   type: ss
   udp: true
-- name: "\U0001F1FA\U0001F1F8US_215|1.2MB/s|C002-260622 [7879241e2063]"
+- name: "\U0001F1FA\U0001F1F8US_215|1.2MB/s|C002-260622 [7879241e]"
   alterId: "0"
   cipher: auto
   network: raw
@@ -28457,7 +28457,7 @@ proxies:
     path: /ws
   xudp: true
   packet-encoding: xudp
-- name: "\U0001F1EE\U0001F1E9ID_1|689KB/s|R002-260618 [964f620b2028]"
+- name: "\U0001F1EE\U0001F1E9ID_1|689KB/s|R002-260618 [964f620b]"
   port: 443
   server: 103.86.117.202
   skip-cert-verify: true
@@ -29860,7 +29860,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: hhlfy.twiladaphne.ndjp.net
-- name: "\U0001F1EC\U0001F1E7GB_1|5.0MB/s [a1915d230d8e]"
+- name: "\U0001F1EC\U0001F1E7GB_1|5.0MB/s [ad230d8e]"
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
@@ -29928,7 +29928,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "\U0001F1FA\U0001F1F8US_377|988KB/s|S004-260618 [a2058a15acae]"
+- name: "\U0001F1FA\U0001F1F8US_377|988KB/s|S004-260618 [aa15acae]"
   client-fingerprint: chrome
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
   port: 443
@@ -31784,7 +31784,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: "\U0001F1EF\U0001F1F5JP_37|121KB/s|R002-260618 [b0517b7f1944]"
+- name: "\U0001F1EF\U0001F1F5JP_37|121KB/s|R002-260618 [b0517b7f]"
   port: 443
   server: fan.587475.xyz
   sub_tag: R002-260618
@@ -31999,7 +31999,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: "\U0001F1FA\U0001F1F8US_468|673KB/s|F003-260618 [b1941d02ad52]"
+- name: "\U0001F1FA\U0001F1F8US_468|673KB/s|F003-260618 [bd02ad52]"
   client-fingerprint: chrome
   encryption: none
   network: ws
@@ -33484,7 +33484,7 @@ proxies:
     path: /rain1226
   xudp: true
   packet-encoding: xudp
-- name: "\U0001F1F3\U0001F1F1NL_51|2.2MB/s|R002-260618 [bcf20a2004d6]"
+- name: "\U0001F1F3\U0001F1F1NL_51|2.2MB/s|R002-260618 [bcf20ad6]"
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
@@ -33875,7 +33875,7 @@ proxies:
   udp: true
   network: tcp
   servername: w.geogame.ir
-- name: "\U0001F1F7\U0001F1FARU_8|371KB/s|P002-260618 [bf1996a133fe]"
+- name: "\U0001F1F7\U0001F1FARU_8|371KB/s|P002-260618 [bfa133fe]"
   password: None
   port: 8443
   server: 87.242.85.187
@@ -40593,7 +40593,7 @@ proxies:
     path: /sg-melbi
   xudp: true
   packet-encoding: xudp
-- name: "\U0001F1FA\U0001F1F8US_408|571KB/s|R002-260618 [f1932fd78ef6]"
+- name: "\U0001F1FA\U0001F1F8US_408|571KB/s|R002-260618 [ffd78ef6]"
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
@@ -40744,7 +40744,7 @@ proxies:
   type: http
   udp: true
   sni: jgwynphotoarts.pro
-- name: "\U0001F1F7\U0001F1FARU_11|715KB/s|R002-260618 [f22af1963c3d]"
+- name: "\U0001F1F7\U0001F1FARU_11|715KB/s|R002-260618 [f22afc3d]"
   password: "null"
   port: 443
   server: 178.219.43.226
@@ -42560,7 +42560,7 @@ proxies:
   type: http
   username: ''
   udp: true
-- name: "\U0001F1EE\U0001F1EAIE_5|798KB/s|R002-260618 [fca416ca1947]"
+- name: "\U0001F1EE\U0001F1EAIE_5|798KB/s|R002-260618 [fca416ca]"
   port: 443
   server: 149.88.96.1
   skip-cert-verify: true
@@ -43274,13 +43274,6 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 15:29 (CST)"
-  type: trojan
-  server: 127.0.0.1
-  port: 443
-  password: dummy
-  udp: true
-  skip-cert-verify: true
 - name: "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   type: trojan
   server: 127.0.0.1
@@ -43302,6 +43295,5 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: Barabama/FreeNodes"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 7997 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 15:29 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
