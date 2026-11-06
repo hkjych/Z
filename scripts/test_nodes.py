@@ -421,6 +421,71 @@ def dedupe_names(proxies):
     return out
 
 
+def write_aio(aio, path):
+    """原子写出 AIO(先写 .tmp 再替换),避免半截文件被客户端读到。"""
+    import yaml
+
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        yaml.dump(aio, f, Dumper=SafeDumper, allow_unicode=False,
+                  default_flow_style=False, sort_keys=False)
+    os.replace(tmp, path)
+
+
+def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
+    """不测延迟/带宽,直接把各来源节点合并成 AIO(仅去重、名唯一、分组)。
+
+    与 build_aio 的区别:不过滤任何节点、节点名不加 [x.xMB/s] 标注,
+    分组只有 说明 / 节点选择 / 自动选择 / 各来源。
+    """
+    annotated = dedupe_names([dict(p, name=strip_annotation(p["name"])) for p in proxies])
+    srcs = [src_of_name.get(p["name"], "") for p in proxies]
+    pairs = sorted(zip(srcs, annotated), key=lambda sp: (sp[0], sp[1]["name"]))
+    ordered = [p for _, p in pairs]
+    names = [p["name"] for p in ordered]
+
+    now = time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 8 * 3600))
+    fake_names = [f"说明-来源: AIO 合并(合并 {n_inputs} 个来源)"]
+    if net_label:
+        fake_names.append(f"说明-测试网络: {net_label}")
+    fake_names += [
+        "说明-测试: 本次未测延迟/带宽,直接合并(不精选)",
+        f"说明-更新时间: {now} (CST)",
+        f"说明-仓库: {REPO_SLUG}",
+    ]
+
+    groups = [{"name": "说明", "type": "select", "proxies": fake_names}]
+    groups.append({"name": "🚀 节点选择(全部节点)", "type": "select", "proxies": names})
+    groups.append({
+        "name": "♻️ 自动选择",
+        "type": "url-test",
+        "url": TEST_URL,
+        "interval": 300,
+        "proxies": names,
+    })
+    per_src = {}
+    for src, p in pairs:
+        if src:
+            per_src.setdefault(src, []).append(p["name"])
+    for src, members in per_src.items():
+        label = clean_label(SOURCES.get(src, (src, ""))[0])
+        groups.append({"name": f"📦 {label}", "type": "select", "proxies": members})
+    src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
+
+    return {
+        "mixed-port": 7890,
+        "allow-lan": False,
+        "mode": "rule",
+        "log-level": "info",
+        "ipv6": False,
+        "external-controller": "127.0.0.1:9090",
+        "proxies": [fake_proxy(n) for n in fake_names] + ordered,
+        "proxy-groups": groups,
+        "rules": ["MATCH,🚀 节点选择(全部节点)"],
+    }, src_stat
+
+
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
               src_of_name, quality_min_speed, quality_max_delay, target_summary="",
               tested_names=None, net_label=""):
@@ -572,6 +637,8 @@ def main():
     ap.add_argument("--timeout-ms", type=int, default=4500, help="单节点延迟测试超时")
     ap.add_argument("--limit", type=int, default=0, help="只测试前 N 个节点(调试用,0=全部)")
     ap.add_argument("--no-speed", action="store_true", help="跳过测速阶段")
+    ap.add_argument("--merge-only", action="store_true",
+                    help="直接合并模式:不测延迟/带宽,只去重合并生成 AIO(不精选)")
     ap.add_argument("--speed-url", default=os.environ.get("SPEED_TEST_URL", ""),
                     help="测速文件 URL(逗号分隔可多个,默认 20MB Cloudflare 文件)")
     ap.add_argument("--speed-concurrency", type=int, default=96, help="测速并发(同时下载的节点数)")
@@ -616,6 +683,16 @@ def main():
         print(f"        {os.path.basename(os.path.dirname(src)):16s} +{n}")
     if not proxies:
         raise SystemExit("[FAIL] 无任何节点可测")
+
+    if args.merge_only:
+        print("[1.5/5] 直接合并模式: 跳过延迟与测速,只做去重/改名/分组")
+        aio, src_stat = build_merge_only(proxies, len(args.inputs), src_of_name, args.net_label)
+        write_aio(aio, args.output)
+        print(f"[5/5] AIO 已写入 {args.output}: {len(proxies)} 个节点"
+              f"({len(aio['proxy-groups'])} 个分组),耗时 {time.monotonic()-t_start:.0f}s")
+        for label, n in src_stat.items():
+            print(f"        📦 {label}: {n} 个节点")
+        return
 
     # 2) 可达性(延迟)测试
     with Core(mihomo, proxies, ["MATCH,DIRECT"], keep_dir=args.keep_temp) as core:
@@ -716,14 +793,7 @@ def main():
         print(f"        📦 {label}: {n} 个精选节点")
 
     # 5) 写出
-    os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
-    import yaml
-
-    tmp = args.output + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        yaml.dump(aio, f, Dumper=SafeDumper, allow_unicode=False,
-                  default_flow_style=False, sort_keys=False)
-    os.replace(tmp, args.output)
+    write_aio(aio, args.output)
     n_groups = len(aio["proxy-groups"])
     print(f"[5/5] AIO 已写入 {args.output}: {len(good)} 个可用节点"
           f"(高速 {n_fast} 个 / 优质 {n_quality} 个 / {n_groups} 个分组),"
