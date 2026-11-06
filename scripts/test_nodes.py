@@ -220,16 +220,19 @@ def country_groups(items):
     items 是 [(proxy, delay, rate)] 或 [proxy]。国家优先按服务器 IP 归属地判定,
     查不到才退回名字线索;只有真的有节点的国家才会出现在列表里。
     """
-    codes = set()
+    buckets = {}
     for it in items:
         proxy = it[0] if isinstance(it, tuple) else it
-        codes.add(node_country(proxy) or "UN")
+        code = node_country(proxy) or "UN"
+        buckets.setdefault(code, []).append(str(proxy.get("name", "")))
 
     def sort_key(code):
         idx = COUNTRY_ORDER.index(code) if code in COUNTRY_ORDER else len(COUNTRY_ORDER)
         return (idx, code)
 
-    return [(country_label(code), code) for code in sorted(codes, key=sort_key)]
+    # 目录里直接放节点名:客户端点一下就展开,不用再二级查找
+    return [(country_label(code), code, buckets[code])
+            for code in sorted(buckets, key=sort_key)]
 
 
 # ---- IP 归属地反查:优先按服务器 IP 判定国家,查不到才看名字 ----------------
@@ -734,12 +737,11 @@ def build_groups(names, fast_names=None, quality_names=None, dirs=None):
     # 手动选择:里面是「国旗+中文名」的国家目录;每个目录才装节点
     dirs = dirs or []
     manual = {"name": manual_name, "type": "select",
-              "proxies": [label for label, _ in dirs] or ["DIRECT"]}
-    # 国家目录用 include-all-proxies + filter(按名字里的「国旗+代码」筛),不复制节点清单
+              "proxies": [d[0] for d in dirs] or ["DIRECT"]}
+    # 国家目录里直接列该国节点名:点开目录就能选节点,不需要再进二级列表
     country_dir_groups = [
-        {"name": label, "type": "select", "include-all-proxies": True,
-         "filter": re.escape(_flag(code) + code) + r"\d{3,}"}
-        for label, code in dirs
+        {"name": label, "type": "select", "proxies": list(members)}
+        for label, _code, members in dirs
     ]
 
     # 高速/优质:同样 include-all-proxies,再用 filter 按名字里的 ⚡/🏅 标记筛选;
@@ -823,8 +825,9 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
+    # 用改名后的节点建国家目录(名字必须与 proxies 里的一致)
     groups = build_groups(names, fast_names=fast_names, quality_names=quality_names,
-                          dirs=country_groups(ordered))
+                          dirs=country_groups(annotated))
 
     return {
         "mixed-port": 7890,
