@@ -1,162 +1,33 @@
 proxies:
 - cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9IT_1|585KB/s"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9IT_2|579KB/s"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9IT_3|641KB/s"
+  name: 🇮🇹IT_1|706KB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9IT_4|671KB/s"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9IT_5|986KB/s"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9IT_6|603KB/s"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- name: "\U0001F1F9\U0001F1FCTW_1|1.6MB/s"
-  password: "0324fbc29561"
-  port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-  username: "0324fbc29561"
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.I5ge5qOTUhKE8xpufKI84yktvqqG9qkViwYe20uFZUyGwbnK7QMv6Tih0subInSmZTyem1QFG1CDFvGfgMBu3Yw1ryNJfGjMnALAqZawBoukaROcTzxXmFAzuejDalyhxxfNJkeUefW3biOHIzcu_AairYSvJ8l_iHJpKVEKXZWPQWiq-tm_nPJz_oDDhFElaCHKnCslodSen2M6afQQ0HYKc6nKZmZwc1cHG1GKW9xHx6CBfLhFVOhT62tCvbxShul1NJgL-shELnovAtS1aHBFQKDOIiJYC7Ww0awUfsyGIFhnJIhdnqFHnkG7sOcdiWiH-ZkQ11p065zAWEQ14HTOi-aqCAsnWNwdRxwj1_qlArYd3nNF1dXKARRikbMFutC5GyyvSJxk7XwHRGWoK_q6_zK2amtIrsin6tov5kKs3UqywFJMJ2rMtgYZXpvK_TdXumLGUimIq9vFW7idpbMlv9F84NY8UbtrkyB87IQwdKqbtnuOMzxkYik-i9N5vaKcXLSdOGRpMgAKSMt5NbSyllcEh6qUTZoVb_h8ZmYij8csvbGWxodCj1WvOGoRtGGnTSpWMdG3X3ZxXlhNQ6tpIPGTfxkzjPtRjHQDcqm0fgrLjWONnkGxMQRO-Wi50vzNPzW9Vuy5BlZszdGqpjLNRLGw24JTAYKXpxiUkTxUxhO3LRC8kMvGVBgxjImwmwev1IqfPiVIMSwhV0FAMNw27nALh0qyPnNLbFpbTFuTL6V83YypFDl1yahns_AE86ufKnSAaSs_0PwMM_ZDfkhE7nRKCygaD9UjWWygRWq6fZarZahcTAqrZUYPXWxqDsrE7VRYO3ch70AHi6ZXTyKR1YcyM0Kiw3S0kxpjbtWReOJ3lXwry-BjcusDKhRsAxErDIBD6IFuY5ucRTtpfPoNgiq7rSFG8SFNvTe-_wh39Bwjj3JeRnw6kzujiKgxGiAH9GYm6LVvG2ljdWacJjSyoDE6mbFwgRCGdDh4h6eMCPs7hjQmNByx76lb0PYt-BuD9xCfiEFMoKJzTjWUvOy1gbmOrjY5xtkkByo8PCS40YRqXiYQ0Me9U5t_lsdxrvO6f7ajFHBNp_IiQOAstWu9UKC2hiABnVWbHaTFeQSp0tAx9rm5vehC0_a3EAHByGzGFUQ-QWpUO5mvGzZKpPVQrgovg2GsgepxgOMymOgv2CbLNKiwAJJyjDe5d5yXiueH3ZdppJqepXrOGuGOn3e-8RKVu3I-nCp-aMS769Yl5mmS8BYOpxW3HseSzZZMIta4hjsa7hqSgmycflvLV5x-8bM9iBFZ7iOey9oYyEkEbFN-6-Alh2dQfopjE2QNFqW6KatBKHXKHNVoayoc4ZegDKPNAEnAo9wIHkBpDFC-fVoCkGMDcRSeNbF67keruuE0xfMA8ltaklEyRwMcxVQwMhILq6vKlzpJF9OJMGVg5amP_-i4NAsKEfC8Ayp61gByykoWKTWkuLAEAYtXXNIfQ9BPvZca1BITgpC69lapO4SH1UAZ4KRxOTVtbHES_GsjM_lkTv940p3IDkG7jfvxIfY_Q9C3QVbkilRpPvg
-  name: "\u2753Other_1|1.4MB/s"
-  network: xhttp
-  port: 37783
-  reality-opts:
-    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
-    short-id: "21569dd6"
-  server: 62.210.70.194
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289c660-1b12-432b-a06c-c2ae469272b0
-  xhttp-opts:
-    mode: auto
-    path: /OCrp5Ajs
-  xudp: true
-  servername: www.yahoo.com
-- down: ''
-  name: "\U0001F1E9\U0001F1EADE_1|3.7MB/s"
-  obfs: ''
-  obfs-password: ''
-  password: mhsl
-  port: 14444
-  server: 88.99.213.222
-  skip-cert-verify: true
-  sni: 88.99.213.222
-  type: hysteria2
-  up: ''
-- down: ''
-  name: "\U0001F1E9\U0001F1EADE_2|2.8MB/s"
-  obfs: ''
-  obfs-password: ''
-  password: mhsl
-  port: 14444
-  server: 88.99.213.222
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8US_1|521KB/s"
-  network: ws
-  port: 2087
-  server: 104.18.1.1
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 1.proxy2.us.ci.
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-  servername: 1.proxy2.us.ci.
-- down: ''
-  name: "\U0001F1F1\U0001F1FBLV_1|3.4MB/s"
-  obfs: ''
-  obfs-password: ''
-  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
-  port: 8443
-  server: 104.165.205.42
-  skip-cert-verify: false
-  sni: speedtestmark.com
-  type: hysteria2
-  up: ''
-- name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-  password: "0324fbc29561"
-  port: 443
-  server: sdf65h46wr.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-  username: "0324fbc29561"
-- name: "\u8BF4\u660E-\u6765\u6E90: kooker/FreeSubsCheck"
+- name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1144 \u4E2A\u5B57\u7B26"
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1121 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: github"
+- name: '说明-作者: github'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: '说明-仓库: hkjych/Z'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -164,274 +35,269 @@ proxies:
   udp: true
   skip-cert-verify: true
 proxy-groups:
-- name: "\u8BF4\u660E"
+- name: 说明
   type: select
   proxies:
-  - "\u8BF4\u660E-\u6765\u6E90: kooker/FreeSubsCheck"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1144 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u4F5C\u8005: github"
-  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
-- name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
+  - '说明-来源: kooker/FreeSubsCheck'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1121 个非 ASCII 字符'
+  - '说明-作者: github'
+  - '说明-仓库: hkjych/Z'
+- name: 🚀 节点选择
   type: select
   proxies:
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F680 \u624B\u52A8\u5207\u6362"
+- name: 🚀 手动切换
   include-all: true
   type: select
-- name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+- name: ♻️ 自动选择
   type: url-test
   include-all: true
   interval: 300
   tolerance: 50
-- name: "\U0001F4F2 \u7535\u62A5\u6D88\u606F"
+- name: 📲 电报消息
   type: select
   proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇸🇬 狮城节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F4AC Ai\u5E73\u53F0"
+- name: 💬 Ai平台
   type: select
   proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇸🇬 狮城节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F4F9 \u6CB9\u7BA1\u89C6\u9891"
+- name: 📹 油管视频
   type: select
   proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇸🇬 狮城节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F3A5 \u5948\u98DE\u89C6\u9891"
+- name: 🎥 奈飞视频
   type: select
   proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F3A5 \u5948\u98DE\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🎥 奈飞节点
+  - 🇸🇬 狮城节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F4FA \u5DF4\u54C8\u59C6\u7279"
+- name: 📺 巴哈姆特
   type: select
   proxies:
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - 🇨🇳 台湾节点
+  - 🚀 节点选择
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F4FA \u54D4\u54E9\u54D4\u54E9"
+- name: 📺 哔哩哔哩
   type: select
   proxies:
-  - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-- name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
+  - 🎯 全球直连
+  - 🇨🇳 台湾节点
+  - 🇭🇰 香港节点
+- name: 🌍 国外媒体
   type: select
   proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
   - DIRECT
-- name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
-  type: select
-  proxies:
-  - DIRECT
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\U0001F4E2 \u8C37\u6B4CFCM"
+- name: 🌏 国内媒体
   type: select
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\u24C2\uFE0F \u5FAE\u8F6FBing"
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🚀 手动切换
+- name: 📢 谷歌FCM
   type: select
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\u24C2\uFE0F \u5FAE\u8F6F\u4E91\u76D8"
+  - 🚀 节点选择
+  - 🇺🇲 美国节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: Ⓜ️ 微软Bing
   type: select
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
-  type: select
-  proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - DIRECT
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
+  - 🚀 节点选择
+  - 🇺🇲 美国节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: Ⓜ️ 微软云盘
   type: select
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\U0001F3AE \u6E38\u620F\u5E73\u53F0"
+  - 🚀 节点选择
+  - 🇺🇲 美国节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: Ⓜ️ 微软服务
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - DIRECT
+  - 🇺🇲 美国节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: 🍎 苹果服务
   type: select
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\U0001F3B6 \u7F51\u6613\u97F3\u4E50"
+  - 🚀 节点选择
+  - 🇺🇲 美国节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: 🎮 游戏平台
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - 🇺🇲 美国节点
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: 🎶 网易音乐
   type: select
   include-all: true
-  filter: "(?i)\u7F51\u6613|\u97F3\u4E50|NetEase|Music"
+  filter: (?i)网易|音乐|NetEase|Music
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-- name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+- name: 🎯 全球直连
   type: select
   proxies:
   - DIRECT
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-- name: "\U0001F6D1 \u5E7F\u544A\u62E6\u622A"
+  - 🚀 节点选择
+  - ♻️ 自动选择
+- name: 🛑 广告拦截
   type: select
   proxies:
   - REJECT
   - DIRECT
-- name: "\U0001F343 \u5E94\u7528\u51C0\u5316"
+- name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-- name: "\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
+- name: 🐟 漏网之鱼
   type: select
   proxies:
-  - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - 🚀 节点选择
+  - ♻️ 自动选择
   - DIRECT
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
-  - "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
-  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
-  - "\U0001F680 \u624B\u52A8\u5207\u6362"
-- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F\u8282\u70B9"
+  - 🇭🇰 香港节点
+  - 🇨🇳 台湾节点
+  - 🇸🇬 狮城节点
+  - 🇯🇵 日本节点
+  - 🇺🇲 美国节点
+  - 🇰🇷 韩国节点
+  - 🚀 手动切换
+- name: 🇭🇰 香港节点
   include-all: true
-  filter: "(?i)\u6E2F|HK|hk|Hong Kong|HongKong|hongkong"
+  filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
   type: url-test
   interval: 300
   tolerance: 50
-- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C\u8282\u70B9"
+- name: 🇯🇵 日本节点
   include-all: true
-  filter: "(?i)\u65E5\u672C|\u5DDD\u65E5|\u4E1C\u4EAC|\u5927\u962A|\u6CC9\u65E5|\u57FC\
-    \u7389|\u6CAA\u65E5|\u6DF1\u65E5|JP|Japan"
+  filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
   type: url-test
   interval: 300
   tolerance: 50
-- name: "\U0001F1FA\U0001F1F2 \u7F8E\u56FD\u8282\u70B9"
+- name: 🇺🇲 美国节点
   include-all: true
-  filter: "(?i)\u7F8E|\u6CE2\u7279\u5170|\u8FBE\u62C9\u65AF|\u4FC4\u52D2\u5188|\u51E4\
-    \u51F0\u57CE|\u8D39\u5229\u8499|\u7845\u8C37|\u62C9\u65AF\u7EF4\u52A0\u65AF|\u6D1B\
-    \u6749\u77F6|\u5723\u4F55\u585E|\u5723\u514B\u62C9\u62C9|\u897F\u96C5\u56FE|\u829D\
-    \u52A0\u54E5|US|United States"
+  filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
   type: url-test
   interval: 300
   tolerance: 50
-- name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E\u8282\u70B9"
+- name: 🇨🇳 台湾节点
   include-all: true
-  filter: "(?i)\u53F0|\u65B0\u5317|\u5F70\u5316|TW|Taiwan"
+  filter: (?i)台|新北|彰化|TW|Taiwan
   type: url-test
   interval: 300
   tolerance: 50
-- name: "\U0001F1F8\U0001F1EC \u72EE\u57CE\u8282\u70B9"
+- name: 🇸🇬 狮城节点
   include-all: true
-  filter: "(?i)\u65B0\u52A0\u5761|\u5761|\u72EE\u57CE|SG|Singapore"
+  filter: (?i)新加坡|坡|狮城|SG|Singapore
   type: url-test
   interval: 300
   tolerance: 50
-- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD\u8282\u70B9"
+- name: 🇰🇷 韩国节点
   include-all: true
-  filter: "(?i)KR|Korea|KOR|\u9996\u5C14|\u97E9|\u97D3"
+  filter: (?i)KR|Korea|KOR|首尔|韩|韓
   type: url-test
   interval: 300
   tolerance: 50
-- name: "\U0001F3A5 \u5948\u98DE\u8282\u70B9"
+- name: 🎥 奈飞节点
   include-all: true
-  filter: "(?i)NF|\u5948\u98DE|\u89E3\u9501|Netflix|NETFLIX|Media"
+  filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
   type: select
 rule-providers:
   LocalAreaNetwork:
@@ -652,37 +518,37 @@ rule-providers:
     format: text
     type: http
 rules:
-- "PROCESS-NAME,subs-check.exe,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "PROCESS-NAME,subs-check,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,LocalAreaNetwork,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,UnBan,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,BanAD,\U0001F6D1 \u5E7F\u544A\u62E6\u622A"
-- "RULE-SET,BanProgramAD,\U0001F343 \u5E94\u7528\u51C0\u5316"
-- "RULE-SET,GoogleFCM,\U0001F4E2 \u8C37\u6B4CFCM"
-- "RULE-SET,GoogleCN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,SteamCN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,Bing,\u24C2\uFE0F \u5FAE\u8F6FBing"
-- "RULE-SET,OneDrive,\u24C2\uFE0F \u5FAE\u8F6F\u4E91\u76D8"
-- "RULE-SET,Microsoft,\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
-- "RULE-SET,Apple,\U0001F34E \u82F9\u679C\u670D\u52A1"
-- "RULE-SET,Telegram,\U0001F4F2 \u7535\u62A5\u6D88\u606F"
-- "RULE-SET,AI,\U0001F4AC Ai\u5E73\u53F0"
-- "RULE-SET,NetEaseMusic,\U0001F3B6 \u7F51\u6613\u97F3\u4E50"
-- "RULE-SET,Epic,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
-- "RULE-SET,Origin,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
-- "RULE-SET,Sony,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
-- "RULE-SET,Steam,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
-- "RULE-SET,Nintendo,\U0001F3AE \u6E38\u620F\u5E73\u53F0"
-- "RULE-SET,YouTube,\U0001F4F9 \u6CB9\u7BA1\u89C6\u9891"
-- "RULE-SET,Netflix,\U0001F3A5 \u5948\u98DE\u89C6\u9891"
-- "RULE-SET,Bahamut,\U0001F4FA \u5DF4\u54C8\u59C6\u7279"
-- "RULE-SET,BilibiliHMT,\U0001F4FA \u54D4\u54E9\u54D4\u54E9"
-- "RULE-SET,Bilibili,\U0001F4FA \u54D4\u54E9\u54D4\u54E9"
-- "RULE-SET,ChinaMedia,\U0001F30F \u56FD\u5185\u5A92\u4F53"
-- "RULE-SET,ProxyMedia,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "RULE-SET,ProxyGFWlist,\U0001F680 \u8282\u70B9\u9009\u62E9"
-- "RULE-SET,ChinaDomain,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,ChinaCompanyIp,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "RULE-SET,Download,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "GEOIP,CN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-- "MATCH,\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
+- PROCESS-NAME,subs-check.exe,🎯 全球直连
+- PROCESS-NAME,subs-check,🎯 全球直连
+- RULE-SET,LocalAreaNetwork,🎯 全球直连
+- RULE-SET,UnBan,🎯 全球直连
+- RULE-SET,BanAD,🛑 广告拦截
+- RULE-SET,BanProgramAD,🍃 应用净化
+- RULE-SET,GoogleFCM,📢 谷歌FCM
+- RULE-SET,GoogleCN,🎯 全球直连
+- RULE-SET,SteamCN,🎯 全球直连
+- RULE-SET,Bing,Ⓜ️ 微软Bing
+- RULE-SET,OneDrive,Ⓜ️ 微软云盘
+- RULE-SET,Microsoft,Ⓜ️ 微软服务
+- RULE-SET,Apple,🍎 苹果服务
+- RULE-SET,Telegram,📲 电报消息
+- RULE-SET,AI,💬 Ai平台
+- RULE-SET,NetEaseMusic,🎶 网易音乐
+- RULE-SET,Epic,🎮 游戏平台
+- RULE-SET,Origin,🎮 游戏平台
+- RULE-SET,Sony,🎮 游戏平台
+- RULE-SET,Steam,🎮 游戏平台
+- RULE-SET,Nintendo,🎮 游戏平台
+- RULE-SET,YouTube,📹 油管视频
+- RULE-SET,Netflix,🎥 奈飞视频
+- RULE-SET,Bahamut,📺 巴哈姆特
+- RULE-SET,BilibiliHMT,📺 哔哩哔哩
+- RULE-SET,Bilibili,📺 哔哩哔哩
+- RULE-SET,ChinaMedia,🌏 国内媒体
+- RULE-SET,ProxyMedia,🌍 国外媒体
+- RULE-SET,ProxyGFWlist,🚀 节点选择
+- RULE-SET,ChinaDomain,🎯 全球直连
+- RULE-SET,ChinaCompanyIp,🎯 全球直连
+- RULE-SET,Download,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼

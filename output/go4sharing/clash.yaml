@@ -4,7 +4,7 @@ mode: Global
 log-level: info
 external-controller: :9090
 proxies:
-- name: "\u52A0\u62FF\u5927 - \u591A\u4F26\u591A - 1"
+- name: 加拿大 - 多伦多 - 1
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   port: 443
   server: 216.152.147.85
@@ -13,7 +13,7 @@ proxies:
   type: trojan
   udp: true
   delay: 1234
-- name: "\u7F8E\u56FD - \u5723\u514B\u62C9\u62C9 - 1"
+- name: 美国 - 圣克拉拉 - 1
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   port: 443
   server: 167.88.61.20
@@ -22,48 +22,48 @@ proxies:
   type: trojan
   udp: true
   delay: 601
-- name: "\u65E5\u672C - \u4E1C\u4EAC - 1"
+- name: 日本 - 东京 - 1
   server: 154.36.158.197
   port: 8388
   type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: 🇺🇸 US
   password: BeaUf9c0AEWH40Pu
   cipher: aes-256-gcm
   delay: 175
 - cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 1"
+  name: 意大利 - Milan - 1
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
   delay: 827
-- name: "\u610F\u5927\u5229 - Milan - 2"
+- name: 意大利 - Milan - 2
   server: 202.50.253.18
   port: 19999
   type: ss
-  country: "\U0001F1F3\U0001F1FF NZ"
+  country: 🇳🇿 NZ
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   delay: 737
-- name: "\u610F\u5927\u5229 - Milan - 3"
+- name: 意大利 - Milan - 3
   server: 202.50.253.99
   port: 19999
   type: ss
-  country: "\U0001F1F3\U0001F1FF NZ"
+  country: 🇳🇿 NZ
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   delay: 601
-- name: "\u610F\u5927\u5229 - Milan - 4"
+- name: 意大利 - Milan - 4
   server: 202.50.253.36
   port: 19999
   type: ss
-  country: "\U0001F1F3\U0001F1FF NZ"
+  country: 🇳🇿 NZ
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   delay: 566
 - cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 5"
+  name: 意大利 - Milan - 5
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -71,17 +71,17 @@ proxies:
   udp: true
   delay: 2119
 - cipher: aes-256-gcm
-  name: "\u610F\u5927\u5229 - Milan - 6"
+  name: 意大利 - Milan - 6
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
   udp: true
   delay: 1367
-- name: "\u4E2D\u56FD - \u5317\u4EAC - 1"
+- name: 中国 - 北京 - 1
   server: 120.48.133.162
   type: vmess
-  country: "\U0001F1E8\U0001F1F3CN"
+  country: 🇨🇳CN
   port: 10086
   uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
   alterId: 0
@@ -93,10 +93,10 @@ proxies:
   ws-opts:
     path: /
   delay: 236
-- name: "\u4E2D\u56FD - \u5317\u4EAC - 2"
+- name: 中国 - 北京 - 2
   server: 120.48.133.162
   type: vmess
-  country: "\U0001F1E8\U0001F1F3CN"
+  country: 🇨🇳CN
   port: 10086
   uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
   alterId: 0
@@ -108,10 +108,10 @@ proxies:
   ws-opts:
     path: /
   delay: 232
-- name: "\u4E2D\u56FD - \u5317\u4EAC - 3"
+- name: 中国 - 北京 - 3
   server: 120.48.133.162
   type: vmess
-  country: "\U0001F1E8\U0001F1F3CN"
+  country: 🇨🇳CN
   port: 10086
   uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
   alterId: 0
@@ -123,10 +123,10 @@ proxies:
   ws-opts:
     path: /
   delay: 232
-- name: "\u4E2D\u56FD - \u6DF1\u5733 - 4"
+- name: 中国 - 深圳 - 4
   server: 39.108.113.127
   type: vmess
-  country: "\U0001F1E8\U0001F1F3CN"
+  country: 🇨🇳CN
   port: 10086
   uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
   alterId: 0
@@ -138,29 +138,28 @@ proxies:
   ws-opts:
     path: /
   delay: 228
-- name: "\u8BF4\u660E-\u6765\u6E90: go4sharing/sub"
+- name: '说明-来源: go4sharing/sub'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 66 \u4E2A\u5B57\u7B26"
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 66 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: github"
+- name: '说明-作者: github'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: '说明-仓库: hkjych/Z'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -168,11 +167,10 @@ proxies:
   udp: true
   skip-cert-verify: true
 proxy-groups:
-- name: "\u8BF4\u660E"
+- name: 说明
   type: select
   proxies:
-  - "\u8BF4\u660E-\u6765\u6E90: go4sharing/sub"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 66 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u4F5C\u8005: github"
-  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+  - '说明-来源: go4sharing/sub'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 66 个非 ASCII 字符'
+  - '说明-作者: github'
+  - '说明-仓库: hkjych/Z'

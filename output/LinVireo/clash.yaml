@@ -1,77 +1,77 @@
 proxies:
-- name: "\U0001F35394@oneclickvpnkeys"
+- name: 🍓94@oneclickvpnkeys
   type: hysteria2
   server: 45.196.182.211
   port: 8449
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   skip-cert-verify: true
-- name: "\U0001F38876@oneclickvpnkeys"
+- name: 🎈76@oneclickvpnkeys
   type: hysteria2
   server: 150.241.102.127
   port: 443
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   skip-cert-verify: true
-- name: "\U0001F31F39@oneclickvpnkeys"
+- name: 🌟39@oneclickvpnkeys
   type: hysteria2
   server: 144.31.232.216
   port: 443
   password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
   sni: fi01.clgate.network
-- name: "\U0001F6E9\uFE0F40@oneclickvpnkeys"
+- name: 🛩️40@oneclickvpnkeys
   type: hysteria2
   server: 189.74.106.162
   port: 54183
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   sni: outh.yandex-cloud.org
-- name: "\U0001FAD167@oneclickvpnkeys"
+- name: 🫑67@oneclickvpnkeys
   type: hysteria2
   server: outh.yandex-cloud.org
   port: 54183
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   sni: outh.yandex-cloud.org
-- name: "\U0001F3B443@oneclickvpnkeys"
+- name: 🎴43@oneclickvpnkeys
   type: hysteria2
   server: gc4.22556666.com
   port: 32050
   password: 083f9234-76f8-47f4-915e-726a767b7ad5
   sni: gc4.22556666.com
-- name: "\U0001F34197@oneclickvpnkeys"
+- name: 🍁97@oneclickvpnkeys
   type: hysteria2
   server: 163.192.14.135
   port: 50160
   password: "099830134df5ac3a04a4b21d39b8c395"
   skip-cert-verify: true
-- name: "\U0001F3D333@oneclickvpnkeys"
+- name: 🏓33@oneclickvpnkeys
   type: hysteria2
   server: 94.156.250.67
   port: 55000
   password: 0bacdaea-099b-462b-b625-d7d44c89aace
   skip-cert-verify: true
-- name: "RN-3T3\u5929"
+- name: RN-3T3天
   type: hysteria2
   server: 107.175.194.57
   port: 8882
   password: 0e1a66ab-5313-45b3-90e8-ab2a62ff1bdf
   sni: cn.bing.com
-- name: "\U0001F3C046@oneclickvpnkeys"
+- name: 🏀46@oneclickvpnkeys
   type: hysteria2
   server: 80.91.65.89
   port: 443
   password: "1851679956395a09f6afc10eb3f3751b"
   skip-cert-verify: true
-- name: "\U0001F60A71@oneclickvpnkeys"
+- name: 😊71@oneclickvpnkeys
   type: hysteria2
   server: de1.xiaoliyu.cyou
   port: 4433
   password: 19f72087-4591-4d72-930b-2697078ec2be
   skip-cert-verify: true
-- name: "\U0001FA9996@oneclickvpnkeys"
+- name: 🪙96@oneclickvpnkeys
   type: hysteria2
   server: ru1.xiaoliyu.cyou
   port: 18333
   password: 19f72087-4591-4d72-930b-2697078ec2be
   skip-cert-verify: true
-- name: "\U0001F41282@oneclickvpnkeys"
+- name: 🐒82@oneclickvpnkeys
   type: hysteria2
   server: se.xiaoliyu.cyou
   port: 4433
@@ -83,155 +83,155 @@ proxies:
   port: 52016
   password: 1w61o8j0slf0q9yj
   sni: giftcard.gateway
-- name: "\U0001F30062@oneclickvpnkeys"
+- name: 🌀62@oneclickvpnkeys
   type: hysteria2
   server: mg2.mangshe.xyz
   port: 2056
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   skip-cert-verify: true
-- name: "\U0001F3A860@oneclickvpnkeys"
+- name: 🎨60@oneclickvpnkeys
   type: hysteria2
   server: paris.nerabotaet.com
   port: 443
   password: "2561c6b1a3069d3170b4d7e1ecc08c65"
   skip-cert-verify: true
-- name: "\u2708\uFE0F38@oneclickvpnkeys"
+- name: ✈️38@oneclickvpnkeys
   type: hysteria2
   server: 188.241.241.33
   port: 443
   password: 267b3a79-81f2-42ac-a409-c23b05b6329d
   skip-cert-verify: true
-- name: "\U0001F3D389@oneclickvpnkeys"
+- name: 🏓89@oneclickvpnkeys
   type: hysteria2
   server: replay.wwwinternetvideo.click
   port: 443
   password: "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f"
   skip-cert-verify: true
-- name: "\u26D1\uFE0F32@oneclickvpnkeys"
+- name: ⛑️32@oneclickvpnkeys
   type: hysteria2
   server: 2.27.25.75
   port: 1935
   password: 2_hysteria2_fastlane_udfa4x14j:s2N6aP83VG1oMXyTjRuez9p2ltIcLH2Y
   sni: de11.h.fastlanehosting.ru
-- name: "\U0001F3D339@oneclickvpnkeys"
+- name: 🏓39@oneclickvpnkeys
   type: hysteria2
   server: 31.76.111.33
   port: 443
   password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
   skip-cert-verify: true
-- name: "\U0001F397\uFE0F40@oneclickvpnkeys"
+- name: 🎗️40@oneclickvpnkeys
   type: hysteria2
   server: 103.27.156.125
   port: 443
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   sni: node-degame.bangboonet.ru
-- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u6D1B\u6749\u77F6|\u6781\u901F01"
+- name: 🇺🇸美国洛杉矶|极速01
   type: hysteria2
   server: mg-1.yuanbaojc.site
   port: 20801
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   sni: mg-1.yuanbaojc.site
-- name: "\U0001F54A\uFE0F68@oneclickvpnkeys"
+- name: 🕊️68@oneclickvpnkeys
   type: hysteria2
   server: 198.46.215.223
   port: 4443
   password: "31329f25"
   skip-cert-verify: true
-- name: "\U0001F1EC\U0001F1E7telegram\u27A0@v2rayNG_Matsuri"
+- name: 🇬🇧telegram➠@v2rayNG_Matsuri
   type: hysteria2
   server: 109.104.153.124
   port: 11592
   password: "35d26d53bc"
-- name: "\U0001F30D71@oneclickvpnkeys"
+- name: 🌍71@oneclickvpnkeys
   type: hysteria2
   server: 194.55.235.77
   port: 443
   password: 36cd82d2-50b1-0029-b520-2acc9a8a6b40
   sni: api-l1-2.northvale.cloud
-- name: "\U0001F30D37@oneclickvpnkeys"
+- name: 🌍37@oneclickvpnkeys
   type: hysteria2
   server: de.northvale.cloud
   port: 443
   password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
   sni: de.northvale.cloud
-- name: "\U0001F30D68@oneclickvpnkeys"
+- name: 🌍68@oneclickvpnkeys
   type: hysteria2
   server: fi.northvale.cloud
   port: 443
   password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
   sni: fi.northvale.cloud
-- name: "\U0001F30D69@oneclickvpnkeys"
+- name: 🌍69@oneclickvpnkeys
   type: hysteria2
   server: lv1.northvale.cloud
   port: 443
   password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
   sni: lv.northvale.cloud
-- name: "\U0001F30D42@oneclickvpnkeys"
+- name: 🌍42@oneclickvpnkeys
   type: hysteria2
   server: nl.northvale.cloud
   port: 443
   password: 36cd82d2-50b1-400d-b520-2acc9a8a6b40
   sni: nl.northvale.cloud
-- name: "\U0001F6E9\uFE0F61@oneclickvpnkeys"
+- name: 🛩️61@oneclickvpnkeys
   type: hysteria2
   server: 152.67.75.161
   port: 443
   password: "3a702d4d1de4949005d8431220e040fb"
   skip-cert-verify: true
-- name: "\U0001FA9931@oneclickvpnkeys"
+- name: 🪙31@oneclickvpnkeys
   type: hysteria2
   server: 153.76.190.41
   port: 8443
   password: 3a92b39a-5f02-415e-a908-783ec320e83f
   skip-cert-verify: true
-- name: "\u2708\uFE0F37@oneclickvpnkeys"
+- name: ✈️37@oneclickvpnkeys
   type: hysteria2
   server: 91.240.86.70
   port: 22443
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   skip-cert-verify: true
-- name: "\U0001F34175@oneclickvpnkeys"
+- name: 🍁75@oneclickvpnkeys
   type: hysteria2
   server: 103.88.243.142
   port: 11592
   password: "41edb44c8e"
   sni: srv-17e124.21freedom.net
-- name: "\U0001F41999@oneclickvpnkeys"
+- name: 🐙99@oneclickvpnkeys
   type: hysteria2
   server: srv-17e124.21freedom.net
   port: 11592
   password: "41edb44c8e"
-- name: "\U0001F43251@oneclickvpnkeys"
+- name: 🐲51@oneclickvpnkeys
   type: hysteria2
   server: 166.88.228.161
   port: 2056
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   skip-cert-verify: true
-- name: "\U0001F34E98@oneclickvpnkeys"
+- name: 🍎98@oneclickvpnkeys
   type: hysteria2
   server: 129.213.91.185
   port: 35013
   password: 4291c983-c520-46ac-82cc-48f14bef573f
   skip-cert-verify: true
-- name: "\U0001F34262@oneclickvpnkeys"
+- name: 🍂62@oneclickvpnkeys
   type: hysteria2
   server: ees92.shhflow.xyz
   port: 5443
   password: 43212c32-01f2-4356-b216-67dc1c178262
   sni: ees92.shhflow.xyz
-- name: "\U0001F6F862@oneclickvpnkeys"
+- name: 🛸62@oneclickvpnkeys
   type: hysteria2
   server: clash2.deep-links.com
   port: 443
   password: "4c858cccff331e64c711a199a6cb256a"
   sni: clash2.deep-links.com
-- name: "\U0001F6F869@oneclickvpnkeys"
+- name: 🛸69@oneclickvpnkeys
   type: hysteria2
   server: 198.46.146.118
   port: 36720
   password: 4fUg3KH31LpMhko6o0Ka9Q
   skip-cert-verify: true
-- name: "\U0001F4C049@oneclickvpnkeys"
+- name: 📀49@oneclickvpnkeys
   type: hysteria2
   server: rou0001ntrhy01.tcp-reset-club.net
   port: 443
@@ -243,54 +243,54 @@ proxies:
   port: 52061
   password: 4z2oldt85p494bgb
   sni: assets.gateway-stream.com
-- name: "\U0001F344\u200D\U0001F7EB7@oneclickvpnkeys"
+- name: 🍄‍🟫7@oneclickvpnkeys
   type: hysteria2
   server: 109.235.49.234
   port: 443
   password: 529f1911-04d5-4427-94b9-c851fd459a27
   sni: tcp-reset-club.net
-- name: "\U0001F34E40@oneclickvpnkeys"
+- name: 🍎40@oneclickvpnkeys
   type: hysteria2
   server: nl-hy-test.tcp-reset-club.net
   port: 443
   password: 529f1911-04d5-4427-94b9-c851fd459a27
   sni: tcp-reset-club.net
-- name: "\U0001FA9975@oneclickvpnkeys"
+- name: 🪙75@oneclickvpnkeys
   type: hysteria2
   server: els.mangshe.xyz
   port: 2060
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   skip-cert-verify: true
-- name: "\U0001F6F896@oneclickvpnkeys"
+- name: 🛸96@oneclickvpnkeys
   type: hysteria2
   server: 155.117.19.17
   port: 443
   password: "5fa748137b6d822308eea4611f474ad5"
   skip-cert-verify: true
-- name: "\U0001F34267@oneclickvpnkeys"
+- name: 🍂67@oneclickvpnkeys
   type: hysteria2
   server: finkawwwbroy5.qcloud.surf
   port: 20326
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   sni: finkawwwbroy5.qcloud.surf
-- name: "\U0001F441\uFE0F\u200D\U0001F5E8\uFE0F43@oneclickvpnkeys"
+- name: 👁️‍🗨️43@oneclickvpnkeys
   type: hysteria2
   server: wopa7.api3-max.ru
   port: 443
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   sni: wopa7.api3-max.ru
-- name: "\U0001F41E96@oneclickvpnkeys"
+- name: 🐞96@oneclickvpnkeys
   type: hysteria2
   server: de1.xiaoliyu.cyou
   port: 4433
   password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
   skip-cert-verify: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚'
   type: hysteria2
   server: 31.76.80.69
   port: 443
   password: "6aab8efdf13945829ae3699c342be406"
-- name: "\U0001F31F75@oneclickvpnkeys"
+- name: 🌟75@oneclickvpnkeys
   type: hysteria2
   server: 108.181.5.106
   port: 51285
@@ -301,7 +301,7 @@ proxies:
   server: gorbachev-th.kvnfreetest.uk
   port: 55443
   password: "6f7a8009ecf6a12e10d03f9d88493c89"
-- name: "\U0001F98194@oneclickvpnkeys"
+- name: 🦁94@oneclickvpnkeys
   type: hysteria2
   server: usa1.spectrumproxy.shop
   port: 443
@@ -312,378 +312,378 @@ proxies:
   server: 79.137.206.157
   port: 21000
   password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4
-- name: "\U0001F41971@oneclickvpnkeys"
+- name: 🐙71@oneclickvpnkeys
   type: hysteria2
   server: 144.31.230.51
   port: 2053
   password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
   sni: sweden.luxes.network
-- name: "\U0001F41962@oneclickvpnkeys"
+- name: 🐙62@oneclickvpnkeys
   type: hysteria2
   server: 2.26.48.112
   port: 2053
   password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
   sni: noway.luxes.network
-- name: "\U0001FAE79@oneclickvpnkeys"
+- name: 🫧9@oneclickvpnkeys
   type: hysteria2
   server: 194.87.118.184
   port: 2053
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   sni: match-stream.lovkisport.blog
-- name: "\U0001F344\u200D\U0001F7EB74@oneclickvpnkeys"
+- name: 🍄‍🟫74@oneclickvpnkeys
   type: hysteria2
   server: 140.238.213.114
   port: 50160
   password: "84a506ca5aca505696a454d828420b3f"
   skip-cert-verify: true
-- name: "\U0001F60A74@oneclickvpnkeys"
+- name: 😊74@oneclickvpnkeys
   type: hysteria2
   server: streambox.wwwinternetvideo.click
   port: 443
   password: "865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01"
   skip-cert-verify: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #2"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #2'
   type: hysteria2
   server: sg4.dexlos.com
   port: 20654
   password: 8A9905B7-801B-41AF-BFC9-2034212770F6
-- name: "3\U0001F949@oneclickvpnkeys"
+- name: 3🥉@oneclickvpnkeys
   type: hysteria2
   server: fl02.auragg.org
   port: 8443
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   sni: fl02.auragg.org
-- name: "\U0001FAE138@oneclickvpnkeys"
+- name: 🫡38@oneclickvpnkeys
   type: hysteria2
   server: 177.3.218.191
   port: 20326
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   sni: finkawwwbroy5.qcloud.surf
-- name: "\u2708\uFE0F35@oneclickvpnkeys"
+- name: ✈️35@oneclickvpnkeys
   type: hysteria2
   server: alb1337.zaebalsanoproxyklinus.lol
   port: 28152
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   sni: alb1337.zaebalsanoproxyklinus.lol
-- name: "\U0001F9EE46@oneclickvpnkeys"
+- name: 🧮46@oneclickvpnkeys
   type: hysteria2
   server: che01plrhy01.tcp-reset-club.net
   port: 443
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   skip-cert-verify: true
-- name: "\U0001F40A87@oneclickvpnkeys"
+- name: 🐊87@oneclickvpnkeys
   type: hysteria2
   server: nl01ntrhy01.tcp-reset-club.net
   port: 443
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   skip-cert-verify: true
-- name: "\U0001F4C073@oneclickvpnkeys"
+- name: 📀73@oneclickvpnkeys
   type: hysteria2
   server: 107.172.76.105
   port: 443
   password: "975e9f98b4a1b01285ffdb8158ced798"
   skip-cert-verify: true
-- name: "\U0001FA8622@oneclickvpnkeys"
+- name: 🪆22@oneclickvpnkeys
   type: hysteria2
   server: 162.249.124.112
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hopp-germany-new.ddnsguru.com
-- name: "\U0001F4CD69@oneclickvpnkeys"
+- name: 📍69@oneclickvpnkeys
   type: hysteria2
   server: 162.249.124.114
   port: 8080
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   skip-cert-verify: true
-- name: "\u2708\uFE0F64@oneclickvpnkeys"
+- name: ✈️64@oneclickvpnkeys
   type: hysteria2
   server: 162.249.126.42
   port: 9443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hop-germany-september.dynuddns.com
-- name: "\u2638\uFE0F33@oneclickvpnkeys"
+- name: ☸️33@oneclickvpnkeys
   type: hysteria2
   server: 162.249.126.7
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   skip-cert-verify: true
-- name: "\U0001FAD234@oneclickvpnkeys"
+- name: 🫒34@oneclickvpnkeys
   type: hysteria2
   server: 162.249.127.135
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   skip-cert-verify: true
-- name: "\U0001F6E0\uFE0F38@oneclickvpnkeys"
+- name: 🛠️38@oneclickvpnkeys
   type: hysteria2
   server: 162.249.127.136
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hop-germany-september.dynuddns.com
-- name: "\U0001FA9914@oneclickvpnkeys"
+- name: 🪙14@oneclickvpnkeys
   type: hysteria2
   server: 162.249.127.141
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hop-germany-september.dynuddns.com
-- name: "\U0001FA998@oneclickvpnkeys"
+- name: 🪙8@oneclickvpnkeys
   type: hysteria2
   server: 162.249.127.143
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   skip-cert-verify: true
-- name: "\U0001FA996@oneclickvpnkeys"
+- name: 🪙6@oneclickvpnkeys
   type: hysteria2
   server: 162.249.127.144
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   skip-cert-verify: true
-- name: "\U0001FAD192@oneclickvpnkeys"
+- name: 🫑92@oneclickvpnkeys
   type: hysteria2
   server: nl1server.rabstvo.shop
   port: 443
   password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
   skip-cert-verify: true
-- name: "\U0001F579\uFE0F41@oneclickvpnkeys"
+- name: 🕹️41@oneclickvpnkeys
   type: hysteria2
   server: 107.173.11.163
   port: 36713
   password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
   skip-cert-verify: true
-- name: "\u2638\uFE0F16@oneclickvpnkeys"
+- name: ☸️16@oneclickvpnkeys
   type: hysteria2
   server: 72.56.102.31
   port: 443
   password: BWAFlp8g53
   skip-cert-verify: true
-- name: "\U0001F6D691@oneclickvpnkeys"
+- name: 🛖91@oneclickvpnkeys
   type: hysteria2
   server: hys28.wba-pn.ru
   port: 443
   password: BWAFlp8g53
   skip-cert-verify: true
-- name: "KR\u97E9\u56FD( \u66F4\u65B0)"
+- name: KR韩国( 更新)
   type: hysteria2
   server: 130.162.134.218
   port: 20000
   password: C0DD7bgChaltqnh/T2az6ijM
   sni: rmgyvpn.rest
-- name: "KR\u97E9\u56FD( \u66F4\u65B0) #2"
+- name: 'KR韩国( 更新) #2'
   type: hysteria2
   server: 193.122.115.52
   port: 20000
   password: C0DD7bgChaltqnh/T2az6ijM
   sni: rmgyvpn.rest
-- name: "\U0001F6DE55@oneclickvpnkeys"
+- name: 🛞55@oneclickvpnkeys
   type: hysteria2
   server: hys13.wba-pn.ru
   port: 443
   password: CnVfXXvMzh
   skip-cert-verify: true
-- name: "\u26FD75@oneclickvpnkeys"
+- name: ⛽75@oneclickvpnkeys
   type: hysteria2
   server: 38.54.6.46
   port: 36712
   password: CompanyHy2_2026!
   skip-cert-verify: true
-- name: "\U0001F3C014@oneclickvpnkeys"
+- name: 🏀14@oneclickvpnkeys
   type: hysteria2
   server: 72.56.16.243
   port: 443
   password: EkF2Yw0Lc7
   skip-cert-verify: true
-- name: "\U0001F3D361@oneclickvpnkeys"
+- name: 🏓61@oneclickvpnkeys
   type: hysteria2
   server: 45.128.99.14
   port: 8443
   password: Germany2026hy
   skip-cert-verify: true
-- name: "\U0001F92996@oneclickvpnkeys"
+- name: 🤩96@oneclickvpnkeys
   type: hysteria2
   server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F579\uFE0F53@oneclickvpnkeys"
+- name: 🕹️53@oneclickvpnkeys
   type: hysteria2
   server: 13.229.60.114
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F344\u200D\U0001F7EB44@oneclickvpnkeys"
+- name: 🍄‍🟫44@oneclickvpnkeys
   type: hysteria2
   server: 13.36.234.11
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F43269@oneclickvpnkeys"
+- name: 🐲69@oneclickvpnkeys
   type: hysteria2
   server: 15.223.183.81
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F6F8100@oneclickvpnkeys"
+- name: 🛸100@oneclickvpnkeys
   type: hysteria2
   server: 160.187.100.109
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001FA9E28@oneclickvpnkeys"
+- name: 🪞28@oneclickvpnkeys
   type: hysteria2
   server: 35.181.166.40
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F344\u200D\U0001F7EB35@oneclickvpnkeys"
+- name: 🍄‍🟫35@oneclickvpnkeys
   type: hysteria2
   server: 51.44.167.227
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F38063@oneclickvpnkeys"
+- name: 🎀63@oneclickvpnkeys
   type: hysteria2
   server: 54.245.180.117
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F9C543@oneclickvpnkeys"
+- name: 🧅43@oneclickvpnkeys
   type: hysteria2
   server: 99.79.128.48
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\U0001F92998@oneclickvpnkeys"
+- name: 🤩98@oneclickvpnkeys
   type: hysteria2
   server: vpn-tw-002.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\u26FD50@oneclickvpnkeys"
+- name: ⛽50@oneclickvpnkeys
   type: hysteria2
   server: vpn-uk-002.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\u2699\uFE0F90@oneclickvpnkeys"
+- name: ⚙️90@oneclickvpnkeys
   type: hysteria2
   server: vpn-us-003.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: "\u2699\uFE0F29@oneclickvpnkeys"
+- name: ⚙️29@oneclickvpnkeys
   type: hysteria2
   server: 51.15.19.206
   port: 8443
   password: HowdyHysteria2023w0W
   skip-cert-verify: true
-- name: "\u2638\uFE0F28@oneclickvpnkeys"
+- name: ☸️28@oneclickvpnkeys
   type: hysteria2
   server: hysteria.udpgw.com
   port: 8443
   password: HowdyHysteria2023w0W
   skip-cert-verify: true
-- name: "\u2708\uFE0F41@oneclickvpnkeys"
+- name: ✈️41@oneclickvpnkeys
   type: hysteria2
   server: 103.126.51.55
   port: 8443
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\U0001F36575@oneclickvpnkeys"
+- name: 🍥75@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.169
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\U0001FA9078@oneclickvpnkeys"
+- name: 🪐78@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.171
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\U0001F3A872@oneclickvpnkeys"
+- name: 🎨72@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.174
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\u26FD93@oneclickvpnkeys"
+- name: ⛽93@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.176
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-- name: "\U0001F6DE84@oneclickvpnkeys"
+- name: 🛞84@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.177
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-- name: "\U0001F40A98@oneclickvpnkeys"
+- name: 🐊98@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.178
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\U0001F6DE81@oneclickvpnkeys"
+- name: 🛞81@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.181
   port: 8080
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\U0001F4C040@oneclickvpnkeys"
+- name: 📀40@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.183
   port: 8443
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-- name: "\U0001F6DE58@oneclickvpnkeys"
+- name: 🛞58@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.184
   port: 8443
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-- name: "\U0001F6DE64@oneclickvpnkeys"
+- name: 🛞64@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.187
   port: 8443
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-- name: "\U0001F54A\uFE0F99@oneclickvpnkeys"
+- name: 🕊️99@oneclickvpnkeys
   type: hysteria2
   server: 85.204.107.188
   port: 8443
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   skip-cert-verify: true
-- name: "\U0001F40A33@oneclickvpnkeys"
+- name: 🐊33@oneclickvpnkeys
   type: hysteria2
   server: 151.247.197.253
   port: 36723
   password: Krab9Hyst2_Rk7pQ2xL
   skip-cert-verify: true
-- name: "\U0001F34E97@oneclickvpnkeys"
+- name: 🍎97@oneclickvpnkeys
   type: hysteria2
   server: me17.msjia8844.site
   port: 7443
   password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
   skip-cert-verify: true
-- name: "\U0001FA7320@oneclickvpnkeys"
+- name: 🩳20@oneclickvpnkeys
   type: hysteria2
   server: 205.237.109.168
   port: 8443
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   skip-cert-verify: true
-- name: "\u26D1\uFE0F13@oneclickvpnkeys"
+- name: ⛑️13@oneclickvpnkeys
   type: hysteria2
   server: 205.237.109.174
   port: 8443
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   skip-cert-verify: true
-- name: "\U0001F6D78@oneclickvpnkeys"
+- name: 🛗8@oneclickvpnkeys
   type: hysteria2
   server: 86.107.178.68
   port: 8443
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   skip-cert-verify: true
-- name: "\U0001F43896@oneclickvpnkeys"
+- name: 🐸96@oneclickvpnkeys
   type: hysteria2
   server: 192.255.128.123
   port: 443
@@ -694,72 +694,72 @@ proxies:
   server: 179.61.138.145
   port: 36264
   password: Telegram:vpnjey
-- name: "\U0001F6F864@oneclickvpnkeys"
+- name: 🛸64@oneclickvpnkeys
   type: hysteria2
   server: 77.110.96.201
   port: 36264
   password: Telegram-vpnjey
   skip-cert-verify: true
-- name: "\U0001F36580@oneclickvpnkeys"
+- name: 🍥80@oneclickvpnkeys
   type: hysteria2
   server: player.wwwinternetvideo.click
   port: 443
   password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   skip-cert-verify: true
-- name: "Telegram\U0001F449@v2rayNG_Matsuri"
+- name: Telegram👉@v2rayNG_Matsuri
   type: hysteria2
   server: 168.222.43.35
   port: 443
   password: V2RayyNGvpn
-- name: "\u2708\uFE0F94@oneclickvpnkeys"
+- name: ✈️94@oneclickvpnkeys
   type: hysteria2
   server: 43.156.36.253
   port: 8443
   password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
   skip-cert-verify: true
-- name: "\u2708\uFE0F73@oneclickvpnkeys"
+- name: ✈️73@oneclickvpnkeys
   type: hysteria2
   server: 144.31.49.47
   port: 443
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   skip-cert-verify: true
-- name: "\U0001F52545@oneclickvpnkeys"
+- name: 🔥45@oneclickvpnkeys
   type: hysteria2
   server: 45.192.12.93
   port: 443
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
-- name: "\U0001F60A73@oneclickvpnkeys"
+- name: 😊73@oneclickvpnkeys
   type: hysteria2
   server: admin.wwwinternetvideo.click
   port: 443
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
-- name: "\U0001F54A\uFE0F81@oneclickvpnkeys"
+- name: 🕊️81@oneclickvpnkeys
   type: hysteria2
   server: go.wwwinternetvideo.click
   port: 443
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   skip-cert-verify: true
-- name: "\U0001F3A159@oneclickvpnkeys"
+- name: 🎡59@oneclickvpnkeys
   type: hysteria2
   server: go1.wwwinternetvideo.click
   port: 443
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   skip-cert-verify: true
-- name: "\U0001F43267@oneclickvpnkeys"
+- name: 🐲67@oneclickvpnkeys
   type: hysteria2
   server: go2.wwwinternetvideo.click
   port: 443
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   skip-cert-verify: true
-- name: "\U0001F30D12@oneclickvpnkeys"
+- name: 🌍12@oneclickvpnkeys
   type: hysteria2
   server: 189.74.106.166
   port: 54183
   password: acc89593-8200-4701-817b-c4d9727ea5a7
   sni: outh.yandex-cloud.org
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #3"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #3'
   type: hysteria2
   server: 108.186.180.148
   port: 30865
@@ -787,31 +787,31 @@ proxies:
   server: dep.charsoulink3.ir
   port: 53062
   password: "b0d431139ded4333aa805a1567c761bb"
-- name: "\U0001F38850@oneclickvpnkeys"
+- name: 🎈50@oneclickvpnkeys
   type: hysteria2
   server: 155.248.209.237
   port: 33333
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   skip-cert-verify: true
-- name: "\U0001F6F875@oneclickvpnkeys"
+- name: 🛸75@oneclickvpnkeys
   type: hysteria2
   server: hy2.123266.xyz
   port: 33333
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   sni: hy2.123266.xyz
-- name: "\U0001F34191@oneclickvpnkeys"
+- name: 🍁91@oneclickvpnkeys
   type: hysteria2
   server: cz.h2.cleanersaz.help
   port: 443
   password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
   skip-cert-verify: true
-- name: "\U0001F48867@oneclickvpnkeys"
+- name: 💈67@oneclickvpnkeys
   type: hysteria2
   server: fast.news.gazette.help
   port: 443
   password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
   skip-cert-verify: true
-- name: "\u26FD46@oneclickvpnkeys"
+- name: ⛽46@oneclickvpnkeys
   type: hysteria2
   server: 80.91.79.136
   port: 443
@@ -832,140 +832,139 @@ proxies:
   server: 2.27.59.206
   port: 443
   password: "cd74c0a406664a5bc0bac098220a2468"
-- name: "\u263A\uFE0F65@oneclickvpnkeys"
+- name: ☺️65@oneclickvpnkeys
   type: hysteria2
   server: nl1.sferavpn.pro
   port: 443
   password: "cd74c0a406664a5bc0bac098220a2468"
   skip-cert-verify: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0)"
+- name: US美国( 更新)
   type: hysteria2
   server: 144.31.212.253
   port: 443
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
   sni: vps155-edge.kermemehori.ru
-- name: "\U0001F6D735@oneclickvpnkeys"
+- name: 🛗35@oneclickvpnkeys
   type: hysteria2
   server: 94.183.188.132
   port: 55443
   password: "d1a0857bc1eb833a9edf96be4c1f999e"
   skip-cert-verify: true
-- name: "\U0001F3C097@oneclickvpnkeys"
+- name: 🏀97@oneclickvpnkeys
   type: hysteria2
   server: 45.149.172.80
   port: 443
   password: "d4a705d40356ef719212045528e04594"
   skip-cert-verify: true
-- name: "\U0001F41932@oneclickvpnkeys"
+- name: 🐙32@oneclickvpnkeys
   type: hysteria2
   server: 50.7.38.243
   port: 443
   password: "d4ca9415f0eac7897472e1e5b86d2e96"
   sni: promo.betust.net
-- name: "\U0001F41993@oneclickvpnkeys"
+- name: 🐙93@oneclickvpnkeys
   type: hysteria2
   server: promo.betust.net
   port: 443
   password: "d4ca9415f0eac7897472e1e5b86d2e96"
-- name: "\u79FB\u52A8"
+- name: 移动
   type: hysteria2
   server: 696969696969.duckdns.org
   port: 443
   password: dd4xmofilrdbpqwx
-- name: "\U0001F344\u200D\U0001F7EB73@oneclickvpnkeys"
+- name: 🍄‍🟫73@oneclickvpnkeys
   type: hysteria2
   server: nl-hy-test.tcp-reset-club.net
   port: 443
   password: dd50a499-7e43-4589-8490-f3b9c2451473
-- name: "\U0001F426\u200D\U0001F52578@oneclickvpnkeys"
+- name: 🐦‍🔥78@oneclickvpnkeys
   type: hysteria2
   server: 142.249.37.90
   port: 44356
   password: dongtaiwang.com
   sni: hy2.561891.xyz
-- name: "\U0001F4C031@oneclickvpnkeys"
+- name: 📀31@oneclickvpnkeys
   type: hysteria2
   server: nlq7hy.pleiades.codes
   port: 8444
   password: e0b9fb0f-1bbd-478b-9580-c2294778338b
   sni: nlq7hy.pleiades.codes
-- name: "\U0001FA9937@oneclickvpnkeys"
+- name: 🪙37@oneclickvpnkeys
   type: hysteria2
   server: 222.167.245.240
   port: 28015
   password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
   sni: api-test-udp-traffic.kaneki.cfd
-- name: "\U0001F5F3\uFE0F73@oneclickvpnkeys"
+- name: 🗳️73@oneclickvpnkeys
   type: hysteria2
   server: 104.165.205.142
   port: 9443
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   skip-cert-verify: true
-- name: "\U0001F5F3\uFE0F72@oneclickvpnkeys"
+- name: 🗳️72@oneclickvpnkeys
   type: hysteria2
   server: 104.165.205.250
   port: 9443
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   sni: onecloudstream.com
-- name: "\u2708\uFE0F42@oneclickvpnkeys"
+- name: ✈️42@oneclickvpnkeys
   type: hysteria2
   server: lv02.gotosvo.com
   port: 9443
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   skip-cert-verify: true
-- name: "\U0001F6E9\uFE0F31@oneclickvpnkeys"
+- name: 🛩️31@oneclickvpnkeys
   type: hysteria2
   server: 177.3.209.226
   port: 443
   password: e625f8ef-f935-4c7d-a259-0f154b6842fd
   sni: hy-se.bypassme.online
-- name: "\u2708\uFE0F39@oneclickvpnkeys"
+- name: ✈️39@oneclickvpnkeys
   type: hysteria2
   server: 94.198.54.132
   port: 443
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   skip-cert-verify: true
-- name: "dc-udp-\U0001F1E6\U0001F1F1 Albania-Tirana"
+- name: dc-udp-🇦🇱 Albania-Tirana
   type: hysteria2
   server: giftcard.gateway-stream.com
   port: 52000
   password: g2d0ooqq3ykzsacc
-- name: "dc-udp-\U0001F1E6\U0001F1F9 Austria-Vienna"
+- name: dc-udp-🇦🇹 Austria-Vienna
   type: hysteria2
   server: giftcard.gateway-stream.com
   port: 52002
   password: g2d0ooqq3ykzsacc
-- name: "\u26FD86@oneclickvpnkeys"
+- name: ⛽86@oneclickvpnkeys
   type: hysteria2
   server: 173.212.201.85
   port: 443
   password: gf1:gfhysteria2024
   skip-cert-verify: true
-- name: "\U0001FA7332@oneclickvpnkeys"
+- name: 🩳32@oneclickvpnkeys
   type: hysteria2
   server: 5.129.235.85
   port: 443
   password: gf1:gfhysteria2024
   skip-cert-verify: true
-- name: "\U0001F344\u200D\U0001F7EB67@oneclickvpnkeys"
+- name: 🍄‍🟫67@oneclickvpnkeys
   type: hysteria2
   server: 62.210.7.139
   port: 60111
   password: github.com/Alvin9999-newpac/fanqiang
   skip-cert-verify: true
-- name: "\U0001F4CD35@oneclickvpnkeys"
+- name: 📍35@oneclickvpnkeys
   type: hysteria2
   server: 103.246.248.230
   port: 8443
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   skip-cert-verify: true
-- name: "dc-udp-\U0001F1E6\U0001F1F7 Argentina-Buenos Aires"
+- name: dc-udp-🇦🇷 Argentina-Buenos Aires
   type: hysteria2
   server: giftcard.gateway-stream.com
   port: 52001
   password: ilkbtuxd94xofam1
-- name: "\u26A1\uFE0F \U0001D5E1\U0001D5F2\U0001D5E7\U0001D5E0\U0001D5F2\U0001D5F9\
-    \U0001D5F6 \u26A1\uFE0F | @prrofile_purple"
+- name: ⚡️ 𝗡𝗲𝗧𝗠𝗲𝗹𝗶 ⚡️ | @prrofile_purple
   type: hysteria2
   server: 91.107.178.22
   port: 443
@@ -975,7 +974,7 @@ proxies:
   server: assets.gateway-stream.com
   port: 52050
   password: k1dom6dyqelryllv
-- name: "\u263A\uFE0F84@oneclickvpnkeys"
+- name: ☺️84@oneclickvpnkeys
   type: hysteria2
   server: hys1.wba-pn.ru
   port: 443
@@ -985,215 +984,215 @@ proxies:
   server: assets.gateway-stream.com
   port: 52087
   password: kjq3gpn1xom1ted9
-- name: "\U0001F30D100@oneclickvpnkeys"
+- name: 🌍100@oneclickvpnkeys
   type: hysteria2
   server: 179.255.104.98
   port: 443
   password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
   skip-cert-verify: true
-- name: "\U0001F344\u200D\U0001F7EB41@oneclickvpnkeys"
+- name: 🍄‍🟫41@oneclickvpnkeys
   type: hysteria2
   server: 5.45.100.100
   port: 51511
   password: miaoge110
   skip-cert-verify: true
-- name: "\U0001F344\u200D\U0001F7EB97@oneclickvpnkeys"
+- name: 🍄‍🟫97@oneclickvpnkeys
   type: hysteria2
   server: 64.188.98.171
   port: 443
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   skip-cert-verify: true
-- name: "\U0001F34245@oneclickvpnkeys"
+- name: 🍂45@oneclickvpnkeys
   type: hysteria2
   server: 91.196.32.163
   port: 443
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   skip-cert-verify: true
-- name: "\U0001F35114@oneclickvpnkeys"
+- name: 🍑14@oneclickvpnkeys
   type: hysteria2
   server: 201.51.24.4
   port: 443
   password: oCYFcbOo8s
   sni: hys22.wba-pn.ru
-- name: "\U0001FA8149@oneclickvpnkeys"
+- name: 🪁49@oneclickvpnkeys
   type: hysteria2
   server: 194.180.174.69
   port: 443
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   sni: fr2.h2corp.org
-- name: "4\U0001F4C0@oneclickvpnkeys"
+- name: 4📀@oneclickvpnkeys
   type: hysteria2
   server: 13.212.76.106
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   skip-cert-verify: true
-- name: "\U0001F426\u200D\U0001F52585@oneclickvpnkeys"
+- name: 🐦‍🔥85@oneclickvpnkeys
   type: hysteria2
   server: 44.255.13.86
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   skip-cert-verify: true
-- name: "\U0001F43285@oneclickvpnkeys"
+- name: 🐲85@oneclickvpnkeys
   type: hysteria2
   server: 54.254.157.26
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   skip-cert-verify: true
-- name: "\U0001F397\uFE0F37@oneclickvpnkeys"
+- name: 🎗️37@oneclickvpnkeys
   type: hysteria2
   server: 205.237.109.221
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-turbo-fr.roxa.org
-- name: "\U0001F98117@oneclickvpnkeys"
+- name: 🦁17@oneclickvpnkeys
   type: hysteria2
   server: 46.229.243.131
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-turbo-fr.roxa.org
-- name: "\U0001F4CD40@oneclickvpnkeys"
+- name: 📍40@oneclickvpnkeys
   type: hysteria2
   server: 46.229.243.133
   port: 8080
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   skip-cert-verify: true
-- name: "\U0001FA9E19@oneclickvpnkeys"
+- name: 🪞19@oneclickvpnkeys
   type: hysteria2
   server: 46.229.243.140
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-turbo-fr.roxa.org
-- name: "\u26D1\uFE0F15@oneclickvpnkeys"
+- name: ⛑️15@oneclickvpnkeys
   type: hysteria2
   server: 46.229.243.152
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   skip-cert-verify: true
-- name: "\U0001FAD232@oneclickvpnkeys"
+- name: 🫒32@oneclickvpnkeys
   type: hysteria2
   server: 77.74.123.101
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-test-italy.dynuddns.net
-- name: "\U0001F31F14@oneclickvpnkeys"
+- name: 🌟14@oneclickvpnkeys
   type: hysteria2
   server: 77.74.123.103
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-test-italy.dynuddns.net
-- name: "\U0001F6E0\uFE0F15@oneclickvpnkeys"
+- name: 🛠️15@oneclickvpnkeys
   type: hysteria2
   server: 77.74.123.104
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   skip-cert-verify: true
-- name: "\U0001F6E0\uFE0F13@oneclickvpnkeys"
+- name: 🛠️13@oneclickvpnkeys
   type: hysteria2
   server: 77.74.123.105
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-test-italy.dynuddns.net
-- name: "\u2708\uFE0F5@oneclickvpnkeys"
+- name: ✈️5@oneclickvpnkeys
   type: hysteria2
   server: 77.74.123.109
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-test-italy.dynuddns.net
-- name: "\U0001F41E31@oneclickvpnkeys"
+- name: 🐞31@oneclickvpnkeys
   type: hysteria2
   server: 77.74.123.98
   port: 8443
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   skip-cert-verify: true
-- name: "\U0001F52594@oneclickvpnkeys"
+- name: 🔥94@oneclickvpnkeys
   type: hysteria2
   server: news.gazette.help
   port: 443
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   skip-cert-verify: true
-- name: "\U0001F4A185@oneclickvpnkeys"
+- name: 💡85@oneclickvpnkeys
   type: hysteria2
   server: 159.223.157.129
   port: 8443
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   skip-cert-verify: true
-- name: "\u2708\uFE0F43@oneclickvpnkeys"
+- name: ✈️43@oneclickvpnkeys
   type: hysteria2
   server: 8.211.175.236
   port: 8443
   password: u63SxILNwtrQZ7Y1ZrFaZfsA
   skip-cert-verify: true
-- name: "\U0001F45D36@oneclickvpnkeys"
+- name: 👝36@oneclickvpnkeys
   type: hysteria2
   server: 5.83.129.11
   port: 443
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   skip-cert-verify: true
-- name: "\U0001FAD292@oneclickvpnkeys"
+- name: 🫒92@oneclickvpnkeys
   type: hysteria2
   server: 82.38.64.235
   port: 8443
   password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
   skip-cert-verify: true
-- name: "\U0001F3A877@oneclickvpnkeys"
+- name: 🎨77@oneclickvpnkeys
   type: hysteria2
   server: 82.38.64.239
   port: 8443
   password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
   sni: hopp-swizland-new.mysynology.net
-- name: "\U0001FA9E31@oneclickvpnkeys"
+- name: 🪞31@oneclickvpnkeys
   type: hysteria2
   server: 72.56.116.57
   port: 443
   password: wrSuBorIlf
   skip-cert-verify: true
-- name: "\U0001FA9E50@oneclickvpnkeys"
+- name: 🪞50@oneclickvpnkeys
   type: hysteria2
   server: hys9.wba-pn.ru
   port: 443
   password: wrSuBorIlf
   skip-cert-verify: true
-- name: "dc-udp-\U0001F1E7\U0001F1EA Belgium-Brussels"
+- name: dc-udp-🇧🇪 Belgium-Brussels
   type: hysteria2
   server: giftcard.gateway-stream.com
   port: 52008
   password: zvxywxoorgqk3fzb
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽'
   type: ss
   server: 195.201.32.108
   port: 8083
   cipher: 2022-blake3-aes-256-gcm
   password: pRCipSixOSlsNAigMmwfYttz5VmVznoCYX4Pw1G4LxM=:ovtz25KfnF29DC8nL8tMIpBaQuGoUupwCRQIZUHECks=
   udp: true
-- name: "\U0001F4CD64@oneclickvpnkeys"
+- name: 📍64@oneclickvpnkeys
   type: ss
   server: 129.151.82.201
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: hIQF8+K9VdZUUvML50mUwcPk2TtPvuf2FCcxXICzvt4=
   udp: true
-- name: "\U0001F4CD81@oneclickvpnkeys"
+- name: 📍81@oneclickvpnkeys
   type: ss
   server: 129.151.86.83
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: nJabflEsmRe7Uv3N2GFgujC9+HsBzhbsbPrVGYTidrs=
   udp: true
-- name: "\U0001F94E4@oneclickvpnkeys"
+- name: 🥎4@oneclickvpnkeys
   type: ss
   server: 89.168.121.246
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
   password: pQSE/JNCbTTwg9CA8m9uAW30avkS6ILWPUsXZB8L3C0=
   udp: true
-- name: "\U0001F4CD90@oneclickvpnkeys"
+- name: 📍90@oneclickvpnkeys
   type: ss
   server: 132.226.103.137
   port: 50356
   cipher: 2022-blake3-chacha20-poly1305
   password: qarC1K8VLl88tGC8twftH/BEU9jPrH7UjF/aGzwqJC0=
   udp: true
-- name: "\U0001F94E12@oneclickvpnkeys"
+- name: 🥎12@oneclickvpnkeys
   type: ss
   server: 130.61.42.202
   port: 59924
@@ -1214,21 +1213,21 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: +zgHQRbzktFUsDIAZ06cQvd0CdwBHqt9JA8gxv1PmAk=
   udp: true
-- name: "\U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @proxy_kafee \u2604\uFE0F"
+- name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️
   type: ss
   server: 47.85.168.157
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   udp: true
-- name: "[ \U0001F1F9\U0001F1F7 ] | @v2rayNG_Matsuri"
+- name: '[ 🇹🇷 ] | @v2rayNG_Matsuri'
   type: ss
   server: 129.151.72.10
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: 1W4F0fI81d/vwGCxDLCle+KbE+/Bb6uE7BP8Xjq1wH4=
   udp: true
-- name: "[ \U0001F1EC\U0001F1E7 ] | @v2rayNG_Matsuri"
+- name: '[ 🇬🇧 ] | @v2rayNG_Matsuri'
   type: ss
   server: 144.24.225.39
   port: 61312
@@ -1242,9 +1241,7 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: dhVHI56QN3701Oczms4YeUmlpgPOXJdrO2eG5/WZpcQ=
   udp: true
-- name: "\U0001F1E8\U0001F1F5\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇨🇵𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: n2.rehan-iogsar.ir
   port: 4680
@@ -1272,14 +1269,14 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: SOg9NNrasz6s7bbtrDE7Fw==:iVNr4jrtlOQ790pRwaKn0A==
   udp: true
-- name: "\U0001F30D SD-SG-IEPL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+- name: 🌍 SD-SG-IEPL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   type: ss
   server: idc-tunnel.xssx.win
   port: 62750
   cipher: 2022-blake3-aes-128-gcm
   password: gyKRDZaU7H9DXBVjEKDdAw==
   udp: true
-- name: "\U0001F1EE\U0001F1F3telegram\u27A0@v2rayNG_Matsuri"
+- name: 🇮🇳telegram➠@v2rayNG_Matsuri
   type: ss
   server: 72.56.31.5
   port: 993
@@ -1321,8 +1318,7 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: LdovOchXf4THjDMK2Gf0nd2tcnlT28GxdzH+r885CBI=:nrG68IfAsyrT5ISL5N8T0lC+R3YEQqX/aFSztVQGAdU=
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645"
+- name: '@Vpn_Tehran ❤️ کانال تلگرام'
   type: ss
   server: web.turbooserver.net.tr
   port: 2087
@@ -1336,21 +1332,21 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: VXm5/P7r0FRKxEWRcJcCFXfD1QhzjXtPFmYpnmBFlrA=:62CMS+qB6RTA+qIJxiz3pVEHYu2A7tpfoQcgf4GqtQg=
   udp: true
-- name: "\u7F8E\u56FD"
+- name: 美国
   type: ss
   server: cccct.284.pics
   port: 65042
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:OWU4M2Q3NzctNWMyYy00MDNlLWIxYTYtMmE3ODRmOTM=
   udp: true
-- name: "\u6CF0\u56FD"
+- name: 泰国
   type: ss
   server: r.358.onl
   port: 65111
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTExNWVkNzAtOGQxYS00NmI0LTk5ZTMtNmI1MjI3ZWQ=
   udp: true
-- name: "\u9999\u6E2F"
+- name: 香港
   type: ss
   server: cccct.284.pics
   port: 65012
@@ -1371,7 +1367,7 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs=
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u0627\u06CC\u0631\u0627\u0646\u0633\u0644"
+- name: '@Vpn_Tehran ❤️ ایرانسل'
   type: ss
   server: 141.95.29.163
   port: 2083
@@ -1406,28 +1402,28 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=
   udp: true
-- name: "\U0001F31D41@oneclickvpnkeys"
+- name: 🌝41@oneclickvpnkeys
   type: ss
   server: 5.230.184.16
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 453u6Gcei04NyXbrWLKa0M
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi"
+- name: 长期更新节点@mftizi
   type: ss
   server: gdgs.tarioblink.me
   port: 30003
   cipher: chacha20-ietf-poly1305
   password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
   udp: true
-- name: "\U0001F1EE\U0001F1F3 Bengaluru, KA, India"
+- name: 🇮🇳 Bengaluru, KA, India
   type: ss
   server: 82.38.46.80
   port: 26901
   cipher: chacha20-ietf-poly1305
   password: 461f4996-a430-4482-a103-acef0713281a
   udp: true
-- name: "\U0001F1F9\U0001F1FC Taipei, TPE, Taiwan"
+- name: 🇹🇼 Taipei, TPE, Taiwan
   type: ss
   server: 82.38.46.80
   port: 26911
@@ -1448,22 +1444,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 4Xm1rUWXnSpTKvvF
   udp: true
-- name: "@Vpn_Tehran \u2705\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645"
+- name: '@Vpn_Tehran ✅️ کانال تلگرام'
   type: ss
   server: 193.29.139.234
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
   udp: true
-- name: "\U0001F35111@oneclickvpnkeys"
+- name: 🍑11@oneclickvpnkeys
   type: ss
   server: 140.238.175.124
   port: 33345
   cipher: chacha20-ietf-poly1305
   password: 5d79906d-89ab-430b-acbc-3327568a5be3
   udp: true
-- name: "\u06A9\u0627\u0646\u0627\u0644+:+@V2rayNGvpni"
+- name: کانال+:+@V2rayNGvpni
   type: ss
   server: 52.142.161.9
   port: 34424
@@ -1477,31 +1472,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 68mL2QkZEBlxWa3hcslGDw
   udp: true
-- name: "@Napsternetvirani\U0001FABF"
+- name: '@Napsternetvirani🪿'
   type: ss
   server: 23.100.50.48
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 6ZhroVa0UjRSUl06
   udp: true
-- name: "\U0001F1F9\U0001F1F7\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇹🇷𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: 13.125.94.114
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: "\U0001F1F9\U0001F1FC New Taipei City, NWT, Taiwan"
+- name: 🇹🇼 New Taipei City, NWT, Taiwan
   type: ss
   server: 36.224.154.243
   port: 50099
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   udp: true
-- name: "@Vpn_Tehran \u2622\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645"
+- name: '@Vpn_Tehran ☢️ کانال تلگرام'
   type: ss
   server: 103.160.63.199
   port: 31348
@@ -1522,7 +1514,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 8rUd3NnRy07oQQ8yFSeVB-Ivrc5Iq8aR
   udp: true
-- name: "\u8282\u70B9"
+- name: 节点
   type: ss
   server: 54.36.174.134
   port: 443
@@ -1536,7 +1528,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 93F6FFBh3CZiBUsG
   udp: true
-- name: "\U0001F4242@oneclickvpnkeys"
+- name: 🐤2@oneclickvpnkeys
   type: ss
   server: 141.95.106.127
   port: 11201
@@ -1550,56 +1542,56 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 9Vm86SIch9G0Pela0exStQ
   udp: true
-- name: "\U0001F1E9\U0001F1EA Frankfurt am Main, HE, Germany"
+- name: 🇩🇪 Frankfurt am Main, HE, Germany
   type: ss
   server: 80.97.27.106
   port: 116
   cipher: chacha20-ietf-poly1305
   password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
   udp: true
-- name: "\U0001F1EC\U0001F1E7 Coventry, ENG, United Kingdom"
+- name: 🇬🇧 Coventry, ENG, United Kingdom
   type: ss
   server: 80.97.27.106
   port: 117
   cipher: chacha20-ietf-poly1305
   password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
   udp: true
-- name: "\u8282\u70B9 #2"
+- name: '节点 #2'
   type: ss
   server: switcher-nick-croquet.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 9tqhMdIrTkgQ46PvhyAtMH
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5"
+- name: 关注电报
   type: ss
   server: h-k02.loveroise.com
   port: 54002
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5 #2"
+- name: '关注电报 #2'
   type: ss
   server: j-p04.loveroise.com
   port: 54102
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   udp: true
-- name: "\u514D\u8D39\u68AF\u5B50"
+- name: 免费梯子
   type: ss
   server: k-r01.loveroise.com
   port: 54008
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   udp: true
-- name: "\u4E0D\u5B9A\u671F\u62BD\u5956"
+- name: 不定期抽奖
   type: ss
   server: k-r03.loveroise.com
   port: 54012
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   udp: true
-- name: "\u4E0D\u5B9A\u671F\u62BD\u5956 #2"
+- name: '不定期抽奖 #2'
   type: ss
   server: s-g04.loveroise.com
   port: 54030
@@ -1613,21 +1605,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 0eC4ZBvStOgQEzTpCYjWN5
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #2"
+- name: 'US美国( 更新) #2'
   type: ss
   server: 95.169.3.45
   port: 46007
   cipher: chacha20-ietf-poly1305
   password: "123456"
   udp: true
-- name: "\U0001F1FA\U0001F1F8telegram\u27A0@v2rayNG_Matsuri"
+- name: 🇺🇸telegram➠@v2rayNG_Matsuri
   type: ss
   server: 20.164.42.112
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 1RraE1yLC8LRqmeb
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645"
+- name: '@prrofile_purple ♥️👈 تلگرام'
   type: ss
   server: 20.166.58.64
   port: 443
@@ -1641,28 +1633,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2OPuSlR6h3ZHql3h
   udp: true
-- name: "\u8282\u70B9 #3"
+- name: '节点 #3'
   type: ss
   server: p2tun1.greewebservices.ir
   port: 1010
   cipher: chacha20-ietf-poly1305
   password: 2MRyo1ekfJ0exGnAVcKe6g
   udp: true
-- name: "\u8282\u70B9 #4"
+- name: '节点 #4'
   type: ss
   server: 51.195.126.38
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: 2YdE4lFOid5a
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053"
+- name: 关注频道
   type: ss
   server: hk01.x.quickcht3.club
   port: 52611
   cipher: chacha20-ietf-poly1305
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053 #2"
+- name: '关注频道 #2'
   type: ss
   server: hk02.x.quickcht3.club
   port: 52612
@@ -1725,7 +1717,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: tM0sV3CrjAU0nokd
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #4"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #4'
   type: ss
   server: p2tun2.greewebservices.ir
   port: 1020
@@ -1746,14 +1738,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: uvKNudV-N8AUCrykPiyznA
   udp: true
-- name: "\U0001F1EC\U0001F1E7telegram\u27A0@v2rayNG_Matsuri #2"
+- name: '🇬🇧telegram➠@v2rayNG_Matsuri #2'
   type: ss
   server: 4.231.217.136
   port: 443
   cipher: chacha20-ietf-poly1305
   password: vKzNmQJnP07Ys7Fp
   udp: true
-- name: "Telegram\U0001F449@v2rayNG_Matsuri #2"
+- name: 'Telegram👉@v2rayNG_Matsuri #2'
   type: ss
   server: 176.120.17.22
   port: 1080
@@ -1781,7 +1773,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: xJUiv6Q1mBPuRv1yQ8-dqFEss0Ho4FtE
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1E8\U0001F1ED"
+- name: 'Channel id: @ShadowProxy66 🇨🇭'
   type: ss
   server: best.kovira2.ir
   port: 25026
@@ -1802,21 +1794,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: y7KeRTzmH0vXT2kp
   udp: true
-- name: "\U0001F34F96@oneclickvpnkeys"
+- name: 🍏96@oneclickvpnkeys
   type: ss
   server: 142.4.216.225
   port: 443
   cipher: chacha20-ietf-poly1305
   password: ytw2awn
   udp: true
-- name: "\U0001F1EB\U0001F1F7 France"
+- name: 🇫🇷 France
   type: ss
   server: 54.36.174.134
   port: 443
   cipher: chacha20-ietf-poly1305
   password: ytw2awn
   udp: true
-- name: "\U0001F34F78@oneclickvpnkeys"
+- name: 🍏78@oneclickvpnkeys
   type: ss
   server: fr4.levikogjgfdd.ir
   port: 8388
@@ -1837,7 +1829,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: znEtjgHLXH4FBLic
   udp: true
-- name: "\U0001F1EB\U0001F1EE@V2rayng_Fast"
+- name: 🇫🇮@V2rayng_Fast
   type: ss
   server: bot.sobhanpor.ir
   port: 1080
@@ -1865,7 +1857,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: AWVyUgWWLc4G47GNo_bx2w
   udp: true
-- name: "\U0001F1EB\U0001F1EEtelegram\u27A0@v2rayNG_Matsuri"
+- name: 🇫🇮telegram➠@v2rayNG_Matsuri
   type: ss
   server: 4.231.217.136
   port: 443
@@ -1879,14 +1871,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: B9m9xdLW3btk4zMXct7rnQ
   udp: true
-- name: "\U0001F1E7\U0001F1ED_BH_\u5DF4\u6797_2"
+- name: 🇧🇭_BH_巴林_2
   type: ss
   server: series-a2-me.varzesh360.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: Bog0ELmMM9DSxDdQ
   udp: true
-- name: "@Vpn_Tehran \u2705\uFE0F \u0647\u0645\u0631\u0627\u0647 \u0627\u0648\u0644"
+- name: '@Vpn_Tehran ✅️ همراه اول'
   type: ss
   server: 51.255.13.232
   port: 8388
@@ -1900,7 +1892,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: C8QhmBLJzhKo2JHR
   udp: true
-- name: "Telegram\U0001F449@v2rayNG_Matsuri #3"
+- name: 'Telegram👉@v2rayNG_Matsuri #3'
   type: ss
   server: 108.181.58.239
   port: 8388
@@ -1928,8 +1920,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Ds3hlPero5ov6gae
   udp: true
-- name: "@Vpn_Tehran \u267E\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645"
+- name: '@Vpn_Tehran ♾️ کانال تلگرام'
   type: ss
   server: 103.120.178.193
   port: 31348
@@ -1943,15 +1934,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: EyGy11BMfeP-6UHjsgajWw
   udp: true
-- name: "\U0001F34F25@oneclickvpnkeys"
+- name: 🍏25@oneclickvpnkeys
   type: ss
   server: 64.188.77.159
   port: 8390
   cipher: chacha20-ietf-poly1305
   password: EyGy11BMfeP-6UHjsgajWw
   udp: true
-- name: "@Vpn_Tehran \U0001F506 \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 🔆 کانال تلگرام'
   type: ss
   server: 15.235.75.71
   port: 8388
@@ -1965,21 +1955,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: FD3rCuOsxOay
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #2"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #2'
   type: ss
   server: 51.178.87.37
   port: 800
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #3"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #3'
   type: ss
   server: 51.178.87.37
   port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "@Vpn_Tehran \U0001F49A \u0627\u06CC\u0631\u0627\u0646\u0633\u0644"
+- name: '@Vpn_Tehran 💚 ایرانسل'
   type: ss
   server: 108.181.0.177
   port: 8388
@@ -2007,15 +1997,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: GnAQGwBq6QpfM5VbvOSVuA
   udp: true
-- name: "\u8282\u70B9 #5"
+- name: '节点 #5'
   type: ss
   server: 20.123.11.204
   port: 443
   cipher: chacha20-ietf-poly1305
   password: H0gtOZkrqraldrhM
   udp: true
-- name: "@Vpn_Tehran \U0001F49A \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 💚 کانال تلگرام'
   type: ss
   server: 94.249.187.46
   port: 1080
@@ -2050,7 +2039,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: LB2J8MvTt2SBgD6o
   udp: true
-- name: "\U0001F1E9\U0001F1EATelegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇩🇪Telegram👉@v2rayNG_Matsuri
   type: ss
   server: p1tun2.greewebservices.ir
   port: 2060
@@ -2071,7 +2060,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: LjP_8zU2aTjvJtkCx94AafcGQW6OsmbO
   udp: true
-- name: "\U0001F6D715@oneclickvpnkeys"
+- name: 🛗15@oneclickvpnkeys
   type: ss
   server: 129.151.86.242
   port: 61312
@@ -2092,14 +2081,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: NeORiiA1d3vHdXsfPV37Lr
   udp: true
-- name: "\U0001F6CE\uFE0F1@oneclickvpnkeys"
+- name: 🛎️1@oneclickvpnkeys
   type: ss
   server: 130.61.114.19
   port: 59924
   cipher: chacha20-ietf-poly1305
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1E9\U0001F1EA"
+- name: 'Channel id: @ShadowProxy66 🇩🇪'
   type: ss
   server: 207.241.172.111
   port: 1080
@@ -2120,7 +2109,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Ps4MSc9PUejUkW3E
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands"
+- name: 🇳🇱 The Netherlands
   type: ss
   server: 193.29.139.168
   port: 8080
@@ -2134,14 +2123,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1F7\U0001F1F4"
+- name: 'Channel id: @ShadowProxy66 🇷🇴'
   type: ss
   server: 154.46.31.106
   port: 443
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #5"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #5'
   type: ss
   server: 20.238.125.195
   port: 443
@@ -2155,14 +2144,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Qy7KyMo4epSCiluJ
   udp: true
-- name: "\u8282\u70B9 #6"
+- name: '节点 #6'
   type: ss
   server: 92.112.126.90
   port: 443
   cipher: chacha20-ietf-poly1305
   password: RFK38Cg7APneSB5cWDcpbm
   udp: true
-- name: "\U0001F1F3\U0001F1F1 Amsterdam, NH, The Netherlands"
+- name: 🇳🇱 Amsterdam, NH, The Netherlands
   type: ss
   server: switcher-nick-croquet.freesocks.work
   port: 443
@@ -2176,36 +2165,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: SBw5b6E9noHolBdA
   udp: true
-- name: "\u2694 - @proxy_kafee51"
+- name: ⚔ - @proxy_kafee51
   type: ss
   server: 20.223.129.129
   port: 443
   cipher: chacha20-ietf-poly1305
   password: SNkhYx9ST5pUf1og
   udp: true
-- name: "\u8282\u70B9 #7"
+- name: '节点 #7'
   type: ss
   server: 2380.n9ne.com.tr
   port: 34319
   cipher: chacha20-ietf-poly1305
   password: SqJYP4gDS1I6XGkioX3RCE3BimKj8dtj
   udp: true
-- name: "\u8282\u70B9 #8"
+- name: '节点 #8'
   type: ss
   server: clients.n9ne.com.tr
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: SqJYP4gDS1I6XGkioX3RCE3BimKj8dtj
   udp: true
-- name: "@Vpn_Tehran \U0001F496 \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 💖 کانال تلگرام'
   type: ss
   server: 194.61.121.93
   port: 7538
   cipher: chacha20-ietf-poly1305
   password: U9YAoqBgg5VyGBc6vQv1sN
   udp: true
-- name: "Tel@V2rayng_Fast \U0001F1EB\U0001F1F7"
+- name: Tel@V2rayng_Fast 🇫🇷
   type: ss
   server: 20.223.172.81
   port: 443
@@ -2226,7 +2214,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: W8wg-Pb6xj9NOOwriOXIBLulDFNNt5Jt
   udp: true
-- name: "\U0001F1EA\U0001F1F8 Barcelona, CT, Spain"
+- name: 🇪🇸 Barcelona, CT, Spain
   type: ss
   server: 108.181.121.226
   port: 8388
@@ -2240,21 +2228,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: XF0klw7870vXn3uQIxe19Q
   udp: true
-- name: "\U0001F98458@oneclickvpnkeys"
+- name: 🦄58@oneclickvpnkeys
   type: ss
   server: 89.249.74.188
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: XF0klw7870vXn3uQIxe19Q
   udp: true
-- name: "\U0001F1E7\U0001F1EA direct"
+- name: 🇧🇪 direct
   type: ss
   server: bl1.levikogjgfdd.ir
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: XF0klw7870vXn3uQIxe19Q
   udp: true
-- name: "\U0001F1FA\U0001F1F8 direct"
+- name: 🇺🇸 direct
   type: ss
   server: us1.levikogjgfdd.ir
   port: 1080
@@ -2282,7 +2270,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: YF329KNGVTUZ1qrH
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #6"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #6'
   type: ss
   server: 138.124.15.120
   port: 8388
@@ -2338,7 +2326,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "a1ebf7650909af2e30dd560b9746e351"
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #7"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #7'
   type: ss
   server: p1tun2.greewebservices.ir
   port: 2060
@@ -2366,14 +2354,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: b1fNrhxfvAkUOEq7LyCrqK3Dg1R/SBeL
   udp: true
-- name: "\U0001F1F8\U0001F1E6telegram\u27A0@v2rayNG_Matsuri"
+- name: 🇸🇦telegram➠@v2rayNG_Matsuri
   type: ss
   server: tw1.network-cdn-gw-yd.net
   port: 46601
   cipher: chacha20-ietf-poly1305
   password: b3813e01-e131-4ed2-98fd-c3a805fc515f
   udp: true
-- name: "\U0001F39274@oneclickvpnkeys"
+- name: 🎒74@oneclickvpnkeys
   type: ss
   server: 141.227.152.129
   port: 8388
@@ -2394,7 +2382,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: bxQxf2pmDxvKzbacNQFWX86vovOIn_98
   udp: true
-- name: "\u2638\uFE0F46@oneclickvpnkeys"
+- name: ☸️46@oneclickvpnkeys
   type: ss
   server: 158.173.221.214
   port: 11001
@@ -2415,41 +2403,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: cVvgP0Bz69hsErPBvqKbwQ
   udp: true
-- name: "\U0001F1F5\U0001F1FE\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇵🇾𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: 104.46.14.31
   port: 443
   cipher: chacha20-ietf-poly1305
   password: dIuRNbl5mM2ac6d0
   udp: true
-- name: "\U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @proxy_kafee \u2604\uFE0F\
-    \ #2"
+- name: '𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ #2'
   type: ss
   server: 20.164.212.146
   port: 443
   cipher: chacha20-ietf-poly1305
   password: e6UqAb4130ycM7qM
   udp: true
-- name: "\U0001F1EE\U0001F1F1\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇮🇱𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: 132.243.175.144
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645 #2"
+- name: '@Vpn_Tehran ❤️ کانال تلگرام #2'
   type: ss
   server: 198.98.53.130
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eDfN7SODQceIOmIAbtJJtK
   udp: true
-- name: "\U0001F1F3\U0001F1F1 Amsterdam, NH, The Netherlands #2"
+- name: '🇳🇱 Amsterdam, NH, The Netherlands #2'
   type: ss
   server: 188.116.23.244
   port: 8388
@@ -2477,7 +2459,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "f737089cf1ec9238"
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #2"
+- name: '长期更新节点@mftizi #2'
   type: ss
   server: 104.192.225.138
   port: 990
@@ -2491,14 +2473,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: fB95883lTj5iIJGu0qB9iRq2ulza8IhX
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053 #3"
+- name: '关注频道 #3'
   type: ss
   server: h.cm2.xiaomi-api.xyz
   port: 19832
   cipher: chacha20-ietf-poly1305
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   udp: true
-- name: "\U0001FA8110@oneclickvpnkeys"
+- name: 🪁10@oneclickvpnkeys
   type: ss
   server: creativeboxnl2.zanity.net
   port: 5228
@@ -2540,7 +2522,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: j-jLF3iKqnjdDGE3WdCYFA
   udp: true
-- name: "\U0001F1F7\U0001F1FA Russia"
+- name: 🇷🇺 Russia
   type: ss
   server: 130.49.189.158
   port: 43558
@@ -2554,33 +2536,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: jUg9wluj5iOiY9sI
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: 193.29.139.147
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "Telegram\U0001F449@v2rayNG_Matsuri #4"
+- name: 'Telegram👉@v2rayNG_Matsuri #4'
   type: ss
   server: 193.29.139.223
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1EE\U0001F1F1\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #2"
+- name: '🇮🇱𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #2'
   type: ss
   server: 82.38.31.176
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\u8282\u70B9 #9"
+- name: '节点 #9'
   type: ss
   server: 82.38.31.181
   port: 8080
@@ -2594,7 +2571,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands #2"
+- name: '🇳🇱 The Netherlands #2'
   type: ss
   server: 82.38.31.190
   port: 8080
@@ -2608,7 +2585,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands #3"
+- name: '🇳🇱 The Netherlands #3'
   type: ss
   server: 82.38.31.192
   port: 8080
@@ -2622,24 +2599,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #8"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #8'
   type: ss
   server: 82.38.31.201
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1EE\U0001F1F1\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #3"
+- name: '🇮🇱𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #3'
   type: ss
   server: 82.38.31.202
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1EC\U0001F1E7"
+- name: 🇬🇧
   type: ss
   server: 82.38.31.203
   port: 8080
@@ -2660,7 +2634,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F3B487@oneclickvpnkeys"
+- name: 🎴87@oneclickvpnkeys
   type: ss
   server: 82.38.31.207
   port: 8080
@@ -2674,8 +2648,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1EC\U0001F1F1@vpn_ioss \u267B\uFE0F \u0633\u0631\u0648\u0631\u0647\
-    \u0627\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0639\u0636\u0648 \u0634\u0648"
+- name: 🇬🇱@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: ss
   server: 82.38.31.210
   port: 8080
@@ -2696,8 +2669,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام'
   type: ss
   server: 82.38.31.215
   port: 8080
@@ -2711,23 +2683,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645 #3"
+- name: '@Vpn_Tehran ❤️ کانال تلگرام #3'
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #2"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #2'
   type: ss
   server: 82.38.31.219
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: "\U0001F1F5\U0001F1FE"
+- name: 🇵🇾
   type: ss
   server: 20.234.82.250
   port: 443
@@ -2762,7 +2732,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: lejSRyqa033OEPmEQsvRsl
   udp: true
-- name: "\U0001F1EF\U0001F1F5JP"
+- name: 🇯🇵JP
   type: ss
   server: 54.199.77.180
   port: 8313
@@ -2790,7 +2760,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: m4sc5EnK5mKG5iesVtmRiTgjDLJWabey
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1EF\U0001F1F5"
+- name: 'Channel id: @ShadowProxy66 🇯🇵'
   type: ss
   server: 176.97.73.215
   port: 8388
@@ -2811,14 +2781,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ml_pQUkjwoJ262ZSeI6g0A
   udp: true
-- name: "\U0001F1E9\U0001F1EA@Jeyksatan"
+- name: 🇩🇪@Jeyksatan
   type: ss
   server: series-a2.varzesh360.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: mps3FwmDjLrWaOVg
   udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+- name: 🇺🇸_US_美国_4
   type: ss
   server: series-a2.samanehha.co
   port: 443
@@ -2846,7 +2816,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1F3\U0001F1F1"
+- name: 'Channel id: @ShadowProxy66 🇳🇱'
   type: ss
   server: 193.29.139.151
   port: 8080
@@ -2860,28 +2830,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1EC\U0001F1E7telegram\u27A0@v2rayNG_Matsuri #3"
+- name: '🇬🇧telegram➠@v2rayNG_Matsuri #3'
   type: ss
   server: 193.29.139.230
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F4CD22@oneclickvpnkeys"
+- name: 📍22@oneclickvpnkeys
   type: ss
   server: 193.29.139.249
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1FA\U0001F1F8"
+- name: 🇺🇸
   type: ss
   server: 193.29.139.249
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands #4"
+- name: '🇳🇱 The Netherlands #4'
   type: ss
   server: 82.38.31.10
   port: 8080
@@ -2902,7 +2872,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands #5"
+- name: '🇳🇱 The Netherlands #5'
   type: ss
   server: 82.38.31.157
   port: 8080
@@ -2916,8 +2886,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "@Vpn_Tehran \U0001F49B \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 💛 کانال تلگرام'
   type: ss
   server: 82.38.31.162
   port: 443
@@ -2952,44 +2921,42 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands #6"
+- name: '🇳🇱 The Netherlands #6'
   type: ss
   server: 82.38.31.28
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "@Vpn_Tehran \U0001F49A \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #2"
+- name: '@Vpn_Tehran 💚 کانال تلگرام #2'
   type: ss
   server: 82.38.31.32
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u2666\uFE0F2@oneclickvpnkeys"
+- name: ♦️2@oneclickvpnkeys
   type: ss
   server: 82.38.31.35
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #3"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #3'
   type: ss
   server: 82.38.31.35
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u8282\u70B9 #10"
+- name: '节点 #10'
   type: ss
   server: 82.38.31.39
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1F3\U0001F1F1@V2rayng_Fast"
+- name: 🇳🇱@V2rayng_Fast
   type: ss
   server: 82.38.31.46
   port: 8080
@@ -3003,61 +2970,56 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #2"
+- name: '🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #2'
   type: ss
   server: 82.38.31.54
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\U0001F1F3\U0001F1F1 The Netherlands #7"
+- name: '🇳🇱 The Netherlands #7'
   type: ss
   server: 82.38.31.66
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "\u27A1\uFE0F\U0001F351\U0001F34C\u2B05\uFE0F(5)@proxy_kafee"
+- name: ➡️🍑🍌⬅️(5)@proxy_kafee
   type: ss
   server: 82.38.31.7
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #4"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #4'
   type: ss
   server: 82.38.31.9
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1FA\U0001F1F8"
+- name: 'Channel id: @ShadowProxy66 🇺🇸'
   type: ss
   server: 23.150.248.20
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: qB2Cv9VIlujj
   udp: true
-- name: "\U0001FADF33@oneclickvpnkeys"
+- name: 🫟33@oneclickvpnkeys
   type: ss
   server: 62.210.249.24
   port: 33
   cipher: chacha20-ietf-poly1305
   password: qDzHgyQ3wFYKE3Uw0r8huBrFSHj_PuUW
   udp: true
-- name: "\U0001F1EA\U0001F1F8 Barcelona, CT, Spain #2"
+- name: '🇪🇸 Barcelona, CT, Spain #2'
   type: ss
   server: 140.174.184.5
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
   udp: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #5"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #5'
   type: ss
   server: 20.123.34.66
   port: 443
@@ -3071,14 +3033,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: rKE5OchHqTrkamzx
   udp: true
-- name: "\U0001F1F9\U0001F1F7 T\xFCrkiye"
+- name: 🇹🇷 Türkiye
   type: ss
   server: 188.132.174.236
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: rSeYcig_XBy8q3k33NpK3A
   udp: true
-- name: "\U0001F1EB\U0001F1EE Helsinki, 18, Finland"
+- name: 🇫🇮 Helsinki, 18, Finland
   type: ss
   server: 65.109.215.118
   port: 1080
@@ -3113,85 +3075,84 @@ proxies:
   cipher: aes-128-gcm
   password: "1cbb3e347ee86e1980a7c731e9dd00a0"
   udp: true
-- name: "\U0001F1FA\U0001F1F8 Chicago, IL, United States"
+- name: 🇺🇸 Chicago, IL, United States
   type: ss
   server: 103.214.111.126
   port: 10286
   cipher: aes-128-gcm
   password: "1ef94aae5524d527967a92f2800ffb7c"
   udp: true
-- name: "\U0001F1FA\U0001F1F8 Seattle, WA, United States"
+- name: 🇺🇸 Seattle, WA, United States
   type: ss
   server: 144.48.107.10
   port: 19142
   cipher: aes-128-gcm
   password: "645af07ee09c066da207ad26d78322c2"
   udp: true
-- name: "\U0001F1EB\U0001F1F7@vpn_ioss \u267B\uFE0F \u0633\u0631\u0648\u0631\u0647\
-    \u0627\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0639\u0636\u0648 \u0634\u0648"
+- name: 🇫🇷@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: ss
   server: 173.212.251.231
   port: 51058
   cipher: aes-128-gcm
   password: SySWDaP8rm1NEK0wdLdoaV5ClkSjFDfw
   udp: true
-- name: "IEPL | \u82F1\u56FD"
+- name: IEPL | 英国
   type: ss
   server: mn.qwer-cn.org
   port: 10929
   cipher: aes-128-gcm
   password: ac17e2c4-2c92-4aa6-8baf-2705a8549ec6
   udp: true
-- name: "IEPL | \u9999\u6E2F | WAP"
+- name: IEPL | 香港 | WAP
   type: ss
   server: mn.qwer-cn.org
   port: 10920
   cipher: aes-128-gcm
   password: ac17e2c4-2c92-4aa6-8baf-2705a8549ec6
   udp: true
-- name: "IEPL | \u53F0\u6E7E | GPT"
+- name: IEPL | 台湾 | GPT
   type: ss
   server: mn.qwer-cn.org
   port: 10936
   cipher: aes-128-gcm
   password: ac17e2c4-2c92-4aa6-8baf-2705a8549ec6
   udp: true
-- name: "\U0001F1FA\U0001F1F8 Los Angeles, CA, United States"
+- name: 🇺🇸 Los Angeles, CA, United States
   type: ss
   server: 216.105.168.204
   port: 18230
   cipher: aes-128-gcm
   password: "b21512a937197c0497300b703dc03e77"
   udp: true
-- name: "\U0001F1ED\U0001F1F0 Hong Kong"
+- name: 🇭🇰 Hong Kong
   type: ss
   server: catnet-hk.kunlun04dns.com
   port: 28001
   cipher: aes-128-gcm
   password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
   udp: true
-- name: "\U0001F1ED\U0001F1F0 Hong Kong #2"
+- name: '🇭🇰 Hong Kong #2'
   type: ss
   server: catnet-hk.kunlun04dns.com
   port: 28002
   cipher: aes-128-gcm
   password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
   udp: true
-- name: "\U0001F1ED\U0001F1F0 Hong Kong #3"
+- name: '🇭🇰 Hong Kong #3'
   type: ss
   server: catnet-hk.kunlun04dns.com
   port: 28006
   cipher: aes-128-gcm
   password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
   udp: true
-- name: "\U0001F1ED\U0001F1F0 Hong Kong #4"
+- name: '🇭🇰 Hong Kong #4'
   type: ss
   server: catnet-hk.kunlun04dns.com
   port: 28008
   cipher: aes-128-gcm
   password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
   udp: true
-- name: "\U0001F1ED\U0001F1F0 Hong Kong #5"
+- name: '🇭🇰 Hong Kong #5'
   type: ss
   server: catnet-hk.kunlun04dns.com
   port: 28010
@@ -3233,7 +3194,7 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\u2699\uFE0F28@oneclickvpnkeys"
+- name: ⚙️28@oneclickvpnkeys
   type: ss
   server: 141.98.101.181
   port: 443
@@ -3247,8 +3208,7 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "@Vpn_Tehran \U0001F496 \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #2"
+- name: '@Vpn_Tehran 💖 کانال تلگرام #2'
   type: ss
   server: 156.146.38.169
   port: 443
@@ -3262,224 +3222,224 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\U0001F1EC\U0001F1E7 London, ENG, United Kingdom"
+- name: 🇬🇧 London, ENG, United Kingdom
   type: ss
   server: 158.173.24.73
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\U0001F6CE\uFE0F46@oneclickvpnkeys"
+- name: 🛎️46@oneclickvpnkeys
   type: ss
   server: 37.19.198.243
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: "\U0001FADF83@oneclickvpnkeys"
+- name: 🫟83@oneclickvpnkeys
   type: ss
   server: 103.169.67.34
   port: 65443
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: "\u610F\u5927\u5229\u7EBF\u8DEF"
+- name: 意大利线路
   type: ss
   server: 120.232.253.93
   port: 65443
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: "\u5357\u975E\u7EBF\u8DEF"
+- name: 南非线路
   type: ss
   server: 160.119.251.53
   port: 65443
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: "\u4FC4\u7F57\u65AF\u7EBF\u8DEF"
+- name: 俄罗斯线路
   type: ss
   server: 194.38.11.86
   port: 65443
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: "\u82F1\u56FD\u7EBF\u8DEF"
+- name: 英国线路
   type: ss
   server: 31.57.35.41
   port: 65443
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: "\U0001F1EB\U0001F1F7KR"
+- name: 🇫🇷KR
   type: ss
   server: 95.170.13.47
   port: 65443
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: "\U0001F1F8\U0001F1EA"
+- name: 🇸🇪
   type: ss
   server: 16.171.111.98
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F4CD24@oneclickvpnkeys"
+- name: 📍24@oneclickvpnkeys
   type: ss
   server: 176.34.158.52
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F94916@oneclickvpnkeys"
+- name: 🥉16@oneclickvpnkeys
   type: ss
   server: 3.75.172.120
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_6"
+- name: 🇯🇵_JP_日本_6
   type: ss
   server: 54.199.15.70
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #4"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #4'
   type: ss
   server: 141.95.126.193
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #5"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #5'
   type: ss
   server: 162.19.139.37
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #6"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #6'
   type: ss
   server: 162.19.169.128
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #7"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #7'
   type: ss
   server: 162.19.170.211
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #8"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #8'
   type: ss
   server: 162.19.170.219
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #9"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #9'
   type: ss
   server: 162.19.170.225
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #10"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #10'
   type: ss
   server: 162.19.18.235
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #11"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #11'
   type: ss
   server: 162.19.204.75
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #12"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #12'
   type: ss
   server: 162.19.204.83
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #13"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #13'
   type: ss
   server: 162.19.59.160
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #14"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #14'
   type: ss
   server: 162.19.59.166
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #15"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #15'
   type: ss
   server: 162.19.83.12
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #16"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
   type: ss
   server: 92.38.163.53
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_10"
+- name: 🇰🇷_KR_韩国_10
   type: ss
   server: 221.150.109.81
   port: 42978
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: "\u4E0D\u5B9A\u671F\u62BD\u5956 #3"
+- name: '不定期抽奖 #3'
   type: ss
   server: 156.231.104.24
   port: 18014
   cipher: aes-256-gcm
   password: 3JHTNK13T6BCEVNH
   udp: true
-- name: "\U0001F1EF\U0001F1F5 Tokyo, 13, Japan"
+- name: 🇯🇵 Tokyo, 13, Japan
   type: ss
   server: 84.247.155.196
   port: 443
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
   udp: true
-- name: "\U0001F1F7\U0001F1FA Moscow, MOW, Russia"
+- name: 🇷🇺 Moscow, MOW, Russia
   type: ss
   server: 45.8.158.176
   port: 10801
   cipher: aes-256-gcm
   password: "1eadd4e4a37b6601"
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053 #4"
+- name: '关注频道 #4'
   type: ss
   server: 92.113.116.11
   port: 15002
   cipher: aes-256-gcm
   password: 2MNBVYYYB23ZF03Z
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053 #5"
+- name: '关注频道 #5'
   type: ss
   server: qh62onjn.slashdevslashnetslashtun.net
   port: 15003
   cipher: aes-256-gcm
   password: 2MT8DJ2LPPCI5PH8
   udp: true
-- name: "\u514D\u8D39\u68AF\u5B50 #2"
+- name: '免费梯子 #2'
   type: ss
   server: w72tapyb.slashdevslashnetslashtun.net
   port: 15008
@@ -3493,49 +3453,49 @@ proxies:
   cipher: aes-256-gcm
   password: 37fe3228-53ab-9453-19d9-e779456ef09a
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #17"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
   type: ss
   server: 51.77.230.27
   port: 36968
   cipher: aes-256-gcm
   password: 7CIRFlYpVZ
   udp: true
-- name: "\U0001F1F7\U0001F1FA St Petersburg, SPE, Russia"
+- name: 🇷🇺 St Petersburg, SPE, Russia
   type: ss
   server: 194.87.196.107
   port: 40440
   cipher: aes-256-gcm
   password: "4938e975724d0ed1"
   udp: true
-- name: "\U0001F1F7\U0001F1FA St Petersburg, SPE, Russia #2"
+- name: '🇷🇺 St Petersburg, SPE, Russia #2'
   type: ss
   server: 194.87.196.13
   port: 10991
   cipher: aes-256-gcm
   password: "4938e975724d0ed1"
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #3"
+- name: '长期更新节点@mftizi #3'
   type: ss
   server: w72tapyb.slashdevslashnetslashtun.net
   port: 18008
   cipher: aes-256-gcm
   password: 4S85LF2Q3QK92171
   udp: true
-- name: "\U0001F1F3\U0001F1F1 Amsterdam, NH, The Netherlands #3"
+- name: '🇳🇱 Amsterdam, NH, The Netherlands #3'
   type: ss
   server: 154.86.119.176
   port: 40170
   cipher: aes-256-gcm
   password: 4WtNXySNdwwzYwkXtNeNqgCE49x9AvTYXTiJng807HM=
   udp: true
-- name: "@ShadowProxy66 \U0001F1ED\U0001F1F0"
+- name: '@ShadowProxy66 🇭🇰'
   type: ss
   server: 212.192.15.33
   port: 10910
   cipher: aes-256-gcm
   password: "72553320ae6bcc8f"
   udp: true
-- name: "\U0001F1EE\U0001F1F1 Tel Aviv, TA, Israel"
+- name: 🇮🇱 Tel Aviv, TA, Israel
   type: ss
   server: 45.144.172.123
   port: 20998
@@ -3549,35 +3509,35 @@ proxies:
   cipher: aes-256-gcm
   password: "78235e7dc55e9ad1"
   udp: true
-- name: "\U0001F1E6\U0001F1F2 Yerevan, ER, Armenia"
+- name: 🇦🇲 Yerevan, ER, Armenia
   type: ss
   server: 86.107.50.183
   port: 30111
   cipher: aes-256-gcm
   password: "78235e7dc55e9ad1"
   udp: true
-- name: "\U0001F1F7\U0001F1FA St Petersburg, SPE, Russia #3"
+- name: '🇷🇺 St Petersburg, SPE, Russia #3'
   type: ss
   server: 195.133.23.200
   port: 10080
   cipher: aes-256-gcm
   password: "81a20429165df87e"
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #4"
+- name: '长期更新节点@mftizi #4'
   type: ss
   server: qh62onjn.slashdevslashnetslashtun.net
   port: 15015
   cipher: aes-256-gcm
   password: APEX7RPQ1FUAGNY7
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5 #3"
+- name: '关注电报 #3'
   type: ss
   server: 156.245.190.19
   port: 15010
   cipher: aes-256-gcm
   password: AYC4MQ5DSGJ4QOKG
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #5"
+- name: '长期更新节点@mftizi #5'
   type: ss
   server: 219.135.227.209
   port: 17001
@@ -3591,35 +3551,35 @@ proxies:
   cipher: aes-256-gcm
   password: BzG4OidkLBijT04YGIyVMXBd9eS-caVi
   udp: true
-- name: "\U0001F9EE70@oneclickvpnkeys"
+- name: 🧮70@oneclickvpnkeys
   type: ss
   server: 15.204.246.132
   port: 7307
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #18"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
   type: ss
   server: 145.239.1.100
   port: 8080
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
   udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+- name: 🇺🇸_US_美国_6
   type: ss
   server: 38.110.1.111
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
   udp: true
-- name: "\u4E0D\u5B9A\u671F\u62BD\u5956 #4"
+- name: '不定期抽奖 #4'
   type: ss
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 18013
   cipher: aes-256-gcm
   password: HEFXL9QGFUT6ET4L
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5 #4"
+- name: '关注电报 #4'
   type: ss
   server: w72tapyb.slashdevslashnetslashtun.net
   port: 21003
@@ -3633,9 +3593,7 @@ proxies:
   cipher: aes-256-gcm
   password: Hi9wk14VntzGq7kq
   udp: true
-- name: "\U0001F1E8\U0001F1E6\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇨🇦𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: 67.159.18.34
   port: 17001
@@ -3656,14 +3614,14 @@ proxies:
   cipher: aes-256-gcm
   password: OUdEsH1GGrha0QOK
   udp: true
-- name: "\U0001F1E9\U0001F1EA | 5"
+- name: 🇩🇪 | 5
   type: ss
   server: 149.102.149.207
   port: 80
   cipher: aes-256-gcm
   password: LXchLsIwtCeUAUgu
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #6"
+- name: '长期更新节点@mftizi #6'
   type: ss
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 15005
@@ -3677,15 +3635,14 @@ proxies:
   cipher: aes-256-gcm
   password: MDRlMTBjMzUwZWZmMjJlMmEwMzM0MGQ0ODEzNjM2
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #2"
+- name: '@prrofile_purple ♥️👈 تلگرام #2'
   type: ss
   server: 95.38.177.1
   port: 10132
   cipher: aes-256-gcm
   password: MTI1YTYwM2JlZGM1NDdlMzE1NjQ3M2MzZWYyMzFh
   udp: true
-- name: "\u8282\u70B9 #11"
+- name: '节点 #11'
   type: ss
   server: kyiv02.npvnot.com
   port: 443
@@ -3706,193 +3663,189 @@ proxies:
   cipher: aes-256-gcm
   password: NWI4NWExYzEyZjkzM2ViMDRkMTA0OGFjNDNiMzNl
   udp: true
-- name: "\U0001F1FA\U0001F1F8 Seattle, WA, United States #2"
+- name: '🇺🇸 Seattle, WA, United States #2'
   type: ss
   server: 154.53.60.212
   port: 443
   cipher: aes-256-gcm
   password: Nxv8ypErRfCSczD7
   udp: true
-- name: "\u8282\u70B9 #12"
+- name: '节点 #12'
   type: ss
   server: 142.202.48.52
   port: 8091
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #19"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
   type: ss
   server: 145.239.1.100
   port: 8090
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #20"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
   type: ss
   server: 145.239.1.100
   port: 8091
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+- name: 🇺🇸_US_美国_1
   type: ss
   server: 38.110.1.51
   port: 8090
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5 #5"
+- name: '关注电报 #5'
   type: ss
   server: 219.135.227.209
   port: 15010
   cipher: aes-256-gcm
   password: QM1BB5SMWC47IVWA
   udp: true
-- name: "\u4E0D\u5B9A\u671F\u62BD\u5956 #5"
+- name: '不定期抽奖 #5'
   type: ss
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 21004
   cipher: aes-256-gcm
   password: QF377GGQ00RATCMK
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5 #6"
+- name: '关注电报 #6'
   type: ss
   server: ti3hyra4.slashdevslashnetslashtun.net
   port: 15006
   cipher: aes-256-gcm
   password: RBN1UNGVPF1BQXPK
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea"
+- name: 🇰🇷 Seoul, 11, South Korea
   type: ss
   server: 141.164.45.187
   port: 7001
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea #2"
+- name: '🇰🇷 Seoul, 11, South Korea #2'
   type: ss
   server: 141.164.45.187
   port: 7002
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #21"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
   type: ss
   server: 145.239.1.100
   port: 7001
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: "\U0001F1F9\U0001F1F7\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #2"
+- name: '🇹🇷𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #2'
   type: ss
   server: 172.105.39.124
   port: 7002
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: "Tel@V2rayng_Fast \U0001F47D"
+- name: Tel@V2rayng_Fast 👽
   type: ss
   server: 94.156.250.148
   port: 7001
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: "\u5173\u6CE8\u7535\u62A5 #7"
+- name: '关注电报 #7'
   type: ss
   server: qh62onjn.slashdevslashnetslashtun.net
   port: 15011
   cipher: aes-256-gcm
   password: TCEL1H0XD7TWAKI0
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea #3"
+- name: '🇰🇷 Seoul, 11, South Korea #3'
   type: ss
   server: 141.164.45.187
   port: 6679
   cipher: aes-256-gcm
   password: TEzjfAYq2IjtuoS
   udp: true
-- name: "\u514D\u8D39\u68AF\u5B50 #3"
+- name: '免费梯子 #3'
   type: ss
   server: 156.245.190.24
   port: 15015
   cipher: aes-256-gcm
   password: UQ62K8G88VGBNZXO
   udp: true
-- name: "\u97E9\u56FD\u9996\u5C14-\u817E\u8BAF\u4E91\u56FD\u9645(\u5E7F\u64ADIP\uFF1F\
-    )"
+- name: 韩国首尔-腾讯云国际(广播IP？)
   type: ss
   server: 43.155.223.71
   port: 8388
   cipher: aes-256-gcm
   password: UsIv5aKJabiqnYtY8IfWd6FfgjzrJlfZ
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea #4"
+- name: '🇰🇷 Seoul, 11, South Korea #4'
   type: ss
   server: 141.164.45.187
   port: 8008
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
   udp: true
-- name: "\u514D\u8D39\u68AF\u5B50 #4"
+- name: '免费梯子 #4'
   type: ss
   server: ti3hyra4.slashdevslashnetslashtun.net
   port: 21001
   cipher: aes-256-gcm
   password: Y2U58S90E3GST1AQ
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #22"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #22'
   type: ss
   server: 145.239.1.100
   port: 3306
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #23"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #23'
   type: ss
   server: 145.239.1.100
   port: 5600
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #24"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #24'
   type: ss
   server: 145.239.1.100
   port: 5601
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #25"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #25'
   type: ss
   server: 149.202.82.172
   port: 5600
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #26"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #26'
   type: ss
   server: 217.182.198.219
   port: 3306
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "@ShadowProxy66 \U0001F1E6\U0001F1FA"
+- name: '@ShadowProxy66 🇦🇺'
   type: ss
   server: 103.106.231.82
   port: 5600
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea #5"
+- name: '🇰🇷 Seoul, 11, South Korea #5'
   type: ss
   server: 141.164.45.187
   port: 5001
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea #6"
+- name: '🇰🇷 Seoul, 11, South Korea #6'
   type: ss
   server: 141.164.45.187
   port: 8888
@@ -3906,14 +3859,14 @@ proxies:
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u0627\u06CC\u0631\u0627\u0646\u0633\u0644 #2"
+- name: '@Vpn_Tehran ❤️ ایرانسل #2'
   type: ss
   server: 51.222.155.113
   port: 5601
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: "\U0001FAAF98@oneclickvpnkeys"
+- name: 🪯98@oneclickvpnkeys
   type: ss
   server: 92.118.205.211
   port: 5600
@@ -3927,27 +3880,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1EE\U0001F1F9 Milan, 25, Italy"
+- name: 🇮🇹 Milan, 25, Italy
   type: ss
   server: 185.164.175.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1EE\U0001F1F1\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #4"
+- name: '🇮🇱𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #4'
   type: ss
   server: 185.176.204.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1EE\U0001F1F1\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #5"
+- name: '🇮🇱𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #5'
   type: ss
   server: 185.176.206.9
   port: 19999
@@ -3982,10 +3929,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #3"
+- name: '🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #3'
   type: ss
   server: 202.50.253.27
   port: 19999
@@ -3999,10 +3943,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1EE\U0001F1F1\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #6"
+- name: '🇮🇱𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #6'
   type: ss
   server: 202.50.253.45
   port: 19999
@@ -4030,22 +3971,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645 #4"
+- name: '@Vpn_Tehran ❤️ کانال تلگرام #4'
   type: ss
   server: 45.86.51.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1E6\U0001F1F9 Vienna, 9, Austria"
+- name: 🇦🇹 Vienna, 9, Austria
   type: ss
   server: 82.110.60.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1F0\U0001F1F7 Seoul, 11, South Korea #7"
+- name: '🇰🇷 Seoul, 11, South Korea #7'
   type: ss
   server: 141.164.45.187
   port: 8119
@@ -4066,21 +4006,21 @@ proxies:
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: "\U0001F1ED\U0001F1F0 Hong Kong #6"
+- name: '🇭🇰 Hong Kong #6'
   type: ss
   server: u5c9wb.5tencent.asia
   port: 22033
   cipher: aes-256-gcm
   password: ce2205df-f330-4779-a584-13f6bfc6adb6
   udp: true
-- name: "\U0001F4C01@oneclickvpnkeys"
+- name: 📀1@oneclickvpnkeys
   type: ss
   server: 84.200.91.158
   port: 443
   cipher: aes-256-gcm
   password: a742bd85-0f97-42bd-891f-aa00dbd1a461
   udp: true
-- name: "\U0001F1F0\U0001F1F7 South Korea"
+- name: 🇰🇷 South Korea
   type: ss
   server: 211.174.113.172
   port: 49642
@@ -4094,43 +4034,42 @@ proxies:
   cipher: aes-256-gcm
   password: bd962c9a-d6f2-4561-bd80-34206c4d5279
   udp: true
-- name: "\U0001F1F7\U0001F1FA Moscow, MOW, Russia #2"
+- name: '🇷🇺 Moscow, MOW, Russia #2'
   type: ss
   server: 46.17.40.234
   port: 20112
   cipher: aes-256-gcm
   password: "bdb313adf74c2ede"
   udp: true
-- name: "\U0001F1F7\U0001F1FA Moscow, MOW, Russia #3"
+- name: '🇷🇺 Moscow, MOW, Russia #3'
   type: ss
   server: 46.17.45.31
   port: 10991
   cipher: aes-256-gcm
   password: "bdb313adf74c2ede"
   udp: true
-- name: "@Vpn_Tehran \U0001F48C \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 💌 کانال تلگرام'
   type: ss
   server: 94.72.127.58
   port: 443
   cipher: aes-256-gcm
   password: goRz8CTFE6zPZXIA
   udp: true
-- name: "\U0001F1F8\U0001F1E8 Seychelles"
+- name: 🇸🇨 Seychelles
   type: ss
   server: 45.207.207.25
   port: 443
   cipher: aes-256-gcm
   password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
   udp: true
-- name: "\U0001F1E6\U0001F1F1_AL_\u963F\u5C14\u5DF4\u5C3C\u4E9A_11"
+- name: 🇦🇱_AL_阿尔巴尼亚_11
   type: ss
   server: 109.104.152.27
   port: 12345
   cipher: aes-256-gcm
   password: dongtaiwang.com
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1F8\U0001F1EC"
+- name: 'Channel id: @ShadowProxy66 🇸🇬'
   type: ss
   server: 47.129.143.46
   port: 80
@@ -4151,96 +4090,91 @@ proxies:
   cipher: aes-256-gcm
   password: fBtIbHWC9nLAEdDUyk2tsGiVzGwGQYgX
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #27"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #27'
   type: ss
   server: 145.239.1.100
   port: 2376
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "@Vpn_Tehran \u262F\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645"
+- name: '@Vpn_Tehran ☯️ کانال تلگرام'
   type: ss
   server: 15.204.247.124
   port: 2375
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F4BB Channel \U0001F194 : @AlienVPN402 \U0001F47D #28"
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #28'
   type: ss
   server: 217.182.198.219
   port: 2376
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: "\U0001F1E8\U0001F1E6 Toronto, ON, Canada"
+- name: 🇨🇦 Toronto, ON, Canada
   type: ss
   server: 166.88.130.218
   port: 60111
   cipher: aes-256-gcm
   password: "fbcec76953a2d173"
   udp: true
-- name: "@Vpn_Tehran \U0001F49A \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #3"
+- name: '@Vpn_Tehran 💚 کانال تلگرام #3'
   type: ss
   server: 51.222.155.32
   port: 5003
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
   udp: true
-- name: "\U0001F1EC\U0001F1E7 Portsmouth, ENG, United Kingdom"
+- name: 🇬🇧 Portsmouth, ENG, United Kingdom
   type: ss
   server: 149.102.132.184
   port: 443
   cipher: aes-256-gcm
   password: g5h5jleTRSyO3Rk4
   udp: true
-- name: "\U0001F1EC\U0001F1E7 Portsmouth, ENG, United Kingdom #2"
+- name: '🇬🇧 Portsmouth, ENG, United Kingdom #2'
   type: ss
   server: 149.102.132.184
   port: 80
   cipher: aes-256-gcm
   password: g5h5jleTRSyO3Rk4
   udp: true
-- name: "@@proxy_kafee \u2B50"
+- name: '@@proxy_kafee ⭐'
   type: ss
   server: 15.204.233.41
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: "@Vpn_Tehran \U0001F49C \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645"
+- name: '@Vpn_Tehran 💜 کانال تلگرام'
   type: ss
   server: 51.79.49.116
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: "\U0001F1EE\U0001F1F3telegram\u27A0@v2rayNG_Matsuri #2"
+- name: '🇮🇳telegram➠@v2rayNG_Matsuri #2'
   type: ss
   server: 2.58.81.221
   port: 443
   cipher: aes-256-gcm
   password: kKEd0rBrd56Furjz
   udp: true
-- name: "\U0001F4192@oneclickvpnkeys"
+- name: 🐙2@oneclickvpnkeys
   type: ss
   server: 78.129.155.63
   port: 3030
   cipher: aes-256-gcm
   password: kSLjbrBc84
   udp: true
-- name: "@Vpn_Tehran \U0001F48C \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #2"
+- name: '@Vpn_Tehran 💌 کانال تلگرام #2'
   type: ss
   server: 51.83.192.80
   port: 8388
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
-- name: "@Vpn_Tehran \U0001F49A \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #4"
+- name: '@Vpn_Tehran 💚 کانال تلگرام #4'
   type: ss
   server: 57.131.48.45
   port: 8388
@@ -4254,50 +4188,49 @@ proxies:
   cipher: aes-256-gcm
   password: ly7ucs3r3eltbits
   udp: true
-- name: "\U0001F1FA\U0001F1F8 #2"
+- name: '🇺🇸 #2'
   type: ss
   server: 154.53.63.33
   port: 80
   cipher: aes-256-gcm
   password: sFS341eceaIiSm2d
   udp: true
-- name: "\u8282\u70B9 #13"
+- name: '节点 #13'
   type: ss
   server: 146.190.236.129
   port: 17000
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: "\U0001F1EE\U0001F1F1Telegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇮🇱Telegram👉@v2rayNG_Matsuri
   type: ss
   server: 141.227.134.63
   port: 17000
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: "\U0001F1EB\U0001F1EETelegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇫🇮Telegram👉@v2rayNG_Matsuri
   type: ss
   server: 143.110.161.156
   port: 17000
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: "@ShadowProxy66 \U0001F1F5\U0001F1F1"
+- name: '@ShadowProxy66 🇵🇱'
   type: ss
   server: 146.59.116.19
   port: 17000
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: "@ShadowProxy66 \U0001F1E9\U0001F1EA"
+- name: '@ShadowProxy66 🇩🇪'
   type: ss
   server: 206.189.52.4
   port: 17000
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: "@Vpn_Tehran \u2764\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645 #5"
+- name: '@Vpn_Tehran ❤️ کانال تلگرام #5'
   type: ss
   server: 51.222.12.127
   port: 445
@@ -4311,68 +4244,67 @@ proxies:
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #3"
+- name: '@prrofile_purple ♥️👈 تلگرام #3'
   type: trojan
   server: 179.237.74.104
   port: 584
   password: '---------BanV2ray------------'
   udp: true
-- name: "\U0001F1F0\U0001F1F7KR"
+- name: 🇰🇷KR
   type: trojan
   server: a8zbx9xj.catcat321.com
   port: 20088
   password: 0010996f-3eab-4804-9b3a-3a889d6767fc
   udp: true
-- name: "\u8282\u70B9 #14"
+- name: '节点 #14'
   type: trojan
   server: 188.114.97.6
   port: 443
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   udp: true
-- name: "\U0001F4C098@oneclickvpnkeys"
+- name: 📀98@oneclickvpnkeys
   type: trojan
   server: 107.150.105.84
   port: 20065
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   skip-cert-verify: true
-- name: "\U0001F4C095@oneclickvpnkeys"
+- name: 📀95@oneclickvpnkeys
   type: trojan
   server: 107.150.105.84
   port: 46292
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   skip-cert-verify: true
-- name: "\U0001F4C088@oneclickvpnkeys"
+- name: 📀88@oneclickvpnkeys
   type: trojan
   server: 107.150.105.84
   port: 59385
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   skip-cert-verify: true
-- name: "4\U0001F4CD@oneclickvpnkeys"
+- name: 4📍@oneclickvpnkeys
   type: trojan
   server: us01.duotg.top
   port: 27732
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   skip-cert-verify: true
-- name: "\U0001F43297@oneclickvpnkeys"
+- name: 🐲97@oneclickvpnkeys
   type: trojan
   server: us01.duotg.top
   port: 46292
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   skip-cert-verify: true
-- name: "5\U0001F4CD@oneclickvpnkeys"
+- name: 5📍@oneclickvpnkeys
   type: trojan
   server: us01.duotg.top
   port: 54657
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   skip-cert-verify: true
-- name: "\u2638\uFE0F79@oneclickvpnkeys"
+- name: ☸️79@oneclickvpnkeys
   type: trojan
   server: clash2.deep-links.com
   port: 443
@@ -4403,51 +4335,51 @@ proxies:
   port: 443
   password: 11ae0edd-2f63-4495-8683-037abbda9986
   udp: true
-- name: "\U0001F41E7@oneclickvpnkeys"
+- name: 🐞7@oneclickvpnkeys
   type: trojan
   server: 162.19.243.185
   port: 8443
   password: "1234567890"
   udp: true
   skip-cert-verify: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #3"
+- name: 'US美国( 更新) #3'
   type: trojan
   server: 162.159.152.81
   port: 443
   password: "123456"
   udp: true
-- name: "\u4E0D\u5B9A\u671F\u62BD\u5956 #6"
+- name: '不定期抽奖 #6'
   type: trojan
   server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
   port: 27231
   password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
   udp: true
-- name: "\u26F337@oneclickvpnkeys"
+- name: ⛳37@oneclickvpnkeys
   type: trojan
   server: 207.65.189.9
   port: 443
   password: "162534"
   udp: true
   skip-cert-verify: true
-- name: "\U0001FA9059@oneclickvpnkeys"
+- name: 🪐59@oneclickvpnkeys
   type: trojan
   server: 188.114.98.0
   port: 443
   password: "1710442808"
   udp: true
-- name: "\U0001F54A\uFE0F57@oneclickvpnkeys"
+- name: 🕊️57@oneclickvpnkeys
   type: trojan
   server: 87.58.220.77
   port: 8443
   password: "19a98e32a1149952a988e1e915306e07"
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053 #6"
+- name: '关注频道 #6'
   type: trojan
   server: hk03.trojanyyds.xyz
   port: 443
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #7"
+- name: '长期更新节点@mftizi #7'
   type: trojan
   server: sg02.trojanyyds.xyz
   port: 443
@@ -4477,20 +4409,20 @@ proxies:
   port: 3169
   password: "44e660b0ee21cf3ac66aee2c08af85d2"
   udp: true
-- name: "\U0001F6F844@oneclickvpnkeys"
+- name: 🛸44@oneclickvpnkeys
   type: trojan
   server: 31.133.0.186
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   skip-cert-verify: true
-- name: "\U0001F6D532@oneclickvpnkeys"
+- name: 🛕32@oneclickvpnkeys
   type: trojan
   server: de3.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-- name: "\U0001F6D513@oneclickvpnkeys"
+- name: 🛕13@oneclickvpnkeys
   type: trojan
   server: de6.dedushka.top
   port: 443
@@ -4503,67 +4435,64 @@ proxies:
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #4"
+- name: '🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #4'
   type: trojan
   server: de8.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-- name: "\U0001F6D575@oneclickvpnkeys"
+- name: 🛕75@oneclickvpnkeys
   type: trojan
   server: it1.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-- name: "\U0001F6D571@oneclickvpnkeys"
+- name: 🛕71@oneclickvpnkeys
   type: trojan
   server: lv1.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   skip-cert-verify: true
-- name: "\U0001F6D569@oneclickvpnkeys"
+- name: 🛕69@oneclickvpnkeys
   type: trojan
   server: pl1.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   skip-cert-verify: true
-- name: "\u5173\u6CE8\u7535\u62A5 #8"
+- name: '关注电报 #8'
   type: trojan
   server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
   port: 27101
   password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
   udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_15"
+- name: 🇨🇳_CN_中国_15
   type: trojan
   server: df.xiguajiasu.xyz
   port: 46002
   password: 4ea1d07c-41c2-42b5-954d-414fee051856
   udp: true
-- name: "\U0001F7E280@oneclickvpnkeys"
+- name: 🟢80@oneclickvpnkeys
   type: trojan
   server: 104.248.161.136
   port: 443
   password: "521314"
   udp: true
   skip-cert-verify: true
-- name: "\U0001F441\uFE0F\u200D\U0001F5E8\uFE0F48@oneclickvpnkeys"
+- name: 👁️‍🗨️48@oneclickvpnkeys
   type: trojan
   server: millionaire.levikogjgfdd.ir
   port: 443
   password: "521314"
   udp: true
-- name: "\u514D\u8D39\u68AF\u5B50 #5"
+- name: '免费梯子 #5'
   type: trojan
   server: lm.kaiqsz.com
   port: 51075
   password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #8"
+- name: '长期更新节点@mftizi #8'
   type: trojan
   server: naiu-us.05vr9nyqg5.download
   port: 13020
@@ -4575,20 +4504,20 @@ proxies:
   port: 443
   password: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_5"
+- name: 🇸🇬_SG_新加坡_5
   type: trojan
   server: sg01.freeflyingcloud.xyz
   port: 35702
   password: 63db084a-e2ce-46db-9dd6-d4ed2c3d2663
   udp: true
   sni: sg01.freeflyingcloud.xyz
-- name: "\U0001F36547@oneclickvpnkeys"
+- name: 🍥47@oneclickvpnkeys
   type: trojan
   server: rub01.nwncd.com
   port: 489
   password: 654df5c6-73ac-3b11-8269-6b21fb8d9dad
   udp: true
-- name: "\u5173\u6CE8\u9891\u9053 #7"
+- name: '关注频道 #7'
   type: trojan
   server: naiu-us.05vr9nyqg5.download
   port: 13019
@@ -4600,7 +4529,7 @@ proxies:
   port: 443
   password: "6c73b7937b3e44e5982f9d5efa57d8cd"
   udp: true
-- name: "\U0001F1ED\U0001F1F0HK"
+- name: 🇭🇰HK
   type: trojan
   server: 2c.fast9988.com
   port: 50887
@@ -4612,32 +4541,32 @@ proxies:
   port: 44370
   password: 7647b321-4bfe-43f3-b21f-926c5de8f9b6
   udp: true
-- name: "\U0001F99695@oneclickvpnkeys"
+- name: 🦖95@oneclickvpnkeys
   type: trojan
   server: 104.16.72.101
   port: 443
   password: 86957ec0-b213-433b-a43b-51f2175e0ec3
   udp: true
-- name: "\u26F359@oneclickvpnkeys"
+- name: ⛳59@oneclickvpnkeys
   type: trojan
   server: 104.18.153.10
   port: 443
   password: 86957ec0-b213-433b-a43b-51f2175e0ec3
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #9"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #9'
   type: trojan
   server: 104.19.242.85
   port: 443
   password: 8GXLP3dEzm7T8wP5Jx0Ufg
   udp: true
-- name: "\u2708\uFE0F95@oneclickvpnkeys"
+- name: ✈️95@oneclickvpnkeys
   type: trojan
   server: 107.149.159.190
   port: 10443
   password: "8bdfa4e8dac99c57decdd8bf55d2da4c"
   udp: true
   sni: cf.shiranyu.xyz
-- name: "3\U0001FA86@oneclickvpnkeys"
+- name: 3🪆@oneclickvpnkeys
   type: trojan
   server: 178.172.227.178
   port: 500
@@ -4649,136 +4578,135 @@ proxies:
   port: 2096
   password: 8r<[9'l6hAO#8ZQi
   udp: true
-- name: "\U0001F6D667@oneclickvpnkeys"
+- name: 🛖67@oneclickvpnkeys
   type: trojan
   server: 16.16.45.85
   port: 8443
   password: 8r<[9'l6hAO#8ZQi
   udp: true
-- name: "\U0001F6E1\uFE0F46@oneclickvpnkeys"
+- name: 🛡️46@oneclickvpnkeys
   type: trojan
   server: 45.156.25.49
   port: 2053
   password: 8r<[9'l6hAO#8ZQi
   udp: true
-- name: "Telegram@DarkVPNpro | \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC\
-    \ \u067E\u0631\u0633\u0631\u0639\u062A \u0628\u06CC\u0634\u062A\u0631\u26A1\uFE0F"
+- name: Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️
   type: trojan
   server: 8.6.112.0
   port: 2096
   password: 8r<[9'l6hAO#8ZQi
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #9"
+- name: '长期更新节点@mftizi #9'
   type: trojan
   server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
   port: 27231
   password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
   udp: true
-- name: "\U0001F98128@oneclickvpnkeys"
+- name: 🦁28@oneclickvpnkeys
   type: trojan
   server: 15.237.214.103
   port: 443
   password: "AE62539071"
   udp: true
   skip-cert-verify: true
-- name: "\u269B\uFE0F62@oneclickvpnkeys"
+- name: ⚛️62@oneclickvpnkeys
   type: trojan
   server: 18.201.28.146
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\u269B\uFE0F47@oneclickvpnkeys"
+- name: ⚛️47@oneclickvpnkeys
   type: trojan
   server: 51.44.161.22
   port: 443
   password: "AE62539071"
   udp: true
   skip-cert-verify: true
-- name: "5\U0001F365@oneclickvpnkeys"
+- name: 5🍥@oneclickvpnkeys
   type: trojan
   server: 52.198.117.121
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F38868@oneclickvpnkeys"
+- name: 🎈68@oneclickvpnkeys
   type: trojan
   server: 54.169.174.154
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F38863@oneclickvpnkeys"
+- name: 🎈63@oneclickvpnkeys
   type: trojan
   server: 54.169.241.164
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\u269B\uFE0F61@oneclickvpnkeys"
+- name: ⚛️61@oneclickvpnkeys
   type: trojan
   server: 54.170.38.205
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F38879@oneclickvpnkeys"
+- name: 🎈79@oneclickvpnkeys
   type: trojan
   server: absolute-hare.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "1\U0001F365@oneclickvpnkeys"
+- name: 1🍥@oneclickvpnkeys
   type: trojan
   server: arriving-colt.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F6D748@oneclickvpnkeys"
+- name: 🛗48@oneclickvpnkeys
   type: trojan
   server: dashing-bedbug.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F6D737@oneclickvpnkeys"
+- name: 🛗37@oneclickvpnkeys
   type: trojan
   server: emerging-weevil.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F6D798@oneclickvpnkeys"
+- name: 🛗98@oneclickvpnkeys
   type: trojan
   server: game-firefly.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F6D777@oneclickvpnkeys"
+- name: 🛗77@oneclickvpnkeys
   type: trojan
   server: one-quail.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F6D733@oneclickvpnkeys"
+- name: 🛗33@oneclickvpnkeys
   type: trojan
   server: proper-marlin.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F6D797@oneclickvpnkeys"
+- name: 🛗97@oneclickvpnkeys
   type: trojan
   server: relative-locust.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F38884@oneclickvpnkeys"
+- name: 🎈84@oneclickvpnkeys
   type: trojan
   server: rich-mule.rooster465.autos
   port: 443
   password: "AE62539071"
   udp: true
-- name: "\U0001F3A17@oneclickvpnkeys"
+- name: 🎡7@oneclickvpnkeys
   type: trojan
   server: 167.68.4.199
   port: 2053
   password: Aimer
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #10"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #10'
   type: trojan
   server: xn--memeshupshop-vl56koa410enom.rekmiva.ir
   port: 1080
@@ -4790,7 +4718,7 @@ proxies:
   port: 14689
   password: Bhmmxr98TJ
   udp: true
-- name: "\U0001F438100@oneclickvpnkeys"
+- name: 🐸100@oneclickvpnkeys
   type: trojan
   server: 119.246.1.143
   port: 443
@@ -4803,13 +4731,13 @@ proxies:
   port: 443
   password: BxceQaOe
   udp: true
-- name: "\U0001F1ED\U0001F1F0HK #2"
+- name: '🇭🇰HK #2'
   type: trojan
   server: 35.76.126.253
   port: 29443
   password: BxceQaOe
   udp: true
-- name: "3\U0001F4CA@oneclickvpnkeys"
+- name: 3📊@oneclickvpnkeys
   type: trojan
   server: emerging-weevil.rooster465.autos
   port: 443
@@ -4822,56 +4750,56 @@ proxies:
   port: 443
   password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
   udp: true
-- name: "\U0001F34F85@oneclickvpnkeys"
+- name: 🍏85@oneclickvpnkeys
   type: trojan
   server: 202.78.163.233
   port: 443
   password: FH72359861
   udp: true
-- name: "\U0001F9EE86@oneclickvpnkeys"
+- name: 🧮86@oneclickvpnkeys
   type: trojan
   server: 52.195.225.156
   port: 443
   password: FH72359861
   udp: true
-- name: "\U0001F38866@oneclickvpnkeys"
+- name: 🎈66@oneclickvpnkeys
   type: trojan
   server: charming-ox.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
-- name: "\U0001F38878@oneclickvpnkeys"
+- name: 🎈78@oneclickvpnkeys
   type: trojan
   server: funny-hawk.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
-- name: "\u269B\uFE0F72@oneclickvpnkeys"
+- name: ⚛️72@oneclickvpnkeys
   type: trojan
   server: magnetic-caiman.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
   skip-cert-verify: true
-- name: "\U0001F36595@oneclickvpnkeys"
+- name: 🍥95@oneclickvpnkeys
   type: trojan
   server: modern-bedbug.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
-- name: "\U0001F38870@oneclickvpnkeys"
+- name: 🎈70@oneclickvpnkeys
   type: trojan
   server: stable-racer.rooster465.autos
   port: 443
   password: FH72359861
   udp: true
-- name: "\U0001F426\u200D\U0001F52598@oneclickvpnkeys"
+- name: 🐦‍🔥98@oneclickvpnkeys
   type: trojan
   server: eminent-lamb.rooster465.autos
   port: 443
   password: HC04361579
   udp: true
-- name: "\U0001F38041@oneclickvpnkeys"
+- name: 🎀41@oneclickvpnkeys
   type: trojan
   server: 62.112.222.27
   port: 443
@@ -4883,39 +4811,38 @@ proxies:
   port: 30141
   password: JCY6NydkBA
   udp: true
-- name: "\u2699\uFE0F45@oneclickvpnkeys"
+- name: ⚙️45@oneclickvpnkeys
   type: trojan
   server: 89.39.70.233
   port: 443
   password: KV63147582
   udp: true
   sni: game-firefly.rooster465.autos
-- name: "\U0001FAAD3@oneclickvpnkeys"
+- name: 🪭3@oneclickvpnkeys
   type: trojan
   server: game-firefly.rooster465.autos
   port: 443
   password: KV63147582
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1E9\U0001F1EA #2"
+- name: 'Channel id: @ShadowProxy66 🇩🇪 #2'
   type: trojan
   server: 94.103.173.70
   port: 9443
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   udp: true
-- name: "\U0001F1EB\U0001F1EETelegram\U0001F449@v2rayNG_Matsuri #2"
+- name: '🇫🇮Telegram👉@v2rayNG_Matsuri #2'
   type: trojan
   server: dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev
   port: 443
   password: LcICDcp!jD9TFV$NbH
   udp: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #6"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #6'
   type: trojan
   server: 31.77.168.33
   port: 443
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   udp: true
-- name: "\u8282\u70B9 #15"
+- name: '节点 #15'
   type: trojan
   server: 104.16.72.41
   port: 443
@@ -4927,58 +4854,55 @@ proxies:
   port: 443
   password: MITIVPN
   udp: true
-- name: "\u26A1\uFE0F \U0001D5E1\U0001D5F2\U0001D5E7\U0001D5E0\U0001D5F2\U0001D5F9\
-    \U0001D5F6 \u26A1\uFE0F | @prrofile_purple #2"
+- name: '⚡️ 𝗡𝗲𝗧𝗠𝗲𝗹𝗶 ⚡️ | @prrofile_purple #2'
   type: trojan
   server: 104.19.229.21
   port: 443
   password: MITIVPN
   udp: true
-- name: "\u2699\uFE0F58@oneclickvpnkeys"
+- name: ⚙️58@oneclickvpnkeys
   type: trojan
   server: 151.101.56.7
   port: 443
   password: MITIVPN
   udp: true
-- name: "\U0001F1FA\U0001F1F8Telegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇺🇸Telegram👉@v2rayNG_Matsuri
   type: trojan
   server: 167.82.76.7
   port: 443
   password: MITIVPN
   udp: true
-- name: "\U0001F39279@oneclickvpnkeys"
+- name: 🎒79@oneclickvpnkeys
   type: trojan
   server: 188.114.97.6
   port: 443
   password: MITIVPN
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #4"
+- name: '@prrofile_purple ♥️👈 تلگرام #4'
   type: trojan
   server: 199.232.2.79
   port: 443
   password: MITIVPN
   udp: true
-- name: "\U0001F1FA\U0001F1F8Telegram\U0001F449@v2rayNG_Matsuri #2"
+- name: '🇺🇸Telegram👉@v2rayNG_Matsuri #2'
   type: trojan
   server: 199.232.78.101
   port: 443
   password: MITIVPN
   udp: true
-- name: "\u2699\uFE0F94@oneclickvpnkeys"
+- name: ⚙️94@oneclickvpnkeys
   type: trojan
   server: 199.232.78.160
   port: 443
   password: MITIVPN
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #5"
+- name: '@prrofile_purple ♥️👈 تلگرام #5'
   type: trojan
   server: 45.130.125.2
   port: 443
   password: MITIVPN
   udp: true
-- name: "\U0001F6DE41@oneclickvpnkeys"
+- name: 🛞41@oneclickvpnkeys
   type: trojan
   server: 151.101.56.7
   port: 443
@@ -4990,19 +4914,19 @@ proxies:
   port: 443
   password: MITIVpN
   udp: true
-- name: "\U0001FA9055@oneclickvpnkeys"
+- name: 🪐55@oneclickvpnkeys
   type: trojan
   server: 167.82.76.7
   port: 443
   password: MITIVpN
   udp: true
-- name: "\U0001F1EE\U0001F1F3Telegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇮🇳Telegram👉@v2rayNG_Matsuri
   type: trojan
   server: 199.232.78.101
   port: 443
   password: MITIVpN
   udp: true
-- name: "\U0001F1F5\U0001F1FETelegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇵🇾Telegram👉@v2rayNG_Matsuri
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -5014,13 +4938,13 @@ proxies:
   port: 443
   password: MItIVPN
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #11"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #11'
   type: trojan
   server: 199.232.78.101
   port: 443
   password: MItIVPN
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #12"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #12'
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -5032,127 +4956,123 @@ proxies:
   port: 443
   password: Masir_Sefid
   udp: true
-- name: "\U0001F1E8\U0001F1F3@FreakConfig"
+- name: 🇨🇳@FreakConfig
   type: trojan
   server: 37.156.46.29
   port: 1040
   password: Masir_Sefid
   udp: true
-- name: "\U0001F6D682@oneclickvpnkeys"
+- name: 🛖82@oneclickvpnkeys
   type: trojan
   server: 151.101.56.56
   port: 443
   password: MiTIVPN
   udp: true
-- name: "\U0001F6D687@oneclickvpnkeys"
+- name: 🛖87@oneclickvpnkeys
   type: trojan
   server: 151.101.56.7
   port: 443
   password: MiTIVPN
   udp: true
-- name: "\U0001F6D689@oneclickvpnkeys"
+- name: 🛖89@oneclickvpnkeys
   type: trojan
   server: 199.232.78.101
   port: 443
   password: MiTIVPN
   udp: true
-- name: "\U0001F6A839@oneclickvpnkeys"
+- name: 🚨39@oneclickvpnkeys
   type: trojan
   server: 199.232.78.160
   port: 443
   password: MiTIVPN
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #6"
+- name: '@prrofile_purple ♥️👈 تلگرام #6'
   type: trojan
   server: 104.16.72.41
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F3B250@oneclickvpnkeys"
+- name: 🎲50@oneclickvpnkeys
   type: trojan
   server: 104.16.72.50
   port: 443
   password: MiTiVPN
   udp: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1E6@V2rayng_Fast"
+- name: 🇨🇦@V2rayng_Fast
   type: trojan
   server: 104.18.6.178
   port: 443
   password: MiTiVPN
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #7"
+- name: '@prrofile_purple ♥️👈 تلگرام #7'
   type: trojan
   server: 104.21.18.41
   port: 443
   password: MiTiVPN
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #8"
+- name: '@prrofile_purple ♥️👈 تلگرام #8'
   type: trojan
   server: 104.21.5.75
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F43B10@oneclickvpnkeys"
+- name: 🐻10@oneclickvpnkeys
   type: trojan
   server: 104.254.140.62
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001FADF18@oneclickvpnkeys"
+- name: 🫟18@oneclickvpnkeys
   type: trojan
   server: 140.248.185.253
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F9E954@oneclickvpnkeys"
+- name: 🧩54@oneclickvpnkeys
   type: trojan
   server: 151.101.1.194
   port: 443
   password: MiTiVPN
   udp: true
   skip-cert-verify: true
-- name: "\u26FD41@oneclickvpnkeys"
+- name: ⛽41@oneclickvpnkeys
   type: trojan
   server: 151.101.56.101
   port: 443
   password: MiTiVPN
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #13"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #13'
   type: trojan
   server: 151.101.56.255
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F52534@oneclickvpnkeys"
+- name: 🔥34@oneclickvpnkeys
   type: trojan
   server: 151.101.56.6
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F52539@oneclickvpnkeys"
+- name: 🔥39@oneclickvpnkeys
   type: trojan
   server: 151.101.56.7
   port: 443
   password: MiTiVPN
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #14"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #14'
   type: trojan
   server: 151.101.56.9
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F1FA\U0001F1F8@V2rayng_Fast"
+- name: 🇺🇸@V2rayng_Fast
   type: trojan
   server: 162.159.38.200
   port: 443
   password: MiTiVPN
   udp: true
-- name: "@prrofile_purple \u2665\uFE0F\U0001F448 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ #9"
+- name: '@prrofile_purple ♥️👈 تلگرام #9'
   type: trojan
   server: 167.82.101.252
   port: 443
@@ -5164,31 +5084,31 @@ proxies:
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\u26FD54@oneclickvpnkeys"
+- name: ⛽54@oneclickvpnkeys
   type: trojan
   server: 167.82.76.7
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F3C060@oneclickvpnkeys"
+- name: 🏀60@oneclickvpnkeys
   type: trojan
   server: 199.232.78.101
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001FA7340@oneclickvpnkeys"
+- name: 🩳40@oneclickvpnkeys
   type: trojan
   server: 199.232.78.160
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F3A861@oneclickvpnkeys"
+- name: 🎨61@oneclickvpnkeys
   type: trojan
   server: 199.232.78.188
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\U0001F35350@oneclickvpnkeys"
+- name: 🍓50@oneclickvpnkeys
   type: trojan
   server: 88.216.67.230
   port: 443
@@ -5200,37 +5120,37 @@ proxies:
   port: 443
   password: MiTiVPN
   udp: true
-- name: "\u2600\uFE0F53@oneclickvpnkeys"
+- name: ☀️53@oneclickvpnkeys
   type: trojan
   server: 151.101.110.219
   port: 443
   password: Mitivpn
   udp: true
-- name: "\U0001F9C571@oneclickvpnkeys"
+- name: 🧅71@oneclickvpnkeys
   type: trojan
   server: 54.255.35.23
   port: 443
   password: ND91608427
   udp: true
-- name: "\U0001F9C590@oneclickvpnkeys"
+- name: 🧅90@oneclickvpnkeys
   type: trojan
   server: ace-starling.rooster465.autos
   port: 443
   password: ND91608427
   udp: true
-- name: "\U0001F91627@oneclickvpnkeys"
+- name: 🤖27@oneclickvpnkeys
   type: trojan
   server: star-kiwi.rooster465.autos
   port: 443
   password: ND91608427
   udp: true
-- name: "\U0001F4CA20@oneclickvpnkeys"
+- name: 📊20@oneclickvpnkeys
   type: trojan
   server: 89.39.70.143
   port: 443
   password: NQ26071394
   udp: true
-- name: "\U0001F38046@oneclickvpnkeys"
+- name: 🎀46@oneclickvpnkeys
   type: trojan
   server: lucky-marmot.rooster465.autos
   port: 443
@@ -5242,13 +5162,13 @@ proxies:
   port: 443
   password: PD07395842
   udp: true
-- name: "\U0001F38D77@oneclickvpnkeys"
+- name: 🎍77@oneclickvpnkeys
   type: trojan
   server: tight-possum.rooster465.autos
   port: 443
   password: PI36027154
   udp: true
-- name: "\U0001F426\u200D\U0001F52583@oneclickvpnkeys"
+- name: 🐦‍🔥83@oneclickvpnkeys
   type: trojan
   server: 34.220.224.252
   port: 443
@@ -5260,7 +5180,7 @@ proxies:
   port: 443
   password: PQ05174892
   udp: true
-- name: "\U0001F34F54@oneclickvpnkeys"
+- name: 🍏54@oneclickvpnkeys
   type: trojan
   server: casual-quail.rooster465.autos
   port: 443
@@ -5278,25 +5198,25 @@ proxies:
   port: 32190
   password: SijoMNYVbPKQynblQeL9BjCnO43Zup3d
   udp: true
-- name: "Tel-@NapsterNetvIrani\U0001FAE0 1"
+- name: Tel-@NapsterNetvIrani🫠 1
   type: trojan
   server: 104.17.121.110
   port: 443
   password: SoftNetConnect@vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
   udp: true
-- name: "\U0001F40A53@oneclickvpnkeys"
+- name: 🐊53@oneclickvpnkeys
   type: trojan
   server: 188.114.96.3
   port: 443
   password: Telegram_healer_config
   udp: true
-- name: "\U0001F6E0\uFE0F21@oneclickvpnkeys"
+- name: 🛠️21@oneclickvpnkeys
   type: trojan
   server: www.speedtest.net
   port: 443
   password: Telegram_healer_config
   udp: true
-- name: "\U0001F41E75@oneclickvpnkeys"
+- name: 🐞75@oneclickvpnkeys
   type: trojan
   server: 92.118.150.146
   port: 443
@@ -5309,40 +5229,40 @@ proxies:
   port: 443
   password: Trojan@82164024
   udp: true
-- name: "\u65E5\u672C"
+- name: 日本
   type: trojan
   server: jp.tronsg.com
   port: 443
   password: Trojan@82164024
   udp: true
-- name: "\U0001F4AB85@oneclickvpnkeys"
+- name: 💫85@oneclickvpnkeys
   type: trojan
   server: warm-bass.rooster465.autos
   port: 443
   password: UO36402987
   udp: true
-- name: "\U0001F99C67@oneclickvpnkeys"
+- name: 🦜67@oneclickvpnkeys
   type: trojan
   server: 18.143.92.167
   port: 443
   password: UX82473651
   udp: true
   sni: glowing-marmoset.rooster465.autos
-- name: "\U0001FAE761@oneclickvpnkeys"
+- name: 🫧61@oneclickvpnkeys
   type: trojan
   server: 3.74.47.221
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F42639@oneclickvpnkeys"
+- name: 🐦39@oneclickvpnkeys
   type: trojan
   server: 3.75.93.113
   port: 443
   password: UX82473651
   udp: true
   sni: meet-goshawk.rooster465.autos
-- name: "\U0001F34135@oneclickvpnkeys"
+- name: 🍁35@oneclickvpnkeys
   type: trojan
   server: 34.242.77.118
   port: 443
@@ -5354,97 +5274,96 @@ proxies:
   port: 443
   password: UX82473651
   udp: true
-- name: "\U0001FA9973@oneclickvpnkeys"
+- name: 🪙73@oneclickvpnkeys
   type: trojan
   server: actual-squid.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F5F3\uFE0F33@oneclickvpnkeys"
+- name: 🗳️33@oneclickvpnkeys
   type: trojan
   server: alive-flea.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-- name: "\U0001FAE144@oneclickvpnkeys"
+- name: 🫡44@oneclickvpnkeys
   type: trojan
   server: cuddly-sheepdog.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F99C95@oneclickvpnkeys"
+- name: 🦜95@oneclickvpnkeys
   type: trojan
   server: desired-boxer.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F34497@oneclickvpnkeys"
+- name: 🍄97@oneclickvpnkeys
   type: trojan
   server: full-ox.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F99C94@oneclickvpnkeys"
+- name: 🦜94@oneclickvpnkeys
   type: trojan
   server: glowing-marmoset.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F99C73@oneclickvpnkeys"
+- name: 🦜73@oneclickvpnkeys
   type: trojan
   server: happy-gibbon.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F99C37@oneclickvpnkeys"
+- name: 🦜37@oneclickvpnkeys
   type: trojan
   server: loved-shark.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F34468@oneclickvpnkeys"
+- name: 🍄68@oneclickvpnkeys
   type: trojan
   server: master-possum.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F99C10@oneclickvpnkeys"
+- name: 🦜10@oneclickvpnkeys
   type: trojan
   server: meet-goshawk.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-- name: "\U0001F99C13@oneclickvpnkeys"
+- name: 🦜13@oneclickvpnkeys
   type: trojan
   server: pleased-albacore.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\U0001F99C93@oneclickvpnkeys"
+- name: 🦜93@oneclickvpnkeys
   type: trojan
   server: real-cardinal.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "\u2708\uFE0F92@oneclickvpnkeys"
+- name: ✈️92@oneclickvpnkeys
   type: trojan
   server: real-werewolf.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: "@Vpn_Tehran \U0001F90D \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627\u0645 #7"
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #7'
   type: trojan
   server: fi.zhabulik.ru
   port: 443
@@ -5477,20 +5396,20 @@ proxies:
   port: 443
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_3"
+- name: 🇷🇺_RU_俄罗斯联邦_3
   type: trojan
   server: 185.236.233.111
   port: 2053
   password: ba74833c-8c0f-4dcd-8cbc-13e3c32d3765
   udp: true
   sni: ftp.debian.org
-- name: "\U0001F98424@oneclickvpnkeys"
+- name: 🦄24@oneclickvpnkeys
   type: trojan
   server: 172.67.149.60
   port: 443
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   udp: true
-- name: "\U0001F6E9\uFE0F6@oneclickvpnkeys"
+- name: 🛩️6@oneclickvpnkeys
   type: trojan
   server: 31.76.10.180
   port: 36508
@@ -5502,7 +5421,7 @@ proxies:
   port: 443
   password: cc3f42eb-6301-4fe1-82ef-0d3443162a88
   udp: true
-- name: "\U0001F94E75@oneclickvpnkeys"
+- name: 🥎75@oneclickvpnkeys
   type: trojan
   server: nl2.pleiades.codes
   port: 2053
@@ -5520,7 +5439,7 @@ proxies:
   port: 443
   password: db19fc68-c027-4641-a8eb-eed3e1065c8a
   udp: true
-- name: "\u957F\u671F\u66F4\u65B0\u8282\u70B9@mftizi #10"
+- name: '长期更新节点@mftizi #10'
   type: trojan
   server: naiu-jp.05vr9nyqg5.download
   port: 13011
@@ -5532,20 +5451,20 @@ proxies:
   port: 443
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   udp: true
-- name: "\U0001FAAF66@oneclickvpnkeys"
+- name: 🪯66@oneclickvpnkeys
   type: trojan
   server: 185.137.157.156
   port: 443
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   udp: true
-- name: "\U0001F6F866@oneclickvpnkeys"
+- name: 🛸66@oneclickvpnkeys
   type: trojan
   server: 139.180.146.200
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   udp: true
   skip-cert-verify: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #15"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #15'
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -5557,37 +5476,37 @@ proxies:
   port: 443
   password: e6b506e9-2d37-40cb-aff9-35678d0e6c69
   udp: true
-- name: "\U0001F43218@oneclickvpnkeys"
+- name: 🐲18@oneclickvpnkeys
   type: trojan
   server: 2606:4700:3036::6815:2a81
   port: 8080
   password: "eabf1999fefbb7d2"
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #4"
+- name: 'US美国( 更新) #4'
   type: trojan
   server: www.wto.org
   port: 8443
   password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
   udp: true
-- name: "\u2699\uFE0F6@oneclickvpnkeys"
+- name: ⚙️6@oneclickvpnkeys
   type: trojan
   server: 130.185.123.21
   port: 1819
   password: eowr5vwm32wu3473
   udp: true
-- name: "\U0001F1E8\U0001F1E6@V2rayng_Fast #2"
+- name: '🇨🇦@V2rayng_Fast #2'
   type: trojan
   server: assets.fiverr.com
   port: 443
   password: ersi13mjahoao8e6
   udp: true
-- name: "\U0001F40A29@oneclickvpnkeys"
+- name: 🐊29@oneclickvpnkeys
   type: trojan
   server: 45.131.4.118
   port: 443
   password: f18d6149-e214-8554-e737-f7523c8b2eea
   udp: true
-- name: "\U0001FABC77@oneclickvpnkeys"
+- name: 🪼77@oneclickvpnkeys
   type: trojan
   server: 104.16.72.41
   port: 443
@@ -5605,7 +5524,7 @@ proxies:
   port: 443
   password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
   udp: true
-- name: "\U0001F1FB\U0001F1F3 VN"
+- name: 🇻🇳 VN
   type: trojan
   server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
   port: 23005
@@ -5617,13 +5536,13 @@ proxies:
   port: 4455
   password: g44i2hzwivmm7r29
   udp: true
-- name: "\U0001F3445@oneclickvpnkeys"
+- name: 🍄5@oneclickvpnkeys
   type: trojan
   server: 194.87.6.192
   port: 2097
   password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
   udp: true
-- name: "\U0001F34440@oneclickvpnkeys"
+- name: 🍄40@oneclickvpnkeys
   type: trojan
   server: 91.92.43.240
   port: 443
@@ -5636,26 +5555,26 @@ proxies:
   port: 443
   password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
   udp: true
-- name: "\u2708\uFE0F97@oneclickvpnkeys"
+- name: ✈️97@oneclickvpnkeys
   type: trojan
   server: ger1.fytpn.com
   port: 443
   password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
   udp: true
-- name: "\U0001F1E9\U0001F1EA@FreakConfig"
+- name: 🇩🇪@FreakConfig
   type: trojan
   server: mmd.asan9720.ir
   port: 8880
   password: hGGbs2T6hf
   udp: true
-- name: "\U0001F6D561@oneclickvpnkeys"
+- name: 🛕61@oneclickvpnkeys
   type: trojan
   server: 179.254.115.148
   port: 25267
   password: happybirthdaydaniel
   udp: true
   skip-cert-verify: true
-- name: "\U0001F6D564@oneclickvpnkeys"
+- name: 🛕64@oneclickvpnkeys
   type: trojan
   server: de-bots4.h1cloud.net
   port: 25267
@@ -5668,79 +5587,79 @@ proxies:
   port: 2020
   password: hgwb523dhb0091n2
   udp: true
-- name: "FR\u6CD5\u56FD( \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB)"
+- name: FR法国( 米贝节点分享)
   type: trojan
   server: 104.16.174.109
   port: 443
   password: humanity
   udp: true
-- name: "CA\u52A0\u62FF\u5927( \u66F4\u65B0)"
+- name: CA加拿大( 更新)
   type: trojan
   server: 104.16.174.34
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F1EC\U0001F1E7telegram\u27A0@v2rayNG_Matsuri #4"
+- name: '🇬🇧telegram➠@v2rayNG_Matsuri #4'
   type: trojan
   server: 104.16.174.37
   port: 443
   password: humanity
   udp: true
-- name: "JP\u65E5\u672C( \u66F4\u65B0)"
+- name: JP日本( 更新)
   type: trojan
   server: 104.16.174.44
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F1E8\U0001F1F5Telegram\U0001F449@v2rayNG_Matsuri"
+- name: 🇨🇵Telegram👉@v2rayNG_Matsuri
   type: trojan
   server: 104.16.72.2
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB)"
+- name: US美国( 米贝节点分享)
   type: trojan
   server: 104.17.111.1
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #5"
+- name: 'US美国( 更新) #5'
   type: trojan
   server: 104.18.152.133
   port: 443
   password: humanity
   udp: true
-- name: "FR\u6CD5\u56FD( \u66F4\u65B0)"
+- name: FR法国( 更新)
   type: trojan
   server: 104.18.152.155
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) #2"
+- name: 'US美国( 米贝节点分享) #2'
   type: trojan
   server: 104.18.152.161
   port: 443
   password: humanity
   udp: true
-- name: "FR\u6CD5\u56FD( \u66F4\u65B0) #2"
+- name: 'FR法国( 更新) #2'
   type: trojan
   server: 104.18.152.175
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #6"
+- name: 'US美国( 更新) #6'
   type: trojan
   server: 104.18.152.179
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #7"
+- name: 'US美国( 更新) #7'
   type: trojan
   server: 104.18.152.187
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD"
+- name: US美国
   type: trojan
   server: 104.18.152.207
   port: 443
@@ -5752,19 +5671,19 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #8"
+- name: 'US美国( 更新) #8'
   type: trojan
   server: 104.18.152.225
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #9"
+- name: 'US美国( 更新) #9'
   type: trojan
   server: 104.18.152.229
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #10"
+- name: 'US美国( 更新) #10'
   type: trojan
   server: 104.18.152.244
   port: 443
@@ -5776,50 +5695,50 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #11"
+- name: 'US美国( 更新) #11'
   type: trojan
   server: 104.18.152.50
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD #2"
+- name: 'US美国 #2'
   type: trojan
   server: 104.18.152.77
   port: 443
   password: humanity
   udp: true
-- name: "Telegram\U0001F449@v2rayNG_Matsuri #5"
+- name: 'Telegram👉@v2rayNG_Matsuri #5'
   type: trojan
   server: 104.18.152.97
   port: 443
   password: humanity
   udp: true
-- name: "CA\u52A0\u62FF\u5927( \u66F4\u65B0) #2"
+- name: 'CA加拿大( 更新) #2'
   type: trojan
   server: 104.18.22.63
   port: 443
   password: humanity
   udp: true
-- name: "FR\u6CD5\u56FD( \u66F4\u65B0) #3"
+- name: 'FR法国( 更新) #3'
   type: trojan
   server: 104.18.23.63
   port: 443
   password: humanity
   udp: true
-- name: "GB\u82F1\u56FD( \u66F4\u65B0)"
+- name: GB英国( 更新)
   type: trojan
   server: 104.18.32.47
   port: 443
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #16"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #16'
   type: trojan
   server: 104.18.35.86
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F9C3@9oneclickvpnkeys"
+- name: 🧃@9oneclickvpnkeys
   type: trojan
   server: 104.19.229.21
   port: 443
@@ -5838,14 +5757,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F1E7\U0001F1FB@vpn_ioss \u267B\uFE0F \u0633\u0631\u0648\u0631\u0647\
-    \u0627\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0639\u0636\u0648 \u0634\u0648"
+- name: 🇧🇻@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: trojan
   server: 104.21.40.34
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #12"
+- name: 'US美国( 更新) #12'
   type: trojan
   server: 104.21.8.107
   port: 443
@@ -5863,20 +5781,20 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F6F836@oneclickvpnkeys"
+- name: 🛸36@oneclickvpnkeys
   type: trojan
   server: 141.101.115.104
   port: 443
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: "\U0001F34E63@oneclickvpnkeys"
+- name: 🍎63@oneclickvpnkeys
   type: trojan
   server: 141.193.213.172
   port: 443
   password: humanity
   udp: true
-- name: "\u8282\u70B9 #16"
+- name: '节点 #16'
   type: trojan
   server: 162.159.136.234
   port: 443
@@ -5888,15 +5806,14 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F34E43@oneclickvpnkeys"
+- name: 🍎43@oneclickvpnkeys
   type: trojan
   server: 165.215.250.14
   port: 443
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: "\U0001F1EB\U0001F1EE@vpn_ioss \u267B\uFE0F \u0633\u0631\u0648\u0631\u0647\
-    \u0627\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0639\u0636\u0648 \u0634\u0648"
+- name: 🇫🇮@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: trojan
   server: 168.235.125.93
   port: 443
@@ -5914,7 +5831,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #17"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #17'
   type: trojan
   server: 172.67.139.14
   port: 443
@@ -5926,69 +5843,68 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F1E9\U0001F1EA@vpn_ioss \u267B\uFE0F \u0633\u0631\u0648\u0631\u0647\
-    \u0627\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0639\u0636\u0648 \u0634\u0648"
+- name: 🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: trojan
   server: 172.67.180.92
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #13"
+- name: 'US美国( 更新) #13'
   type: trojan
   server: 172.67.221.242
   port: 443
   password: humanity
   udp: true
-- name: "\u2708\uFE0F66@oneclickvpnkeys"
+- name: ✈️66@oneclickvpnkeys
   type: trojan
   server: 185.114.72.31
   port: 2053
   password: humanity
   udp: true
-- name: "\U0001F52552@oneclickvpnkeys"
+- name: 🔥52@oneclickvpnkeys
   type: trojan
   server: 185.18.250.245
   port: 443
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: "telegram\u27A0@v2rayNG_Matsuri"
+- name: telegram➠@v2rayNG_Matsuri
   type: trojan
   server: 185.18.250.252
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F52579@oneclickvpnkeys"
+- name: 🔥79@oneclickvpnkeys
   type: trojan
   server: 185.220.100.168
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F60A62@oneclickvpnkeys"
+- name: 😊62@oneclickvpnkeys
   type: trojan
   server: 185.255.179.166
   port: 443
   password: humanity
   udp: true
-- name: "Channel id: @ShadowProxy66 \U0001F1E8\U0001F1E6"
+- name: 'Channel id: @ShadowProxy66 🇨🇦'
   type: trojan
   server: 188.114.96.3
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F94E73@oneclickvpnkeys"
+- name: 🥎73@oneclickvpnkeys
   type: trojan
   server: 188.114.97.6
   port: 443
   password: humanity
   udp: true
-- name: "\u8282\u70B9 #17"
+- name: '节点 #17'
   type: trojan
   server: 188.114.97.7
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F426\u200D\U0001F52543@oneclickvpnkeys"
+- name: 🐦‍🔥43@oneclickvpnkeys
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -6000,19 +5916,19 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "\U0001FA8099@oneclickvpnkeys"
+- name: 🪀99@oneclickvpnkeys
   type: trojan
   server: 188.42.145.180
   port: 443
   password: humanity
   udp: true
-- name: "\u2708\uFE0F62@oneclickvpnkeys"
+- name: ✈️62@oneclickvpnkeys
   type: trojan
   server: 193.239.160.134
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F3E092@oneclickvpnkeys"
+- name: 🏠92@oneclickvpnkeys
   type: trojan
   server: 199.181.197.169
   port: 443
@@ -6024,40 +5940,37 @@ proxies:
   port: 40443
   password: humanity
   udp: true
-- name: "@proxy_kafee : \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    \u0645"
+- name: '@proxy_kafee : کانال تلگرام'
   type: trojan
   server: 2.144.21.150
   port: 2000
   password: humanity
   udp: true
-- name: "\U0001F92937@oneclickvpnkeys"
+- name: 🤩37@oneclickvpnkeys
   type: trojan
   server: 212.183.88.136
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F54A\uFE0F79@oneclickvpnkeys"
+- name: 🕊️79@oneclickvpnkeys
   type: trojan
   server: 212.227.144.37
   port: 8443
   password: humanity
   udp: true
-- name: "\u2638\uFE0F58@oneclickvpnkeys"
+- name: ☸️58@oneclickvpnkeys
   type: trojan
   server: 213.182.199.137
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #14"
+- name: 'US美国( 更新) #14'
   type: trojan
   server: 216.24.57.7
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F1EB\U0001F1EE\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E"
+- name: 🇫🇮𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: trojan
   server: 31.57.190.34
   port: 443
@@ -6069,43 +5982,43 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD #3"
+- name: 'US美国 #3'
   type: trojan
   server: 45.130.125.158
   port: 443
   password: humanity
   udp: true
-- name: "\u263A\uFE0F78@oneclickvpnkeys"
+- name: ☺️78@oneclickvpnkeys
   type: trojan
   server: 45.130.125.160
   port: 443
   password: humanity
   udp: true
-- name: "\u26F245@oneclickvpnkeys"
+- name: ⛲45@oneclickvpnkeys
   type: trojan
   server: 45.130.125.75
   port: 443
   password: humanity
   udp: true
-- name: "Tel-@NapsterNetvIrani\U0001F913 2"
+- name: Tel-@NapsterNetvIrani🤓 2
   type: trojan
   server: 45.80.111.7
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F30D63@oneclickvpnkeys"
+- name: 🌍63@oneclickvpnkeys
   type: trojan
   server: 45.87.41.18
   port: 443
   password: humanity
   udp: true
-- name: "\U0001FA8068@oneclickvpnkeys"
+- name: 🪀68@oneclickvpnkeys
   type: trojan
   server: 46.62.230.149
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F6D594@oneclickvpnkeys"
+- name: 🛕94@oneclickvpnkeys
   type: trojan
   server: 57.128.179.254
   port: 443
@@ -6117,20 +6030,20 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "\U0001F60A39@oneclickvpnkeys"
+- name: 😊39@oneclickvpnkeys
   type: trojan
   server: 8.47.69.0
   port: 443
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: "\u571F\u8033\u5176( \u66F4\u65B0)"
+- name: 土耳其( 更新)
   type: trojan
   server: 86.38.214.205
   port: 443
   password: humanity
   udp: true
-- name: "\U0001FA9077@oneclickvpnkeys"
+- name: 🪐77@oneclickvpnkeys
   type: trojan
   server: 88.99.189.60
   port: 443
@@ -6142,13 +6055,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #15"
+- name: 'US美国( 更新) #15'
   type: trojan
   server: ip.myip2.qzz.io
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u65B0)"
+- name: US美国( 新)
   type: trojan
   server: join-telegram-channel.tirexnet.kdns.fr
   port: 443
@@ -6166,26 +6079,26 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #16"
+- name: 'US美国( 更新) #16'
   type: trojan
   server: www.ignitelimit.com
   port: 443
   password: humanity
   udp: true
-- name: "FR\u6CD5\u56FD( \u66F4\u65B0) #4"
+- name: 'FR法国( 更新) #4'
   type: trojan
   server: www.pleadcourt.org
   port: 443
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: "\u26F291@oneclickvpnkeys"
+- name: ⛲91@oneclickvpnkeys
   type: trojan
   server: www.speedtest.net
   port: 443
   password: humanity
   udp: true
-- name: "US\u7F8E\u56FD( \u65B0) #2"
+- name: 'US美国( 新) #2'
   type: trojan
   server: www.speedtest.org
   port: 443
@@ -6197,33 +6110,33 @@ proxies:
   port: 46383
   password: kef626g3ffzqf93l
   udp: true
-- name: "\u2638\uFE0F95@oneclickvpnkeys"
+- name: ☸️95@oneclickvpnkeys
   type: trojan
   server: 64.94.95.115
   port: 57142
   password: kkzh2prsyr2ik47as615
   udp: true
   skip-cert-verify: true
-- name: "\U0001F441\uFE0F\u200D\U0001F5E8\uFE0F85@oneclickvpnkeys"
+- name: 👁️‍🗨️85@oneclickvpnkeys
   type: trojan
   server: 64.94.95.118
   port: 57142
   password: kkzh2prsyr2ik47as615
   udp: true
   skip-cert-verify: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #18"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #18'
   type: trojan
   server: 151.101.56.90
   port: 443
   password: miTivpn
   udp: true
-- name: "\U0001FAD137@oneclickvpnkeys"
+- name: 🫑37@oneclickvpnkeys
   type: trojan
   server: 146.75.57.238
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001FAD142@oneclickvpnkeys"
+- name: 🫑42@oneclickvpnkeys
   type: trojan
   server: 151.101.38.6
   port: 443
@@ -6235,25 +6148,25 @@ proxies:
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001F34585@oneclickvpnkeys"
+- name: 🍅85@oneclickvpnkeys
   type: trojan
   server: 151.101.56.7
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001FAD140@oneclickvpnkeys"
+- name: 🫑40@oneclickvpnkeys
   type: trojan
   server: 167.82.64.46
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001F99C11@oneclickvpnkeys"
+- name: 🦜11@oneclickvpnkeys
   type: trojan
   server: 167.82.76.27
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001F34579@oneclickvpnkeys"
+- name: 🍅79@oneclickvpnkeys
   type: trojan
   server: 167.82.76.7
   port: 443
@@ -6265,45 +6178,45 @@ proxies:
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001F6E0\uFE0F61@oneclickvpnkeys"
+- name: 🛠️61@oneclickvpnkeys
   type: trojan
   server: 199.232.78.101
   port: 443
   password: mitivpn
   udp: true
   skip-cert-verify: true
-- name: "\U0001F34582@oneclickvpnkeys"
+- name: 🍅82@oneclickvpnkeys
   type: trojan
   server: 199.232.78.160
   port: 443
   password: mitivpn
   udp: true
   skip-cert-verify: true
-- name: "\U0001FAD249@oneclickvpnkeys"
+- name: 🫒49@oneclickvpnkeys
   type: trojan
   server: 199.232.78.170
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001FAD247@oneclickvpnkeys"
+- name: 🫒47@oneclickvpnkeys
   type: trojan
   server: 199.232.78.188
   port: 443
   password: mitivpn
   udp: true
-- name: "\u8282\u70B9 #18"
+- name: '节点 #18'
   type: trojan
   server: 27.50.48.49
   port: 443
   password: mitivpn
   udp: true
-- name: "\U0001F6D591@oneclickvpnkeys"
+- name: 🛕91@oneclickvpnkeys
   type: trojan
   server: b2n.ir
   port: 443
   password: mitivpn
   udp: true
-- name: "\u8282\u70B9 #19"
+- name: '节点 #19'
   type: trojan
   server: 104.18.154.96
   port: 2083
@@ -6315,19 +6228,19 @@ proxies:
   port: 2083
   password: nzrc4ma4087c1ukr
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #19"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #19'
   type: trojan
   server: 193.233.133.152
   port: 28390
   password: oRKpDRDR4Y
   udp: true
-- name: "\U0001F6F0\uFE0F40@oneclickvpnkeys"
+- name: 🛰️40@oneclickvpnkeys
   type: trojan
   server: 2----------------------------------------------------3.poki-pakipon.ir
   port: 62181
   password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
   udp: true
-- name: "\U0001F42641@oneclickvpnkeys"
+- name: 🐦41@oneclickvpnkeys
   type: trojan
   server: 109.206.241.10
   port: 449
@@ -6340,7 +6253,7 @@ proxies:
   port: 443
   password: pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr
   udp: true
-- name: "3\U0001F4C0@oneclickvpnkeys"
+- name: 3📀@oneclickvpnkeys
   type: trojan
   server: ww12.levikogjgfdd.ir
   port: 50573
@@ -6353,7 +6266,7 @@ proxies:
   port: 59172
   password: qv9uJwZgsM
   udp: true
-- name: "\U0001FA9E99@oneclickvpnkeys"
+- name: 🪞99@oneclickvpnkeys
   type: trojan
   server: 14.1.28.76
   port: 50740
@@ -6366,7 +6279,7 @@ proxies:
   port: 443
   password: s0hpchj6to0vsyro
   udp: true
-- name: "\u2699\uFE0F61@oneclickvpnkeys"
+- name: ⚙️61@oneclickvpnkeys
   type: trojan
   server: 146.70.90.198
   port: 57452
@@ -6589,30 +6502,26 @@ proxies:
   port: 22222
   password: telegram-id-privatevpns
   udp: true
-- name: "\U0001FA7388@oneclickvpnkeys"
+- name: 🩳88@oneclickvpnkeys
   type: trojan
   server: 45.85.88.194
   port: 2234
   password: tripitropa994825
   udp: true
   skip-cert-verify: true
-- name: "\U0001F1E6\U0001F1F2@vpn_ioss \u267B\uFE0F \u0633\u0631\u0648\u0631\u0647\
-    \u0627\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0639\u0636\u0648 \u0634\u0648"
+- name: 🇦🇲@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: trojan
   server: 185.204.170.125
   port: 252
   password: u78pf9hiyifswgg9
   udp: true
-- name: "\u2666\uFE0F63@oneclickvpnkeys"
+- name: ♦️63@oneclickvpnkeys
   type: trojan
   server: 104.17.108.21
   port: 2083
   password: vbp0zrblf8u4w0n2
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #5"
+- name: '🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #5'
   type: trojan
   server: 65.109.209.239
   port: 43586
@@ -6630,38 +6539,37 @@ proxies:
   port: 58332
   password: wNgd/azFXW6lXalq4vi5MgzyDuc6R1UZRdmuQMg9hPs=
   udp: true
-- name: "@Vpn_Tehran \u2705\uFE0F \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\
-    \u0631\u0627\u0645 #2"
+- name: '@Vpn_Tehran ✅️ کانال تلگرام #2'
   type: vless
   server: 213.163.207.91
   port: 443
   uuid: '@awlix_ir'
   udp: true
-- name: "@V2rayng_Fast \U0001F1EE\U0001F1F9"
+- name: '@V2rayng_Fast 🇮🇹'
   type: vless
   server: 1.1.1.1
   port: 443
   uuid: 00000000-0000-0000-0000-000000000000
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #17"
+- name: 'US美国( 更新) #17'
   type: vless
   server: 146.70.20.110
   port: 20205
   uuid: 00000000-0000-4000-8000-000000000000
   udp: true
-- name: "\U0001F579\uFE0F9@oneclickvpnkeys"
+- name: 🕹️9@oneclickvpnkeys
   type: vless
   server: 178.248.232.186
   port: 8443
   uuid: 0047a8bc-0025-4d45-899b-c75c669f3ede
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #20"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #20'
   type: vless
   server: 104.21.18.141
   port: 443
   uuid: 0050dd81-65fb-439c-abf6-c4c609205c44
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #21"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #21'
   type: vless
   server: 172.67.182.80
   port: 443
@@ -6691,13 +6599,13 @@ proxies:
   port: 2087
   uuid: 0075be7a-1f52-407b-81c1-7a0cb109e814
   udp: true
-- name: "\U0001F6E0\uFE0F26@oneclickvpnkeys"
+- name: 🛠️26@oneclickvpnkeys
   type: vless
   server: 207.241.172.98
   port: 4777
   uuid: 008678b8-5e27-49fa-b95a-1fff4c61a849
   udp: true
-- name: "\u8282\u70B9 #20"
+- name: '节点 #20'
   type: vless
   server: 185.146.173.37
   port: 2095
@@ -6709,7 +6617,7 @@ proxies:
   port: 443
   uuid: 00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5
   udp: true
-- name: "\U0001FAE111@oneclickvpnkeys"
+- name: 🫡11@oneclickvpnkeys
   type: vless
   server: sso.illusion-id.ru
   port: 8443
@@ -6727,37 +6635,37 @@ proxies:
   port: 80
   uuid: 010bf7ad-b6ec-482b-8392-ae038f466a0a
   udp: true
-- name: "\U0001F52569@oneclickvpnkeys"
+- name: 🔥69@oneclickvpnkeys
   type: vless
   server: www.g.mobilesari.ir
   port: 4777
   uuid: 010bf7ad-b6ec-482b-8392-ae038f466a0a
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #18"
+- name: 'US美国( 更新) #18'
   type: vless
   server: 172.67.203.138
   port: 8080
   uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
   udp: true
-- name: "\U0001F1EE\U0001F1F1"
+- name: 🇮🇱
   type: vless
   server: bot.rayopoder.top
   port: 50972
   uuid: 01640ed0-9b23-493d-ac18-3947750e25c2
   udp: true
-- name: "\U0001F6E9\uFE0F3@oneclickvpnkeys"
+- name: 🛩️3@oneclickvpnkeys
   type: vless
   server: 77.110.105.122
   port: 443
   uuid: 019fbe0f-2d9f-4b89-9f81-e1e36129892a
   udp: true
-- name: "\U0001FA8066@oneclickvpnkeys"
+- name: 🪀66@oneclickvpnkeys
   type: vless
   server: co-a.speedtec.ru
   port: 443
   uuid: 019fbe0f-2d9f-4b89-9f81-e1e36129892a
   udp: true
-- name: "@V2rayng_Fast \U0001F1EC\U0001F1E7"
+- name: '@V2rayng_Fast 🇬🇧'
   type: vless
   server: 195.189.97.12
   port: 443
@@ -6782,13 +6690,13 @@ proxies:
   port: 443
   uuid: 023268b0-7094-487a-a55e-61361b1d15a7
   udp: true
-- name: "\U0001F41E64@oneclickvpnkeys"
+- name: 🐞64@oneclickvpnkeys
   type: vless
   server: 2.27.61.143
   port: 443
   uuid: 0243cef3-6acd-4cfe-8134-73c10375e61b
   udp: true
-- name: "\u6CF0\u56FD\u76F4\u8FDE01"
+- name: 泰国直连01
   type: vless
   server: www.wto.org
   port: 443
@@ -6797,19 +6705,19 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: "\U0001F3417@oneclickvpnkeys"
+- name: 🍁7@oneclickvpnkeys
   type: vless
   server: 103.27.157.120
   port: 443
   uuid: 025a80fb-233b-4714-b02d-f4384c653d58
   udp: true
-- name: "@V2rayng_Fast \U0001F1E9\U0001F1EA"
+- name: '@V2rayng_Fast 🇩🇪'
   type: vless
   server: 172.66.40.99
   port: 443
   uuid: 0261c8f9-413a-455b-942b-3713c6b0084a
   udp: true
-- name: "\U0001F6A897@oneclickvpnkeys"
+- name: 🚨97@oneclickvpnkeys
   type: vless
   server: 188.72.103.3
   port: 443
@@ -6821,49 +6729,49 @@ proxies:
   port: 443
   uuid: 0270227b-97f1-44f6-9614-e9f4f2d1fa60
   udp: true
-- name: "\u26FD81@oneclickvpnkeys"
+- name: ⛽81@oneclickvpnkeys
   type: vless
   server: 188.72.103.3
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F4@oneclickvpnkeys"
+- name: ☸️4@oneclickvpnkeys
   type: vless
   server: 50.7.95.244
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F48@oneclickvpnkeys"
+- name: ☸️48@oneclickvpnkeys
   type: vless
   server: 72.56.26.79
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F20@oneclickvpnkeys"
+- name: ☸️20@oneclickvpnkeys
   type: vless
   server: 84.32.177.64
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F2@oneclickvpnkeys"
+- name: ☸️2@oneclickvpnkeys
   type: vless
   server: 84.32.177.7
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F5@oneclickvpnkeys"
+- name: ☸️5@oneclickvpnkeys
   type: vless
   server: 84.32.177.97
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F14@oneclickvpnkeys"
+- name: ☸️14@oneclickvpnkeys
   type: vless
   server: 84.32.185.127
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: "\u2638\uFE0F25@oneclickvpnkeys"
+- name: ☸️25@oneclickvpnkeys
   type: vless
   server: nid3ch.betust.net
   port: 443
@@ -6881,19 +6789,19 @@ proxies:
   port: 443
   uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
   udp: true
-- name: "\U0001F6DE70@oneclickvpnkeys"
+- name: 🛞70@oneclickvpnkeys
   type: vless
   server: 144.31.171.108
   port: 8444
   uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   udp: true
-- name: "\U0001F6DE80@oneclickvpnkeys"
+- name: 🛞80@oneclickvpnkeys
   type: vless
   server: pl1.chromevpn.cc
   port: 8444
   uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   udp: true
-- name: "\u263A\uFE0F7@oneclickvpnkeys"
+- name: ☺️7@oneclickvpnkeys
   type: vless
   server: 37.221.110.245
   port: 2085
@@ -6923,13 +6831,13 @@ proxies:
   port: 64584
   uuid: 035225a9-5d27-4288-b12e-7e13d6d321ce
   udp: true
-- name: "\U0001F441\uFE0F\u200D\U0001F5E8\uFE0F80@oneclickvpnkeys"
+- name: 👁️‍🗨️80@oneclickvpnkeys
   type: vless
   server: 78.111.89.171
   port: 443
   uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #22"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #22'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -6965,58 +6873,55 @@ proxies:
   port: 10060
   uuid: 03a3d946-4738-968a-5ce9-e4f470980d47
   udp: true
-- name: "\U0001F6DE68@oneclickvpnkeys"
+- name: 🛞68@oneclickvpnkeys
   type: vless
   server: 31.76.88.10
   port: 443
   uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   udp: true
-- name: "\U0001F69889@oneclickvpnkeys"
+- name: 🚘89@oneclickvpnkeys
   type: vless
   server: 31.76.88.10
   port: 8443
   uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   udp: true
-- name: "\U0001F30D99@oneclickvpnkeys"
+- name: 🌍99@oneclickvpnkeys
   type: vless
   server: 69.48.201.136
   port: 30016
   uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
   udp: true
-- name: "\U0001F60A93@oneclickvpnkeys"
+- name: 😊93@oneclickvpnkeys
   type: vless
   server: uspanel.unixzone.us
   port: 30016
   uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
   udp: true
-- name: "\U0001FA8036@oneclickvpnkeys"
+- name: 🪀36@oneclickvpnkeys
   type: vless
   server: 186.190.211.188
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
-- name: "@proxy_kafee : \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    \u0645 #2"
+- name: '@proxy_kafee : کانال تلگرام #2'
   type: vless
   server: 91.132.161.245
   port: 18456
   uuid: 042a4a95-68f5-4179-89b3-69475a5d4908
   udp: true
-- name: "\U0001FAD269@oneclickvpnkeys"
+- name: 🫒69@oneclickvpnkeys
   type: vless
   server: 212.147.245.198
   port: 443
   uuid: 042d2d08-2973-5d10-97ad-3b75f16bbe54
   udp: true
-- name: "(@VmessProtocol)\u0628\u0631\u0627\u06CC \u062E\u0631\u06CC\u062F \u0648\
-    \ \u0627\u062A\u0635\u0627\u0644 \u062F\u0627\u0626\u0645\u06CC \u062C\u0648\u06CC\
-    \u0646 \u0634\u0648\U0001F1E9\U0001F1EA"
+- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
   type: vless
   server: 57.131.32.191
   port: 80
   uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
   udp: true
-- name: "\U0001F51290@oneclickvpnkeys"
+- name: 🔒90@oneclickvpnkeys
   type: vless
   server: ov-italy1.09vpn.com
   port: 80
@@ -7040,7 +6945,7 @@ proxies:
   port: 443
   uuid: 05355ffb-a8f3-473b-cb9c-c8401897b03f
   udp: true
-- name: "\U0001F43843@oneclickvpnkeys"
+- name: 🐸43@oneclickvpnkeys
   type: vless
   server: 82.118.22.161
   port: 443
@@ -7190,7 +7095,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: "\u8282\u70B9 #21"
+- name: '节点 #21'
   type: vless
   server: 52.50.233.226
   port: 22222
@@ -7224,31 +7129,31 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: "\U0001FABC81@oneclickvpnkeys"
+- name: 🪼81@oneclickvpnkeys
   type: vless
   server: 45.197.134.53
   port: 8443
   uuid: 05a01432-0302-439f-a88d-8442cd27b7d5
   udp: true
-- name: "\u270585@oneclickvpnkeys"
+- name: ✅85@oneclickvpnkeys
   type: vless
   server: 65.109.238.140
   port: 443
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
   udp: true
-- name: "\U0001F6D619@oneclickvpnkeys"
+- name: 🛖19@oneclickvpnkeys
   type: vless
   server: 85.17.145.65
   port: 12068
   uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
   udp: true
-- name: "\U0001F52564@oneclickvpnkeys"
+- name: 🔥64@oneclickvpnkeys
   type: vless
   server: mypanel.unixzone.us
   port: 12068
   uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
   udp: true
-- name: "FR\u6CD5\u56FD( \u66F4\u65B0) #5"
+- name: 'FR法国( 更新) #5'
   type: vless
   server: 172.67.201.133
   port: 8443
@@ -7266,91 +7171,91 @@ proxies:
   port: 6593
   uuid: 05fe60a6-9452-4ceb-b26b-4c90f3a37388
   udp: true
-- name: "\U0001F43B50@oneclickvpnkeys"
+- name: 🐻50@oneclickvpnkeys
   type: vless
   server: 93.119.168.215
   port: 60771
   uuid: 060a5db6-7ff9-4a64-87c1-8a27be4f11ab
   udp: true
-- name: "@SERVERNETT \u062C\u0648\u06CC\u0646 \u0628\u062F\u06CC\u062F"
+- name: '@SERVERNETT جوین بدید'
   type: vless
   server: 199.232.239.239
   port: 443
   uuid: 0617eade-fb92-422f-9b59-c9a4b65b2906
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #23"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #23'
   type: vless
   server: 188.114.97.6
   port: 443
   uuid: 06278d74-9385-42e8-be1b-49c78ebc49ea
   udp: true
-- name: "Tel@V2rayng_Fast \U0001F1EE\U0001F1F9"
+- name: Tel@V2rayng_Fast 🇮🇹
   type: vless
   server: 146.75.57.111
   port: 443
   uuid: 0632a4e7-d55a-4d17-a47b-9958b471be90
   udp: true
-- name: "\u26F257@oneclickvpnkeys"
+- name: ⛲57@oneclickvpnkeys
   type: vless
   server: 172.67.205.90
   port: 2096
   uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
   udp: true
-- name: "\u26F213@oneclickvpnkeys"
+- name: ⛲13@oneclickvpnkeys
   type: vless
   server: www.speedtest.net
   port: 2083
   uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
   udp: true
-- name: "\u2708\uFE0F34@oneclickvpnkeys"
+- name: ✈️34@oneclickvpnkeys
   type: vless
   server: 79.137.192.13
   port: 8443
   uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
   udp: true
-- name: "\U0001F3C020@oneclickvpnkeys"
+- name: 🏀20@oneclickvpnkeys
   type: vless
   server: 138.124.245.191
   port: 443
   uuid: 069ba4cf-e8af-4561-b11e-18bd07b0dbd3
   udp: true
-- name: "\U0001F99570@oneclickvpnkeys"
+- name: 🦕70@oneclickvpnkeys
   type: vless
   server: ch-gt-02.com
   port: 8443
   uuid: 06bcd513-ef0b-4c0c-a03b-e25fcda66fe2
   udp: true
-- name: "\U0001FA9E65@oneclickvpnkeys"
+- name: 🪞65@oneclickvpnkeys
   type: vless
   server: 94.183.170.135
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-- name: "1\U0001F512@oneclickvpnkeys"
+- name: 1🔒@oneclickvpnkeys
   type: vless
   server: estproxy4.lockdwn.com
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-- name: "\U0001F1E9\U0001F1EA@V2rayng_Fast"
+- name: 🇩🇪@V2rayng_Fast
   type: vless
   server: 5.75.196.249
   port: 8080
   uuid: 06ceb304-69b9-4e8a-b7f0-54ff3596ba1d
   udp: true
-- name: "\U0001F6F0\uFE0F91@oneclickvpnkeys"
+- name: 🛰️91@oneclickvpnkeys
   type: vless
   server: code-sandbox.blog
   port: 443
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
   udp: true
-- name: "\U0001F441\uFE0F\u200D\U0001F5E8\uFE0F68@oneclickvpnkeys"
+- name: 👁️‍🗨️68@oneclickvpnkeys
   type: vless
   server: log-delivery.cloud
   port: 443
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
   udp: true
-- name: "@prrofile_purple | \U0001D5D9\U0001D5EE\U0001D5E6\U0001D5E7 \U0001F49A #24"
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #24'
   type: vless
   server: 199.232.78.159
   port: 443
@@ -7368,15 +7273,13 @@ proxies:
   port: 19001
   uuid: 0709ba80-f353-4636-85ce-43b82990ac2d
   udp: true
-- name: "(@VmessProtocol)\u0628\u0631\u0627\u06CC \u062E\u0631\u06CC\u062F \u0648\
-    \ \u0627\u062A\u0635\u0627\u0644 \u062F\u0627\u0626\u0645\u06CC \u062C\u0648\u06CC\
-    \u0646 \u0634\u0648\U0001F1E9\U0001F1EA #2"
+- name: '(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪 #2'
   type: vless
   server: 108.162.192.75
   port: 443
   uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   udp: true
-- name: "\U0001F94987@oneclickvpnkeys"
+- name: 🥉87@oneclickvpnkeys
   type: vless
   server: 173.245.58.75
   port: 443
@@ -7388,7 +7291,7 @@ proxies:
   port: 443
   uuid: 074b00de-c4d0-11f1-9902-a337233c6cda
   udp: true
-- name: "\U0001FAD253@oneclickvpnkeys"
+- name: 🫒53@oneclickvpnkeys
   type: vless
   server: de3.gsupport.support
   port: 443
@@ -7400,13 +7303,13 @@ proxies:
   port: 443
   uuid: 0763477d-7e67-49f1-a855-cdff82b59e43
   udp: true
-- name: "\U0001F6E0\uFE0F9@oneclickvpnkeys"
+- name: 🛠️9@oneclickvpnkeys
   type: vless
   server: 132.243.224.203
   port: 47005
   uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
   udp: true
-- name: "\U0001F3A135@oneclickvpnkeys"
+- name: 🎡35@oneclickvpnkeys
   type: vless
   server: 78.159.247.166
   port: 7444
@@ -7418,19 +7321,19 @@ proxies:
   port: 443
   uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
   udp: true
-- name: "\U0001F35150@oneclickvpnkeys"
+- name: 🍑50@oneclickvpnkeys
   type: vless
   server: 77.221.152.100
   port: 443
   uuid: 0772109c-a680-4896-b005-d86513194f96
   udp: true
-- name: "\U0001FA8656@oneclickvpnkeys"
+- name: 🪆56@oneclickvpnkeys
   type: vless
   server: soskeynets.ghydgdbdbddvv.workers.dev
   port: 443
   uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
   udp: true
-- name: "\U0001F1F0\U0001F1F7 CDN"
+- name: 🇰🇷 CDN
   type: vless
   server: millionaire.levikogjgfdd.ir
   port: 8880
@@ -7442,43 +7345,43 @@ proxies:
   port: 1323
   uuid: 07e71bdb-7a72-485e-949b-005450b64cf1
   udp: true
-- name: "\U0001F54A\uFE0F44@oneclickvpnkeys"
+- name: 🕊️44@oneclickvpnkeys
   type: vless
   server: app-q0zc4t.user-4gfyh5.workers.dev
   port: 443
   uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
   udp: true
-- name: "\u2699\uFE0F10@oneclickvpnkeys"
+- name: ⚙️10@oneclickvpnkeys
   type: vless
   server: 185.207.197.12
   port: 80
   uuid: 080fad7c-ff4b-499f-ab5d-52d69ea5745a
   udp: true
-- name: "\u8282\u70B9 #22"
+- name: '节点 #22'
   type: vless
   server: 104.21.5.128
   port: 2052
   uuid: 08125d23-5500-41ae-97ef-8398eaf70562
   udp: true
-- name: "\u2B50\uFE0F52@oneclickvpnkeys"
+- name: ⭐️52@oneclickvpnkeys
   type: vless
   server: 194.110.207.48
   port: 443
   uuid: 0826e9c1-b15c-46c2-801c-14e4fb861042
   udp: true
-- name: "\U0001FAD171@oneclickvpnkeys"
+- name: 🫑71@oneclickvpnkeys
   type: vless
   server: 152.232.57.10
   port: 443
   uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
-- name: "\U0001F92943@oneclickvpnkeys"
+- name: 🤩43@oneclickvpnkeys
   type: vless
   server: ai.smrtai.top
   port: 443
   uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
   udp: true
-- name: "\U0001F69871@oneclickvpnkeys"
+- name: 🚘71@oneclickvpnkeys
   type: vless
   server: 109.169.85.139
   port: 443
@@ -7502,13 +7405,13 @@ proxies:
   port: 443
   uuid: 08dd79b8-8eab-45e7-815b-29bb7ea35a61
   udp: true
-- name: "\U0001F9EE33@oneclickvpnkeys"
+- name: 🧮33@oneclickvpnkeys
   type: vless
   server: be2.wba-pn.ru
   port: 443
   uuid: 08f84d53-e262-459c-a15a-26213e7a07c9
   udp: true
-- name: "\U0001F1F9\U0001F1F7"
+- name: 🇹🇷
   type: vless
   server: k2.cloud--vpn.site
   port: 443
@@ -7526,13 +7429,13 @@ proxies:
   port: 58148
   uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
   udp: true
-- name: "\U0001FABC89@oneclickvpnkeys"
+- name: 🪼89@oneclickvpnkeys
   type: vless
   server: 146.185.172.227
   port: 2053
   uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
   udp: true
-- name: "\U0001F49986@oneclickvpnkeys"
+- name: 💙86@oneclickvpnkeys
   type: vless
   server: 57.128.176.87
   port: 443
@@ -7544,7 +7447,7 @@ proxies:
   port: 80
   uuid: 097f9732-6dc9-40ef-a181-13a931314364
   udp: true
-- name: "\u26F233@oneclickvpnkeys"
+- name: ⛲33@oneclickvpnkeys
   type: vless
   server: 185.178.208.140
   port: 443
@@ -7568,19 +7471,19 @@ proxies:
   port: 3073
   uuid: 09ef9bc1-a84e-425d-af49-de26e49a3353
   udp: true
-- name: "\U0001F6DE69@oneclickvpnkeys"
+- name: 🛞69@oneclickvpnkeys
   type: vless
   server: 151.242.2.81
   port: 443
   uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   udp: true
-- name: "\u26FD99@oneclickvpnkeys"
+- name: ⛽99@oneclickvpnkeys
   type: vless
   server: 46.8.200.91
   port: 443
   uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   udp: true
-- name: "\U0001F426\u200D\U0001F52555@oneclickvpnkeys"
+- name: 🐦‍🔥55@oneclickvpnkeys
   type: vless
   server: 43.224.150.71
   port: 443
@@ -7604,43 +7507,37 @@ proxies:
   port: 8443
   uuid: 0a614a84-af05-4806-8d7a-209375837be8
   udp: true
-- name: "\U0001F51429@oneclickvpnkeys"
+- name: 🔔29@oneclickvpnkeys
   type: vless
   server: 109.70.74.36
   port: 443
   uuid: 0a65e0fa-62c8-40f2-ae2b-7549ddb69338
   udp: true
-- name: "\U0001F35391@oneclickvpnkeys"
+- name: 🍓91@oneclickvpnkeys
   type: vless
   server: 89.106.64.15
   port: 7000
   uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #6"
+- name: '🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #6'
   type: vless
   server: 65.109.209.239
   port: 30079
   uuid: 0a9dfb0b-4fe1-40fe-b74c-0367e666ca96
   udp: true
-- name: "\U0001F1FA\U0001F1F8\U0001D64F\U0001D65A\U0001D661\U0001D65A\U0001D65C\U0001D667\
-    \U0001D656\U0001D662\u2AF8@\U0001D66B\U0001D7EE\U0001D667\U0001D656\U0001D66E\U0001D649\
-    \U0001D642_\U0001D648\U0001D656\U0001D669\U0001D668\U0001D66A\U0001D667\U0001D65E\
-    \ #7"
+- name: '🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞 #7'
   type: vless
   server: 65.109.209.239
   port: 33477
   uuid: 0a9dfb0b-4fe1-40fe-b74c-0367e666ca96
   udp: true
-- name: "\U0001F6D533@oneclickvpnkeys"
+- name: 🛕33@oneclickvpnkeys
   type: vless
   server: liang92.dpdns.org
   port: 443
   uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
   udp: true
-- name: "\U0001F344\u200D\U0001F7EB8@oneclickvpnkeys"
+- name: 🍄‍🟫8@oneclickvpnkeys
   type: vless
   server: 5.252.179.15
   port: 443
@@ -7664,7 +7561,7 @@ proxies:
   port: 443
   uuid: 0ab925b6-35f7-6e27-e713-925bea65455e
   udp: true
-- name: "@Vpn_Tehran \U0001F1E6\U0001F1F7 \u062A\u0644\u06AF\u0631\u0627\u0645"
+- name: '@Vpn_Tehran 🇦🇷 تلگرام'
   type: vless
   server: 104.16.72.70
   port: 443
@@ -7676,13 +7573,13 @@ proxies:
   port: 443
   uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
   udp: true
-- name: "\U0001F41992@oneclickvpnkeys"
+- name: 🐙92@oneclickvpnkeys
   type: vless
   server: 50.7.28.211
   port: 443
   uuid: 0af34045-3d5e-4abe-bc8a-16e356daa214
   udp: true
-- name: "\U0001F92939@oneclickvpnkeys"
+- name: 🤩39@oneclickvpnkeys
   type: vless
   server: de.vmagnum.win
   port: 443
@@ -7694,7 +7591,7 @@ proxies:
   port: 80
   uuid: 0af6e48f-18c6-4ad9-8486-a46336cf5f84
   udp: true
-- name: "\U0001F94E5@oneclickvpnkeys"
+- name: 🥎5@oneclickvpnkeys
   type: vless
   server: 91.107.144.22
   port: 26437
@@ -7720,43 +7617,43 @@ proxies:
   uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
   udp: true
   tls: true
-- name: "NL\u8377\u5170( \u66F4\u65B0)"
+- name: NL荷兰( 更新)
   type: vless
   server: 213.152.165.203
   port: 2093
   uuid: 0b418782-e023-447e-ba99-e66b84ff118d
   udp: true
-- name: "\U0001F92992@oneclickvpnkeys"
+- name: 🤩92@oneclickvpnkeys
   type: vless
   server: 38.145.220.58
   port: 2093
   uuid: 0b418782-e023-447e-ba99-e66b84ff118d
   udp: true
-- name: "\U0001F92969@oneclickvpnkeys"
+- name: 🤩69@oneclickvpnkeys
   type: vless
   server: 50.7.245.205
   port: 2093
   uuid: 0b418782-e023-447e-ba99-e66b84ff118d
   udp: true
-- name: "\U0001F31F93@oneclickvpnkeys"
+- name: 🌟93@oneclickvpnkeys
   type: vless
   server: 34.175.44.113
   port: 443
   uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
   udp: true
-- name: "\U0001F41991@oneclickvpnkeys"
+- name: 🐙91@oneclickvpnkeys
   type: vless
   server: 103.91.147.208
   port: 443
   uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
   udp: true
-- name: "\U0001F41943@oneclickvpnkeys"
+- name: 🐙43@oneclickvpnkeys
   type: vless
   server: 185.88.173.196
   port: 443
   uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
   udp: true
-- name: "\U0001F41940@oneclickvpnkeys"
+- name: 🐙40@oneclickvpnkeys
   type: vless
   server: 45.9.118.200
   port: 443
@@ -7768,65 +7665,64 @@ proxies:
   port: 444
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
   udp: true
-- name: "\U0001F1E7\U0001F1EC@V2rayng_Fast"
+- name: 🇧🇬@V2rayng_Fast
   type: vless
   server: 93.152.205.216
   port: 444
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
   udp: true
-- name: "US\u7F8E\u56FD( \u66F4\u65B0) #19"
+- name: 'US美国( 更新) #19'
   type: vless
   server: 199.232.78.159
   port: 443
   uuid: 0c0b895d-b954-4bec-94e6-5770677e7925
   udp: true
-- name: "\U0001F5F3\uFE0F4@oneclickvpnkeys"
+- name: 🗳️4@oneclickvpnkeys
   type: vless
   server: 188.245.25.223
   port: 8402
   uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
   udp: true
-- name: "\U0001F5F3\uFE0F38@oneclickvpnkeys"
+- name: 🗳️38@oneclickvpnkeys
   type: vless
   server: 204.168.147.195
   port: 1085
   uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
   udp: true
-- name: "\U0001F5F3\uFE0F36@oneclickvpnkeys"
+- name: 🗳️36@oneclickvpnkeys
   type: vless
   server: 77.42.20.51
   port: 1085
   uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
   udp: true
-- name: "\U0001F34266@oneclickvpnkeys"
+- name: 🍂66@oneclickvpnkeys
   type: vless
   server: fi-p1.h1cloud.net
   port: 25634
   uuid: 0c3ad9d5-cffd-4748-b8df-ab145288144b
   udp: true
-- name: "\u8BF4\u660E-\u6765\u6E90: LinVireo/SmartSub"
+- name: '说明-来源: LinVireo/SmartSub'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 7 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 2777 \u4E2A\u5B57\u7B26"
+- name: '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 2777 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: github"
+- name: '说明-作者: github'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: '说明-仓库: hkjych/Z'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -7834,11 +7730,10 @@ proxies:
   udp: true
   skip-cert-verify: true
 proxy-groups:
-- name: "\u8BF4\u660E"
+- name: 说明
   type: select
   proxies:
-  - "\u8BF4\u660E-\u6765\u6E90: LinVireo/SmartSub"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 7 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 2777 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u4F5C\u8005: github"
-  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+  - '说明-来源: LinVireo/SmartSub'
+  - '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 2777 个非 ASCII 字符'
+  - '说明-作者: github'
+  - '说明-仓库: hkjych/Z'

@@ -9,20 +9,20 @@ proxies:
   udp: true
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   client-fingerprint: chrome
-  name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A"
+  name: 8元老牌专线机场
 - type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
   udp: true
-  name: "\u65E5\u672C_6A22EA"
+  name: 日本_6A22EA
 - type: vless
   server: jp.sofast.live
   port: 52683
   udp: true
   uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-  name: "\u7F8E\u56FD_DB7113"
+  name: 美国_DB7113
 - type: vless
   server: 122.8.47.4
   port: 8443
@@ -37,100 +37,99 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-  name: "\u6CD5\u56FD_0624B7"
+  name: 法国_0624B7
 - type: ss
   server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_8B185B"
+  name: 意大利_8B185B
 - type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_3C4C6F"
+  name: 意大利_3C4C6F
 - type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_EF95BB"
+  name: 意大利_EF95BB
 - type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_11A2BD"
+  name: 意大利_11A2BD
 - type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_722B30"
+  name: 意大利_722B30
 - type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_B846BE"
+  name: 意大利_B846BE
 - type: ss
   server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_3E4777"
+  name: 意大利_3E4777
 - type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_895DE2"
+  name: 意大利_895DE2
 - type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_8AB17C"
+  name: 意大利_8AB17C
 - type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_E91A40"
-- name: "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
+  name: 意大利_E91A40
+- name: '说明-来源: NodeToolBox'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 94 \u4E2A\u5B57\u7B26"
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 94 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: github"
+- name: '说明-作者: github'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: '说明-仓库: hkjych/Z'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -138,30 +137,29 @@ proxies:
   udp: true
   skip-cert-verify: true
 proxy-groups:
-- name: "\u8BF4\u660E"
+- name: 说明
   type: select
   proxies:
-  - "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 94 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u4F5C\u8005: github"
-  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
-- name: "\u8282\u70B9\u9009\u62E9"
+  - '说明-来源: NodeToolBox'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 94 个非 ASCII 字符'
+  - '说明-作者: github'
+  - '说明-仓库: hkjych/Z'
+- name: 节点选择
   type: select
   proxies:
-  - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A"
-  - "\u65E5\u672C_6A22EA"
-  - "\u7F8E\u56FD_DB7113"
-  - "\u6CD5\u56FD_0624B7"
-  - "\u610F\u5927\u5229_8B185B"
-  - "\u610F\u5927\u5229_3C4C6F"
-  - "\u610F\u5927\u5229_EF95BB"
-  - "\u610F\u5927\u5229_11A2BD"
-  - "\u610F\u5927\u5229_722B30"
-  - "\u610F\u5927\u5229_B846BE"
-  - "\u610F\u5927\u5229_3E4777"
-  - "\u610F\u5927\u5229_895DE2"
-  - "\u610F\u5927\u5229_8AB17C"
-  - "\u610F\u5927\u5229_E91A40"
+  - 8元老牌专线机场
+  - 日本_6A22EA
+  - 美国_DB7113
+  - 法国_0624B7
+  - 意大利_8B185B
+  - 意大利_3C4C6F
+  - 意大利_EF95BB
+  - 意大利_11A2BD
+  - 意大利_722B30
+  - 意大利_B846BE
+  - 意大利_3E4777
+  - 意大利_895DE2
+  - 意大利_8AB17C
+  - 意大利_E91A40
 rules:
-- "MATCH,\u8282\u70B9\u9009\u62E9"
+- MATCH,节点选择

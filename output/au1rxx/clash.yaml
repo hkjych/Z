@@ -130,7 +130,7 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\U0001F1E8\U0001F1F3"
+  sni: https://t.me/wangcai2🇨🇳
   type: hysteria2
 - name: hysteria2-1828371224
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -563,7 +563,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u207F\xDF"
+  sni: https://t.me/wangcai2ⁿß
   type: hysteria2
 - cipher: aes-128-gcm
   name: shadowsocks-1827146287
@@ -874,7 +874,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\uF8FF\xFC\xE1\uF8FF\xFC\xE1"
+  sni: https://t.me/wangcai2üáüá
   type: hysteria2
 - name: hysteria2-1853331426
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -895,7 +895,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\xFC\xE1\xAE\xFC\xE1"
+  sni: https://t.me/wangcai2üá®üá
   type: hysteria2
 - name: hysteria2-1853331567
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -916,7 +916,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: "\u2026"
+  sni: …
   type: hysteria2
 - cipher: aes-256-gcm
   name: shadowsocks-1827146336
@@ -1697,14 +1697,14 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\xF0\\x9f\\x87\xA8\xF0\\x9f\\x87\xB3"
+  sni: https://t.me/wangcai2ð\x9f\x87¨ð\x9f\x87³
   type: hysteria2
 - name: hysteria2-1828371598
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\uF8FF\xFC\xE1"
+  sni: https://t.me/wangcai2üá
   type: hysteria2
 - name: hysteria2-1828373437
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1718,14 +1718,14 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u207F\xDF\xAB\u207F\xDF"
+  sni: https://t.me/wangcai2ⁿß«ⁿß
   type: hysteria2
 - name: hysteria2-1828371410
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: "https://t.me/clashv8\U0001F1E8\U0001F1F3"
+  sni: https://t.me/clashv8🇨🇳
   type: hysteria2
 - name: hysteria2-1828371613
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1760,7 +1760,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\uFFFD\uFFFD"
+  sni: https://t.me/wangcai2��
   type: hysteria2
 - name: hysteria2-1827145810
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -2239,7 +2239,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1854334906
-  network: "tcp#\U0001F3A188@oneclickvpnkeys"
+  network: tcp#🎡88@oneclickvpnkeys
   port: 24146
   reality-opts:
     public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
@@ -3021,7 +3021,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\xF4\xF8\u03C9\xF4\xF8\u03C9\xF4\xF8\u03C9\xF4\xF8\u03C9"
+  sni: https://t.me/wangcai2ôøωôøωôøωôøω
   type: hysteria2
 - name: hysteria2-1828371354
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -4369,7 +4369,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1853336903
-  network: "tcp#\U0001F3A188@oneclickvpnkeys"
+  network: tcp#🎡88@oneclickvpnkeys
   port: 24146
   reality-opts:
     public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
@@ -5125,7 +5125,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\uF8FF\xFC\xE1\xAE\uF8FF\xFC\xE1\u2265"
+  sni: https://t.me/wangcai2üá®üá≥
   type: hysteria2
 - name: hysteria2-1945000637
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -5146,7 +5146,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u0440\u04B9\u04AF"
+  sni: https://t.me/wangcai2рҹү
   type: hysteria2
 - name: hysteria2-1856442521
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -5160,7 +5160,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u0440\u04B9\u04AF\u0451\u0440\u04B9\u04AF\u0456"
+  sni: https://t.me/wangcai2рҹүёрҹүі
   type: hysteria2
 - name: hysteria2-1832880264
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -5188,7 +5188,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\U0001F1E8\U0001F1F3"
+  sni: https://t.me/wangcai2🇨🇳
   type: hysteria2
 - name: hysteria2-1828371510
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -6137,7 +6137,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1853488288
-  network: "tcp#2\U0001F40A@oneclickvpnkeysvless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.113.223.183:8443?ed=2560"
+  network: tcp#2🐊@oneclickvpnkeysvless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.113.223.183:8443?ed=2560
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -6766,7 +6766,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1854343744
-  network: "tcp#2\U0001F40A@oneclickvpnkeys"
+  network: tcp#2🐊@oneclickvpnkeys
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -7475,14 +7475,14 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\xFC\xE1"
+  sni: https://t.me/wangcai2üá
   type: hysteria2
 - name: hysteria2-1853331449
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u0440\u04B9\u04AF\u04B9\u04AF"
+  sni: https://t.me/wangcai2рҹүҹү
   type: hysteria2
 - name: hysteria2-1827145791
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -7531,7 +7531,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u2261\u0192\xE7\xBF\u2261\u0192\xE7\u2502"
+  sni: https://t.me/wangcai2≡ƒç¿≡ƒç│
   type: hysteria2
 - name: hysteria2-1853331559
   password: "3d7634af8cb2c6cb4bac1c0efad8b43d"
@@ -8476,7 +8476,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1894628648
-  network: "tcp#\U0001F34E94@oneclickvpnkeys"
+  network: tcp#🍎94@oneclickvpnkeys
   port: 443
   reality-opts:
     public-key: H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY
@@ -9024,7 +9024,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1853487460
-  network: "tcp#2\U0001F40A@oneclickvpnkeys"
+  network: tcp#2🐊@oneclickvpnkeys
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -9227,7 +9227,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1853488202
-  network: "tcp#\u263A\uFE0F99@oneclickvpnkeysvless://716426fa-bcb7-4eb9-b460-36399ebf740d@lizca2.footballfantasyforum.com:443?allowinsecure=1"
+  network: tcp#☺️99@oneclickvpnkeysvless://716426fa-bcb7-4eb9-b460-36399ebf740d@lizca2.footballfantasyforum.com:443?allowinsecure=1
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -10163,7 +10163,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\u0440\u04B9\u04AF\u0440\u04B9\u04AF"
+  sni: https://t.me/wangcai2рҹүрҹү
   type: hysteria2
 - name: hysteria2-1832765364
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -10233,7 +10233,7 @@ proxies:
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
-  sni: "https://t.me/wangcai2\U0001F1E8\U0001F1F3"
+  sni: https://t.me/wangcai2🇨🇳
   type: hysteria2
 - name: hysteria2-1832765391
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -11224,7 +11224,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1889795912
-  network: "tcp#\U0001F34E94@oneclickvpnkeys"
+  network: tcp#🍎94@oneclickvpnkeys
   port: 443
   reality-opts:
     public-key: H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY
@@ -17700,7 +17700,7 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
-  sni: "vk.com#\U0001F34197@oneclickvpnkeysvless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@166.88.35.245:80?encryption=none"
+  sni: vk.com#🍁97@oneclickvpnkeysvless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@166.88.35.245:80?encryption=none
   type: hysteria2
 - name: hysteria2-1832764859
   password: github.com/Alvin9999-newpac/fanqiang
@@ -18600,29 +18600,28 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: "\u8BF4\u660E-\u6765\u6E90: Au1rxx/free-vpn-subscriptions"
+- name: '说明-来源: Au1rxx/free-vpn-subscriptions'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 3 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 98 \u4E2A\u5B57\u7B26"
+- name: '说明-清洗结果: 清理 3 个节点、修复 0 处引用、含 98 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: github"
+- name: '说明-作者: github'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: '说明-仓库: hkjych/Z'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -18630,14 +18629,13 @@ proxies:
   udp: true
   skip-cert-verify: true
 proxy-groups:
-- name: "\u8BF4\u660E"
+- name: 说明
   type: select
   proxies:
-  - "\u8BF4\u660E-\u6765\u6E90: Au1rxx/free-vpn-subscriptions"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 3 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 98 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u4F5C\u8005: github"
-  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+  - '说明-来源: Au1rxx/free-vpn-subscriptions'
+  - '说明-清洗结果: 清理 3 个节点、修复 0 处引用、含 98 个非 ASCII 字符'
+  - '说明-作者: github'
+  - '说明-仓库: hkjych/Z'
 - interval: 300
   name: auto
   proxies:

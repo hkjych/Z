@@ -1,5 +1,5 @@
 proxies:
-- name: "\u4FC4\u7F57\u65AF\u8054\u90A6-001"
+- name: 俄罗斯联邦-001
   type: vless
   network: ws
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -15,7 +15,7 @@ proxies:
       Host: t5pmr.mail-node.gfw.kdns.fr
     path: /danfeng?ed=2560
   client-fingerprint: firefox
-- name: "\u5176\u4ED6-001"
+- name: 其他-001
   type: vless
   network: ws
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -31,7 +31,7 @@ proxies:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
     path: /danfeng?ed=2560
   client-fingerprint: firefox
-- name: "\u5176\u4ED6-002"
+- name: 其他-002
   type: vless
   network: ws
   uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
@@ -44,7 +44,7 @@ proxies:
       Host: web-app-nr6wpa.app-tp57xz.workers.dev
     path: /api/ws
   encryption: none
-- name: "\u5176\u4ED6-003"
+- name: 其他-003
   type: vless
   network: tcp
   uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
@@ -57,7 +57,7 @@ proxies:
   tfo: false
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-- name: "\u5176\u4ED6-004"
+- name: 其他-004
   type: vless
   network: tcp
   uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
@@ -70,7 +70,7 @@ proxies:
   tfo: false
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: "\u5FB7\u56FD-001 |1.6MB/s"
+- name: 德国-001 |1.6MB/s
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -84,7 +84,7 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: "\u5FB7\u56FD-002"
+- name: 德国-002
   type: vless
   network: ws
   uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
@@ -100,7 +100,7 @@ proxies:
       Host: nexostore.xnetaro.ir
     path: /wss?TELEGRAM----
   client-fingerprint: firefox
-- name: "\u610F\u5927\u5229-001"
+- name: 意大利-001
   type: vless
   network: ws
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
@@ -111,8 +111,8 @@ proxies:
   ws-opts:
     headers:
       Host: vp58.cc.cd
-    path: "/Telegram\U0001F1E8\U0001F1F3 fp=chromefp=chrome"
-- name: "\u65B0\u897F\u5170-001"
+    path: /Telegram🇨🇳 fp=chromefp=chrome
+- name: 新西兰-001
   type: vless
   network: tcp
   uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
@@ -125,34 +125,34 @@ proxies:
   tfo: false
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
+- name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   type: http
   server: 159.13.44.228
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-001 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.35
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-002 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-003 |1.4MB/s"
+- name: 罗马尼亚-003 |1.4MB/s
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-004 |1.3MB/s"
+- name: 罗马尼亚-004 |1.3MB/s
   type: http
   server: 193.176.84.36
   port: 9002
@@ -160,143 +160,143 @@ proxies:
   tls: true
   udp: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-005 |1.2MB/s"
+- name: 罗马尼亚-005 |1.2MB/s
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s"
+- name: 罗马尼亚-006 |1.1MB/s
   type: http
   server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
+- name: 罗马尼亚-008 |1.0MB/s
   type: http
   server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
+- name: 罗马尼亚-009 |1.0MB/s
   type: http
   server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-010 |1020KB/s"
+- name: 罗马尼亚-010 |1020KB/s
   type: http
   server: 193.176.84.22
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-011 |968KB/s"
+- name: 罗马尼亚-011 |968KB/s
   type: http
   server: 193.176.84.37
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-012 |943KB/s"
+- name: 罗马尼亚-012 |943KB/s
   type: http
   server: 193.176.84.34
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-013 |891KB/s"
+- name: 罗马尼亚-013 |891KB/s
   type: http
   server: 193.176.84.31
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-014 |768KB/s"
+- name: 罗马尼亚-014 |768KB/s
   type: http
   server: 193.176.84.24
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-015 |731KB/s"
+- name: 罗马尼亚-015 |731KB/s
   type: http
   server: 193.176.84.19
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-016 |639KB/s"
+- name: 罗马尼亚-016 |639KB/s
   type: http
   server: 193.176.84.20
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-017 |622KB/s"
+- name: 罗马尼亚-017 |622KB/s
   type: http
   server: 193.176.84.21
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-018 |586KB/s"
+- name: 罗马尼亚-018 |586KB/s
   type: http
   server: 193.176.84.25
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-019 |557KB/s"
+- name: 罗马尼亚-019 |557KB/s
   type: http
   server: 193.176.84.39
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-020 |554KB/s"
+- name: 罗马尼亚-020 |554KB/s
   type: http
   server: 193.176.84.38
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 138.199.35.215
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 38.28.193.188
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-003 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 209.148.53.153
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
+- name: 美国-004 |1.0MB/s|TK-US|GPT⁺-US
   type: http
   server: 138.199.35.198
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-005"
+- name: 美国-005
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -306,53 +306,52 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 84.17.47.150
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 5.255.118.82
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
+- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
   type: http
   server: 51.159.225.196
   port: 23856
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-004 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 84.17.47.147
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u8BF4\u660E-\u6765\u6E90: anaer"
+- name: '说明-来源: anaer'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 139 \u4E2A\u5B57\u7B26"
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 139 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4F5C\u8005: github"
+- name: '说明-作者: github'
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: '说明-仓库: hkjych/Z'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -360,11 +359,10 @@ proxies:
   udp: true
   skip-cert-verify: true
 proxy-groups:
-- name: "\u8BF4\u660E"
+- name: 说明
   type: select
   proxies:
-  - "\u8BF4\u660E-\u6765\u6E90: anaer"
-  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 139 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u4F5C\u8005: github"
-  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+  - '说明-来源: anaer'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 139 个非 ASCII 字符'
+  - '说明-作者: github'
+  - '说明-仓库: hkjych/Z'
