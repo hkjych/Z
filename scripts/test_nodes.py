@@ -393,7 +393,7 @@ class Core:
         import yaml
 
         with open(cfg_path, "w", encoding="utf-8") as f:
-            yaml.dump(cfg, f, Dumper=SafeDumper, allow_unicode=False, sort_keys=False)
+            yaml.dump(cfg, f, Dumper=SafeDumper, allow_unicode=True, sort_keys=False)
         self.proc = subprocess.Popen(
             [self.mihomo, "-d", self.td, "-f", cfg_path],
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
@@ -652,7 +652,7 @@ def write_aio(aio, path):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
-        yaml.dump(aio, f, Dumper=SafeDumper, allow_unicode=False,
+        yaml.dump(aio, f, Dumper=SafeDumper, allow_unicode=True,
                   default_flow_style=False, sort_keys=False)
     os.replace(tmp, path)
 

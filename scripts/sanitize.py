@@ -12,7 +12,7 @@
   4. 悬空引用:丢弃节点/分组后,修复 group->proxy、group->group、rule->目标
      的失效引用(否则 mihomo 报 "proxy group[0]: xxx: 'yyy' not found");
   5. 说明节点:注入"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/仓库;
-  6. 输出为纯 ASCII YAML(非 ASCII 以 \\uXXXX 转义,兼容所有 YAML 解析器);
+  6. 输出为可读 UTF-8 YAML(中文 / emoji 原样写入,不再转义成 \\uXXXX);
   7. 写入前二次解析校验 + 可选 mihomo 内核 `-t` 门禁,任一不过即拒绝发布。
 
 背景:
@@ -302,7 +302,7 @@ def beijing_now():
 
 
 def count_non_ascii(node):
-    """统计结构中所有字符串值的非 ASCII 字符数(即会被转译的字符数)。"""
+    """统计结构中所有字符串值的非 ASCII 字符数(仅用于日志展示)。"""
     if isinstance(node, str):
         return sum(1 for c in node if ord(c) > 0x7E)
     if isinstance(node, dict):
@@ -348,7 +348,7 @@ def inject_fake_nodes(data, source_label, dropped_count, escaped_chars, time_str
     """
     names = [
         f"说明-来源: {clean_label(source_label)}",
-        f"说明-清洗结果: 清理 {dropped_count} 个节点、修复 {fixes} 处引用、转译 {escaped_chars} 个字符",
+        f"说明-清洗结果: 清理 {dropped_count} 个节点、修复 {fixes} 处引用、含 {escaped_chars} 个非 ASCII 字符",
         f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO_SLUG}",
     ]
@@ -723,11 +723,11 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
         fixes=len(fixes),
     )
 
-    # 8) 输出为纯 ASCII YAML(非 ASCII 全部转义;避免语义漂移)
+    # 8) 输出为可读 UTF-8 YAML(中文 / emoji 原样保留,不再转义成 \\uXXXX)
     out = yaml.dump(
         data,
         Dumper=SafeDumper,
-        allow_unicode=False,
+        allow_unicode=True,
         default_flow_style=False,
         sort_keys=False,
     ).encode("utf-8")
@@ -777,7 +777,7 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
         print(f"     未知配置段(保留): {unknown_keys}")
     if dropped_other:
         print(f"     其他: 剔除 {len(dropped_other)} 项: {dropped_other[:5]}")
-    print(f"     转译非 ASCII 字符: {escaped_chars} 个")
+    print(f"     非 ASCII 字符: {escaped_chars} 个")
     if gate:
         print("     内核门禁: mihomo -t 通过")
     if total == 0:
