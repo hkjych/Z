@@ -15,7 +15,10 @@
 import os
 import sys
 
+import time
+
 import requests
+import yaml
 
 import uri_to_clash
 from sources import FETCH_URLS, GH_PROXY, mirror_url
@@ -24,6 +27,22 @@ HEADERS = {"User-Agent": "proxy-node-bot/1.0"}
 RAW_NAME = "clash.raw.yaml"
 TIMEOUT = 120
 
+
+def yaml_parseable(body):
+    """下载回来的内容能否被 YAML 解析(上游偶发写出半截文件,导致整轮白跑)。"""
+    if not isinstance(body, (bytes, bytearray)):
+        body = str(body).encode("utf-8", "replace")
+    text = body.decode("utf-8", "replace")
+    head = text.lstrip()[:40]
+    if head.startswith("<"):
+        return False         # HTML 页面(例如误用 github.com/.../blob/... 链接)
+    if not head.startswith(("#", "---")) and ":" not in head:
+        return True          # 不像 Clash 配置(例如分享链接列表),交给 sanitize 判断
+    try:
+        yaml.safe_load(text)
+        return True
+    except Exception:
+        return False
 
 def fetch_one(name, url):
     out_dir = os.path.join("output", name)
@@ -36,25 +55,31 @@ def fetch_one(name, url):
     if urls[0] != url:
         urls.append(url)  # 镜像失败回退直连
     last_err = None
-    for u in urls:
-        try:
-            print(f"  [GET] {name}: {u}")
-            resp = requests.get(u, headers=HEADERS, timeout=TIMEOUT)
-            resp.raise_for_status()
-            if not resp.content.strip():
-                raise ValueError("返回内容为空")
-            # 少数来源只发分享链接(ss:// vmess:// ...),先转成 Clash proxies,
-            # 否则 sanitize.py 必然报「顶层不是映射」。已经是 Clash 配置的原样写盘。
-            body, note = uri_to_clash.maybe_convert(resp.content)
-            with open(dst, "wb") as f:
-                f.write(body)
-            print(f"  [OK] {name} ({len(resp.content)} bytes)")
-            if note:
-                print(f"  [CONVERT] {name}: {note}")
-            return len(body)
-        except Exception as e:
-            last_err = e
-            print(f"  [WARN] {name} 下载失败({u}): {e}")
+    for attempt in (0, 1):       # 上游偶尔写出半截文件:整体重试一次
+        for u in urls:
+            try:
+                print(f"  [GET] {name}: {u}")
+                resp = requests.get(u, headers=HEADERS, timeout=TIMEOUT)
+                resp.raise_for_status()
+                if not resp.content.strip():
+                    raise ValueError("返回内容为空")
+                # 少数来源只发分享链接(ss:// vmess:// ...),先转成 Clash proxies,
+                # 否则 sanitize.py 必然报「顶层不是映射」。已经是 Clash 配置的原样写盘。
+                body, note = uri_to_clash.maybe_convert(resp.content)
+                if not yaml_parseable(body):
+                    raise ValueError("下载内容不是有效 YAML(上游可能正在更新)")
+                with open(dst, "wb") as f:
+                    f.write(body)
+                print(f"  [OK] {name} ({len(resp.content)} bytes)")
+                if note:
+                    print(f"  [CONVERT] {name}: {note}")
+                return len(body)
+            except Exception as e:
+                last_err = e
+                print(f"  [WARN] {name} 下载失败({u}): {e}")
+        if attempt == 0:
+            print(f"  [RETRY] {name} 3 秒后重试一次")
+            time.sleep(3)
     raise last_err
 
 

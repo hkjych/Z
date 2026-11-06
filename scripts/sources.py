@@ -62,7 +62,7 @@ FETCH_URLS = {
     "passcro": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
     "ripaojiedian": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
     "chengaopan": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
-    "peasoft": "https://github.com/peasoft/NoMoreWalls/blob/master/list.meta.yml",
+    "peasoft": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
     "anaer": "https://anaer.github.io/Sub/proxies.yaml",
     "Pawdroid": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
     "free18": "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml",

@@ -588,6 +588,12 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
             if bad:
                 dropped_nodes.append((p.get("name", "?"), bad))
                 continue
+            # hysteria2 配了 obfs 却没有 obfs-password:mihomo 报 "missing obfs password"
+            # 拒绝加载整份配置,而这种节点本身也连不上,直接丢弃
+            if str(p.get("type", "")).lower().startswith("hysteria") and p.get("obfs") \
+                    and not p.get("obfs-password"):
+                dropped_nodes.append((p.get("name", "?"), ["missing obfs password"]))
+                continue
             cleaned.append(p)
         data["proxies"] = cleaned
     else:

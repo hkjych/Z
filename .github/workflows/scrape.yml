@@ -97,6 +97,13 @@ jobs:
               for k, v in sources.FETCH_URLS.items()
               if not isinstance(v, str)
           ]
+          # 每个 FETCH_URLS 来源都必须有 SOURCES 条目,否则 sanitize.py 的
+          # --source choices 会直接拒绝,该来源永远发不出去
+          errs += [
+              f"FETCH_URLS[{k!r}] 没有对应的 SOURCES 条目"
+              for k in sources.FETCH_URLS
+              if k not in sources.SOURCES
+          ]
           if errs:
               raise SystemExit("[FAIL] 自检未通过:\n  " + "\n  ".join(errs))
 
