@@ -79,7 +79,7 @@ GROUP_TYPES = {
 }
 SKIP_NAMES = {"GLOBAL", "DIRECT", "REJECT", "PASS"}
 REPO = "https://github.com/hkjych/Z"
-AUTHOR = "wzmwayne"          # 上游作者,写进 说明-作者
+AUTHOR = ""          # 上游作者,写进 说明-作者
 REPO_SLUG = "hkjych/Z"      # 说明节点里只写 owner/repo,不带网址
 
 # AIO 节点名标注:重新生成时可重复运行(先剥掉旧标注)
@@ -371,7 +371,7 @@ def load_inputs(inputs):
                 continue
             if str(p["name"]).startswith("说明-"):
                 continue
-            # 上游 AIO(如 hkjych/A、以及本仓库自身的 aio)节点名带本项目的
+            # 上游 AIO节点名带本项目的
             # "[12.3MB/s] / [测速失败] / [未测速]" 标注。它和原始来源里的同名节点
             # (例如 🇮🇹IT意大利丨yoyapai.com)会在 annotate() 里被 strip_annotation()
             # 剥成同一个名字,再被贴上同样的标签,最终生成两条完全同名的 proxy,
@@ -455,7 +455,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
 
     return {
         "mixed-port": 7890,
-        "allow-lan": False,
+        "allow-lan": true,
         "mode": "rule",
         "log-level": "info",
         "ipv6": False,
