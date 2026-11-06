@@ -28,6 +28,7 @@ import os
 import re
 import shutil
 import subprocess
+import urllib.parse
 
 import yaml
 
@@ -107,6 +108,24 @@ def _tidy_name(s: str) -> str:
     return s.strip(_NAME_SEPS + "：:")
 
 
+# 节点名里有时是 URL 编码(%E9%A6%99%E6%B8%AF),先解码成能看懂的文本
+_PCT_RE = re.compile(r"%[0-9A-Fa-f]{2}")
+
+
+def decode_percent(text) -> str:
+    """把 %XX 形式的 URL 编码还原成 UTF-8;解不出来就原样返回。"""
+    s = str(text)
+    if not _PCT_RE.search(s):
+        return s
+    try:
+        out = urllib.parse.unquote(s, errors="strict")
+    except Exception:                       # noqa: BLE001 - 非 UTF-8 编码,保持原样
+        return s
+    if not out or "\ufffd" in out:
+        return s
+    return out
+
+
 _NAME_SEPS = " \t-_·,，、/=|" + chr(92)
 
 
@@ -117,7 +136,7 @@ def clean_proxy_name(name) -> str:
     "KR韩国( 2026-10.15更新)"        -> "KR韩国"
     "🇩🇪DE德国丨yoyapai.com (11)"     -> "🇩🇪DE德国(11)"
     """
-    raw = str(name)
+    raw = decode_percent(str(name))
     s = strip_datetime(raw)
     if not _URLISH.search(s):
         out = _tidy_name(s)
@@ -141,7 +160,7 @@ def clean_proxy_name(name) -> str:
 
 def clean_label(label) -> str:
     """分组/说明用的名称:删网址,但整段都是网址时保留首段(yoyapai.com -> yoyapai)。"""
-    s = str(label)
+    s = decode_percent(label)
     if not _URLISH.search(s):
         return s
     s = _URLISH.sub(lambda m: _host_head(m.group(0)), s)
