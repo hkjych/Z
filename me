@@ -1,6 +1,6 @@
 # proxy-node（Z）
 
-免费 Clash 节点订阅聚合：**每 4 小时**由 GitHub Actions 抓取多个公开来源，清洗、去重、用 mihomo 内核实测后发布。
+节点订阅聚合：**每 4 小时**由 GitHub Actions 抓取多个公开来源，清洗、去重、用 mihomo 内核实测后发布。
 
 - 单来源订阅：每个来源一个 `output/<来源>/clash.yaml`
 - **AIO 精选**：所有来源合并、去重，只有通过可达性与测速的节点才会留下
@@ -15,14 +15,6 @@
 3. **内核门禁** 每个来源单独 `mihomo -t`，通过才替换已发布文件，否则保留上一版
 4. **合并** `scripts/test_nodes.py`：AIO 精选做可达性 + 20MB 测速；AIO 不精选只去重合并
 
-## 订阅地址
-
-| 类型 | 直连 | ghproxy 镜像 |
-|------|------|--------------|
-| AIO 精选（推荐） | https://raw.githubusercontent.com/hkjych/Z/main/output/aio/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/aio/clash.yaml |
-| AIO 不精选（全量） | https://raw.githubusercontent.com/hkjych/Z/main/output/aio-all/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/aio-all/clash.yaml |
-
-单来源订阅（把下面表格里的 `LinVireo` 换成来源标识即可，直连与镜像同构）。
 
 ## 分组结构
 
@@ -66,7 +58,6 @@ rules:
 - 名字里不再出现日期、时间、网址、上游 ID；
 - `⚡`/`🏅` 同时是分组 `filter` 的依据，`strip_annotation()` 能把整段前缀剥掉。
 
-AIO 里没有「说明」节点，也不按来源分标签页；单来源订阅保留自己的「说明-」节点（来源、清洗结果、作者、仓库），但**不再写更新时间**。
 
 ### 国家目录
 
@@ -90,38 +81,6 @@ AIO 里没有「说明」节点，也不按来源分标签页；单来源订阅�
 
 节点名里一律不带网址、日期与时间：清洗时会把 `yoyapai.com`、`t.me/xxx`、`2026-10.15更新`、`14:30` 这类片段删掉，并清掉因此悬空的分隔符与括号。想确认订阅新鲜度，看仓库的提交时间即可。
 
-## 来源清单
-
-26 个来源，集中维护在 `scripts/sources.py`。
-
-| 标识 | 名称 | 抓取方式 | 单来源订阅 |
-|------|------|----------|------------|
-| `yoyapai` | yoyapai.com | 页面/文章页 | [yoyapai](https://raw.githubusercontent.com/hkjych/Z/main/output/yoyapai/clash.yaml) |
-| `nodetoolbox` | NodeToolBox | 页面/文章页 | [nodetoolbox](https://raw.githubusercontent.com/hkjych/Z/main/output/nodetoolbox/clash.yaml) |
-| `jichangg` | 机场e (jichangg.world) | 页面/文章页 | [jichangg](https://raw.githubusercontent.com/hkjych/Z/main/output/jichangg/clash.yaml) |
-| `au1rxx` | Au1rxx/free-vpn-subscriptions | 固定订阅 | [au1rxx](https://raw.githubusercontent.com/hkjych/Z/main/output/au1rxx/clash.yaml) |
-| `freesub` | Ruk1ng001/freeSub | 固定订阅 | [freesub](https://raw.githubusercontent.com/hkjych/Z/main/output/freesub/clash.yaml) |
-| `xiaoji235` | xiaoji235/airport-free | 固定订阅 | [xiaoji235](https://raw.githubusercontent.com/hkjych/Z/main/output/xiaoji235/clash.yaml) |
-| `passcro` | zhangkaiitugithub/passcro | 固定订阅 | [passcro](https://raw.githubusercontent.com/hkjych/Z/main/output/passcro/clash.yaml) |
-| `ripaojiedian` | ripaojiedian/freenode | 固定订阅 | [ripaojiedian](https://raw.githubusercontent.com/hkjych/Z/main/output/ripaojiedian/clash.yaml) |
-| `chengaopan` | chengaopan/AutoMergePublicNodes | 固定订阅 | [chengaopan](https://raw.githubusercontent.com/hkjych/Z/main/output/chengaopan/clash.yaml) |
-| `peasoft` | peasoft/NoMoreWalls | 固定订阅 | [peasoft](https://raw.githubusercontent.com/hkjych/Z/main/output/peasoft/clash.yaml) |
-| `anaer` | anaer.github.io/Sub | 固定订阅 | [anaer](https://raw.githubusercontent.com/hkjych/Z/main/output/anaer/clash.yaml) |
-| `Pawdroid` | Pawdroid/Free-servers | 固定订阅 | [Pawdroid](https://raw.githubusercontent.com/hkjych/Z/main/output/Pawdroid/clash.yaml) |
-| `free18` | free18/v2ray | 固定订阅 | [free18](https://raw.githubusercontent.com/hkjych/Z/main/output/free18/clash.yaml) |
-| `go4sharing` | go4sharing/sub | 固定订阅 | [go4sharing](https://raw.githubusercontent.com/hkjych/Z/main/output/go4sharing/clash.yaml) |
-| `Leon406` | Leon406/SubCrawler | 固定订阅 | [Leon406](https://raw.githubusercontent.com/hkjych/Z/main/output/Leon406/clash.yaml) |
-| `shaoyou` | shaoyouvip/free | 固定订阅 | [shaoyou](https://raw.githubusercontent.com/hkjych/Z/main/output/shaoyou/clash.yaml) |
-| `kooker` | kooker/FreeSubsCheck | 固定订阅 | [kooker](https://raw.githubusercontent.com/hkjych/Z/main/output/kooker/clash.yaml) |
-| `ovmvo` | ovmvo/FreeSub | 固定订阅 | [ovmvo](https://raw.githubusercontent.com/hkjych/Z/main/output/ovmvo/clash.yaml) |
-| `zhuhaiuk` | zhuhaiuk/free-nodes | 固定订阅 | [zhuhaiuk](https://raw.githubusercontent.com/hkjych/Z/main/output/zhuhaiuk/clash.yaml) |
-| `g-hunter-g` | g-hunter-g/awesome-vpn | 固定订阅 | [g-hunter-g](https://raw.githubusercontent.com/hkjych/Z/main/output/g-hunter-g/clash.yaml) |
-| `barabama` | Barabama/FreeNodes | 固定订阅 | [barabama](https://raw.githubusercontent.com/hkjych/Z/main/output/barabama/clash.yaml) |
-| `wzmwayne` | wzmwayne/proxy-node | 固定订阅 | [wzmwayne](https://raw.githubusercontent.com/hkjych/Z/main/output/wzmwayne/clash.yaml) |
-| `lanzm` | lanzm/MetaFetch | 固定订阅 | [lanzm](https://raw.githubusercontent.com/hkjych/Z/main/output/lanzm/clash.yaml) |
-| `1000ttank` | 1000ttank/free-vpn-clash-aggregator | 固定订阅 | [1000ttank](https://raw.githubusercontent.com/hkjych/Z/main/output/1000ttank/clash.yaml) |
-| `Eleven1985` | Eleven1985/Scrape-By-Country | 固定订阅 | [Eleven1985](https://raw.githubusercontent.com/hkjych/Z/main/output/Eleven1985/clash.yaml) |
-| `LinVireo` | LinVireo/SmartSub | 固定订阅 | [LinVireo](https://raw.githubusercontent.com/hkjych/Z/main/output/LinVireo/clash.yaml) |
 
 ## 目录结构
 
