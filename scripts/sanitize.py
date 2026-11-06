@@ -34,6 +34,7 @@ import yaml
 from sources import SOURCES
 
 REPO = "https://github.com/hkjych/Z"
+AUTHOR = "wzmwayne"             # 上游作者
 REPO_SLUG = "hkjych/Z"          # 说明节点里只写 owner/repo,不带网址
 
 # 节点名里不允许出现网址/域名(yoyapai.com、https://xxx 之类)。
@@ -313,6 +314,7 @@ def inject_fake_nodes(data, source_label, dropped_count, escaped_chars, time_str
         f"说明-来源: {clean_label(source_label)}",
         f"说明-清洗结果: 清理 {dropped_count} 个节点、修复 {fixes} 处引用、转译 {escaped_chars} 个字符",
         f"说明-更新时间: {time_str} (CST)",
+        f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO_SLUG}",
     ]
     proxies = data.get("proxies")

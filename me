@@ -43,6 +43,9 @@
 | zhangkaiitugithub/passcro | https://raw.githubusercontent.com/hkjych/Z/main/output/passcro/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/passcro/clash.yaml |
 | anaer.github.io/Sub | https://raw.githubusercontent.com/hkjych/Z/main/output/anaer/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/anaer/clash.yaml |
 | xiaoji235/airport-free | https://raw.githubusercontent.com/hkjych/Z/main/output/xiaoji235/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/xiaoji235/clash.yaml |
+| NodeToolBox（每日文章页解析） | https://raw.githubusercontent.com/hkjych/Z/main/output/nodetoolbox/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/nodetoolbox/clash.yaml |
+| 机场e（jichangg.world） | https://raw.githubusercontent.com/hkjych/Z/main/output/jichangg/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/jichangg/clash.yaml |
+| Barabama/FreeNodes | https://raw.githubusercontent.com/hkjych/Z/main/output/barabama/clash.yaml | https://ghproxy.net/github.com/hkjych/Z/raw/main/output/barabama/clash.yaml |
 
 > 仅提供 Clash (Mihomo) 格式。直接复制链接到 FlClash / Clash Verge Rev / Mihomo 的订阅导入框即可。
 
@@ -53,7 +56,23 @@
 | `output/aio/clash.yaml`(精选) | 只保留延迟/测速通过的节点,节点名带 `[x.xMB/s]` 标注,含高速/优质/各来源分组 | 大多数用户,开箱即用 |
 | `output/aio-all/clash.yaml`(不精选) | **不做延迟/带宽测试**,把所有来源节点直接去重合并,节点名不加标注 | 想自己在客户端里测速/自选、或想看全量节点的用户 |
 
-> 两者更新频率相同(每 4 小时一次)。
+> 两者更新频率相同(每 4 小时一次)。 **页面型来源**:NodeToolBox 与 机场e 的订阅地址按日期变化,由 `scripts/scrape_page_sources.py`
+> 解析每日文章页后下载。其中 `jichangg.world` 站点自 2026-10 起其订阅域名(`sub.jichange.world`)
+> 无法解析(页面也停在 10-08),当前会自动跳过;站点恢复后无需改代码即可自动接入。
+
+### 手动触发参数（workflow_dispatch）
+
+Actions → 定时抓取清洗节点 → Run workflow,可选参数:
+
+| 参数 | 默认 | 说明 |
+|------|------|------|
+| `dry_run` | false | 只生成不提交(调试用) |
+| `test_latency` | true | 是否测延迟/可达性;false 时跳过延迟测试 |
+| `test_bandwidth` | true | 是否测带宽(20MB 文件测速);false 时跳过测速 |
+
+- **两个都 false**:AIO 直接合并——不测延迟/带宽、不启动 mihomo 测速,只做去重/唯一名/分组;
+- **只关延迟**:跳过独立延迟测试,测速时顺带记录延时;
+- **只关带宽**:保留延迟过滤,节点名标注 `[未测速]`。
 
 ## AIO 精选怎么来的
 
@@ -98,10 +117,15 @@ output/
   xiaoji235/ clash.yaml    # xiaoji235/airport-free 来源(清洗后)
   aio/      clash.yaml     # AIO 精选(合并全部来源,经内核可达性 + 测速)
   aio-all/  clash.yaml     # AIO 不精选(全部来源直接去重合并,不做测试)
+  nodetoolbox/ clash.yaml  # NodeToolBox 来源(页面型,清洗后)
+  jichangg/ clash.yaml     # 机场e 来源(页面型,站点恢复后自动接入)
+  barabama/ clash.yaml     # Barabama/FreeNodes 来源(清洗后)
 scripts/
   sources.py               # 来源清单(名称/主页/下载 URL,集中维护)
   scraper.py               # 抓取 yoyapai.com 文章并下载最新订阅
   fetch_sources.py         # 下载其它来源到 output/<name>/clash.raw.yaml(分享链接自动转 Clash)
+  page_sources.py          # 页面型来源解析器(nodetoolbox / jichangg)
+  scrape_page_sources.py   # 抓取页面型来源的最新订阅(解析每日文章页)
   uri_to_clash.py          # 分享链接(ss/vmess/vless/trojan/hysteria2/tuic)→ Clash proxies
   sanitize.py              # 清洗(控制字符/垃圾键/重名/悬空引用)+ 内核门禁
   test_nodes.py            # 内核可达性 + 20MB 测速 + 生成 AIO
@@ -123,6 +147,7 @@ bash scripts/install_mihomo.sh                 # 下载并校验 mihomo(可用 M
 
 python scripts/scraper.py                      # 抓 yoyapai -> output/yoyapai/clash.raw.yaml
 python scripts/fetch_sources.py                # 抓其它来源 -> output/<name>/clash.raw.yaml
+python scripts/scrape_page_sources.py -v       # 抓页面型来源(--dry-run 可先看解析结果)
 
 # 清洗单个来源(带内核门禁;--gate 需要 mihomo 与网络)
 python scripts/sanitize.py output/yoyapai/clash.raw.yaml output/yoyapai/clash.yaml \

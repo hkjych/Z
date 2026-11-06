@@ -1,0 +1,175 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+- type: vless
+  server: us22.sofast.live
+  port: 58011
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  client-fingerprint: chrome
+  name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A"
+- type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+  udp: true
+  name: "\u65E5\u672C_6A22EA"
+- type: vless
+  server: jp.sofast.live
+  port: 52683
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  name: "\u7F8E\u56FD_DB7113"
+- type: vless
+  server: 122.8.47.4
+  port: 8443
+  udp: true
+  uuid: ffaa2141-759b-424f-f28c-23dbeae00f10
+  tls: true
+  servername: www.philips.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
+    short-id: ''
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+  name: "\u6CD5\u56FD_0624B7"
+- type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_8B185B"
+- type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_3C4C6F"
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_EF95BB"
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_11A2BD"
+- type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_722B30"
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_B846BE"
+- type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_3E4777"
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_895DE2"
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_8AB17C"
+- type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_E91A40"
+- name: "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 94 \u4E2A\u5B57\u7B26"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 08:27 (CST)"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+proxy-groups:
+- name: "\u8BF4\u660E"
+  type: select
+  proxies:
+  - "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
+  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 94 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 08:27 (CST)"
+  - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
+  - "\u8BF4\u660E-\u4ED3\u5E93: hkjych/Z"
+- name: "\u8282\u70B9\u9009\u62E9"
+  type: select
+  proxies:
+  - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A"
+  - "\u65E5\u672C_6A22EA"
+  - "\u7F8E\u56FD_DB7113"
+  - "\u6CD5\u56FD_0624B7"
+  - "\u610F\u5927\u5229_8B185B"
+  - "\u610F\u5927\u5229_3C4C6F"
+  - "\u610F\u5927\u5229_EF95BB"
+  - "\u610F\u5927\u5229_11A2BD"
+  - "\u610F\u5927\u5229_722B30"
+  - "\u610F\u5927\u5229_B846BE"
+  - "\u610F\u5927\u5229_3E4777"
+  - "\u610F\u5927\u5229_895DE2"
+  - "\u610F\u5927\u5229_8AB17C"
+  - "\u610F\u5927\u5229_E91A40"
+rules:
+- "MATCH,\u8282\u70B9\u9009\u62E9"

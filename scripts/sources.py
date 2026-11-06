@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """订阅来源清单(集中维护) + GitHub 下载镜像支持。
 
-SOURCES:    来源标识 -> (显示名称, 主页 URL),供 sanitize.py 说明节点使用
-FETCH_URLS: 来源标识 -> 订阅文件 URL(yoyapai 由 scraper.py 抓取,不在此列)
+SOURCES:       来源标识 -> (显示名称, 主页 URL),供 sanitize.py 说明节点使用
+FETCH_URLS:    来源标识 -> 固定订阅文件 URL(yoyapai 由 scraper.py 抓取,不在此列)
+PAGE_SOURCES:  页面型来源(订阅地址每日变化)见 page_sources.py,由 scrape_page_sources.py 抓取
 """
 import os
 
@@ -27,6 +28,9 @@ def mirror_url(url: str) -> str:
 
 SOURCES = {
     "yoyapai": ("yoyapai.com", "https://yoyapai.com/category/mianfeijiedian"),
+    # 页面型来源(订阅地址每日变化,由 scrape_page_sources.py 解析)
+    "nodetoolbox": ("NodeToolBox", "https://nodetoolbox.net/free-nodes/"),
+    "jichangg": ("机场e (jichangg.world)", "https://jichangg.world/mianfei/"),
     "au1rxx": ("Au1rxx/free-vpn-subscriptions", "https://github.com/Au1rxx/free-vpn-subscriptions"),
     "freesub": ("Ruk1ng001/freeSub", "https://github.com/Ruk1ng001/freeSub"),
     "xiaoji235": ("xiaoji235/airport-free", "https://github.com/xiaoji235/airport-free"),
@@ -45,6 +49,7 @@ SOURCES = {
     "ovmvo": ("ovmvo/FreeSub","https://raw.githubusercontent.com/ovmvo/FreeSub/refs/heads/main/sub/permanent/mihomo.yaml"),
     "zhuhaiuk": ("zhuhaiuk/free-nodes","https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml"),
     "g-hunter-g": ("g-hunter-g/awesome-vpn", "https://raw.githubusercontent.com/g-hunter-g/awesome-vpn/refs/heads/main/key.txt"),
+    "barabama": ("Barabama/FreeNodes", "https://github.com/Barabama/FreeNodes"),
     "GA": ("hkjych/A", "https://raw.githubusercontent.com/hkjych/A/refs/heads/main/output/aio/clash.yaml"),
     "GB": ("hkjych/B", "https://raw.githubusercontent.com/hkjych/B/refs/heads/master/list.meta.yml"),
     "GC": ("hkjych/C","https://raw.githubusercontent.com/hkjych/C/refs/heads/main/output/clash.yaml"),
@@ -73,6 +78,7 @@ FETCH_URLS = {
     "ovmvo": "https://raw.githubusercontent.com/ovmvo/FreeSub/refs/heads/main/sub/permanent/mihomo.yaml",
     "zhuhaiuk": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
     "g-hunter-g": "https://raw.githubusercontent.com/g-hunter-g/awesome-vpn/refs/heads/main/key.txt",
+    "barabama": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml",
     "GA": "https://raw.githubusercontent.com/hkjych/A/refs/heads/main/output/aio/clash.yaml",
     "GB": "https://raw.githubusercontent.com/hkjych/B/refs/heads/master/list.meta.yml",
     "GC": "https://raw.githubusercontent.com/hkjych/C/refs/heads/main/output/clash.yaml",

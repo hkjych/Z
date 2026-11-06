@@ -79,6 +79,7 @@ GROUP_TYPES = {
 }
 SKIP_NAMES = {"GLOBAL", "DIRECT", "REJECT", "PASS"}
 REPO = "https://github.com/hkjych/Z"
+AUTHOR = "wzmwayne"          # 上游作者,写进 说明-作者
 REPO_SLUG = "hkjych/Z"      # 说明节点里只写 owner/repo,不带网址
 
 # AIO 节点名标注:重新生成时可重复运行(先剥掉旧标注)
@@ -446,17 +447,18 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     names = [p["name"] for p in ordered]
 
     now = time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 8 * 3600))
-    fake_names = [f"说明-来源: AIO 合并(合并 {n_inputs} 个来源)"]
+    fake_names = [f"说明-来源: AIO 不精选(合并 {n_inputs} 个来源)"]
     if net_label:
         fake_names.append(f"说明-测试网络: {net_label}")
     fake_names += [
         "说明-测试: 本次未测延迟/带宽,直接合并(不精选)",
         f"说明-更新时间: {now} (CST)",
+        f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO_SLUG}",
     ]
 
     groups = [{"name": "说明", "type": "select", "proxies": fake_names}]
-    groups.append({"name": "🚀 节点选择(全部节点)", "type": "select", "proxies": names})
+    groups.append({"name": "🚀 节点选择(全部)", "type": "select", "proxies": names})
     groups.append({
         "name": "♻️ 自动选择",
         "type": "url-test",
@@ -482,13 +484,13 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
         "external-controller": "127.0.0.1:9090",
         "proxies": [fake_proxy(n) for n in fake_names] + ordered,
         "proxy-groups": groups,
-        "rules": ["MATCH,🚀 节点选择(全部节点)"],
+        "rules": ["MATCH,🚀 节点选择(全部)"],
     }, src_stat
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
               src_of_name, quality_min_speed, quality_max_delay, target_summary="",
-              tested_names=None, net_label=""):
+              tested_names=None, net_label="", delay_tested=True):
     tested_names = tested_names or set()
     """good: [(proxy, delay)];speeds: {name: MB/s or None};src_of_name: {name: 来源标识}
 
@@ -500,7 +502,8 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
     for p, delay in good:
         rate = speeds.get(p["name"])
         is_fast = rate is not None and rate > threshold
-        is_quality = rate is not None and rate >= quality_min_speed and delay <= quality_max_delay
+        is_quality = (rate is not None and rate >= quality_min_speed
+                      and (delay is None or delay <= quality_max_delay))
         if is_fast:
             fast.append((p, delay, rate))
         elif is_quality:
@@ -508,8 +511,8 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         else:
             rest.append((p, delay, rate))
     fast.sort(key=lambda x: -x[2])
-    quality_only.sort(key=lambda x: (-x[2], x[1]))
-    rest.sort(key=lambda x: x[1])
+    quality_only.sort(key=lambda x: (-x[2], x[1] if x[1] is not None else 10 ** 9))
+    rest.sort(key=lambda x: (x[1] is None, x[1] or 0))
     quality = quality_only                 # 与"高速"互斥,两组不重叠
     ordered = fast + quality_only + rest   # 全部精选:高速 -> 优质 -> 其余按延迟
 
@@ -533,7 +536,10 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
     fake_names = [f"说明-来源: AIO 精选(合并 {n_inputs} 个来源)"]
     if net_label:
         fake_names.append(f"说明-测试网络: {net_label}")
-    fake_names.append(f"说明-延迟测试: {len(good)}/{tested} 节点通过 generate_204")
+    if delay_tested:
+        fake_names.append(f"说明-延迟测试: {len(good)}/{tested} 节点通过 generate_204")
+    else:
+        fake_names.append("说明-延迟测试: 本次跳过(手动参数),优质节点仅按速度判定")
     if speed_enabled:
         fake_names.append(
             f"说明-测速: {len(fast)} 个节点 > {threshold:g} MB/s({speed_label}实测)"
@@ -549,6 +555,7 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         fake_names.append("说明-测速: 本次跳过(测试文件不可达)")
     fake_names += [
         f"说明-更新时间: {now} (CST)",
+        f"说明-作者: {AUTHOR}",
         f"说明-仓库: {REPO_SLUG}",
     ]
 
@@ -637,6 +644,8 @@ def main():
     ap.add_argument("--timeout-ms", type=int, default=4500, help="单节点延迟测试超时")
     ap.add_argument("--limit", type=int, default=0, help="只测试前 N 个节点(调试用,0=全部)")
     ap.add_argument("--no-speed", action="store_true", help="跳过测速阶段")
+    ap.add_argument("--no-delay", action="store_true",
+                    help="跳过延迟/可达性测试(所有节点视为可用)")
     ap.add_argument("--merge-only", action="store_true",
                     help="直接合并模式:不测延迟/带宽,只去重合并生成 AIO(不精选)")
     ap.add_argument("--speed-url", default=os.environ.get("SPEED_TEST_URL", ""),
@@ -670,7 +679,6 @@ def main():
     args.speed_require_latency = args.skip_speed_on_latency_fail
 
     t_start = time.monotonic()
-    mihomo = find_mihomo(args.mihomo)
     speed_urls = [u.strip() for u in (args.speed_url or ",".join(default_speed_urls())).split(",") if u.strip()]
 
     # 1) 合并去重
@@ -694,41 +702,48 @@ def main():
             print(f"        📦 {label}: {n} 个节点")
         return
 
+    mihomo = find_mihomo(args.mihomo)
+
     # 2) 可达性(延迟)测试
-    with Core(mihomo, proxies, ["MATCH,DIRECT"], keep_dir=args.keep_temp) as core:
-        pmap = {}
-        for _ in range(10):
-            try:
-                pmap = api_get(core.ctrl_port, core.secret, "/proxies")["proxies"]
-            except Exception:
-                pmap = {}
-            if pmap:
-                break
-            time.sleep(0.5)
-        names = [n for n, info in pmap.items()
-                 if n not in SKIP_NAMES and info.get("type") not in GROUP_TYPES]
-        if not names:
-            raise SystemExit("[FAIL] 内核未返回任何可测节点")
-        total = len(names)
-        print(f"[2/5] 可达性测试: {total} 个节点 -> generate_204(并发 {args.concurrency})")
-        ok, done, interval = {}, 0, max(1, total // 20)
-        with ThreadPoolExecutor(max_workers=args.concurrency) as ex:
-            futs = {ex.submit(test_delay, core.ctrl_port, core.secret, n, args.timeout_ms): n for n in names}
-            for fut in as_completed(futs):
-                name, delay = fut.result()
-                done += 1
-                if delay is not None:
-                    ok[name] = delay
-                if done % interval == 0 or done == total:
-                    print(f"        进度 {done}/{total} 可用 {len(ok)} "
-                          f"({time.monotonic()-t_start:.0f}s)", flush=True)
-        print(f"        可达节点: {len(ok)}/{total}")
-        if not ok:
-            raise SystemExit("[FAIL] 全部节点不可达,不生成 AIO")
+    if args.no_delay:
+        ok = {p["name"]: None for p in proxies}
+        total = len(proxies)
+        print(f"[2/5] 延迟测试: 已跳过(--no-delay),{total} 个节点全部视为可用")
+    else:
+        with Core(mihomo, proxies, ["MATCH,DIRECT"], keep_dir=args.keep_temp) as core:
+            pmap = {}
+            for _ in range(10):
+                try:
+                    pmap = api_get(core.ctrl_port, core.secret, "/proxies")["proxies"]
+                except Exception:
+                    pmap = {}
+                if pmap:
+                    break
+                time.sleep(0.5)
+            names = [n for n, info in pmap.items()
+                     if n not in SKIP_NAMES and info.get("type") not in GROUP_TYPES]
+            if not names:
+                raise SystemExit("[FAIL] 内核未返回任何可测节点")
+            total = len(names)
+            print(f"[2/5] 可达性测试: {total} 个节点 -> generate_204(并发 {args.concurrency})")
+            ok, done, interval = {}, 0, max(1, total // 20)
+            with ThreadPoolExecutor(max_workers=args.concurrency) as ex:
+                futs = {ex.submit(test_delay, core.ctrl_port, core.secret, n, args.timeout_ms): n for n in names}
+                for fut in as_completed(futs):
+                    name, delay = fut.result()
+                    done += 1
+                    if delay is not None:
+                        ok[name] = delay
+                    if done % interval == 0 or done == total:
+                        print(f"        进度 {done}/{total} 可用 {len(ok)} "
+                              f"({time.monotonic()-t_start:.0f}s)", flush=True)
+            print(f"        可达节点: {len(ok)}/{total}")
+            if not ok:
+                raise SystemExit("[FAIL] 全部节点不可达,不生成 AIO")
 
     # 3) 测速
     by_name = {p["name"]: p for p in proxies}
-    candidates = sorted(ok, key=lambda n: ok[n])
+    candidates = sorted(ok, key=lambda n: (ok[n] is None, ok[n] or 0))
     if args.speed_max_nodes:
         candidates = candidates[:args.speed_max_nodes]
     speeds = {n: None for n in ok}
@@ -786,6 +801,7 @@ def main():
         speed_label, speed_enabled, src_of_name,
         args.quality_min_speed, args.quality_max_delay, target_summary,
         tested_names=speed_tested, net_label=args.net_label,
+        delay_tested=not args.no_delay,
     )
     print(f"[4/5] 生成 AIO: 全部精选 {len(good)} 个,"
           f"高速(>{args.fast_threshold:g}MB/s) {n_fast} 个,优质 {n_quality} 个")

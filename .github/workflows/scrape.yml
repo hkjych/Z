@@ -9,6 +9,15 @@ on:
         description: 只生成不提交(调试用)
         type: boolean
         default: false
+      test_latency:
+        description: 是否测延迟/可达性(false=跳过延迟测试)
+        type: boolean
+        default: true
+      test_bandwidth:
+        description: 是否测带宽(20MB 测速,false=跳过测速)
+        type: boolean
+        default: true
+      # 两个都选 false 时:AIO 直接合并(不测延迟/带宽)
 
 # 同一时间只跑一轮,避免两次运行互相 push 冲突
 concurrency:
@@ -50,6 +59,13 @@ jobs:
 
       - name: Install mihomo core
         run: bash scripts/install_mihomo.sh
+
+      # 自建 20MB 测速文件(私有 release 资产匿名不可读时本轮跳过,测速自动只用 Cloudflare)
+      - name: "确保 20MB 测速文件已发布(release: test)"
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/ensure_speedtest_asset.sh
 
       # 抓取步骤都用 `|| echo warning` 容错,语法/清单错误会被吞到后面才爆;
       # 这里先做一次静态自检,坏掉立刻红,报错位置也更直接。
@@ -98,6 +114,10 @@ jobs:
       - name: Fetch other sources
         run: python scripts/fetch_sources.py || echo "::warning::部分来源下载失败，继续处理已下载的来源"
 
+      # 订阅地址每天变化,要先解析文章页再拿下载地址(nodetoolbox / jichangg)
+      - name: 抓取页面型来源（每日文章页解析）
+        run: python scripts/scrape_page_sources.py || echo "::warning::页面型来源抓取失败，跳过"
+
       - name: Sanitize + 内核门禁 + 发布
         run: |
           published=0
@@ -132,7 +152,19 @@ jobs:
           if [ -z "$INPUTS" ]; then
             echo "::error::没有可用的来源文件"; exit 1
           fi
-          python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml \
+          # 手动触发时可以关掉延迟/带宽测试;两个都关 = 直接合并(AIO 不精选走另一步)
+          TEST_LATENCY="${{ inputs.test_latency }}"
+          TEST_BANDWIDTH="${{ inputs.test_bandwidth }}"
+          FLAGS=""
+          if [ "$TEST_LATENCY" = "false" ] && [ "$TEST_BANDWIDTH" = "false" ]; then
+            FLAGS="--merge-only"
+            echo "手动参数: 不测延迟/带宽 -> AIO 直接合并"
+          else
+            if [ "$TEST_LATENCY" = "false" ]; then FLAGS="$FLAGS --no-delay"; fi
+            if [ "$TEST_BANDWIDTH" = "false" ]; then FLAGS="$FLAGS --no-speed"; fi
+            echo "手动参数: test_latency=${TEST_LATENCY:-true} test_bandwidth=${TEST_BANDWIDTH:-true}"
+          fi
+          python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml $FLAGS \
             --mihomo "$MIHOMO_BIN" \
             --concurrency 128 \
             --timeout-ms 4500 \
