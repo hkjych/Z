@@ -34,6 +34,11 @@ import yaml
 
 from sources import SOURCES
 
+# 这些字段是协议语义,原样保留(解码会改变请求)
+# 只有真正参与握手/鉴权的字段保持原样;path 这类展示型协议字段一并解码
+_KEEP_RAW_KEYS = {"Host", "serviceName", "server",
+                  "password", "uuid", "auth", "psk", "obfs-password", "secret"}
+
 REPO = "https://github.com/hkjych/Z"
 AUTHOR = "github"             # 上游作者
 REPO_SLUG = "hkjych/Z"          # 说明节点里只写 owner/repo,不带网址
@@ -129,6 +134,56 @@ def decode_percent(text) -> str:
 _NAME_SEPS = " \t-_·,，、/=|" + chr(92)
 
 
+# 上游常见的两层脏数据:URL 编码(可能多层) + UTF-8 被当 Latin-1 读过的 mojibake
+_MOJIBAKE_HINT = re.compile(r"[ÂÃðÐÑ][\x80-\xbf\u0152-\u2122]?")
+
+
+def normalize_text(value, rounds=3):
+    """把字符串里的 URL 编码层层解开,并尝试修复 mojibake;失败就原样返回。"""
+    s = str(value)
+    for _ in range(rounds):
+        nxt = decode_percent(s)
+        if nxt == s:
+            break
+        s = nxt
+    if _MOJIBAKE_HINT.search(s):
+        try:
+            fixed = s.encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            fixed = ""
+        if fixed and "\ufffd" not in fixed:
+            s = fixed
+    return s
+
+
+def normalize_values(node, key=None):
+    """递归把配置里的字符串标准化(协议字段不动:path/Host/serviceName/server)。"""
+    if isinstance(node, str):
+        return node if key in _KEEP_RAW_KEYS else normalize_text(node)
+    if isinstance(node, list):
+        return [normalize_values(v, key) for v in node]
+    if isinstance(node, dict):
+        return {k: normalize_values(v, k) for k, v in node.items()}
+    return node
+
+
+def invalid_sni(value) -> bool:
+    """SNI 只能是主机名:带协议头/百分号/空格/非 ASCII/明显垃圾的一律丢掉。"""
+    s = str(value or "")
+    if not s:
+        return False
+    if re.search(r"(?i)https?|www\.|%[0-9a-f]{2}", s):
+        return True
+    if any(ch.isspace() for ch in s):
+        return True
+    if any(ord(ch) > 126 for ch in s):
+        return True
+    # 允许正常域名或 IP(有些机场故意用 IP 当 SNI);其余(off/1/空串之类)丢掉
+    if re.fullmatch(r"(?:\d{1,3}\.){3}\d{1,3}", s):
+        return False
+    return not re.fullmatch(r"[A-Za-z0-9.-]+\.[A-Za-z]{2,}", s)
+
+
 def clean_proxy_name(name) -> str:
     """删掉节点名里的网址/域名与日期时间,并清掉因此悬空的分隔符。
 
@@ -153,9 +208,14 @@ def clean_proxy_name(name) -> str:
     out = _tidy_name(out)
     if out and re.search(r"[0-9A-Za-z\u4e00-\u9fff]", out):
         return out
-    # 名字里只剩表情/符号(如 "📦 yoyapai.com")时,退回网址首段,避免出现纯符号名
-    head = _host_head(_URLISH.search(s).group(0))
-    return head or "节点"
+    # 名字整个就是网址/只剩符号时,优先用路径末段(如 t.me/wangcai2 -> wangcai2),
+    # 其次用主机首段,避免出现 "t" 这种一两个字母的名字
+    url = _URLISH.search(s).group(0)
+    path = re.split(r"[?#]", url)[-1] if "/" in url else ""
+    tail = [seg for seg in path.strip("/").split("/") if seg]
+    if tail and re.search(r"[0-9A-Za-z]", tail[-1]):
+        return tail[-1]
+    return _host_head(url) or "节点"
 
 
 def clean_label(label) -> str:
@@ -632,6 +692,10 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
     # 1) 垃圾顶层键(上游错误页残留)
     junk_keys, unknown_keys = drop_junk_keys(data)
 
+    # 1.5) 字符串标准化:URL 编码层层解开 + mojibake 修复
+    #      (放在名称清洗之前,解出来的网址才能被后面的规则删掉)
+    data = normalize_values(data)
+
     # 2) 清洗 proxies:任一字段含非法码点则丢弃整个节点
     if isinstance(data.get("proxies"), list):
         cleaned = []
@@ -648,6 +712,10 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
                     and not p.get("obfs-password"):
                 dropped_nodes.append((p.get("name", "?"), ["missing obfs password"]))
                 continue
+            # SNI 只能是主机名:带协议头/空格/emoji 的脏值直接丢掉
+            if "sni" in p and invalid_sni(p.get("sni")):
+                dropped_other.append((f"sni({p.get('name', '?')})", str(p["sni"])[:40]))
+                del p["sni"]
             cleaned.append(p)
         data["proxies"] = cleaned
     else:
