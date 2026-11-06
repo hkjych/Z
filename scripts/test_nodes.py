@@ -455,7 +455,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
 
     return {
         "mixed-port": 7890,
-        "allow-lan": true,
+        "allow-lan": True,   # 9f3c1f3 把 False 改成了 true(Python 里必须大写)
         "mode": "rule",
         "log-level": "info",
         "ipv6": False,
@@ -466,12 +466,14 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     }, src_stat
 
 
-def build_groups(names):
+def build_groups(names, fast_names=None, quality_names=None):
     """生成统一的出口分组(不再有说明/来源分组)。
 
-    总模式(select,第一个选项=默认自动选择) / 手动选择 / 自动选择(url-test)
-    / 延迟最低(tolerance=0) / 故障转移(fallback) / 负载均衡(load-balance, round-robin)
-    / 国内直连(select{DIRECT,REJECT})。
+    总模式(select,第一个选项=默认自动选择) 里收:自动选择 / 手动选择 /
+    高速节点 / 优质节点(仅精选版有,不精选没有测速数据时省略) /
+    延迟最低(tolerance=0) / 故障转移(fallback) / 负载均衡(load-balance) / 国内直连。
+
+    手动选择只放节点本身,不再嵌其它分组。
     """
     master_name = "🔰 总模式"
     manual_name = "🚀 手动选择"
@@ -487,14 +489,22 @@ def build_groups(names):
     # 不能把 manual 放进这里,否则 手动选择 <-> 国内直连 互相引用会被内核判为环。
     domestic = {"name": "🇨🇳 国内直连", "type": "select",
                 "proxies": ["DIRECT", "REJECT"]}
-    manual = {"name": manual_name, "type": "select",
-              "proxies": [auto["name"], lowest["name"], fallback["name"],
-                          balance["name"], domestic["name"]] + names}
-    # 总模式:唯一入口,把六个出口收在一层里;第一项=自动选择,即默认值
+    # 手动选择:只放全部节点,不再嵌任何分组
+    manual = {"name": manual_name, "type": "select", "proxies": names}
+
+    extras = []
+    if fast_names is not None:
+        extras.append({"name": "⚡ 高速节点", "type": "select",
+                       "proxies": fast_names or ["DIRECT"]})
+    if quality_names is not None:
+        extras.append({"name": "🏅 优质节点", "type": "select",
+                       "proxies": quality_names or ["DIRECT"]})
+
+    # 总模式:唯一入口;第一项=自动选择,即默认值
+    picks = [auto, manual] + extras + [lowest, fallback, balance, domestic]
     master = {"name": master_name, "type": "select",
-              "proxies": [auto["name"], manual_name, lowest["name"],
-                          fallback["name"], balance["name"], domestic["name"]]}
-    return [master, manual, auto, lowest, fallback, balance, domestic]
+              "proxies": [g["name"] for g in picks]}
+    return [master] + picks
 
 
 def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enabled,
@@ -547,7 +557,7 @@ def build_aio(good, speeds, tested, threshold, n_inputs, speed_label, speed_enab
         if src:
             per_src.setdefault(src, []).append(name_of[id(p)])
     src_stat = {clean_label(SOURCES.get(s, (s, ""))[0]): len(m) for s, m in per_src.items()}
-    groups = build_groups(names)
+    groups = build_groups(names, fast_names=fast_names, quality_names=quality_names)
 
     return {
         "mixed-port": 7890,
