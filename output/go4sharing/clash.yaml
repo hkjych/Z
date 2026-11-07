@@ -4,140 +4,149 @@ mode: Global
 log-level: info
 external-controller: :9090
 proxies:
-- name: 加拿大 - 多伦多 - 1
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  port: 443
-  server: 216.152.147.85
-  skip-cert-verify: false
-  sni: cdn.connectingpeoplewithgreatjobs.com
+- name: 澳大利亚 - 悉尼 - 1
+  server: au.tronsg.com
   type: trojan
-  udp: true
-  delay: 1234
-- name: 美国 - 圣克拉拉 - 1
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  country: 🇦🇺AU
   port: 443
-  server: 167.88.61.20
-  skip-cert-verify: false
-  sni: api.browseseniorrolesandenhanceyourcareertoday.com
-  type: trojan
+  password: Trojan@82164024
+  sni: au.tronsg.com
+  skip-cert-verify: true
   udp: true
-  delay: 601
-- name: 日本 - 东京 - 1
-  server: 154.36.158.197
-  port: 8388
+  delay: 1062
+- name: 德国 - 法兰克福 - 1
+  server: 109.70.74.218
+  type: vmess
+  country: 🇮🇹IT
+  port: 54673
+  uuid: b66d05c6-5c70-44a5-bb27-f672cabdb1c3
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 1525
+- name: 俄罗斯 - 莫斯科 - 1
+  server: 46.17.47.58
+  port: 18443
   type: ss
-  country: 🇺🇸 US
-  password: BeaUf9c0AEWH40Pu
   cipher: aes-256-gcm
-  delay: 175
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  udp: true
+  delay: 683
+- name: 美国 - 達拉斯 - 1
+  server: 66.23.203.19
+  type: ss
+  country: 🇺🇸US
+  port: 19690
+  password: "4e501338a6c03d7626f2fa0e09ed66d6"
+  cipher: aes-128-gcm
+  delay: 527
+- name: 美国 - 聖荷西 - 2
+  server: ssr2.762988.xyz
+  type: ssr
+  country: 🇬🇧GB
+  port: 33336
+  password: dongtaiwang.com
+  cipher: chacha20-ietf
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  delay: 575
+- name: 日本 - 东京 - 1
+  server: 160.21.74.183
+  type: trojan
+  country: 🇯🇵JP
+  port: 8443
+  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
+  sni: 160.21.74.183
+  skip-cert-verify: true
+  udp: true
+  delay: 413
+- name: 意大利 - Milan - 1
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  delay: 1417
+- name: 意大利 - Milan - 2
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  tfo: false
+  delay: 2276
+- name: 意大利 - Milan - 3
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  tfo: false
+  delay: 2164
 - cipher: aes-256-gcm
-  name: 意大利 - Milan - 1
+  name: 意大利 - Milan - 4
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
-  delay: 827
-- name: 意大利 - Milan - 2
+  delay: 1473
+- name: 意大利 - Milan - 5
   server: 202.50.253.18
   port: 19999
   type: ss
-  country: 🇳🇿 NZ
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  delay: 737
-- name: 意大利 - Milan - 3
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  country: 🇳🇿 NZ
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 601
-- name: 意大利 - Milan - 4
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  country: 🇳🇿 NZ
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 566
+  udp: true
+  delay: 589
 - cipher: aes-256-gcm
-  name: 意大利 - Milan - 5
+  name: 意大利 - Milan - 6
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
   udp: true
-  delay: 2119
+  delay: 599
 - cipher: aes-256-gcm
-  name: 意大利 - Milan - 6
+  name: 意大利 - Milan - 7
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.72
+  server: 202.50.253.90
   type: ss
   udp: true
-  delay: 1367
-- name: 中国 - 北京 - 1
-  server: 120.48.133.162
+  delay: 601
+- name: 中国 - 香港 - 1
+  server: 104.25.134.76
   type: vmess
-  country: 🇨🇳CN
-  port: 10086
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  country: 🇺🇸US
+  port: 443
+  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
   alterId: 0
   cipher: auto
   network: ws
+  servername: hk-v2ray.ryin.vip
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
   ws-opts:
-    path: /
-  delay: 236
-- name: 中国 - 北京 - 2
-  server: 120.48.133.162
-  type: vmess
-  country: 🇨🇳CN
-  port: 10086
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-  delay: 232
-- name: 中国 - 北京 - 3
-  server: 120.48.133.162
-  type: vmess
-  country: 🇨🇳CN
-  port: 10086
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-  delay: 232
-- name: 中国 - 深圳 - 4
-  server: 39.108.113.127
-  type: vmess
-  country: 🇨🇳CN
-  port: 10086
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-  delay: 228
+    path: /ryinsocksv2board
+    headers:
+      HOST: hk-v2ray.ryin.vip
+  delay: 1710
+- name: 中国 - 香港 - 2
+  server: 152.175.6.229
+  type: vless
+  port: 31884
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  servername: hk010.zestapp778.com
+  delay: 1407
 - name: '说明-来源: go4sharing/sub'
   type: trojan
   server: 127.0.0.1
@@ -145,7 +154,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 66 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 73 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -171,6 +180,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: go4sharing/sub'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 66 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 73 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
