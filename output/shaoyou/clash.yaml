@@ -1,112 +1,18 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇵🇱PL_1|1.1MB/s
-  network: xhttp
-  port: 443
-  server: cdn-ya.shamanapp.online
-  servername: cdn-ya.shamanapp.online
-  tls: true
-  type: vless
-  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
-  xhttp-opts:
-    host: cdn-ya.shamanapp.online
-    mode: packet-up
-    no-grpc-header: true
-    path: /media/hls/720p/
-    sc-max-each-post-bytes: 20000
-    sc-min-posts-interval-ms: 5
-    seq-key: page
-    seq-placement: query
-    uplink-chunk-size: 20000
-    uplink-data-key: X-Request-Id
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache
-    x-padding-key: "_dc"
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: header
-- name: 🇬🇧GB_1|1.2MB/s
+- name: 🇳🇱NL_1|1010KB/s
   password: None
   port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|1.1MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.0MB/s
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: "55986a94e2228791"
-  server: 213.152.165.205
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7d28421-b7f8-43af-ad2a-da2da9ca6520
-- name: 🇧🇪BE_1|1.5MB/s|R002-260618
-  password: None
-  port: 443
-  server: 146.70.176.242
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_2|1.7MB/s
-  password: null
-  port: 443
-  server: 68.235.56.59
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.9MB/s
-  network: tcp
-  port: "2094"
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: "55986a94e2228791"
-  server: 213.152.165.205
-  servername: www.apple.com
+- name: 🇬🇧GB_1|1.3MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: b7d28421-b7f8-43af-ad2a-da2da9ca6520
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.0MB/s
-  network: tcp
-  port: "2094"
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: "55986a94e2228791"
-  server: 213.152.165.201
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7d28421-b7f8-43af-ad2a-da2da9ca6520
-  xudp: true
+  type: http
 - name: '说明-来源: shaoyouvip/free'
   type: trojan
   server: 127.0.0.1
@@ -114,7 +20,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 16 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -140,6 +46,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: shaoyouvip/free'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 16 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
