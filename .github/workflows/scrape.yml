@@ -37,10 +37,10 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: '3.11'
           cache: pip
@@ -52,7 +52,7 @@ jobs:
       # 只缓存地理库(几十 MB、几乎不变);内核本身每轮按最新版重新下载,
       # 避免缓存把版本钉死,也省掉"版本一变就得换 key"的麻烦。
       - name: 缓存地理库
-        uses: actions/cache@v4
+        uses: actions/cache@v6.1.0
         with:
           path: .cache/geo
           key: geo-${{ runner.arch }}-v1
