@@ -18,9 +18,9 @@ proxies:
 - name: 其他-001
   type: vless
   network: ws
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 172.66.133.28
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  uuid: bdde0eb9-62c6-4d30-ac96-ab10d8eb7939
+  server: 104.26.1.117
+  servername: erupencompanypdr.pages.dev
   port: 443
   skip-cert-verify: false
   tls: true
@@ -28,48 +28,9 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
-  client-fingerprint: firefox
-- name: 其他-002
-  type: vless
-  network: ws
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-  server: 104.27.88.172
-  servername: web-app-nr6wpa.app-tp57xz.workers.dev
-  port: 80
-  tls: false
-  ws-opts:
-    headers:
-      Host: web-app-nr6wpa.app-tp57xz.workers.dev
-    path: /api/ws
-  encryption: none
-- name: 其他-003
-  type: vless
-  network: tcp
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  server: ams2.shtil.io
-  servername: ams2.shtil.io
-  port: 444
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 其他-004
-  type: vless
-  network: tcp
-  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
-  server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  port: 20065
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
+      Host: erupencompanypdr.pages.dev
+    path: /ISoOMY675XVPxHG4?ed=2560
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 德国-001 |1.6MB/s
   type: hysteria
   server: 5.83.129.90
@@ -84,22 +45,6 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: 德国-002
-  type: vless
-  network: ws
-  uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
-  server: 195.137.226.133
-  servername: nexostore.xnetaro.ir
-  port: 2083
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: nexostore.xnetaro.ir
-    path: /wss?TELEGRAM----
-  client-fingerprint: firefox
 - name: 意大利-001
   type: vless
   network: ws
@@ -112,19 +57,6 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳 fp=chromefp=chrome
-- name: 新西兰-001
-  type: vless
-  network: tcp
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  server: 177.177.215.45
-  servername: ams2.shtil.io
-  port: 444
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   type: http
   server: 159.13.44.228
@@ -176,13 +108,13 @@ proxies:
   tls: true
 - name: 罗马尼亚-008 |1.0MB/s
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
 - name: 罗马尼亚-009 |1.0MB/s
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -276,16 +208,6 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 美国-005
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
 - name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 84.17.47.150
@@ -317,7 +239,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 139 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 126 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -343,6 +265,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: anaer'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 139 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 126 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
