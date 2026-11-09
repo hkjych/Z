@@ -1,0 +1,7 @@
+# mihomo 发行包 SHA256(格式:版本 文件名 校验和)
+# 在线时 install_mihomo.sh 直接取 GitHub release API 的 digest(任何版本都可用);
+# 这里的离线表仅在 API 不可用时兜底,按版本从旧到新追加。
+v1.19.9 mihomo-linux-amd64-v1.19.9.gz 840d0c8f56b2a24e6161f0c0870af2a3cd50662008ae6a071789ae0dc4185cf9
+v1.19.9 mihomo-linux-arm64-v1.19.9.gz b966c7dfa17899adfb3bffc122ecc608ff32cf925833614d0b4de089b6480f2b
+v1.19.33 mihomo-linux-amd64-v1.19.33.gz 132f6f3edf9a65e62f04853aed3358472e0b2b7666daa8419edfa2ddf5bb6323
+v1.19.33 mihomo-linux-arm64-v1.19.33.gz ba408b317080ee265c46cb923a50018c1b82cbd708551cdd46a1e3e307396187

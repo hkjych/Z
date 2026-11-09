@@ -1,0 +1,261 @@
+name: 定时抓取清洗节点
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'        # 每 4 小时(UTC 00/04/08/12/16/20)
+  workflow_dispatch:             # 手动触发
+    inputs:
+      dry_run:
+        description: 只生成不提交(调试用)
+        type: boolean
+        default: false
+      test_latency:
+        description: 是否测延迟/可达性(false=跳过延迟测试)
+        type: boolean
+        default: true
+      test_bandwidth:
+        description: 是否测带宽(20MB 测速,false=跳过测速)
+        type: boolean
+        default: true
+      # 两个都选 false 时:AIO 直接合并(不测延迟/带宽)
+
+# 同一时间只跑一轮,避免两次运行互相 push 冲突
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: "1"
+  MIHOMO_VERSION: latest      # 自动取 MetaCubeX/mihomo 最新发行版;要锁定版本就写成 v1.19.33
+  MIHOMO_DIR: ${{ github.workspace }}/.cache/geo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 只缓存地理库(几十 MB、几乎不变);内核本身每轮按最新版重新下载,
+      # 避免缓存把版本钉死,也省掉"版本一变就得换 key"的麻烦。
+      - name: 缓存地理库
+        uses: actions/cache@v4
+        with:
+          path: .cache/geo
+          key: geo-${{ runner.arch }}-v1
+
+      - name: Install mihomo core
+        run: bash scripts/install_mihomo.sh
+
+      # 自建 20MB 测速文件(私有 release 资产匿名不可读时本轮跳过,测速自动只用 Cloudflare)
+      - name: "确保 20MB 测速文件已发布(release: test)"
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/ensure_speedtest_asset.sh
+
+      # 抓取步骤都用 `|| echo warning` 容错,语法/清单错误会被吞到后面才爆;
+      # 这里先做一次静态自检,坏掉立刻红,报错位置也更直接。
+      - name: 脚本自检(语法 + 来源清单格式)
+        run: |
+          python - <<'PY'
+          import pathlib
+          import sys
+
+          errs = []
+          for p in sorted(pathlib.Path("scripts").glob("*.py")):
+              try:
+                  compile(p.read_text(encoding="utf-8"), str(p), "exec")
+              except SyntaxError as e:
+                  errs.append(f"{p}:{e.lineno}: {e.msg}")
+          if errs:  # 语法不过就别 import 了,否则只会抛原始 traceback
+              raise SystemExit("[FAIL] 脚本语法错误:\n  " + "\n  ".join(errs))
+
+          sys.path.insert(0, str(pathlib.Path("scripts").resolve()))
+          import sources
+
+          errs = [
+              f"SOURCES[{k!r}] 应为 (名称, 主页) 两元组, 实际 {v!r}"
+              for k, v in sources.SOURCES.items()
+              if not (isinstance(v, tuple) and len(v) == 2 and all(isinstance(x, str) for x in v))
+          ]
+          errs += [
+              f"FETCH_URLS[{k!r}] 应为字符串, 实际 {v!r}"
+              for k, v in sources.FETCH_URLS.items()
+              if not isinstance(v, str)
+          ]
+          # 每个 FETCH_URLS 来源都必须有 SOURCES 条目,否则 sanitize.py 的
+          # --source choices 会直接拒绝,该来源永远发不出去
+          errs += [
+              f"FETCH_URLS[{k!r}] 没有对应的 SOURCES 条目"
+              for k in sources.FETCH_URLS
+              if k not in sources.SOURCES
+          ]
+          if errs:
+              raise SystemExit("[FAIL] 自检未通过:\n  " + "\n  ".join(errs))
+
+          print("[OK] 语法与来源清单正常: SOURCES %d 个, FETCH_URLS %d 个"
+                % (len(sources.SOURCES), len(sources.FETCH_URLS)))
+          print("     抓取来源: %s" % ", ".join(sorted(sources.FETCH_URLS)))
+          print("     非 fetch 来源: %s"
+                % ", ".join(sorted(set(sources.SOURCES) - set(sources.FETCH_URLS))))
+          PY
+
+      # 私有仓库: release 资产匿名不可读, 测速统一用 Cloudflare
+      - name: Scrape yoyapai
+        run: python scripts/scraper.py || echo "::warning::yoyapai 抓取失败，跳过该来源"
+
+      - name: Fetch other sources
+        run: python scripts/fetch_sources.py || echo "::warning::部分来源下载失败，继续处理已下载的来源"
+
+      # 订阅地址每天变化,要先解析文章页再拿下载地址(nodetoolbox / jichangg)
+      - name: 抓取页面型来源（每日文章页解析）
+        run: python scripts/scrape_page_sources.py || echo "::warning::页面型来源抓取失败，跳过"
+
+      - name: Sanitize + 内核门禁 + 发布
+        run: |
+          published=0
+          for f in output/*/clash.raw.yaml; do
+            [ -e "$f" ] || continue
+            src=$(basename "$(dirname "$f")")
+            dst="output/$src/clash.yaml"
+            args=(--source "$src" --mihomo "$MIHOMO_BIN")
+            if [ "${MIHOMO_GATE:-0}" = "1" ]; then
+              args+=(--gate --mihomo-dir "$MIHOMO_DIR")
+            fi
+            if python scripts/sanitize.py "$f" "$dst" "${args[@]}"; then
+              published=$((published+1))
+              echo "  [OK] $src 已发布"
+            else
+              echo "::warning::$src 清洗/内核校验失败，保留上一版 $dst"
+            fi
+          done
+          rm -f output/*/clash.raw.yaml
+          echo "本轮成功发布来源数: $published"
+          if [ "$published" -eq 0 ]; then
+            echo "::warning::本轮没有任何来源成功发布（可能全部抓取失败）"
+          fi
+
+      - name: 来源清单一致性检查
+        run: python scripts/check_sources.py
+
+      - name: 可达性 + 测速 + 生成 AIO
+        run: |
+          INPUTS=$(python scripts/list_inputs.py)
+          echo "输入: $INPUTS"
+          if [ -z "$INPUTS" ]; then
+            echo "::error::没有可用的来源文件"; exit 1
+          fi
+          # 手动触发时可以关掉延迟/带宽测试;两个都关 = 直接合并(AIO 不精选走另一步)
+          TEST_LATENCY="${{ inputs.test_latency }}"
+          TEST_BANDWIDTH="${{ inputs.test_bandwidth }}"
+          FLAGS=""
+          if [ "$TEST_LATENCY" = "false" ] && [ "$TEST_BANDWIDTH" = "false" ]; then
+            FLAGS="--merge-only"
+            echo "手动参数: 不测延迟/带宽 -> AIO 直接合并"
+          else
+            if [ "$TEST_LATENCY" = "false" ]; then FLAGS="$FLAGS --no-delay"; fi
+            if [ "$TEST_BANDWIDTH" = "false" ]; then FLAGS="$FLAGS --no-speed"; fi
+            echo "手动参数: test_latency=${TEST_LATENCY:-true} test_bandwidth=${TEST_BANDWIDTH:-true}"
+          fi
+          python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml $FLAGS \
+            --mihomo "$MIHOMO_BIN" \
+            --concurrency 128 \
+            --timeout-ms 4500 \
+            --speed-concurrency 128 \
+            --speed-timeout 5 \
+            --speed-latency-timeout 3 \
+            --fast-threshold 2.0 \
+            --speed-bytes 20000000 \
+            || echo "::warning::AIO 生成失败（节点测试异常），保留上一版"
+
+      # 不精选版:不做延迟/带宽测试,把所有来源节点直接去重合并
+      - name: 生成 AIO 不精选（直接合并）
+        run: |
+          INPUTS=$(python scripts/list_inputs.py)
+          echo "输入: $INPUTS"
+          if [ -z "$INPUTS" ]; then
+            echo "::error::没有可用的来源文件"; exit 1
+          fi
+          python scripts/test_nodes.py $INPUTS -o output/aio-all/clash.yaml --merge-only \
+            || echo "::warning::AIO 不精选生成失败，保留上一版"
+
+      - name: 校验 AIO（精选 + 不精选）
+        run: |
+          if [ "${MIHOMO_GATE:-0}" = "1" ]; then
+            for f in output/aio/clash.yaml output/aio-all/clash.yaml; do
+              [ -f "$f" ] || { echo "::warning::$f 不存在，跳过"; continue; }
+              "$MIHOMO_BIN" -t -d "$MIHOMO_DIR" -f "$f" \
+                && echo "[OK] $f 内核校验通过" \
+                || { echo "::error::$f 未通过内核校验"; exit 1; }
+            done
+          else
+            echo "::warning::跳过 AIO 内核校验（地理库不可用）"
+          fi
+
+      - name: 结果汇总
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import glob
+          import yaml
+
+          print("## 本轮产物\n")
+          print("| 文件 | 节点数 |")
+          print("| --- | --- |")
+          for f in sorted(glob.glob("output/*/clash.yaml")):
+              try:
+                  d = yaml.safe_load(open(f, encoding="utf-8")) or {}
+                  print(f"| `{f}` | {len(d.get('proxies') or [])} |")
+              except Exception as e:
+                  print(f"| `{f}` | 解析失败: {e} |")
+          PY
+
+      - name: Commit and push
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.dry_run != true }}
+        run: |
+          git config user.name "proxy-node-bot"
+          git config user.email "bot@proxy-node.dev"
+          git add -A output/ latest_urls.json
+          if git diff --cached --quiet; then
+            echo "没有需要提交的变更"
+            exit 0
+          fi
+          git diff --cached --stat | tail -5
+          git commit -m "update: $(TZ=Asia/Shanghai date +%Y-%m-%d) 节点订阅"
+          # 订阅产物是每次运行重新生成的,远端若在本次运行期间也提交过,
+          # 合并时一律保留"本轮生成"的内容(生成物没有合并的意义)。
+          for i in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            if git rebase -X theirs "origin/${GITHUB_REF_NAME}"; then
+              if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+                echo "推送成功"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              echo "::warning::远端与本地都改过生成物,改用 merge 保留本轮产物"
+              if git merge -X ours --no-edit "origin/${GITHUB_REF_NAME}" \
+                 && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+                echo "推送成功(merge)"
+                exit 0
+              fi
+            fi
+            echo "::warning::第 $i 次推送失败，5 秒后重试"
+            sleep 5
+          done
+          echo "::error::推送失败"
+          exit 1

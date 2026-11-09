@@ -1,0 +1,140 @@
+# proxy-node（Z）
+
+节点订阅聚合：**每 4 小时**由 GitHub Actions 抓取多个公开来源，清洗、去重、用 mihomo 内核实测后发布。
+
+- 单来源订阅：每个来源一个 `output/<来源>/clash.yaml`
+- **AIO 精选**：所有来源合并、去重，只有通过可达性与测速的节点才会留下
+- **AIO 不精选**：所有来源直接去重合并，不做任何测试
+
+产物都带 `mihomo -t` 内核门禁，过不了的配置不会发布。
+
+## 一轮是怎么跑的
+
+1. **抓取** `scripts/scraper.py`（yoyapai 文章页）、`scripts/fetch_sources.py`（固定订阅）、`scripts/scrape_page_sources.py`（每日文章页来源）
+2. **清洗** `scripts/sanitize.py`：控制字符、垃圾顶层键、重名、悬空引用、节点名去网址、老字段翻译（`fingerprint`→`client-fingerprint`、REALITY 补 TLS、非法 alpn 丢弃）
+3. **内核门禁** 每个来源单独 `mihomo -t`，通过才替换已发布文件，否则保留上一版
+4. **合并** `scripts/test_nodes.py`：AIO 精选做可达性 + 20MB 测速；AIO 不精选只去重合并
+
+
+## 分组结构
+
+AIO 精选是「总模式 + 七个出口」，AIO 不精选少两个测速分组（高速/优质），其余一致。
+
+| 分组 | 类型 | 说明 |
+|------|------|------|
+| 🔰 总模式 | select | **唯一入口，规则 `MATCH` 指向它**；内含下面全部出口，**默认选「♻️ 自动选择」** |
+| 🚀 手动选择 | select | 收**全部节点**：`include-all-proxies`，点开就是完整节点清单 |
+| ⚡ 高速节点 | select | `include-all-proxies` + `filter: ⚡`；节点名里带 `⚡` 的就是高速（仅精选版） |
+| 🏅 优质节点 | select | `include-all-proxies` + `filter: 🏅`；速度达标且延迟合格（与高速互斥，仅精选版） |
+| ♻️ 自动选择 | url-test | 自动挑延迟最低的节点，每 300 秒复测，容差 50ms |
+| ⏳ 延迟最低 | url-test | 容差 0，始终钉住当前最快节点 |
+| 🔁 故障转移 | fallback | 按顺序尝试，当前节点不可用就换下一个 |
+| ⚖️ 负载均衡 | load-balance | 轮询使用全部节点（round-robin） |
+| 🇨🇳 国内直连 | select | 国内流量出口，默认 `DIRECT`；想屏蔽国内流量可改选 `REJECT` |
+
+```
+rules:
+  - GEOIP,CN,🇨🇳 国内直连    # 国内流量默认直连
+  - MATCH,🔰 总模式          # 其余全部走总模式,总模式默认选自动选择
+```
+
+「总模式」的第一项就是默认值，所以客户端首次导入即是**自动选择**；想换策略在它里面点一下即可，不用改订阅。
+
+### 分组不重复列节点
+
+除总模式与国内直连外，所有出口都写成 `include-all-proxies: true`，由内核在加载时把同一批节点收进来；高速/优质再用 `filter` 按名字里的 `⚡`/`🏅` 标记二次筛选。这样 `clash.yaml` 里不会出现「同一份节点清单抄五遍」，文件体积和维护成本都降下来。
+
+节点名格式：`[测速标记] 国旗+国家码+三位编号`，例如：
+
+```
+[⚡109.9MB/s] 🇯🇵JP001      高速（速度 > 阈值）
+[🏅87.1MB/s] 🇯🇵JP002       优质（速度达标且延迟合格）
+[12.3MB/s]   🇺🇸US001       测过速但不在上两档
+[测速失败]   🇭🇰HK001
+[未测速]     🌐UN001         认不出国家的归到 UN
+```
+
+- 编号在**同一国家内**从 001 开始，按实测速度从上到下排，所以编号就是该国排名；
+- 名字里的 URL 编码（`%E9%A6%99%E6%B8%AF`）会被还原成可读文本（`香港`）；
+- 全文件字符串都会做 URL 解码（含多层编码）与 mojibake 修复；`path` 也解，`Host`/`server`/密码类字段保持原样；
+- `sni` 只允许主机名或 IP，带 `https://`、`%`、空格、emoji 的脏值整条丢弃（这类节点本来也握不上手）；
+
+- 名字里不再出现日期、时间、网址、上游 ID；
+- `⚡`/`🏅` 同时是分组 `filter` 的依据，`strip_annotation()` 能把整段前缀剥掉。
+
+
+### 国家只体现在节点名
+
+分组不再按国家拆分：`🚀 手动选择` 里就是全部节点，`🔰 总模式` 里是八个固定出口。
+国家信息只用在命名上（`🇯🇵JP001`），判定顺序是：**服务器 IP 归属地 → 名字里的国旗/中文国名/两字母代码 → UN**。
+归属地用离线库 `dbip-country-ipv4.csv`（约 10MB，缓存在 `.cache/geo` 跟着 Actions 缓存走），
+域名型 `server` 先批量解析成 IP（128 并发、单次 1.5s、总预算 90s），超时就退回名字判定。
+
+### 节点名规则
+
+节点名里一律不带网址、日期与时间：清洗时会把 `yoyapai.com`、`t.me/xxx`、`2026-10.15更新`、`14:30` 这类片段删掉，并清掉因此悬空的分隔符与括号。想确认订阅新鲜度，看仓库的提交时间即可。
+
+
+## 目录结构
+
+```
+output/
+  <来源>/clash.yaml        # 单来源订阅（清洗 + 门禁通过后才更新）
+  aio/clash.yaml           # AIO 精选（可达性 + 测速过滤）
+  aio-all/clash.yaml       # AIO 不精选（直接合并全部来源）
+scripts/
+  sources.py               # 来源清单 + GitHub 镜像支持
+  scraper.py               # 抓 yoyapai 文章并下载订阅
+  fetch_sources.py         # 抓固定订阅（含分享链接转 Clash、内容自检、失败重试）
+  page_sources.py          # 页面型来源解析器（nodetoolbox / jichangg）
+  scrape_page_sources.py   # 抓页面型来源的每日订阅
+  uri_to_clash.py          # ss/vmess/vless/trojan/hysteria2/tuic → Clash proxies
+  sanitize.py              # 清洗 + 名称唯一性 + 字段规范化 + 内核门禁
+  test_nodes.py            # 合并 / 测速 / 生成 AIO（支持 --merge-only、--no-delay）
+  list_inputs.py           # 列出可参与合并的已发布订阅（跳过已下线目录）
+  check_sources.py         # 校验 output/ 与来源清单一致
+  ensure_speedtest_asset.sh# 确保 release:test 的 20MB 测速文件存在
+  install_mihomo.sh        # 取最新 mihomo 并校验 SHA256 + 预热地理库
+  mihomo.sha256            # 离线兜底校验和
+me                         # 本文
+latest_urls.json           # yoyapai 最新文章信息
+requirements.txt           # Python 依赖
+.github/workflows/scrape.yml
+```
+
+## 手动触发
+
+Actions → 定时抓取清洗节点 → Run workflow：
+
+| 参数 | 默认 | 说明 |
+|------|------|------|
+| `dry_run` | false | 只生成不提交 |
+| `test_latency` | true | false = 跳过延迟测试 |
+| `test_bandwidth` | true | false = 跳过 20MB 测速 |
+
+两个都设 false 时，AIO 精选退化为「直接合并」（与不精选相同）。
+
+## 本地运行
+
+```bash
+pip install -r requirements.txt
+bash scripts/install_mihomo.sh                  # 取最新内核
+python scripts/scraper.py                       # yoyapai
+python scripts/fetch_sources.py                 # 固定订阅
+python scripts/scrape_page_sources.py           # 页面型来源
+for f in output/*/clash.raw.yaml; do
+  src=$(basename "$(dirname "$f")")
+  python scripts/sanitize.py "$f" "output/$src/clash.yaml" --source "$src" --gate \
+    --mihomo "$MIHOMO_BIN" --mihomo-dir "$MIHOMO_DIR"
+done
+python scripts/test_nodes.py $(python scripts/list_inputs.py) -o output/aio/clash.yaml
+python scripts/test_nodes.py $(python scripts/list_inputs.py) -o output/aio-all/clash.yaml --merge-only
+```
+
+## 说明
+
+- 所有节点来自公开来源，仅做聚合与清洗，不保证可用性与安全性。
+- 已下线的来源目录会被 `check_sources.py` 记为告警（`RETIRED`），不再参与合并。
+- 内核与地理库每轮重新获取，配置每次都用真实内核校验。
+
+MIT License
