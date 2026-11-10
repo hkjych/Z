@@ -1,60 +1,38 @@
 proxies:
-- client-fingerprint: chrome
+- auth: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
+  name: 🇩🇪DE_1|2.0MB/s
+  password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
+  port: 443
+  server: 194.48.250.233
+  skip-cert-verify: true
+  sni: mol.ultimagamest.com
+  type: hysteria2
+- client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: google.storage.v2.Storage
-  name: 🇵🇱PL_1|1.0MB/s
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
-    short-id: "8bd80253"
-  server: 201.58.189.105
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.9MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: "19999"
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.92S6CIJU3cj2F3WguJIJP932wsxxUF9DyDpCZm0mnG8
+    grpc-service-name: hls.5nd8-y0dx.lfm6tQMz2FNwh-fo0ugHo6dYDCvUyg.m3u8
   name: 🇳🇱NL_1|1.4MB/s
-  network: xhttp
-  port: "443"
-  reality-opts:
-    public-key: 809-9N1NmAQq-p3WxSq0EKI2FYnXqRy93tXCwmNXDyc
-    short-id: "40bb1773"
-    support-x25519mlkem768: true
-  server: 31.57.185.67
-  servername: aparat.com
+  network: grpc
+  port: 39443
+  server: wr0ct1hfg.apruxdomain.online
+  servername: x0c8j8znhp8ou.hat.onl
   tls: true
   type: vless
   udp: true
-  uuid: 6352d643-8a8f-4b22-a17c-982bea4928b6
-  xhttp-opts:
-    host: 31.57.185.67
-    mode: auto
-    path: /
-    reuse-settings:
-      c-max-reuse-times: "0"
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1200-2800
-      max-concurrency: "16"
-      max-connections: "0"
-    x-padding-bytes: 100-1000
-  xudp: true
+  uuid: 17923e69-98e0-4952-a599-9c848c1b8ffe
+- auth: 64c05afc-ce81-4ba0-b697-afa04da1427e
+  name: 🇺🇸US_1|1.7MB/s
+  password: 64c05afc-ce81-4ba0-b697-afa04da1427e
+  port: 44443
+  server: 104.168.6.236
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
 - alpn:
   - h3
   auth-str: github.com/Alvin9999-newpac/fanqiang
   down: "55"
-  name: 🇺🇸US_1|1.0MB/s
+  name: 🇺🇸US_2|1.0MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 22335
   server: 198.200.57.142
@@ -64,62 +42,8 @@ proxies:
   tls: true
   type: hysteria
   up: "11"
-- name: 🇬🇧GB_1|1.1MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1009KB/s|P002-260618
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇱🇺LU_1|1003KB/s
-  password: None
-  port: 9443
-  server: 185.221.132.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|3.2MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|4.6MB/s
-  network: xhttp
-  port: 443
-  server: www.codex2api.com
-  servername: 86f9dec4s478.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: 86f9dec4s478.kuback.top
-    path: "48a0348bf803e0097405a138424f4890"
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Forwarded-Uri
-    x-padding-key: _
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
 - client-fingerprint: chrome
-  name: 🇵🇱PL_2|2.4MB/s
+  name: 🇵🇱PL_1|1.6MB/s
   network: ws
   port: 443
   server: 3.169.9.125
@@ -134,316 +58,14 @@ proxies:
     headers:
       Host: d2ex4nxd2e01ub.cloudfront.net
     path: /
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_3|2.5MB/s
-  port: 34759
-  reality-opts:
-    public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-    short-id: "5e0eb283246c6911"
-  server: dddz-1-x.473221.xyz
-  servername: v1-dy.ixigua.com
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-- name: 🇭🇰HK_1|2.9MB/s
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.1MB/s
+- name: 🇬🇧GB_1|1.5MB/s
   password: null
   port: 443
-  server: 149.36.50.1
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇨🇭CH_1|1.8MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇧🇦BA_1|1.3MB/s
-  port: 9443
-  server: 185.164.35.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.1MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.1MB/s
-  password: None
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_1|1.2MB/s
-  port: 443
-  server: 185.163.110.194
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.5MB/s
-  password: null
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.5MB/s
-  password: null
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_4|1.1MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.6MB/s
-  password: null
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.1MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_3|2.1MB/s
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇦UA_1|3.3MB/s
-  network: xhttp
-  port: "443"
-  server: www.codex2api.com
-  servername: b5cb4fa7s274.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: b5cb4fa7s274.kuback.top
-    path: "596e6bac208562ef1c25e117655ef1a6"
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Forwarded-Uri
-    x-padding-key: _
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇭🇰HK_2|4.6MB/s
-  network: xhttp
-  port: "443"
-  server: www.codex2api.com
-  servername: d31e28d1s298.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: d31e28d1s298.kuback.top
-    path: "455fc4c251ca8ce9fd6ce94870833c49"
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Forwarded-Uri
-    x-padding-key: _
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_1|1.7MB/s
-  network: xhttp
-  port: "443"
-  server: www.codex2api.com
-  servername: 88a79b35s394.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: 88a79b35s394.kuback.top
-    path: "97d9472949ee4f4be023f97dfea13cfa"
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Forwarded-Uri
-    x-padding-key: _
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_2|3.1MB/s
-  network: xhttp
-  port: "443"
-  server: cf.090227.xyz
-  servername: 88a79b35s394.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: 88a79b35s394.kuback.top
-    path: "97d9472949ee4f4be023f97dfea13cfa"
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Forwarded-Uri
-    x-padding-key: _
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
-- name: 🇨🇳CN_1|1.6MB/s
-  password: ''
-  port: "8888"
-  server: 123.119.24.241
-  skip-cert-verify: true
-  type: http
-  username: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇵🇱PL_4|1.1MB/s
-  network: ws
-  port: "443"
-  server: 3.169.9.125
-  servername: d3kw8eszm8s6l1.cloudfront.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d3kw8eszm8s6l1.cloudfront.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|1.0MB/s
-  network: tcp
-  port: "443"
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: "23732d14a527990d"
-  server: 345739t.de15.h1clayd.click
-  servername: 345739t.de15.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55458d10-24ab-4ea6-a522-13741b546f2a
-  xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇹🇭TH_1|2.2MB/s
-  network: tcp
-  port: "11802"
-  reality-opts:
-    public-key: FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4
-    short-id: "6c84fbac2d"
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|1.6MB/s
-  network: ws
-  port: "443"
-  server: 3.169.9.125
-  servername: dkfsoyk9ju2as.cloudfront.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: dkfsoyk9ju2as.cloudfront.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
-  xudp: true
-- down: ''
-  name: 🇩🇪DE_7|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
-  port: "443"
-  server: 194.48.250.233
-  skip-cert-verify: true
-  sni: mol.ultimagamest.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_2|1.5MB/s
-  network: ws
-  port: "443"
-  server: 3.169.9.125
-  servername: d1m31xp31bswc2.cloudfront.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d1m31xp31bswc2.cloudfront.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /
-  xudp: true
 - name: '说明-来源: shaoyouvip/free'
   type: trojan
   server: 127.0.0.1
@@ -451,7 +73,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 70 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 12 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -477,6 +99,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: shaoyouvip/free'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 70 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 12 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
