@@ -5,7 +5,6 @@
 - 单来源订阅：每个来源一个 `output/<来源>/clash.yaml`
 - **AIO 精选**：所有来源合并、去重，只有通过可达性与测速的节点才会留下
 - **AIO 不精选**：所有来源直接去重合并，不做任何测试
-- **sing-box 版**：`output/aio/box.json`、`output/aio-all/box.json`，与同目录的 `clash.yaml` 等价
 
 产物都带 `mihomo -t` 内核门禁，过不了的配置不会发布。
 
@@ -15,7 +14,6 @@
 2. **清洗** `scripts/sanitize.py`：控制字符、垃圾顶层键、重名、悬空引用、节点名去网址、老字段翻译（`fingerprint`→`client-fingerprint`、REALITY 补 TLS、非法 alpn 丢弃）
 3. **内核门禁** 每个来源单独 `mihomo -t`，通过才替换已发布文件，否则保留上一版
 4. **合并** `scripts/test_nodes.py`：AIO 精选做可达性 + 20MB 测速；AIO 不精选只去重合并
-5. **转 sing-box** `scripts/clash_to_singbox.py`：把 AIO 的 `clash.yaml` 翻成同目录 `box.json`，`sing-box check` 过关才替换
 
 
 ## 分组结构
@@ -77,40 +75,13 @@ rules:
 节点名里一律不带网址、日期与时间：清洗时会把 `yoyapai.com`、`t.me/xxx`、`2026-10.15更新`、`14:30` 这类片段删掉，并清掉因此悬空的分隔符与括号。想确认订阅新鲜度，看仓库的提交时间即可。
 
 
-## sing-box 版（box.json）
-
-`output/aio/` 和 `output/aio-all/` 里的 `clash.yaml` 会同步翻成 sing-box 的 `box.json`（同目录、同分组、同规则）。
-转换由 `scripts/clash_to_singbox.py` 完成，工作流在发布 AIO 之后调用它，并把结果用 `sing-box check` 校验一遍：
-
-| clash.yaml | box.json |
-|---|---|
-| 节点 `proxies` | 出站 `outbounds`（wireguard 落在 `endpoints`） |
-| `select` 分组 | `selector`，`default` 取第一个成员 |
-| `url-test` / `fallback` / `load-balance` | `urltest`，`url`/`interval`/`tolerance` 照搬 |
-| `include-all-proxies` + `filter` | 展开成真实成员列表（sing-box 没有 filter） |
-| `GEOIP,CN,🇨🇳 国内直连` | 默认丢弃；加 `--geoip remote` 才改成远程 `geoip-cn` 规则集 |
-| `MATCH,🔰 总模式` | `route.final` |
-
-- 入站：`tun`（`auto_route`）+ `mixed`（127.0.0.1:7890）；只给命令行用可加 `--no-tun` 去掉 tun。
-- DNS：`.cn` 走本机 DNS，其余走 `1.1.1.1` 的 DoH（`detour` 指向总模式）。
-- 支持 ss / vmess / vless / trojan / hysteria / hysteria2 / tuic / anytls / http / socks5 / wireguard；
-  `ssr`、`mieru`、`vless+xhttp`、老式 vmess（`alterId≠0`）在 sing-box 里没有对应实现，会被跳过并计数。
-- 生成后跑 `sing-box check`，不过就不覆盖上一版（保留旧 `box.json`）；没装上内核时只跳过校验。
-- 想在本机复现：`bash scripts/install_singbox.sh` 之后
-  `python scripts/clash_to_singbox.py output/aio/clash.yaml -o output/aio/box.json`。
-- 默认不写远程规则集：sing-box 1.14 起 `GEOIP` 只能靠远程 `geoip-cn.srs`，而规则集下载失败会让进程**起不来**，
-  所以默认把国内流量也交给总模式；确实需要 CN 分流再手动 `--geoip remote`。
-
-
 ## 目录结构
 
 ```
 output/
   <来源>/clash.yaml        # 单来源订阅（清洗 + 门禁通过后才更新）
   aio/clash.yaml           # AIO 精选（可达性 + 测速过滤）
-  aio/box.json             # 上面那份的 sing-box 版
   aio-all/clash.yaml       # AIO 不精选（直接合并全部来源）
-  aio-all/box.json         # 上面那份的 sing-box 版
 scripts/
   sources.py               # 来源清单 + GitHub 镜像支持
   scraper.py               # 抓 yoyapai 文章并下载订阅
@@ -123,9 +94,7 @@ scripts/
   list_inputs.py           # 列出可参与合并的已发布订阅（跳过已下线目录）
   check_sources.py         # 校验 output/ 与来源清单一致
   ensure_speedtest_asset.sh# 确保 release:test 的 20MB 测速文件存在
-  clash_to_singbox.py      # clash.yaml → sing-box box.json（协议/分组/规则翻译）
   install_mihomo.sh        # 取最新 mihomo 并校验 SHA256 + 预热地理库
-  install_singbox.sh       # 取最新 sing-box 内核（只用于校验 box.json）
   mihomo.sha256            # 离线兜底校验和
 me                         # 本文
 latest_urls.json           # yoyapai 最新文章信息
@@ -160,12 +129,6 @@ for f in output/*/clash.raw.yaml; do
 done
 python scripts/test_nodes.py $(python scripts/list_inputs.py) -o output/aio/clash.yaml
 python scripts/test_nodes.py $(python scripts/list_inputs.py) -o output/aio-all/clash.yaml --merge-only
-
-# 生成 sing-box 版（有内核时顺便校验）
-bash scripts/install_singbox.sh
-python scripts/clash_to_singbox.py output/aio/clash.yaml -o output/aio/box.json
-python scripts/clash_to_singbox.py output/aio-all/clash.yaml -o output/aio-all/box.json
-"$SINGBOX_BIN" check -c output/aio/box.json && "$SINGBOX_BIN" check -c output/aio-all/box.json
 ```
 
 ## 说明
