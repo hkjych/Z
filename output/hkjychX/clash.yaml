@@ -1679,7 +1679,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   udp: true
-- name: 关注频道
+- name: '不定期抽奖 #2'
   type: ss
   server: s-g04.loveroise.com
   port: 54030
@@ -1721,7 +1721,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 217Fg9zpgpVS4DGE
   udp: true
-- name: '不定期抽奖 #2'
+- name: '不定期抽奖 #3'
   type: ss
   server: gdgs.tarioblink.me
   port: 30003
@@ -1763,7 +1763,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   udp: true
-- name: '关注频道 #2'
+- name: 关注频道
   type: ss
   server: hk02.x.quickcht3.club
   port: 52612
@@ -2673,7 +2673,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: fB95883lTj5iIJGu0qB9iRq2ulza8IhX
   udp: true
-- name: '关注频道 #3'
+- name: '关注频道 #2'
   type: ss
   server: h.cm2.xiaomi-api.xyz
   port: 19832
@@ -2987,6 +2987,13 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: kYhF4RWqohTpbVau
+  udp: true
+- name: '@CloudCityy'
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
   udp: true
 - name: 'filembad-12 #2'
   type: ss
@@ -3697,75 +3704,82 @@ proxies:
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #5'
   type: ss
-  server: 162.19.169.128
+  server: 162.19.139.37
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #6'
   type: ss
-  server: 162.19.170.211
+  server: 162.19.169.128
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #7'
   type: ss
-  server: 162.19.170.219
+  server: 162.19.170.211
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #8'
   type: ss
-  server: 162.19.170.225
+  server: 162.19.170.219
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #9'
   type: ss
-  server: 162.19.18.235
+  server: 162.19.170.225
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #10'
   type: ss
-  server: 162.19.204.75
+  server: 162.19.18.235
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #11'
   type: ss
-  server: 162.19.204.83
+  server: 162.19.204.75
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #12'
   type: ss
-  server: 162.19.59.160
+  server: 162.19.204.83
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #13'
   type: ss
-  server: 162.19.59.166
+  server: 162.19.59.160
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #14'
   type: ss
-  server: 162.19.83.12
+  server: 162.19.59.166
   port: 443
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #15'
+  type: ss
+  server: 162.19.83.12
+  port: 443
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
   type: ss
   server: 92.38.163.53
   port: 989
@@ -3779,6 +3793,13 @@ proxies:
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
+- name: '不定期抽奖 #4'
+  type: ss
+  server: 156.231.104.24
+  port: 18014
+  cipher: aes-256-gcm
+  password: 3JHTNK13T6BCEVNH
+  udp: true
 - name: 🇷🇺 Moscow, MOW, Russia
   type: ss
   server: 45.8.158.176
@@ -3786,14 +3807,14 @@ proxies:
   cipher: aes-256-gcm
   password: "1eadd4e4a37b6601"
   udp: true
-- name: '关注频道 #4'
+- name: '关注频道 #3'
   type: ss
   server: 92.113.116.11
   port: 15002
   cipher: aes-256-gcm
   password: 2MNBVYYYB23ZF03Z
   udp: true
-- name: '关注频道 #5'
+- name: '关注频道 #4'
   type: ss
   server: qh62onjn.slashdevslashnetslashtun.net
   port: 15003
@@ -3814,7 +3835,7 @@ proxies:
   cipher: aes-256-gcm
   password: 37fe3228-53ab-9453-19d9-e779456ef09a
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
   type: ss
   server: 51.77.230.27
   port: 36968
@@ -3860,13 +3881,6 @@ proxies:
   type: ss
   server: 45.144.172.123
   port: 20998
-  cipher: aes-256-gcm
-  password: "78235e7dc55e9ad1"
-  udp: true
-- name: filembad-28
-  type: ss
-  server: 45.144.172.123
-  port: 50660
   cipher: aes-256-gcm
   password: "78235e7dc55e9ad1"
   udp: true
@@ -3919,26 +3933,26 @@ proxies:
   cipher: aes-256-gcm
   password: FJo_V-KMvriDekN0CYkdNH0C
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
   type: ss
   server: 145.239.1.100
   port: 8080
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
   udp: true
-- name: '不定期抽奖 #3'
+- name: 🇺🇸_US_美国_6
+  type: ss
+  server: 38.110.1.111
+  port: 8000
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  udp: true
+- name: '不定期抽奖 #5'
   type: ss
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 18013
   cipher: aes-256-gcm
   password: HEFXL9QGFUT6ET4L
-  udp: true
-- name: '关注电报 #4'
-  type: ss
-  server: w72tapyb.slashdevslashnetslashtun.net
-  port: 21003
-  cipher: aes-256-gcm
-  password: HQJQFA7U2Z5HGZWH
   udp: true
 - name: Free x54 @Outline_Vpn
   type: ss
@@ -4010,13 +4024,6 @@ proxies:
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
-- name: '@FarazV2ray #132'
-  type: ss
-  server: 185.22.153.192
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
 - name: 🇸🇦𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
   type: ss
   server: 195.133.5.194
@@ -4045,14 +4052,14 @@ proxies:
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
   type: ss
   server: 145.239.1.100
   port: 8090
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
   type: ss
   server: 145.239.1.100
   port: 8091
@@ -4066,21 +4073,21 @@ proxies:
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
   udp: true
-- name: '关注电报 #5'
+- name: '关注电报 #4'
   type: ss
   server: 219.135.227.209
   port: 15010
   cipher: aes-256-gcm
   password: QM1BB5SMWC47IVWA
   udp: true
-- name: '不定期抽奖 #4'
+- name: '不定期抽奖 #6'
   type: ss
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 21004
   cipher: aes-256-gcm
   password: QF377GGQ00RATCMK
   udp: true
-- name: '关注电报 #6'
+- name: '关注电报 #5'
   type: ss
   server: ti3hyra4.slashdevslashnetslashtun.net
   port: 15006
@@ -4094,7 +4101,7 @@ proxies:
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
   type: ss
   server: 145.239.1.100
   port: 7001
@@ -4115,14 +4122,14 @@ proxies:
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: '@FarazV2ray #133'
+- name: '@FarazV2ray #132'
   type: ss
   server: 94.156.250.148
   port: 7001
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: '关注电报 #7'
+- name: '关注电报 #6'
   type: ss
   server: qh62onjn.slashdevslashnetslashtun.net
   port: 15011
@@ -4171,35 +4178,35 @@ proxies:
   cipher: aes-256-gcm
   password: Y2U58S90E3GST1AQ
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #22'
   type: ss
   server: 145.239.1.100
   port: 3306
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #22'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #23'
   type: ss
   server: 145.239.1.100
   port: 5600
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #23'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #24'
   type: ss
   server: 145.239.1.100
   port: 5601
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #24'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #25'
   type: ss
   server: 149.202.82.172
   port: 5600
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #25'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #26'
   type: ss
   server: 217.182.198.219
   port: 3306
@@ -4500,7 +4507,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@FarazV2ray #134'
+- name: '@FarazV2ray #133'
   type: ss
   server: 185.176.204.18
   port: 19999
@@ -4528,7 +4535,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@FarazV2ray #135'
+- name: '@FarazV2ray #134'
   type: ss
   server: 193.151.160.9
   port: 19999
@@ -4542,14 +4549,14 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@FarazV2ray #136'
+- name: '@FarazV2ray #135'
   type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@FarazV2ray #137'
+- name: '@FarazV2ray #136'
   type: ss
   server: 202.50.253.72
   port: 19999
@@ -4591,7 +4598,7 @@ proxies:
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   udp: true
-- name: '@FarazV2ray #138'
+- name: '@FarazV2ray #137'
   type: ss
   server: 46.17.47.58
   port: 18443
@@ -4605,7 +4612,7 @@ proxies:
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: '@FarazV2ray #139'
+- name: '@FarazV2ray #138'
   type: ss
   server: 51.79.85.185
   port: 8118
@@ -4689,7 +4696,7 @@ proxies:
   cipher: aes-256-gcm
   password: "dada1203"
   udp: true
-- name: '@FarazV2ray #140'
+- name: '@FarazV2ray #139'
   type: ss
   server: 185.156.47.97
   port: 9443
@@ -4703,7 +4710,7 @@ proxies:
   cipher: aes-256-gcm
   password: fBtIbHWC9nLAEdDUyk2tsGiVzGwGQYgX
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #26'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #27'
   type: ss
   server: 145.239.1.100
   port: 2376
@@ -4717,7 +4724,7 @@ proxies:
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #27'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #28'
   type: ss
   server: 217.182.198.219
   port: 2376
@@ -4780,7 +4787,7 @@ proxies:
   cipher: aes-256-gcm
   password: h8j6e3xuihn2epl9
   udp: true
-- name: '@FarazV2ray #141'
+- name: '@FarazV2ray #140'
   type: ss
   server: 51.83.192.80
   port: 8388
@@ -4801,7 +4808,7 @@ proxies:
   cipher: aes-256-gcm
   password: jreo6expr05ujrcj
   udp: true
-- name: '@FarazV2ray #142'
+- name: '@FarazV2ray #141'
   type: ss
   server: 51.75.118.5
   port: 20222
@@ -4937,7 +4944,7 @@ proxies:
   port: 450
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   udp: true
-- name: '@FarazV2ray #143'
+- name: '@FarazV2ray #142'
   type: trojan
   server: 149.28.130.108
   port: 443
@@ -4967,7 +4974,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #144'
+- name: '@FarazV2ray #143'
   type: trojan
   server: 167.88.61.52
   port: 443
@@ -5102,7 +5109,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #145'
+- name: '@FarazV2ray #144'
   type: trojan
   server: 216.152.147.89
   port: 443
@@ -5222,7 +5229,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: unlockyourfuturefindyourperfectcareer.com
-- name: '@FarazV2ray #146'
+- name: '@FarazV2ray #145'
   type: trojan
   server: 66.163.114.106
   port: 443
@@ -5258,7 +5265,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #147'
+- name: '@FarazV2ray #146'
   type: trojan
   server: 66.163.118.62
   port: 443
@@ -5320,7 +5327,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #148'
+- name: '@FarazV2ray #147'
   type: trojan
   server: 70.34.252.255
   port: 443
@@ -5344,7 +5351,7 @@ proxies:
   port: 443
   password: "123456"
   udp: true
-- name: '不定期抽奖 #5'
+- name: '不定期抽奖 #7'
   type: trojan
   server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
   port: 27231
@@ -5363,19 +5370,13 @@ proxies:
   port: 443
   password: "1710442808"
   udp: true
-- name: 🕊️57@oneclickvpnkeys
-  type: trojan
-  server: 87.58.220.77
-  port: 8443
-  password: "19a98e32a1149952a988e1e915306e07"
-  udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #72'
   type: trojan
   server: 216.106.186.66
   port: 443
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
   udp: true
-- name: '关注频道 #6'
+- name: '关注频道 #5'
   type: trojan
   server: hk03.trojanyyds.xyz
   port: 443
@@ -5469,7 +5470,7 @@ proxies:
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   skip-cert-verify: true
-- name: '关注电报 #8'
+- name: '关注电报 #7'
   type: trojan
   server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
   port: 27101
@@ -5553,7 +5554,7 @@ proxies:
   port: 489
   password: 654df5c6-73ac-3b11-8269-6b21fb8d9dad
   udp: true
-- name: '关注频道 #7'
+- name: '关注频道 #6'
   type: trojan
   server: naiu-us.05vr9nyqg5.download
   port: 13019
@@ -5792,7 +5793,7 @@ proxies:
   port: 30141
   password: JCY6NydkBA
   udp: true
-- name: '@FarazV2ray #149'
+- name: '@FarazV2ray #148'
   type: trojan
   server: mouyhninn-production.up.railway.app
   port: 443
@@ -5816,7 +5817,7 @@ proxies:
   port: 443
   password: MITIVPN
   udp: true
-- name: '@FarazV2ray #150'
+- name: '@FarazV2ray #149'
   type: trojan
   server: 104.18.152.225
   port: 443
@@ -6136,13 +6137,13 @@ proxies:
   port: 443
   password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
   udp: true
-- name: '@FarazV2ray #151'
+- name: '@FarazV2ray #150'
   type: trojan
   server: ertyuioiuyhb-production.up.railway.app
   port: 443
   password: SDTAQyUXpHVaH05p
   udp: true
-- name: '@FarazV2ray #152'
+- name: '@FarazV2ray #151'
   type: trojan
   server: video.poki-pakipon.ir
   port: 32190
@@ -6173,7 +6174,7 @@ proxies:
   password: Tg3RnK7Xp8B1
   udp: true
   skip-cert-verify: true
-- name: '@FarazV2ray #153'
+- name: '@FarazV2ray #152'
   type: trojan
   server: gb.tronsg.com
   port: 443
@@ -6206,7 +6207,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: meet-goshawk.rooster465.autos
-- name: '@FarazV2ray #154'
+- name: '@FarazV2ray #153'
   type: trojan
   server: 52.192.217.187
   port: 443
@@ -6341,7 +6342,7 @@ proxies:
   password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
   skip-cert-verify: true
-- name: '@FarazV2ray #155'
+- name: '@FarazV2ray #154'
   type: trojan
   server: Sclass-C1.catcat321.com
   port: 20086
@@ -6451,7 +6452,7 @@ proxies:
   port: 443
   password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
   udp: true
-- name: '@FarazV2ray #156'
+- name: '@FarazV2ray #155'
   type: trojan
   server: puohertestc-production.up.railway.app
   port: 443
@@ -6463,7 +6464,7 @@ proxies:
   port: 23005
   password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
   udp: true
-- name: '@FarazV2ray #157'
+- name: '@FarazV2ray #156'
   type: trojan
   server: 104.25.239.113
   port: 2053
@@ -6635,7 +6636,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #158'
+- name: '@FarazV2ray #157'
   type: trojan
   server: 104.18.37.127
   port: 443
@@ -6647,13 +6648,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #159'
+- name: '@FarazV2ray #158'
   type: trojan
   server: 104.19.95.153
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #160'
+- name: '@FarazV2ray #159'
   type: trojan
   server: 104.21.37.56
   port: 443
@@ -6683,7 +6684,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #161'
+- name: '@FarazV2ray #160'
   type: trojan
   server: 130.250.137.171
   port: 443
@@ -6708,7 +6709,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #162'
+- name: '@FarazV2ray #161'
   type: trojan
   server: 162.159.228.224
   port: 443
@@ -6739,7 +6740,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #163'
+- name: '@FarazV2ray #162'
   type: trojan
   server: 172.64.145.133
   port: 443
@@ -6811,13 +6812,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #164'
+- name: '@FarazV2ray #163'
   type: trojan
   server: 188.114.98.0
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #165'
+- name: '@FarazV2ray #164'
   type: trojan
   server: 188.226.181.61
   port: 443
@@ -6945,7 +6946,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #166'
+- name: '@FarazV2ray #165'
   type: trojan
   server: 94.158.219.126
   port: 443
@@ -7131,7 +7132,7 @@ proxies:
   port: 443
   password: pH[]S[Bh:_:D6T4k
   udp: true
-- name: '@FarazV2ray #167'
+- name: '@FarazV2ray #166'
   type: trojan
   server: 191.44.113.95
   port: 443
@@ -7465,7 +7466,7 @@ proxies:
   port: 32443
   uuid: 00ea847b-add2-47e4-9c48-cbca742e55c9
   udp: true
-- name: '@FarazV2ray #168'
+- name: '@FarazV2ray #167'
   type: vless
   server: 82.152.132.74
   port: 443
@@ -7480,7 +7481,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '@FarazV2ray #169'
+- name: '@FarazV2ray #168'
   type: vless
   server: dl-cf.f8r.ir
   port: 80
@@ -7510,7 +7511,7 @@ proxies:
   port: 443
   uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
   udp: true
-- name: '@FarazV2ray #170'
+- name: '@FarazV2ray #169'
   type: vless
   server: tr.s.hardvezoo.ir
   port: 2052
@@ -7562,7 +7563,7 @@ proxies:
   port: 443
   uuid: 026f58a9-b36e-4204-8f8d-54c5374163da
   udp: true
-- name: '@FarazV2ray #171'
+- name: '@FarazV2ray #170'
   type: vless
   server: t1dn.blazenetwork.ir
   port: 443
@@ -7610,7 +7611,7 @@ proxies:
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: '@FarazV2ray #172'
+- name: '@FarazV2ray #171'
   type: vless
   server: a2.arshia-nova.ir
   port: 443
@@ -7664,7 +7665,7 @@ proxies:
   port: 3939
   uuid: 032c5a4d-0e1b-4077-89ad-129386180d2c
   udp: true
-- name: '@FarazV2ray #173'
+- name: '@FarazV2ray #172'
   type: vless
   server: puohertestc-production.up.railway.app
   port: 443
@@ -7694,19 +7695,19 @@ proxies:
   port: 443
   uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
   udp: true
-- name: '@FarazV2ray #174'
+- name: '@FarazV2ray #173'
   type: vless
   server: de1-tun.dnetopps.ir
   port: 10010
   uuid: 03a3d946-4738-968a-5ce9-e4f470980d47
   udp: true
-- name: '@FarazV2ray #175'
+- name: '@FarazV2ray #174'
   type: vless
   server: de2-tun.dnetopps.ir
   port: 10020
   uuid: 03a3d946-4738-968a-5ce9-e4f470980d47
   udp: true
-- name: '@FarazV2ray #176'
+- name: '@FarazV2ray #175'
   type: vless
   server: tr1-tun.dnetopps.ir
   port: 10050
@@ -7755,7 +7756,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3506 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3513 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -7781,6 +7782,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: hkjych/X'
-  - '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3506 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3513 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
