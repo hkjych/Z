@@ -15,6 +15,7 @@
 2. **清洗** `scripts/sanitize.py`：控制字符、垃圾顶层键、重名、悬空引用、节点名去网址、老字段翻译（`fingerprint`→`client-fingerprint`、REALITY 补 TLS、非法 alpn 丢弃）
 3. **内核门禁** 每个来源单独 `mihomo -t`，通过才替换已发布文件，否则保留上一版
 4. **合并** `scripts/test_nodes.py`：AIO 精选做可达性 + 20MB 测速；AIO 不精选只去重合并
+5. **转 sing-box** `scripts/clash_to_singbox.py`（由 `check_sources.py` 调用）：把 AIO 的 `clash.yaml` 翻成同目录 `box.json`
 
 
 ## 分组结构
@@ -78,7 +79,8 @@ rules:
 
 ## sing-box 版（box.json）
 
-`output/aio/` 和 `output/aio-all/` 里的 `clash.yaml` 会同步翻成 sing-box 的 `box.json`（同目录、同分组、同规则）：
+`output/aio/` 和 `output/aio-all/` 里的 `clash.yaml` 会同步翻成 sing-box 的 `box.json`（同目录、同分组、同规则）。
+转换由 `scripts/clash_to_singbox.py` 完成，跑在 `scripts/check_sources.py` 末尾（该脚本正好在 AIO 发布之后执行）：
 
 | clash.yaml | box.json |
 |---|---|
@@ -93,7 +95,9 @@ rules:
 - DNS：`.cn` 走本机 DNS，其余走 `1.1.1.1` 的 DoH（`detour` 指向总模式）。
 - 支持 ss / vmess / vless / trojan / hysteria / hysteria2 / tuic / anytls / http / socks5 / wireguard；
   `ssr`、`mieru`、`vless+xhttp`、老式 vmess（`alterId≠0`）在 sing-box 里没有对应实现，会被跳过并计数。
-- 生成后跑 `sing-box check`，不过就不覆盖上一版；没装上内核时只跳过校验，文件照常生成。
+- CI 里只生成、不额外下载内核去校验（省一轮 30MB 下载）；想在本地核一遍：
+  `bash scripts/install_singbox.sh && "$SINGBOX_BIN" check -c output/aio/box.json`。
+- 转换失败只告警、保留上一版 `box.json`，不会让来源校验变红。
 - 默认不写远程规则集：sing-box 1.14 起 `GEOIP` 只能靠远程 `geoip-cn.srs`，而规则集下载失败会让进程**起不来**，
   所以默认把国内流量也交给总模式；确实需要 CN 分流再手动 `--geoip remote`。
 
