@@ -24,9 +24,9 @@ proxies:
 - name: 其他-001
   type: vless
   network: ws
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 172.66.133.28
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  uuid: bdde0eb9-62c6-4d30-ac96-ab10d8eb7939
+  server: 104.26.1.117
+  servername: erupencompanypdr.pages.dev
   port: 443
   skip-cert-verify: false
   tls: true
@@ -34,48 +34,9 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
-  client-fingerprint: firefox
-- name: 其他-002
-  type: vless
-  network: ws
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-  server: 104.27.88.172
-  servername: web-app-nr6wpa.app-tp57xz.workers.dev
-  port: 80
-  tls: false
-  ws-opts:
-    headers:
-      Host: web-app-nr6wpa.app-tp57xz.workers.dev
-    path: /api/ws
-  encryption: none
-- name: 其他-003
-  type: vless
-  network: tcp
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  server: ams2.shtil.io
-  servername: ams2.shtil.io
-  port: 444
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 其他-004
-  type: vless
-  network: tcp
-  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
-  server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  port: 20065
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
+      Host: erupencompanypdr.pages.dev
+    path: /ISoOMY675XVPxHG4?ed=2560
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 德国-001 |1.6MB/s
   type: hysteria
   server: 5.83.129.90
@@ -90,22 +51,6 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: 德国-002
-  type: vless
-  network: ws
-  uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
-  server: 195.137.226.133
-  servername: nexostore.xnetaro.ir
-  port: 2083
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: nexostore.xnetaro.ir
-    path: /wss?TELEGRAM----
-  client-fingerprint: firefox
 - name: 意大利-001
   type: vless
   network: ws
@@ -118,19 +63,6 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳 fp=chromefp=chrome
-- name: 新西兰-001
-  type: vless
-  network: tcp
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  server: 177.177.215.45
-  servername: ams2.shtil.io
-  port: 444
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   type: http
   server: 159.13.44.228
@@ -182,13 +114,13 @@ proxies:
   tls: true
 - name: 罗马尼亚-008 |1.0MB/s
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
 - name: 罗马尼亚-009 |1.0MB/s
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -282,16 +214,6 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 美国-005
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
 - name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 84.17.47.150
@@ -46454,19 +46376,51 @@ proxies:
   port: 8081
   server: 200.10.31.42
   type: http
-- type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
+- type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
   udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
   name: 8元老牌专线机场
+- type: vless
+  server: 72.56.38.83
+  port: 443
+  udp: true
+  uuid: Fluffy_VPN-zKZUa4Ie
+  tls: true
+  servername: absolute-disaster.org
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: 俄罗斯_51BADB
+- type: vless
+  server: 79.182.39.108
+  port: 443
+  udp: true
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  tls: true
+  servername: 15d7fft.nl11.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
+    short-id: "c71118d9399fb8c2"
+  name: 俄罗斯_A3A7F3
+- type: vless
+  server: 92.243.66.79
+  port: 443
+  udp: true
+  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+  tls: true
+  servername: ru-mow.probe.geomyip.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o
+    short-id: "8d03c10b6a874a9c"
+  flow: xtls-rprx-vision
+  name: 俄罗斯_DF1DEC
 - type: vless
   server: 185.246.155.91
   port: 10103
@@ -46479,7 +46433,32 @@ proxies:
     public-key: obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko
     short-id: "6859f5b59e55aa30"
   flow: xtls-rprx-vision
-  name: 土耳其_5C9265
+  name: 土耳其_37029F
+- type: vless
+  server: 79.182.39.109
+  port: 443
+  udp: true
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  tls: true
+  servername: 71b840t.de7.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
+    short-id: "e572b6579ea525d4"
+  name: 德国_3C65A4
+- type: vless
+  server: music.3apes.online
+  port: 443
+  udp: true
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  tls: true
+  servername: music.3apes.online
+  client-fingerprint: qq
+  reality-opts:
+    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: 德国_B621A6
 - type: vless
   server: 2.26.251.236
   port: 443
@@ -46491,55 +46470,55 @@ proxies:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
   flow: xtls-rprx-vision
-  name: 德国_C44DCF
-- type: vless
-  server: 176.100.37.154
-  port: 443
-  udp: true
-  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
-  tls: true
-  servername: modx-au.bachidze.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: 德国_EE8389
+  name: 德国_DE922E
 - type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_126798
+  name: 意大利_182E49
 - type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_1BB138
+  name: 意大利_5A35E7
 - type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_248EDE
+  name: 意大利_5FA410
 - type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_2F34B6
+  name: 意大利_89B03D
 - type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_E94E67
+  name: 意大利_AE4C6F
+- type: vless
+  server: prvtch.titun.su
+  port: 443
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  tls: true
+  servername: perevodchiki.su
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: "428ef87fd47a3a32"
+  flow: xtls-rprx-vision
+  name: 瑞士_07D439
 - type: vless
   server: 179.43.166.190
   port: 443
@@ -46547,75 +46526,32 @@ proxies:
   uuid: 90157e25-cee1-4217-921e-91f300bc1a24
   tls: true
   servername: perevodchiki.su
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
     short-id: "428ef87fd47a3a32"
   flow: xtls-rprx-vision
-  name: 瑞士_1DCC0E
+  name: 瑞士_51FD8A
 - type: vless
-  server: 46.19.138.214
+  server: 212.103.62.233
   port: 443
   udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  uuid: a715374a-a745-4800-889b-0c864fad5ca0
   tls: true
-  servername: perevodchiki.su
-  client-fingerprint: firefox
+  servername: www.apple.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: "428ef87fd47a3a32"
+    public-key: d9PiZnm10DBNrlT1ixDCgEk0iU1Hv8Jk1xEI4-Oe6jU
+    short-id: "35d45334668b3ac5"
   flow: xtls-rprx-vision
-  name: 瑞士_525CB1
-- type: vless
-  server: jp.sofast.live
-  port: 52683
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  name: 美国_3CC676
-- type: vless
-  server: gembeforeshoping.space
-  port: 443
-  udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  servername: gembeforeshoping.space
-  reality-opts:
-    public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: 美国_4720C3
+  name: 美国_93237B
 - type: vless
   server: us22.sofast.live
   port: 58011
   udp: true
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   client-fingerprint: chrome
-  name: 美国_B02018
-- type: vless
-  server: 196.245.52.188
-  port: 443
-  udp: true
-  uuid: 747db87a-0cf6-4ea7-ae6b-3293afe2cef6
-  tls: true
-  servername: 62981et.us11.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: "ce43937e79bc30f0"
-  name: 美国_F10C30
-- type: vless
-  server: 5.104.74.124
-  port: 8443
-  udp: true
-  uuid: a2e6a96e-395f-4125-917c-77c52c059339
-  tls: true
-  servername: uk-room07.filesnap.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
-    short-id: "dbef98744832b751"
-  flow: xtls-rprx-vision
-  name: 英国_32EACE
+  name: 美国_BBCF2A
 - type: vless
   server: 5.104.74.21
   port: 8443
@@ -46628,14 +46564,20 @@ proxies:
     public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
     short-id: "7da3ba09a037e956"
   flow: xtls-rprx-vision
-  name: 英国_4D01F3
-- type: ss
-  server: 156.67.120.205
-  port: 51628
-  cipher: chacha20-ietf-poly1305
-  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  name: 英国_45D43B
+- type: vless
+  server: 5.104.74.124
+  port: 8443
   udp: true
-  name: 荷兰_0B4902
+  uuid: a2e6a96e-395f-4125-917c-77c52c059339
+  tls: true
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: "dbef98744832b751"
+  flow: xtls-rprx-vision
+  name: 英国_46E568
 - name: AT_speednode_0001
   server: au2.pad-sservice.lat
   port: 8443
@@ -47657,38 +47599,41 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: vless
-  name: '❓未知(3) #2'
-  server: 85.202.192.131
-  port: 34033
-  uuid: 2cb6a5d1-0165-4bc2-aff2-832672160c56
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: splitter.wb.ru
-  sni: splitter.wb.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: I7s_V_6XHD2As0H5Ok2GV2a2M7o9RDCrH2USpCZPy0A
-    short-id: "a1fdf7b7bebade41"
-- type: vless
-  name: '❓未知(59) #2'
-  server: 172.64.150.43
+  name: ❓未知丨#2
+  server: 62.106.75.86
   port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
-  servername: snip.edgeoneai.cc.cd
-  sni: snip.edgeoneai.cc.cd
+  servername: jp3.yohototo.top
+  sni: jp3.yohototo.top
   skip-cert-verify: false
   client-fingerprint: unsafe
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: snip.edgeoneai.cc.cd
+      Host: jp3.yohototo.top
 - type: vless
-  name: '❓未知(6) #2'
+  name: '❓未知(2) #2'
+  server: srv21.buddygpt.ru
+  port: 443
+  uuid: 0f11b72f-1af1-4f0a-b992-87a8241d9213
+  udp: true
+  tls: true
+  servername: packages.gitlab.com
+  sni: packages.gitlab.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: YEyZf6GvVcUG2VJnxyWOJQd8_ORz0n8Tw8Hs417OPxo
+    short-id: "5b524cdb28b6824a"
+  network: xhttp
+  xhttp-opts:
+    path: /assets/1117b6ce
+    mode: auto
+- type: vless
+  name: '❓未知(3) #2'
   server: 94.241.172.107
   port: 443
   uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
@@ -47705,6 +47650,68 @@ proxies:
   xhttp-opts:
     path: /assets/nl02/
     mode: packet-up
+- type: vless
+  name: '❓未知(58) #2'
+  server: 172.64.150.43
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  sni: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: ❓未知(98)
+  server: 85.202.192.131
+  port: 34033
+  uuid: 2cb6a5d1-0165-4bc2-aff2-832672160c56
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: splitter.wb.ru
+  sni: splitter.wb.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: I7s_V_6XHD2As0H5Ok2GV2a2M7o9RDCrH2USpCZPy0A
+    short-id: "a1fdf7b7bebade41"
+- type: vless
+  name: '🇨🇭CH瑞士(3) #2'
+  server: 179.43.166.190
+  port: 443
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: perevodchiki.su
+  sni: perevodchiki.su
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: "428ef87fd47a3a32"
+- type: vless
+  name: 🇯🇵JP日本丨#2
+  server: 104.21.70.228
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  sni: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: '说明-来源: wzmwayne/proxy-node'
   type: trojan
   server: 127.0.0.1
@@ -47712,7 +47719,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 41954 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 41986 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -47738,7 +47745,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 41954 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 41986 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)
@@ -47746,13 +47753,8 @@ proxy-groups:
   proxies:
   - 俄罗斯联邦-001
   - 其他-001
-  - 其他-002
-  - 其他-003
-  - 其他-004
   - 德国-001 |1.6MB/s
-  - 德国-002
   - 意大利-001
-  - 新西兰-001
   - 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   - 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   - 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
@@ -47778,7 +47780,6 @@ proxy-groups:
   - 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-004 |1.0MB/s|TK-US|GPT⁺-US
-  - 美国-005
   - 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
   - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
@@ -51818,23 +51819,24 @@ proxy-groups:
   - U⚪🏳️ukn_fb80b349
   - U⚪🏳️ukn_fe178131
   - 8元老牌专线机场
-  - 土耳其_5C9265
-  - 德国_C44DCF
-  - 德国_EE8389
-  - 意大利_126798
-  - 意大利_1BB138
-  - 意大利_248EDE
-  - 意大利_2F34B6
-  - 意大利_E94E67
-  - 瑞士_1DCC0E
-  - 瑞士_525CB1
-  - 美国_3CC676
-  - 美国_4720C3
-  - 美国_B02018
-  - 美国_F10C30
-  - 英国_32EACE
-  - 英国_4D01F3
-  - 荷兰_0B4902
+  - 俄罗斯_51BADB
+  - 俄罗斯_A3A7F3
+  - 俄罗斯_DF1DEC
+  - 土耳其_37029F
+  - 德国_3C65A4
+  - 德国_B621A6
+  - 德国_DE922E
+  - 意大利_182E49
+  - 意大利_5A35E7
+  - 意大利_5FA410
+  - 意大利_89B03D
+  - 意大利_AE4C6F
+  - 瑞士_07D439
+  - 瑞士_51FD8A
+  - 美国_93237B
+  - 美国_BBCF2A
+  - 英国_45D43B
+  - 英国_46E568
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -51914,9 +51916,13 @@ proxy-groups:
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
+  - ❓未知丨#2
+  - '❓未知(2) #2'
   - '❓未知(3) #2'
-  - '❓未知(59) #2'
-  - '❓未知(6) #2'
+  - '❓未知(58) #2'
+  - ❓未知(98)
+  - '🇨🇭CH瑞士(3) #2'
+  - 🇯🇵JP日本丨#2
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -51924,13 +51930,8 @@ proxy-groups:
   proxies:
   - 俄罗斯联邦-001
   - 其他-001
-  - 其他-002
-  - 其他-003
-  - 其他-004
   - 德国-001 |1.6MB/s
-  - 德国-002
   - 意大利-001
-  - 新西兰-001
   - 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   - 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   - 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
@@ -51956,7 +51957,6 @@ proxy-groups:
   - 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-004 |1.0MB/s|TK-US|GPT⁺-US
-  - 美国-005
   - 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
   - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
@@ -55996,23 +55996,24 @@ proxy-groups:
   - U⚪🏳️ukn_fb80b349
   - U⚪🏳️ukn_fe178131
   - 8元老牌专线机场
-  - 土耳其_5C9265
-  - 德国_C44DCF
-  - 德国_EE8389
-  - 意大利_126798
-  - 意大利_1BB138
-  - 意大利_248EDE
-  - 意大利_2F34B6
-  - 意大利_E94E67
-  - 瑞士_1DCC0E
-  - 瑞士_525CB1
-  - 美国_3CC676
-  - 美国_4720C3
-  - 美国_B02018
-  - 美国_F10C30
-  - 英国_32EACE
-  - 英国_4D01F3
-  - 荷兰_0B4902
+  - 俄罗斯_51BADB
+  - 俄罗斯_A3A7F3
+  - 俄罗斯_DF1DEC
+  - 土耳其_37029F
+  - 德国_3C65A4
+  - 德国_B621A6
+  - 德国_DE922E
+  - 意大利_182E49
+  - 意大利_5A35E7
+  - 意大利_5FA410
+  - 意大利_89B03D
+  - 意大利_AE4C6F
+  - 瑞士_07D439
+  - 瑞士_51FD8A
+  - 美国_93237B
+  - 美国_BBCF2A
+  - 英国_45D43B
+  - 英国_46E568
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -56092,21 +56093,20 @@ proxy-groups:
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
+  - ❓未知丨#2
+  - '❓未知(2) #2'
   - '❓未知(3) #2'
-  - '❓未知(59) #2'
-  - '❓未知(6) #2'
+  - '❓未知(58) #2'
+  - ❓未知(98)
+  - '🇨🇭CH瑞士(3) #2'
+  - 🇯🇵JP日本丨#2
 - name: 📦 anaer
   type: select
   proxies:
   - 俄罗斯联邦-001
   - 其他-001
-  - 其他-002
-  - 其他-003
-  - 其他-004
   - 德国-001 |1.6MB/s
-  - 德国-002
   - 意大利-001
-  - 新西兰-001
   - 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   - 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   - 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
@@ -56132,7 +56132,6 @@ proxy-groups:
   - 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-004 |1.0MB/s|TK-US|GPT⁺-US
-  - 美国-005
   - 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
   - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
@@ -60187,23 +60186,24 @@ proxy-groups:
   type: select
   proxies:
   - 8元老牌专线机场
-  - 土耳其_5C9265
-  - 德国_C44DCF
-  - 德国_EE8389
-  - 意大利_126798
-  - 意大利_1BB138
-  - 意大利_248EDE
-  - 意大利_2F34B6
-  - 意大利_E94E67
-  - 瑞士_1DCC0E
-  - 瑞士_525CB1
-  - 美国_3CC676
-  - 美国_4720C3
-  - 美国_B02018
-  - 美国_F10C30
-  - 英国_32EACE
-  - 英国_4D01F3
-  - 荷兰_0B4902
+  - 俄罗斯_51BADB
+  - 俄罗斯_A3A7F3
+  - 俄罗斯_DF1DEC
+  - 土耳其_37029F
+  - 德国_3C65A4
+  - 德国_B621A6
+  - 德国_DE922E
+  - 意大利_182E49
+  - 意大利_5A35E7
+  - 意大利_5FA410
+  - 意大利_89B03D
+  - 意大利_AE4C6F
+  - 瑞士_07D439
+  - 瑞士_51FD8A
+  - 美国_93237B
+  - 美国_BBCF2A
+  - 英国_45D43B
+  - 英国_46E568
 - name: 📦 zhangkaiitugithub/passcro
   type: select
   proxies:
@@ -60295,8 +60295,12 @@ proxy-groups:
 - name: 📦 yoyapai
   type: select
   proxies:
+  - ❓未知丨#2
+  - '❓未知(2) #2'
   - '❓未知(3) #2'
-  - '❓未知(59) #2'
-  - '❓未知(6) #2'
+  - '❓未知(58) #2'
+  - ❓未知(98)
+  - '🇨🇭CH瑞士(3) #2'
+  - 🇯🇵JP日本丨#2
 rules:
 - MATCH,🚀 节点选择(全部)

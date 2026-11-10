@@ -53,6 +53,12 @@ proxies:
   port: 443
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   sni: fi1.obxodvpn.us
+- name: NL荷兰( 更新)
+  type: hysteria2
+  server: 9.247.54.188
+  port: 443
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: nl1.obxodvpn.us
 - name: 🏀46@oneclickvpnkeys
   type: hysteria2
   server: 80.91.65.89
@@ -243,12 +249,6 @@ proxies:
   port: 52061
   password: 4z2oldt85p494bgb
   sni: assets.gateway-stream.com
-- name: 🍄‍🟫7@oneclickvpnkeys
-  type: hysteria2
-  server: 109.235.49.234
-  port: 443
-  password: 529f1911-04d5-4427-94b9-c851fd459a27
-  sni: tcp-reset-club.net
 - name: 🍎40@oneclickvpnkeys
   type: hysteria2
   server: nl-hy-test.tcp-reset-club.net
@@ -290,6 +290,12 @@ proxies:
   port: 443
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   sni: wopa7.api3-max.ru
+- name: 🪭3@oneclickvpnkeys
+  type: hysteria2
+  server: 185.121.179.146
+  port: 5443
+  password: 68a67906-5b37-4779-a6cc-58a1655f18b4
+  sni: hsale.locallynet.org
 - name: ⏳94@oneclickvpnkeys
   type: hysteria2
   server: forshynewh.duckdns.org
@@ -313,12 +319,6 @@ proxies:
   port: 51285
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   skip-cert-verify: true
-- name: 🧿96@oneclickvpnkeys
-  type: hysteria2
-  server: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
-  port: 443
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  sni: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
 - name: 🎃37@oneclickvpnkeys
   type: hysteria2
   server: 163.245.41.48
@@ -366,11 +366,6 @@ proxies:
   port: 50160
   password: "84a506ca5aca505696a454d828420b3f"
   skip-cert-verify: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #2'
-  type: hysteria2
-  server: sg4.dexlos.com
-  port: 20654
-  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
 - name: 3🥉@oneclickvpnkeys
   type: hysteria2
   server: fl02.auragg.org
@@ -469,12 +464,6 @@ proxies:
   skip-cert-verify: true
 - name: KR韩国( 更新)
   type: hysteria2
-  server: 130.162.134.218
-  port: 20000
-  password: C0DD7bgChaltqnh/T2az6ijM
-  sni: rmgyvpn.rest
-- name: 'KR韩国( 更新) #2'
-  type: hysteria2
   server: 193.122.115.52
   port: 20000
   password: C0DD7bgChaltqnh/T2az6ijM
@@ -560,12 +549,6 @@ proxies:
 - name: 🧅43@oneclickvpnkeys
   type: hysteria2
   server: 99.79.128.48
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  skip-cert-verify: true
-- name: ⚡73@oneclickvpnkeys
-  type: hysteria2
-  server: vpn-de-002.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
@@ -783,21 +766,9 @@ proxies:
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl3.nexfile.net
-- name: 🍪61@oneclickvpnkeys
-  type: hysteria2
-  server: 13.143.189.143
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl3.nexfile.net
 - name: '@V2rayNGVPN > کانفیگ رایگان #4'
   type: hysteria2
   server: 13.143.189.147
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl2.nexfile.net
-- name: '@V2rayNGVPN > کانفیگ رایگان #5'
-  type: hysteria2
-  server: 13.143.189.149
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl2.nexfile.net
@@ -843,7 +814,7 @@ proxies:
   port: 54183
   password: acc89593-8200-4701-817b-c4d9727ea5a7
   sni: outh.yandex-cloud.org
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #3'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #2'
   type: hysteria2
   server: 108.186.180.148
   port: 30865
@@ -973,12 +944,6 @@ proxies:
   port: 9443
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   skip-cert-verify: true
-- name: 🗳️72@oneclickvpnkeys
-  type: hysteria2
-  server: 104.165.205.250
-  port: 9443
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  sni: onecloudstream.com
 - name: ✈️42@oneclickvpnkeys
   type: hysteria2
   server: lv02.gotosvo.com
@@ -997,6 +962,12 @@ proxies:
   port: 443
   password: e5ec2586-59b3-40fa-91b7-bb37a2f7744e
   sni: crt.onecloudstream.com
+- name: '@V2rayNGVPN > کانفیگ رایگان #5'
+  type: hysteria2
+  server: 152.32.254.68
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
 - name: ✈️39@oneclickvpnkeys
   type: hysteria2
   server: 94.198.54.132
@@ -1317,6 +1288,13 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: SOg9NNrasz6s7bbtrDE7Fw==:iVNr4jrtlOQ790pRwaKn0A==
   udp: true
+- name: '节点 #2'
+  type: ss
+  server: 81.12.33.25
+  port: 8448
+  cipher: 2022-blake3-aes-128-gcm
+  password: S3BdZjXhunHnmBjmJbzjMQ==:42aNhDf1JSRtpLh3NwmnuA==
+  udp: true
 - name: 🌍 SD-SG-IEPL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   type: ss
   server: idc-tunnel.xssx.win
@@ -1352,6 +1330,13 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: 4/5nSfc32Vdu0FnLVuWX5mf/SIzSyZpBBSlqPvJPjz4=:k2Go3Q6dN+fFOMdPuCKbPhnmez/2niJCRApdrrVYuws=
   udp: true
+- name: filembad-15
+  type: ss
+  server: payin.ishizaki.ir
+  port: 4443
+  cipher: 2022-blake3-aes-256-gcm
+  password: BMQkK6icwa7vgmjpcRalZKCHqes8LZWlKLfUA0VsA/0=:LF3bB/qAmwzQzXb1xi25Djimtlvv+r7PwctWggD0xh0=
+  udp: true
 - name: v2rayNG_Matsuri@
   type: ss
   server: 91.107.147.12
@@ -1379,13 +1364,6 @@ proxies:
   port: 35176
   cipher: 2022-blake3-aes-256-gcm
   password: NjcyNmVjMTU1ZWU5NDA5ZDk0ODg1NWM1MzJjZTE3NDk=:ZmU0ZDJiM2U5NjVmNDM4OWE2ZTQwNTg4N2VmNWZkMmI=
-  udp: true
-- name: '@Vpn_Tehran ❤️ کانال تلگرام'
-  type: ss
-  server: web.turbooserver.net.tr
-  port: 2087
-  cipher: 2022-blake3-aes-256-gcm
-  password: WAqeGA+dU+HZYSipCio+Jmt7SSVfHjwMH7j8xmsm7/s=:althddZ27iu261I+568pk7HZzBFDCyIx6pvG8H9oXow=
   udp: true
 - name: 美国
   type: ss
@@ -1499,7 +1477,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 461f4996-a430-4482-a103-acef0713281a
   udp: true
-- name: '节点 #2'
+- name: '节点 #3'
   type: ss
   server: 13.140.83.153
   port: 1080
@@ -1653,7 +1631,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 8rUd3NnRy07oQQ8yFSeVB-Ivrc5Iq8aR
   udp: true
-- name: '节点 #3'
+- name: '节点 #4'
   type: ss
   server: 54.36.174.134
   port: 443
@@ -1772,21 +1750,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 220401d9-d4bf-444e-a140-d6c650948e74
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #4'
+- name: '@V2rayNGVPN > کانفیگ رایگان #8'
+  type: ss
+  server: 156.67.120.205
+  port: 51628
+  cipher: chacha20-ietf-poly1305
+  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  udp: true
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #3'
   type: ss
   server: 20.234.20.89
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 2OPuSlR6h3ZHql3h
   udp: true
-- name: '节点 #4'
+- name: '节点 #5'
   type: ss
   server: p2tun1.greewebservices.ir
   port: 1010
   cipher: chacha20-ietf-poly1305
   password: 2MRyo1ekfJ0exGnAVcKe6g
   udp: true
-- name: '节点 #5'
+- name: '节点 #6'
   type: ss
   server: 51.195.126.38
   port: 8388
@@ -1856,7 +1841,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: t1eiTbNnl7rpe1il
   udp: true
-- name: filembad-10
+- name: '@V2rayNGVPN > کانفیگ رایگان #9'
   type: ss
   server: 87.228.61.175
   port: 1443
@@ -1877,7 +1862,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: tztS0JGqX91pDVi5g8QyffaUPJlPUnWm
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #5'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #4'
   type: ss
   server: p2tun2.greewebservices.ir
   port: 1020
@@ -1989,7 +1974,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ytw2awn
   udp: true
-- name: 🇫🇷 France
+- name: Free 334 @Outline_Vpn
   type: ss
   server: 54.36.174.134
   port: 443
@@ -2017,7 +2002,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: znEtjgHLXH4FBLic
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #6'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #5'
   type: ss
   server: 20.107.184.151
   port: 443
@@ -2038,7 +2023,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: AWVyUgWWLc4G47GNo_bx2w
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #8'
+- name: '@V2rayNGVPN > کانفیگ رایگان #10'
   type: ss
   server: 152.53.1.57
   port: 8388
@@ -2066,7 +2051,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Bog0ELmMM9DSxDdQ
   udp: true
-- name: '🇫🇷 France #2'
+- name: 🇫🇷 France
   type: ss
   server: 51.255.13.232
   port: 8388
@@ -2094,7 +2079,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: CNL3mxdfZKiPKizL
   udp: true
-- name: '节点 #6'
+- name: '节点 #7'
   type: ss
   server: 204.11.2.90
   port: 57277
@@ -2107,6 +2092,13 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: D3QZyKA9jtLektTN
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #11'
+  type: ss
+  server: 138.197.89.234
+  port: 28960
+  cipher: chacha20-ietf-poly1305
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
   udp: true
 - name: '@FarazV2ray #36'
   type: ss
@@ -2122,23 +2114,23 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz
   udp: true
-- name: 'filembad-10 #2'
+- name: filembad-10
   type: ss
   server: tunn.pasmazy1.ir
   port: 7366
   cipher: chacha20-ietf-poly1305
   password: EQrPHHbDO6t3967Azav0QWNJtu7CnZTT
   udp: true
+- name: '@FarazV2ray #37'
+  type: ss
+  server: 20.164.217.73
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: EmbMstDjjBNtxFc0
+  udp: true
 - name: 'Channel : @proxy_kafee #2'
   type: ss
   server: 193.188.21.165
-  port: 8390
-  cipher: chacha20-ietf-poly1305
-  password: EyGy11BMfeP-6UHjsgajWw
-  udp: true
-- name: 🍏25@oneclickvpnkeys
-  type: ss
-  server: 64.188.77.159
   port: 8390
   cipher: chacha20-ietf-poly1305
   password: EyGy11BMfeP-6UHjsgajWw
@@ -2178,28 +2170,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G5p6ww4o67HB
   udp: true
-- name: '@FarazV2ray #37'
+- name: '@FarazV2ray #38'
   type: ss
   server: 20.234.97.18
   port: 443
   cipher: chacha20-ietf-poly1305
   password: GayYa2V7pUbJBfKu
   udp: true
-- name: '@FarazV2ray #38'
+- name: '@FarazV2ray #39'
   type: ss
   server: p2tun3.greewebservices.ir
   port: 1030
   cipher: chacha20-ietf-poly1305
   password: GlMm3noTNN5rX_LVT56U8g
   udp: true
-- name: '@FarazV2ray #39'
+- name: '@FarazV2ray #40'
   type: ss
   server: ir28482.jdjcr.3842.marzara.ir
   port: 1111
   cipher: chacha20-ietf-poly1305
   password: GnAQGwBq6QpfM5VbvOSVuA
   udp: true
-- name: '节点 #7'
+- name: '节点 #8'
   type: ss
   server: 20.123.11.204
   port: 443
@@ -2220,14 +2212,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: IXa3ylzS_jBOAsQy071tIQ
   udp: true
-- name: '@FarazV2ray #40'
+- name: '@FarazV2ray #41'
   type: ss
   server: 20.164.209.198
   port: 443
   cipher: chacha20-ietf-poly1305
   password: IdBspBchqpInOZFK
   udp: true
-- name: '@FarazV2ray #41'
+- name: '@FarazV2ray #42'
   type: ss
   server: 20.234.97.18
   port: 443
@@ -2241,7 +2233,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: KE_i6CLns77k_cQUX8WQia-L3DCSWVfU
   udp: true
-- name: '@FarazV2ray #42'
+- name: '@FarazV2ray #43'
   type: ss
   server: 49.51.39.148
   port: 443
@@ -2262,7 +2254,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: LMnotcv4RdaEOBXT-LdtfA
   udp: true
-- name: '@FarazV2ray #43'
+- name: '@FarazV2ray #44'
   type: ss
   server: 20.166.51.228
   port: 443
@@ -2318,14 +2310,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Ps4MSc9PUejUkW3E
   udp: true
-- name: '@FarazV2ray #44'
+- name: '@FarazV2ray #45'
   type: ss
   server: 193.29.139.168
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: '@FarazV2ray #45'
+- name: '@FarazV2ray #46'
   type: ss
   server: 193.29.139.212
   port: 8080
@@ -2339,7 +2331,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #7'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #6'
   type: ss
   server: 20.238.125.195
   port: 443
@@ -2353,7 +2345,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Qy7KyMo4epSCiluJ
   udp: true
-- name: '节点 #8'
+- name: '节点 #9'
   type: ss
   server: 92.112.126.90
   port: 443
@@ -2381,7 +2373,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: SNkhYx9ST5pUf1og
   udp: true
-- name: '节点 #9'
+- name: '节点 #10'
   type: ss
   server: clients.n9ne.com.tr
   port: 8388
@@ -2402,7 +2394,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: UUjphkQAh5BkOdbf
   udp: true
-- name: '@FarazV2ray #46'
+- name: '@FarazV2ray #47'
   type: ss
   server: 4.210.68.244
   port: 443
@@ -2416,7 +2408,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
   udp: true
-- name: '@FarazV2ray #47'
+- name: '@FarazV2ray #48'
   type: ss
   server: dns3.m3hrzd.ir
   port: 8044
@@ -2430,7 +2422,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
   udp: true
-- name: '@FarazV2ray #48'
+- name: '@FarazV2ray #49'
   type: ss
   server: 188.119.149.27
   port: 1080
@@ -2465,52 +2457,45 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: XN6Xf0ZqwDeFrt39TQraen
   udp: true
-- name: '@FarazV2ray #49'
+- name: '@FarazV2ray #50'
   type: ss
   server: 102.133.165.160
   port: 16233
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   udp: true
-- name: '@FarazV2ray #50'
+- name: '@FarazV2ray #51'
   type: ss
   server: 20.123.1.55
   port: 443
   cipher: chacha20-ietf-poly1305
   password: YF329KNGVTUZ1qrH
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #8'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #7'
   type: ss
   server: 138.124.15.120
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: ZWM1Y
   udp: true
-- name: '@FarazV2ray #51'
+- name: '@FarazV2ray #52'
   type: ss
   server: 04bf.velqixa.ir
   port: 34225
   cipher: chacha20-ietf-poly1305
   password: _xJuKfyAseakcwmOPeKW4g
   udp: true
-- name: '@FarazV2ray #52'
+- name: '@FarazV2ray #53'
   type: ss
   server: 1e20.velqixa.ir
   port: 36227
   cipher: chacha20-ietf-poly1305
   password: _xJuKfyAseakcwmOPeKW4g
   udp: true
-- name: '@FarazV2ray #53'
+- name: '@FarazV2ray #54'
   type: ss
   server: 881c.velqixa.ir
   port: 38226
-  cipher: chacha20-ietf-poly1305
-  password: _xJuKfyAseakcwmOPeKW4g
-  udp: true
-- name: '@FarazV2ray #54'
-  type: ss
-  server: ea51.zavqeron.ir
-  port: 32222
   cipher: chacha20-ietf-poly1305
   password: _xJuKfyAseakcwmOPeKW4g
   udp: true
@@ -2521,7 +2506,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "a1ebf7650909af2e30dd560b9746e351"
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #9'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #8'
   type: ss
   server: p1tun2.greewebservices.ir
   port: 2060
@@ -2703,6 +2688,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: hCgbUnMaoAfSgvE8IKdnGu
   udp: true
+- name: '@FarazV2ray #61'
+  type: ss
+  server: 23.230.52.119
+  port: 42878
+  cipher: chacha20-ietf-poly1305
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  udp: true
+- name: '@FarazV2ray #62'
+  type: ss
+  server: news.bushyjenz.cyou
+  port: 42878
+  cipher: chacha20-ietf-poly1305
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  udp: true
 - name: Free x156 @Outline_Vpn
   type: ss
   server: 20.107.193.38
@@ -2710,21 +2709,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: imq0vLikbOx4THZP
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #9'
+- name: '@V2rayNGVPN > کانفیگ رایگان #12'
   type: ss
   server: 46.8.69.253
   port: 443
   cipher: chacha20-ietf-poly1305
   password: ir_iPing
   udp: true
-- name: '@FarazV2ray #61'
+- name: '@FarazV2ray #63'
   type: ss
   server: ir28482.jdjcr.3842.marzara.ir
   port: 1111
   cipher: chacha20-ietf-poly1305
   password: j-jLF3iKqnjdDGE3WdCYFA
   udp: true
-- name: '@FarazV2ray #62'
+- name: '. #2'
   type: ss
   server: 20.238.125.195
   port: 443
@@ -2738,7 +2737,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #63'
+- name: '@FarazV2ray #64'
   type: ss
   server: 193.29.139.223
   port: 8080
@@ -2752,35 +2751,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #64'
+- name: '@FarazV2ray #65'
   type: ss
   server: 82.38.31.180
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #65'
+- name: '@FarazV2ray #66'
   type: ss
   server: 82.38.31.182
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #66'
+- name: '@FarazV2ray #67'
   type: ss
   server: 82.38.31.183
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #67'
+- name: '@FarazV2ray #68'
   type: ss
   server: 82.38.31.185
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #68'
+- name: '@FarazV2ray #69'
   type: ss
   server: 82.38.31.186
   port: 8080
@@ -2794,7 +2793,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #69'
+- name: '@FarazV2ray #70'
   type: ss
   server: 82.38.31.189
   port: 8080
@@ -2808,37 +2807,30 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #70'
+- name: '@FarazV2ray #71'
   type: ss
   server: 82.38.31.191
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #71'
+- name: '@FarazV2ray #72'
   type: ss
   server: 82.38.31.192
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #72'
+- name: '@FarazV2ray #73'
   type: ss
   server: 82.38.31.193
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #73'
-  type: ss
-  server: 82.38.31.194
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
 - name: '@FarazV2ray #74'
   type: ss
-  server: 82.38.31.195
+  server: 82.38.31.194
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -2864,7 +2856,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #10'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #9'
   type: ss
   server: 82.38.31.201
   port: 8080
@@ -2962,7 +2954,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@Vpn_Tehran 🤍 کانال تلگرام #2'
+- name: Free x754 @Outline_Vpn
   type: ss
   server: 82.38.31.219
   port: 8080
@@ -3298,7 +3290,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '节点 #10'
+- name: '节点 #11'
   type: ss
   server: 82.38.31.39
   port: 8080
@@ -3368,7 +3360,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '@Vpn_Tehran 🤍 کانال تلگرام #3'
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #2'
   type: ss
   server: 82.38.31.9
   port: 8080
@@ -3410,7 +3402,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
   udp: true
-- name: '@Vpn_Tehran 🤍 کانال تلگرام #4'
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #3'
   type: ss
   server: 20.123.34.66
   port: 443
@@ -3494,7 +3486,7 @@ proxies:
   cipher: aes-128-gcm
   password: "645af07ee09c066da207ad26d78322c2"
   udp: true
-- name: 🇫🇷@vpn_ioss ♻️ سرورهای بیشتر عضو شو
+- name: 🐦‍🔥38@oneclickvpnkeys
   type: ss
   server: 173.212.251.231
   port: 51058
@@ -3571,7 +3563,7 @@ proxies:
   cipher: aes-128-gcm
   password: o2rw2hICwu1blrr_gZAl2Q
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #10'
+- name: '@V2rayNGVPN > کانفیگ رایگان #13'
   type: ss
   server: 141.98.101.181
   port: 443
@@ -3585,7 +3577,14 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #11'
+- name: '@V2rayNGVPN > کانفیگ رایگان #14'
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #15'
   type: ss
   server: 158.173.20.208
   port: 443
@@ -3608,19 +3607,12 @@ proxies:
   udp: true
 - name: '@FarazV2ray #129'
   type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '@FarazV2ray #130'
-  type: ss
   server: 156.146.38.167
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@FarazV2ray #131'
+- name: '@FarazV2ray #130'
   type: ss
   server: 156.146.38.168
   port: 443
@@ -3634,35 +3626,35 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@FarazV2ray #132'
+- name: '@FarazV2ray #131'
   type: ss
   server: 156.146.38.170
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@FarazV2ray #133'
+- name: '@FarazV2ray #132'
   type: ss
   server: 173.244.56.6
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@FarazV2ray #134'
+- name: '@FarazV2ray #133'
   type: ss
   server: 173.244.56.9
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@FarazV2ray #135'
+- name: '@FarazV2ray #134'
   type: ss
   server: 37.19.198.243
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@FarazV2ray #136'
+- name: '@FarazV2ray #135'
   type: ss
   server: 37.19.198.244
   port: 443
@@ -3963,6 +3955,13 @@ proxies:
   cipher: aes-256-gcm
   password: BzG4OidkLBijT04YGIyVMXBd9eS-caVi
   udp: true
+- name: '节点 #12'
+  type: ss
+  server: 177.202.64.67
+  port: 1080
+  cipher: aes-256-gcm
+  password: FJo_V-KMvriDekN0CYkdNH0C
+  udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
   type: ss
   server: 145.239.1.100
@@ -4047,12 +4046,19 @@ proxies:
   cipher: aes-256-gcm
   password: MjNhN2QwNmFlYTRlZGMxNWVlOTI0MGI0MTU4MDY1
   udp: true
-- name: '节点 #11'
+- name: '节点 #13'
   type: ss
   server: kyiv02.npvnot.com
   port: 443
   cipher: aes-256-gcm
   password: MzRlYzA0ZGY0Njc2ZjQ2YTRiMTg2YTkzNjM4OGI1
+  udp: true
+- name: '@FarazV2ray #136'
+  type: ss
+  server: 185.22.153.117
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
 - name: '@FarazV2ray #137'
   type: ss
@@ -4082,7 +4088,7 @@ proxies:
   cipher: aes-256-gcm
   password: Nxv8ypErRfCSczD7
   udp: true
-- name: '节点 #12'
+- name: '节点 #14'
   type: ss
   server: 142.202.48.52
   port: 8091
@@ -4159,7 +4165,7 @@ proxies:
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: Tel@V2rayng_Fast 👽
+- name: '@V2rayNGVPN > کانفیگ رایگان #16'
   type: ss
   server: 94.156.250.148
   port: 7001
@@ -4187,14 +4193,14 @@ proxies:
   cipher: aes-256-gcm
   password: UQ62K8G88VGBNZXO
   udp: true
-- name: 韩国首尔-腾讯云国际(广播IP？)
+- name: '🇰🇷 Seoul, 11, South Korea #3'
   type: ss
   server: 43.155.223.71
   port: 8388
   cipher: aes-256-gcm
   password: UsIv5aKJabiqnYtY8IfWd6FfgjzrJlfZ
   udp: true
-- name: '🇰🇷 Seoul, 11, South Korea #3'
+- name: '🇰🇷 Seoul, 11, South Korea #4'
   type: ss
   server: 141.164.45.187
   port: 8008
@@ -4250,7 +4256,7 @@ proxies:
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: '🇰🇷 Seoul, 11, South Korea #4'
+- name: '🇰🇷 Seoul, 11, South Korea #5'
   type: ss
   server: 141.164.45.187
   port: 8888
@@ -4278,86 +4284,191 @@ proxies:
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #12'
-  type: ss
-  server: 158.51.121.221
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #13'
-  type: ss
-  server: 185.215.132.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #14'
-  type: ss
-  server: 198.244.202.215
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #15'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #16'
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #17'
   type: ss
-  server: 202.50.253.45
+  server: 142.202.51.22
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #18'
   type: ss
-  server: 202.50.253.63
+  server: 149.88.106.74
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #19'
   type: ss
-  server: 202.50.253.81
+  server: 158.51.121.221
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #20'
   type: ss
-  server: 38.22.17.139
+  server: 167.17.64.22
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #21'
   type: ss
-  server: 79.127.184.104
+  server: 167.88.62.203
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: '@V2rayNGVPN > کانفیگ رایگان #22'
   type: ss
+  server: 167.88.62.56
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #23'
+  type: ss
+  server: 172.99.189.142
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #24'
+  type: ss
+  server: 185.215.132.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #25'
+  type: ss
+  server: 185.215.132.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #26'
+  type: ss
+  server: 193.108.117.84
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #27'
+  type: ss
+  server: 193.108.118.247
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #28'
+  type: ss
+  server: 193.108.119.2
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #29'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #30'
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #31'
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #32'
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #33'
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #34'
+  type: ss
+  server: 38.109.228.110
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #35'
+  type: ss
+  server: 38.121.43.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #36'
+  type: ss
+  server: 38.121.43.231
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #37'
+  type: ss
+  server: 38.22.17.129
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #38'
+  type: ss
+  server: 38.22.17.139
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #39'
+  type: ss
+  server: 38.22.17.219
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #40'
+  type: ss
+  server: 67.220.73.178
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #41'
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #42'
+  type: ss
   server: 79.137.99.183
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇬🇧 City of London, ENG, United Kingdom
+- name: '节点 #15'
   type: ss
-  server: 142.202.51.22
+  server: 198.244.201.129
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -4404,13 +4515,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@Vpn_Tehran ❤️ کانال‌تلگرام'
-  type: ss
-  server: 185.215.132.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: YFZ 142 @Outline_Vpn
   type: ss
   server: 185.230.230.18
@@ -4427,7 +4531,7 @@ proxies:
   udp: true
 - name: 🇬🇧 London, ENG, United Kingdom
   type: ss
-  server: 198.244.201.129
+  server: 198.244.202.215
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -4460,37 +4564,37 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@Vpn_Tehran ❤️ کانال‌تلگرام #2'
+- name: '@Vpn_Tehran ❤️ کانال‌تلگرام'
   type: ss
   server: 216.106.178.169
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@Vpn_Tehran ❤️ کانال تلگرام #2'
+- name: '@Vpn_Tehran ❤️ کانال تلگرام'
   type: ss
   server: 45.86.51.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@Vpn_Tehran 💚 کانال‌تلگرام #3'
+- name: YFZ 338 @Outline_Vpn
   type: ss
-  server: 67.220.73.178
+  server: 57.129.83.85
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #23'
+- name: RU俄罗斯( 更新)
   type: ss
-  server: 46.17.47.58
+  server: 46.17.46.27
   port: 18443
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   udp: true
-- name: RU俄罗斯( 更新)
+- name: '@FarazV2ray #143'
   type: ss
-  server: 46.17.46.27
+  server: 46.17.47.58
   port: 18443
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
@@ -4502,7 +4606,7 @@ proxies:
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: '@FarazV2ray #143'
+- name: '@FarazV2ray #144'
   type: ss
   server: 51.79.85.185
   port: 8118
@@ -4544,7 +4648,7 @@ proxies:
   cipher: aes-256-gcm
   password: "bdb313adf74c2ede"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #24'
+- name: '@V2rayNGVPN > کانفیگ رایگان #43'
   type: ss
   server: pg2.rmastore.ir
   port: 3039
@@ -4565,7 +4669,7 @@ proxies:
   cipher: aes-256-gcm
   password: goRz8CTFE6zPZXIA
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #25'
+- name: 🇸🇨 Seychelles
   type: ss
   server: 45.207.207.25
   port: 443
@@ -4586,7 +4690,7 @@ proxies:
   cipher: aes-256-gcm
   password: "dada1203"
   udp: true
-- name: '@FarazV2ray #144'
+- name: '@FarazV2ray #145'
   type: ss
   server: 185.156.47.97
   port: 9443
@@ -4670,7 +4774,14 @@ proxies:
   cipher: aes-256-gcm
   password: kSLjbrBc84
   udp: true
-- name: '@FarazV2ray #145'
+- name: '节点 #16'
+  type: ss
+  server: 136.243.249.198
+  port: 443
+  cipher: aes-256-gcm
+  password: h8j6e3xuihn2epl9
+  udp: true
+- name: '@FarazV2ray #146'
   type: ss
   server: 51.83.192.80
   port: 8388
@@ -4684,7 +4795,7 @@ proxies:
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
-- name: '@FarazV2ray #146'
+- name: '@FarazV2ray #147'
   type: ss
   server: 51.75.118.5
   port: 20222
@@ -4698,7 +4809,7 @@ proxies:
   cipher: aes-256-gcm
   password: ly7ucs3r3eltbits
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #26'
+- name: '@V2rayNGVPN > کانفیگ رایگان #44'
   type: ss
   server: melli-shekan.tr
   port: 5048
@@ -4712,7 +4823,7 @@ proxies:
   cipher: aes-256-gcm
   password: sFS341eceaIiSm2d
   udp: true
-- name: '节点 #13'
+- name: '节点 #17'
   type: ss
   server: 146.190.236.129
   port: 17000
@@ -4747,7 +4858,7 @@ proxies:
   cipher: aes-256-gcm
   password: ucZ3BchNWEuxsa4sfgTI5pjaS0BqN1RQ
   udp: true
-- name: '@Vpn_Tehran ❤️ کانال تلگرام #3'
+- name: '@Vpn_Tehran ❤️ کانال تلگرام #2'
   type: ss
   server: 51.222.12.127
   port: 445
@@ -4767,13 +4878,7 @@ proxies:
   port: 584
   password: '---------BanV2ray------------'
   udp: true
-- name: 🇰🇷KR
-  type: trojan
-  server: a8zbx9xj.catcat321.com
-  port: 20088
-  password: 0010996f-3eab-4804-9b3a-3a889d6767fc
-  udp: true
-- name: '节点 #14'
+- name: '节点 #18'
   type: trojan
   server: 188.114.97.6
   port: 443
@@ -4833,19 +4938,19 @@ proxies:
   port: 450
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   udp: true
-- name: '@FarazV2ray #147'
+- name: '@FarazV2ray #148'
   type: trojan
   server: 149.28.130.108
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #27'
+- name: '@V2rayNGVPN > کانفیگ رایگان #45'
   type: trojan
   server: 15.235.184.127
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #28'
+- name: '@V2rayNGVPN > کانفیگ رایگان #46'
   type: trojan
   server: 167.179.108.225
   port: 443
@@ -4863,7 +4968,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #148'
+- name: '@FarazV2ray #149'
   type: trojan
   server: 167.88.61.52
   port: 443
@@ -4883,7 +4988,13 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   skip-cert-verify: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #29'
+- name: '@V2rayNGVPN > کانفیگ رایگان #47'
+  type: trojan
+  server: 169.197.140.171
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #48'
   type: trojan
   server: 169.197.140.214
   port: 443
@@ -4902,13 +5013,19 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #30'
+- name: '@V2rayNGVPN > کانفیگ رایگان #49'
+  type: trojan
+  server: 170.101.101.131
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #50'
   type: trojan
   server: 170.101.101.237
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #31'
+- name: '@V2rayNGVPN > کانفیگ رایگان #51'
   type: trojan
   server: 170.101.101.67
   port: 443
@@ -4920,25 +5037,37 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #32'
+- name: '@V2rayNGVPN > کانفیگ رایگان #52'
+  type: trojan
+  server: 193.108.119.29
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #53'
   type: trojan
   server: 193.108.119.78
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #33'
+- name: '@V2rayNGVPN > کانفیگ رایگان #54'
   type: trojan
   server: 208.69.78.19
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #34'
+- name: '@V2rayNGVPN > کانفیگ رایگان #55'
   type: trojan
   server: 208.69.78.208
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #35'
+- name: '@V2rayNGVPN > کانفیگ رایگان #56'
+  type: trojan
+  server: 208.69.78.222
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #57'
   type: trojan
   server: 216.106.186.46
   port: 443
@@ -4950,25 +5079,25 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #36'
+- name: '@V2rayNGVPN > کانفیگ رایگان #58'
   type: trojan
   server: 216.152.147.152
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@Vpn_Tehran 💚 کانال‌تلگرام #4'
+- name: '@Vpn_Tehran 💚 کانال‌تلگرام #3'
   type: trojan
   server: 216.152.147.48
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #37'
+- name: '@V2rayNGVPN > کانفیگ رایگان #59'
   type: trojan
   server: 216.152.147.74
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #149'
+- name: '@FarazV2ray #150'
   type: trojan
   server: 216.152.147.89
   port: 443
@@ -4995,6 +5124,13 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   skip-cert-verify: true
+- name: 🪭96@oneclickvpnkeys
+  type: trojan
+  server: 216.152.156.212
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  skip-cert-verify: true
 - name: 🧿73@oneclickvpnkeys
   type: trojan
   server: 216.152.156.65
@@ -5009,7 +5145,19 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   skip-cert-verify: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #38'
+- name: '@V2rayNGVPN > کانفیگ رایگان #60'
+  type: trojan
+  server: 216.238.104.154
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #61'
+  type: trojan
+  server: 216.238.80.100
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #62'
   type: trojan
   server: 64.176.163.182
   port: 443
@@ -5062,20 +5210,13 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: unlockyourfuturefindyourperfectcareer.com
-- name: '@FarazV2ray #150'
+- name: '@FarazV2ray #151'
   type: trojan
   server: 66.163.114.106
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: ⏳33@oneclickvpnkeys
-  type: trojan
-  server: 66.163.114.126
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: '@V2rayNGVPN > کانفیگ رایگان #39'
+- name: '@V2rayNGVPN > کانفیگ رایگان #63'
   type: trojan
   server: 66.163.114.132
   port: 443
@@ -5087,25 +5228,31 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #40'
+- name: '@V2rayNGVPN > کانفیگ رایگان #64'
+  type: trojan
+  server: 66.163.118.131
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #65'
   type: trojan
   server: 66.163.118.40
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #151'
+- name: '@FarazV2ray #152'
   type: trojan
   server: 66.163.118.62
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #41'
+- name: '@V2rayNGVPN > کانفیگ رایگان #66'
   type: trojan
   server: 66.163.122.26
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: 💫65@oneclickvpnkeys
+- name: 🪭97@oneclickvpnkeys
   type: trojan
   server: 66.163.122.7
   port: 443
@@ -5148,7 +5295,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@FarazV2ray #152'
+- name: '@FarazV2ray #153'
   type: trojan
   server: 70.34.252.255
   port: 443
@@ -5159,12 +5306,6 @@ proxies:
   server: 179.237.74.104
   port: 23610
   password: 1-----------------BanV2ray-----------------1
-  udp: true
-- name: '@Napsternetvirani'
-  type: trojan
-  server: 37.156.45.60
-  port: 3716
-  password: 1------------------BanV2ray------------------1
   udp: true
 - name: Cdn_tls_h2_WS_direct_trojan
   type: trojan
@@ -5177,12 +5318,6 @@ proxies:
   server: 162.159.152.81
   port: 443
   password: "123456"
-  udp: true
-- name: '不定期抽奖 #7'
-  type: trojan
-  server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
-  port: 27231
-  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
   udp: true
 - name: ⛳37@oneclickvpnkeys
   type: trojan
@@ -5203,7 +5338,7 @@ proxies:
   port: 8443
   password: "19a98e32a1149952a988e1e915306e07"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #42'
+- name: '@V2rayNGVPN > کانفیگ رایگان #67'
   type: trojan
   server: 216.106.186.66
   port: 443
@@ -5334,6 +5469,13 @@ proxies:
   port: 13020
   password: 5e2ce79c-170e-484a-8802-40584a1a3a12
   udp: true
+- name: 🪭2@oneclickvpnkeys
+  type: trojan
+  server: 45.77.54.204
+  port: 51520
+  password: 5t6i121em5lkmsmk
+  udp: true
+  skip-cert-verify: true
 - name: 🎃10@oneclickvpnkeys
   type: trojan
   server: de001.zestapp778.com
@@ -5355,7 +5497,7 @@ proxies:
   password: 5t6i121em5lkmsmk
   udp: true
   skip-cert-verify: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #43'
+- name: '@V2rayNGVPN > کانفیگ رایگان #68'
   type: trojan
   server: us001.zestapp778.com
   port: 57277
@@ -5380,6 +5522,12 @@ proxies:
   port: 489
   password: 654df5c6-73ac-3b11-8269-6b21fb8d9dad
   udp: true
+- name: '关注频道 #6'
+  type: trojan
+  server: naiu-us.05vr9nyqg5.download
+  port: 13019
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  udp: true
 - name: 🚩4@oneclickvpnkeys
   type: trojan
   server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
@@ -5399,7 +5547,13 @@ proxies:
   port: 443
   password: 86957ec0-b213-433b-a43b-51f2175e0ec3
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #44'
+- name: '@V2rayNGVPN > کانفیگ رایگان #69'
+  type: trojan
+  server: 104.17.10.171
+  port: 443
+  password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #70'
   type: trojan
   server: 104.25.95.49
   port: 443
@@ -5412,7 +5566,7 @@ proxies:
   password: "8bdfa4e8dac99c57decdd8bf55d2da4c"
   udp: true
   sni: cf.shiranyu.xyz
-- name: '@V2rayNGVPN > کانفیگ رایگان #45'
+- name: '@V2rayNGVPN > کانفیگ رایگان #71'
   type: trojan
   server: 144.31.252.100
   port: 8443
@@ -5492,12 +5646,6 @@ proxies:
   port: 443
   password: "AE62539071"
   udp: true
-- name: 🎈63@oneclickvpnkeys
-  type: trojan
-  server: 54.169.241.164
-  port: 443
-  password: "AE62539071"
-  udp: true
 - name: 🎈79@oneclickvpnkeys
   type: trojan
   server: absolute-hare.rooster465.autos
@@ -5540,7 +5688,7 @@ proxies:
   port: 2053
   password: Aimer
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #11'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #10'
   type: trojan
   server: xn--memeshupshop-vl56koa410enom.rekmiva.ir
   port: 1080
@@ -5625,13 +5773,13 @@ proxies:
   port: 443
   password: LcICDcp!jD9TFV$NbH
   udp: true
-- name: '节点 #15'
+- name: '节点 #19'
   type: trojan
   server: 104.16.72.41
   port: 443
   password: MITIVPN
   udp: true
-- name: '@FarazV2ray #153'
+- name: '@FarazV2ray #154'
   type: trojan
   server: 104.18.152.225
   port: 443
@@ -5649,7 +5797,7 @@ proxies:
   port: 443
   password: MITIVPN
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #12'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #11'
   type: trojan
   server: 167.82.76.7
   port: 443
@@ -5703,13 +5851,13 @@ proxies:
   port: 443
   password: MItIVPN
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #13'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #12'
   type: trojan
   server: 199.232.78.101
   port: 443
   password: MItIVPN
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #14'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #13'
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -5733,7 +5881,7 @@ proxies:
   port: 443
   password: MiTIVPN
   udp: true
-- name: '. #2'
+- name: '. #3'
   type: trojan
   server: 199.232.78.101
   port: 443
@@ -5794,7 +5942,7 @@ proxies:
   port: 443
   password: MiTiVPN
   udp: true
-- name: '@Vpn_Tehran ❤️ کانال‌تلگرام #3'
+- name: 🪭38@oneclickvpnkeys
   type: trojan
   server: 146.75.57.7
   port: 443
@@ -5807,7 +5955,7 @@ proxies:
   password: MiTiVPN
   udp: true
   skip-cert-verify: true
-- name: '🔰 @prrofile_purple (تلگرام) #2'
+- name: 🪭45@oneclickvpnkeys
   type: trojan
   server: 151.101.36.7
   port: 443
@@ -5819,7 +5967,7 @@ proxies:
   port: 443
   password: MiTiVPN
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #15'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #14'
   type: trojan
   server: 151.101.56.255
   port: 443
@@ -5837,7 +5985,7 @@ proxies:
   port: 443
   password: MiTiVPN
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #16'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #15'
   type: trojan
   server: 151.101.56.9
   port: 443
@@ -5849,7 +5997,7 @@ proxies:
   port: 443
   password: MiTiVPN
   udp: true
-- name: ⚡37@oneclickvpnkeys
+- name: '🔰 @prrofile_purple (تلگرام) #2'
   type: trojan
   server: 167.82.64.120
   port: 443
@@ -5957,13 +6105,13 @@ proxies:
   port: 443
   password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
   udp: true
-- name: '@FarazV2ray #154'
+- name: '@FarazV2ray #155'
   type: trojan
   server: ertyuioiuyhb-production.up.railway.app
   port: 443
   password: SDTAQyUXpHVaH05p
   udp: true
-- name: '@FarazV2ray #155'
+- name: '@FarazV2ray #156'
   type: trojan
   server: video.poki-pakipon.ir
   port: 32190
@@ -5994,14 +6142,7 @@ proxies:
   password: Tg3RnK7Xp8B1
   udp: true
   skip-cert-verify: true
-- name: 🐞75@oneclickvpnkeys
-  type: trojan
-  server: 92.118.150.146
-  port: 443
-  password: Trojan@82164024
-  udp: true
-  sni: pl.tronsg.com
-- name: '@FarazV2ray #156'
+- name: '@FarazV2ray #157'
   type: trojan
   server: gb.tronsg.com
   port: 443
@@ -6034,7 +6175,7 @@ proxies:
   password: UX82473651
   udp: true
   sni: meet-goshawk.rooster465.autos
-- name: '@FarazV2ray #157'
+- name: '@FarazV2ray #158'
   type: trojan
   server: 52.192.217.187
   port: 443
@@ -6109,7 +6250,7 @@ proxies:
   password: UX82473651
   udp: true
   skip-cert-verify: true
-- name: '@Vpn_Tehran 🤍 کانال تلگرام #5'
+- name: '@Vpn_Tehran 🤍 کانال تلگرام #4'
   type: trojan
   server: fi.zhabulik.ru
   port: 443
@@ -6122,7 +6263,7 @@ proxies:
   password: YektaCloud
   udp: true
   skip-cert-verify: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #46'
+- name: '@V2rayNGVPN > کانفیگ رایگان #72'
   type: trojan
   server: 160.21.74.183
   port: 8443
@@ -6162,12 +6303,6 @@ proxies:
   port: 36508
   password: cMCQxnflDO
   udp: true
-- name: 🥎75@oneclickvpnkeys
-  type: trojan
-  server: nl2.pleiades.codes
-  port: 2053
-  password: "d5bee0afdbc500b8cda02d80"
-  udp: true
 - name: 🧿91@oneclickvpnkeys
   type: trojan
   server: Sclass-C1.catcat321.com
@@ -6175,7 +6310,7 @@ proxies:
   password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
   skip-cert-verify: true
-- name: '@FarazV2ray #158'
+- name: '@FarazV2ray #159'
   type: trojan
   server: Sclass-C1.catcat321.com
   port: 20086
@@ -6267,7 +6402,7 @@ proxies:
   port: 443
   password: "f0eb8c92ce8946aaba856569cff1a16b"
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #47'
+- name: '@V2rayNGVPN > کانفیگ رایگان #73'
   type: trojan
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
@@ -6278,12 +6413,6 @@ proxies:
   server: 45.131.4.118
   port: 443
   password: f18d6149-e214-8554-e737-f7523c8b2eea
-  udp: true
-- name: 🪼77@oneclickvpnkeys
-  type: trojan
-  server: 104.16.72.41
-  port: 443
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
   udp: true
 - name: $Free 245 @Outline_Vpn
   type: trojan
@@ -6303,13 +6432,13 @@ proxies:
   port: 23005
   password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
   udp: true
-- name: '@FarazV2ray #159'
+- name: '@FarazV2ray #160'
   type: trojan
   server: 104.25.239.113
   port: 2053
   password: gHQP0D7D15
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #48'
+- name: '@V2rayNGVPN > کانفیگ رایگان #74'
   type: trojan
   server: 172.67.118.45
   port: 2053
@@ -6444,7 +6573,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: canfingV2rayNG-100
+- name: canfingV2rayNG-43
   type: trojan
   server: 104.18.152.246
   port: 443
@@ -6475,19 +6604,19 @@ proxies:
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #17'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #16'
   type: trojan
   server: 104.18.35.86
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #160'
+- name: '@FarazV2ray #161'
   type: trojan
   server: 104.18.37.127
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #161'
+- name: '@FarazV2ray #162'
   type: trojan
   server: 104.18.45.38
   port: 443
@@ -6499,13 +6628,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #162'
+- name: '@FarazV2ray #163'
   type: trojan
   server: 104.19.95.153
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #163'
+- name: '@FarazV2ray #164'
   type: trojan
   server: 104.21.37.56
   port: 443
@@ -6535,7 +6664,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #164'
+- name: '@FarazV2ray #165'
   type: trojan
   server: 130.250.137.171
   port: 443
@@ -6560,7 +6689,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #165'
+- name: '@FarazV2ray #166'
   type: trojan
   server: 162.159.228.224
   port: 443
@@ -6591,7 +6720,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #166'
+- name: '@FarazV2ray #167'
   type: trojan
   server: 172.64.145.133
   port: 443
@@ -6603,13 +6732,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #18'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #17'
   type: trojan
   server: 172.67.139.14
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #167'
+- name: '@FarazV2ray #168'
   type: trojan
   server: 172.67.149.60
   port: 443
@@ -6657,19 +6786,19 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '节点 #16'
+- name: '节点 #20'
   type: trojan
   server: 188.114.97.7
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #168'
+- name: '@FarazV2ray #169'
   type: trojan
   server: 188.114.98.0
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #169'
+- name: '@FarazV2ray #170'
   type: trojan
   server: 188.226.181.61
   port: 443
@@ -6729,7 +6858,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@Vpn_Tehran ❤️ کانال تلگرام #4'
+- name: '@Vpn_Tehran ❤️ کانال تلگرام #3'
   type: trojan
   server: 45.128.76.242
   port: 443
@@ -6748,7 +6877,7 @@ proxies:
   password: humanity
   udp: true
   skip-cert-verify: true
-- name: ⛲45@oneclickvpnkeys
+- name: 👝55@oneclickvpnkeys
   type: trojan
   server: 45.130.125.75
   port: 443
@@ -6791,19 +6920,13 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '@Vpn_Tehran 💎 کانال تلگرام #2'
-  type: trojan
-  server: 88.216.69.253
-  port: 443
-  password: humanity
-  udp: true
 - name: 🪐77@oneclickvpnkeys
   type: trojan
   server: 88.99.189.60
   port: 443
   password: humanity
   udp: true
-- name: '@FarazV2ray #170'
+- name: '@FarazV2ray #171'
   type: trojan
   server: 94.158.219.126
   port: 443
@@ -6878,7 +7001,7 @@ proxies:
   password: kkzh2prsyr2ik47as615
   udp: true
   skip-cert-verify: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #19'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #18'
   type: trojan
   server: 151.101.56.90
   port: 443
@@ -6946,13 +7069,13 @@ proxies:
   port: 443
   password: mitivpn
   udp: true
-- name: '节点 #17'
+- name: '节点 #21'
   type: trojan
   server: 27.50.48.49
   port: 443
   password: mitivpn
   udp: true
-- name: '节点 #18'
+- name: '节点 #22'
   type: trojan
   server: 104.18.154.96
   port: 2083
@@ -6964,7 +7087,7 @@ proxies:
   port: 2083
   password: nzrc4ma4087c1ukr
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #20'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #19'
   type: trojan
   server: 193.233.133.152
   port: 28390
@@ -6989,7 +7112,7 @@ proxies:
   port: 443
   password: pH[]S[Bh:_:D6T4k
   udp: true
-- name: '@FarazV2ray #171'
+- name: '@FarazV2ray #172'
   type: trojan
   server: 191.44.113.95
   port: 443
@@ -7066,17 +7189,11 @@ proxies:
   udp: true
 - name: OurChannel
   type: trojan
-  server: 3.78.136.49
-  port: 22223
-  password: telegram-id-directvpn
-  udp: true
-- name: 'OurChannel #2'
-  type: trojan
   server: 35.156.135.140
   port: 22223
   password: telegram-id-directvpn
   udp: true
-- name: 'OurChannel #3'
+- name: 'OurChannel #2'
   type: trojan
   server: 35.181.221.95
   port: 22223
@@ -7088,13 +7205,13 @@ proxies:
   port: 22223
   password: telegram-id-directvpn
   udp: true
-- name: 'OurChannel #4'
+- name: 'OurChannel #3'
   type: trojan
   server: 51.44.146.0
   port: 22223
   password: telegram-id-directvpn
   udp: true
-- name: 'OurChannel #5'
+- name: 'OurChannel #4'
   type: trojan
   server: 52.29.134.131
   port: 22223
@@ -7106,13 +7223,13 @@ proxies:
   port: 22223
   password: telegram-id-directvpn
   udp: true
-- name: 'OurChannel #6'
+- name: 'OurChannel #5'
   type: trojan
   server: 52.59.183.236
   port: 22223
   password: telegram-id-directvpn
   udp: true
-- name: 'OurChannel #7'
+- name: 'OurChannel #6'
   type: trojan
   server: 52.59.53.96
   port: 22223
@@ -7275,13 +7392,13 @@ proxies:
   port: 20205
   uuid: 00000000-0000-4000-8000-000000000000
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #21'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #20'
   type: vless
   server: 104.21.18.141
   port: 443
   uuid: 0050dd81-65fb-439c-abf6-c4c609205c44
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #22'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #21'
   type: vless
   server: 172.67.182.80
   port: 443
@@ -7305,7 +7422,7 @@ proxies:
   port: 4777
   uuid: 008678b8-5e27-49fa-b95a-1fff4c61a849
   udp: true
-- name: '节点 #19'
+- name: '节点 #23'
   type: vless
   server: 185.146.173.37
   port: 2095
@@ -7335,7 +7452,7 @@ proxies:
   port: 32443
   uuid: 00ea847b-add2-47e4-9c48-cbca742e55c9
   udp: true
-- name: '@FarazV2ray #172'
+- name: '@FarazV2ray #173'
   type: vless
   server: dl-cf.f8r.ir
   port: 80
@@ -7371,13 +7488,13 @@ proxies:
   port: 443
   uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
   udp: true
-- name: '@FarazV2ray #173'
+- name: '@FarazV2ray #174'
   type: vless
   server: tr.s.hardvezoo.ir
   port: 2052
   uuid: 01e4f6b0-acfa-4cac-a39d-6779d85eba65
   udp: true
-- name: '节点 #20'
+- name: '节点 #24'
   type: vless
   server: 147.45.66.60
   port: 43000
@@ -7430,7 +7547,7 @@ proxies:
   port: 443
   uuid: 026f58a9-b36e-4204-8f8d-54c5374163da
   udp: true
-- name: '@FarazV2ray #174'
+- name: '@FarazV2ray #175'
   type: vless
   server: t1dn.blazenetwork.ir
   port: 443
@@ -7478,7 +7595,7 @@ proxies:
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
-- name: '@FarazV2ray #175'
+- name: '@FarazV2ray #176'
   type: vless
   server: a2.arshia-nova.ir
   port: 443
@@ -7538,7 +7655,7 @@ proxies:
   port: 443
   uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
   udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #23'
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #22'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -7550,19 +7667,19 @@ proxies:
   port: 443
   uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
   udp: true
-- name: '@FarazV2ray #176'
+- name: '@FarazV2ray #177'
   type: vless
   server: de1-tun.dnetopps.ir
   port: 10010
   uuid: 03a3d946-4738-968a-5ce9-e4f470980d47
   udp: true
-- name: '@FarazV2ray #177'
+- name: '@FarazV2ray #178'
   type: vless
   server: de2-tun.dnetopps.ir
   port: 10020
   uuid: 03a3d946-4738-968a-5ce9-e4f470980d47
   udp: true
-- name: '@FarazV2ray #178'
+- name: '@FarazV2ray #179'
   type: vless
   server: tr1-tun.dnetopps.ir
   port: 10050
@@ -7616,160 +7733,18 @@ proxies:
   port: 80
   uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
   udp: true
+- name: '@FarazV2ray #180'
+  type: vless
+  server: mirinday385.dpdns.org
+  port: 8084
+  uuid: 049f3ede-18f6-48a9-bcab-558ad7a3a3fa
+  udp: true
 - name: 'Channel : @proxy_kafee #10'
   type: vless
   server: 199.232.239.239
   port: 443
   uuid: 05355ffb-a8f3-473b-cb9c-c8401897b03f
   udp: true
-- name: 🐸43@oneclickvpnkeys
-  type: vless
-  server: 82.118.22.161
-  port: 443
-  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
-  udp: true
-- name: vless-13.36.242.117-22224
-  type: vless
-  server: 13.36.242.117
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-13.37.130.107-22224
-  type: vless
-  server: 13.37.130.107
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-13.37.173.17-22224
-  type: vless
-  server: 13.37.173.17
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-15.188.43.202-22224
-  type: vless
-  server: 15.188.43.202
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-15.224.0.245-22224
-  type: vless
-  server: 15.224.0.245
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-18.158.157.203-22224
-  type: vless
-  server: 18.158.157.203
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-18.199.182.165-22224
-  type: vless
-  server: 18.199.182.165
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '@VlessConfig'
-  type: vless
-  server: 3.69.117.42
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-3.79.124.110-22224
-  type: vless
-  server: 3.79.124.110
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '@VlessConfig #2'
-  type: vless
-  server: 35.159.131.212
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '@VlessConfig #3'
-  type: vless
-  server: 35.181.88.108
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-51.44.127.193-22224
-  type: vless
-  server: 51.44.127.193
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-52.47.80.167-22224
-  type: vless
-  server: 52.47.80.167
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '节点 #21'
-  type: vless
-  server: 52.50.233.226
-  port: 22222
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  tls: true
-- name: '@VlessConfig #4'
-  type: vless
-  server: 63.176.115.85
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-63.183.59.137-22224
-  type: vless
-  server: 63.183.59.137
-  port: 22224
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
 - name: '说明-来源: hkjych/X'
   type: trojan
   server: 127.0.0.1
@@ -7777,7 +7752,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3206 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3396 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -7803,6 +7778,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: hkjych/X'
-  - '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3206 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 7 个节点、修复 0 处引用、含 3396 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

@@ -1,37 +1,17 @@
 proxies:
-- name: 罗马尼亚+
+- name: 立陶宛+
   type: vless
-  server: 212.69.135.26
-  port: 8443
-  uuid: e1b32562-91ba-404f-946e-d4c41293a67b
+  server: app26.betust.net
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: uk-room05.filesnap.tech
-  client-fingerprint: firefox
+  servername: app26.betust.net
+  client-fingerprint: chrome
   reality-opts:
-    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-    short-id: "7da3ba09a037e956"
-- name: 新西兰+
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 瑞典+
-  type: trojan
-  server: 167.88.61.175
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
-- name: 巴西+
-  type: hysteria2
-  server: hy.cardlist24.shop
-  port: 443
-  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  sni: hy.cardlist24.shop
+    public-key: 5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc
+    short-id: "d44d6d46"
 - name: 俄罗斯+
   type: vless
   server: qq.utiltools.site
@@ -47,6 +27,109 @@ proxies:
     short-id: ''
 - name: 伊拉克+
   type: vless
+  server: 5.104.74.27
+  port: 8443
+  uuid: 857e5668-88b9-45cd-a600-79e55c04d8a8
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: "dbef98744832b751"
+- name: '伊拉克+ #2'
+  type: vless
+  server: 5.104.74.70
+  port: 8443
+  uuid: 6e10d4e1-1f93-461b-b1c6-90e56c053a11
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: "dbef98744832b751"
+- name: '伊拉克+ #3'
+  type: vless
+  server: 5.104.74.69
+  port: 8443
+  uuid: c6320c2e-15b3-4c3f-9d5a-d371828ea818
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: uk-room06.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: D9IxnCLtXuDLR1yBNZwWdxxbNDfsZgN3C9IsqKgG8Ec
+    short-id: "17a35165f9d25923"
+- name: '俄罗斯+ #2'
+  type: vless
+  server: 76574ct.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 76574ct.nl7.h1clayd.click
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc
+    short-id: "2ca59bdc5121f921"
+- name: 美国+
+  type: vless
+  server: 167.233.25.137
+  port: 443
+  uuid: 7e92da20-d9da-4d78-a64c-d032bc998e54
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: h-sTqV9wF_ZHio3JzDJ0QE11PUXH8fK-wKO7-aN581Y
+    short-id: "f6db8516b3d67b62"
+- name: 德国+
+  type: vless
+  server: fastlinkdownload.song69.fun
+  port: 443
+  uuid: 92b79c22-f68b-4713-8b21-52f264cb92f5
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fastlinkdownload.song69.fun
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+    short-id: ''
+- name: 瑞士+
+  type: vless
+  server: at1.japancase.site
+  port: 443
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: at1.japancase.site
+  client-fingerprint: edge
+  reality-opts:
+    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
+    short-id: "41ae8e266bc3346f"
+- name: '伊拉克+ #4'
+  type: vless
+  server: 5.104.74.27
+  port: 8443
+  uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: "dbef98744832b751"
+- name: '伊拉克+ #5'
+  type: vless
   server: 5.104.74.25
   port: 8443
   uuid: c1f87d4d-3ea2-4378-925a-b4942e930a7d
@@ -58,52 +141,6 @@ proxies:
   reality-opts:
     public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
     short-id: "dbef98744832b751"
-- name: 美国+FDC芝加哥机房
-  type: vless
-  server: prime.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: prime.jarbook.net
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
-    short-id: "77a8c8c8"
-- name: '巴西+ #2'
-  type: vless
-  server: 191.217.211.161
-  port: 443
-  uuid: 0806e6e2-e01d-482c-b530-be3b57d486d4
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pl1.song69.fun
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
-    short-id: "0c774b50"
-- name: '罗马尼亚+ #2'
-  type: vless
-  server: 212.69.135.27
-  port: 8443
-  uuid: 857e5668-88b9-45cd-a600-79e55c04d8a8
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: uk-room05.filesnap.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-    short-id: "7da3ba09a037e956"
-- name: 美国+纽约美联社
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
 - name: 美国+CloudFlare节点
   type: vless
   server: 104.21.70.228
@@ -118,29 +155,26 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 智利+
+- name: 美国+FDC芝加哥机房
   type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: hk010.zestapp778.com
-  client-fingerprint: chrome
-- name: '巴西+ #3'
-  type: hysteria2
-  server: 186.246.18.62
+  server: prime.jarbook.net
   port: 443
-  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  sni: hy.cardlist24.shop
-  skip-cert-verify: true
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: prime.jarbook.net
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
+    short-id: "77a8c8c8"
+- name: 瑞典+
+  type: trojan
+  server: 167.88.61.175
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -148,7 +182,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 48 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 43 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -174,6 +208,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 48 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 43 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
