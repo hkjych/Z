@@ -53,7 +53,6 @@ SOURCES = {
     "lanzm": ("lanzm/MetaFetch", "https://raw.githubusercontent.com/lanzm/MetaFetch/"),
     "1000ttank": ("1000ttank/free-vpn-clash-aggregator","https://raw.githubusercontent.com/1000ttank/free-vpn-clash-aggregator/"),
     "Eleven1985": ("Eleven1985/Scrape-By-Country","https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/"),
-    "LinVireo": ("LinVireo/SmartSub", "https://raw.githubusercontent.com/LinVireo/SmartSub/"),
     "hkjychX": ("hkjych/X", "https://gist.githubusercontent.com/hkjych/x/"),
     "hkjychY": ("hkjych/Y", "https://gist.githubusercontent.com/hkjych/y/"),
 }
@@ -81,7 +80,6 @@ FETCH_URLS = {
     "lanzm": "https://raw.githubusercontent.com/lanzm/MetaFetch/refs/heads/master/list.meta.yml",
     "1000ttank": "https://raw.githubusercontent.com/1000ttank/free-vpn-clash-aggregator/refs/heads/main/output/clash.yaml",
     "Eleven1985": "https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/AllProtocols.txt",
-    "LinVireo": "https://raw.githubusercontent.com/LinVireo/SmartSub/refs/heads/main/sub/sub_all_clash.txt",
     "hkjychX": "https://raw.githubusercontent.com/hkjych/x/refs/heads/main/sub/sub_all_clash.txt",
     "hkjychY": "https://raw.githubusercontent.com/hkjych/y/refs/heads/main/data/subscription.yaml",
 }
