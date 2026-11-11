@@ -3,18 +3,19 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
+- type: vless
+  server: us22.sofast.live
+  port: 58011
   udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers: {}
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  client-fingerprint: chrome
   name: 8元老牌专线机场
+- type: vless
+  server: jp.sofast.live
+  port: 52683
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  name: 美国_2CD410
 - type: vless
   server: 2.26.251.236
   port: 443
@@ -22,52 +23,12 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   tls: true
   servername: mental-deprivation.ru
+  client-fingerprint: firefox
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
   flow: xtls-rprx-vision
-  name: 德国_24CACC
-- type: vless
-  server: 212.69.86.159
-  port: 8447
-  udp: true
-  uuid: 52030136-eee3-4675-baae-a50f17b2bb8b
-  tls: true
-  servername: github.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Pe1-DgXHoB_IGysYKHHhjppQD88mHkzYkqISdSXQxT4
-    short-id: "732ef4f5320b5e19"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 法国_08A1CF
-- type: vless
-  server: 157.22.185.68
-  port: 2058
-  udp: true
-  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
-    short-id: "937255313d6ce673"
-  flow: xtls-rprx-vision
-  name: 瑞士_B0548C
-- type: vless
-  server: 104.225.239.235
-  port: 443
-  udp: true
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  tls: true
-  servername: portal.citygrainla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: "051f20c2344a2dfd"
-  flow: xtls-rprx-vision
-  name: 美国_A651BE
+  name: 德国_026498
 - type: vless
   server: 72.56.38.83
   port: 443
@@ -80,90 +41,90 @@ proxies:
     public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
     short-id: ''
   flow: xtls-rprx-vision
-  name: 荷兰_68B277
-- type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_B17222
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_C04CE5
-- type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_15B70A
-- type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_B1829C
+  name: 荷兰_33547F
 - type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_21D902
-- type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_2D0B1E
+  name: 意大利_1A59B3
 - type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_22EAA6
-- type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_C8814D
-- type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_B4EB42
+  name: 意大利_6A828F
 - type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_3017ED
+  name: 意大利_BC9821
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_7A9BE1
+- type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_DC6174
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_CF4E87
+- type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_BFE6E6
+- type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_7582DF
+- type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_71612E
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_F738CB
 - type: vless
   server: zfapi.zalolink.com
-  port: 46957
+  port: 35460
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   tls: true
   servername: psstatic.cdn.bcebos.com
-  client-fingerprint: safari
+  client-fingerprint: ios
   reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: "8f6683a234d3"
+    public-key: mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw
+    short-id: "30d976db3eab32"
   flow: xtls-rprx-vision
-  name: 新加坡_12B666
+  name: 新加坡_151D92
 - name: '说明-来源: NodeToolBox'
   type: trojan
   server: 127.0.0.1
@@ -171,7 +132,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 108 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 100 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -197,28 +158,26 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: NodeToolBox'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 108 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 100 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 节点选择
   type: select
   proxies:
   - 8元老牌专线机场
-  - 德国_24CACC
-  - 法国_08A1CF
-  - 瑞士_B0548C
-  - 美国_A651BE
-  - 荷兰_68B277
-  - 意大利_B17222
-  - 意大利_C04CE5
-  - 意大利_15B70A
-  - 意大利_B1829C
-  - 意大利_21D902
-  - 意大利_2D0B1E
-  - 意大利_22EAA6
-  - 意大利_C8814D
-  - 意大利_B4EB42
-  - 意大利_3017ED
-  - 新加坡_12B666
+  - 美国_2CD410
+  - 德国_026498
+  - 荷兰_33547F
+  - 意大利_1A59B3
+  - 意大利_6A828F
+  - 意大利_BC9821
+  - 意大利_7A9BE1
+  - 意大利_DC6174
+  - 意大利_CF4E87
+  - 意大利_BFE6E6
+  - 意大利_7582DF
+  - 意大利_71612E
+  - 意大利_F738CB
+  - 新加坡_151D92
 rules:
 - MATCH,节点选择
