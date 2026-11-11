@@ -80,6 +80,6 @@ FETCH_URLS = {
     "lanzm": "https://raw.githubusercontent.com/lanzm/MetaFetch/refs/heads/master/list.meta.yml",
     "1000ttank": "https://raw.githubusercontent.com/1000ttank/free-vpn-clash-aggregator/refs/heads/main/output/clash.yaml",
     "Eleven1985": "https://raw.githubusercontent.com/Eleven1985/Scrape-By-Country/refs/heads/main/configs/protocols/AllProtocols.txt",
-    "hkjychX": "https://raw.githubusercontent.com/hkjych/x/refs/heads/main/sub/sub_all_clash.txt",
+    "hkjychX": "https://raw.githubusercontent.com/hkjych/x/refs/heads/main/sub/sub_all_url_check.txt",
     "hkjychY": "https://raw.githubusercontent.com/hkjych/y/refs/heads/main/data/subscription.yaml",
 }
