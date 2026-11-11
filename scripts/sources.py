@@ -30,7 +30,6 @@ SOURCES = {
     # 页面型来源(订阅地址每日变化,由 scrape_page_sources.py 解析)
     "yoyapai": ("yoyapai.com", "https://yoyapai.com/category/mianfeijiedian"),
     "nodetoolbox": ("NodeToolBox", "https://nodetoolbox.net/free-nodes/"),
-    "jichangg": ("机场e (jichangg.world)", "https://jichangg.world/mianfei/"),
     "au1rxx": ("Au1rxx/free-vpn-subscriptions", "https://github.com/Au1rxx/free-vpn-subscriptions"),
     "freesub": ("Ruk1ng001/freeSub", "https://github.com/Ruk1ng001/freeSub"),
     "xiaoji235": ("xiaoji235/airport-free", "https://github.com/xiaoji235/airport-free"),

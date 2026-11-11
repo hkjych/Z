@@ -5,20 +5,14 @@
   - nodetoolbox: 索引页 https://nodetoolbox.net/free-nodes/
                   -> 最新文章 /free-nodes/YYYY-MM-DD/
                   -> https://nodesub.nodetoolbox.net/YYYY/MM/nodetoolbox-YYYYMMDD.yaml
-  - jichangg:    文章页 https://jichangg.world/mianfei/
-                  -> 内嵌 https://sub.jichange.world/free/YYYYMMDD/clash.yaml
-                 (2026-11 实测: 该站停在 2026-10-08,且 sub.jichange.world 已 NXDOMAIN,
-                  解析不到可下载地址时抛 SourceUnavailable,由调用方跳过)
 
 每个来源实现 discover() -> dict:
     {"sub_url": 订阅地址, "date": 内容日期, "detail": 说明文字}
 没有可用地址时抛 SourceUnavailable(带原因)。
 """
 import re
-import socket
 import time
 from datetime import date, timedelta
-from urllib.parse import urlparse
 
 import requests
 
@@ -51,18 +45,6 @@ def fetch_text(url, timeout=TIMEOUT):
             if i < RETRIES:
                 time.sleep(1 + i)
     raise SourceUnavailable(f"请求失败 {url}: {last}")
-
-
-def host_resolves(url):
-    """订阅域名是否能解析(DNS 挂掉时给出明确原因)。"""
-    host = urlparse(url).hostname
-    if not host:
-        return False
-    try:
-        socket.getaddrinfo(host, 443)
-        return True
-    except OSError:
-        return False
 
 
 # --------------------------------------------------------------------------
@@ -114,51 +96,11 @@ def _nodetoolbox_discover():
     raise SourceUnavailable("; ".join(errors[-2:]) or "索引页没有每日文章")
 
 
-# --------------------------------------------------------------------------
-# 机场e / jichangg.world: 文章页内嵌按日期命名的订阅地址
-# --------------------------------------------------------------------------
-JICHANGG_PAGE = "https://jichangg.world/mianfei/"
-JICHANGG_SUB_RE = re.compile(
-    r'https://sub\.jichang[a-z]*\.world/free/(\d{8})/([a-z0-9_]+\.ya?ml)', re.I)
-JICHANGG_UPDATE_RE = re.compile(r'(?:最近更新|最后更新)[:：]?\s*(\d{4}-\d{2}-\d{2})')
-
-
-def _jichangg_discover():
-    html = fetch_text(JICHANGG_PAGE)
-    hits = JICHANGG_SUB_RE.findall(html)
-    if not hits:
-        raise SourceUnavailable(f"{JICHANGG_PAGE} 中没有找到 .yaml 订阅链接(页面结构可能变化)")
-    # 同一天有多个文件:优先 mihomo.yaml(Clash.Meta),其次 clash.yaml,再其次其它
-    by_date = {}
-    for ymd, fname in JICHANGG_SUB_RE.findall(html):
-        by_date.setdefault(ymd, []).append(fname)
-    newest = max(by_date)
-    files = by_date[newest]
-    prefer = next((f for f in ("mihomo.yaml", "clash.yaml") if f in files), files[0])
-    sub_url = f"https://sub.jichange.world/free/{newest}/{prefer}"
-    page_date = ""
-    m = JICHANGG_UPDATE_RE.search(html)
-    if m:
-        page_date = m.group(1)
-    if not host_resolves(sub_url):
-        raise SourceUnavailable(
-            f"订阅域名 {urlparse(sub_url).hostname} 无法解析(页面最后更新 {page_date or newest},"
-            "站点可能已停止维护;该来源暂不更新)")
-    if page_date and page_date < (date.today() - timedelta(days=7)).isoformat():
-        raise SourceUnavailable(f"页面最后更新停留在 {page_date},已超过 7 天,该来源暂不更新")
-    return {"sub_url": sub_url, "date": newest, "detail": f"页面更新 {page_date or newest}"}
-
-
 # 注册表:来源标识必须与 sources.SOURCES 中的键一致(sanitize 需要)
 PAGE_SOURCES = {
     "nodetoolbox": {
         "name": "NodeToolBox",
         "homepage": NODETOOLBOX_INDEX,
         "discover": _nodetoolbox_discover,
-    },
-    "jichangg": {
-        "name": "机场e (jichangg.world)",
-        "homepage": JICHANGG_PAGE,
-        "discover": _jichangg_discover,
     },
 }

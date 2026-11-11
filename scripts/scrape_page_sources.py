@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """抓取"页面型来源"的最新订阅,写入 output/<来源>/clash.raw.yaml。
 
-页面型来源的订阅地址按日期变化(nodetoolbox、jichangg 等),解析逻辑在
+页面型来源的订阅地址按日期变化(目前只有 nodetoolbox),解析逻辑在
 scripts/page_sources.py;下载流程与 fetch_sources.py 一致:先写 .raw.yaml,
 只有清洗+mihomo 门禁通过后才会替换已发布的 clash.yaml。
 
