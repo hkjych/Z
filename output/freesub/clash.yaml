@@ -2,582 +2,30 @@ allow-lan: false
 mixed-port: 7890
 mode: rule
 proxies:
-- down: 80 Mbps
-  hop-interval: 15
-  name: 🇯🇵 甲骨文东京-Hy2端口跳跃 [56f274e7bd4a]
-  password: Hy2OracleTokyo2026Owner
-  port: 30000
-  ports: 20000-50000
-  server: 168.110.16.191
-  skip-cert-verify: true
-  type: hysteria2
-  up: 30 Mbps
-  x-toolall-mihomo: true
-- down: 80 Mbps
-  name: 🇯🇵 甲骨文东京-Hy2直连443 [42de2e265955]
-  password: Hy2OracleTokyo2026Owner
+- down: 100 Mbps
+  name: 🇯🇵 日本 - 东京2号直连 [9343617ffd71]
+  password: 30f5e94a-3e13-4270-9f90-60827bef6671
   port: 443
-  server: 168.110.16.191
-  skip-cert-verify: true
-  type: hysteria2
-  up: 30 Mbps
-  x-toolall-mihomo: true
-- name: 🇺🇸美国 广播IP MB/s 160 linuxdo@onimaii [b29edabeed6b]
-  password: 0wcmn0va70ra
-  port: 9177
-  server: 104.252.87.200
-  type: http
-  username: hommkiti
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 2丨hxr [42404ae78e0d]
-  network: tcp
-  port: 36442
-  server: xjpp.zjlo.top
-  servername: xjpp.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5269e0b4-0dff-4f97-e0c7-83130bacb009
-  x-toolall-mihomo: true
-  xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇯🇵日本 原生IP 6.61MB/s 232 linuxdo@onimaii [8e410e96b015]
-  network: tcp
-  port: 443
-  server: 18.181.238.222
-  servername: www.bing.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1820fecc-bb70-4f36-98ce-5b8557b2df99
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬新加坡|SG5|admin@VIP [fe9834ab3219]
-  port: 24204
-  reality-opts:
-    public-key: cYQgUq-cSRENj3PWzyBLvXqIdVYSTqQ8vrnYGATiliI
-    short-id: "7788afae"
-  server: djjsg5.wawojk.dpdns.org
-  servername: www.asus.com
-  tls: true
-  type: vless
-  uuid: 2ab54cbc-bea6-4b79-8833-7b3354b97500
-  x-toolall-mihomo: true
-- name: DK_speednode_0006 [f53c69176375]
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_185|1.6MB/s [95de705707a4]
-  password: "null"
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: DK_speednode_0005 [0ed63a7414e3]
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_119|3.7MB/s|R002-260618 [270f10d1ed7e]
-  password: "null"
-  port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇫🇷FR_1|858KB/s|R002-260618 [ceda4e151a48]
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_16|1.2MB/s [e00ef38c4155]
-  password: ''
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_34|1.6MB/s [6572aef900a7]
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_10|3.0MB/s [c98893273be5dc41] [3c315f0adb9b]
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_346|623KB/s [28d4087faa05]
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_238|799KB/s|P002-260618 [622a861ed45b]
-  password: "null"
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇺🇸US_230|794KB/s|R002-260618 [db43a2ef58cd]
-  password: "null"
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇺🇸US_5|3.8MB/s [314576c8ea38680d] [e6054b5afb5d]
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_347|700KB/s|R002-260618 [4451c44468c9]
-  password: "null"
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇧🇦BA_1|1.9MB/s [662063deed7ab3f0] [0fecafc68623]
-  port: 9443
-  server: 185.164.35.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_338|777KB/s [4b8c02c0b885]
-  password: "null"
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_157|216KB/s [b86bd25a4d6a]
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_250|778KB/s|R002-260618 [5007cfe0bd29]
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: "55"
-  name: 🇫🇷_FR_法国_IPV4 (2) [59c241a8c325cb6f] [73488ba91fd1]
-  password: dongtaiwang.com
-  port: 36699
-  server: 163.172.117.163
-  servername: bing.com
+  ports: 443,8443
+  server: 141.147.160.26
   skip-cert-verify: true
   sni: bing.com
-  tls: true
-  type: hysteria
-  up: "11"
-  x-toolall-mihomo: true
-- name: 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
-  password: "null"
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: "null"
-- name: 🇺🇸US_210|675KB/s|R002-260618 [9a1b9b4b44d2]
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  down: ''
-  name: 233boy-hysteria2-168.110.48.252 [5e9fd67b87b0]
-  obfs: ''
-  obfs-password: ''
-  password: 4d9bc232-dde6-47d0-9d7b-e453ac8e4130
-  port: 1987
-  server: 168.110.48.252
-  skip-cert-verify: true
-  sni: ''
   type: hysteria2
-  up: ''
+  udp: false
+  up: 30 Mbps
   x-toolall-mihomo: true
-- name: 🇺🇸US_193|814KB/s|P002-260618 [e305b3d3a781]
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_20|4.1MB/s [7b64c9723464]
-  password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: US - 03 [f98af79e621bfb95] [ead159c58ec0]
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|1.7MB/s [f105ad400081833b] [f821500144b0]
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_168|724KB/s [4a2e8ac2a0a1]
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸 US-Los Angeles-81993521-nnrs [c6a884b69d38]
-  password: "null"
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  tls: true
-  type: http
-  username: "null"
-- name: 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
-  password: "null"
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴RO_22|1.4MB/s|K001-260618 [202aca3d965e]
-  password: None
-  port: 9002
-  server: 193.176.84.18
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_8|1.3MB/s [a5f015b5ae603b87] [c4a931939ffa]
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_19|1.6MB/s|K001-260618 [ba1f112e]
-  password: "null"
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_107|1.5MB/s [69203bf08822]
-  password: "null"
+- down: 100 Mbps
+  name: 🇯🇵 日本 - 东京1号直连 [7b6f365dd125]
+  password: 30f5e94a-3e13-4270-9f90-60827bef6671
   port: 443
-  server: 193.233.75.115
+  ports: 443,8443
+  server: 161.33.152.237
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
+  sni: bing.com
+  type: hysteria2
+  udp: false
+  up: 30 Mbps
   x-toolall-mihomo: true
-- name: 🇺🇸 US-Los Angeles-81993522-ssqn [847f2db108c7]
-  password: "null"
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴 RO-Bucharest-3176843-vsaz [9b101db69158]
-  password: "null"
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: 193.176.84.35
-  tls: true
-  type: http
-  username: "null"
-- name: 🇳🇱NL_146|1.1MB/s|P002-260618 [dedda5683a1b]
-  password: None
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 'B - 🇷🇴 RO 07 TG: @nodpai [690c5e10e14d]'
-  port: 9002
-  server: 193.176.84.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_137|653KB/s|P002-260618 [02a5da37f711]
-  password: "null"
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇺🇸US_195|687KB/s|P002-260618 [185dbe9aa84d]
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: NL_speednode_0023 [f03b16402ab3]
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_13|3.1MB/s [cc9cfe69e0e6]
-  password: ''
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_144|446KB/s|P002-260618 [ddf7160461d0]
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_31|1.4MB/s|P002-260618 [de5de853aac7]
-  password: None
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_35|1.2MB/s|P002-260618 [69fb10c859fa]
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_123|979KB/s|R002-260618 [0ddd02dc3367]
-  port: 443
-  server: 185.140.209.235
-  skip-cert-verify: true
-  sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_43|3.0MB/s|P002-260618 [b31762874ac5]
-  password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_76|3.0MB/s|P002-260618 [16becad22633]
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_147|5.0MB/s|K001-260618 [6da234288c32]
-  password: None
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_188|715KB/s|P002-260618 [eb5e259d4ea2]
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_41|273KB/s|R002-260618 [dfb7ded183f7]
-  password: "null"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  sni: 51.159.225.196
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇨🇿CZ_1|3.3MB/s [654d560d4c97]
-  password: ''
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: NL_speednode_0025 [461db3e89d9a]
-  password: None
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_6|4.3MB/s [9a4fe49818bf1dc3] [6f33652f6299]
-  password: None
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   http-opts:
@@ -595,10 +43,29 @@ proxies:
   uuid: c6624b96-e346-490b-9145-74c2543a9483
   x-toolall-mihomo: true
   xudp: true
-- name: 🇷🇴RO_49|3.2MB/s [8ef0180a1a66]
+- name: 🇺🇸美国 原生IP 9.21MB/s 152 linuxdo@onimaii [b29edabeed6b]
+  password: 0wcmn0va70ra
+  port: 9177
+  server: 104.252.87.200
+  type: http
+  username: hommkiti
+- name: 🇭🇰HK_1|5.1MB/s [c28c3ed8f5fb]
+  password: None
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇵🇱PL_3|2.7MB/s [c95c95ac1c6a]
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇿CZ_1|3.3MB/s [654d560d4c97]
   password: ''
-  port: 9002
-  server: 193.176.84.27
+  port: 443
+  server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
@@ -607,143 +74,34 @@ proxies:
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: VIP3-🇹🇷土耳其|TR|直连 [2bc30532c8b9]
-  port: 11738
-  reality-opts:
-    public-key: DqPCXKIPN4NDurylwyVdPsaW9V1uYktHSon4n2Kb1y8
-    short-id: "7815104c"
-  server: 185.255.95.131
-  servername: www.asus.com
-  tls: true
-  type: vless
-  uuid: e38111aa-f62a-46ad-a538-6f3003f2f43d
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 甲骨文-甲骨文 [e430d3a1a60b]
+  name: JP-Reality [6c77c8c11628]
   network: tcp
-  port: 20000
+  port: 23444
   reality-opts:
-    public-key: aCKxBnWGJSFRLP1TC7cvV6lwNBsEdrW3fIqRnVD131w
-    short-id: "144d7588628c0387"
-  server: panel.paytiktok.com
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e668c236-dead-4ea2-8a99-812a738afd13
-  x-toolall-mihomo: true
-  xudp: true
-- name: DE_speednode_0004 [92e8593bee30]
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_26|2.3MB/s|R002-260618 [c61344075292]
-  password: "null"
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- cipher: chacha20-ietf
-  name: 🇺🇸US-140.188.73.129-5371 [4cec6c79a30e]
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  protocol-param: ''
-  server: ssr2.762988.xyz
-  type: ssr
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  down: 200 Mbps
-  name: JP-Hysteria2 [84cad1f68004]
-  password: pnKhsG5E1hH1VglAXmT9cq1
-  port: 21443
+    public-key: zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c
+    short-id: "119c9e68498f5900"
   server: 168.110.45.41
-  skip-cert-verify: true
-  type: hysteria2
-  up: 30 Mbps
-  x-toolall-mihomo: true
-- name: ❓Other_50|1.0MB/s|K001-260618 [c0349c89b0e6]
-  password: None
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  sub_tag: K001-260618
+  servername: www.microsoft.com
   tls: true
-  type: http
-  udp: true
-  username: ''
+  type: vless
+  uuid: ee2112e4-1e58-4f77-b162-5ef869358df9
   x-toolall-mihomo: true
-- name: NL_speednode_0024 [f6303636874a]
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: chacha20-ietf
-  name: 4Mohsen-25a3d07792 [2433c44b2dd1]
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: 109.104.153.43
-  type: ssr
-  x-toolall-mihomo: true
-- name: RO-Bucharest-3176843-tqzq [c52f2f9bbaff]
+- name: 🇳🇱 NL-Amsterdam-174714-ufey [33ffe908c168]
   password: "null"
   port: 9002
-  server: 193.176.84.31
+  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   username: "null"
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 2丨yj [2ca61fa91213]
-  network: tcp
-  port: 23169
-  server: djj.zjlo.top
-  servername: djj.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
-  x-toolall-mihomo: true
-  xudp: true
-- name: 🇷🇴RO_12|1.2MB/s|P002-260618 [568350f13b6e]
-  password: None
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sub_tag: P002-260618
+- name: 🇬🇧英国 原生IP 27.24MB/s 598 linuxdo@onimaii [9a5557203af2]
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 443
+  server: 475c295c-t9zts0-tfi5fd-1imi4.uk.oshuawei.com
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_129|3.1MB/s|R002-260618 [0dc67707ea09]
+  username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+- name: 🇳🇱NL_34|2.9MB/s|R002-260618 [0dc67707ea09]
   password: "null"
   port: 9002
   server: 84.17.47.147
@@ -754,338 +112,6 @@ proxies:
   type: http
   udp: true
   username: "null"
-  x-toolall-mihomo: true
-- name: 🇳🇱荷兰 广播IP 0.58MB/s 337 linuxdo@onimaii [1b492461acd8]
-  password: freeuser1
-  port: 9251
-  server: nl205.freeconnect.link
-  sni: nl205.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 🇵🇱PL_5|2.6MB/s|R002-260618 [2e410e6190d1]
-  port: 443
-  server: 91.92.250.33
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇯🇵 甲骨文东京-Trojan稳定端 [25079a53d981]
-  password: Hy2OracleTokyo2026Owner
-  port: 8444
-  server: 168.110.16.191
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: LV_speednode_0021 [21c346022b3f]
-  password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: IE_speednode_0013 [37e4a848bf1f]
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: RO-Bucharest-3176841-jqej [beaebbc0825a]
-  password: "null"
-  port: 9002
-  server: 193.176.84.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵 甲骨文东京-VLESS-Reality [f022db9b1c8a]
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: aA3IfkNHp9h5ok0neglijPnQci-4q3OGioBtuypNjkc
-    short-id: "28d0e205"
-    support-x25519mlkem768: true
-  server: 168.110.16.191
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3575b592-5b76-4d53-8c20-033772880c31
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_37|3.4MB/s|R002-260618 [45ae42e77b51]
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 'B - 🇷🇴 RO 08 TG: @nodpai [49894881bdcc]'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷法国 原生IP 1.29MB/s 318 linuxdo@onimaii [ff9b00b5bb2d]
-  password: freeuser1
-  port: 9251
-  server: fr003.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 🇷🇴RO_73|1.0MB/s|R002-260618 [1ec0c679cc33]
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP-Reality [d65811a11dab]
-  network: tcp
-  port: 23444
-  reality-opts:
-    public-key: zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c
-    short-id: "119c9e68498f5900"
-  server: 168.110.45.41
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee2112e4-1e58-4f77-b162-5ef869358df9
-  x-toolall-mihomo: true
-- name: 🇺🇸US_10|703KB/s|R002-260618 [f7c0904bd93b]
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_78|1.2MB/s [c3a4db1baea6]
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇮🇹IT_38|1.3MB/s|A001-260618 [a1a50d085577]
-  password: None
-  port: 1088
-  server: 212.77.75.25
-  skip-cert-verify: true
-  sub_tag: A001-260618
-  type: socks5
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_71|1.1MB/s [846db5e15e06]
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇪🇸ES_30|1.2MB/s|R002-260618 [a960088a78eb]
-  port: 443
-  server: 82.102.17.178
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 'B - 🇷🇴 RO 11 TG: @nodpai [4b2bbcd96ee8]'
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL - [3a0f0e29d7f03382] [bab2a3b41627]
-  port: 443
-  server: 51.158.243.91
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 'B - 🇷🇴 RO 13 TG: @nodpai [834e970318c8]'
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU_1|826KB/s|P002-260618 [e8cd63a12825]
-  password: None
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 2丨hxr [85c0a17a6112]
-  network: tcp
-  port: 23169
-  server: djj.zjlo.top
-  servername: djj.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9da605d3-f5f7-4135-f806-450f036f9351
-  x-toolall-mihomo: true
-  xudp: true
-- name: RO-Bucharest-3176843-vkhp [c2a232611f73]
-  password: "null"
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  sni: 193.176.84.33
-  tls: true
-  type: http
-  username: "null"
-- name: 🇳🇱NL_101|3.1MB/s|P002-260618 [ddf212e8e12f]
-  password: None
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇪🇸ES_27|465KB/s|R002-260618 [76f1fc23ee8b]
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 2丨byds [61da19f654dd]
-  network: tcp
-  port: 23169
-  server: djj.zjlo.top
-  servername: djj.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3eb053cb-d6f8-4b31-8180-222e1cc6f8ff
-  x-toolall-mihomo: true
-  xudp: true
-- name: FR_speednode_0010 [e6da0f6df43c]
-  password: "null"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇮🇱IL_1|1.1MB/s|R002-260618 [fbd6fbcec4c8]
-  port: 443
-  server: 62.90.77.30
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: FR_speednode_0011 [eaf068c92f1f]
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_28|1.4MB/s|R002-260618 [beb2518b7b3f]
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_11|3.3MB/s [7a217f0fa92e]
-  password: ''
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_291|721KB/s|R002-260618 [7f773846261b]
-  port: 443
-  server: 71.43.26.234
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_19|932KB/s|P002-260618 [8160cb3bcb47]
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 'B - 🇷🇴 RO 16 TG: @nodpai [c562dcb3e93b]'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇲🇽MX 原生IP 3.25MB/s 172 linuxdo@onimaii [ebc68f5f3fc9]
-  port: 999
-  server: 82.152.138.127
-  type: http
-- name: 🇯🇵JP_6|2.4MB/s [0f4839b899b0]
-  password: ''
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  udp: true
-  username: ''
   x-toolall-mihomo: true
 - alpn:
   - h3
@@ -1108,220 +134,204 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2丨zjl [9986b452c2a2]
+  name: 2丨byds [a5e009b988f9]
   network: tcp
-  port: 23169
-  server: djj.zjlo.top
-  servername: djj.zjlo.top
+  port: 36442
+  server: xjpp.zjlo.top
+  servername: xjpp.zjlo.top
   tls: true
   type: vless
   udp: true
-  uuid: f67b1159-a61f-4ae4-9844-0701b716a290
+  uuid: 2633cbab-e901-4f5a-9a0f-18ff319d0d70
   x-toolall-mihomo: true
   xudp: true
+- alpn:
+  - h3
+  down: 200 Mbps
+  name: JP-Hysteria2 [84cad1f68004]
+  password: pnKhsG5E1hH1VglAXmT9cq1
+  port: 21443
+  server: 168.110.45.41
+  skip-cert-verify: true
+  type: hysteria2
+  up: 30 Mbps
+  x-toolall-mihomo: true
+- name: 🇬🇷GR_1|2.3MB/s [4cc1e630f5fc]
+  password: ''
+  port: 443
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇪🇸ES_59|2.7MB/s|M003-260806 [38171dc1c992]
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 2丨yj [91c09d018ac4]
   network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
+  port: 36442
+  server: xjpp.zjlo.top
+  servername: xjpp.zjlo.top
   tls: true
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_92|2.6MB/s|P002-260618 [e038f62733a2]
-  password: None
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
   udp: true
+  uuid: b743c868-b35c-4d91-b88b-d9efd7060b5c
   x-toolall-mihomo: true
-- name: 🇷🇴RO_14|3.5MB/s [7cb56d5dc842]
-  password: ''
-  port: 9002
-  server: 193.176.84.16
+  xudp: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: "55"
+  name: 🇺🇸美国 原生IP 2.01MB/s 344 linuxdo@onimaii [8bff87380717]
+  port: 22335
+  server: 198.200.57.142
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
+  type: hysteria
+  up: "11"
   x-toolall-mihomo: true
-- name: 🇮🇱IL_6|1.3MB/s|K001-260618 [a4cd70176943]
-  password: None
-  port: 443
-  server: 62.90.77.30
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇮🇪IE_2|1.4MB/s|R002-260618 [ccdfe7c35f3d]
-  port: 443
-  server: 18.200.158.139
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: NL_speednode_0027 [5a16ef58e735]
-  password: None
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: Oracle-Tokyo [dd9ec0ba9b8d]
-  network: ws
-  port: 443
-  server: 168-110-32-255.sslip.io
-  servername: 168-110-32-255.sslip.io
-  tls: true
-  type: vless
-  uuid: 9e9e7dee-684e-4065-afc2-1f139faaa6b0
-  ws-opts:
-    path: /ray
-- name: LV_speednode_0020 [a0b4e0754e17]
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_13|762KB/s|R002-260618 [58a0fbc2a3dd]
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_13|234KB/s|P002-260618 [b0b243bbfddf]
+- name: 🇳🇱 NL-Amsterdam-174714-deww [47dbdd004c5b]
   password: "null"
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_7|1.4MB/s [0b5076bf06d9]
-  password: ''
   port: 9002
-  server: 193.176.84.26
+  server: 84.17.47.147
   skip-cert-verify: true
+  sni: 84.17.47.147
   tls: true
   type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- cipher: aes-128-gcm
-  name: jpa-ss-53758 [09a741d4ae56]
-  password: Bwlqh7GcFB
-  port: 53758
-  server: jpa.123069.xyz
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_589|90KB/s|R002-260618 [1a8c4f1c7450]
-  port: 443
-  server: 137.175.22.45
+  username: "null"
+- name: 🇺🇸US_8|1.3MB/s [a5f015b5ae603b87] [c4a931939ffa]
+  port: 9002
+  server: 138.199.35.209
   skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇫🇷FR_94|734KB/s|R002-260618 [95689af31163]
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_226|1.2MB/s|R002-260618 [5286c74d4aa4]
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: KR-Relay [2da0b455a907]
+  name: JP-Reality [d65811a11dab]
   network: tcp
-  port: 20443
+  port: 23444
   reality-opts:
-    public-key: PHpqBxSY5_595NSIjNKtBY1lyQz3rojxgvcVypn_tBk
-    short-id: "6f3a9c1d4b7e2058"
-  server: 210.109.205.7
+    public-key: zfxKuH7gDFZ2EMjdt8zMfnsZFpeckMhM5q5XZ3ATe2c
+    short-id: "119c9e68498f5900"
+  server: 168.110.45.41
   servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: 07f44dd0-553e-4eb0-afc2-5a00c4d7c20c
+  uuid: ee2112e4-1e58-4f77-b162-5ef869358df9
   x-toolall-mihomo: true
-- name: 🇺🇸US_571|142KB/s|R002-260618 [471ebd29feb8]
-  port: 443
-  server: 137.175.22.85
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_58|913KB/s|P002-260618 [fa2a85d8b301]
+- name: 🇬🇧GB_3|1.8MB/s|P002-260618 [8160cb3bcb47]
   password: None
-  port: 9002
-  server: 193.176.84.20
+  port: 443
+  server: 212.102.63.31
   skip-cert-verify: true
   sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸US_585|146KB/s|R002-260618 [4d2a6a08e9aa]
+- name: US - 06 [739e0a8f514270b6] [ffebf4869150]
+  password: "null"
   port: 443
-  server: 137.175.22.89
+  server: fan.365747.xyz
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+  username: "null"
+- name: 🇱🇻LV_1|1.6MB/s [db7b7005e8b5]
+  port: 443
+  server: 109.248.147.66
   skip-cert-verify: true
-  sub_tag: R002-260618
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.0MB/s [c98893273be5dc41] [3c315f0adb9b]
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇨🇦加拿大 广播IP 21.25MB/s 576 linuxdo@onimaii [9a5557203af2]
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+- name: 🇮🇹|意大利-IEPL 02 [9bec713ba84d]
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20117
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇦🇹AT_1|2.4MB/s [82d61a814f86]
   port: 443
-  server: 475c295c-t9zts0-tfi5fd-1imi4.uk.oshuawei.com
+  server: 146.70.244.2
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-- name: 🏳️未知 原生IP 20.29MB/s 028 linuxdo@onimaii [0eccd5bfbdc6]
-  password: 0wcmn0va70ra
-  port: 9879
-  server: 85.189.216.134
+- name: 🇷🇸RS_1|3.1MB/s [bdfe2732d9b76047] [8b0f46769f73]
+  port: 443
+  server: 146.70.221.34
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: hommkiti
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: 🇪🇸ES 广播IP 0.39MB/s 307 linuxdo@onimaii [ffd6f8980cb1]
+  port: 36699
+  server: 163.172.117.163
+  skip-cert-verify: true
+  type: hysteria
+  up: "11"
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: 🇫🇷_FR_法国_IPV4 (2) [59c241a8c325cb6f] [73488ba91fd1]
+  password: dongtaiwang.com
+  port: 36699
+  server: 163.172.117.163
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: "11"
+  x-toolall-mihomo: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇵🇱PL_39|244KB/s|M003-260806 [44d821dc7f54]
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 3.169.9.125
+  servername: d2ex4nxd2e01ub.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  ws-opts:
+    headers:
+      Host: d2ex4nxd2e01ub.cloudfront.net
+    path: /
+  x-toolall-mihomo: true
+- name: 🇬🇷GR_1|2.7MB/s [8d8bfa9f553a]
+  password: ''
+  port: 443
+  server: 149.22.85.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
 - name: 🇷🇺RU_3|2.2MB/s [ff820506b93ebb48] [2a2e62a5c6a8]
   password: "null"
   port: 1446
@@ -1330,224 +340,142 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: 🇳🇱NL_188|2.3MB/s|P002-260618 [007ac7f97335]
-  password: None
+- name: 🇧🇦BA_1|1.9MB/s [662063deed7ab3f0] [0fecafc68623]
+  port: 9443
+  server: 185.164.35.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|1.6MB/s [700b4bd38f03]
   port: 443
-  server: 89.150.35.94
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇸🇪瑞典 广播IP 1.20MB/s 479 linuxdo@onimaii [86065e136936]
-  port: 443
-  reality-opts:
-    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
-    short-id: "7f1e29593aa94ad1"
-  server: 94.183.234.245
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
-  x-toolall-mihomo: true
-- name: 🇭🇰香港 原生IP 9.84MB/s 398 linuxdo@onimaii [09d8a2c30e1c]
-  password: 0wcmn0va70ra
-  port: 6182
-  server: 142.252.37.58
-  type: http
-  username: hommkiti
-- name: 🇺🇸美国 原生IP MB/s 229 linuxdo@onimaii [0372827f2b85]
-  password: 0wcmn0va70ra
-  port: 7706
-  server: 136.143.243.57
-  type: http
-  username: hommkiti
-- cipher: aes-256-gcm
-  name: 4Mohsen-e1b2cd8181 [8ed40d75cd58]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- name: 🇷🇴RO_59|964KB/s [59f9b547adb8]
-  port: 9002
-  server: 193.176.84.33
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: '[d80a98d80fc6]'
-  port: 24667
-  protocol: udp
-  server: 62.210.28.175
+- name: 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
+  password: ''
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.6MB/s|A004-260618 [04af617c92c1]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: 🇺🇸US_503|985KB/s|R002-260618 [485226163b25]
-  network: http
-  port: 32080
-  server: 23.95.165.21
-  sub_tag: R002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38820c74-5e1e-44f7-a5b3-bff7f7c66286
-  x-toolall-mihomo: true
-- name: 🇹🇷TR 原生IP 0.76MB/s 363 linuxdo@onimaii [9e933bd8f184]
-  password: freeuser1
-  port: 9251
-  server: br3-tr.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_11|1.2MB/s|A004-260618 [fedf53752e2e]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_447|797KB/s|K001-260618 [7138328380d5]
-  password: None
-  port: 8443
-  server: 44.217.145.28
-  skip-cert-verify: true
-  sub_tag: K001-260618
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: 🇵🇱PL_7|2.1MB/s|R002-260618 [0863fb8d737b]
-  port: 443
-  server: 151.115.54.133
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_11|433KB/s|R002-260618 [7e349bfebde8]
-  port: 8443
-  server: 77.221.136.60
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_479|653KB/s|P002-260618 [aee933637067]
+- name: 🇷🇺RU_1|1.1MB/s [53e4c48d230a]
   password: None
-  port: 8090
-  server: 184.188.139.2
+  port: 1446
+  server: 46.29.166.134
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: IT机场推荐： [04641adcccb29f99] [30207bf94172]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸 美国 | USA 9 [fac35ed425c5e1cf] [62c5f7511a31]
-  password: "0324fbc29561"
+- client-fingerprint: chrome
+  name: 🇺🇸_美国 (120) [d6a0d8a5ba285959] [41ee19c1c844]
+  network: ws
   port: 443
-  server: sdf65h46wr.df6h451rh.xin
+  server: 3.169.9.125
+  servername: d2ex4nxd2e01ub.cloudfront.net
   skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: "20"
-  name: 🇺🇸_US_美国_IPV4 (2) [043fad269c75cb80] [1fff1a445142]
-  password: dongtaiwang.com
-  port: 20022
-  server: 137.175.82.43
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
+  sni: d2ex4nxd2e01ub.cloudfront.net
   tls: true
-  type: hysteria
-  up: "20"
+  type: vless
+  udp: true
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  ws-opts:
+    headers:
+      Host: d2ex4nxd2e01ub.cloudfront.net
+    path: /
   x-toolall-mihomo: true
-- name: NL_speednode_0026 [86fd6822b11a]
-  port: 9002
-  server: 84.17.47.125
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬新加坡|SG5|admin@VIP [fe9834ab3219]
+  port: 24204
+  reality-opts:
+    public-key: cYQgUq-cSRENj3PWzyBLvXqIdVYSTqQ8vrnYGATiliI
+    short-id: "7788afae"
+  server: djjsg5.wawojk.dpdns.org
+  servername: www.asus.com
+  tls: true
+  type: vless
+  uuid: 2ab54cbc-bea6-4b79-8833-7b3354b97500
+  x-toolall-mihomo: true
+- name: 🇳🇱NL_1|1.4MB/s [7bcba9424a41384c] [594101089138]
+  port: 9443
+  server: 149.36.51.157
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_81|1.2MB/s|R002-260618 [895f1e471f2b]
-  password: "null"
-  port: 9002
-  server: 193.176.84.35
+- name: 🇷🇸RS_2|1.2MB/s [8cd189883c14]
+  port: 443
+  server: 146.70.221.18
   skip-cert-verify: true
-  sni: 193.176.84.35
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: 🇮🇹|意大利-IEPL 02 [7b44fa072404]
+- name: 🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
   password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20117
-  server: sclass-01.catcat321.com
+  port: 20027
+  server: sclass-b1.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
   x-toolall-mihomo: true
-- name: 🇫🇷FR_88|7.5MB/s|R002-260618 [522fc5ddfd3d]
-  port: 6103
-  server: 87.98.174.157
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: VIP3-🇹🇷土耳其|TR|直连 [2bc30532c8b9]
+  port: 11738
+  reality-opts:
+    public-key: DqPCXKIPN4NDurylwyVdPsaW9V1uYktHSon4n2Kb1y8
+    short-id: "7815104c"
+  server: 185.255.95.131
+  servername: www.asus.com
+  tls: true
+  type: vless
+  uuid: e38111aa-f62a-46ad-a538-6f3003f2f43d
+  x-toolall-mihomo: true
+- name: 🇳🇱NL_9|1.0MB/s [3744e5a8bca3]
+  password: ''
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇮🇹IT_5|1.8MB/s [37e2fd5f3e901b6b] [623fe506d40e]
+  port: 443
+  server: 185.183.105.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|4.9MB/s|R002-260618 [853cbfea7588]
+  port: 443
+  server: 159.69.94.125
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸美国 原生IP 0.97MB/s 357 linuxdo@onimaii [0e083ab9a38b]
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
+- name: 🇸🇬 SG-Singapore-h-4261392-jdjb [185196af213b]
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
   tls: true
   type: http
-  username: freeuser1
+- name: 🇸🇪SE_1|1.6MB/s [4cac4ba92768]
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇺HU_1|4.0MB/s [c089a9fb49699380] [b55234c9ce9b]
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇮🇹|意大利-IEPL 02 [0e562b525f4e]
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20117
@@ -1557,268 +485,30 @@ proxies:
   type: trojan
   udp: true
   x-toolall-mihomo: true
-- name: 🇷🇴RO_51|1.2MB/s|R002-260618 [cb1e1faecd51]
-  password: "null"
+- name: US - 03 [f98af79e621bfb95] [ead159c58ec0]
   port: 9002
-  server: 193.176.84.33
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 193.176.84.33
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: 4Sarina-1027ad08d6 [25decbaaa10a]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: IT机场推荐： [9d6d2faeef141ad8] [544fdd461b91]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸美国 原生IP 0.45MB/s 528 linuxdo@onimaii [86b48851d474]
-  password: "e4b72b531a2d10900519"
+- name: 🇺🇸 美国 | USA 9 [fac35ed425c5e1cf] [62c5f7511a31]
+  password: "0324fbc29561"
   port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 🇷🇴RO_80|1.8MB/s|R002-260618 [7ee423ee99a6]
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  x-toolall-mihomo: true
+- name: 🇺🇸US_33|395KB/s [4a2e8ac2a0a1]
+  password: ''
   port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰香港|HK|admin@VIP [c5723ba4a5e1]
-  port: 51314
-  reality-opts:
-    public-key: VWY3lvh8l3OoKnhln5nIzmxAG0Imp9arXMK6nbsGVB4
-    short-id: "0ee643ab"
-  server: hk3.wawojk.dpdns.org
-  servername: www.asus.com
-  tls: true
-  type: vless
-  uuid: affd72c9-0870-4c92-b6e5-af7d0e06313e
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_96|2.1MB/s|R002-260618 [93fdda9d1cba]
-  port: 443
-  server: 89.150.35.94
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸 US-San Jose-82214-ttjq [d37c74156e45]
-  password: "null"
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-  username: "null"
-- cipher: aes-256-gcm
-  name: IT机场推荐： [cf828b32fb3c578d] [3bb0f43ab34c]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: IT机场推荐： [47970f3e0c19e42e] [885d389b64d7]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: IT机场推荐： [de1d706be16eedad] [ae9a44202ffc]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 233boy-reality-168.110.48.252 [4ec776590360]
-  network: tcp
-  port: 10018
-  reality-opts:
-    public-key: YxoFVB0NhCx4BJCgq5Ey5jdteRU2H2toGa-ZKW5XV3c
-    short-id: ''
-  server: 168.110.48.252
-  servername: www.ebay.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8fc873b-860d-4490-b2f0-300d6ae3c2d3
-  x-toolall-mihomo: true
-  xudp: true
-- cipher: aes-256-gcm
-  name: IT机场推荐： [9655f8dfc98a92df] [a7740ab520de]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: IT_speednode_0014 [e690e14ea5a9]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: IT_speednode_0015 [c9cdfff6d2cc]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇺RU_1|1.1MB/s [53e4c48d230a]
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US_speednode_0040 [853162e17c25]
-  port: 443
-  server: 38.247.141.135
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+  username: ''
   x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: IT_speednode_0016 [e4fa750756fd]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_9|2.1MB/s [63f149bb2f7cbf46] [5d11e9264422]
-  password: None
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h3
-  down: ''
-  name: 233boy-hysteria2-158.101.140.31 [ed118ca628ac]
-  obfs: ''
-  obfs-password: ''
-  password: 4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2
-  port: 1985
-  server: 158.101.140.31
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
-  x-toolall-mihomo: true
-- name: 🇫🇷法国 原生IP 23.09MB/s 482 linuxdo@onimaii [3ece0f2bc243]
-  port: 1080
-  server: 5.255.113.177
-  type: socks5
-- name: 'B - 🇷🇴 RO 02 TG: @nodpai [b09c9850f397]'
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_10|2.2MB/s [8954e053b3ae4d55] [aff0968e0afe]
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_51|448KB/s|R002-260618 [5204e10ac861]
-  port: 443
-  server: 141.94.16.4
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_343|282KB/s|R002-260618 [5af111a45f55]
-  port: 443
-  server: 38.28.185.224
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇱🇹LT_7|2.3MB/s|R002-260618 [747fd2928403]
-  port: 443
-  server: 89.124.11.9
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇭🇰香港 原生IP 0.24MB/s 608 linuxdo@onimaii [d9a12d255ea3]
-  port: 443
-  server: fan.240104.xyz
-  sni: fan.240104.xyz
-  tls: true
-  type: http
-- name: 🇬🇧英国 原生IP 1.19MB/s 342 linuxdo@onimaii [8705806b83bb]
-  password: freeuser1
-  port: 9251
-  server: ma1-gb.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: disney-residential [c5851dde304f]
-  port: 18453
-  server: 168.110.21.56
-  type: vless
-  uuid: 1751bebc-1bf1-420c-8b9d-97157aad179b
-- name: HK - [838376171c7a673a] [72f6cc3a695c]
-  password: "null"
-  port: 443
-  server: fan.240104.xyz
-  tls: true
-  type: http
-  username: "null"
-- cipher: aes-256-gcm
-  name: 4Mohsen-b2a1a157ad [92c172b4f3c3]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -1834,132 +524,121 @@ proxies:
   type: hysteria
   up: "11"
   x-toolall-mihomo: true
-- name: 🇫🇷法国 原生IP 0.45MB/s 356 linuxdo@onimaii [7a980292fb73]
-  password: freeuser1
-  port: 9251
-  server: fr007.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 🇮🇹意大利 原生IP 0.13MB/s 370 linuxdo@onimaii [e29795f7e12d]
-  port: 1088
-  server: 212.77.75.25
-  type: socks5
-- delay: 1801
-  name: 🇷🇴RO_45|1.2MB/s|G001-260618 [bf673631094f]
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  sub_tag: G001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 'B - 🇷🇴 RO 03 TG: @nodpai [0c9de1a9d14f]'
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_21|599KB/s|R002-260618 [04210ea6ee79]
-  password: "e4b72b531a2d10900519"
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  sni: a7acacbe.acsnet.co
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: testuser1
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_27|107KB/s|R002-260618 [f47bcf803e52]
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20027
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: 4-Oracle-Firsty-60-Discount [996055d62516]
-  network: ws
-  port: 853
-  server: 129.153.128.162
-  type: vless
-  uuid: 2006aa32-9ba2-4fe0-bd3d-3deaceb621e1
-  ws-opts:
-    headers:
-      host: firsty.app
-    path: /ws
 - cipher: aes-256-gcm
-  name: IT_speednode_0017 [07162a4c93e6]
+  name: 4FreeIran-d37f40b402 [641a38ed61e1]
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.99
+  server: 202.50.253.27
   type: ss
+- name: 🇸🇬SG_2|3.3MB/s [a7f79d50edec5321] [7b450dcc054d]
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: 4FreeIran-a7babbd8ef [d027a4419852]
+  name: IT机场推荐： [9d6d2faeef141ad8] [544fdd461b91]
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.72
+  server: 202.50.253.54
   type: ss
-- name: VIP2-NL-Amsterdam-2421161-hynn [0e92352956d1]
-  port: 9050
-  server: 45.61.129.165
-  type: socks5
-- name: 167.99.74.174 [f311320e0a95]
-  password: None
-  port: 9090
-  server: 167.99.74.174
-  type: http
-- name: 🇷🇴RO_79|927KB/s [6d7dfea7ffce]
-  password: "null"
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
   udp: true
-  username: "null"
   x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_136_1@135 [d89346f51023]
-  network: ws
-  port: 443
-  server: 172.64.145.93
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      HOST: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- name: '[842d17517f87]'
+- name: 🇨🇳台湾 原生IP 0.11MB/s 509 linuxdo@onimaii [842d17517f87]
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-gcm
+  name: IT机场推荐： [04641adcccb29f99] [30207bf94172]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE-191.44.112.170-0416 [06839255a299]
+  network: ws
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+  port: 443
+  server: 191.44.112.170.sslip.io
+  sni: orbylume.my.to
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      host: orbylume.my.to
+    path: /tvpn-trojan/bg
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: '[d80a98d80fc6]'
+  port: 24667
+  protocol: udp
+  server: 62.210.28.175
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+  x-toolall-mihomo: true
+- name: 🇺🇸US_13|2.6MB/s [666a15a834e9347b] [9f8005157fc7]
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-gcm
+  name: IT_speednode_0016 [e4fa750756fd]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: US - 02 [2df495ac24d78d7d] [7e54912d3b27]
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-gcm
+  name: IT机场推荐： [de1d706be16eedad] [ae9a44202ffc]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳台湾 原生IP 4.33MB/s 182 linuxdo@onimaii [61859b18f887]
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 88a027c.dl.microsoft.lu:14333
+  port: 2377
+  server: 118.163.198.43
+  type: ss
+  x-toolall-mihomo: true
+- name: 🇺🇸 US-Los Angeles-81993522-ssqn [847f2db108c7]
+  password: "null"
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: "null"
+- name: 🇮🇸IS_1|1.1MB/s [5dec383d7134]
+  port: 9443
+  server: 185.165.170.1
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h3
   auth: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
@@ -1976,160 +655,159 @@ proxies:
   udp: true
   up: 100
   x-toolall-mihomo: true
-- name: 🇸🇬SG_49|744KB/s|R002-260618 [16fe623c88ee]
-  port: 9090
-  server: 167.172.76.176
-  sub_tag: R002-260618
-  type: http
-  udp: true
+- cipher: chacha20-ietf
+  name: 🇳🇱NL-109.104.153.43-0219 [ad12022f0033]
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocol-param: ''
+  server: 109.104.153.43
+  type: ssr
   x-toolall-mihomo: true
-- name: 🇳🇱荷兰 广播IP 0.93MB/s 359 linuxdo@onimaii [d90a774116a4]
-  password: freeuser1
-  port: 9251
-  server: nl203.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: US_speednode_0039 [8302b676182f]
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: FR_speednode_0008 [a57a3277a4a7]
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 'B - 🇷🇴 RO 03 TG: @nodpai [77b5350d3629]'
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 'B - 🇷🇴 RO 23 TG: @nodpai [e42a580aaf24]'
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬 SG-Singapore-h-4261392-jdjb [185196af213b]
+- name: 4Nika-41d67c5df5 [99f53987abb6]
+  network: ws
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443
-  server: 154.26.139.24
+  server: 191.44.112.170.sslip.io
   skip-cert-verify: true
+  sni: orbylume.my.to
   tls: true
-  type: http
-- name: 'B - 🇷🇴 RO 31 TG: @nodpai [12ca5365c9b6]'
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|3.3MB/s [07c8c1e0446c3216] [26b914356956]
-  password: None
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱 NL-Amsterdam-174714-ufey [33ffe908c168]
-  password: "null"
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴RO_77|1.1MB/s|R002-260618 [b663ac7e2150]
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_131|402KB/s|R002-260618 [7f0def53e7bd]
-  port: 8090
-  server: 184.188.139.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_97|1.0MB/s|R002-260618 [1ada39f7a818]
-  port: 443
-  server: 185.246.153.42
-  skip-cert-verify: true
-  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇭🇰HK_73|95KB/s|R002-260618 [a0ef9fe1869a]
-  port: 443
-  server: 43.155.62.157
-  sub_tag: R002-260618
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇬|尼日利亚-IEPL 01 [919ade677791]
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c2.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
   type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_40|978KB/s [76cb9d7b2584]
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱 NL-Amsterdam-174714-deww [47dbdd004c5b]
-  password: "null"
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  sni: 84.17.47.147
-  tls: true
-  type: http
-  username: "null"
+  ws-opts:
+    headers:
+      host: orbylume.my.to
+    path: /tvpn-trojan/bg
 - alterId: 0
   cipher: auto
-  name: vmess|泰国曼谷|8.213.209.1:18918|Alibaba (US) Technology Co., Ltd. [be163d18b617]
-  port: 18918
-  server: 8.213.209.1
+  name: vmess丨美国哥伦布丨3.18.102.2:57998丨Inc. [6c0253e0374a]
+  port: 57998
+  server: 3.18.102.2
   type: vmess
-  uuid: 6d64789a-4d5e-4ef7-c9ac-0fc543b4e635
-- name: 🇺🇸美国 原生IP 0.59MB/s 436 linuxdo@onimaii [800452a5db63]
-  password: "e4b72b531a2d10900519"
+  uuid: 1a8c4fce-7b08-458e-b9a4-94c0a23572d9
+- name: ❓Other_30|251KB/s|R002-260618 [546a84eb8c38]
+  password: "null"
   port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
+  server: 38.28.193.188
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: testuser1
-- name: 🇷🇴RO_15|419KB/s|P002-260618 [1f2c7631affa]
-  port: 9002
-  server: 193.176.84.26
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: 🇯🇵JP_6|2.4MB/s [0f4839b899b0]
+  password: ''
+  port: 443
+  server: fan.571589.xyz
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_37|3.1MB/s [016d9dc73a87]
+  password: ''
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- cipher: chacha20-ietf
+  name: 4FreeIran-5f9dcd5035 [2433c44b2dd1]
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: 109.104.153.43
+  type: ssr
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: IT_speednode_0014 [e690e14ea5a9]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_14|1.3MB/s|K001-260618 [5c0fa09d7f7db073] [39bae84f8bfb]
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: 4Sarina-1027ad08d6 [25decbaaa10a]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: aes-256-gcm
+  name: IT机场推荐： [9655f8dfc98a92df] [a7740ab520de]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇪🇨EC_2|3.3MB/s [b7f302f8a094]
+  password: ''
+  port: 9443
+  server: 38.165.231.71
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: IT_speednode_0015 [c9cdfff6d2cc]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_6|2.4MB/s [93256b066833]
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: HK - [838376171c7a673a] [72f6cc3a695c]
+  password: "null"
+  port: 443
+  server: fan.240104.xyz
+  tls: true
+  type: http
+  username: "null"
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 2丨yj [2ca61fa91213]
+  network: tcp
+  port: 23169
+  server: djj.zjlo.top
+  servername: djj.zjlo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7318caa1-93d1-4a9d-c481-504599902700
+  x-toolall-mihomo: true
+  xudp: true
 - name: 🇹🇷|土耳其-IEPL 02 [d2f8390c0aef]
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20028
@@ -2139,113 +817,226 @@ proxies:
   type: trojan
   udp: true
   x-toolall-mihomo: true
-- name: 🇩🇪德国 原生IP 0.73MB/s 394 linuxdo@onimaii [150bf99b5cd0]
-  password: "null"
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 2丨zjl [9986b452c2a2]
+  network: tcp
+  port: 23169
+  server: djj.zjlo.top
+  servername: djj.zjlo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: f67b1159-a61f-4ae4-9844-0701b716a290
+  x-toolall-mihomo: true
+  xudp: true
+- name: 🇩🇪DE_6|4.3MB/s [9a4fe49818bf1dc3] [6f33652f6299]
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦加拿大 原生IP 14.89MB/s 401 linuxdo@onimaii [0372827f2b85]
+  password: 0wcmn0va70ra
+  port: 7706
+  server: 136.143.243.57
+  type: http
+  username: hommkiti
+- name: 🇫🇷FR_4|2.0MB/s [32e7639f03cef99d] [35e8ee638fd0]
   port: 443
-  server: fan.973511.xyz
+  server: 149.102.245.65
+  skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: 🇷🇴 RO-Bucharest-3176842-vivi [caa834972008]
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "20"
+  name: 🇺🇸_US_美国_IPV4 (2) [043fad269c75cb80] [1fff1a445142]
+  password: dongtaiwang.com
+  port: 20022
+  server: 137.175.82.43
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: "20"
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 2丨hxr [85c0a17a6112]
+  network: tcp
+  port: 23169
+  server: djj.zjlo.top
+  servername: djj.zjlo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9da605d3-f5f7-4135-f806-450f036f9351
+  x-toolall-mihomo: true
+  xudp: true
+- name: 🇺🇸US_11|1.7MB/s [f105ad400081833b] [f821500144b0]
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 2丨byds [61da19f654dd]
+  network: tcp
+  port: 23169
+  server: djj.zjlo.top
+  servername: djj.zjlo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3eb053cb-d6f8-4b31-8180-222e1cc6f8ff
+  x-toolall-mihomo: true
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: 🇫🇷FR_1|1.1MB/s [01fe92b261e5]
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: "11"
+  x-toolall-mihomo: true
+- name: 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
   password: "null"
   port: 9002
-  server: 193.176.84.23
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   username: "null"
-- name: 'B - 🇷🇴 RO 02 TG: @nodpai [c8b57947e73d]'
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_134|1.1MB/s|P002-260618 [64fcd71bb22d]
-  password: "null"
+- name: 🇮🇹 意大利 | ITA [7ea880f1a9351b6a] [c9bfc63d3d13]
+  network: ws
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443
-  server: 185.140.209.235
+  server: 191.44.112.170.sslip.io
   skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
+  sni: orbylume.my.to
+  type: trojan
   udp: true
-  username: "null"
+  ws-opts:
+    headers:
+      Host: orbylume.my.to
+    path: /tvpn-trojan/bg
   x-toolall-mihomo: true
-- name: 'C - 🇺🇸 US 36 TG: @nodpai [4e17894fc917]'
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
+- name: 🇭🇰香港 原生IP 9.19MB/s 351 linuxdo@onimaii [09d8a2c30e1c]
+  password: 0wcmn0va70ra
+  port: 6182
+  server: 142.252.37.58
   type: http
-  username: fQ67Dpe5dU
-- name: 🇷🇴 RO-Bucharest-3176842-ytqb [cf95381b7672]
-  password: "null"
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴RO_27|630KB/s [803396a730d6]
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴 RO-Bucharest-3176842-znsz [5e718bf22a48]
-  password: "null"
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: FR_speednode_0009 [d04a31b7857b]
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_5|223KB/s|P002-260618 [635a2ebac156]
+  username: hommkiti
+- name: 🇺🇸US_13|3.1MB/s [cc9cfe69e0e6]
   password: ''
   port: 9002
-  server: 193.176.84.17
+  server: 138.199.35.200
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: ❓Other_2|2.2MB/s|R002-260618 [e73ab5ce8db0]
+- cipher: aes-256-gcm
+  name: 4Kian-a7fdf66a3d [04808d3a56bc]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 4Mohsen-e1b2cd8181 [8ed40d75cd58]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- name: 🇩🇪DE_10|2.2MB/s [8954e053b3ae4d55] [aff0968e0afe]
+  password: None
   port: 443
-  server: 5.2.73.112
+  server: 172.64.68.89
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
+- cipher: aes-256-gcm
+  name: 4FreeIran-a7babbd8ef [d027a4419852]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- name: 🇳🇱荷兰 广播IP 1.71MB/s 310 linuxdo@onimaii [d90a774116a4]
+  password: freeuser1
+  port: 9251
+  server: nl203.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- cipher: aes-256-gcm
+  name: IT_speednode_0017 [07162a4c93e6]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- name: NL_speednode_0022 [9786e1ec9296]
-  password: "null"
-  port: 443
-  server: 103.97.88.154
+- name: 🇺🇸US_20|1.9MB/s [f4e3445a2d03992b] [caa3d26f6218]
+  password: None
+  port: 9002
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
   username: "null"
-  x-toolall-mihomo: true
-- name: 🇳🇬|尼日利亚-IEPL 01 [a01396becc8f]
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
+- cipher: aes-256-gcm
+  name: 4Mohsen-b2a1a157ad [92c172b4f3c3]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- name: 🏳️未知 原生IP 1.35MB/s 281 linuxdo@onimaii [1b492461acd8]
+  password: freeuser1
+  port: 9251
+  server: nl205.freeconnect.link
+  sni: nl205.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 🇪🇪EE_1|2.0MB/s [9bfab8a0502eb612] [90f691e61027]
+  port: 9443
+  server: 95.153.31.66
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+  tls: true
+  type: http
+- name: 🌐 官网： [fffd8a16]
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
   udp: true
   x-toolall-mihomo: true
 - name: 🇳🇬|尼日利亚-IEPL 01 [1145805a678e]
@@ -2257,6 +1048,163 @@ proxies:
   type: trojan
   udp: true
   x-toolall-mihomo: true
+- name: 🔰 流速标准为油管1080P及以下 [08d7e43e6fa8]
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+  x-toolall-mihomo: true
+- name: ⚠️ 当前套餐已到期或超量 [328051664e8c]
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: IT机场推荐： [cf828b32fb3c578d] [3bb0f43ab34c]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
+  password: "null"
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: "null"
+- name: VIP1-SE-Stockholm-1251938-hohf [e39388f12d00]
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
+  username: bnVsbDpudWxs
+- name: 🇳🇱荷兰 广播IP 2.33MB/s 309 linuxdo@onimaii [87b7a0605709]
+  password: freeuser1
+  port: 9251
+  server: nl201.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 🇺🇸US_5|3.8MB/s [314576c8ea38680d] [e6054b5afb5d]
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_34|1.6MB/s [6572aef900a7]
+  password: ''
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇳🇱NL_11|1.1MB/s [a0e6c84551e8]
+  port: 443
+  server: 5.255.118.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 US-Los Angeles-81993521-nnrs [c6a884b69d38]
+  password: "null"
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  username: "null"
+- name: 🇳🇬|尼日利亚-IEPL 01 [919ade677791]
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: IT机场推荐： [47970f3e0c19e42e] [885d389b64d7]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: 🇨🇳台湾 原生IP 0.16MB/s 491 linuxdo@onimaii [f866334e8b41]
+  network: ws
+  port: 443
+  server: 60.248.219.53
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+  x-toolall-mihomo: true
+- name: 'C - 🇺🇸 US 36 TG: @nodpai [4e17894fc917]'
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
+- name: 🇩🇪德国 广播IP 11.43MB/s 547 linuxdo@onimaii [e362b58782e5]
+  password: freeuser1
+  port: 9251
+  server: br4-tr.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 🇫🇷法国 原生IP 2.01MB/s 357 linuxdo@onimaii [7a980292fb73]
+  password: freeuser1
+  port: 9251
+  server: fr007.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: US - 04 [7afc7ee5a861a2ed] [8266399813a5]
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: "null"
+- name: DK_speednode_0006 [f53c69176375]
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: '说明-来源: Ruk1ng001/freeSub'
   type: trojan
   server: 127.0.0.1
@@ -2264,7 +1212,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1122 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 724 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -2290,252 +1238,140 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Ruk1ng001/freeSub'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1122 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 724 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: General
   proxies:
-  - 🇯🇵 甲骨文东京-Hy2端口跳跃 [56f274e7bd4a]
-  - 🇯🇵 甲骨文东京-Hy2直连443 [42de2e265955]
-  - 🇺🇸美国 广播IP MB/s 160 linuxdo@onimaii [b29edabeed6b]
-  - 2丨hxr [42404ae78e0d]
-  - 🇯🇵日本 原生IP 6.61MB/s 232 linuxdo@onimaii [8e410e96b015]
-  - 🇸🇬新加坡|SG5|admin@VIP [fe9834ab3219]
-  - DK_speednode_0006 [f53c69176375]
-  - 🇩🇪DE_185|1.6MB/s [95de705707a4]
-  - DK_speednode_0005 [0ed63a7414e3]
-  - 🇩🇪DE_119|3.7MB/s|R002-260618 [270f10d1ed7e]
-  - 🇫🇷FR_1|858KB/s|R002-260618 [ceda4e151a48]
-  - 🇺🇸US_16|1.2MB/s [e00ef38c4155]
-  - 🇺🇸US_34|1.6MB/s [6572aef900a7]
-  - 🇺🇸US_10|3.0MB/s [c98893273be5dc41] [3c315f0adb9b]
-  - 🇺🇸US_346|623KB/s [28d4087faa05]
-  - 🇺🇸US_238|799KB/s|P002-260618 [622a861ed45b]
-  - 🇺🇸US_230|794KB/s|R002-260618 [db43a2ef58cd]
-  - 🇺🇸US_5|3.8MB/s [314576c8ea38680d] [e6054b5afb5d]
-  - 🇺🇸US_347|700KB/s|R002-260618 [4451c44468c9]
-  - 🇧🇦BA_1|1.9MB/s [662063deed7ab3f0] [0fecafc68623]
-  - 🇺🇸US_338|777KB/s [4b8c02c0b885]
-  - 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
-  - 🇺🇸US_157|216KB/s [b86bd25a4d6a]
-  - 🇺🇸US_250|778KB/s|R002-260618 [5007cfe0bd29]
-  - 🇫🇷_FR_法国_IPV4 (2) [59c241a8c325cb6f] [73488ba91fd1]
-  - 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
-  - 🇺🇸US_210|675KB/s|R002-260618 [9a1b9b4b44d2]
-  - 233boy-hysteria2-168.110.48.252 [5e9fd67b87b0]
-  - 🇺🇸US_193|814KB/s|P002-260618 [e305b3d3a781]
-  - 🇺🇸US_20|4.1MB/s [7b64c9723464]
-  - US - 03 [f98af79e621bfb95] [ead159c58ec0]
-  - 🇺🇸US_11|1.7MB/s [f105ad400081833b] [f821500144b0]
-  - 🇺🇸US_168|724KB/s [4a2e8ac2a0a1]
-  - 🇺🇸 US-Los Angeles-81993521-nnrs [c6a884b69d38]
-  - 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
-  - 🇷🇴RO_22|1.4MB/s|K001-260618 [202aca3d965e]
-  - 🇺🇸US_8|1.3MB/s [a5f015b5ae603b87] [c4a931939ffa]
-  - 🇷🇴RO_19|1.6MB/s|K001-260618 [ba1f112e]
-  - 🇩🇪DE_107|1.5MB/s [69203bf08822]
-  - 🇺🇸 US-Los Angeles-81993522-ssqn [847f2db108c7]
-  - 🇷🇴 RO-Bucharest-3176843-vsaz [9b101db69158]
-  - 🇳🇱NL_146|1.1MB/s|P002-260618 [dedda5683a1b]
-  - 'B - 🇷🇴 RO 07 TG: @nodpai [690c5e10e14d]'
-  - 🇺🇸US_137|653KB/s|P002-260618 [02a5da37f711]
-  - 🇺🇸US_195|687KB/s|P002-260618 [185dbe9aa84d]
-  - NL_speednode_0023 [f03b16402ab3]
-  - 🇺🇸US_13|3.1MB/s [cc9cfe69e0e6]
-  - 🇺🇸US_144|446KB/s|P002-260618 [ddf7160461d0]
-  - 🇷🇴RO_31|1.4MB/s|P002-260618 [de5de853aac7]
-  - 🇷🇴RO_35|1.2MB/s|P002-260618 [69fb10c859fa]
-  - 🇳🇱NL_123|979KB/s|R002-260618 [0ddd02dc3367]
-  - 🇩🇪DE_43|3.0MB/s|P002-260618 [b31762874ac5]
-  - 🇳🇱NL_76|3.0MB/s|P002-260618 [16becad22633]
-  - 🇳🇱NL_147|5.0MB/s|K001-260618 [6da234288c32]
-  - 🇺🇸US_188|715KB/s|P002-260618 [eb5e259d4ea2]
-  - 🇳🇱NL_41|273KB/s|R002-260618 [dfb7ded183f7]
-  - 🇨🇿CZ_1|3.3MB/s [654d560d4c97]
-  - NL_speednode_0025 [461db3e89d9a]
-  - 🇩🇪DE_6|4.3MB/s [9a4fe49818bf1dc3] [6f33652f6299]
+  - 🇯🇵 日本 - 东京2号直连 [9343617ffd71]
+  - 🇯🇵 日本 - 东京1号直连 [7b6f365dd125]
   - 2丨zjl [3a2428a7b5eb]
-  - 🇷🇴RO_49|3.2MB/s [8ef0180a1a66]
-  - VIP3-🇹🇷土耳其|TR|直连 [2bc30532c8b9]
-  - 甲骨文-甲骨文 [e430d3a1a60b]
-  - DE_speednode_0004 [92e8593bee30]
-  - 🇳🇱NL_26|2.3MB/s|R002-260618 [c61344075292]
-  - 🇺🇸US-140.188.73.129-5371 [4cec6c79a30e]
-  - JP-Hysteria2 [84cad1f68004]
-  - ❓Other_50|1.0MB/s|K001-260618 [c0349c89b0e6]
-  - NL_speednode_0024 [f6303636874a]
-  - 4Mohsen-25a3d07792 [2433c44b2dd1]
-  - RO-Bucharest-3176843-tqzq [c52f2f9bbaff]
-  - 2丨yj [2ca61fa91213]
-  - 🇷🇴RO_12|1.2MB/s|P002-260618 [568350f13b6e]
-  - 🇳🇱NL_129|3.1MB/s|R002-260618 [0dc67707ea09]
-  - 🇳🇱荷兰 广播IP 0.58MB/s 337 linuxdo@onimaii [1b492461acd8]
-  - 🇵🇱PL_5|2.6MB/s|R002-260618 [2e410e6190d1]
-  - 🇯🇵 甲骨文东京-Trojan稳定端 [25079a53d981]
-  - LV_speednode_0021 [21c346022b3f]
-  - IE_speednode_0013 [37e4a848bf1f]
-  - RO-Bucharest-3176841-jqej [beaebbc0825a]
-  - 🇯🇵 甲骨文东京-VLESS-Reality [f022db9b1c8a]
-  - 🇩🇪DE_37|3.4MB/s|R002-260618 [45ae42e77b51]
-  - 'B - 🇷🇴 RO 08 TG: @nodpai [49894881bdcc]'
-  - 🇫🇷法国 原生IP 1.29MB/s 318 linuxdo@onimaii [ff9b00b5bb2d]
-  - 🇷🇴RO_73|1.0MB/s|R002-260618 [1ec0c679cc33]
-  - JP-Reality [d65811a11dab]
-  - 🇺🇸US_10|703KB/s|R002-260618 [f7c0904bd93b]
-  - 🇷🇴RO_78|1.2MB/s [c3a4db1baea6]
-  - 🇮🇹IT_38|1.3MB/s|A001-260618 [a1a50d085577]
-  - 🇷🇴RO_71|1.1MB/s [846db5e15e06]
-  - 🇪🇸ES_30|1.2MB/s|R002-260618 [a960088a78eb]
-  - 'B - 🇷🇴 RO 11 TG: @nodpai [4b2bbcd96ee8]'
-  - NL - [3a0f0e29d7f03382] [bab2a3b41627]
-  - 'B - 🇷🇴 RO 13 TG: @nodpai [834e970318c8]'
-  - 🇭🇺HU_1|826KB/s|P002-260618 [e8cd63a12825]
-  - 2丨hxr [85c0a17a6112]
-  - RO-Bucharest-3176843-vkhp [c2a232611f73]
-  - 🇳🇱NL_101|3.1MB/s|P002-260618 [ddf212e8e12f]
-  - 🇪🇸ES_27|465KB/s|R002-260618 [76f1fc23ee8b]
-  - 2丨byds [61da19f654dd]
-  - FR_speednode_0010 [e6da0f6df43c]
-  - 🇮🇱IL_1|1.1MB/s|R002-260618 [fbd6fbcec4c8]
-  - FR_speednode_0011 [eaf068c92f1f]
-  - 🇷🇴RO_28|1.4MB/s|R002-260618 [beb2518b7b3f]
-  - 🇳🇱NL_11|3.3MB/s [7a217f0fa92e]
-  - 🇺🇸US_291|721KB/s|R002-260618 [7f773846261b]
-  - 🇬🇧GB_19|932KB/s|P002-260618 [8160cb3bcb47]
-  - 'B - 🇷🇴 RO 16 TG: @nodpai [c562dcb3e93b]'
-  - 🇲🇽MX 原生IP 3.25MB/s 172 linuxdo@onimaii [ebc68f5f3fc9]
-  - 🇯🇵JP_6|2.4MB/s [0f4839b899b0]
-  - 🇺🇸US_1|1.1MB/s [4183972a059f]
-  - 2丨zjl [9986b452c2a2]
-  - 🇪🇸ES_59|2.7MB/s|M003-260806 [38171dc1c992]
-  - 🇳🇱NL_92|2.6MB/s|P002-260618 [e038f62733a2]
-  - 🇷🇴RO_14|3.5MB/s [7cb56d5dc842]
-  - 🇮🇱IL_6|1.3MB/s|K001-260618 [a4cd70176943]
-  - 🇮🇪IE_2|1.4MB/s|R002-260618 [ccdfe7c35f3d]
-  - NL_speednode_0027 [5a16ef58e735]
-  - Oracle-Tokyo [dd9ec0ba9b8d]
-  - LV_speednode_0020 [a0b4e0754e17]
-  - 🇺🇸US_13|762KB/s|R002-260618 [58a0fbc2a3dd]
-  - 🇳🇱NL_13|234KB/s|P002-260618 [b0b243bbfddf]
-  - 🇷🇴RO_7|1.4MB/s [0b5076bf06d9]
-  - jpa-ss-53758 [09a741d4ae56]
-  - 🇺🇸US_589|90KB/s|R002-260618 [1a8c4f1c7450]
-  - 🇫🇷FR_94|734KB/s|R002-260618 [95689af31163]
-  - 🇺🇸US_226|1.2MB/s|R002-260618 [5286c74d4aa4]
-  - KR-Relay [2da0b455a907]
-  - 🇺🇸US_571|142KB/s|R002-260618 [471ebd29feb8]
-  - 🇷🇴RO_58|913KB/s|P002-260618 [fa2a85d8b301]
-  - 🇺🇸US_585|146KB/s|R002-260618 [4d2a6a08e9aa]
-  - 🇨🇦加拿大 广播IP 21.25MB/s 576 linuxdo@onimaii [9a5557203af2]
-  - 🏳️未知 原生IP 20.29MB/s 028 linuxdo@onimaii [0eccd5bfbdc6]
-  - 🇷🇺RU_3|2.2MB/s [ff820506b93ebb48] [2a2e62a5c6a8]
-  - 🇳🇱NL_188|2.3MB/s|P002-260618 [007ac7f97335]
-  - 🇸🇪瑞典 广播IP 1.20MB/s 479 linuxdo@onimaii [86065e136936]
-  - 🇭🇰香港 原生IP 9.84MB/s 398 linuxdo@onimaii [09d8a2c30e1c]
-  - 🇺🇸美国 原生IP MB/s 229 linuxdo@onimaii [0372827f2b85]
-  - 4Mohsen-e1b2cd8181 [8ed40d75cd58]
-  - 🇷🇴RO_59|964KB/s [59f9b547adb8]
-  - '[d80a98d80fc6]'
-  - 🇮🇹IT_2|1.6MB/s|A004-260618 [04af617c92c1]
-  - 🇺🇸US_503|985KB/s|R002-260618 [485226163b25]
-  - 🇹🇷TR 原生IP 0.76MB/s 363 linuxdo@onimaii [9e933bd8f184]
-  - 🇮🇹IT_11|1.2MB/s|A004-260618 [fedf53752e2e]
-  - 🇺🇸US_447|797KB/s|K001-260618 [7138328380d5]
-  - 🇵🇱PL_7|2.1MB/s|R002-260618 [0863fb8d737b]
-  - 🇩🇪DE_11|433KB/s|R002-260618 [7e349bfebde8]
-  - 🇺🇸US_479|653KB/s|P002-260618 [aee933637067]
-  - IT机场推荐： [04641adcccb29f99] [30207bf94172]
-  - 🇺🇸 美国 | USA 9 [fac35ed425c5e1cf] [62c5f7511a31]
-  - 🇺🇸_US_美国_IPV4 (2) [043fad269c75cb80] [1fff1a445142]
-  - NL_speednode_0026 [86fd6822b11a]
-  - 🇷🇴RO_81|1.2MB/s|R002-260618 [895f1e471f2b]
-  - 🇮🇹|意大利-IEPL 02 [7b44fa072404]
-  - 🇫🇷FR_88|7.5MB/s|R002-260618 [522fc5ddfd3d]
-  - 🇺🇸美国 原生IP 0.97MB/s 357 linuxdo@onimaii [0e083ab9a38b]
-  - 🇮🇹|意大利-IEPL 02 [0e562b525f4e]
-  - 🇷🇴RO_51|1.2MB/s|R002-260618 [cb1e1faecd51]
-  - 4Sarina-1027ad08d6 [25decbaaa10a]
-  - IT机场推荐： [9d6d2faeef141ad8] [544fdd461b91]
-  - 🇺🇸美国 原生IP 0.45MB/s 528 linuxdo@onimaii [86b48851d474]
-  - 🇷🇴RO_80|1.8MB/s|R002-260618 [7ee423ee99a6]
-  - 🇭🇰香港|HK|admin@VIP [c5723ba4a5e1]
-  - 🇳🇱NL_96|2.1MB/s|R002-260618 [93fdda9d1cba]
-  - 🇺🇸 US-San Jose-82214-ttjq [d37c74156e45]
-  - IT机场推荐： [cf828b32fb3c578d] [3bb0f43ab34c]
-  - IT机场推荐： [47970f3e0c19e42e] [885d389b64d7]
-  - IT机场推荐： [de1d706be16eedad] [ae9a44202ffc]
-  - 233boy-reality-168.110.48.252 [4ec776590360]
-  - IT机场推荐： [9655f8dfc98a92df] [a7740ab520de]
-  - IT_speednode_0014 [e690e14ea5a9]
-  - IT_speednode_0015 [c9cdfff6d2cc]
-  - 🇷🇺RU_1|1.1MB/s [53e4c48d230a]
-  - US_speednode_0040 [853162e17c25]
-  - IT_speednode_0016 [e4fa750756fd]
-  - 🇩🇪DE_9|2.1MB/s [63f149bb2f7cbf46] [5d11e9264422]
-  - 233boy-hysteria2-158.101.140.31 [ed118ca628ac]
-  - 🇫🇷法国 原生IP 23.09MB/s 482 linuxdo@onimaii [3ece0f2bc243]
-  - 'B - 🇷🇴 RO 02 TG: @nodpai [b09c9850f397]'
-  - 🇩🇪DE_10|2.2MB/s [8954e053b3ae4d55] [aff0968e0afe]
-  - 🇫🇷FR_51|448KB/s|R002-260618 [5204e10ac861]
-  - 🇺🇸US_343|282KB/s|R002-260618 [5af111a45f55]
-  - 🇱🇹LT_7|2.3MB/s|R002-260618 [747fd2928403]
-  - 🇭🇰香港 原生IP 0.24MB/s 608 linuxdo@onimaii [d9a12d255ea3]
-  - 🇬🇧英国 原生IP 1.19MB/s 342 linuxdo@onimaii [8705806b83bb]
-  - disney-residential [c5851dde304f]
-  - HK - [838376171c7a673a] [72f6cc3a695c]
-  - 4Mohsen-b2a1a157ad [92c172b4f3c3]
-  - 🇩🇪_DE_德国_IPV4 (2) [6a9ab7ea2aa03f5f] [13e50110b6aa]
-  - 🇫🇷法国 原生IP 0.45MB/s 356 linuxdo@onimaii [7a980292fb73]
-  - 🇮🇹意大利 原生IP 0.13MB/s 370 linuxdo@onimaii [e29795f7e12d]
-  - 🇷🇴RO_45|1.2MB/s|G001-260618 [bf673631094f]
-  - 'B - 🇷🇴 RO 03 TG: @nodpai [0c9de1a9d14f]'
-  - 🇩🇪DE_21|599KB/s|R002-260618 [04210ea6ee79]
-  - 🇩🇪DE_27|107KB/s|R002-260618 [f47bcf803e52]
-  - 🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
-  - 4-Oracle-Firsty-60-Discount [996055d62516]
-  - IT_speednode_0017 [07162a4c93e6]
-  - 4FreeIran-a7babbd8ef [d027a4419852]
-  - VIP2-NL-Amsterdam-2421161-hynn [0e92352956d1]
-  - 167.99.74.174 [f311320e0a95]
-  - 🇷🇴RO_79|927KB/s [6d7dfea7ffce]
-  - 🇺🇸US_136_1@135 [d89346f51023]
-  - '[842d17517f87]'
-  - 🇸🇬 新加坡 | SGP 2 [e1c8cf8fd806]
-  - 🇸🇬SG_49|744KB/s|R002-260618 [16fe623c88ee]
-  - 🇳🇱荷兰 广播IP 0.93MB/s 359 linuxdo@onimaii [d90a774116a4]
-  - US_speednode_0039 [8302b676182f]
-  - FR_speednode_0008 [a57a3277a4a7]
-  - 'B - 🇷🇴 RO 03 TG: @nodpai [77b5350d3629]'
-  - 'B - 🇷🇴 RO 23 TG: @nodpai [e42a580aaf24]'
-  - 🇸🇬 SG-Singapore-h-4261392-jdjb [185196af213b]
-  - 'B - 🇷🇴 RO 31 TG: @nodpai [12ca5365c9b6]'
-  - 🇺🇸US_15|3.3MB/s [07c8c1e0446c3216] [26b914356956]
+  - 🇺🇸美国 原生IP 9.21MB/s 152 linuxdo@onimaii [b29edabeed6b]
+  - 🇭🇰HK_1|5.1MB/s [c28c3ed8f5fb]
+  - 🇵🇱PL_3|2.7MB/s [c95c95ac1c6a]
+  - 🇨🇿CZ_1|3.3MB/s [654d560d4c97]
+  - JP-Reality [6c77c8c11628]
   - 🇳🇱 NL-Amsterdam-174714-ufey [33ffe908c168]
-  - 🇷🇴RO_77|1.1MB/s|R002-260618 [b663ac7e2150]
-  - 🇺🇸US_131|402KB/s|R002-260618 [7f0def53e7bd]
-  - 🇳🇱NL_97|1.0MB/s|R002-260618 [1ada39f7a818]
-  - 🇭🇰HK_73|95KB/s|R002-260618 [a0ef9fe1869a]
-  - 🇳🇬|尼日利亚-IEPL 01 [919ade677791]
-  - 🇷🇴RO_40|978KB/s [76cb9d7b2584]
+  - 🇬🇧英国 原生IP 27.24MB/s 598 linuxdo@onimaii [9a5557203af2]
+  - 🇳🇱NL_34|2.9MB/s|R002-260618 [0dc67707ea09]
+  - 🇺🇸US_1|1.1MB/s [4183972a059f]
+  - 2丨byds [a5e009b988f9]
+  - JP-Hysteria2 [84cad1f68004]
+  - 🇬🇷GR_1|2.3MB/s [4cc1e630f5fc]
+  - 2丨yj [91c09d018ac4]
+  - 🇺🇸美国 原生IP 2.01MB/s 344 linuxdo@onimaii [8bff87380717]
   - 🇳🇱 NL-Amsterdam-174714-deww [47dbdd004c5b]
-  - vmess|泰国曼谷|8.213.209.1:18918|Alibaba (US) Technology Co., Ltd. [be163d18b617]
-  - 🇺🇸美国 原生IP 0.59MB/s 436 linuxdo@onimaii [800452a5db63]
-  - 🇷🇴RO_15|419KB/s|P002-260618 [1f2c7631affa]
+  - 🇺🇸US_8|1.3MB/s [a5f015b5ae603b87] [c4a931939ffa]
+  - JP-Reality [d65811a11dab]
+  - 🇬🇧GB_3|1.8MB/s|P002-260618 [8160cb3bcb47]
+  - US - 06 [739e0a8f514270b6] [ffebf4869150]
+  - 🇱🇻LV_1|1.6MB/s [db7b7005e8b5]
+  - 🇺🇸US_10|3.0MB/s [c98893273be5dc41] [3c315f0adb9b]
+  - 🇮🇹|意大利-IEPL 02 [9bec713ba84d]
+  - 🇦🇹AT_1|2.4MB/s [82d61a814f86]
+  - 🇷🇸RS_1|3.1MB/s [bdfe2732d9b76047] [8b0f46769f73]
+  - 🇪🇸ES 广播IP 0.39MB/s 307 linuxdo@onimaii [ffd6f8980cb1]
+  - 🇫🇷_FR_法国_IPV4 (2) [59c241a8c325cb6f] [73488ba91fd1]
+  - 🇵🇱PL_39|244KB/s|M003-260806 [44d821dc7f54]
+  - 🇬🇷GR_1|2.7MB/s [8d8bfa9f553a]
+  - 🇷🇺RU_3|2.2MB/s [ff820506b93ebb48] [2a2e62a5c6a8]
+  - 🇧🇦BA_1|1.9MB/s [662063deed7ab3f0] [0fecafc68623]
+  - 🇩🇪DE_2|1.6MB/s [700b4bd38f03]
+  - 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
+  - 🇷🇺RU_1|1.1MB/s [53e4c48d230a]
+  - 🇺🇸_美国 (120) [d6a0d8a5ba285959] [41ee19c1c844]
+  - 🇸🇬新加坡|SG5|admin@VIP [fe9834ab3219]
+  - 🇳🇱NL_1|1.4MB/s [7bcba9424a41384c] [594101089138]
+  - 🇷🇸RS_2|1.2MB/s [8cd189883c14]
+  - 🇹🇷|土耳其-IEPL 01 [e3ba77a91d06]
+  - VIP3-🇹🇷土耳其|TR|直连 [2bc30532c8b9]
+  - 🇳🇱NL_9|1.0MB/s [3744e5a8bca3]
+  - 🇮🇹IT_5|1.8MB/s [37e2fd5f3e901b6b] [623fe506d40e]
+  - 🇩🇪DE_5|4.9MB/s|R002-260618 [853cbfea7588]
+  - 🇸🇬 SG-Singapore-h-4261392-jdjb [185196af213b]
+  - 🇸🇪SE_1|1.6MB/s [4cac4ba92768]
+  - 🇭🇺HU_1|4.0MB/s [c089a9fb49699380] [b55234c9ce9b]
+  - 🇮🇹|意大利-IEPL 02 [0e562b525f4e]
+  - US - 03 [f98af79e621bfb95] [ead159c58ec0]
+  - 🇺🇸 美国 | USA 9 [fac35ed425c5e1cf] [62c5f7511a31]
+  - 🇺🇸US_33|395KB/s [4a2e8ac2a0a1]
+  - 🇩🇪_DE_德国_IPV4 (2) [6a9ab7ea2aa03f5f] [13e50110b6aa]
+  - 4FreeIran-d37f40b402 [641a38ed61e1]
+  - 🇸🇬SG_2|3.3MB/s [a7f79d50edec5321] [7b450dcc054d]
+  - IT机场推荐： [9d6d2faeef141ad8] [544fdd461b91]
+  - 🇨🇳台湾 原生IP 0.11MB/s 509 linuxdo@onimaii [842d17517f87]
+  - IT机场推荐： [04641adcccb29f99] [30207bf94172]
+  - 🇩🇪DE-191.44.112.170-0416 [06839255a299]
+  - '[d80a98d80fc6]'
+  - 🇺🇸US_13|2.6MB/s [666a15a834e9347b] [9f8005157fc7]
+  - IT_speednode_0016 [e4fa750756fd]
+  - US - 02 [2df495ac24d78d7d] [7e54912d3b27]
+  - IT机场推荐： [de1d706be16eedad] [ae9a44202ffc]
+  - 🇨🇳台湾 原生IP 4.33MB/s 182 linuxdo@onimaii [61859b18f887]
+  - 🇺🇸 US-Los Angeles-81993522-ssqn [847f2db108c7]
+  - 🇮🇸IS_1|1.1MB/s [5dec383d7134]
+  - 🇸🇬 新加坡 | SGP 2 [e1c8cf8fd806]
+  - 🇳🇱NL-109.104.153.43-0219 [ad12022f0033]
+  - 4Nika-41d67c5df5 [99f53987abb6]
+  - vmess丨美国哥伦布丨3.18.102.2:57998丨Inc. [6c0253e0374a]
+  - ❓Other_30|251KB/s|R002-260618 [546a84eb8c38]
+  - 🇯🇵JP_6|2.4MB/s [0f4839b899b0]
+  - 🇺🇸US_37|3.1MB/s [016d9dc73a87]
+  - 4FreeIran-5f9dcd5035 [2433c44b2dd1]
+  - IT_speednode_0014 [e690e14ea5a9]
+  - 🇺🇸US_14|1.3MB/s|K001-260618 [5c0fa09d7f7db073] [39bae84f8bfb]
+  - 4Sarina-1027ad08d6 [25decbaaa10a]
+  - IT机场推荐： [9655f8dfc98a92df] [a7740ab520de]
+  - 🇪🇨EC_2|3.3MB/s [b7f302f8a094]
+  - IT_speednode_0015 [c9cdfff6d2cc]
+  - 🇺🇸US_6|2.4MB/s [93256b066833]
+  - HK - [838376171c7a673a] [72f6cc3a695c]
+  - 2丨yj [2ca61fa91213]
   - 🇹🇷|土耳其-IEPL 02 [d2f8390c0aef]
-  - 🇩🇪德国 原生IP 0.73MB/s 394 linuxdo@onimaii [150bf99b5cd0]
-  - 🇷🇴 RO-Bucharest-3176842-vivi [caa834972008]
-  - 'B - 🇷🇴 RO 02 TG: @nodpai [c8b57947e73d]'
-  - 🇳🇱NL_134|1.1MB/s|P002-260618 [64fcd71bb22d]
-  - 'C - 🇺🇸 US 36 TG: @nodpai [4e17894fc917]'
-  - 🇷🇴 RO-Bucharest-3176842-ytqb [cf95381b7672]
-  - 🇷🇴RO_27|630KB/s [803396a730d6]
-  - 🇷🇴 RO-Bucharest-3176842-znsz [5e718bf22a48]
-  - FR_speednode_0009 [d04a31b7857b]
-  - 🇷🇴RO_5|223KB/s|P002-260618 [635a2ebac156]
-  - ❓Other_2|2.2MB/s|R002-260618 [e73ab5ce8db0]
-  - NL_speednode_0022 [9786e1ec9296]
-  - 🇳🇬|尼日利亚-IEPL 01 [a01396becc8f]
+  - 2丨zjl [9986b452c2a2]
+  - 🇩🇪DE_6|4.3MB/s [9a4fe49818bf1dc3] [6f33652f6299]
+  - 🇨🇦加拿大 原生IP 14.89MB/s 401 linuxdo@onimaii [0372827f2b85]
+  - 🇫🇷FR_4|2.0MB/s [32e7639f03cef99d] [35e8ee638fd0]
+  - 🇺🇸_US_美国_IPV4 (2) [043fad269c75cb80] [1fff1a445142]
+  - 2丨hxr [85c0a17a6112]
+  - 🇺🇸US_11|1.7MB/s [f105ad400081833b] [f821500144b0]
+  - 2丨byds [61da19f654dd]
+  - 🇫🇷FR_1|1.1MB/s [01fe92b261e5]
+  - 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
+  - 🇮🇹 意大利 | ITA [7ea880f1a9351b6a] [c9bfc63d3d13]
+  - 🇭🇰香港 原生IP 9.19MB/s 351 linuxdo@onimaii [09d8a2c30e1c]
+  - 🇺🇸US_13|3.1MB/s [cc9cfe69e0e6]
+  - 4Kian-a7fdf66a3d [04808d3a56bc]
+  - 4Mohsen-e1b2cd8181 [8ed40d75cd58]
+  - 🇩🇪DE_10|2.2MB/s [8954e053b3ae4d55] [aff0968e0afe]
+  - 4FreeIran-a7babbd8ef [d027a4419852]
+  - 🇳🇱荷兰 广播IP 1.71MB/s 310 linuxdo@onimaii [d90a774116a4]
+  - IT_speednode_0017 [07162a4c93e6]
+  - 🇺🇸US_20|1.9MB/s [f4e3445a2d03992b] [caa3d26f6218]
+  - 4Mohsen-b2a1a157ad [92c172b4f3c3]
+  - 🏳️未知 原生IP 1.35MB/s 281 linuxdo@onimaii [1b492461acd8]
+  - 🇪🇪EE_1|2.0MB/s [9bfab8a0502eb612] [90f691e61027]
+  - 🌐 官网： [fffd8a16]
   - 🇳🇬|尼日利亚-IEPL 01 [1145805a678e]
+  - 🔰 流速标准为油管1080P及以下 [08d7e43e6fa8]
+  - ⚠️ 当前套餐已到期或超量 [328051664e8c]
+  - IT机场推荐： [cf828b32fb3c578d] [3bb0f43ab34c]
+  - 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
+  - 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
+  - VIP1-SE-Stockholm-1251938-hohf [e39388f12d00]
+  - 🇳🇱荷兰 广播IP 2.33MB/s 309 linuxdo@onimaii [87b7a0605709]
+  - 🇺🇸US_5|3.8MB/s [314576c8ea38680d] [e6054b5afb5d]
+  - 🇺🇸US_34|1.6MB/s [6572aef900a7]
+  - 🇳🇱NL_11|1.1MB/s [a0e6c84551e8]
+  - 🇺🇸 US-Los Angeles-81993521-nnrs [c6a884b69d38]
+  - 🇳🇬|尼日利亚-IEPL 01 [919ade677791]
+  - IT机场推荐： [47970f3e0c19e42e] [885d389b64d7]
+  - 🇨🇳台湾 原生IP 0.16MB/s 491 linuxdo@onimaii [f866334e8b41]
+  - 'C - 🇺🇸 US 36 TG: @nodpai [4e17894fc917]'
+  - 🇩🇪德国 广播IP 11.43MB/s 547 linuxdo@onimaii [e362b58782e5]
+  - 🇫🇷法国 原生IP 2.01MB/s 357 linuxdo@onimaii [7a980292fb73]
+  - US - 04 [7afc7ee5a861a2ed] [8266399813a5]
+  - DK_speednode_0006 [f53c69176375]
   type: select
 rules:
 - MATCH,General

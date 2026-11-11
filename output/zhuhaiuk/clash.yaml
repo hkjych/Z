@@ -4,227 +4,231 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- name: LV
+  type: http
+  server: 185.219.159.15
+  port: 443
+  tls: true
+  sni: 185.219.159.15
+  skip-cert-verify: true
+- name: IE
+  type: http
+  server: 149.88.96.12
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+- name: "DE"
+  type: http
+  server: fan.973511.xyz
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
 - name: JP
   type: http
   server: fan.571589.xyz
   port: 443
-  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-- name: US
-  type: http
-  server: 162.191.87.112
-  port: 8443
-  tls: true
-  skip-cert-verify: true
 - name: US - 02
   type: http
-  server: 138.199.35.195
+  server: 138.199.35.200
   port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 138.199.35.195
-  skip-cert-verify: true
-- name: US - 03
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: "null"
-  password: "null"
   tls: true
   skip-cert-verify: true
-- name: US - 04
+- name: IT
   type: http
-  server: 38.28.185.205
+  server: 93.42.177.250
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IE
-  type: http
-  server: 34.249.214.108
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 34.249.214.108
-  skip-cert-verify: true
-- name: NL
-  type: http
-  server: 5.2.73.112
-  port: 443
-  tls: true
-  sni: 5.2.73.112
-  skip-cert-verify: true
-- name: US - 05
-  type: http
-  server: 138.199.35.201
-  port: 9002
   username: "null"
   password: None
   tls: true
+  sni: 93.42.177.250
   skip-cert-verify: true
-- name: HK
+- name: LV - 02
   type: http
-  server: 38.76.140.254
-  port: 8443
+  server: 185.219.159.16
+  port: 443
+  username: "null"
+  password: "null"
   tls: true
-  sni: 38.76.140.254
+  sni: 185.219.159.16
+  skip-cert-verify: true
+- name: NL
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 84.17.47.147
+  skip-cert-verify: true
+- name: US - 03
+  type: http
+  server: 44.217.145.28
+  port: 8443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 44.217.145.28
+  skip-cert-verify: true
+- name: US - 04
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: US - 05
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  tls: true
   skip-cert-verify: true
 - name: US - 06
   type: http
-  server: 138.199.35.206
-  port: 9002
-  tls: true
-  sni: 138.199.35.206
-  skip-cert-verify: true
-- name: IE - 02
-  type: http
-  server: 18.200.158.139
+  server: fan.596189.xyz
   port: 443
+  username: bnVsbDpudWxs
   tls: true
-  sni: 18.200.158.139
-  skip-cert-verify: true
-- name: US - 07
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: US - 08
-  type: http
-  server: 137.175.22.120
-  port: 443
-  tls: true
-  sni: 137.175.22.120
-  skip-cert-verify: true
-- name: US - 09
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: HK - 02
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-- name: US - 10
-  type: http
-  server: 138.199.35.214
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 138.199.35.214
-  skip-cert-verify: true
-- name: US - 11
-  type: http
-  server: 107.91.88.70
-  port: 8443
-  tls: true
-  sni: 107.91.88.70
-  skip-cert-verify: true
-- name: NL - 02
-  type: http
-  server: 185.140.209.235
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 185.140.209.235
-  skip-cert-verify: true
+  sni: fan.596189.xyz
 - name: JP - 02
   type: http
   server: 8.216.57.38
   port: 443
   tls: true
+  sni: 8.216.57.38
   skip-cert-verify: true
-- name: NL - 03
+- name: NL - 02
   type: http
-  server: 84.17.47.124
-  port: 9002
+  server: 51.158.243.91
+  port: 443
   username: "null"
-  password: "null"
+  password: None
+  tls: true
+  sni: 51.158.243.91
+  skip-cert-verify: true
+- name: US - 07
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+  sni: fan.596189.xyz
+- name: JP - 03
+  type: http
+  server: 64.176.51.83
+  port: 8443
+  tls: true
+  sni: 64.176.51.83
+  skip-cert-verify: true
+- name: IT - 02
+  type: http
+  server: 93.71.245.84
+  port: 8090
   tls: true
   skip-cert-verify: true
-- name: IE - 03
+- name: US - 08
   type: http
-  server: 18.200.158.139
+  server: 138.199.35.218
+  port: 9002
+  tls: true
+  sni: 138.199.35.218
+  skip-cert-verify: true
+- name: US - 09
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  tls: true
+  sni: 138.199.35.197
+  skip-cert-verify: true
+- name: ID
+  type: http
+  server: 103.86.117.202
+  port: 443
+  tls: true
+  sni: 103.86.117.202
+  skip-cert-verify: true
+- name: US - 10
+  type: http
+  server: 23.133.176.14
   port: 443
   username: "null"
   password: "null"
   tls: true
-  sni: 18.200.158.139
+  sni: 23.133.176.14
   skip-cert-verify: true
-- name: US - 12
+- name: HK
   type: http
-  server: 138.199.35.208
-  port: 9002
+  server: 119.28.24.235
+  port: 3128
   tls: true
-  sni: 138.199.35.208
+  sni: 119.28.24.235
   skip-cert-verify: true
-- name: "DE"
-  type: http
-  server: 87.106.223.158
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 87.106.223.158
+- name: HK - 02
+  type: anytls
+  server: site.ddddd.site
+  port: 36032
+  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+  udp: true
+  sni: virtual.ubuntu24.com
   skip-cert-verify: true
+  client-fingerprint: chrome
 - name: KR
   type: http
-  server: 43.166.4.171
+  server: 152.69.230.221
   port: 443
   tls: true
   skip-cert-verify: true
 - name: KR - 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Og==
-  password: Og%3D%3D
-- name: SG
-  type: vless
-  server: '2407:cdc0:d010:27bd::'
-  port: 30454
-  uuid: 14cfea1a-e7b2-4f27-b46e-34c9efabf198
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.samsung.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: I4WlCiks92rMzYTBZ3T_iDHU-kQX1bUW7jVIsjiklUE
-    short-id: "4e4d7529"
-- name: SG - 02
-  type: vless
-  server: 47.129.1.175
-  port: 443
-  uuid: 4eeccfd4-1fee-4df3-912a-96dbdeb90c2d
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.shopify.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: MY
-  type: anytls
-  server: forwarded.frnhk.xyz
-  port: 2053
-  password: 9fbb8314-c7f1-4d5a-9af3-0bf70a1776d0
-  udp: true
-  sni: my.gosthk.site
-- name: ID
   type: http
-  server: 103.153.135.118
+  server: 152.69.230.221
   port: 443
   tls: true
-  sni: 103.153.135.118
+  sni: 152.69.230.221
   skip-cert-verify: true
+- name: SG
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: "8888"
+  password: "8888"
+- name: SG - 02
+  type: http
+  server: 213.35.107.110
+  port: 443
+  tls: true
+  sni: 213.35.107.110
+  skip-cert-verify: true
+- name: JP - 04
+  type: vless
+  server: ootd-jp.xiaokeyun.top
+  port: 443
+  uuid: 3d84bbdc-9616-4e89-9ded-c9bff9db8dc7
+  flow: xtls-rprx-vision
+  tls: true
+  servername: v3-default.ixigua.com
+  client-fingerprint: edge
+  reality-opts:
+    public-key: oEgpqVVhvIZpCejedfWU0OqhEnfsGNGEmmds1nzRqEE
+    short-id: "568d60f0"
+- name: TW
+  type: vless
+  server: 60.248.219.53
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  tls: true
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
 - name: US - 01
   type: vless
   server: 104.36.69.105
@@ -294,35 +298,36 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - JP
+  - LV
+  - IE
   - US
+  - "DE"
+  - JP
   - US - 02
+  - IT
+  - LV - 02
+  - NL
   - US - 03
   - US - 04
-  - IE
-  - NL
   - US - 05
-  - HK
   - US - 06
-  - IE - 02
+  - JP - 02
+  - NL - 02
   - US - 07
+  - JP - 03
+  - IT - 02
   - US - 08
   - US - 09
-  - HK - 02
+  - ID
   - US - 10
-  - US - 11
-  - NL - 02
-  - JP - 02
-  - NL - 03
-  - IE - 03
-  - US - 12
-  - "DE"
+  - HK
+  - HK - 02
   - KR
   - KR - 02
   - SG
   - SG - 02
-  - MY
-  - ID
+  - JP - 04
+  - TW
   - US - 01
   - PL - 01
 rules:
