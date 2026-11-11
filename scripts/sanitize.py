@@ -238,6 +238,74 @@ _CERT_PIN_RE = re.compile(
 )
 
 
+SS_PLUGIN_ALIASES = {"obfs", "simple-obfs", "obfs-local"}
+SS_OBFS_MODES = {"http", "tls"}
+SS_V2RAY_MODES = {"websocket", "quic"}
+
+
+def _normalize_ss_plugin(proxy: dict) -> list:
+    """修正 ss 的 plugin / plugin-opts,返回修复说明。
+
+    mihomo 对 ss 插件很挑剔:plugin 只认 obfs、v2ray-plugin,obfs 的 mode 只能是
+    http/tls,v2ray-plugin 的 mode 只能是 websocket/quic。上游常见的
+    `plugin=obfs;obfs`(没写 "=值")会解析出空 mode,内核报 "obfs mode error: "
+    并拒绝加载整份配置。这里按最保守的默认值纠正,认不出的插件直接摘掉。
+    """
+    fixes = []
+    name = str(proxy.get("name", "?"))[:24]
+    if str(proxy.get("type", "")).strip().lower() != "ss":
+        return fixes
+    if proxy.get("plugin") is None:
+        return fixes
+
+    kind = str(proxy.get("plugin") or "").strip().lower()
+    old = proxy.get("plugin-opts") if isinstance(proxy.get("plugin-opts"), dict) else {}
+
+    if kind in SS_PLUGIN_ALIASES:
+        target = "obfs"
+    elif kind.startswith("v2ray"):
+        target = "v2ray-plugin"
+    else:
+        del proxy["plugin"]
+        proxy.pop("plugin-opts", None)
+        fixes.append(f"{name}: 丢弃未知 ss 插件({kind[:16]})")
+        return fixes
+
+    if kind != target:
+        proxy["plugin"] = target
+        fixes.append(f"{name}: plugin->{target}({kind})")
+
+    mode = str(old.get("mode") or "").strip().lower()
+    opts = {}
+    if target == "obfs":
+        if mode not in SS_OBFS_MODES:
+            opts["mode"] = "http"
+            fixes.append(f"{name}: obfs mode {mode or '空值'}->http")
+        else:
+            opts["mode"] = mode
+        host = old.get("host")
+        if isinstance(host, str) and host.strip():
+            opts["host"] = host
+    else:
+        if mode not in SS_V2RAY_MODES:
+            opts["mode"] = "websocket"
+            fixes.append(f"{name}: v2ray mode {mode or '空值'}->websocket")
+        else:
+            opts["mode"] = mode
+        for key in ("host", "path"):
+            v = old.get(key)
+            if isinstance(v, str) and v.strip():
+                opts[key] = v
+        tls = old.get("tls")
+        if isinstance(tls, str):
+            tls = tls.strip().lower() in ("1", "true", "yes", "on")
+            fixes.append(f"{name}: v2ray tls->{tls}")
+        if isinstance(tls, bool) or tls is not None:
+            opts["tls"] = tls if isinstance(tls, bool) else bool(tls)
+    proxy["plugin-opts"] = opts
+    return fixes
+
+
 def normalize_proxy_fields(proxy: dict) -> list:
     """把上游常见的老字段/错字段改成 mihomo 认识的写法,返回修复说明。
 
@@ -246,6 +314,9 @@ def normalize_proxy_fields(proxy: dict) -> list:
     """
     fixes = []
     name = str(proxy.get("name", "?"))[:24]
+
+    # ss 插件参数(mode 空值/非法会直接让内核拒绝整份配置)
+    fixes.extend(_normalize_ss_plugin(proxy))
 
     # REALITY 必须开 TLS,否则 mihomo 报 "REALITY requires TLS" 拒绝整份配置
     if proxy.get("reality-opts") and proxy.get("tls") is not True:

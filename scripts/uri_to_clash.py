@@ -51,6 +51,11 @@ SS_CIPHERS = {
     "none", "plain",
 }
 
+# mihomo 的 ss 插件只接受这几种 mode:空值或其他值会报 "obfs mode error: "
+# 或 v2ray-plugin 的 mode 错误,内核直接拒绝整份配置。
+OBFS_MODES = {"http", "tls"}
+V2RAY_PLUGIN_MODES = {"websocket", "quic"}
+
 _B64_RE = re.compile(r"^[A-Za-z0-9+/=_\-\s]+$")
 
 
@@ -189,14 +194,19 @@ def parse_ss(uri: str):
             k, _, v = item.partition("=")
             params[k.strip().lower()] = v.strip()
         if kind.startswith("obfs"):
+            # `plugin=obfs;obfs`(缺 "=值")会让 mode 变成空串,mihomo 直接报
+            # "obfs mode error: " 拒绝整份配置;只有 http/tls 是合法取值。
+            mode = (params.get("obfs") or "").strip().lower()
+            opts = {"mode": mode if mode in OBFS_MODES else "http"}
+            host = (params.get("obfs-host") or "").strip()
+            if host:
+                opts["host"] = host
             proxy["plugin"] = "obfs"
-            proxy["plugin-opts"] = {
-                "mode": params.get("obfs", "http"),
-                "host": params.get("obfs-host", ""),
-            }
+            proxy["plugin-opts"] = opts
         elif kind.startswith("v2ray"):
             proxy["plugin"] = "v2ray-plugin"
-            opts = {"mode": params.get("mode", "websocket")}
+            mode = (params.get("mode") or "").strip().lower()
+            opts = {"mode": mode if mode in V2RAY_PLUGIN_MODES else "websocket"}
             if params.get("host"):
                 opts["host"] = params["host"]
             if params.get("path"):
