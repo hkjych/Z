@@ -1,10 +1,14 @@
 name: 定时抓取清洗节点
 
-# 触发方式:上游 hkjych/X(抓源)、hkjych/Y(出订阅)跑完后,由它们
-# repository_dispatch 过来再抓;不再自己定时,避免和上游抢同一个整点。
+# 触发方式:
+#   1) 常规:上游 hkjych/X(抓源)、hkjych/Y(出订阅)跑完后 repository_dispatch 过来
+#   2) 兜底:X/Y 在 UTC 00/08/16,这里晚一小时(UTC 01/09/17)自查一次,
+#      最近 45 分钟内已经成功跑过就跳过,不做重复抓取
 on:
   repository_dispatch:
     types: [upstream-done]
+  schedule:
+    - cron: '0 1,9,17 * * *'     # 兜底定时:比 X/Y(00/08/16)晚一小时
   workflow_dispatch:             # 手动触发
     inputs:
       dry_run:
@@ -32,7 +36,40 @@ env:
   MIHOMO_DIR: ${{ github.workspace }}/.cache/geo
 
 jobs:
+  # 兜底定时的去重:上一轮(上游触发的那次)刚跑过,就不再重复跑
+  gate:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - name: 检查最近是否已跑过
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          last=$(gh api "repos/${{ github.repository }}/actions/workflows/scrape.yml/runs?per_page=20" \
+            --jq '[.workflow_runs[] | select(.id != '"$GITHUB_RUN_ID"') | select(.conclusion == "success")] | first | .created_at // ""')
+          if [ -z "$last" ]; then
+            echo "没有历史成功运行,照常跑"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          age=$(( $(date -u +%s) - $(date -u -d "$last" +%s) ))
+          echo "最近一次成功运行: $last (${age}s 前)"
+          if [ "$age" -lt 2700 ]; then
+            echo "45 分钟内已跑过,本轮跳过"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
   scrape:
+    needs: gate
+    # gate 只在定时触发时才存在;其他触发方式 gate 被跳过,这里必须放行
+    if: always() && needs.gate.outputs.skip != 'true'
     runs-on: ubuntu-26.04
     timeout-minutes: 35
     permissions:
