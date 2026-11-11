@@ -2919,13 +2919,6 @@ proxies:
 - cipher: 2022-blake3-aes-128-gcm
   name: D🔴🇺🇸hos[🎬🤖📺🎭]_d32812f7
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:NjRjZGI3OTgtZWUyMS00OA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
   port: 20090
   server: 172.96.161.152
   type: ss
