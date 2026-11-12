@@ -1,22 +1,20 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  client-fingerprint: firefox
   encryption: none
-  name: 🇳🇱NL_1|2.2MB/s
-  network: xhttp
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: ❓Other_1|744KB/s
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
-    short-id: "7b2b1a14a6e0630d"
-  server: 9.247.54.228
+  server: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  xhttp-opts:
-    mode: auto
-    path: /0616f2d729aa
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   xudp: true
-  servername: fc82dfx.nl8.h1clayd.click
+  servername: vps3.nemnogogo.com
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -24,7 +22,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1121 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1120 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -50,7 +48,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1121 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1120 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择

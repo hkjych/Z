@@ -1,128 +1,19 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.7MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
+- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_1|1.1MB/s
-  network: xhttp
-  port: "443"
-  reality-opts:
-    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
-    short-id: "7b2b1a14a6e0630d"
-  server: 9.247.54.228
-  servername: fc82dfx.nl8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  xhttp-opts:
-    mode: auto
-    path: /0616f2d729aa
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.5MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: "19999"
-  server: 202.50.253.27
+  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
+  port: 8090
+  server: 153.56.229.84
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇹🇷TR_1|2.2MB/s
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: "20028"
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇺🇸US_1|2.4MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
+- name: 🇯🇵JP_1|1.2MB/s
+  password: "null"
+  port: 40583
+  server: 120.232.204.58
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_1|1.3MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇴NO_1|1.8MB/s
-  password: None
-  port: 9443
-  server: 146.70.170.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU_1|1.1MB/s
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_2|1.5MB/s|K001-260618
-  password: None
-  port: 9443
-  server: 149.36.51.161
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇨🇦CA_1|1.3MB/s|P002-260618
-  password: None
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  name: 🇵🇱PL_1|2.3MB/s
-  network: ws
-  port: 443
-  server: 3.169.9.125
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /
-  x-toolall-mihomo: true
-  xudp: true
-- name: 🇮🇳IN_1|4.3MB/s
-  password: ''
-  port: "3128"
-  server: 15.207.138.141
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: 🇺🇸US_2|1.6MB/s
-  password: ''
-  port: "443"
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  username: "null"
 - name: '说明-来源: shaoyouvip/free'
   type: trojan
   server: 127.0.0.1
@@ -130,7 +21,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 26 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -156,6 +47,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: shaoyouvip/free'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 26 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
