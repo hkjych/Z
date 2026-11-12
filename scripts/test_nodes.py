@@ -694,7 +694,7 @@ def build_groups(names, fast_names=None, quality_names=None):
     """生成统一的出口分组(不再有说明/来源分组)。
 
     总模式(select,第一个选项=默认自动选择) 里收:自动选择 / 手动选择 /
-    高速节点 / 优质节点(仅精选版有,不精选没有测速数据时省略) /
+    优质节点 / 高速节点(仅精选版有,不精选没有测速数据时省略) /
     延迟最低(tolerance=0) / 故障转移(fallback) / 负载均衡(load-balance) / 国内直连。
 
     手动选择只放节点本身,不再嵌其它分组。
@@ -717,21 +717,22 @@ def build_groups(names, fast_names=None, quality_names=None):
     # 手动选择:收全部节点(include-all-proxies),不再分国家目录
     manual = {"name": manual_name, "type": "select", "include-all-proxies": True}
 
-    # 高速/优质:同样 include-all-proxies,再用 filter 按名字里的 ⚡/🏅 标记筛选;
+    # 优质/高速:同样 include-all-proxies,再用 filter 按名字里的 🏅/⚡ 标记筛选;
     # 没有匹配时用 DIRECT 兜底,避免出现空分组
+    # 顺序:优质节点在前、高速节点在后(机主要求对调)
     extras = []
-    if fast_names is not None:
-        fast = {"name": "⚡ 高速节点", "type": "select",
-                "include-all-proxies": True, "filter": "⚡"}
-        if not fast_names:      # 一个都没筛到时给 DIRECT 兜底,避免空分组
-            fast["proxies"] = ["DIRECT"]
-        extras.append(fast)
     if quality_names is not None:
         quality = {"name": "🏅 优质节点", "type": "select",
                    "include-all-proxies": True, "filter": "🏅"}
         if not quality_names:
             quality["proxies"] = ["DIRECT"]
         extras.append(quality)
+    if fast_names is not None:
+        fast = {"name": "⚡ 高速节点", "type": "select",
+                "include-all-proxies": True, "filter": "⚡"}
+        if not fast_names:      # 一个都没筛到时给 DIRECT 兜底,避免空分组
+            fast["proxies"] = ["DIRECT"]
+        extras.append(fast)
 
     # 总模式:唯一入口;第一项=自动选择,即默认值
     picks = [auto, manual] + extras + [lowest, fallback, balance, domestic]

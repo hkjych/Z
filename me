@@ -26,8 +26,8 @@ AIO 精选是「总模式 + 七个出口」，AIO 不精选少两个测速分组
 |------|------|------|
 | 🔰 总模式 | select | **唯一入口，规则 `MATCH` 指向它**；内含下面全部出口，**默认选「♻️ 自动选择」** |
 | 🚀 手动选择 | select | 收**全部节点**：`include-all-proxies`，点开就是完整节点清单 |
-| ⚡ 高速节点 | select | `include-all-proxies` + `filter: ⚡`；节点名里带 `⚡` 的就是高速（仅精选版） |
 | 🏅 优质节点 | select | `include-all-proxies` + `filter: 🏅`；速度达标且延迟合格（与高速互斥，仅精选版） |
+| ⚡ 高速节点 | select | `include-all-proxies` + `filter: ⚡`；节点名里带 `⚡` 的就是高速（仅精选版） |
 | ♻️ 自动选择 | url-test | 自动挑延迟最低的节点，每 300 秒复测，容差 50ms |
 | ⏳ 延迟最低 | url-test | 容差 0，始终钉住当前最快节点 |
 | 🔁 故障转移 | fallback | 按顺序尝试，当前节点不可用就换下一个 |
