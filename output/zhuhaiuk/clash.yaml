@@ -4,65 +4,64 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: FR
+- name: US
+  type: vless
+  server: www.hcaptcha.com
+  port: 80
+  uuid: 42c5efc2-9479-49c3-8f4a-88855427cb0c
+  network: ws
+  ws-opts:
+    path: /LOGZPldfDGZEtuMh
+    headers:
+      Host: worker3.cipek2755.workers.dev
+- name: NL
   type: http
-  server: 213.139.9.142
-  port: 9443
+  server: 84.17.47.146
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: HK
-  type: ss
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  port: 40009
-  cipher: aes-128-gcm
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-- name: ES
-  type: vless
-  server: 196.196.149.80
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-- name: IT
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT - 02
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: "DE"
+- name: LT
   type: http
-  server: 158.173.154.5
-  port: 9002
+  server: 89.124.11.9
+  port: 443
   username: "null"
   password: "null"
   tls: true
-  sni: 158.173.154.5
+  sni: 89.124.11.9
   skip-cert-verify: true
-- name: JP
+- name: ZA
+  type: socks5
+  server: 157.90.113.23
+  port: 9052
+- name: FR
   type: http
-  server: jpgmo102-cdn-route.couldflare-cdn.com
+  server: 87.98.174.157
+  port: 6103
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 87.98.174.157
+  skip-cert-verify: true
+- name: HK
+  type: http
+  server: 119.28.24.235
+  port: 3128
+  tls: true
+  sni: 119.28.24.235
+  skip-cert-verify: true
+- name: ID
+  type: http
+  server: 178.248.73.58
   port: 443
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
   tls: true
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-- name: HK - 02
+  sni: 178.248.73.58
+  skip-cert-verify: true
+- name: IE
   type: http
-  server: 38.76.140.254
-  port: 8443
+  server: 18.200.158.139
+  port: 443
   tls: true
-  sni: 38.76.140.254
+  sni: 18.200.158.139
   skip-cert-verify: true
 - name: FR - 02
   type: http
@@ -73,121 +72,113 @@ proxies:
   tls: true
   sni: 31.32.19.111
   skip-cert-verify: true
-- name: JP - 02
-  type: http
-  server: 133.18.200.207
-  port: 343
-  tls: true
-  skip-cert-verify: true
-- name: US
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  username: "null"
-  password: None
-  tls: true
-  sni: 138.199.35.198
-  skip-cert-verify: true
-- name: US - 02
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: HK - 03
-  type: ss
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  port: 40003
-  cipher: aes-128-gcm
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-- name: NL
-  type: http
-  server: 89.150.35.94
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 89.150.35.94
-  skip-cert-verify: true
-- name: US - 03
-  type: http
-  server: fan.365747.xyz
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-- name: HK - 04
+- name: HK - 02
   type: http
   server: fan.240104.xyz
   port: 443
   tls: true
   sni: fan.240104.xyz
-  skip-cert-verify: true
-- name: US - 04
+- name: NL - 02
   type: http
-  server: 137.175.22.96
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - 05
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  tls: true
-- name: PL
-  type: http
-  server: 37.120.156.18
-  port: 443
-  tls: true
-  sni: 37.120.156.18
-  skip-cert-verify: true
-- name: RS
-  type: http
-  server: 146.70.221.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - 06
-  type: http
-  server: 138.199.35.213
+  server: 84.17.47.148
   port: 9002
+  username: "null"
+  password: None
   tls: true
-  sni: 138.199.35.213
+  sni: 84.17.47.148
   skip-cert-verify: true
 - name: FR - 03
-  type: vless
-  server: 3.169.9.125
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  type: http
+  server: 87.98.174.157
+  port: 6103
+  username: "null"
+  password: "null"
   tls: true
-  servername: d14jyezfrcyf60.cloudfront.net
   skip-cert-verify: true
+- name: NL - 03
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  tls: true
+  sni: 84.17.47.150
+  skip-cert-verify: true
+- name: JP
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: fan.571589.xyz
+  skip-cert-verify: true
+- name: NL - 04
+  type: http
+  server: 84.17.47.126
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: PL
+  type: http
+  server: 151.115.54.133
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: "DE"
+  type: http
+  server: 158.173.154.4
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: HK - 03
+  type: http
+  server: 202.85.53.25
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IL
+  type: http
+  server: 62.90.77.30
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RU
+  type: http
+  server: 87.242.85.187
+  port: 8443
+  tls: true
+  sni: 87.242.85.187
+  skip-cert-verify: true
+- name: AL
+  type: vless
+  server: 15b171g.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 15b171g.nl7.h1clayd.click
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: "5b79e8a94241"
+  reality-opts:
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: "50a749f0eccb628c"
+- name: US - 02
+  type: vless
+  server: 104.16.80.1
+  port: 443
+  uuid: 462f23ba-3286-4601-813d-878bf26b4fcb
+  tls: true
+  servername: nmdx.ccwu.cc
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=proxyip.oracle.cmliussss.net
     headers:
-      Host: d14jyezfrcyf60.cloudfront.net
-- name: US - 07
-  type: http
-  server: 38.28.193.1
-  port: 443
-  tls: true
-  sni: 38.28.193.1
-  skip-cert-verify: true
-- name: US - 08
-  type: http
-  server: 209.148.53.153
-  port: 8090
-  tls: true
-  sni: 209.148.53.153
-  skip-cert-verify: true
-- name: US - 09
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  skip-cert-verify: true
+      Host: nmdx.ccwu.cc
 - name: KR
   type: http
   server: 152.69.230.221
@@ -202,70 +193,55 @@ proxies:
   sni: 152.69.230.221
   skip-cert-verify: true
 - name: SG
-  type: vless
-  server: 141.193.213.21
-  port: 2083
-  uuid: e388c123-dd1b-462c-b0d7-fa6af6aa0296
-  tls: true
-  servername: zeni.zcstore.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zeni.zcstore.org
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: "8888"
+  password: "8888"
 - name: SG - 02
-  type: vless
-  server: 141.193.213.20
-  port: 2083
-  uuid: e388c123-dd1b-462c-b0d7-fa6af6aa0296
-  tls: true
-  servername: zeni.zcstore.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zeni.zcstore.org
-- name: MY
-  type: anytls
-  server: forwarded.frnhk.xyz
-  port: 2053
-  password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
-  udp: true
-  sni: my.gosthk.site
-- name: ID
   type: http
-  server: 103.153.135.118
-  port: 443
+  server: 66.42.49.247
+  port: 8443
   tls: true
-  sni: 103.153.135.118
   skip-cert-verify: true
-- name: FR - 01
+- name: IT
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT - 02
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: ES - 01
   type: vless
-  server: 200.102.183.50
-  port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  server: 9.247.174.134
+  port: 8443
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
   udp: true
-  network: grpc
+  network: tcp
   tls: true
-  servername: f2hbck5x3c0g8pl7.cdn.cachefleet.com
+  servername: play.googleapis.com
   client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: qi8ws15c7jv5q2fa
-- name: RU - 01
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: "974f7f8f"
+- name: RU - 02
   type: vless
-  server: 5.42.111.231
+  server: 201.24.116.192
   port: 443
-  uuid: 95f85937-7b95-45c4-8d69-95da6a978569
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   udp: true
   network: grpc
   tls: true
-  servername: vps2.nemnogogo.com
+  servername: vps3.nemnogogo.com
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: RU - 02
+- name: RU - 01
   type: vless
   server: vps3.nemnogogo.com
   port: 443
@@ -277,21 +253,21 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: NL - 01
+- name: EE - 01
   type: vless
-  server: 79.182.39.131
+  server: 5.129.202.80
   port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
   udp: true
-  network: grpc
+  network: tcp
+  flow: xtls-rprx-vision
   tls: true
-  servername: 717252g.nl8.h1clayd.click
+  servername: mirror-50.topp-con.xyz
   client-fingerprint: chrome
+  skip-cert-verify: true
   reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
+    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
+    short-id: "2ef2b10d5143d798"
 - name: '说明-来源: zhuhaiuk/free-nodes'
   type: trojan
   server: 127.0.0.1
@@ -332,41 +308,38 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - US
+  - NL
+  - LT
+  - ZA
   - FR
   - HK
-  - ES
-  - IT
-  - IT - 02
-  - "DE"
-  - JP
-  - HK - 02
+  - ID
+  - IE
   - FR - 02
-  - JP - 02
-  - US
-  - US - 02
-  - HK - 03
-  - NL
-  - US - 03
-  - HK - 04
-  - US - 04
-  - US - 05
-  - PL
-  - RS
-  - US - 06
+  - HK - 02
+  - NL - 02
   - FR - 03
-  - US - 07
-  - US - 08
-  - US - 09
+  - NL - 03
+  - JP
+  - NL - 04
+  - PL
+  - "DE"
+  - HK - 03
+  - IL
+  - RU
+  - AL
+  - US - 02
   - KR
   - KR - 02
   - SG
   - SG - 02
-  - MY
-  - ID
-  - FR - 01
-  - RU - 01
+  - IT
+  - IT - 02
+  - ES - 01
   - RU - 02
-  - NL - 01
+  - RU - 01
+  - EE - 01
 rules:
 - GEOSITE,CN,DIRECT
 - GEOIP,CN,DIRECT
