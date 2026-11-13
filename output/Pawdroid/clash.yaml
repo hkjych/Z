@@ -1,4 +1,60 @@
 proxies:
+- name: 新加坡+Amazon数据中心
+  type: trojan
+  server: sclass-01.catcat321.com
+  port: 20103
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 新西兰+
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '新西兰+ #2'
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '新西兰+ #3'
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '新西兰+ #4'
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 香港+葵兴数据中心
+  type: trojan
+  server: sclass-b1.catcat321.com
+  port: 20028
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  sni: hk.catxstar.com
+- name: 美国 CloudFlare节点
+  type: vmess
+  server: yg6.ygkkk.dpdns.org
+  port: 80
+  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /3c75a551-81d6-46d0-876d-79519719bb22-vm
+    headers:
+      Host: argo.235697.xyz
 - name: 荷兰+
   type: vless
   server: 178.214.125.1
@@ -12,83 +68,38 @@ proxies:
   reality-opts:
     public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
     short-id: "6172ba9cffe9c22f"
-- name: 美国+得克萨斯州
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.2fa.cat
-  sni: xship.top
-  skip-cert-verify: true
-- name: 新西兰+
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 英国+Technicolor+SA
-  type: trojan
-  server: sclass-01.catcat321.com
-  port: 20103
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 美国+Amazon+EC2服务器
+- name: 英国+
   type: vless
-  server: 3.168.217.188
+  server: 2.26.251.236
   port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   udp: true
+  flow: xtls-rprx-vision
   tls: true
-  servername: d1afk2ndm8pox3.cloudfront.net
-  alpn:
-  - http/1.1
+  servername: mental-deprivation.ru
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d1afk2ndm8pox3.cloudfront.net
-- name: 日本+东京Amazon数据中心
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
+- name: 日本+东京都Amazon数据中心
   type: trojan
   server: sclass-c2.catcat321.com
   port: 20051
   password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
   sni: hk.catxstar.com
-- name: 巴西+圣保罗
+- name: 西班牙+
   type: vless
-  server: f0d7aft.nl13.h1clayd.click
+  server: 196.245.52.187
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
   tls: true
-  servername: f0d7aft.nl13.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
-    short-id: "8956c57cb4c4f8d2"
-- name: 塞舌尔+
-  type: vless
-  server: 196.199.122.2
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 7aa271t.es1.h1clayd.click
+  servername: 04535dt.us8.h1clayd.click
   client-fingerprint: firefox
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -96,7 +107,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 38 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 47 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -122,6 +133,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 38 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 47 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
