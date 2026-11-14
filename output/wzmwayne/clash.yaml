@@ -48808,6 +48808,18 @@ proxies:
   port: 44499
   server: 45.61.188.134
   type: socks5
+- type: vmess
+  server: 47.244.120.197
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers: {}
+  name: 8元老牌专线机场
 - type: vless
   server: 2.26.251.236
   port: 443
@@ -48815,95 +48827,116 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   tls: true
   servername: mental-deprivation.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
   flow: xtls-rprx-vision
-  name: 8元老牌专线机场
-- type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_0CD6EC
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_1C4EFC
-- type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_696C5A
+  name: 德国_DFD19A
 - type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_906656
+  name: 意大利_44AA42
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_463A3F
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_502C6D
 - type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_9CDD82
+  name: 意大利_D6A617
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_EFE77B
 - type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
   udp: true
-  name: 日本_77EEA2
+  name: 日本_3DC801
 - type: vless
-  server: 178.214.125.1
+  server: 196.245.52.187
   port: 443
   udp: true
-  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: conf.emaar.ru
-  client-fingerprint: edge
-  reality-opts:
-    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
-    short-id: "6172ba9cffe9c22f"
-  flow: xtls-rprx-vision
-  name: 芬兰_C5DEA8
-- type: vless
-  server: 72.56.38.83
-  port: 443
-  udp: true
-  uuid: Fluffy_VPN-zKZUa4Ie
-  tls: true
-  servername: absolute-disaster.org
+  servername: 04535dt.us8.h1clayd.click
   client-fingerprint: firefox
   reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
+  name: 美国_E52847
+- type: vless
+  server: 78.17.53.142
+  port: 8443
+  udp: true
+  uuid: 6b566898-8416-4ac3-8b8f-66db059c462b
+  tls: true
+  servername: www.ru.nl
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: drwJd-KiNSQHhp1yHQBknycbzWEzR2K9_R9ZdfPra3U
+    short-id: ''
+  name: 荷兰_6105CD
+- type: vless
+  server: 104.171.135.229
+  port: 443
+  udp: true
+  uuid: Fluffy_VPN-Oth8rOq3
+  tls: true
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
     short-id: ''
   flow: xtls-rprx-vision
-  name: 荷兰_40DBA7
+  name: 荷兰_85FAB1
 - type: vless
   server: 196.196.149.80
   port: 443
   udp: true
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   tls: true
-  servername: b3cd32g.es1.h1clayd.click
-  client-fingerprint: firefox
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: chrome
   reality-opts:
-    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
-    short-id: "e7cffac9f8cfb434"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-  name: 西班牙_9ED6E6
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+  flow: xtls-rprx-vision
+  name: 西班牙_D53BE3
+- type: vless
+  server: 9.247.174.134
+  port: 8443
+  udp: true
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  tls: true
+  servername: play.googleapis.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: "974f7f8f"
+  name: 西班牙_FBAE1E
 - name: AT_speednode_0001
   server: au2.pad-sservice.lat
   port: 8443
@@ -49920,7 +49953,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 37350 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 37378 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -49946,7 +49979,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 37350 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 37378 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)
@@ -54149,15 +54182,18 @@ proxy-groups:
   - 👉官网续费专用线路👈 [2b341f251b3f]
   - 🧦36@oneclickvpnkeys [342cda1e6290]
   - 8元老牌专线机场
-  - 意大利_0CD6EC
-  - 意大利_1C4EFC
-  - 意大利_696C5A
-  - 意大利_906656
-  - 意大利_9CDD82
-  - 日本_77EEA2
-  - 芬兰_C5DEA8
-  - 荷兰_40DBA7
-  - 西班牙_9ED6E6
+  - 德国_DFD19A
+  - 意大利_44AA42
+  - 意大利_463A3F
+  - 意大利_502C6D
+  - 意大利_D6A617
+  - 意大利_EFE77B
+  - 日本_3DC801
+  - 美国_E52847
+  - 荷兰_6105CD
+  - 荷兰_85FAB1
+  - 西班牙_D53BE3
+  - 西班牙_FBAE1E
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -58440,15 +58476,18 @@ proxy-groups:
   - 👉官网续费专用线路👈 [2b341f251b3f]
   - 🧦36@oneclickvpnkeys [342cda1e6290]
   - 8元老牌专线机场
-  - 意大利_0CD6EC
-  - 意大利_1C4EFC
-  - 意大利_696C5A
-  - 意大利_906656
-  - 意大利_9CDD82
-  - 日本_77EEA2
-  - 芬兰_C5DEA8
-  - 荷兰_40DBA7
-  - 西班牙_9ED6E6
+  - 德国_DFD19A
+  - 意大利_44AA42
+  - 意大利_463A3F
+  - 意大利_502C6D
+  - 意大利_D6A617
+  - 意大利_EFE77B
+  - 日本_3DC801
+  - 美国_E52847
+  - 荷兰_6105CD
+  - 荷兰_85FAB1
+  - 西班牙_D53BE3
+  - 西班牙_FBAE1E
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -62744,15 +62783,18 @@ proxy-groups:
   type: select
   proxies:
   - 8元老牌专线机场
-  - 意大利_0CD6EC
-  - 意大利_1C4EFC
-  - 意大利_696C5A
-  - 意大利_906656
-  - 意大利_9CDD82
-  - 日本_77EEA2
-  - 芬兰_C5DEA8
-  - 荷兰_40DBA7
-  - 西班牙_9ED6E6
+  - 德国_DFD19A
+  - 意大利_44AA42
+  - 意大利_463A3F
+  - 意大利_502C6D
+  - 意大利_D6A617
+  - 意大利_EFE77B
+  - 日本_3DC801
+  - 美国_E52847
+  - 荷兰_6105CD
+  - 荷兰_85FAB1
+  - 西班牙_D53BE3
+  - 西班牙_FBAE1E
 - name: 📦 zhangkaiitugithub/passcro
   type: select
   proxies:

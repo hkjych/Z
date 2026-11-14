@@ -1,73 +1,132 @@
 proxies:
-- name: 新加坡+Amazon数据中心
+- name: 美国+CloudFlare节点
+  type: vless
+  server: 162.159.198.1
+  port: 443
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
+  udp: true
+  tls: true
+  servername: v6-95o.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6-95o.pages.dev
+- name: 俄罗斯+
+  type: vless
+  server: 212.113.112.239
+  port: 8443
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
+  udp: true
+  tls: true
+  servername: v6-95o.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6-95o.pages.dev
+- name: '美国+CloudFlare节点 #2'
+  type: vless
+  server: www.digitalocean.com
+  port: 8080
+  uuid: 2500e602-671c-4654-a602-c518b7282167
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 2639w-throbbing-band-3840.xphnn6jp.workers.dev
+- name: 罗马尼亚+
+  type: vless
+  server: 188.213.170.198
+  port: 443
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
+  udp: true
+  tls: true
+  servername: v5-4b5.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v5-4b5.pages.dev
+- name: 美国+
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+  udp: true
+- name: 🇹🇷TR_13|944KB/s|C002-260622 [e374e9aba6e6]
   type: trojan
-  server: sclass-01.catcat321.com
-  port: 20103
+  server: sclass-b1.catcat321.com
+  port: 20027
   password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
   sni: hk.catxstar.com
   skip-cert-verify: true
+- name: 塞舌尔+
+  type: vless
+  server: 196.199.122.2
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+- name: 香港+Amazon数据中心
+  type: trojan
+  server: sclass-c2.catcat321.com
+  port: 20051
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  udp: true
+  sni: hk.catxstar.com
+- name: '美国+CloudFlare节点 #3'
+  type: vless
+  server: saas.sin.fan
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: vp11.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /videos/forum
+    headers:
+      Host: vp11.1145678.xyz
 - name: 新西兰+
   type: ss
-  server: 202.50.253.63
+  server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 巴西圣保罗+CloudFlare节点
+  type: vless
+  server: 188.114.96.246
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
 - name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '新西兰+ #3'
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '新西兰+ #4'
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 香港+葵兴数据中心
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20028
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-- name: 美国 CloudFlare节点
-  type: vmess
-  server: yg6.ygkkk.dpdns.org
-  port: 80
-  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /3c75a551-81d6-46d0-876d-79519719bb22-vm
-    headers:
-      Host: argo.235697.xyz
-- name: 荷兰+
-  type: vless
-  server: 178.214.125.1
-  port: 443
-  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: conf.emaar.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
-    short-id: "6172ba9cffe9c22f"
 - name: 英国+
   type: vless
   server: 2.26.251.236
@@ -81,25 +140,20 @@ proxies:
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
-- name: 日本+东京都Amazon数据中心
-  type: trojan
-  server: sclass-c2.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
-- name: 西班牙+
+- name: '俄罗斯+ #2'
   type: vless
-  server: 196.245.52.187
+  server: 109.237.97.238
   port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
   udp: true
   tls: true
-  servername: 04535dt.us8.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
+  servername: v5-4b5.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v5-4b5.pages.dev
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -107,7 +161,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 47 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -133,6 +187,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 47 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

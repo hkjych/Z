@@ -85,19 +85,19 @@ proxies:
   port: 55000
   password: 140dfd67-61be-45e8-b234-0a5529d47ebc
   skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU
+- name: 🇫🇮FI_3|493KB/s|M003-260806
   type: hysteria2
-  server: 177.202.66.212
+  server: 177.202.75.56
   port: 443
   password: 146d567c-6335-4e63-a8aa-7ec068642440
-  sni: de1.obxodvpn.us
-  skip-cert-verify: true
-- name: 🇺🇸US_30|410KB/s
+  sni: fi1.obxodvpn.us
+- name: 🇪🇪EE_2|596KB/s|M003-260806
   type: hysteria2
   server: 201.8.64.7
   port: 443
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   sni: nlll.obxodvpn.us
+  skip-cert-verify: true
 - name: 🇳🇱 Нидерланды — Амстердам 👻
   type: hysteria2
   server: 9.247.54.188
@@ -111,19 +111,19 @@ proxies:
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   sni: nlll.obxodvpn.us
   skip-cert-verify: true
-- name: 🇰🇷KR_15|709KB/s|A004-260618
+- name: 🇰🇷KR_1|532KB/s|A004-260618
   type: hysteria2
   server: 132.226.226.189
   port: 50160
   password: "1671a252e2a97dc2bda4e515475931da"
   sni: 132.226.226.189
   skip-cert-verify: true
-- name: 🇩🇪 Germany | 🌐 | [BL]
+- name: hy2-212.41.9.190-36109
   type: hysteria2
-  server: 77.90.0.22
-  port: 8443
-  password: 1794613669:ead4a562-edf2-40cf-ad33-13ae98546226:GodL9--mNBsO-qbuKpMGiGi71Rm3awxqQ6WYTf3r974
-  sni: de3.lumacache.com
+  server: 212.41.9.190
+  port: 36109
+  password: 1794613669:ead4a562-edf2-40cf-ad33-13ae98546226:w6rqI78K6gfxJcFQhWRiJ1E9algZc0n57ZAqMSmYlwA
+  sni: hu.lumacache.com
 - name: 🇺🇸US_860|364KB/s|P001-260618 01
   type: hysteria2
   server: akmgzz.jiedddym.com
@@ -131,7 +131,7 @@ proxies:
   password: 17ab31f7-c021-4aec-83b2-ab48de8886bd
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇯🇵JP_10|111KB/s|A004-260618
+- name: 🇯🇵JP_3|175KB/s|R002-260618 [410842dfc0f2]
   type: hysteria2
   server: 138.3.208.26
   port: 50160
@@ -170,14 +170,14 @@ proxies:
   password: 19f72087-4591-4d72-930b-2697078ec2be
   sni: us4.xiaoliyu.cyou
   skip-cert-verify: true
-- name: 🇰🇷KR_25|466KB/s|A004-260618
+- name: 🇰🇷KR_25|466KB/s|A004-260618 [0b5a7c86d312]
   type: hysteria2
   server: 152-69-231-175.liao.kdns.fr
   port: 50160
   password: "1beb216e3f60aea9555dae60d219a5ca"
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇰🇷KR_3|681KB/s|M003-260806
+- name: 🇰🇷KR_3|681KB/s|M003-260806 [1bb94dbbc24f]
   type: hysteria2
   server: 152.69.231.175
   port: 50160
@@ -209,24 +209,24 @@ proxies:
 - name: 剩余流量：0
   type: hysteria2
   server: akjp.fe-9.top
-  port: 42521
+  port: 48859
   password: 21b60363-271b-49f0-975b-dbe315215164
   sni: akjp.fe-9.top
   skip-cert-verify: true
 - name: 🇯🇵 日本-hy2 02
   type: hysteria2
   server: tdjp1.9dai.xyz
-  port: 35236
+  port: 30161
   password: 21b60363-271b-49f0-975b-dbe315215164
   sni: tdjp1.9dai.xyz
   skip-cert-verify: true
-- name: ❓Other_49|1.3MB/s|M003-260806
+- name: ❓Other_49|1.3MB/s|M003-260806 [2127be8a836e]
   type: hysteria2
   server: 201.8.71.59
   port: 443
   password: 23c82941-70f4-4381-90db-bd28e9a902e9
   sni: steel7.hadsvpn.com
-- name: '@OutlineReleasedKey #1'
+- name: '@OutlineReleasedKey'
   type: hysteria2
   server: steel7.hadsvpn.com
   port: 443
@@ -498,13 +498,13 @@ proxies:
   port: 23443
   password: 2a3b101d-d8f9-40e7-9373-b0ef487c0035
   sni: disk.api-yandex.net
-- name: 🇳🇱NL_189|2.8MB/s|M003-260806
+- name: 🇳🇱NL_189|2.8MB/s|M003-260806 [038115ebdee5]
   type: hysteria2
   server: 50.7.193.146
   port: 443
   password: "2bc6428196efb899f544d750bea0c06d"
   sni: promo2.betust.net
-- name: 🇳🇱NL_135|3.4MB/s|M003-260806
+- name: 🇳🇱NL_135|3.4MB/s|M003-260806 [b5854a552a74]
   type: hysteria2
   server: promo2.betust.net
   port: 443
@@ -530,7 +530,7 @@ proxies:
   password: "319ed24b1c7203aa"
   sni: tishina-axe.dedyn.io
   skip-cert-verify: true
-- name: 🇨🇭CH_18|2.8MB/s|R002-260618 [78895aafc4f1]
+- name: 🇨🇭CH_9|1.8MB/s|R002-260618 [78895aafc4f1]
   type: hysteria2
   server: 152.67.75.161
   port: 443
@@ -545,7 +545,7 @@ proxies:
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   sni: labs.frkn.org
   skip-cert-verify: true
-- name: 🇰🇷KR_4|569KB/s|R002-260618
+- name: 🇰🇷KR_4|569KB/s|R002-260618 [3918e56afad7]
   type: hysteria2
   server: 152.67.200.82
   port: 50160
@@ -577,14 +577,14 @@ proxies:
   port: 50160
   password: "436114b5f36b2e704bdfa0927d57b6cd"
   skip-cert-verify: true
-- name: 🇯🇵JP_19|716KB/s|R002-260618
+- name: 🇯🇵JP_19|716KB/s|R002-260618 [829b25db6835]
   type: hysteria2
   server: 158.101.140.31
   port: 1985
   password: 4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2
   sni: 158.101.140.31
   skip-cert-verify: true
-- name: 🇺🇸US_535|1.1MB/s|M003-260806
+- name: 🪅97@oneclickvpnkeys
   type: hysteria2
   server: 47.89.232.46
   port: 8443
@@ -597,12 +597,13 @@ proxies:
   port: 443
   password: "4b13c29ebe735e47"
   sni: mytubeproxy10.duckdns.org
-- name: 🇵🇱PL_46|2.9MB/s|M003-260806 [7a4c7972984b]
+- name: 🇯🇵JP_2|330KB/s|M003-260806
   type: hysteria2
-  server: mytubeproxy10.duckdns.org
-  port: 443
-  password: "4b13c29ebe735e47"
-  sni: mytubeproxy10.duckdns.org
+  server: 168.110.48.252
+  port: 1987
+  password: 4d9bc232-dde6-47d0-9d7b-e453ac8e4130
+  sni: 168.110.48.252
+  skip-cert-verify: true
 - name: 🇪🇪_EE_爱沙尼亚->🇩🇪_DE_德国
   type: hysteria2
   server: 31.76.70.107
@@ -617,7 +618,7 @@ proxies:
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   sni: shorts.blog-forme.ru
   skip-cert-verify: true
-- name: 🇳🇱NL_186|6.2MB/s|M003-260806
+- name: 🇳🇱NL_186|6.2MB/s|M003-260806 [900f7c486b62]
   type: hysteria2
   server: 94.183.164.119
   port: 24403
@@ -629,12 +630,6 @@ proxies:
   port: 24433
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   skip-cert-verify: true
-- name: 🇩🇪DE_122|923KB/s|M003-260806 [bee21deadf2f]
-  type: hysteria2
-  server: 95.85.231.3
-  port: 443
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: guide.blog-forme.ru
 - name: "443"
   type: hysteria2
   server: guide.blog-forme.ru
@@ -647,13 +642,6 @@ proxies:
   port: 8443
   password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
   sni: speedtestmark.com
-- name: 🇭🇰HK_80|870KB/s|M003-260806 [5a6c650ecc03]
-  type: hysteria2
-  server: 20247da3-tmm5c0-u1dz9j-12hj8.hk3.hyhuawei.com
-  port: 443
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  sni: 20247da3-tmm5c0-u1dz9j-12hj8.hk3.hyhuawei.com
-  skip-cert-verify: true
 - name: 🇲🇾_MY_马来西亚
   type: hysteria2
   server: mlxy1.mangshe.xyz
@@ -679,19 +667,6 @@ proxies:
   port: 20562
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   skip-cert-verify: true
-- name: 🇭🇰HK_81|995KB/s|M003-260806 [344472512e5c]
-  type: hysteria2
-  server: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇺🇸US_545|1.0MB/s|M003-260806 [17e8b45e262e]
-  type: hysteria2
-  server: 64.32.13.230
-  port: 443
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 9df552ab-tmkao0-u1vxv2-v3c2.los.hyhuawei.com
 - name: 🇺🇸US_779|1.0MB/s|R002-260618 01
   type: hysteria2
   server: 155.117.19.17
@@ -725,7 +700,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "5c8f1a3e7b2d9046c1f8a5e3b7d04f2a"
-- name: 🇦🇺AU_2|575KB/s|R002-260618 [3c9bb73cc32c]
+- name: 🇦🇺AU_2|611KB/s|R002-260618 [3c9bb73cc32c]
   type: hysteria2
   server: 152.67.115.203
   port: 443
@@ -740,19 +715,12 @@ proxies:
   password: 6390e4f6-fdc8-46eb-b474-805cf3d80439
   sni: cn.cremedelamer.com
   skip-cert-verify: true
-- name: '@OutlineReleasedKey'
+- name: '@OutlineReleasedKey #2'
   type: hysteria2
   server: 88.216.195.188
   port: 443
   password: "63e1b9462d708b56d5d5a0267cffecdc"
   sni: promo3.goonars.com
-- name: 🇺🇸US_539|1.6MB/s|M003-260806 [a8b86b8bd1c2]
-  type: hysteria2
-  server: 104.168.6.236
-  port: 44443
-  password: 64c05afc-ce81-4ba0-b697-afa04da1427e
-  sni: bing.com
-  skip-cert-verify: true
 - name: 🇩🇪DE_147|2.6MB/s|C002-260622 01
   type: hysteria2
   server: de1.xiaoliyu.cyou
@@ -807,25 +775,17 @@ proxies:
   port: 443
   password: 769f34f0-1500-488f-b414-03bc90666502
   sni: se.mimowhat.online
-- name: 🇸🇪SE_3|691KB/s|M003-260806
+- name: 🇸🇪SE_3|691KB/s|M003-260806 [5f63dbabdcab]
   type: hysteria2
   server: 95.143.196.97
   port: 443
   password: 769f34f0-1500-488f-b414-03bc90666502
   sni: se.mimowhat.online
-- name: 🇭🇰HK_1|3.9MB/s
+- name: 🇸🇬 新加坡 | SGP
   type: hysteria2
-  server: 18.163.210.78
-  port: 56577
-  password: 7HJAmHSJ7A5SJp2J
-  sni: hk-ls-p-11.czzhkractqqakfzdmrgd.cc
-  skip-cert-verify: true
-- name: 🇱🇹 Lithuania, Šiauliai | [BL]
-  type: hysteria2
-  server: 84.32.248.163
+  server: 18.143.176.12
   port: 443
-  password: 7d4a5c8f-0cdb-41b9-8898-807a1b7335e4
-  sni: lt-2-lietuva.fantoff.online
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
 - name: '🇰🇷 韩国 | KOR #1'
   type: hysteria2
@@ -833,7 +793,7 @@ proxies:
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
-- name: 🇰🇷 韩国 | KOR
+- name: '🇰🇷 韩国 | KOR #2'
   type: hysteria2
   server: 43.200.6.1
   port: 443
@@ -845,13 +805,7 @@ proxies:
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
-- name: '🇸🇬 新加坡 | SGP #4'
-  type: hysteria2
-  server: 56.10.136.212
-  port: 443
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  skip-cert-verify: true
-- name: 🇭🇰HK_14|731KB/s|R002-260618
+- name: 🇭🇰HK_14|731KB/s|R002-260618 [b73df6aeb667]
   type: hysteria2
   server: 24.233.8.109
   port: 443
@@ -865,7 +819,7 @@ proxies:
   port: 443
   password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
   sni: argg1.auragg.org
-- name: 🇨🇭CH_10|4.4MB/s|A004-260618 [de611f4de80c]
+- name: 🇨🇭CH_1|1.2MB/s|A004-260618
   type: hysteria2
   server: 140.238.213.114
   port: 50160
@@ -893,32 +847,19 @@ proxies:
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   sni: nl01ntrhy01.tcp-reset-club.net
   skip-cert-verify: true
-- name: 🇭🇰HK_58|1.1MB/s|M003-260806
+- name: 🇭🇰HK_58|1.1MB/s|M003-260806 [e75861e5]
   type: hysteria2
   server: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
   port: 443
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   sni: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
   skip-cert-verify: true
-- name: '@OutlineReleasedKey #4'
+- name: '@OutlineReleasedKey #3'
   type: hysteria2
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   port: 443
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰HK_88|1.1MB/s|M003-260806 [1a296643bb82]
-  type: hysteria2
-  server: 6d889de6-tly2o0-tn28ki-mv7m.nw4.hyhuawei.com
-  port: 443
-  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  sni: 6d889de6-tly2o0-tn28ki-mv7m.nw4.hyhuawei.com
-- name: 'ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ⚡️ #1'
-  type: hysteria2
-  server: 143.246.56.255
-  port: 16818
-  password: 9HNmctSP3R8EQ02f
-  sni: us-akile-b3.nebulacloud.win
   skip-cert-verify: true
 - name: 🇩🇪DE_50|5.2MB/s|A004-260618 01
   type: hysteria2
@@ -953,7 +894,7 @@ proxies:
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hopp-germany-new.ddnsguru.com
   skip-cert-verify: true
-- name: 🇰🇷KR_27|267KB/s|A004-260618
+- name: 🇰🇷KR_27|267KB/s|A004-260618 [038f10bb4fbd]
   type: hysteria2
   server: 150-230-252-217.liao.kdns.fr
   port: 50160
@@ -1020,14 +961,13 @@ proxies:
   sni: nl.esimpson.org
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
-- name: 🇹🇼TW_24|478KB/s|A004-260618
+- name: 🇹🇼TW_7|478KB/s|A004-260618 [072f5d227fc1]
   type: hysteria2
   server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
   skip-cert-verify: true
-- name: 🇺🇸US_537|1.2MB/s|M003-260806
+- name: 🇺🇸US_537|1.2MB/s|M003-260806 [a996e4f7b322]
   type: hysteria2
   server: 13.184.166.19
   port: 443
@@ -1047,12 +987,12 @@ proxies:
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: 🇫🇷FR_25|MB/s|A004-260618
+- name: 🇫🇷FR_31|1.6MB/s|A001-260618 [0a8fc0ed736e]
   type: hysteria2
   server: 13.36.234.11
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 13.36.234.11
+  sni: vpn-fr-001.fastervpn.world
   skip-cert-verify: true
 - name: 🇨🇦CA_29|1.2MB/s|A004-260618 01
   type: hysteria2
@@ -1061,49 +1001,49 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 15.223.122.197
   skip-cert-verify: true
-- name: 🇹🇼TW_20|469KB/s|A004-260618
+- name: 🇹🇼TW_20|469KB/s|A004-260618 [4f9d395b10fc]
   type: hysteria2
   server: 160.187.100.109
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪DE_43|225KB/s|M003-260806
+- name: 🇩🇪DE_43|225KB/s|M003-260806 [75d69a367532]
   type: hysteria2
   server: 18.153.65.67
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪DE_34|192KB/s|A004-260618
+- name: 🇩🇪DE_14|150KB/s|A004-260618
   type: hysteria2
   server: 18.193.79.104
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪DE_76|282KB/s|M003-260806
+- name: 🇩🇪DE_13|67KB/s|M003-260806
   type: hysteria2
   server: 18.194.242.173
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇭🇰HK_1|669KB/s|A004-260618
+- name: 🇭🇰HK_1|120KB/s|A004-260618
   type: hysteria2
   server: 202.146.222.174
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 202.146.222.174
   skip-cert-verify: true
-- name: 🇭🇰HK_30|437KB/s|A004-260618
+- name: 🇭🇰HK_2|589KB/s|A004-260618
   type: hysteria2
   server: 202.146.222.29
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 202.146.222.29
   skip-cert-verify: true
-- name: 🇭🇰HK_34|634KB/s|M003-260806
+- name: ❓Other_42|82KB/s|A004-260618
   type: hysteria2
   server: 202.146.222.89
   port: 443
@@ -1124,19 +1064,19 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇩🇪DE_39|142KB/s|A004-260618
+- name: '@V2rayNPVTConfig'
   type: hysteria2
   server: 3.76.203.180
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪DE_37|64KB/s|A004-260618
+- name: 🇩🇪DE_49|186KB/s|M003-260806 [12fe3042093c]
   type: hysteria2
   server: 3.76.221.4
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
+  sni: vpn-de-002.fastervpn.world
   skip-cert-verify: true
 - name: 🇮🇳IN_30|783KB/s|A004-260618 01
   type: hysteria2
@@ -1159,7 +1099,7 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇩🇪DE_36|213KB/s|A004-260618 [50232375b675]
+- name: 🇩🇪DE_5|174KB/s|A004-260618 [50232375b675]
   type: hysteria2
   server: vpn-de-002.fastervpn.world
   port: 443
@@ -1179,13 +1119,6 @@ proxies:
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇭🇰 Hong Kong, Fo Tan | [BL]
-  type: hysteria2
-  server: vpn-hk-004.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-hk-004.fastervpn.world
   skip-cert-verify: true
 - name: 🇮🇳IN_7|691KB/s|A004-260618 01
   type: hysteria2
@@ -1208,12 +1141,12 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
-- name: 🇹🇼TW_11|489KB/s|A004-260618
+- name: 🇹🇼TW_10|481KB/s|A004-260618 [021cc6dd2b40]
   type: hysteria2
   server: vpn-tw-002.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
+  sni: vk.com
   skip-cert-verify: true
 - name: 🇬🇧_GB_英国
   type: hysteria2
@@ -1222,7 +1155,7 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-uk-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇺🇸US_327|1.2MB/s|A004-260618
+- name: 🇺🇸US_327|1.2MB/s|A004-260618 [cfbca0313596]
   type: hysteria2
   server: vpn-us-001.fastervpn.world
   port: 443
@@ -1236,7 +1169,7 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-us-003.fastervpn.world
   skip-cert-verify: true
-- name: 🇺🇸US_401|1.2MB/s|C002-260622
+- name: 🇺🇸US_401|1.2MB/s|C002-260622 [5d1c1682e3e8]
   type: hysteria2
   server: vpn-us-004.fastervpn.world
   port: 443
@@ -1257,7 +1190,7 @@ proxies:
   password: H7mP2xY9kJ4nQ9wR5tF6vB3z
   sni: vpn-kr-002.fastervpn.world
   skip-cert-verify: true
-- name: ❓Other_50|1.8MB/s|A001-260618
+- name: ❓Other_50|1.8MB/s|A001-260618 [6864dc420153]
   type: hysteria2
   server: 51.15.19.206
   port: 8443
@@ -1266,7 +1199,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: HysteriaHowdy
-- name: 🇳🇱NL_172|221KB/s|A001-260618 [b1eda14184f1]
+- name: 🇳🇱NL_220|342KB/s|A001-260618 01
   type: hysteria2
   server: hysteria.udpgw.com
   port: 8443
@@ -1446,13 +1379,6 @@ proxies:
   port: 36723
   password: Krab9Hyst2_Rk7pQ2xL
   skip-cert-verify: true
-- name: 'ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ⚡️ #2'
-  type: hysteria2
-  server: 18.166.31.45
-  port: 19968
-  password: MjTSap3eAQwvJuNG
-  sni: hk-ls-j-18.apcwjtnmuwembbfzmxqx.cc
-  skip-cert-verify: true
 - name: 🏁 未知-CF9724B9
   type: hysteria2
   server: 157.230.222.46
@@ -1465,14 +1391,7 @@ proxies:
   port: 8443
   password: MySecurePassword123
   sni: wuhantravel.duckdns.org
-- name: 🇺🇸US_13|3.1MB/s
-  type: hysteria2
-  server: 44.235.90.39
-  port: 56130
-  password: N9Jc9wIvIQBQcKhn
-  sni: us-ls-d-3.nebulacloud.win
-  skip-cert-verify: true
-- name: 🇷🇴RO_34|2.1MB/s|A001-260618 [ba6881e2d383]
+- name: 🇷🇴RO_66|864KB/s|A001-260618 01
   type: hysteria2
   server: 162.249.125.133
   port: 443
@@ -1480,7 +1399,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   obfs: salamander
   obfs-password: "c1b4086fea89914496c7e10967a419216566"
-- name: 🇷🇴RO_66|1.9MB/s|X001-260618
+- name: 🇷🇴RO_66|1.9MB/s|X001-260618 [cde8793713cc]
   type: hysteria2
   server: hy2-new.aspidnet.xyz
   port: 443
@@ -1489,7 +1408,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "c1b4086fea89914496c7e10967a419216566"
-- name: '@OutlineReleasedKey #5'
+- name: '@OutlineReleasedKey #4'
   type: hysteria2
   server: 85.121.123.197
   port: 12765
@@ -1561,18 +1480,9 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
-- name: hy2-179.61.138.145-36264
-  type: hysteria2
-  server: 179.61.138.145
-  port: 36264
-  password: VPNJey
-  sni: de2.jey.cc.cd
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
 - name: 'Telegram@vpnjey #4'
   type: hysteria2
-  server: 2a0f:5707:aaf1:11a6::1
+  server: 179.61.138.145
   port: 36264
   password: VPNJey
   sni: de2.jey.cc.cd
@@ -1582,13 +1492,22 @@ proxies:
 - name: 'Telegram@vpnjey #5'
   type: hysteria2
   server: 2a0f:5707:aaf1:11a6::1
+  port: 36264
+  password: VPNJey
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- name: 'Telegram@vpnjey #5 #2'
+  type: hysteria2
+  server: 2a0f:5707:aaf1:11a6::1
   port: 5707
   password: VPNJey
   sni: de2.jey.cc.cd
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
-- name: 🇺🇸US_507|1.8MB/s|M003-260806
+- name: 🇺🇸US_507|1.8MB/s|M003-260806 [3b5afd08f475]
   type: hysteria2
   server: 206.189.229.48
   port: 443
@@ -1644,26 +1563,14 @@ proxies:
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: true
-- name: hy2-194.48.250.233-443
+- name: 🗼31@oneclickvpnkeys
   type: hysteria2
   server: 194.48.250.233
   port: 443
   password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
   sni: mol.ultimagamest.com
   skip-cert-verify: true
-- name: 🇵🇱PL_16|706KB/s|M003-260806 [225303a73a9b]
-  type: hysteria2
-  server: 13.143.188.142
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: bl1.nexfile.net
-- name: 🇵🇱PL_20|1.1MB/s|A001-260618 [905fc52162fb]
-  type: hysteria2
-  server: 13.143.188.143
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: bl1.nexfile.net
-- name: '@OutlineReleasedKey #6'
+- name: '@OutlineReleasedKey #5'
   type: hysteria2
   server: 13.143.189.101
   port: 4444
@@ -1675,45 +1582,15 @@ proxies:
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl2.nexfile.net
-- name: برای اتصال دائمی جوین شو☄️ Tel...
-  type: hysteria2
-  server: 13.143.189.106
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl2.nexfile.net
-- name: 'برای اتصال دائمی جوین شو☄️ Tel... #1'
-  type: hysteria2
-  server: 13.143.189.142
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl3.nexfile.net
-- name: 🇵🇱PL_25|232KB/s|M003-260806 [6639db13bfe6]
-  type: hysteria2
-  server: 13.143.189.143
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl3.nexfile.net
-- name: 🇵🇱PL_22|140KB/s|M003-260806 [9862c1f7a26d]
-  type: hysteria2
-  server: 13.143.189.144
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl2.nexfile.net
 - name: '@vasl_bashim #1'
   type: hysteria2
   server: 13.143.189.146
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl3.nexfile.net
-- name: 'برای اتصال دائمی جوین شو☄️ Tel... #2'
+- name: برای اتصال دائمی جوین شو☄️ Tel...
   type: hysteria2
   server: 13.143.189.147
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl2.nexfile.net
-- name: 'برای اتصال دائمی جوین شو☄️ Tel... #3'
-  type: hysteria2
-  server: 13.143.189.149
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl2.nexfile.net
@@ -1723,14 +1600,7 @@ proxies:
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: pl3.nexfile.net
-- name: 🇵🇱PL_11|224KB/s|M003-260806 [5e8bbe52fdef]
-  type: hysteria2
-  server: 13.143.189.80
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl3.nexfile.net
-  skip-cert-verify: true
-- name: '@OutlineReleasedKey #7'
+- name: '@OutlineReleasedKey #6'
   type: hysteria2
   server: 13.143.189.96
   port: 4444
@@ -1754,30 +1624,18 @@ proxies:
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: lv2.nexfile.net
+- name: hy2-48.102.214.167-4444
+  type: hysteria2
+  server: 48.102.214.167
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: fl5.edgeport.cloud
 - name: '@OutlineReleasedKey #9'
   type: hysteria2
   server: bl1.nexfile.net
   port: 4444
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   sni: bl1.nexfile.net
-- name: 🇵🇱PL_15|134KB/s|M003-260806 [9c1f47a4b4d4]
-  type: hysteria2
-  server: pl2.nexfile.net
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl2.nexfile.net
-- name: 🇵🇱PL_19|196KB/s|M003-260806 [7cf1419d1c96]
-  type: hysteria2
-  server: pl3.nexfile.net
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl3.nexfile.net
-- name: 🇭🇰HK_85|949KB/s|M003-260806 [ff2d27b37a5a]
-  type: hysteria2
-  server: bd8d18d7-tmm5c0-tny186-4lg6.hk3.hyhuawei.com
-  port: 443
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  sni: bd8d18d7-tmm5c0-tny186-4lg6.hk3.hyhuawei.com
 - name: 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
   type: hysteria2
   server: 3dxgfwxk.zf-mix-2.9999231.xyz
@@ -1850,7 +1708,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-- name: 🇹🇷TR_6|402KB/s|M003-260806
+- name: 🇹🇷TR_6|402KB/s|M003-260806 [36aa7db9f4d4]
   type: hysteria2
   server: 153.56.210.134
   port: 38045
@@ -1872,14 +1730,6 @@ proxies:
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   sni: music.apple.com
   skip-cert-verify: true
-- name: 🇯🇵JP_43|362KB/s|P002-260618 [8d5a40c36040]
-  type: hysteria2
-  server: 138.2.37.59
-  port: 17826
-  password: "abedf59203ff9523"
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: "ce8a8b39835f0ce5340cf548892e8e71"
 - name: '🇭🇰_HK_中国香港 #2'
   type: hysteria2
   server: 31.57.248.176
@@ -1911,25 +1761,25 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-- name: 🇳🇱NL_172|6.6MB/s|M003-260806
+- name: 🇳🇱NL_172|6.6MB/s|M003-260806 [d8c69e353b38]
   type: hysteria2
   server: 89.105.218.106
   port: 8443
   password: ba3aeb91-2ed0-45d3-8dcf-81e5ed45168b
   sni: speedtestmark.com
-- name: 🇺🇸US_67|892KB/s|A004-260618
+- name: 🇺🇸US_67|892KB/s|A004-260618 [b88075a5c1f5]
   type: hysteria2
   server: 155.248.209.237
   port: 33333
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   sni: 155.248.209.2
   skip-cert-verify: true
-- name: 🇺🇸US_234|496KB/s|A004-260618
+- name: 🇺🇸US_146|889KB/s|C002-260622 [a3e34e8606a7]
   type: hysteria2
   server: hy2.123266.xyz
   port: 33333
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: 127.0.0.1
+  sni: hy2.123266.xyz
 - name: 🇰🇷_KR_韩国
   type: hysteria2
   server: 47.80.61.21
@@ -1939,13 +1789,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "5c8f1a3e7b2d9046c1f8a5e3b7d04f2a"
-- name: 🇭🇰HK_86|1.0MB/s|M003-260806 [23f942dc7d06]
-  type: hysteria2
-  server: ac91889e-tmm5c0-u3xqxa-1q91p.hk3.hyhuawei.com
-  port: 443
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  sni: ac91889e-tmm5c0-u3xqxa-1q91p.hk3.hyhuawei.com
-  skip-cert-verify: true
 - name: '🇺🇸_US_美国 #6'
   type: hysteria2
   server: 107.174.255.14
@@ -1965,7 +1808,7 @@ proxies:
   password: c6d33e4e-c01a-4ec0-82d3-c4c18f451e4c
   sni: bing.com
   skip-cert-verify: true
-- name: 🇹🇷TR_5|360KB/s|B007-260618
+- name: 🇹🇷TR_5|360KB/s|B007-260618 [4720a5c363c0]
   type: hysteria2
   server: 153.56.210.134
   port: 34121
@@ -1973,16 +1816,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
-- name: 🇳🇱NL_151|3.4MB/s|B007-260618 [5822d38d3ba5]
-  type: hysteria2
-  server: 51.15.16.68
-  port: 24000
-  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_121|282KB/s|B007-260618
+- name: 🇳🇱NL_121|282KB/s|B007-260618 [f7f6a9384c04]
   type: hysteria2
   server: 51.15.16.68
   port: 24044
@@ -1991,25 +1825,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_156|5.9MB/s|M003-260806 [f755d48be98d]
-  type: hysteria2
-  server: 51.15.16.68
-  port: 24048
-  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_107|6.0MB/s|B007-260618 [1f4d17d61b41]
-  type: hysteria2
-  server: 51.15.16.68
-  port: 24050
-  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_34|3.1MB/s|B007-260618
+- name: 🇳🇱NL_34|3.1MB/s|B007-260618 [64319abd4b1d]
   type: hysteria2
   server: 51.15.16.68
   port: 24062
@@ -2018,7 +1834,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_104|371KB/s|B007-260618 [af299d7966ac]
+- name: 🇳🇱NL_35|535KB/s|B007-260618 [af299d7966ac]
   type: hysteria2
   server: 51.15.16.68
   port: 24111
@@ -2027,16 +1843,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_35|7.0MB/s|M003-260806 [01d1ad160819]
-  type: hysteria2
-  server: 51.15.16.68
-  port: 24146
-  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_124|3.9MB/s|M003-260806
+- name: 🇳🇱NL_124|3.9MB/s|M003-260806 [8bd039b09e2f]
   type: hysteria2
   server: 51.15.16.68
   port: 37030
@@ -2045,16 +1852,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_157|5.2MB/s|M003-260806 [6f62b12b4f83]
-  type: hysteria2
-  server: 51.15.16.68
-  port: 37075
-  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_122|244KB/s|B007-260618
+- name: 🇳🇱NL_122|244KB/s|B007-260618 [4db7de9b106b]
   type: hysteria2
   server: 51.15.16.68
   port: 37132
@@ -2063,7 +1861,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_125|3.5MB/s|M003-260806
+- name: 🇳🇱NL_125|3.5MB/s|M003-260806 [f988fdcbaa28]
   type: hysteria2
   server: 51.15.16.68
   port: 37181
@@ -2072,7 +1870,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇳🇱NL_126|2.4MB/s|B007-260618
+- name: 🇳🇱NL_126|2.4MB/s|B007-260618 [1400dcdef4a5]
   type: hysteria2
   server: 51.15.16.68
   port: 37186
@@ -2081,7 +1879,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
-- name: 🇨🇭CH_22|287KB/s|B007-260618
+- name: 🇨🇭CH_22|287KB/s|B007-260618 [cd8023501657]
   type: hysteria2
   server: 208.69.78.217
   port: 21000
@@ -2090,7 +1888,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_12|64KB/s|B007-260618
+- name: 🇨🇭CH_12|64KB/s|B007-260618 [0112850394f2]
   type: hysteria2
   server: 208.69.78.217
   port: 21016
@@ -2099,7 +1897,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_21|260KB/s|B007-260618 [cf1950242764]
+- name: ❓Other_31|72KB/s|B007-260618
   type: hysteria2
   server: 208.69.78.217
   port: 21021
@@ -2108,7 +1906,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_11|377KB/s|B007-260618 [3caea696f531]
+- name: 🇨🇭CH_13|361KB/s|B007-260618 [3caea696f531]
   type: hysteria2
   server: 208.69.78.217
   port: 21046
@@ -2117,7 +1915,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_30|377KB/s|B007-260618
+- name: 🇨🇭CH_30|377KB/s|B007-260618 [837a35ab4f79]
   type: hysteria2
   server: 208.69.78.217
   port: 21047
@@ -2126,7 +1924,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_14|181KB/s|B007-260618
+- name: 🇨🇭CH_14|181KB/s|B007-260618 [5cde12f38a8b]
   type: hysteria2
   server: 208.69.78.217
   port: 21054
@@ -2135,7 +1933,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_35|402KB/s|B007-260618
+- name: 🇨🇭CH_35|402KB/s|B007-260618 [260d0d9e8f20]
   type: hysteria2
   server: 208.69.78.217
   port: 21067
@@ -2144,7 +1942,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_15|113KB/s|B007-260618
+- name: 🇨🇭CH_15|113KB/s|B007-260618 [09e1d6993715]
   type: hysteria2
   server: 208.69.78.217
   port: 21080
@@ -2153,25 +1951,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_50|105KB/s|B007-260618 [836651e168ce]
-  type: hysteria2
-  server: 208.69.78.217
-  port: 21084
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_28|90KB/s|B007-260618 [39b9ac93ebb3]
-  type: hysteria2
-  server: 208.69.78.217
-  port: 21086
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_25|374KB/s|B007-260618
+- name: 🇨🇭CH_25|374KB/s|B007-260618 [90c9e5182aac]
   type: hysteria2
   server: 208.69.78.217
   port: 21090
@@ -2180,7 +1960,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_23|211KB/s|B007-260618
+- name: 🇨🇭CH_23|211KB/s|B007-260618 [22dccda945ff]
   type: hysteria2
   server: 208.69.78.217
   port: 21113
@@ -2189,7 +1969,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_16|176KB/s|B007-260618
+- name: 🇨🇭CH_16|176KB/s|B007-260618 [3919ac8f8ce3]
   type: hysteria2
   server: 208.69.78.217
   port: 21147
@@ -2198,7 +1978,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_28|128KB/s|M003-260806
+- name: 🇨🇭CH_28|128KB/s|M003-260806 [cd897f1d081e]
   type: hysteria2
   server: 208.69.78.217
   port: 21154
@@ -2207,7 +1987,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_33|272KB/s|B007-260618
+- name: 🇨🇭CH_33|272KB/s|B007-260618 [3c5abb11488b]
   type: hysteria2
   server: 208.69.78.217
   port: 21158
@@ -2216,7 +1996,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_27|364KB/s|M003-260806
+- name: 🇨🇭CH_27|364KB/s|M003-260806 [d2cb650d4ac9]
   type: hysteria2
   server: 208.69.78.217
   port: 21161
@@ -2225,7 +2005,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_31|138KB/s|B007-260618
+- name: 🇨🇭CH_31|138KB/s|B007-260618 [ebcfc679e293]
   type: hysteria2
   server: 208.69.78.217
   port: 33013
@@ -2234,7 +2014,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_20|441KB/s|B007-260618
+- name: 🇨🇭CH_20|441KB/s|B007-260618 [dcfee624327d]
   type: hysteria2
   server: 208.69.78.217
   port: 33025
@@ -2243,7 +2023,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_34|305KB/s|B007-260618
+- name: 🇨🇭CH_34|305KB/s|B007-260618 [dd70b1714f09]
   type: hysteria2
   server: 208.69.78.217
   port: 33042
@@ -2252,7 +2032,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_26|70KB/s|B007-260618
+- name: 🇨🇭CH_26|70KB/s|B007-260618 [f344ccb7e871]
   type: hysteria2
   server: 208.69.78.217
   port: 33044
@@ -2261,7 +2041,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_17|239KB/s|B007-260618
+- name: 🇨🇭CH_17|239KB/s|B007-260618 [56265a7117f4]
   type: hysteria2
   server: 208.69.78.217
   port: 33092
@@ -2270,7 +2050,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_32|110KB/s|B007-260618
+- name: 🇨🇭CH_32|110KB/s|B007-260618 [2178b4a62477]
   type: hysteria2
   server: 208.69.78.217
   port: 33117
@@ -2279,7 +2059,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_11|118KB/s|B007-260618
+- name: 🇨🇭CH_11|118KB/s|B007-260618 [9b3984e0d722]
   type: hysteria2
   server: 208.69.78.217
   port: 33130
@@ -2288,7 +2068,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_18|335KB/s|B007-260618
+- name: 🇨🇭CH_18|335KB/s|B007-260618 [d3f615762215]
   type: hysteria2
   server: 208.69.78.217
   port: 33133
@@ -2297,7 +2077,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_24|503KB/s|B007-260618
+- name: 🇨🇭CH_24|503KB/s|B007-260618 [bb59738630dd]
   type: hysteria2
   server: 208.69.78.217
   port: 33141
@@ -2306,25 +2086,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_30|106KB/s|B007-260618 [200eb162cf44]
-  type: hysteria2
-  server: 208.69.78.217
-  port: 33152
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_38|299KB/s|B007-260618 [80d93a0bb9b8]
-  type: hysteria2
-  server: 208.69.78.217
-  port: 33171
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_31|377KB/s|M003-260806 [225f82d7b651]
+- name: 🇨🇭CH_2|180KB/s|M003-260806
   type: hysteria2
   server: 208.69.78.217
   port: 33174
@@ -2333,16 +2095,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_32|473KB/s|M003-260806 [28ca392ab9a4]
-  type: hysteria2
-  server: 208.69.78.217
-  port: 33187
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_19|280KB/s|B007-260618
+- name: 🇨🇭CH_19|280KB/s|B007-260618 [1b5e1ad7ab68]
   type: hysteria2
   server: 208.69.78.217
   port: 33195
@@ -2351,7 +2104,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭CH_1|65KB/s|B007-260618
+- name: 🇨🇭CH_1|65KB/s|B007-260618 [0c33b7c3dfdf]
   type: hysteria2
   server: 208.69.78.217
   port: 8444
@@ -2360,7 +2113,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇫🇷FR_24|9.3MB/s|B007-260618
+- name: 🇫🇷FR_24|9.3MB/s|B007-260618 [40dc0d473b9b]
   type: hysteria2
   server: 51.77.217.70
   port: 21000
@@ -2369,16 +2122,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷FR_37|7.3MB/s|M003-260806 [ad91afe13666]
-  type: hysteria2
-  server: 51.77.217.70
-  port: 21169
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷FR_19|7.0MB/s|M003-260806 [be5dfa1dacbe]
+- name: 🇫🇷FR_40|8.4MB/s|M003-260806 [be5dfa1dacbe]
   type: hysteria2
   server: 51.77.217.70
   port: 21182
@@ -2387,7 +2131,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷FR_41|9.9MB/s|M003-260806
+- name: 🇫🇷FR_41|9.9MB/s|M003-260806 [d8efca481cda]
   type: hysteria2
   server: 51.77.217.70
   port: 33128
@@ -2396,16 +2140,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷FR_49|8.0MB/s|B007-260618 [ee7450814ed7]
-  type: hysteria2
-  server: 51.77.217.70
-  port: 8445
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷FR_29|5.7MB/s|B007-260618
+- name: 🇫🇷FR_29|5.7MB/s|B007-260618 [406ec6c33cb2]
   type: hysteria2
   server: 51.77.217.70
   port: 8446
@@ -2414,7 +2149,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷FR_30|6.6MB/s|B007-260618
+- name: 🇫🇷FR_30|6.6MB/s|B007-260618 [c3fc8f6419a8]
   type: hysteria2
   server: 51.77.217.70
   port: 8447
@@ -2479,7 +2214,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "44f1c1e2f8b99e792ceed574627a1eb0"
-- name: 🇸🇬SG_11|1.0MB/s|M003-260806
+- name: 🇸🇬SG_11|1.0MB/s|M003-260806 [0b6b0ae6899d]
   type: hysteria2
   server: 138.2.89.249
   port: 443
@@ -2487,30 +2222,24 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "309502c4a8df10b46fb976d4a8c43f42"
-- name: 🇳🇱NL_33|368KB/s|A001-260618
+- name: 🇳🇱NL_33|368KB/s|A001-260618 [54448850fd51]
   type: hysteria2
   server: 50.7.38.243
   port: 443
   password: "d4ca9415f0eac7897472e1e5b86d2e96"
   sni: promo.betust.net
-- name: 🇳🇱NL_152|3.4MB/s|A004-260618 [cc787a316f2a]
+- name: 🇳🇱NL_28|2.8MB/s|A004-260618
   type: hysteria2
   server: promo.betust.net
   port: 443
   password: "d4ca9415f0eac7897472e1e5b86d2e96"
   sni: promo.betust.net
-- name: 🇩🇪DE_73|6.9MB/s|M003-260806 [12962be1a53c]
-  type: hysteria2
-  server: 151.243.169.164
-  port: 12824
-  password: d62s7ghfehm742us
-  sni: derfderf.ru
-- name: 🇩🇪DE_74|6.8MB/s|M003-260806 [8d756da1ba69]
+- name: 🇩🇪DE_50|5.9MB/s|M003-260806 [8e03370bae11]
   type: hysteria2
   server: derfderf.ru
   port: 12824
   password: d62s7ghfehm742us
-  sni: 127.0.0.1
+  sni: derfderf.ru
 - name: '🇸🇬_SG_新加坡 #5'
   type: hysteria2
   server: 8.219.144.195
@@ -2526,7 +2255,7 @@ proxies:
   port: 44356
   password: dongtaiwang.com
   sni: hy2.561891.xyz
-- name: 🇫🇷FR_12|301KB/s|A004-260618
+- name: 🇫🇷FR_12|301KB/s|A004-260618 [aa8c93cc87e1]
   type: hysteria2
   server: 62.210.124.146
   port: 22000
@@ -2546,7 +2275,7 @@ proxies:
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   sni: onecloudstream.com
   skip-cert-verify: true
-- name: 'برای اتصال دائمی جوین شو☄️ Tel... #1 #2'
+- name: 'برای اتصال دائمی جوین شو☄️ Tel... #1'
   type: hysteria2
   server: 152.32.254.68
   port: 5010
@@ -2570,14 +2299,7 @@ proxies:
   password: eTr5Jag4dMyzx7KdYfVgra78
   sni: sg-transit-1.nebulacloud.win
   skip-cert-verify: true
-- name: 🇺🇸US_566|453KB/s|R002-260618 [131d4cebf594]
-  type: hysteria2
-  server: 129.146.124.201
-  port: 51000
-  password: eb9888f5-66ec-481d-a82f-0f4e6277f098
-  sni: cn.cremedelamer.com
-  skip-cert-verify: true
-- name: 🇮🇱IL_5|1.7MB/s|R002-260618 [ec87b3b9cab1]
+- name: 🇮🇱_IL_以色列
   type: hysteria2
   server: 129.159.156.109
   port: 50160
@@ -2605,7 +2327,7 @@ proxies:
   sni: vn2.yuntong.click
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-- name: 🇸🇬SG_20|1.1MB/s|A004-260618
+- name: 🇸🇬SG_20|1.1MB/s|A004-260618 [54304560eba2]
   type: hysteria2
   server: 138.2.73.238
   port: 50160
@@ -2618,7 +2340,7 @@ proxies:
   port: 55000
   password: f9e76796-72ba-4af1-9435-a556bd81c140
   skip-cert-verify: true
-- name: 🇹🇷TR_1|2.7MB/s|M003-260806
+- name: 🇹🇷TR_1|2.7MB/s|M003-260806 [85a33c0ffac0]
   type: hysteria2
   server: 153.56.210.134
   port: 57251
@@ -2634,20 +2356,20 @@ proxies:
   sni: gettestin.xxee.ru
   obfs: salamander
   obfs-password: "2a7e8084206388f4"
-- name: 🇷🇴RO_78|1.6MB/s|B007-260618
+- name: 🇷🇴RO_75|564KB/s|B007-260618 [2995a6cd373d]
   type: hysteria2
   server: 185.156.44.99
   port: 443
   password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
+  sni: whatsapp.com
   skip-cert-verify: true
-- name: 🇳🇱NL_77|3.5MB/s|B007-260618 [22ac46a5813f]
+- name: 🇳🇱NL_18|182KB/s|B007-260618
   type: hysteria2
   server: 5.129.235.85
   port: 443
   password: gf1:gfhysteria2024
   skip-cert-verify: true
-- name: 🇺🇸US_126|1015KB/s|M003-260806
+- name: 🇺🇸US_126|1015KB/s|M003-260806 [4ad25b57a194]
   type: hysteria2
   server: 66.94.121.46
   port: 443
@@ -2660,38 +2382,17 @@ proxies:
   port: 443
   password: gf1:gfhysteria2024
   skip-cert-verify: true
-- name: 🇫🇷FR_20|MB/s|R002-260618
+- name: 🇫🇷FR_20|MB/s|R002-260618 [0d92b1cf909e]
   type: hysteria2
   server: 62.210.147.2
   port: 43115
   password: github.com/Alvin9999-newpac/fanqiang
   skip-cert-verify: true
-- name: 🇫🇷FR_23|MB/s|P002-260618
+- name: 🇫🇷FR_28|9.0MB/s [7491dea92bba]
   type: hysteria2
   server: 62.210.7.139
   port: 60111
   password: github.com/Alvin9999-newpac/fanqiang
-  skip-cert-verify: true
-- name: 美国+得克萨斯州
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.2fa.cat
-  sni: xship.top
-  skip-cert-verify: true
-- name: ❓Other_7|212KB/s|R002-260618 [6bd2e2ff6b88]
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
-- name: 🇺🇸US_472|282KB/s|R002-260618 [3cf70976389d]
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.top
-  sni: xship.top
   skip-cert-verify: true
 - name: '🇺🇸_US_美国 #10'
   type: hysteria2
@@ -2707,6 +2408,12 @@ proxies:
   password: https//xship.best
   sni: xship.top
   skip-cert-verify: true
+- name: 🇺🇸US_585|121KB/s|R002-260618 01
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  skip-cert-verify: true
 - name: 🇺🇸US_550|1.0MB/s|A001-260618 01
   type: hysteria2
   server: 107.172.67.52
@@ -2716,12 +2423,12 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: maintell
-- name: 🇰🇷KR_14|755KB/s|A004-260618
+- name: 🇰🇷KR_8|784KB/s|A001-260618 [740ec54eeb6c]
   type: hysteria2
   server: 152.70.237.123
   port: 2053
   password: maintell
-  sni: 152.70.237.123
+  sni: bing.com
   skip-cert-verify: true
 - name: 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
   type: hysteria2
@@ -2758,13 +2465,6 @@ proxies:
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   sni: gta.internet-card.sbs
   skip-cert-verify: true
-- name: 🇭🇰HK_2|3.4MB/s
-  type: hysteria2
-  server: 18.163.119.155
-  port: 16199
-  password: mn5vCwjc0e9nEryV
-  sni: hk-ls-m-20.khljbzxpeytzgsqgtfki.cc
-  skip-cert-verify: true
 - name: 🇯🇵JP_1|1.4MB/s|GPT⁺|YT-JP|NF|D+|GM|27%
   type: hysteria2
   server: open.2ml.cc.cd
@@ -2780,7 +2480,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇳🇱NL_134|4.6MB/s|M002-260618 [bc8f18f6fad5]
+- name: 🇳🇱NL_92|4.4MB/s|M002-260618 [bc8f18f6fad5]
   type: hysteria2
   server: hy2.aspidnet.xyz
   port: 443
@@ -2788,7 +2488,7 @@ proxies:
   sni: 127.0.0.1
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇯🇵JP_23|636KB/s|R002-260618
+- name: 🇯🇵JP_1|183KB/s|R002-260618
   type: hysteria2
   server: 168.110.45.41
   port: 21443
@@ -2959,12 +2659,12 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
-- name: 🇸🇬SG_45|369KB/s|C002-260622 [436cc604745f]
+- name: 🇸🇬SG_49|532KB/s 01
   type: hysteria2
   server: vpn-sg-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: 127.0.0.1
+  sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
 - name: 🇺🇸US_3|1.8MB/s
   type: hysteria2
@@ -2972,13 +2672,6 @@ proxies:
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-- name: 'ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ⚡️ #5'
-  type: hysteria2
-  server: 18.179.59.61
-  port: 47389
-  password: rJNsyTI0hFgBQRmK
-  sni: jp-ls-a2.nebulacloud.win
   skip-cert-verify: true
 - name: "44100"
   type: hysteria2
@@ -3048,14 +2741,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-- name: 🇯🇵JP_2|102KB/s|A004-260618 [126897f193a6]
-  type: hysteria2
-  server: 8.211.175.236
-  port: 8443
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵JP_12|75KB/s|R002-260618
+- name: 🇯🇵JP_12|75KB/s|R002-260618 [6e8d8291e1a2]
   type: hysteria2
   server: 8.209.247.109
   port: 443
@@ -3108,28 +2794,28 @@ proxies:
   password: wrSuBorIlf
   sni: hys9.wba-pn.ru
   skip-cert-verify: true
-- name: 🇺🇸US_363|999KB/s|A004-260618 [90737946e919]
+- name: 美国590频道：@jichangdl
   type: ss
   server: 103.11.76.248
   port: 28679
   cipher: 2022-blake3-aes-128-gcm
   password: NzJlOTQ5NWYtM2ZkYi00Cg==
   udp: true
-- name: 🇹🇼TW_29|399KB/s|M003-260806
+- name: 🇹🇼TW_29|399KB/s|M003-260806 [f7b36c60b6bd]
   type: ss
   server: 35.236.180.222
   port: 14514
   cipher: 2022-blake3-aes-128-gcm
   password: b7I6g7l7fJhBaMInJ+zkzw==
   udp: true
-- name: 🇹🇼TW_27|603KB/s|B007-260618
+- name: 台湾384频道：@jichangdl
   type: ss
   server: amasoid.ddns.net
   port: 14514
   cipher: 2022-blake3-aes-128-gcm
   password: b7I6g7l7fJhBaMInJ+zkzw==
   udp: true
-- name: 🇺🇸US_147|1.0MB/s|M003-260806 [9818a8772222]
+- name: 🇺🇸US_361|1.1MB/s|M003-260806 [9818a8772222]
   type: ss
   server: 38.145.220.193
   port: 8443
@@ -3143,13 +2829,6 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: 2PIuTAxZjzJxni4kxy/GQ36VWTbRrYzl1fjm0ufTR94=
   udp: true
-- name: 🇫🇮FI_9|2.0MB/s|S004-260618 [859f6a6e0fee]
-  type: ss
-  server: 13.140.89.90
-  port: 48425
-  cipher: 2022-blake3-aes-256-gcm
-  password: LxY+RshgL4XHC0Piomc+G2W0UvxaS3vmd2cjgkTprtg=:T22vm1bofP0E2LjYKl+drLAqUL/oHIBdGbrkKLXOSLw=
-  udp: true
 - name: 🇩🇪DE_174|5.7MB/s|B007-260618 01
   type: ss
   server: web.turbooserver.net.tr
@@ -3157,7 +2836,7 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: WAqeGA+dU+HZYSipCio+Jmt7SSVfHjwMH7j8xmsm7/s=:althddZ27iu261I+568pk7HZzBFDCyIx6pvG8H9oXow=
   udp: true
-- name: 🇩🇪DE_120|1.2MB/s|S004-260618
+- name: 🇩🇪DE_120|1.2MB/s|S004-260618 [1ed9c3f331e2]
   type: ss
   server: tuns.rupfem.ir
   port: 8080
@@ -3178,7 +2857,7 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs=
   udp: true
-- name: 美国151频道：@jichangdl
+- name: 美国563频道：@jichangdl
   type: ss
   server: 18.118.166.169
   port: 52791
@@ -3199,7 +2878,7 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: pRCipSixOSlsNAigMmwfYttz5VmVznoCYX4Pw1G4LxM=:ovtz25KfnF29DC8nL8tMIpBaQuGoUupwCRQIZUHECks=
   udp: true
-- name: 🇸🇬SG_49|148KB/s|B007-260618
+- name: 🇸🇬SG_49|148KB/s|B007-260618 [167f8a3b5e1a]
   type: ss
   server: 129.150.59.74
   port: 14384
@@ -3220,6 +2899,13 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8RRsprK4nxB5VqKlMGFdXJerGo79K5bKdz4uF4crI8E=
   udp: true
+- name: 🇩🇪DE_8|1.0MB/s
+  type: ss
+  server: 8.211.38.49
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
 - name: 🕒
   type: ss
   server: 18.196.82.94
@@ -3227,9 +2913,16 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇩🇪DE_132|1.8MB/s|S001-260618
+- name: 🇩🇪DE_132|1.8MB/s|S001-260618 [ab37a0d78cfb]
   type: ss
   server: 18.171.57.116
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  udp: true
+- name: 🇩🇪DE_25|2.4MB/s|S004-260618
+  type: ss
+  server: 18.175.123.65
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
@@ -3710,30 +3403,16 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8IpzGj+4Dz13GyB7G5h1DuG0klyKJ4Ku73CAYi6cs5Y=
   udp: true
-- name: 'Channel id: @ShadowProxy66🇩🇪'
-  type: ss
-  server: 18.199.171.99
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: 🕒 | 🇩🇪-6818 | 56.3 MB/s 🔥
-  type: ss
-  server: 35.159.165.58
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: 'Channel id: @ShadowProxy66🇩🇪 #2'
+- name: '@V2rayNGVPN > کانفیگ رایگان'
   type: ss
   server: 47.254.143.251
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 'Channel id: @ShadowProxy66-965 🇩🇪'
+- name: 'Channel id: @ShadowProxy66🇩🇪'
   type: ss
-  server: 8.220.81.25
+  server: 18.199.171.99
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
@@ -3780,16 +3459,9 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 9hCTQgXc8nHfYc1TUZmrQax7am1SKNsUSRlCHRMhITM=
   udp: true
-- name: 🕒 | 🇩🇪-6819 | 4.3 MB/s 🔥
+- name: 'Channel id: @ShadowProxy66🇩🇪 #2'
   type: ss
   server: 16.60.112.184
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  udp: true
-- name: 'Channel id: @ShadowProxy66🇩🇪 #3'
-  type: ss
-  server: 18.175.123.65
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
@@ -6321,6 +5993,20 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: kCs8h0xuSNfNngL1SeDLTGRAEWewDnTj/aw3uMmEbSU=:pfEiJ61zUL/GFl2QUg4OJR74kHmsjZ/WUXs8IGe+v9w=
   udp: true
+- name: 🇯🇵日本 04
+  type: ss
+  server: 2a13:9500:15f::d5
+  port: 55462
+  cipher: 2022-blake3-aes-256-gcm
+  password: jANr4RpPFV1RRYPnvowVUcVDLkewW/GEhwVwvLXS2PA=:ihnFVAm/RinE/zdVlpxtSLP3LoCyADb2CJ4jFne0cps=
+  udp: true
+- name: 🇺🇸美国 32
+  type: ss
+  server: 2607:f5b4:88:105:1c00:eaff:fe00:3e1
+  port: 61022
+  cipher: 2022-blake3-aes-256-gcm
+  password: wYDENH7p7XczzW9SBTH9qyqJTcBWIjCQKmzJi16IFas=:bqbB5Ux1ON6Mzj3C5ilVpuJ3git7WU9gfaoi3HSvfa0=
+  udp: true
 - name: 🇹🇷34361丨⚡️Telegram
   type: ss
   server: 5.230.184.16
@@ -6328,7 +6014,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 453u6Gcei04NyXbrWLKa0M
   udp: true
-- name: 🇺🇸US_353|980KB/s|A004-260618 [5e00a7a7f520]
+- name: 美国471频道：@jichangdl
   type: ss
   server: 107.172.219.230
   port: 2096
@@ -6349,7 +6035,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 48UQWJVetDr7ETiOXF+aEQ==
   udp: true
+- name: ss-51.79.161.232-443
+  type: ss
+  server: 51.79.161.232
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 4Hub2f9JyhECyAq2Opm0NS
+  udp: true
 - name: '443 #2'
+  type: ss
+  server: ak1656.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 4Hub2f9JyhECyAq2Opm0NS
+  udp: true
+- name: '443 #3'
   type: ss
   server: ak1724.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 443
@@ -6370,7 +6070,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
   udp: true
-- name: 🇳🇱NL_113|6.7MB/s|A004-260618
+- name: 🇳🇱NL_113|6.7MB/s|A004-260618 [882018439583]
   type: ss
   server: 193.29.139.234
   port: 8080
@@ -6517,6 +6217,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 73637cec-699d-4d87-99af-0776ac880604
   udp: true
+- name: 🏁 未知-C0D1F136
+  type: ss
+  server: 107.172.219.230
+  port: 2096
+  cipher: chacha20-ietf-poly1305
+  password: 768b923a-4918-46ad-96e7-9cf5543ddc4c
+  udp: true
 - name: 未知 SS-275 | free-nodes
   type: ss
   server: ss.041.node-for-bigairport.win
@@ -6559,14 +6266,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
   udp: true
-- name: 韩国298频道：@jichangdl
+- name: 新加坡186频道：@jichangdl
+  type: ss
+  server: 18.143.176.12
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+- name: 韩国810频道：@jichangdl
+  type: ss
+  server: 3.39.252.190
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+- name: '🇰🇷 韩国 | KOR #3'
   type: ss
   server: 43.200.6.1
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: 新加坡980频道：@jichangdl
+- name: '🇸🇬 新加坡 | SGP #2 #2'
   type: ss
   server: 54.255.60.49
   port: 8443
@@ -6769,6 +6490,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 97OnDEZYGja4
   udp: true
+- name: ss-161.97.68.139-443
+  type: ss
+  server: 161.97.68.139
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 94dvoW0TdKRq
+  udp: true
 - name: "10603"
   type: ss
   server: helpme.101cloud.xyz
@@ -6789,6 +6517,13 @@ proxies:
   port: 7867
   cipher: chacha20-ietf-poly1305
   password: 998630ea-9e28-4ae9-b177-1ea5f278febf
+  udp: true
+- name: ss-205.134.180.147-443
+  type: ss
+  server: 205.134.180.147
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 9Bvkw5aupNy8
   udp: true
 - name: YFZ 209 @Outline_Vpn
   type: ss
@@ -6832,7 +6567,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: --U6itO-CXQ6wjd8JMQfog
   udp: true
-- name: 🇩🇪DE_126|206KB/s|M003-260806
+- name: 🇩🇪DE_126|206KB/s|M003-260806 [ad9a65cd9dd5]
   type: ss
   server: 51.38.127.93
   port: 8080
@@ -6881,13 +6616,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   udp: true
-- name: 'Channel id: @ShadowProxy66-966 🇦🇱'
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: 0SxLXFtomY9ypO4o8rrNWEpNSZEFzsMnfhBETUd3oOw=
-  udp: true
 - name: 未知 SS-309 | free-nodes
   type: ss
   server: creativegermany.zanity.net
@@ -6923,7 +6651,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 0f27ade3-7ed3-4f9e-b09a-ab1ec2818104
   udp: true
-- name: 韩国779频道：@jichangdl
+- name: 韩国246频道：@jichangdl
   type: ss
   server: 115.161.136.145
   port: 10099
@@ -7014,7 +6742,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
   udp: true
-- name: 🇫🇷@FreakConfig
+- name: ss-51.83.61.102-8080
   type: ss
   server: 51.83.61.102
   port: 8080
@@ -7077,7 +6805,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   udp: true
-- name: 🇸🇪 ss-SE-1620...
+- name: ss-62.182.193.228-8388
   type: ss
   server: 62.182.193.228
   port: 8388
@@ -7119,7 +6847,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "366aa1ba14af3f1a"
   udp: true
-- name: ss-185.242.86.156-54170
+- name: 俄罗斯 1
   type: ss
   server: 185.242.86.156
   port: 54170
@@ -7154,7 +6882,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 3o0bHRt8dtPRko9q60zt93k2toFn58xp
   udp: true
-- name: 日本134频道：@jichangdl
+- name: 🇯🇵JP_1|2.7MB/s
   type: ss
   server: 13.231.100.94
   port: 2377
@@ -7171,7 +6899,7 @@ proxies:
   plugin: obfs
   plugin-opts:
     mode: http
-- name: 卢森堡656频道：@jichangdl
+- name: 卢森堡580频道：@jichangdl
   type: ss
   server: 87.228.61.175
   port: 1443
@@ -7262,6 +6990,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: vwc9nGgP8O5KeWbyrwiUow
   udp: true
+- name: ss-212.113.106.243-13022
+  type: ss
+  server: 212.113.106.243
+  port: 13022
+  cipher: chacha20-ietf-poly1305
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  udp: true
 - name: "4891"
   type: ss
   server: marz.vpsino.com
@@ -7269,7 +7004,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: wcUrFDphT7l-Hp8actMDlg
   udp: true
-- name: 荷兰690频道：@jichangdl
+- name: 荷兰26频道：@jichangdl
   type: ss
   server: 185.223.93.28
   port: 42564
@@ -7283,14 +7018,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: wwj19enpp68px8t7
   udp: true
-- name: 🇫🇷FR_101|973KB/s|M003-260806 [997cdef44caa]
+- name: 🇫🇷FR_14|115KB/s|M003-260806
   type: ss
   server: 51.77.144.182
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: x19py0a8ipglqkbe
   udp: true
-- name: '🇹🇷 土耳其 | TUR #1'
+- name: ss-37.218.241.43-443
+  type: ss
+  server: 37.218.241.43
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: xCjmxGzrUoBA
+  udp: true
+- name: 🇹🇷 ss-TR-1621...
   type: ss
   server: 153.56.229.84
   port: 545
@@ -7388,7 +7130,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: yuMqkGIx6Ia0
   udp: true
-- name: 🇿🇦@FreakConfig
+- name: 'Channel id: @ShadowProxy66-337'
   type: ss
   server: 20.164.204.82
   port: 443
@@ -7423,7 +7165,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
   udp: true
-- name: ss-185.213.23.63-990
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #2'
+  type: ss
+  server: 20.107.184.151
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: zziXHDOFXc4qRjoj
+  udp: true
+- name: 🇳🇴 ss-NO-1220...
   type: ss
   server: 185.213.23.63
   port: 990
@@ -7444,7 +7193,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
   udp: true
-- name: 荷兰193频道：@jichangdl
+- name: 荷兰328频道：@jichangdl
   type: ss
   server: sql.popmintxo.cc
   port: 43385
@@ -7514,7 +7263,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: DM0395LVqxyl
   udp: true
-- name: 🇬🇧GB-104.222.183.180-0242
+- name: ss-104.222.183.180-47195
   type: ss
   server: 104.222.183.180
   port: 47195
@@ -7598,31 +7347,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: FhS_Go_TmiFytUwbAmIOvA
   udp: true
-- name: ss-109.169.72.249-801
-  type: ss
-  server: 109.169.72.249
-  port: 801
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: ss-109.169.72.249-802
   type: ss
   server: 109.169.72.249
   port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-109.169.72.249-809
-  type: ss
-  server: 109.169.72.249
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-109.169.72.249-810
-  type: ss
-  server: 109.169.72.249
-  port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7682,6 +7410,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-148.66.56.99-801
+  type: ss
+  server: 148.66.56.99
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: ss-148.66.56.99-802
   type: ss
   server: 148.66.56.99
@@ -7696,45 +7431,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-148.66.56.99-805
+- name: ss-148.66.56.99-804
   type: ss
   server: 148.66.56.99
-  port: 805
+  port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-148.66.56.99-807
-  type: ss
-  server: 148.66.56.99
-  port: 807
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-148.66.56.99-808
-  type: ss
-  server: 148.66.56.99
-  port: 808
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-148.66.56.99-809
-  type: ss
-  server: 148.66.56.99
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-148.66.56.99-810
-  type: ss
-  server: 148.66.56.99
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-162.251.61.221-802
+- name: ss-162.251.61.221-804
   type: ss
   server: 162.251.61.221
-  port: 802
+  port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7745,10 +7452,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-162.251.61.221-808
+- name: ss-162.251.61.221-806
   type: ss
   server: 162.251.61.221
-  port: 808
+  port: 806
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7773,13 +7480,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-162.251.61.47-810
-  type: ss
-  server: 162.251.61.47
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: ss-163.172.110.153-810
   type: ss
   server: 163.172.110.153
@@ -7794,6 +7494,27 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-167.88.61.2-805
+  type: ss
+  server: 167.88.61.2
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-167.88.61.2-806
+  type: ss
+  server: 167.88.61.2
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-167.88.61.2-810
+  type: ss
+  server: 167.88.61.2
+  port: 810
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: US_1040
   type: ss
   server: 172.245.218.162
@@ -7801,16 +7522,16 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-172.245.218.162-804
+- name: ss-172.245.218.162-809
   type: ss
   server: 172.245.218.162
-  port: 804
+  port: 809
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-185.172.113.182-804
+- name: ss-185.104.184.78-804
   type: ss
-  server: 185.172.113.182
+  server: 185.104.184.78
   port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
@@ -7843,6 +7564,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-193.38.139.204-809
+  type: ss
+  server: 193.38.139.204
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: ss-196.247.59.154-800
   type: ss
   server: 196.247.59.154
@@ -7857,31 +7585,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-196.247.59.154-806
+- name: ss-196.247.59.154-802
   type: ss
   server: 196.247.59.154
-  port: 806
+  port: 802
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-196.247.59.154-809
+- name: ss-196.247.59.154-803
   type: ss
   server: 196.247.59.154
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-196.247.59.156-809
-  type: ss
-  server: 196.247.59.156
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-217.197.161.136-801
-  type: ss
-  server: 217.197.161.136
-  port: 801
+  port: 803
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7892,6 +7606,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-217.197.161.136-808
+  type: ss
+  server: 217.197.161.136
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: ss-217.197.161.136-809
   type: ss
   server: 217.197.161.136
@@ -7899,10 +7620,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-217.197.161.138-800
+- name: ss-217.197.161.138-804
   type: ss
   server: 217.197.161.138
-  port: 800
+  port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7913,31 +7634,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-217.197.161.138-811
+- name: ss-3..47-806
   type: ss
-  server: 217.197.161.138
-  port: 811
+  server: 3.10.20.47
+  port: 806
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-3.67.113.118-810
-  type: ss
-  server: 3.67.113.118
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-37.120.147.230-804
+- name: ss-37.120.147.230-805
   type: ss
   server: 37.120.147.230
-  port: 804
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-37.120.147.230-809
-  type: ss
-  server: 37.120.147.230
-  port: 809
+  port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7962,10 +7669,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-38.68.134.135-809
+- name: ss-38.68.134.196-800
   type: ss
-  server: 38.68.134.135
-  port: 809
+  server: 38.68.134.196
+  port: 800
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-38.68.134.196-802
+  type: ss
+  server: 38.68.134.196
+  port: 802
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -7976,6 +7690,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-38.68.134.196-808
+  type: ss
+  server: 38.68.134.196
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: ss-38.68.134.196-812
   type: ss
   server: 38.68.134.196
@@ -7983,10 +7704,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-38.91.107.225-802
+- name: ss-38.91.107.225-800
   type: ss
   server: 38.91.107.225
-  port: 802
+  port: 800
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -8004,13 +7725,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-45.66.134.176-801
-  type: ss
-  server: 45.66.134.176
-  port: 801
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: ss-45.66.134.176-802
   type: ss
   server: 45.66.134.176
@@ -8018,10 +7732,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-45.66.134.176-810
+- name: ss-45.66.134.176-803
   type: ss
   server: 45.66.134.176
-  port: 810
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-45.66.134.176-805
+  type: ss
+  server: 45.66.134.176
+  port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -8029,6 +7750,13 @@ proxies:
   type: ss
   server: 45.66.134.176
   port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-5.181.234.254-809
+  type: ss
+  server: 5.181.234.254
+  port: 809
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -8043,13 +7771,6 @@ proxies:
   type: ss
   server: 51.161.118.38
   port: 801
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-51.161.118.38-802
-  type: ss
-  server: 51.161.118.38
-  port: 802
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -8109,17 +7830,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #15'
+- name: ss-51.178.87.37-810
   type: ss
   server: 51.178.87.37
   port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-78.129.253.9-802
-  type: ss
-  server: 78.129.253.9
-  port: 802
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -8137,84 +7851,84 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-78.129.253.9-810
+- name: ss-81.90.189.41-801
   type: ss
-  server: 78.129.253.9
-  port: 810
+  server: 81.90.189.41
+  port: 801
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-78.129.253.9-811
-  type: ss
-  server: 78.129.253.9
-  port: 811
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
+- name: "810"
   type: ss
   server: ak1686.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #15'
   type: ss
   server: ak1772.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "810"
+- name: "812"
   type: ss
-  server: ak1774.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 810
+  server: ak1777.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 812
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "804"
-  type: ss
-  server: ak1785.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 804
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
   type: ss
   server: ak1790.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
+- name: '812 #2'
+  type: ss
+  server: ak1794.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: "805"
+  type: ss
+  server: ak1797.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
   type: ss
   server: ak1809.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
   type: ss
   server: ak1829.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
   type: ss
   server: ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 800
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #22'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
   type: ss
   server: ak1846.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #23'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
   type: ss
   server: bia-t-o.outline-vpn.cloud
   port: 804
@@ -8508,6 +8222,279 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #42'
+  type: ss
+  server: 5.183.176.84
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #43'
+  type: ss
+  server: 5.183.176.84
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #44'
+  type: ss
+  server: 5.183.176.84
+  port: 804
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #45'
+  type: ss
+  server: 5.183.176.84
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #46'
+  type: ss
+  server: 5.183.176.84
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #47'
+  type: ss
+  server: 5.183.176.84
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #48'
+  type: ss
+  server: 5.183.176.84
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #49'
+  type: ss
+  server: 5.183.176.84
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #50'
+  type: ss
+  server: 5.183.176.84
+  port: 810
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #51'
+  type: ss
+  server: 5.183.176.84
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #52'
+  type: ss
+  server: 5.183.176.84
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #53'
+  type: ss
+  server: 5.183.176.91
+  port: 800
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #54'
+  type: ss
+  server: 5.183.176.91
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #55'
+  type: ss
+  server: 5.183.176.91
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #56'
+  type: ss
+  server: 5.183.176.91
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #57'
+  type: ss
+  server: 5.183.176.91
+  port: 804
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #58'
+  type: ss
+  server: 5.183.176.91
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #59'
+  type: ss
+  server: 5.183.176.91
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #60'
+  type: ss
+  server: 5.183.176.91
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #61'
+  type: ss
+  server: 5.183.176.91
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #62'
+  type: ss
+  server: 5.183.176.91
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #63'
+  type: ss
+  server: 5.183.176.91
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #64'
+  type: ss
+  server: 5.183.176.91
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #65'
+  type: ss
+  server: 5.183.176.92
+  port: 800
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #66'
+  type: ss
+  server: 5.183.176.92
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #67'
+  type: ss
+  server: 5.183.176.92
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #68'
+  type: ss
+  server: 5.183.176.92
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #69'
+  type: ss
+  server: 5.183.176.92
+  port: 804
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #70'
+  type: ss
+  server: 5.183.176.92
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #71'
+  type: ss
+  server: 5.183.176.92
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #72'
+  type: ss
+  server: 5.183.176.92
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #73'
+  type: ss
+  server: 5.183.176.92
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #74'
+  type: ss
+  server: 5.183.176.92
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #75'
+  type: ss
+  server: 5.183.176.92
+  port: 810
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #76'
+  type: ss
+  server: 5.183.176.92
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #77'
+  type: ss
+  server: 5.183.176.92
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #78'
+  type: ss
+  server: 5.183.176.93
+  port: 800
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #79'
+  type: ss
+  server: 5.183.176.93
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '🇯🇵_油管：全网最强白嫖 #80'
+  type: ss
+  server: 5.183.176.93
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: '说明-来源: hkjych/X'
   type: trojan
   server: 127.0.0.1
@@ -8515,7 +8502,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 3274 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 3521 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -8541,6 +8528,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: hkjych/X'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 3274 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 3521 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

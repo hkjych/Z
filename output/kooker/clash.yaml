@@ -1,50 +1,54 @@
 proxies:
-- name: 🇸🇪SE_1|772KB/s
-  password: ''
-  port: 9443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇧🇬BG_1|621KB/s
-  password: None
-  port: 443
-  server: 185.94.192.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇨🇿CZ_1|533KB/s
-  password: ''
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇩🇪DE_1|582KB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
-  name: 🇪🇸ES_1|599KB/s
+  name: 🇺🇸US_1|2.5MB/s
   network: tcp
   port: 8443
   reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: "974f7f8f"
-  server: 9.247.174.134
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: "4ad2e4e660550e43"
+  server: 156.229.167.109
   tls: true
   type: vless
   udp: true
-  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   xudp: true
-  servername: play.googleapis.com
+  servername: github.githubassets.com
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|1.8MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|1.8MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|1.8MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_5|2.1MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_6|1.8MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -52,7 +56,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1129 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1133 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -78,7 +82,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1129 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1133 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
