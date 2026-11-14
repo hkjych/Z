@@ -1,64 +1,5 @@
 proxies:
-- name: 美国+CloudFlare节点
-  type: vless
-  server: 162.159.198.1
-  port: 443
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
-  udp: true
-  tls: true
-  servername: v6-95o.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v6-95o.pages.dev
-- name: 俄罗斯+
-  type: vless
-  server: 212.113.112.239
-  port: 8443
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
-  udp: true
-  tls: true
-  servername: v6-95o.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v6-95o.pages.dev
-- name: '美国+CloudFlare节点 #2'
-  type: vless
-  server: www.digitalocean.com
-  port: 8080
-  uuid: 2500e602-671c-4654-a602-c518b7282167
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 2639w-throbbing-band-3840.xphnn6jp.workers.dev
-- name: 罗马尼亚+
-  type: vless
-  server: 188.213.170.198
-  port: 443
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
-  udp: true
-  tls: true
-  servername: v5-4b5.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v5-4b5.pages.dev
-- name: 美国+
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-  udp: true
-- name: 🇹🇷TR_13|944KB/s|C002-260622 [e374e9aba6e6]
+- name: 美国+Xerox
   type: trojan
   server: sclass-b1.catcat321.com
   port: 20027
@@ -66,66 +7,39 @@ proxies:
   udp: true
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 塞舌尔+
+- name: 日本+东京Amazon数据中心
   type: vless
-  server: 196.199.122.2
+  server: zfapi.zalolink.com
+  port: 54528
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: "54cca3c1c1c7"
+- name: 西班牙+
+  type: vless
+  server: 196.196.149.80
   port: 443
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
   flow: xtls-rprx-vision
   tls: true
   servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
-- name: 香港+Amazon数据中心
-  type: trojan
-  server: sclass-c2.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
-- name: '美国+CloudFlare节点 #3'
-  type: vless
-  server: saas.sin.fan
-  port: 2053
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  servername: vp11.1145678.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /videos/forum
-    headers:
-      Host: vp11.1145678.xyz
-- name: 新西兰+
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 巴西圣保罗+CloudFlare节点
-  type: vless
-  server: 188.114.96.246
-  port: 8443
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-  udp: true
-  tls: true
-  servername: moz.ar-marz.fun
-  network: ws
-  ws-opts:
-    path: /man
-    headers:
-      Host: moz.ar-marz.fun
-- name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 美国 Alabanza
+  type: vmess
+  server: 65.108.240.210
+  port: 39018
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
+  alterId: 0
+  cipher: auto
   udp: true
 - name: 英国+
   type: vless
@@ -140,20 +54,62 @@ proxies:
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
-- name: '俄罗斯+ #2'
+- name: '日本+东京Amazon数据中心 #2'
   type: vless
-  server: 109.237.97.238
+  server: zfapi.zalolink.com
+  port: 47691
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.media-amazon.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: "2905326a"
+- name: 新西兰+
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '美国 Alabanza #2'
+  type: vmess
+  server: 65.108.240.210
+  port: 39018
+  uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国+CloudFlare节点
+  type: vless
+  server: yx.l110.us.ci
   port: 443
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   tls: true
-  servername: v5-4b5.pages.dev
+  servername: fs.qicai99.com
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: v5-4b5.pages.dev
+      Host: fs.qicai99.com
+- name: '新西兰+ #2'
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '新西兰+ #3'
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -161,7 +117,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 40 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -187,6 +143,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 50 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 40 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
