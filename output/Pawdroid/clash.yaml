@@ -1,46 +1,4 @@
 proxies:
-- name: 美国+Xerox
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 日本+东京Amazon数据中心
-  type: vless
-  server: zfapi.zalolink.com
-  port: 54528
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: "54cca3c1c1c7"
-- name: 西班牙+
-  type: vless
-  server: 196.196.149.80
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-- name: 美国 Alabanza
-  type: vmess
-  server: 65.108.240.210
-  port: 39018
-  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
-  alterId: 0
-  cipher: auto
-  udp: true
 - name: 英国+
   type: vless
   server: 2.26.251.236
@@ -50,62 +8,71 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: mental-deprivation.ru
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
-- name: '日本+东京Amazon数据中心 #2'
-  type: vless
-  server: zfapi.zalolink.com
-  port: 47691
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: m.media-amazon.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: "2905326a"
 - name: 新西兰+
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '新西兰+ #2'
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '美国 Alabanza #2'
-  type: vmess
-  server: 65.108.240.210
-  port: 39018
-  uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a
-  alterId: 0
-  cipher: auto
+- name: 香港+葵兴数据中心
+  type: trojan
+  server: sclass-b1.catcat321.com
+  port: 20028
+  password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
-- name: 美国+CloudFlare节点
-  type: vless
-  server: yx.l110.us.ci
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: '香港+葵兴数据中心 #2'
+  type: trojan
+  server: sclass-b1.catcat321.com
+  port: 20027
+  password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: '新西兰+ #2'
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: '新西兰+ #3'
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '新西兰+ #3'
+- name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  type: vless
+  server: zfapi.zalolink.com
+  port: 11802
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: psstatic.cdn.bcebos.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4
+    short-id: "6c84fbac2d"
+- name: 美国 Alabanza
+  type: vmess
+  server: 65.108.240.210
+  port: 39018
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: '新西兰+ #4'
   type: ss
-  server: 202.50.253.54
+  server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -117,7 +84,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 40 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 51 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -143,6 +110,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 40 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 51 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
