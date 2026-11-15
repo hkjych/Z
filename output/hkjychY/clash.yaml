@@ -47,6 +47,24 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: "c39cc7310a"
 - type: ss
+  name: US美国( 米贝节点分享) (7)
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利(2)
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
   name: 🇮🇹IT意大利(5)
   server: 202.50.253.63
   port: 19999
@@ -56,8 +74,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: US美国( 米贝节点分享) (3)
-  server: 202.50.253.90
+  name: ❓未知(11)
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -65,62 +83,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: US美国( 米贝节点分享) (6)
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知(9)
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利(4)
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 意大利( 米贝节点分享)
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: US美国( 米贝节点分享) (2)
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: US美国( 米贝节点分享) (5)
-  server: 202.50.253.45
+  name: 意大利( 米贝节点分享) (4)
+  server: 202.50.253.27
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -142,20 +106,15 @@ proxies:
   xhttp-opts:
     path: /media/e1c76c
     mode: auto
-- type: vless
-  name: NL荷兰( 米贝节点分享) (12)
-  server: 104.171.135.229
-  port: 443
-  uuid: Fluffy_VPN-Oth8rOq3
-  flow: xtls-rprx-vision
+- type: ss
+  name: US美国( 米贝节点分享)
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
   udp: true
-  tls: true
-  servername: absolute-disaster.org
-  sni: absolute-disaster.org
+  tls: false
   skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
 - type: ss
   name: US美国( 米贝节点分享) (8)
   server: 202.50.253.72
@@ -166,8 +125,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知(23)
-  server: 202.50.253.18
+  name: US美国( 米贝节点分享) (6)
+  server: 202.50.253.99
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -175,8 +134,17 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知(11)
-  server: 202.50.253.72
+  name: US美国( 米贝节点分享) (3)
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知(23)
+  server: 202.50.253.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -199,8 +167,17 @@ proxies:
     public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
     short-id: "b28db60d77c50b4f"
 - type: ss
-  name: 🇮🇹IT意大利(2)
-  server: 202.50.253.90
+  name: 🇮🇹IT意大利(4)
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: US美国( 米贝节点分享) (2)
+  server: 202.50.253.36
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -217,8 +194,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: US美国( 米贝节点分享)
-  server: 202.50.253.63
+  name: ❓未知(12)
+  server: 202.50.253.54
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -226,14 +203,58 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: US美国( 米贝节点分享) (7)
-  server: 202.50.253.18
+  name: 意大利( 米贝节点分享)
+  server: 202.50.253.81
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
   tls: false
   skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利(3)
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: US美国( 米贝节点分享) (4)
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vmess
+  name: 🇺🇸US美国
+  server: cf.090227.xyz
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  sni: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
 - type: vless
   name: NL荷兰( 米贝节点分享) (10)
   server: api.ferrin.uk
@@ -251,9 +272,47 @@ proxies:
   xhttp-opts:
     path: /es
     mode: stream-one
+- type: vless
+  name: 西班牙( 米贝节点分享)
+  server: 196.196.149.80
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  sni: 7aa271t.es1.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+- type: vless
+  name: NL荷兰( 米贝节点分享) (12)
+  server: 104.171.135.229
+  port: 443
+  uuid: Fluffy_VPN-Oth8rOq3
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: absolute-disaster.org
+  sni: absolute-disaster.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
 - type: ss
-  name: 意大利( 米贝节点分享) (4)
-  server: 202.50.253.27
+  name: US美国( 米贝节点分享) (5)
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知(9)
+  server: 202.50.253.45
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -275,67 +334,37 @@ proxies:
   xhttp-opts:
     path: /api/v1/sync/
     mode: auto
-- type: ss
-  name: 🇮🇹IT意大利(3)
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - type: vless
-  name: US美国( 米贝节点分享) (39)
-  server: 200.102.179.69
-  port: 443
-  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  name: US美国( 米贝节点分享) (35)
+  server: 2.26.88.140
+  port: 4443
+  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
   udp: true
   tls: true
-  servername: dmbdnpctq8hjxx.hat.onl
-  sni: dmbdnpctq8hjxx.hat.onl
+  servername: lv3.nexfile.net
+  sni: lv3.nexfile.net
   skip-cert-verify: false
   client-fingerprint: chrome
   network: xhttp
   xhttp-opts:
-    path: /hls/014373eq/seg
-    host: dmbdnpctq8hjxx.hat.onl
+    path: /api/v1/sync/
+    host: lv3.nexfile.net
     mode: auto
-- type: ss
-  name: ❓未知(12)
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: US美国( 米贝节点分享) (4)
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - type: vless
-  name: 🇵🇱PL波兰(8)
-  server: 3.169.9.125
+  name: US美国( 米贝节点分享) (32)
+  server: 196.199.122.2
   port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
   udp: true
   tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  sni: d2ex4nxd2e01ub.cloudfront.net
+  servername: 7aa271t.es1.h1clayd.click
+  sni: 7aa271t.es1.h1clayd.click
   skip-cert-verify: false
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
 - name: '说明-来源: hkjych/Y'
   type: trojan
   server: 127.0.0.1
@@ -343,7 +372,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 732 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 800 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -369,7 +398,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: hkjych/Y'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 732 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 800 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 节点选择
@@ -379,33 +408,35 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 🇩🇪DE德国(13)
-  - 🇮🇹IT意大利(5)
-  - US美国( 米贝节点分享) (3)
-  - US美国( 米贝节点分享) (6)
-  - ❓未知(9)
-  - 🇮🇹IT意大利
-  - 🇮🇹IT意大利(4)
-  - 意大利( 米贝节点分享)
-  - US美国( 米贝节点分享) (2)
-  - US美国( 米贝节点分享) (5)
-  - US美国( 米贝节点分享) (63)
-  - NL荷兰( 米贝节点分享) (12)
-  - US美国( 米贝节点分享) (8)
-  - ❓未知(23)
-  - ❓未知(11)
-  - 🇱🇻LV拉脱维亚
-  - 🇮🇹IT意大利(2)
-  - ❓未知(10)
-  - US美国( 米贝节点分享)
   - US美国( 米贝节点分享) (7)
-  - NL荷兰( 米贝节点分享) (10)
+  - 🇮🇹IT意大利(2)
+  - 🇮🇹IT意大利(5)
+  - ❓未知(11)
   - 意大利( 米贝节点分享) (4)
-  - US美国( 米贝节点分享) (36)
-  - 🇮🇹IT意大利(3)
-  - US美国( 米贝节点分享) (39)
+  - US美国( 米贝节点分享) (63)
+  - US美国( 米贝节点分享)
+  - US美国( 米贝节点分享) (8)
+  - US美国( 米贝节点分享) (6)
+  - US美国( 米贝节点分享) (3)
+  - ❓未知(23)
+  - 🇱🇻LV拉脱维亚
+  - 🇮🇹IT意大利(4)
+  - US美国( 米贝节点分享) (2)
+  - ❓未知(10)
   - ❓未知(12)
+  - 意大利( 米贝节点分享)
+  - 🇮🇹IT意大利
+  - 🇮🇹IT意大利(3)
   - US美国( 米贝节点分享) (4)
-  - 🇵🇱PL波兰(8)
+  - 🇺🇸US美国
+  - NL荷兰( 米贝节点分享) (10)
+  - 西班牙( 米贝节点分享)
+  - NL荷兰( 米贝节点分享) (12)
+  - US美国( 米贝节点分享) (5)
+  - ❓未知(9)
+  - US美国( 米贝节点分享) (36)
+  - US美国( 米贝节点分享) (35)
+  - US美国( 米贝节点分享) (32)
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -414,33 +445,35 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 🇩🇪DE德国(13)
-  - 🇮🇹IT意大利(5)
-  - US美国( 米贝节点分享) (3)
-  - US美国( 米贝节点分享) (6)
-  - ❓未知(9)
-  - 🇮🇹IT意大利
-  - 🇮🇹IT意大利(4)
-  - 意大利( 米贝节点分享)
-  - US美国( 米贝节点分享) (2)
-  - US美国( 米贝节点分享) (5)
-  - US美国( 米贝节点分享) (63)
-  - NL荷兰( 米贝节点分享) (12)
-  - US美国( 米贝节点分享) (8)
-  - ❓未知(23)
-  - ❓未知(11)
-  - 🇱🇻LV拉脱维亚
-  - 🇮🇹IT意大利(2)
-  - ❓未知(10)
-  - US美国( 米贝节点分享)
   - US美国( 米贝节点分享) (7)
-  - NL荷兰( 米贝节点分享) (10)
+  - 🇮🇹IT意大利(2)
+  - 🇮🇹IT意大利(5)
+  - ❓未知(11)
   - 意大利( 米贝节点分享) (4)
-  - US美国( 米贝节点分享) (36)
-  - 🇮🇹IT意大利(3)
-  - US美国( 米贝节点分享) (39)
+  - US美国( 米贝节点分享) (63)
+  - US美国( 米贝节点分享)
+  - US美国( 米贝节点分享) (8)
+  - US美国( 米贝节点分享) (6)
+  - US美国( 米贝节点分享) (3)
+  - ❓未知(23)
+  - 🇱🇻LV拉脱维亚
+  - 🇮🇹IT意大利(4)
+  - US美国( 米贝节点分享) (2)
+  - ❓未知(10)
   - ❓未知(12)
+  - 意大利( 米贝节点分享)
+  - 🇮🇹IT意大利
+  - 🇮🇹IT意大利(3)
   - US美国( 米贝节点分享) (4)
-  - 🇵🇱PL波兰(8)
+  - 🇺🇸US美国
+  - NL荷兰( 米贝节点分享) (10)
+  - 西班牙( 米贝节点分享)
+  - NL荷兰( 米贝节点分享) (12)
+  - US美国( 米贝节点分享) (5)
+  - ❓未知(9)
+  - US美国( 米贝节点分享) (36)
+  - US美国( 米贝节点分享) (35)
+  - US美国( 米贝节点分享) (32)
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -449,32 +482,34 @@ proxy-groups:
   lazy: false
   proxies:
   - 🇩🇪DE德国(13)
-  - 🇮🇹IT意大利(5)
-  - US美国( 米贝节点分享) (3)
-  - US美国( 米贝节点分享) (6)
-  - ❓未知(9)
-  - 🇮🇹IT意大利
-  - 🇮🇹IT意大利(4)
-  - 意大利( 米贝节点分享)
-  - US美国( 米贝节点分享) (2)
-  - US美国( 米贝节点分享) (5)
-  - US美国( 米贝节点分享) (63)
-  - NL荷兰( 米贝节点分享) (12)
-  - US美国( 米贝节点分享) (8)
-  - ❓未知(23)
-  - ❓未知(11)
-  - 🇱🇻LV拉脱维亚
-  - 🇮🇹IT意大利(2)
-  - ❓未知(10)
-  - US美国( 米贝节点分享)
   - US美国( 米贝节点分享) (7)
-  - NL荷兰( 米贝节点分享) (10)
+  - 🇮🇹IT意大利(2)
+  - 🇮🇹IT意大利(5)
+  - ❓未知(11)
   - 意大利( 米贝节点分享) (4)
-  - US美国( 米贝节点分享) (36)
-  - 🇮🇹IT意大利(3)
-  - US美国( 米贝节点分享) (39)
+  - US美国( 米贝节点分享) (63)
+  - US美国( 米贝节点分享)
+  - US美国( 米贝节点分享) (8)
+  - US美国( 米贝节点分享) (6)
+  - US美国( 米贝节点分享) (3)
+  - ❓未知(23)
+  - 🇱🇻LV拉脱维亚
+  - 🇮🇹IT意大利(4)
+  - US美国( 米贝节点分享) (2)
+  - ❓未知(10)
   - ❓未知(12)
+  - 意大利( 米贝节点分享)
+  - 🇮🇹IT意大利
+  - 🇮🇹IT意大利(3)
   - US美国( 米贝节点分享) (4)
-  - 🇵🇱PL波兰(8)
+  - 🇺🇸US美国
+  - NL荷兰( 米贝节点分享) (10)
+  - 西班牙( 米贝节点分享)
+  - NL荷兰( 米贝节点分享) (12)
+  - US美国( 米贝节点分享) (5)
+  - ❓未知(9)
+  - US美国( 米贝节点分享) (36)
+  - US美国( 米贝节点分享) (35)
+  - US美国( 米贝节点分享) (32)
 rules:
 - MATCH,节点选择
