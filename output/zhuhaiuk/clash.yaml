@@ -4,102 +4,83 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- name: CZ
+  type: http
+  server: 193.35.104.196
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US
   type: http
-  server: 138.199.35.213
+  server: 138.199.35.212
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: GB
-  type: http
-  server: 206.189.118.214
-  port: 443
-  username: testuser1
-  password: "e4b72b531a2d10900519"
-  tls: true
-  sni: cebd76d6.acsnet.co
-- name: KR
-  type: http
-  server: 152.69.230.221
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: NL
-  type: http
-  server: 5.2.73.112
-  port: 443
   username: "null"
   password: "null"
   tls: true
-  sni: 5.2.73.112
+  sni: 138.199.35.212
   skip-cert-verify: true
-- name: "DE"
-  type: anytls
-  server: forwarded.frnhk.xyz
-  port: 2086
-  password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
-  udp: true
-  sni: de.gosthk.site
-  skip-cert-verify: true
-- name: US - 02
+- name: HK
   type: http
-  server: 45.145.73.240
+  server: 209.33.167.96
   port: 8443
   tls: true
+  sni: 209.33.167.96
   skip-cert-verify: true
-- name: LV
+- name: IE
   type: http
-  server: 185.219.159.15
-  port: 443
-  tls: true
-  sni: 185.219.159.15
-  skip-cert-verify: true
-- name: US - 03
-  type: http
-  server: 137.175.22.41
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: LV - 02
-  type: http
-  server: 185.219.159.16
+  server: 34.249.214.108
   port: 443
   username: "null"
   password: "null"
   tls: true
-  sni: 185.219.159.16
   skip-cert-verify: true
-- name: NL - 02
+- name: TH
+  type: socks5
+  server: 87.83.236.228
+  port: 62000
+  username: ks8783236c597
+  password: -D3s0GRfhYcd9Z4vaBy04ina
+- name: MX
+  type: socks5
+  server: 144.225.47.106
+  port: 42000
+  username: DJy1T0dt
+  password: sZnD8GTz
+- name: MX - 02
+  type: socks5
+  server: 144.225.47.161
+  port: 42000
+  username: Tek2x6av
+  password: DJy1T0dt
+- name: PH
+  type: socks5
+  server: 103.18.230.166
+  port: 42000
+  username: um3v8zkl
+  password: jpmqsctc
+- name: US - 02
   type: http
-  server: 185.140.209.235
+  server: 38.28.193.1
+  port: 443
+  tls: true
+  sni: 38.28.193.1
+  skip-cert-verify: true
+- name: FR
+  type: http
+  server: 82.66.235.221
+  port: 443
+  tls: true
+  sni: 82.66.235.221
+  skip-cert-verify: true
+- name: JP
+  type: http
+  server: fan.571589.xyz
   port: 443
   username: "null"
   password: "null"
   tls: true
-  sni: 185.140.209.235
-  skip-cert-verify: true
-- name: US - 04
-  type: http
-  server: 137.175.22.84
-  port: 443
-  tls: true
-  sni: 137.175.22.84
-  skip-cert-verify: true
-- name: US - 05
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  servername: v2n1.11676767.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /static/cart
-    headers:
-      Host: v2n1.11676767.xyz
-- name: DE - 02
+  sni: fan.571589.xyz
+- name: "DE"
   type: http
   server: 193.233.75.115
   port: 443
@@ -108,110 +89,85 @@ proxies:
   tls: true
   sni: 193.233.75.115
   skip-cert-verify: true
-- name: US - 06
+- name: IT
   type: http
-  server: 138.199.35.205
-  port: 9002
+  server: 93.42.177.250
+  port: 443
+  username: "null"
+  password: None
   tls: true
-  sni: 138.199.35.205
+  sni: 93.42.177.250
   skip-cert-verify: true
-- name: US - 07
+- name: TH - 02
+  type: socks5
+  server: 103.13.213.185
+  port: 42000
+  username: usercd7b
+  password: "7b2958"
+- name: JP - 02
   type: http
-  server: fan.596189.xyz
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
+- name: US - 03
+  type: http
+  server: fan.365747.xyz
   port: 443
   username: "null"
   password: "null"
   tls: true
-  sni: fan.596189.xyz
-- name: US - 08
+- name: US - 04
   type: http
-  server: fan.596189.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-  sni: fan.596189.xyz
-- name: IN
-  type: http
-  server: 139.59.87.113
-  port: 443
-  username: testuser1
-  password: "e4b72b531a2d10900519"
-  tls: true
-  sni: 8b3b5771.acsnet.co
-- name: "CA"
-  type: http
-  server: 142.44.210.129
+  server: 38.28.185.205
   port: 443
   tls: true
-  sni: 142.44.210.129
+  sni: 38.28.185.205
   skip-cert-verify: true
-- name: US - 09
+- name: DE - 02
   type: http
-  server: 107.151.238.27
+  server: fan.973511.xyz
   port: 443
-  username: testuser1
-  password: "e4b72b531a2d10900519"
   tls: true
-  sni: 6b97ee1b.acsnet.co
-- name: JP
+  sni: fan.973511.xyz
+- name: NL
   type: http
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  port: 443
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
+  server: 51.159.225.197
+  port: 19362
   tls: true
-- name: NL - 03
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  username: "null"
-  password: None
-  tls: true
-  sni: 51.159.225.196
-  skip-cert-verify: true
-- name: JP - 02
-  type: anytls
-  server: forwarded.frnhk.xyz
-  port: 2052
-  password: 6ddd5969-fe59-406a-bb23-a48530e5ae80
-  udp: true
-  sni: jp2.gosthk.site
   skip-cert-verify: true
 - name: DE - 03
   type: http
-  server: 158.173.154.2
-  port: 9002
-  tls: true
-  sni: 158.173.154.2
-  skip-cert-verify: true
-- name: US - 10
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  username: "null"
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - 11
-  type: http
-  server: 172.64.69.89
+  server: fan.973511.xyz
   port: 443
   username: "null"
   password: "null"
   tls: true
+  sni: fan.973511.xyz
   skip-cert-verify: true
-- name: HK
+- name: US - 05
   type: http
-  server: 119.28.24.235
-  port: 3128
+  server: 138.199.35.220
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: HK - 02
+- name: US - 06
+  type: http
+  server: 71.43.26.234
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: KR
+  type: http
+  server: 152.69.230.221
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: KR - 02
   type: socks5
-  server: 2.26.204.46
-  port: 31003
-  username: socks
-  password: pLBgZ2mOWDopvTI6CUWu5ZkI
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2OlQyY2xNMFFsTTBRNg==
 - name: SG
   type: socks5
   server: 66.80.2.252
@@ -219,11 +175,48 @@ proxies:
   username: usereb7d
   password: "c0a34a"
 - name: SG - 02
-  type: http
-  server: 154.26.139.24
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: "8888"
+  password: "8888"
+- name: ES
+  type: vless
+  server: 196.196.149.80
   port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
   tls: true
+  servername: 7aa271t.es1.h1clayd.click
   skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+- name: FI
+  type: vless
+  server: 157.180.98.124
+  port: 49659
+  uuid: 88a558b1-9645-42f3-89e5-341570d8486d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: bBVqro8tG6swTNoAkjwUzcu4Ew4N4VcyDHzADcGviCs
+    short-id: "81959fce"
+- name: IT - 02
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT - 03
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: RU - 01
   type: vless
   server: 201.24.116.192
@@ -314,35 +307,36 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - CZ
   - US
-  - GB
-  - KR
-  - NL
-  - "DE"
-  - US - 02
-  - LV
-  - US - 03
-  - LV - 02
-  - NL - 02
-  - US - 04
-  - US - 05
-  - DE - 02
-  - US - 06
-  - US - 07
-  - US - 08
-  - IN
-  - "CA"
-  - US - 09
-  - JP
-  - NL - 03
-  - JP - 02
-  - DE - 03
-  - US - 10
-  - US - 11
   - HK
-  - HK - 02
+  - IE
+  - TH
+  - MX
+  - MX - 02
+  - PH
+  - US - 02
+  - FR
+  - JP
+  - "DE"
+  - IT
+  - TH - 02
+  - JP - 02
+  - US - 03
+  - US - 04
+  - DE - 02
+  - NL
+  - DE - 03
+  - US - 05
+  - US - 06
+  - KR
+  - KR - 02
   - SG
   - SG - 02
+  - ES
+  - FI
+  - IT - 02
+  - IT - 03
   - RU - 01
   - RU - 03
   - RU - 02
