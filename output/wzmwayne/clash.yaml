@@ -5,6 +5,17 @@ log-level: info
 ipv6: false
 external-controller: 127.0.0.1:9090
 proxies:
+- name: 伊朗-001
+  type: vless
+  network: tcp
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  server: 194.60.228.97
+  servername: base.hosamobenl.co.uk
+  port: 443
+  tls: true
+  ws-opts:
+    path: /
+  client-fingerprint: chrome
 - name: 其他-001
   type: vless
   network: tcp
@@ -31,7 +42,23 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
-- name: 德国-001 |1.6MB/s
+- name: 德国-001
+  type: vless
+  network: ws
+  uuid: 313b84fa-b922-500f-9b65-acb67c040cc0
+  server: 185.197.193.137
+  servername: us2.v2less.site
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: us2.v2less.site
+    path: /vless
+  client-fingerprint: chrome
+- name: 德国-002 |1.6MB/s
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -45,20 +72,6 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: 德国-002 |594KB/s
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  protocol: udp
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  auth_str: dongtaiwang.com
 - name: 波兰-001
   type: vless
   network: grpc
@@ -199,12 +212,21 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-  type: http
-  server: 138.199.35.215
-  port: 9002
+- name: 美国-001
+  type: vmess
+  network: ws
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 192.74.236.148
+  port: 30004
   skip-cert-verify: true
   tls: true
+  udp: true
+  alterId: 64
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1733477783705
 - name: 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 38.28.193.188
@@ -217,7 +239,13 @@ proxies:
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+- name: 美国-004 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   type: http
   server: 138.199.35.198
   port: 9002
@@ -229,16 +257,16 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  skip-cert-verify: true
-  tls: true
-- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 5.255.118.82
   port: 443
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
+  type: http
+  server: 51.159.225.196
+  port: 23856
   skip-cert-verify: true
   tls: true
 - name: 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|GM-NL
@@ -42107,7 +42135,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 35982 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 35998 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -42133,16 +42161,17 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 35982 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 35998 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)
   type: select
   proxies:
+  - 伊朗-001
   - 其他-001
   - 巴西-001
-  - 德国-001 |1.6MB/s
-  - 德国-002 |594KB/s
+  - 德国-001
+  - 德国-002 |1.6MB/s
   - 波兰-001
   - 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   - 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
@@ -42165,13 +42194,14 @@ proxy-groups:
   - 罗马尼亚-018 |586KB/s
   - 罗马尼亚-019 |557KB/s
   - 罗马尼亚-020 |554KB/s
-  - 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  - 美国-001
   - 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-  - 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+  - 美国-004 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  - 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   - 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
-  - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
-  - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
   - 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|GM-NL
   - hysteria2-1827145136
   - hysteria2-1827145159
@@ -45877,10 +45907,11 @@ proxy-groups:
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
+  - 伊朗-001
   - 其他-001
   - 巴西-001
-  - 德国-001 |1.6MB/s
-  - 德国-002 |594KB/s
+  - 德国-001
+  - 德国-002 |1.6MB/s
   - 波兰-001
   - 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   - 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
@@ -45903,13 +45934,14 @@ proxy-groups:
   - 罗马尼亚-018 |586KB/s
   - 罗马尼亚-019 |557KB/s
   - 罗马尼亚-020 |554KB/s
-  - 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  - 美国-001
   - 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-  - 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+  - 美国-004 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  - 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   - 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
-  - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
-  - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
   - 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|GM-NL
   - hysteria2-1827145136
   - hysteria2-1827145159
@@ -49613,10 +49645,11 @@ proxy-groups:
 - name: 📦 anaer
   type: select
   proxies:
+  - 伊朗-001
   - 其他-001
   - 巴西-001
-  - 德国-001 |1.6MB/s
-  - 德国-002 |594KB/s
+  - 德国-001
+  - 德国-002 |1.6MB/s
   - 波兰-001
   - 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   - 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
@@ -49639,13 +49672,14 @@ proxy-groups:
   - 罗马尼亚-018 |586KB/s
   - 罗马尼亚-019 |557KB/s
   - 罗马尼亚-020 |554KB/s
-  - 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  - 美国-001
   - 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   - 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-  - 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+  - 美国-004 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+  - 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   - 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
-  - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
-  - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  - 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  - 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
   - 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|GM-NL
 - name: 📦 Au1rxx/free-vpn-subscriptions
   type: select
