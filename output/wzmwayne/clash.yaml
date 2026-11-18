@@ -36930,515 +36930,112 @@ proxies:
   servername: explorecareerpathsandunlockprofessionalsuccesstoday.com
   sni: explorecareerpathsandunlockprofessionalsuccesstoday.com
   skip-cert-verify: false
-- name: A🟢🇦🇷res[🤖💬🔮📺]_8261826b
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59019
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇧🇷res[🔍]_dbd9f715
-  password: 0mvrt5jb
-  port: 62000
-  server: 191.7.129.133
-  sub_tag: R002-260618
-  type: socks5
-  udp: true
-  username: uwrgfkwg
-  x-toolall-mihomo: true
-- name: A🟢🇧🇷res_936e7dd6
-  password: 0mvrt5jb
-  port: 62000
-  server: 191.7.129.133
-  type: socks5
-  username: uwrgfkwg
-- name: A🟢🇫🇷res[🤖💬🧩📺]_76a5a58b
-  password: None
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇬🇧res[🤖💬🧩📺]_13d215ab
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇮🇩res[💬]_5f6d4e46
-  password: 4j4q5adbni
-  port: 62000
-  server: 198.87.103.5
-  type: socks5
-  username: u_f7c7852
-- name: A🟢🇮🇩res[🤖💬🔮🎵]_85aa1e0b
-  password: RRWtX6XP
-  port: 62000
-  server: 203.84.138.59
-  type: socks5
-  username: 9tcjLp2W
-- name: A🟢🇰🇿res[🤖💬🔮🧩]_b5a90094
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59126
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
 - name: A🟢🇲🇽res_1aa34d5e
   password: 2j7CCZQb
   port: 62000
   server: 94.194.164.203
   type: socks5
   username: rVkkraqT
-- name: A🟢🇲🇽res_24835ec5
-  password: lcFa8dTH
-  port: 62000
-  server: 94.194.165.96
-  type: socks5
-  username: QyVdo5ks
-- name: A🟢🇵🇭res[🤖💬🔮🧩]_97fafe0f
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59005
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: A🟢🇵🇱res[🤖💬🔮🧩]_3814084d
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 80.47.10.106
-  servername: pl8.galioncc.com
-  skip-cert-verify: false
-  sni: pl8.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: A🟢🇸🇦res[🤖💬🔮🧩]_e6d3af00
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59044
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇹🇭res[🎵🎮🔍]_da6cca38
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.86
-  type: socks5
-  username: AJ3d9gJw
-- name: A🟢🇹🇭res[💬🎵✈️🔍]_72bd5c3a
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.192
-  type: socks5
-  username: X3s3JteD
-- name: A🟢🇹🇭res[📺]_a8d802b0
-  password: Ks4Iab43
-  port: 42000
-  server: 82.47.152.44
-  type: socks5
-  username: userLjVB
-- name: A🟢🇹🇭res[🔍]_a8a9e262
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: 42000
-  server: 103.14.164.30
-  type: socks5
-  username: route164JIa2CBPxfy
-- name: A🟢🇹🇭res_021435aa
-  password: YlRoWvE0dL_cUqS94wPeKnA4
-  port: 62000
-  server: 87.84.49.245
-  type: socks5
-  username: ks878449260d
-- name: A🟢🇹🇭res_18746d5d
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.42
-  type: socks5
-  username: r3ZzP8WW
-- name: A🟢🇹🇭res_3740a210
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.194
-  type: socks5
-  username: r3ZzP8WW
-- name: A🟢🇹🇭res_5d41bcce
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.135
-  type: socks5
-  username: X3s3JteD
-- name: A🟢🇹🇭res_63f8b36e
-  password: Ks4Iab43
-  port: 42000
-  server: 82.47.152.151
-  type: socks5
-  username: userLjVB
-- name: A🟢🇹🇭res_affc047b
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.119
-  type: socks5
-  username: JPjarpW3
-- name: A🟢🇹🇭res_bf81894b
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.158
-  type: socks5
-  username: AJ3d9gJw
-- name: A🟢🇺🇸res[🤖💬🔮🧩]_f9ee2780
-  port: 8090
-  server: 98.101.229.212
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇻🇳res_11eacb89
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.190
-  type: socks5
-  username: qT46DZLv
-- name: A🟢🇻🇳res_8b68a714
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.236
-  type: socks5
-  username: qT46DZLv
-- name: A🟢🇿🇦res[🤖💬🔮🧩]_05c3a70c
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59045
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇦🇱hos[🤖💬🔮🎮]_fbb5c550
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇦🇱hos[🤖💬🔮🎵]_7658b466
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  skip-cert-verify: true
-  sni: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: C🟠🇦🇱hos[🤖💬🔮🎵]_8a208f4c
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇦🇱hos[🤖💬🔮🎵]_e0876948
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: C🟠🇧🇷hos[🤖💬🎵🎮]_a7fea21d
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59214
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇨🇦hos[🤖💬🧩🎵]_00bc9137
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59025
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇨🇦hos_8a105a38
-  port: 9443
-  server: 198.44.142.27
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /3x
-  name: C🟠🇨🇭hos[🤖💬🔮🧩]_c1500362
-  network: http
-  port: 42831
-  server: 179.43.140.24
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇩🇪hos[🤖💬🔮🧩]_e6782845
-  password: itzvpn@321
-  port: 8388
-  server: 145.79.177.201
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[💬🔮🎮✈️]_f8fb5ad9
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  sni: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮✈️]_562212cb
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎮]_f3aeb7e7
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  sni: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_24ee5ddf
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_38171dc1
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_3a319faa
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_7abde24d
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_7d4f8218
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.148.90
-  servername: 7aa271t.es9.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_9f945074
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_c851b7e4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮📺]_b8ae846e
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖🔮🎵🎮]_44d86972
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  sni: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: C🟠🇬🇧hos[🤖💬🔮🧩]_7c18af79
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇬🇷hos[📺🎵]_8d8bfa9f
+- name: A🟢🇸🇬res[💬]_903162eb
   password: ''
-  port: 443
-  server: 149.22.85.65
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
+- name: A🟢🇹🇭res[🎮]_a8a9e262
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.30
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: A🟢🇹🇭res[🎮✈️]_bf81894b
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.158
+  type: socks5
+  username: AJ3d9gJw
+- name: A🟢🇹🇭res[🔮🎮🐙🔍]_c58cd50f
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.202
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: A🟢🇹🇭res[🤖🔮🎮🐙]_8be67b1a
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.140
+  type: socks5
+  username: ks878449260d
+- name: A🟢🇹🇭res_021435aa
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.245
+  type: socks5
+  username: ks878449260d
+- name: A🟢🇹🇭res_441fecdf
+  password: fAgE2jqK
+  port: 42000
+  server: 151.246.108.69
+  type: socks5
+  username: h87527jJ
+- name: A🟢🇻🇳res_11eacb89
+  password: jHsK2gqs
+  port: 62000
+  server: 103.184.113.190
+  type: socks5
+  username: qT46DZLv
+- name: C🟠🇦🇱hos[🤖💬🔮🎵]_5c5a81ec
+  password: None
+  port: 443
+  server: 87.120.103.242
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  name: C🟠🇦🇱hos_e0876948
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: "361d0dd59c70516f"
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
+  tls: true
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  x-toolall-mihomo: true
+- name: C🟠🇩🇪hos[🤖💬🧩📺]_fc3b3a41
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: C🟠🇫🇮hos[🤖💬🎵🎮]_49c7000a
+  network: ws
+  port: 2083
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
+  tls: true
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    headers:
+      Host: vipfree.dr-ping.ir
+    path: /
+  x-toolall-mihomo: true
+- name: C🟠🇬🇷hos[🤖💬🎵]_4cc1e630
   password: ''
   port: 443
   server: 149.22.85.78
@@ -37448,23 +37045,26 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: C🟠🇮🇳hos[🤖💬🧩🎵]_54aa8a9f
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59009
-  server: control-shared.78778m.cn
+- name: C🟠🇬🇷hos[🤖📺🎵]_8d8bfa9f
+  password: ''
+  port: 443
+  server: 149.22.85.65
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: C🟠🇮🇹hos[📺]_c9cdfff6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_04808d3a
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_07162a4c
+  name: C🟠🇮🇹hos[🤖💬🔮🎮]_07162a4c
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -37472,13 +37072,7 @@ proxies:
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_25decbaa
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_30207bf9
+  name: C🟠🇮🇹hos[🤖💬🔮🎮]_30207bf9
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -37486,142 +37080,82 @@ proxies:
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_641a38ed
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_7441ad35
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_79faec8a
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_885d389b
+  name: C🟠🇮🇹hos[🤖💬🔮🎵]_04808d3a
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
-  udp: true
-  x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_92c172b4
+  name: C🟠🇮🇹hos[🤖💬🔮📺]_57445a13
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.45
-  type: ss
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_c9cdfff6
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
+  server: 202.50.253.18
+  sub_tag: B007-260618
   type: ss
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_e4fa7507
+  name: C🟠🇮🇹hos[🤖🔮🎵🎮]_e4fa7507
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
   udp: true
   x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_ed9e5a0d
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
+- name: C🟠🇯🇵hos[🤖💬✈️🔍]_e7a3bbb0
+  port: 18454
+  server: 168.110.21.56
+  type: vless
+  uuid: ff8fc3f9-0c1b-4a6f-97cb-ed1cde4de62d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: C🟠🇯🇵hos[🤖💬🧩📺]_049fa9f2
+  network: tcp
+  port: 43149
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: "15aa0ad4"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
-- name: C🟠🇯🇵hos[🤖💬🧩🎭]_55f04018
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 54226
-  server: control-jp02.78778m.cn
-  skip-cert-verify: true
-  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: C🟠🇯🇵hos[🤖💬🧩📺]_6e4dfdc6
+  port: 43149
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: "15aa0ad4"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
-- name: C🟠🇲🇽hos[📺]_8d9836d8
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.158
-  type: socks5
-  username: DJy1T0dt
-- name: C🟠🇲🇽hos_445b01af
-  password: DJy1T0dt
-  port: 42000
-  server: 144.225.47.8
-  type: socks5
-  username: Tek2x6av
-- name: C🟠🇲🇽hos_aff11c5d
+- name: C🟠🇲🇽hos[🔍]_aff11c5d
   password: sZnD8GTz
   port: 42000
   server: 144.225.47.68
   type: socks5
   username: DJy1T0dt
-- name: C🟠🇲🇽hos_d123f47b
+- name: C🟠🇲🇽hos_12126395
   password: sZnD8GTz
   port: 42000
-  server: 144.225.47.68
-  sub_tag: R002-260618
+  server: 144.225.47.106
   type: socks5
-  udp: true
   username: DJy1T0dt
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: C🟠🇳🇱hos[🤖💬🔮🎮]_a73acf88
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 136.148.208.221
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
-  name: C🟠🇳🇱hos[🤖💬🔮🧩]_0aff9cf2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-  server: 196.196.148.63
-  servername: 717252g.nl8.h1clayd.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇳🇱hos[🤖💬🔮🧩]_20e3bf5a
+  name: C🟠🇳🇱hos[💬]_56da3c2d
   network: tcp
   port: 443
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: "8d0d0679f42ffd98"
-  server: 136.234.9.11
+  server: 196.196.148.76
   servername: 8a2e72t.nl20.h1clayd.shop
   tls: true
   type: vless
@@ -37629,43 +37163,13 @@ proxies:
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: C🟠🇳🇱hos[🤖💬🔮🧩]_56da3c2d
+  name: C🟠🇳🇱hos[💬🎮]_dcf6a7a8
   network: tcp
   port: 443
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: "8d0d0679f42ffd98"
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇳🇱hos[🤖💬🔮🧩]_9eaca6a6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇳🇱hos[🤖💬🔮🧩]_d02c5ccc
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 196.196.148.76
+  server: 136.148.208.221
   servername: 8a2e72t.nl20.h1clayd.shop
   tls: true
   type: vless
@@ -37681,83 +37185,67 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: C🟠🇷🇴hos[🤖💬🔮🧩]_9ba1e05c
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 50136
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇷🇺hos[🔮🐙🔍📚]_f0ef6c34
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59032
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
 - client-fingerprint: firefox
-  name: C🟠🇸🇪hos[🤖💬🔮🧩]_4b500dbb
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.214.159
-  servername: api-svc-mgr.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- client-fingerprint: ios
-  name: C🟠🇸🇪hos[🤖💬🔮🧩]_53c913e6
+  flow: xtls-rprx-vision
+  name: C🟠🇳🇱hos_a73acf88
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
   tls: true
   type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇸🇪hos[🤖💬🔮🧩]_aa5218c2
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: C🟠🇷🇺hos[🔮🎮✈️🔍]_6aa562cc
+  network: grpc
+  packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  x-toolall-mihomo: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: C🟠🇷🇺hos[🔮🎮✈️🔍]_79432583
+  network: grpc
+  port: 443
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   x-toolall-mihomo: true
 - client-fingerprint: firefox
-  name: C🟠🇸🇪hos[🤖💬🔮🧩]_bfe9f443
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: C🟠🇷🇺hos[🔮🎮🔍]_84ca1557
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  skip-cert-verify: true
-  sni: ns-api-gw.galioncc.com
+  server: 201.24.116.192
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: C🟠🇸🇬hos[🤖💬🔮🎮]_1d21d16a
-  network: tcp
-  packet-encoding: xudp
+  name: C🟠🇸🇬hos[🤖🎮🔍]_3e981ae0
   port: 46957
   reality-opts:
     public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
@@ -37766,108 +37254,13 @@ proxies:
   servername: psstatic.cdn.bcebos.com
   tls: true
   type: vless
+  udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇸🇬hos[🤖💬🔮🧩]_899fc334
-  network: tcp
-  port: 30322
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: "6a60e7e382d6"
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  x-toolall-mihomo: true
-- name: C🟠🇸🇬hos[🤖💬🧩🎭]_b3396cd6
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 54258
-  server: ptxlv6-02.78778m.cn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇹🇭hos_5acf8d13
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.82
-  type: socks5
-  username: rnt2L4XO
-- name: C🟠🇺🇸hos[🎮🐙]_e26c34b2
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  type: hysteria2
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇺🇸hos[🤖💬🔮🎮]_3c052db8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇺🇸hos[🤖💬🔮🎮]_8363c287
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-  port: 18443
-  server: 48.103.218.241
-  type: ss
-- client-fingerprint: firefox
-  name: C🟠🇺🇸hos[🤖💬🔮🎮]_e77fc2ab
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  skip-cert-verify: true
-  sni: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇺🇸hos[🤖💬🔮🎵]_3447c6df
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇺🇸hos[🤖💬🔮🎵]_8d1d0ca5
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
 - client-fingerprint: edge
   grpc-opts:
     grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_379449c0
+  name: C🟠🇺🇸hos[🔮📺🎵🎮]_379449c0
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -37880,73 +37273,21 @@ proxies:
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_7e88745b
-  network: grpc
+- name: C🟠🇺🇸hos[🤖💬🎮✈️]_3803d1d0
+  password: https://xship.best
   port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 89.124.122.19
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: C🟠🇺🇸hos[🤖💬🧩🎭]_0510e64e
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 56115
-  server: control-us01.78778m.cn
+  server: starlink-ft.251313.xyz
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
+  sni: xship.top
+  type: hysteria2
   x-toolall-mihomo: true
-- name: C🟠🇺🇸hos_67802e55
-  password: tta09q3b
-  port: 62000
-  server: 23.230.200.136
-  type: socks5
-  username: uqywawrz
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: D🔴🇦🇺hos[🤖💬🔮🎵]_903be00b
-  network: tcp
-  packet-encoding: xudp
+- name: D🔴🇦🇹hos[🤖💬🔮🧩]_8408eb8a
   port: 443
-  reality-opts:
-    public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
-    short-id: "0ad08b47f498efd2"
-  server: 51.161.204.244
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 36e89875-9c53-482b-bc41-d3890e9da176
-  x-toolall-mihomo: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: D🔴🇦🇺hos[🤖💬🔮🧩]_0371e9d8
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: "54cca3c1c1c7"
-  server: zfapi.zalolink.com
-  servername: www.apple.com
+  server: 146.70.244.2
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  x-toolall-mihomo: true
-- name: D🔴🇨🇿hos[🤖💬🔮🧩]_038587d2
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59047
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
+  type: http
   udp: true
   x-toolall-mihomo: true
 - name: D🔴🇨🇿hos[🤖💬🔮🧩]_654d560d
@@ -37959,162 +37300,57 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: glush.de3.v1
+  name: D🔴🇩🇪hos[🤖🔮🎮✈️]_4186974d
+  network: grpc
+  port: 443
+  server: luminexorizon.ink
+  servername: luminexorizon.ink
+  tls: true
+  type: vless
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+  x-toolall-mihomo: true
+- name: D🔴🇫🇷hos[📺]_238d1eea
+  password: Zn5mR7vA
+  port: 42000
+  server: 144.56.22.78
+  type: socks5
+  username: L8wP3kQx
+- name: D🔴🇫🇷hos[🤖💬🎮✈️]_9ccf3749
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: D🔴🇩🇪hos[🤖💬🔮📺]_d8b0cf80
-  network: ws
-  port: 443
-  server: 46.8.64.51
-  servername: clover.filnex.baby
-  tls: true
-  type: vless
-  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
-  ws-opts:
-    headers:
-      Host: clover.filnex.baby
-    path: /api/de6/stream
-  x-toolall-mihomo: true
-- name: D🔴🇩🇪hos[🤖💬🔮🧩]_92e8593b
-  port: 443
-  server: 213.109.163.119
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: D🔴🇫🇷hos[🤖💬🔮🎮]_a19a479b
+  port: 24667
+  protocol: udp
+  server: 62.210.124.132
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  type: hysteria
+  up: "11"
   x-toolall-mihomo: true
-- name: D🔴🇩🇪hos[🤖💬🔮🧩]_abbba1fa
-  port: 443
-  server: 193.233.75.115
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "50"
+  name: D🔴🇫🇷hos[🤖💬🔮🎵]_67a56137
+  port: 24667
+  server: 62.210.70.191
   skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
+  type: hysteria
+  up: "10"
   x-toolall-mihomo: true
-- name: D🔴🇩🇪hos[🤖💬🧩🎵]_0ed63a74
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇩🇪hos[🤖💬🧩🎵]_f53c6917
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇩🇪hos[🤖💬🧩📺]_460e6705
-  password: "null"
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: D🔴🇩🇰hos[🤖💬🔮🧩]_1ed30155
-  port: 9443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇪🇨hos_b7f302f8
-  password: ''
-  port: 9443
-  server: 38.165.231.71
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇫🇷hos[📺🎭🎵]_9f8b9b65
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇫🇷hos[🤖💬🔮🎵]_d04a31b7
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  password: "null"
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: D🔴🇫🇷hos[🤖💬🔮🧩]_c3325e1b
-  password: None
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇫🇷hos[🤖💬🧩🎵]_62c630f3
-  password: None
-  port: 443
-  server: 84.235.228.156
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇭🇰hos[🧩🎵🎮✈️]_6624eea7
-  port: 443
-  server: 202.85.53.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: D🔴🇭🇰hos_a4a827b8
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.153.4
-  servername: rayan-007.maxima.dpdns.org
-  tls: true
-  type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  ws-opts:
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-    path: /
-  x-toolall-mihomo: true
-- name: D🔴🇮🇪hos[📺🎵]_e2bb935e
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
+- name: D🔴🇮🇪hos[🤖💬🎮✈️]_37e4a848
   port: 443
   server: 34.249.214.108
   skip-cert-verify: true
@@ -38122,81 +37358,8 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: D🔴🇮🇹hos[🎵]_1c28314a
-  password: JdFlrZhqHP
-  port: 1080
-  server: 69.16.157.244
-  type: socks5
-  username: ufCobhydz4Wd
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮📺]_ed4de7bb
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_04af617c
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_2e294afd
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_3bb0f43a
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_444fcb7f
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_48d202d9
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_544fdd46
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_8817c7e2
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_8c1c6b5a
+  name: D🔴🇮🇹hos[📺]_8c1c6b5a
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -38206,29 +37369,19 @@ proxies:
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_8ed40d75
+  name: D🔴🇮🇹hos[📺🎮🔍]_8ed40d75
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_a7740ab5
+  name: D🔴🇮🇹hos[🤖💬🔮✈️]_48d202d9
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.81
+  server: 202.50.253.63
   type: ss
-  udp: true
-  x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_ae9a4420
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_c23341c5
+  name: D🔴🇮🇹hos[🤖💬🔮🎞️]_c23341c5
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
@@ -38238,13 +37391,7 @@ proxies:
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_d027a441
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_e690e14e
+  name: D🔴🇮🇹hos[🤖💬🔮🎮]_e690e14e
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -38252,70 +37399,87 @@ proxies:
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_e7fda757
+  name: D🔴🇮🇹hos[🤖💬🔮🎵]_2e294afd
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.81
+  server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  delay: 679
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_f2a1583b
+  name: D🔴🇮🇹hos[🤖💬🔮🎵]_3bb0f43a
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.72
+  server: 202.50.253.63
   type: ss
   udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: D🔴🇮🇹hos[🤖💬🔮🔍]_544fdd46
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: D🔴🇮🇹hos[🤖🔮🎵🎮]_444fcb7f
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: D🔴🇮🇹hos[🤖🔮🧩🎵]_ed4de7bb
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
+  password: ''
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  udp: true
+  username: ''
   x-toolall-mihomo: true
 - name: D🔴🇯🇵hos[🤖💬🔮🧩]_9d3ee5ab
   port: 443
   server: fan.571589.xyz
   tls: true
   type: http
-- name: D🔴🇯🇵hos[🤖🔮🎵🎮]_4900a88a
+- name: D🔴🇯🇵hos_4900a88a
   password: EGJDy5Kg
   port: 42000
   server: 103.248.150.50
   type: socks5
   username: paZFN3JA
-- name: D🔴🇱🇹hos[🤖💬🔮🎵]_747fd292
-  port: 443
-  server: 89.124.11.9
+- name: D🔴🇰🇷hos[🔮🎵📚]_f7be86c8
+  password: ''
+  port: 1090
+  server: 121.169.46.116
   skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
+  type: socks5
+  username: ''
   x-toolall-mihomo: true
-- name: D🔴🇱🇻hos[🤖💬🔮🧩]_21c34602
+- name: D🔴🇳🇱hos[🤖💬🔮🎮]_1ee853a3
   password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇱🇻hos[🤖💬🔮🧩]_a0b4e075
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇲🇽hos_e24c2bfd
-  port: 999
-  server: 189.51.168.164
-  type: http
-- name: D🔴🇳🇱hos[🤖💬🔮📺]_f03b1640
   port: 9002
-  server: 84.17.47.124
+  server: 84.17.47.125
   skip-cert-verify: true
+  sni: 84.17.47.125
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
+  username: "null"
+- name: D🔴🇳🇱hos[🤖💬🔮🎵]_33ffe908
   password: "null"
   port: 9002
   server: 84.17.47.146
@@ -38323,81 +37487,7 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_387205ed
-  password: "null"
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  password: None
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
-  password: "null"
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  sni: 84.17.47.147
-  tls: true
-  type: http
-  username: "null"
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  password: None
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_7a217f0f
-  password: ''
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_86fd6822
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_e6da0f6d
-  password: "null"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_eaf068c9
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
+- name: D🔴🇳🇱hos[🤖💬🔮🎵]_f6303636
   password: None
   port: 9002
   server: 84.17.47.148
@@ -38406,60 +37496,28 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: D🔴🇳🇱hos[🤖💬🔮🧩]_fb4e77e4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "344f83372596eea2"
-  server: 92.255.58.59
-  servername: api-gw-cfg.galioncc.com
-  tls: true
-  type: vless
-  uuid: a30903dc-1bf0-0001-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: D🔴🇳🇴hos[🤖💬🔮🧩]_573c8c9f
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 50124
-  server: control-shared.78778m.cn
+- name: D🔴🇳🇱hos[🤖💬🔮📦]_47dbdd00
+  password: "null"
+  port: 9002
+  server: 84.17.47.147
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇵🇱hos[🤖💬🔮🧩]_78351b27
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
+  sni: 84.17.47.147
   tls: true
   type: http
-- name: D🔴🇷🇴hos[🤖💬🔮🧩]_202aca3d
+  username: "null"
+- name: D🔴🇳🇱hos[🤖💬🔮📦]_5a16ef58
   password: None
   port: 9002
-  server: 193.176.84.18
+  server: 84.17.47.123
   skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇷🇺hos[🔮🎵🎮✈️]_03de321c
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: D🔴🇷🇺hos[🔮🐙🔍📚]_991270c1
+- name: D🔴🇳🇱hos[🤖💬🔮📺]_c6134407
   password: "null"
-  port: 443
-  server: 178.219.43.226
+  port: 9002
+  server: 84.17.47.149
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
@@ -38467,9 +37525,22 @@ proxies:
   udp: true
   username: "null"
   x-toolall-mihomo: true
+- name: D🔴🇳🇱hos[🤖💬🔮🧩]_9986f45d
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  sni: 84.17.47.148
+  tls: true
+  type: http
+- name: D🔴🇵🇭hos_19b515e6
+  password: s6a1j38q
+  port: 42000
+  server: 103.18.230.88
+  type: socks5
+  username: uv4oakg5
 - alpn:
   - http/1.1
-  name: D🔴🇸🇪hos[🤖💬🔮🎵]_180c9335
+  name: D🔴🇸🇪hos[🤖💬🔮🧩]_180c9335
   network: ws
   port: 443
   server: subgift.gcorecdn.com
@@ -38481,88 +37552,113 @@ proxies:
     headers:
       host: subgift.gcorecdn.com
     path: /t.me-SubGift
-- name: D🔴🇸🇬hos[🤖💬🎵🎮]_185196af
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: D🔴🇸🇬hos[🎮✈️🐙🔍]_f56c
+  network: tcp
+  port: 51283
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: "fa514b83"
+  server: free.fugui.lol
+  servername: swdist.apple.com
   tls: true
-  type: http
-- name: D🔴🇸🇬hos_731ac5ff
-  password: "8888"
-  port: 1080
-  server: 47.236.168.243
-  type: socks5
-  username: "8888"
-- name: D🔴🇸🇬hos_c8c444fd
+  type: vless
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  x-toolall-mihomo: true
+- name: D🔴🇸🇬hos[🔮🎵]_c8c444fd
   password: "c0a34a"
   port: 62000
   server: 66.80.2.252
   type: socks5
   username: usereb7d
-- name: D🔴🇹🇭hos[🤖💬🔮🧩]_8da68037
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59224
-  server: control-shared.78778m.cn
+- name: D🔴🇸🇬hos[🤖💬🔮🎵]_185196af
+  port: 443
+  server: 154.26.139.24
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🎮]_343ae4aa
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- name: D🔴🇺🇸hos[🐙]_4e17894f
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🎮🐙]_4e17894f
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   type: http
   username: fQ67Dpe5dU
-- name: D🔴🇺🇸hos[📺]_568f056a
+- name: D🔴🇺🇸hos[🤖🎮✈️📚]_34c3c6dd
   port: 443
-  server: 149.34.248.65
+  server: 137.175.77.35
   skip-cert-verify: true
-  sni: 149.34.248.65
+  sni: 137.175.77.35
   tls: true
   type: http
-- name: D🔴🇺🇸hos[📺]_6de72c54
+- name: D🔴🇺🇸hos[🤖🎵✈️🐙]_016d9dc7
   password: ''
-  port: 9443
-  server: 104.244.210.50
+  port: 443
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🎮🔍]_fccd5dab
-  port: 7615
-  server: 47.90.206.169
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🤖💬🔮🎵]_853162e1
+- name: D🔴🇺🇸hos[🤖💬🎵]_568f056a
   port: 443
-  server: 38.247.141.135
+  server: 149.34.248.65
   skip-cert-verify: true
+  sni: 149.34.248.65
   tls: true
   type: http
-  udp: true
+- cipher: chacha20-ietf
+  name: D🔴🇺🇸hos[🤖💬🎵🎞️]_6d6b41c5
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: ssr2.762988.xyz
+  type: ssr
   x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_05011d06
+- name: D🔴🇺🇸hos[🤖💬🔮🎮]_f4f770d1
   port: 443
-  server: 172.64.68.89
+  server: 38.28.185.166
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_1188f394
+- name: D🔴🇺🇸hos[🤖💬🔮🎵]_d37c7415
+  password: "null"
   port: 443
-  server: fan.226278.xyz
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  sni: fan.365747.xyz
   tls: true
   type: http
+  username: "null"
+- name: D🔴🇺🇸hos[🤖💬🔮🎵]_ffebf486
+  password: "null"
+  port: 443
+  server: fan.365747.xyz
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+  username: "null"
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: D🔴🇺🇸hos[🤖💬🔮🧩]_0cb09444
+  network: ws
+  port: 30004
+  server: 192.74.236.148
+  servername: www.91334565.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.91334565.xyz
+    path: /path/1733477783705
+  x-toolall-mihomo: true
 - alterId: 64
   cipher: auto
   name: D🔴🇺🇸hos[🤖💬🔮🧩]_13889823
@@ -38579,20 +37675,7 @@ proxies:
       Host: www.91334565.xyz
     path: /path/1733477783705
   x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: D🔴🇺🇸hos[🤖💬🔮🧩]_373eb482
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "868419504747f6de"
-  server: 84.32.54.237
-  servername: rly-gw-cfg.galioncc.com
-  tls: true
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
+- name: D🔴🇺🇸hos[🤖🔮📺]_4cc7e454
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -38602,254 +37685,95 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_582c323a
-  port: 443
-  server: 38.28.185.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: chacha20-ietf
-  name: D🔴🇺🇸hos[🤖💬🔮🧩]_6d6b41c5
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: ssr2.762988.xyz
-  type: ssr
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_8df65cc3
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_d37c7415
-  password: "null"
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-  username: "null"
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_ffebf486
-  password: "null"
-  port: 443
-  server: fan.365747.xyz
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-  username: "null"
-- name: D🔴🇺🇸hos[🤖💬🧩🎵]_8302b676
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos_034ba6dd
-  password: 75bPoRcB
-  port: 62000
-  server: 216.132.114.27
+- name: D🔴🇺🇸hos_342cda1e
+  port: 44499
+  server: 45.61.188.134
   type: socks5
-  username: JzufiJ62
+- name: D🔴🇺🇸hos_3dc5b537
+  password: 7i1dheg6
+  port: 62000
+  server: 216.132.114.194
+  type: socks5
+  username: utdr8wvs
+- name: D🔴🇺🇸hos_60b20da2
+  password: r1703057as
+  port: 62000
+  server: 216.132.114.182
+  type: socks5
+  username: u_rf6ba87
 - name: D🔴🇺🇸hos_a6052a43
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- name: D🔴🇻🇳hos[🤖💬🔮📺]_c355101a
-  password: ''
-  port: 8443
-  server: 14.225.71.128
-  skip-cert-verify: true
-  sub_tag: K001-260618
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: U⚪🏳️ukn[🎮✈️🔍📚]_899fc334
+  network: tcp
+  port: 30322
+  reality-opts:
+    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
+    short-id: "6a60e7e382d6"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
   tls: true
-  type: http
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: U⚪🏳️ukn[💬🎮📚]_92c172b4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: U⚪🏳️ukn[🤖💬🔮🎵]_a07afe5c
+  port: 54528
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: "54cca3c1c1c7"
+  server: zfapi.zalolink.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  username: ''
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: U⚪🇯🇵ukn[🤖💬🧩📺]_9d5e5d0d
+  name: U⚪🏳️ukn[🤖💬🧩🎮]_78065240
   port: 43149
   reality-opts:
     public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
     short-id: "15aa0ad4"
   server: zfapi.zalolink.com
   servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
-- name: U⚪🇳🇱ukn[🤖💬🔮🧩]_1b492461
-  password: freeuser1
-  port: 9251
-  server: nl205.freeconnect.link
-  sni: nl205.freeconnect.link
+- name: U⚪🏳️ukn[🤖🔮🎵]_1188f394
+  port: 443
+  server: fan.226278.xyz
   tls: true
   type: http
-  username: freeuser1
-- client-fingerprint: ios
-  name: U⚪🇸🇪ukn[🤖💬🔮🧩]_e84afe32
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  skip-cert-verify: true
-  sni: ns-api-gw.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_2ffaa05b
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_5deb6c23
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_73523249
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_96102a68
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 163.245.42.87
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_ad6105c9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_cb10e9d7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: U⚪🏳️ukn[🤖💬🔮🎮]_3e91976f
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: U⚪🏳️ukn[🤖💬🔮🎵]_2e8886fe
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: U⚪🏳️ukn[🤖💬🔮🎵]_41ddb3a7
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  skip-cert-verify: true
-  sni: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: U⚪🏳️ukn[🤖💬🔮🧩]_656b80b8
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59146
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: U⚪🏳️ukn[🤖🔮🎵✈️]_7441ad35
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: U⚪🏳️ukn_275e588f
+  name: U⚪🏳️ukn_18866abf
   network: ws
   port: 443
-  server: 188.114.99.137
+  server: www.shopify.com
   servername: guanwang.awsno.com
   tls: true
   type: vmess
@@ -38859,179 +37783,40 @@ proxies:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
   x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: U⚪🏳️ukn_31571c1e
+- client-fingerprint: chrome
+  name: U⚪🏳️ukn_5bde06c7
   network: ws
-  port: 443
-  server: 172.67.190.164
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
+  port: 2053
+  server: 172.67.199.126
+  servername: fast.145779.xyz
   tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  type: vless
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
   ws-opts:
     headers:
-      HOST: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
+      Host: fast.145779.xyz
+    path: /ws-tesla
   x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: U⚪🏳️ukn_334192ec
-  network: ws
-  port: 443
-  server: 172.64.145.93
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: U⚪🏳️ukn_49e1aa4a
-  network: ws
-  port: 443
-  server: 104.18.42.163
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- name: U⚪🏳️ukn_83529b9e
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: U⚪🏳️ukn_99fcd799
-  password: None
-  port: 443
-  server: 213.207.130.34
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: U⚪🏳️ukn_ba3b7ea2
-  network: ws
-  port: 443
-  server: 172.67.190.164
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: U⚪🏳️ukn_cebe1823
-  network: ws
-  port: 443
-  server: 172.67.190.164
-  servername: guanwang.awsno.com
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: U⚪🏳️ukn_d89346f5
-  network: ws
-  port: 443
-  server: 172.64.145.93
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      HOST: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: U⚪🏳️ukn_efb39810
-  network: ws
-  port: 443
-  server: 172.67.190.164
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- name: U⚪🏳️ukn_f7be86c8
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: U⚪🏳️ukn_fa0120b9
-  network: ws
-  port: 443
-  server: 104.18.42.163
-  servername: guanwang.awsno.com
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers: {}
   name: 8元老牌专线机场
+- type: vless
+  server: 104.171.135.229
+  port: 443
+  udp: true
+  uuid: Fluffy_VPN-Oth8rOq3
+  tls: true
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: 俄罗斯_3360A4
 - type: vless
   server: 2.26.251.236
   port: 443
@@ -39039,48 +37824,49 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   tls: true
   servername: mental-deprivation.ru
+  client-fingerprint: firefox
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
   flow: xtls-rprx-vision
-  name: 德国_935579
-- type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_216AA7
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_6C3EB9
+  name: 德国_199E01
 - type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_74B6E2
-- type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_8FE89B
+  name: 意大利_062254
 - type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_E7C165
+  name: 意大利_730B33
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_902F2D
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_BFF5B3
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_C669F1
 - type: vless
-  server: win2loxfde0202.gggrelay.org
+  server: zfapi.zalolink.com
   port: 30322
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -39091,14 +37877,20 @@ proxies:
     public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
     short-id: "6a60e7e382d6"
   flow: xtls-rprx-vision
-  name: 新加坡_8E92A2
-- type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
+  name: 新加坡_CE8672
+- type: vless
+  server: zfapi.zalolink.com
+  port: 43149
   udp: true
-  name: 日本_433B1A
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  servername: psstatic.cdn.bcebos.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: "15aa0ad4"
+  flow: xtls-rprx-vision
+  name: 日本_22EEB4
 - type: vless
   server: zfapi.zalolink.com
   port: 46957
@@ -39111,18 +37903,7 @@ proxies:
     public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
     short-id: "8f6683a234d3"
   flow: xtls-rprx-vision
-  name: 日本_A5ABB3
-- type: vless
-  server: fr.abbaas.net
-  port: 443
-  udp: true
-  uuid: 6962c372-27da-56d6-9d1f-8041abb7538e
-  tls: true
-  servername: w-x.co
-  reality-opts:
-    public-key: wBh3jtk45kBonp2-uVqsx71F4ziNH7vZcU6DAC6t2xs
-    short-id: "1296174a86a6ac8c"
-  name: 法国_41C522
+  name: 日本_34DEDF
 - type: vless
   server: 80.47.10.106
   port: 443
@@ -39134,20 +37915,20 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: "a7c92e4b10d6f835"
-  name: 波兰_37F784
+  name: 波兰_6B859F
 - type: vless
-  server: zfapi.zalolink.com
-  port: 54528
+  server: 136.148.208.221
+  port: 443
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   tls: true
-  servername: www.apple.com
-  client-fingerprint: ios
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: chrome
   reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: "54cca3c1c1c7"
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
   flow: xtls-rprx-vision
-  name: 澳大利亚_402249
+  name: 瑞典_46CF5E
 - type: vless
   server: 88.216.60.73
   port: 443
@@ -39159,32 +37940,7 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: "a7c92e4b10d6f835"
-  name: 瑞典_5D269D
-- type: vless
-  server: 88.216.214.159
-  port: 443
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  servername: api-svc-mgr.galioncc.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  name: 瑞典_BBB754
-- type: vless
-  server: zfapi.zalolink.com
-  port: 47691
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  tls: true
-  servername: m.media-amazon.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: "2905326a"
-  flow: xtls-rprx-vision
-  name: 美国_2C506D
+  name: 瑞典_9751F1
 - type: vless
   server: 162.35.101.177
   port: 443
@@ -39199,20 +37955,44 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: "99f2107b03f8"
-  name: 美国_64ED40
+  name: 美国_A907E7
 - type: vless
-  server: 196.196.148.76
+  server: 84.32.54.237
   port: 443
   udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
   tls: true
-  servername: 8a2e72t.nl20.h1clayd.shop
+  servername: rly-gw-cfg.galioncc.com
   client-fingerprint: firefox
   reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: "868419504747f6de"
+  name: 美国_BF8668
+- type: vless
+  server: zfapi.zalolink.com
+  port: 47691
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  servername: m.media-amazon.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: "2905326a"
   flow: xtls-rprx-vision
-  name: 荷兰_1D9F81
+  name: 美国_F7FC9A
+- type: vless
+  server: 196.196.148.85
+  port: 443
+  udp: true
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: "361d0dd59c70516f"
+  name: 荷兰_88888E
 - type: vless
   server: 196.199.122.2
   port: 443
@@ -39225,7 +38005,7 @@ proxies:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
   flow: xtls-rprx-vision
-  name: 西班牙_8537A1
+  name: 西班牙_5493D8
 - name: AT_speednode_0001
   server: au2.pad-sservice.lat
   port: 8443
@@ -40472,7 +39252,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 33230 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 30416 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -40498,7 +39278,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 33230 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 30416 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)
@@ -43780,234 +42560,118 @@ proxy-groups:
   - 🇺🇸_美国 (98)
   - 🇺🇸_美国 (99)
   - 🇿🇦_南非
-  - A🟢🇦🇷res[🤖💬🔮📺]_8261826b
-  - A🟢🇧🇷res[🔍]_dbd9f715
-  - A🟢🇧🇷res_936e7dd6
-  - A🟢🇫🇷res[🤖💬🧩📺]_76a5a58b
-  - A🟢🇬🇧res[🤖💬🧩📺]_13d215ab
-  - A🟢🇮🇩res[💬]_5f6d4e46
-  - A🟢🇮🇩res[🤖💬🔮🎵]_85aa1e0b
-  - A🟢🇰🇿res[🤖💬🔮🧩]_b5a90094
   - A🟢🇲🇽res_1aa34d5e
-  - A🟢🇲🇽res_24835ec5
-  - A🟢🇵🇭res[🤖💬🔮🧩]_97fafe0f
-  - A🟢🇵🇱res[🤖💬🔮🧩]_3814084d
-  - A🟢🇸🇦res[🤖💬🔮🧩]_e6d3af00
-  - A🟢🇹🇭res[🎵🎮🔍]_da6cca38
-  - A🟢🇹🇭res[💬🎵✈️🔍]_72bd5c3a
-  - A🟢🇹🇭res[📺]_a8d802b0
-  - A🟢🇹🇭res[🔍]_a8a9e262
+  - A🟢🇸🇬res[💬]_903162eb
+  - A🟢🇹🇭res[🎮]_a8a9e262
+  - A🟢🇹🇭res[🎮✈️]_bf81894b
+  - A🟢🇹🇭res[🔮🎮🐙🔍]_c58cd50f
+  - A🟢🇹🇭res[🤖🔮🎮🐙]_8be67b1a
   - A🟢🇹🇭res_021435aa
-  - A🟢🇹🇭res_18746d5d
-  - A🟢🇹🇭res_3740a210
-  - A🟢🇹🇭res_5d41bcce
-  - A🟢🇹🇭res_63f8b36e
-  - A🟢🇹🇭res_affc047b
-  - A🟢🇹🇭res_bf81894b
-  - A🟢🇺🇸res[🤖💬🔮🧩]_f9ee2780
+  - A🟢🇹🇭res_441fecdf
   - A🟢🇻🇳res_11eacb89
-  - A🟢🇻🇳res_8b68a714
-  - A🟢🇿🇦res[🤖💬🔮🧩]_05c3a70c
-  - C🟠🇦🇱hos[🤖💬🔮🎮]_fbb5c550
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_7658b466
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_8a208f4c
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_e0876948
-  - C🟠🇧🇷hos[🤖💬🎵🎮]_a7fea21d
-  - C🟠🇨🇦hos[🤖💬🧩🎵]_00bc9137
-  - C🟠🇨🇦hos_8a105a38
-  - C🟠🇨🇭hos[🤖💬🔮🧩]_c1500362
-  - C🟠🇩🇪hos[🤖💬🔮🧩]_e6782845
-  - C🟠🇪🇸hos[💬🔮🎮✈️]_f8fb5ad9
-  - C🟠🇪🇸hos[🤖💬🔮✈️]_562212cb
-  - C🟠🇪🇸hos[🤖💬🔮🎮]_f3aeb7e7
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_24ee5ddf
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_38171dc1
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_3a319faa
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_7abde24d
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_7d4f8218
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_9f945074
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_c851b7e4
-  - C🟠🇪🇸hos[🤖💬🔮📺]_b8ae846e
-  - C🟠🇪🇸hos[🤖🔮🎵🎮]_44d86972
-  - C🟠🇬🇧hos[🤖💬🔮🧩]_7c18af79
-  - C🟠🇬🇷hos[📺🎵]_8d8bfa9f
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - C🟠🇮🇳hos[🤖💬🧩🎵]_54aa8a9f
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_04808d3a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_07162a4c
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_25decbaa
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_30207bf9
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_641a38ed
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_7441ad35
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_79faec8a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_885d389b
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_92c172b4
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_c9cdfff6
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_e4fa7507
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_ed9e5a0d
-  - C🟠🇯🇵hos[🤖💬🧩🎭]_55f04018
-  - C🟠🇲🇽hos[📺]_8d9836d8
-  - C🟠🇲🇽hos_445b01af
-  - C🟠🇲🇽hos_aff11c5d
-  - C🟠🇲🇽hos_d123f47b
-  - C🟠🇳🇱hos[🤖💬🔮🎮]_a73acf88
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_0aff9cf2
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_20e3bf5a
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_56da3c2d
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_9eaca6a6
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_d02c5ccc
+  - C🟠🇦🇱hos[🤖💬🔮🎵]_5c5a81ec
+  - C🟠🇦🇱hos_e0876948
+  - C🟠🇩🇪hos[🤖💬🧩📺]_fc3b3a41
+  - C🟠🇫🇮hos[🤖💬🎵🎮]_49c7000a
+  - C🟠🇬🇷hos[🤖💬🎵]_4cc1e630
+  - C🟠🇬🇷hos[🤖📺🎵]_8d8bfa9f
+  - C🟠🇮🇹hos[📺]_c9cdfff6
+  - C🟠🇮🇹hos[🤖💬🔮🎮]_07162a4c
+  - C🟠🇮🇹hos[🤖💬🔮🎮]_30207bf9
+  - C🟠🇮🇹hos[🤖💬🔮🎵]_04808d3a
+  - C🟠🇮🇹hos[🤖💬🔮📺]_57445a13
+  - C🟠🇮🇹hos[🤖🔮🎵🎮]_e4fa7507
+  - C🟠🇯🇵hos[🤖💬✈️🔍]_e7a3bbb0
+  - C🟠🇯🇵hos[🤖💬🧩📺]_049fa9f2
+  - C🟠🇯🇵hos[🤖💬🧩📺]_6e4dfdc6
+  - C🟠🇲🇽hos[🔍]_aff11c5d
+  - C🟠🇲🇽hos_12126395
+  - C🟠🇳🇱hos[💬]_56da3c2d
+  - C🟠🇳🇱hos[💬🎮]_dcf6a7a8
   - C🟠🇳🇱hos[🤖💬🧩📺]_3744e5a8
-  - C🟠🇷🇴hos[🤖💬🔮🧩]_9ba1e05c
-  - C🟠🇷🇺hos[🔮🐙🔍📚]_f0ef6c34
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_4b500dbb
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_53c913e6
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_aa5218c2
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_bfe9f443
-  - C🟠🇸🇬hos[🤖💬🔮🎮]_1d21d16a
-  - C🟠🇸🇬hos[🤖💬🔮🧩]_899fc334
-  - C🟠🇸🇬hos[🤖💬🧩🎭]_b3396cd6
-  - C🟠🇹🇭hos_5acf8d13
-  - C🟠🇺🇸hos[🎮🐙]_e26c34b2
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_3c052db8
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_8363c287
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_e77fc2ab
-  - C🟠🇺🇸hos[🤖💬🔮🎵]_3447c6df
-  - C🟠🇺🇸hos[🤖💬🔮🎵]_8d1d0ca5
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_379449c0
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_7e88745b
-  - C🟠🇺🇸hos[🤖💬🧩🎭]_0510e64e
-  - C🟠🇺🇸hos_67802e55
-  - D🔴🇦🇺hos[🤖💬🔮🎵]_903be00b
-  - D🔴🇦🇺hos[🤖💬🔮🧩]_0371e9d8
-  - D🔴🇨🇿hos[🤖💬🔮🧩]_038587d2
+  - C🟠🇳🇱hos_a73acf88
+  - C🟠🇷🇺hos[🔮🎮✈️🔍]_6aa562cc
+  - C🟠🇷🇺hos[🔮🎮✈️🔍]_79432583
+  - C🟠🇷🇺hos[🔮🎮🔍]_84ca1557
+  - C🟠🇸🇬hos[🤖🎮🔍]_3e981ae0
+  - C🟠🇺🇸hos[🔮📺🎵🎮]_379449c0
+  - C🟠🇺🇸hos[🤖💬🎮✈️]_3803d1d0
+  - D🔴🇦🇹hos[🤖💬🔮🧩]_8408eb8a
   - D🔴🇨🇿hos[🤖💬🔮🧩]_654d560d
-  - D🔴🇩🇪hos[🤖💬🔮📺]_d8b0cf80
-  - D🔴🇩🇪hos[🤖💬🔮🧩]_92e8593b
-  - D🔴🇩🇪hos[🤖💬🔮🧩]_abbba1fa
-  - D🔴🇩🇪hos[🤖💬🧩🎵]_0ed63a74
-  - D🔴🇩🇪hos[🤖💬🧩🎵]_f53c6917
-  - D🔴🇩🇪hos[🤖💬🧩📺]_460e6705
-  - D🔴🇩🇰hos[🤖💬🔮🧩]_1ed30155
-  - D🔴🇪🇨hos_b7f302f8
-  - D🔴🇫🇷hos[📺🎭🎵]_9f8b9b65
-  - D🔴🇫🇷hos[🤖💬🔮🎵]_d04a31b7
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_c3325e1b
-  - D🔴🇫🇷hos[🤖💬🧩🎵]_62c630f3
-  - D🔴🇭🇰hos[🧩🎵🎮✈️]_6624eea7
-  - D🔴🇭🇰hos_a4a827b8
-  - D🔴🇮🇪hos[📺🎵]_e2bb935e
-  - D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
-  - D🔴🇮🇹hos[🎵]_1c28314a
-  - D🔴🇮🇹hos[🤖💬🔮📺]_ed4de7bb
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_04af617c
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_2e294afd
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_3bb0f43a
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_444fcb7f
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_48d202d9
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_544fdd46
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8817c7e2
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8c1c6b5a
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8ed40d75
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_a7740ab5
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_ae9a4420
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_c23341c5
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_d027a441
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_e690e14e
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_e7fda757
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_f2a1583b
+  - D🔴🇩🇪hos[🤖🔮🎮✈️]_4186974d
+  - D🔴🇫🇷hos[📺]_238d1eea
+  - D🔴🇫🇷hos[🤖💬🎮✈️]_9ccf3749
+  - D🔴🇫🇷hos[🤖💬🔮🎮]_a19a479b
+  - D🔴🇫🇷hos[🤖💬🔮🎵]_67a56137
+  - D🔴🇮🇪hos[🤖💬🎮✈️]_37e4a848
+  - D🔴🇮🇹hos[📺]_8c1c6b5a
+  - D🔴🇮🇹hos[📺🎮🔍]_8ed40d75
+  - D🔴🇮🇹hos[🤖💬🔮✈️]_48d202d9
+  - D🔴🇮🇹hos[🤖💬🔮🎞️]_c23341c5
+  - D🔴🇮🇹hos[🤖💬🔮🎮]_e690e14e
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_2e294afd
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_3bb0f43a
+  - D🔴🇮🇹hos[🤖💬🔮🔍]_544fdd46
+  - D🔴🇮🇹hos[🤖🔮🎵🎮]_444fcb7f
+  - D🔴🇮🇹hos[🤖🔮🧩🎵]_ed4de7bb
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
   - D🔴🇯🇵hos[🤖💬🔮🧩]_9d3ee5ab
-  - D🔴🇯🇵hos[🤖🔮🎵🎮]_4900a88a
-  - D🔴🇱🇹hos[🤖💬🔮🎵]_747fd292
-  - D🔴🇱🇻hos[🤖💬🔮🧩]_21c34602
-  - D🔴🇱🇻hos[🤖💬🔮🧩]_a0b4e075
-  - D🔴🇲🇽hos_e24c2bfd
-  - D🔴🇳🇱hos[🤖💬🔮📺]_f03b1640
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_387205ed
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_7a217f0f
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_86fd6822
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_e6da0f6d
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_eaf068c9
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_fb4e77e4
-  - D🔴🇳🇴hos[🤖💬🔮🧩]_573c8c9f
-  - D🔴🇵🇱hos[🤖💬🔮🧩]_78351b27
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_202aca3d
-  - D🔴🇷🇺hos[🔮🎵🎮✈️]_03de321c
-  - D🔴🇷🇺hos[🔮🐙🔍📚]_991270c1
-  - D🔴🇸🇪hos[🤖💬🔮🎵]_180c9335
-  - D🔴🇸🇬hos[🤖💬🎵🎮]_185196af
-  - D🔴🇸🇬hos_731ac5ff
-  - D🔴🇸🇬hos_c8c444fd
-  - D🔴🇹🇭hos[🤖💬🔮🧩]_8da68037
-  - D🔴🇺🇸hos[🎮]_343ae4aa
-  - D🔴🇺🇸hos[🐙]_4e17894f
-  - D🔴🇺🇸hos[📺]_568f056a
-  - D🔴🇺🇸hos[📺]_6de72c54
-  - D🔴🇺🇸hos[🤖💬🎮🔍]_fccd5dab
-  - D🔴🇺🇸hos[🤖💬🔮🎵]_853162e1
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_05011d06
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_1188f394
+  - D🔴🇯🇵hos_4900a88a
+  - D🔴🇰🇷hos[🔮🎵📚]_f7be86c8
+  - D🔴🇳🇱hos[🤖💬🔮🎮]_1ee853a3
+  - D🔴🇳🇱hos[🤖💬🔮🎵]_33ffe908
+  - D🔴🇳🇱hos[🤖💬🔮🎵]_f6303636
+  - D🔴🇳🇱hos[🤖💬🔮📦]_47dbdd00
+  - D🔴🇳🇱hos[🤖💬🔮📦]_5a16ef58
+  - D🔴🇳🇱hos[🤖💬🔮📺]_c6134407
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_9986f45d
+  - D🔴🇵🇭hos_19b515e6
+  - D🔴🇸🇪hos[🤖💬🔮🧩]_180c9335
+  - D🔴🇸🇬hos[🎮✈️🐙🔍]_f56c
+  - D🔴🇸🇬hos[🔮🎵]_c8c444fd
+  - D🔴🇸🇬hos[🤖💬🔮🎵]_185196af
+  - D🔴🇺🇸hos[🎮🐙]_4e17894f
+  - D🔴🇺🇸hos[🤖🎮✈️📚]_34c3c6dd
+  - D🔴🇺🇸hos[🤖🎵✈️🐙]_016d9dc7
+  - D🔴🇺🇸hos[🤖💬🎵]_568f056a
+  - D🔴🇺🇸hos[🤖💬🎵🎞️]_6d6b41c5
+  - D🔴🇺🇸hos[🤖💬🔮🎮]_f4f770d1
+  - D🔴🇺🇸hos[🤖💬🔮🎵]_d37c7415
+  - D🔴🇺🇸hos[🤖💬🔮🎵]_ffebf486
+  - D🔴🇺🇸hos[🤖💬🔮🧩]_0cb09444
   - D🔴🇺🇸hos[🤖💬🔮🧩]_13889823
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_373eb482
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_582c323a
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6d6b41c5
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_8df65cc3
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_d37c7415
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_ffebf486
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_8302b676
-  - D🔴🇺🇸hos_034ba6dd
+  - D🔴🇺🇸hos[🤖🔮📺]_4cc7e454
+  - D🔴🇺🇸hos_342cda1e
+  - D🔴🇺🇸hos_3dc5b537
+  - D🔴🇺🇸hos_60b20da2
   - D🔴🇺🇸hos_a6052a43
-  - D🔴🇻🇳hos[🤖💬🔮📺]_c355101a
-  - U⚪🇯🇵ukn[🤖💬🧩📺]_9d5e5d0d
-  - U⚪🇳🇱ukn[🤖💬🔮🧩]_1b492461
-  - U⚪🇸🇪ukn[🤖💬🔮🧩]_e84afe32
-  - U⚪🏳️ukn[✈️]_2ffaa05b
-  - U⚪🏳️ukn[✈️]_5deb6c23
-  - U⚪🏳️ukn[✈️]_73523249
-  - U⚪🏳️ukn[✈️]_96102a68
-  - U⚪🏳️ukn[✈️]_ad6105c9
-  - U⚪🏳️ukn[✈️]_cb10e9d7
-  - U⚪🏳️ukn[🤖💬🔮🎮]_3e91976f
-  - U⚪🏳️ukn[🤖💬🔮🎵]_2e8886fe
-  - U⚪🏳️ukn[🤖💬🔮🎵]_41ddb3a7
-  - U⚪🏳️ukn[🤖💬🔮🧩]_656b80b8
-  - U⚪🏳️ukn_275e588f
-  - U⚪🏳️ukn_31571c1e
-  - U⚪🏳️ukn_334192ec
-  - U⚪🏳️ukn_49e1aa4a
-  - U⚪🏳️ukn_83529b9e
-  - U⚪🏳️ukn_99fcd799
-  - U⚪🏳️ukn_ba3b7ea2
-  - U⚪🏳️ukn_cebe1823
-  - U⚪🏳️ukn_d89346f5
-  - U⚪🏳️ukn_efb39810
-  - U⚪🏳️ukn_f7be86c8
-  - U⚪🏳️ukn_fa0120b9
+  - U⚪🏳️ukn[🎮✈️🔍📚]_899fc334
+  - U⚪🏳️ukn[💬🎮📚]_92c172b4
+  - U⚪🏳️ukn[🤖💬🔮🎵]_a07afe5c
+  - U⚪🏳️ukn[🤖💬🧩🎮]_78065240
+  - U⚪🏳️ukn[🤖🔮🎵]_1188f394
+  - U⚪🏳️ukn[🤖🔮🎵✈️]_7441ad35
+  - U⚪🏳️ukn_18866abf
+  - U⚪🏳️ukn_5bde06c7
   - 8元老牌专线机场
-  - 德国_935579
-  - 意大利_216AA7
-  - 意大利_6C3EB9
-  - 意大利_74B6E2
-  - 意大利_8FE89B
-  - 意大利_E7C165
-  - 新加坡_8E92A2
-  - 日本_433B1A
-  - 日本_A5ABB3
-  - 法国_41C522
-  - 波兰_37F784
-  - 澳大利亚_402249
-  - 瑞典_5D269D
-  - 瑞典_BBB754
-  - 美国_2C506D
-  - 美国_64ED40
-  - 荷兰_1D9F81
-  - 西班牙_8537A1
+  - 俄罗斯_3360A4
+  - 德国_199E01
+  - 意大利_062254
+  - 意大利_730B33
+  - 意大利_902F2D
+  - 意大利_BFF5B3
+  - 意大利_C669F1
+  - 新加坡_CE8672
+  - 日本_22EEB4
+  - 日本_34DEDF
+  - 波兰_6B859F
+  - 瑞典_46CF5E
+  - 瑞典_9751F1
+  - 美国_A907E7
+  - 美国_BF8668
+  - 美国_F7FC9A
+  - 荷兰_88888E
+  - 西班牙_5493D8
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -47387,234 +46051,118 @@ proxy-groups:
   - 🇺🇸_美国 (98)
   - 🇺🇸_美国 (99)
   - 🇿🇦_南非
-  - A🟢🇦🇷res[🤖💬🔮📺]_8261826b
-  - A🟢🇧🇷res[🔍]_dbd9f715
-  - A🟢🇧🇷res_936e7dd6
-  - A🟢🇫🇷res[🤖💬🧩📺]_76a5a58b
-  - A🟢🇬🇧res[🤖💬🧩📺]_13d215ab
-  - A🟢🇮🇩res[💬]_5f6d4e46
-  - A🟢🇮🇩res[🤖💬🔮🎵]_85aa1e0b
-  - A🟢🇰🇿res[🤖💬🔮🧩]_b5a90094
   - A🟢🇲🇽res_1aa34d5e
-  - A🟢🇲🇽res_24835ec5
-  - A🟢🇵🇭res[🤖💬🔮🧩]_97fafe0f
-  - A🟢🇵🇱res[🤖💬🔮🧩]_3814084d
-  - A🟢🇸🇦res[🤖💬🔮🧩]_e6d3af00
-  - A🟢🇹🇭res[🎵🎮🔍]_da6cca38
-  - A🟢🇹🇭res[💬🎵✈️🔍]_72bd5c3a
-  - A🟢🇹🇭res[📺]_a8d802b0
-  - A🟢🇹🇭res[🔍]_a8a9e262
+  - A🟢🇸🇬res[💬]_903162eb
+  - A🟢🇹🇭res[🎮]_a8a9e262
+  - A🟢🇹🇭res[🎮✈️]_bf81894b
+  - A🟢🇹🇭res[🔮🎮🐙🔍]_c58cd50f
+  - A🟢🇹🇭res[🤖🔮🎮🐙]_8be67b1a
   - A🟢🇹🇭res_021435aa
-  - A🟢🇹🇭res_18746d5d
-  - A🟢🇹🇭res_3740a210
-  - A🟢🇹🇭res_5d41bcce
-  - A🟢🇹🇭res_63f8b36e
-  - A🟢🇹🇭res_affc047b
-  - A🟢🇹🇭res_bf81894b
-  - A🟢🇺🇸res[🤖💬🔮🧩]_f9ee2780
+  - A🟢🇹🇭res_441fecdf
   - A🟢🇻🇳res_11eacb89
-  - A🟢🇻🇳res_8b68a714
-  - A🟢🇿🇦res[🤖💬🔮🧩]_05c3a70c
-  - C🟠🇦🇱hos[🤖💬🔮🎮]_fbb5c550
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_7658b466
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_8a208f4c
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_e0876948
-  - C🟠🇧🇷hos[🤖💬🎵🎮]_a7fea21d
-  - C🟠🇨🇦hos[🤖💬🧩🎵]_00bc9137
-  - C🟠🇨🇦hos_8a105a38
-  - C🟠🇨🇭hos[🤖💬🔮🧩]_c1500362
-  - C🟠🇩🇪hos[🤖💬🔮🧩]_e6782845
-  - C🟠🇪🇸hos[💬🔮🎮✈️]_f8fb5ad9
-  - C🟠🇪🇸hos[🤖💬🔮✈️]_562212cb
-  - C🟠🇪🇸hos[🤖💬🔮🎮]_f3aeb7e7
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_24ee5ddf
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_38171dc1
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_3a319faa
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_7abde24d
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_7d4f8218
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_9f945074
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_c851b7e4
-  - C🟠🇪🇸hos[🤖💬🔮📺]_b8ae846e
-  - C🟠🇪🇸hos[🤖🔮🎵🎮]_44d86972
-  - C🟠🇬🇧hos[🤖💬🔮🧩]_7c18af79
-  - C🟠🇬🇷hos[📺🎵]_8d8bfa9f
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - C🟠🇮🇳hos[🤖💬🧩🎵]_54aa8a9f
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_04808d3a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_07162a4c
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_25decbaa
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_30207bf9
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_641a38ed
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_7441ad35
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_79faec8a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_885d389b
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_92c172b4
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_c9cdfff6
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_e4fa7507
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_ed9e5a0d
-  - C🟠🇯🇵hos[🤖💬🧩🎭]_55f04018
-  - C🟠🇲🇽hos[📺]_8d9836d8
-  - C🟠🇲🇽hos_445b01af
-  - C🟠🇲🇽hos_aff11c5d
-  - C🟠🇲🇽hos_d123f47b
-  - C🟠🇳🇱hos[🤖💬🔮🎮]_a73acf88
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_0aff9cf2
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_20e3bf5a
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_56da3c2d
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_9eaca6a6
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_d02c5ccc
+  - C🟠🇦🇱hos[🤖💬🔮🎵]_5c5a81ec
+  - C🟠🇦🇱hos_e0876948
+  - C🟠🇩🇪hos[🤖💬🧩📺]_fc3b3a41
+  - C🟠🇫🇮hos[🤖💬🎵🎮]_49c7000a
+  - C🟠🇬🇷hos[🤖💬🎵]_4cc1e630
+  - C🟠🇬🇷hos[🤖📺🎵]_8d8bfa9f
+  - C🟠🇮🇹hos[📺]_c9cdfff6
+  - C🟠🇮🇹hos[🤖💬🔮🎮]_07162a4c
+  - C🟠🇮🇹hos[🤖💬🔮🎮]_30207bf9
+  - C🟠🇮🇹hos[🤖💬🔮🎵]_04808d3a
+  - C🟠🇮🇹hos[🤖💬🔮📺]_57445a13
+  - C🟠🇮🇹hos[🤖🔮🎵🎮]_e4fa7507
+  - C🟠🇯🇵hos[🤖💬✈️🔍]_e7a3bbb0
+  - C🟠🇯🇵hos[🤖💬🧩📺]_049fa9f2
+  - C🟠🇯🇵hos[🤖💬🧩📺]_6e4dfdc6
+  - C🟠🇲🇽hos[🔍]_aff11c5d
+  - C🟠🇲🇽hos_12126395
+  - C🟠🇳🇱hos[💬]_56da3c2d
+  - C🟠🇳🇱hos[💬🎮]_dcf6a7a8
   - C🟠🇳🇱hos[🤖💬🧩📺]_3744e5a8
-  - C🟠🇷🇴hos[🤖💬🔮🧩]_9ba1e05c
-  - C🟠🇷🇺hos[🔮🐙🔍📚]_f0ef6c34
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_4b500dbb
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_53c913e6
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_aa5218c2
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_bfe9f443
-  - C🟠🇸🇬hos[🤖💬🔮🎮]_1d21d16a
-  - C🟠🇸🇬hos[🤖💬🔮🧩]_899fc334
-  - C🟠🇸🇬hos[🤖💬🧩🎭]_b3396cd6
-  - C🟠🇹🇭hos_5acf8d13
-  - C🟠🇺🇸hos[🎮🐙]_e26c34b2
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_3c052db8
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_8363c287
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_e77fc2ab
-  - C🟠🇺🇸hos[🤖💬🔮🎵]_3447c6df
-  - C🟠🇺🇸hos[🤖💬🔮🎵]_8d1d0ca5
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_379449c0
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_7e88745b
-  - C🟠🇺🇸hos[🤖💬🧩🎭]_0510e64e
-  - C🟠🇺🇸hos_67802e55
-  - D🔴🇦🇺hos[🤖💬🔮🎵]_903be00b
-  - D🔴🇦🇺hos[🤖💬🔮🧩]_0371e9d8
-  - D🔴🇨🇿hos[🤖💬🔮🧩]_038587d2
+  - C🟠🇳🇱hos_a73acf88
+  - C🟠🇷🇺hos[🔮🎮✈️🔍]_6aa562cc
+  - C🟠🇷🇺hos[🔮🎮✈️🔍]_79432583
+  - C🟠🇷🇺hos[🔮🎮🔍]_84ca1557
+  - C🟠🇸🇬hos[🤖🎮🔍]_3e981ae0
+  - C🟠🇺🇸hos[🔮📺🎵🎮]_379449c0
+  - C🟠🇺🇸hos[🤖💬🎮✈️]_3803d1d0
+  - D🔴🇦🇹hos[🤖💬🔮🧩]_8408eb8a
   - D🔴🇨🇿hos[🤖💬🔮🧩]_654d560d
-  - D🔴🇩🇪hos[🤖💬🔮📺]_d8b0cf80
-  - D🔴🇩🇪hos[🤖💬🔮🧩]_92e8593b
-  - D🔴🇩🇪hos[🤖💬🔮🧩]_abbba1fa
-  - D🔴🇩🇪hos[🤖💬🧩🎵]_0ed63a74
-  - D🔴🇩🇪hos[🤖💬🧩🎵]_f53c6917
-  - D🔴🇩🇪hos[🤖💬🧩📺]_460e6705
-  - D🔴🇩🇰hos[🤖💬🔮🧩]_1ed30155
-  - D🔴🇪🇨hos_b7f302f8
-  - D🔴🇫🇷hos[📺🎭🎵]_9f8b9b65
-  - D🔴🇫🇷hos[🤖💬🔮🎵]_d04a31b7
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_c3325e1b
-  - D🔴🇫🇷hos[🤖💬🧩🎵]_62c630f3
-  - D🔴🇭🇰hos[🧩🎵🎮✈️]_6624eea7
-  - D🔴🇭🇰hos_a4a827b8
-  - D🔴🇮🇪hos[📺🎵]_e2bb935e
-  - D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
-  - D🔴🇮🇹hos[🎵]_1c28314a
-  - D🔴🇮🇹hos[🤖💬🔮📺]_ed4de7bb
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_04af617c
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_2e294afd
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_3bb0f43a
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_444fcb7f
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_48d202d9
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_544fdd46
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8817c7e2
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8c1c6b5a
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8ed40d75
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_a7740ab5
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_ae9a4420
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_c23341c5
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_d027a441
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_e690e14e
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_e7fda757
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_f2a1583b
+  - D🔴🇩🇪hos[🤖🔮🎮✈️]_4186974d
+  - D🔴🇫🇷hos[📺]_238d1eea
+  - D🔴🇫🇷hos[🤖💬🎮✈️]_9ccf3749
+  - D🔴🇫🇷hos[🤖💬🔮🎮]_a19a479b
+  - D🔴🇫🇷hos[🤖💬🔮🎵]_67a56137
+  - D🔴🇮🇪hos[🤖💬🎮✈️]_37e4a848
+  - D🔴🇮🇹hos[📺]_8c1c6b5a
+  - D🔴🇮🇹hos[📺🎮🔍]_8ed40d75
+  - D🔴🇮🇹hos[🤖💬🔮✈️]_48d202d9
+  - D🔴🇮🇹hos[🤖💬🔮🎞️]_c23341c5
+  - D🔴🇮🇹hos[🤖💬🔮🎮]_e690e14e
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_2e294afd
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_3bb0f43a
+  - D🔴🇮🇹hos[🤖💬🔮🔍]_544fdd46
+  - D🔴🇮🇹hos[🤖🔮🎵🎮]_444fcb7f
+  - D🔴🇮🇹hos[🤖🔮🧩🎵]_ed4de7bb
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
   - D🔴🇯🇵hos[🤖💬🔮🧩]_9d3ee5ab
-  - D🔴🇯🇵hos[🤖🔮🎵🎮]_4900a88a
-  - D🔴🇱🇹hos[🤖💬🔮🎵]_747fd292
-  - D🔴🇱🇻hos[🤖💬🔮🧩]_21c34602
-  - D🔴🇱🇻hos[🤖💬🔮🧩]_a0b4e075
-  - D🔴🇲🇽hos_e24c2bfd
-  - D🔴🇳🇱hos[🤖💬🔮📺]_f03b1640
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_387205ed
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_7a217f0f
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_86fd6822
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_e6da0f6d
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_eaf068c9
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_fb4e77e4
-  - D🔴🇳🇴hos[🤖💬🔮🧩]_573c8c9f
-  - D🔴🇵🇱hos[🤖💬🔮🧩]_78351b27
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_202aca3d
-  - D🔴🇷🇺hos[🔮🎵🎮✈️]_03de321c
-  - D🔴🇷🇺hos[🔮🐙🔍📚]_991270c1
-  - D🔴🇸🇪hos[🤖💬🔮🎵]_180c9335
-  - D🔴🇸🇬hos[🤖💬🎵🎮]_185196af
-  - D🔴🇸🇬hos_731ac5ff
-  - D🔴🇸🇬hos_c8c444fd
-  - D🔴🇹🇭hos[🤖💬🔮🧩]_8da68037
-  - D🔴🇺🇸hos[🎮]_343ae4aa
-  - D🔴🇺🇸hos[🐙]_4e17894f
-  - D🔴🇺🇸hos[📺]_568f056a
-  - D🔴🇺🇸hos[📺]_6de72c54
-  - D🔴🇺🇸hos[🤖💬🎮🔍]_fccd5dab
-  - D🔴🇺🇸hos[🤖💬🔮🎵]_853162e1
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_05011d06
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_1188f394
+  - D🔴🇯🇵hos_4900a88a
+  - D🔴🇰🇷hos[🔮🎵📚]_f7be86c8
+  - D🔴🇳🇱hos[🤖💬🔮🎮]_1ee853a3
+  - D🔴🇳🇱hos[🤖💬🔮🎵]_33ffe908
+  - D🔴🇳🇱hos[🤖💬🔮🎵]_f6303636
+  - D🔴🇳🇱hos[🤖💬🔮📦]_47dbdd00
+  - D🔴🇳🇱hos[🤖💬🔮📦]_5a16ef58
+  - D🔴🇳🇱hos[🤖💬🔮📺]_c6134407
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_9986f45d
+  - D🔴🇵🇭hos_19b515e6
+  - D🔴🇸🇪hos[🤖💬🔮🧩]_180c9335
+  - D🔴🇸🇬hos[🎮✈️🐙🔍]_f56c
+  - D🔴🇸🇬hos[🔮🎵]_c8c444fd
+  - D🔴🇸🇬hos[🤖💬🔮🎵]_185196af
+  - D🔴🇺🇸hos[🎮🐙]_4e17894f
+  - D🔴🇺🇸hos[🤖🎮✈️📚]_34c3c6dd
+  - D🔴🇺🇸hos[🤖🎵✈️🐙]_016d9dc7
+  - D🔴🇺🇸hos[🤖💬🎵]_568f056a
+  - D🔴🇺🇸hos[🤖💬🎵🎞️]_6d6b41c5
+  - D🔴🇺🇸hos[🤖💬🔮🎮]_f4f770d1
+  - D🔴🇺🇸hos[🤖💬🔮🎵]_d37c7415
+  - D🔴🇺🇸hos[🤖💬🔮🎵]_ffebf486
+  - D🔴🇺🇸hos[🤖💬🔮🧩]_0cb09444
   - D🔴🇺🇸hos[🤖💬🔮🧩]_13889823
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_373eb482
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_582c323a
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6d6b41c5
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_8df65cc3
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_d37c7415
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_ffebf486
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_8302b676
-  - D🔴🇺🇸hos_034ba6dd
+  - D🔴🇺🇸hos[🤖🔮📺]_4cc7e454
+  - D🔴🇺🇸hos_342cda1e
+  - D🔴🇺🇸hos_3dc5b537
+  - D🔴🇺🇸hos_60b20da2
   - D🔴🇺🇸hos_a6052a43
-  - D🔴🇻🇳hos[🤖💬🔮📺]_c355101a
-  - U⚪🇯🇵ukn[🤖💬🧩📺]_9d5e5d0d
-  - U⚪🇳🇱ukn[🤖💬🔮🧩]_1b492461
-  - U⚪🇸🇪ukn[🤖💬🔮🧩]_e84afe32
-  - U⚪🏳️ukn[✈️]_2ffaa05b
-  - U⚪🏳️ukn[✈️]_5deb6c23
-  - U⚪🏳️ukn[✈️]_73523249
-  - U⚪🏳️ukn[✈️]_96102a68
-  - U⚪🏳️ukn[✈️]_ad6105c9
-  - U⚪🏳️ukn[✈️]_cb10e9d7
-  - U⚪🏳️ukn[🤖💬🔮🎮]_3e91976f
-  - U⚪🏳️ukn[🤖💬🔮🎵]_2e8886fe
-  - U⚪🏳️ukn[🤖💬🔮🎵]_41ddb3a7
-  - U⚪🏳️ukn[🤖💬🔮🧩]_656b80b8
-  - U⚪🏳️ukn_275e588f
-  - U⚪🏳️ukn_31571c1e
-  - U⚪🏳️ukn_334192ec
-  - U⚪🏳️ukn_49e1aa4a
-  - U⚪🏳️ukn_83529b9e
-  - U⚪🏳️ukn_99fcd799
-  - U⚪🏳️ukn_ba3b7ea2
-  - U⚪🏳️ukn_cebe1823
-  - U⚪🏳️ukn_d89346f5
-  - U⚪🏳️ukn_efb39810
-  - U⚪🏳️ukn_f7be86c8
-  - U⚪🏳️ukn_fa0120b9
+  - U⚪🏳️ukn[🎮✈️🔍📚]_899fc334
+  - U⚪🏳️ukn[💬🎮📚]_92c172b4
+  - U⚪🏳️ukn[🤖💬🔮🎵]_a07afe5c
+  - U⚪🏳️ukn[🤖💬🧩🎮]_78065240
+  - U⚪🏳️ukn[🤖🔮🎵]_1188f394
+  - U⚪🏳️ukn[🤖🔮🎵✈️]_7441ad35
+  - U⚪🏳️ukn_18866abf
+  - U⚪🏳️ukn_5bde06c7
   - 8元老牌专线机场
-  - 德国_935579
-  - 意大利_216AA7
-  - 意大利_6C3EB9
-  - 意大利_74B6E2
-  - 意大利_8FE89B
-  - 意大利_E7C165
-  - 新加坡_8E92A2
-  - 日本_433B1A
-  - 日本_A5ABB3
-  - 法国_41C522
-  - 波兰_37F784
-  - 澳大利亚_402249
-  - 瑞典_5D269D
-  - 瑞典_BBB754
-  - 美国_2C506D
-  - 美国_64ED40
-  - 荷兰_1D9F81
-  - 西班牙_8537A1
+  - 俄罗斯_3360A4
+  - 德国_199E01
+  - 意大利_062254
+  - 意大利_730B33
+  - 意大利_902F2D
+  - 意大利_BFF5B3
+  - 意大利_C669F1
+  - 新加坡_CE8672
+  - 日本_22EEB4
+  - 日本_34DEDF
+  - 波兰_6B859F
+  - 瑞典_46CF5E
+  - 瑞典_9751F1
+  - 美国_A907E7
+  - 美国_BF8668
+  - 美国_F7FC9A
+  - 荷兰_88888E
+  - 西班牙_5493D8
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -51004,237 +49552,121 @@ proxy-groups:
 - name: 📦 Ruk1ng001/freeSub
   type: select
   proxies:
-  - A🟢🇦🇷res[🤖💬🔮📺]_8261826b
-  - A🟢🇧🇷res[🔍]_dbd9f715
-  - A🟢🇧🇷res_936e7dd6
-  - A🟢🇫🇷res[🤖💬🧩📺]_76a5a58b
-  - A🟢🇬🇧res[🤖💬🧩📺]_13d215ab
-  - A🟢🇮🇩res[💬]_5f6d4e46
-  - A🟢🇮🇩res[🤖💬🔮🎵]_85aa1e0b
-  - A🟢🇰🇿res[🤖💬🔮🧩]_b5a90094
   - A🟢🇲🇽res_1aa34d5e
-  - A🟢🇲🇽res_24835ec5
-  - A🟢🇵🇭res[🤖💬🔮🧩]_97fafe0f
-  - A🟢🇵🇱res[🤖💬🔮🧩]_3814084d
-  - A🟢🇸🇦res[🤖💬🔮🧩]_e6d3af00
-  - A🟢🇹🇭res[🎵🎮🔍]_da6cca38
-  - A🟢🇹🇭res[💬🎵✈️🔍]_72bd5c3a
-  - A🟢🇹🇭res[📺]_a8d802b0
-  - A🟢🇹🇭res[🔍]_a8a9e262
+  - A🟢🇸🇬res[💬]_903162eb
+  - A🟢🇹🇭res[🎮]_a8a9e262
+  - A🟢🇹🇭res[🎮✈️]_bf81894b
+  - A🟢🇹🇭res[🔮🎮🐙🔍]_c58cd50f
+  - A🟢🇹🇭res[🤖🔮🎮🐙]_8be67b1a
   - A🟢🇹🇭res_021435aa
-  - A🟢🇹🇭res_18746d5d
-  - A🟢🇹🇭res_3740a210
-  - A🟢🇹🇭res_5d41bcce
-  - A🟢🇹🇭res_63f8b36e
-  - A🟢🇹🇭res_affc047b
-  - A🟢🇹🇭res_bf81894b
-  - A🟢🇺🇸res[🤖💬🔮🧩]_f9ee2780
+  - A🟢🇹🇭res_441fecdf
   - A🟢🇻🇳res_11eacb89
-  - A🟢🇻🇳res_8b68a714
-  - A🟢🇿🇦res[🤖💬🔮🧩]_05c3a70c
-  - C🟠🇦🇱hos[🤖💬🔮🎮]_fbb5c550
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_7658b466
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_8a208f4c
-  - C🟠🇦🇱hos[🤖💬🔮🎵]_e0876948
-  - C🟠🇧🇷hos[🤖💬🎵🎮]_a7fea21d
-  - C🟠🇨🇦hos[🤖💬🧩🎵]_00bc9137
-  - C🟠🇨🇦hos_8a105a38
-  - C🟠🇨🇭hos[🤖💬🔮🧩]_c1500362
-  - C🟠🇩🇪hos[🤖💬🔮🧩]_e6782845
-  - C🟠🇪🇸hos[💬🔮🎮✈️]_f8fb5ad9
-  - C🟠🇪🇸hos[🤖💬🔮✈️]_562212cb
-  - C🟠🇪🇸hos[🤖💬🔮🎮]_f3aeb7e7
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_24ee5ddf
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_38171dc1
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_3a319faa
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_7abde24d
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_7d4f8218
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_9f945074
-  - C🟠🇪🇸hos[🤖💬🔮🎵]_c851b7e4
-  - C🟠🇪🇸hos[🤖💬🔮📺]_b8ae846e
-  - C🟠🇪🇸hos[🤖🔮🎵🎮]_44d86972
-  - C🟠🇬🇧hos[🤖💬🔮🧩]_7c18af79
-  - C🟠🇬🇷hos[📺🎵]_8d8bfa9f
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - C🟠🇮🇳hos[🤖💬🧩🎵]_54aa8a9f
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_04808d3a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_07162a4c
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_25decbaa
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_30207bf9
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_641a38ed
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_7441ad35
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_79faec8a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_885d389b
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_92c172b4
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_c9cdfff6
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_e4fa7507
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_ed9e5a0d
-  - C🟠🇯🇵hos[🤖💬🧩🎭]_55f04018
-  - C🟠🇲🇽hos[📺]_8d9836d8
-  - C🟠🇲🇽hos_445b01af
-  - C🟠🇲🇽hos_aff11c5d
-  - C🟠🇲🇽hos_d123f47b
-  - C🟠🇳🇱hos[🤖💬🔮🎮]_a73acf88
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_0aff9cf2
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_20e3bf5a
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_56da3c2d
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_9eaca6a6
-  - C🟠🇳🇱hos[🤖💬🔮🧩]_d02c5ccc
+  - C🟠🇦🇱hos[🤖💬🔮🎵]_5c5a81ec
+  - C🟠🇦🇱hos_e0876948
+  - C🟠🇩🇪hos[🤖💬🧩📺]_fc3b3a41
+  - C🟠🇫🇮hos[🤖💬🎵🎮]_49c7000a
+  - C🟠🇬🇷hos[🤖💬🎵]_4cc1e630
+  - C🟠🇬🇷hos[🤖📺🎵]_8d8bfa9f
+  - C🟠🇮🇹hos[📺]_c9cdfff6
+  - C🟠🇮🇹hos[🤖💬🔮🎮]_07162a4c
+  - C🟠🇮🇹hos[🤖💬🔮🎮]_30207bf9
+  - C🟠🇮🇹hos[🤖💬🔮🎵]_04808d3a
+  - C🟠🇮🇹hos[🤖💬🔮📺]_57445a13
+  - C🟠🇮🇹hos[🤖🔮🎵🎮]_e4fa7507
+  - C🟠🇯🇵hos[🤖💬✈️🔍]_e7a3bbb0
+  - C🟠🇯🇵hos[🤖💬🧩📺]_049fa9f2
+  - C🟠🇯🇵hos[🤖💬🧩📺]_6e4dfdc6
+  - C🟠🇲🇽hos[🔍]_aff11c5d
+  - C🟠🇲🇽hos_12126395
+  - C🟠🇳🇱hos[💬]_56da3c2d
+  - C🟠🇳🇱hos[💬🎮]_dcf6a7a8
   - C🟠🇳🇱hos[🤖💬🧩📺]_3744e5a8
-  - C🟠🇷🇴hos[🤖💬🔮🧩]_9ba1e05c
-  - C🟠🇷🇺hos[🔮🐙🔍📚]_f0ef6c34
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_4b500dbb
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_53c913e6
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_aa5218c2
-  - C🟠🇸🇪hos[🤖💬🔮🧩]_bfe9f443
-  - C🟠🇸🇬hos[🤖💬🔮🎮]_1d21d16a
-  - C🟠🇸🇬hos[🤖💬🔮🧩]_899fc334
-  - C🟠🇸🇬hos[🤖💬🧩🎭]_b3396cd6
-  - C🟠🇹🇭hos_5acf8d13
-  - C🟠🇺🇸hos[🎮🐙]_e26c34b2
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_3c052db8
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_8363c287
-  - C🟠🇺🇸hos[🤖💬🔮🎮]_e77fc2ab
-  - C🟠🇺🇸hos[🤖💬🔮🎵]_3447c6df
-  - C🟠🇺🇸hos[🤖💬🔮🎵]_8d1d0ca5
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_379449c0
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_7e88745b
-  - C🟠🇺🇸hos[🤖💬🧩🎭]_0510e64e
-  - C🟠🇺🇸hos_67802e55
-  - D🔴🇦🇺hos[🤖💬🔮🎵]_903be00b
-  - D🔴🇦🇺hos[🤖💬🔮🧩]_0371e9d8
-  - D🔴🇨🇿hos[🤖💬🔮🧩]_038587d2
+  - C🟠🇳🇱hos_a73acf88
+  - C🟠🇷🇺hos[🔮🎮✈️🔍]_6aa562cc
+  - C🟠🇷🇺hos[🔮🎮✈️🔍]_79432583
+  - C🟠🇷🇺hos[🔮🎮🔍]_84ca1557
+  - C🟠🇸🇬hos[🤖🎮🔍]_3e981ae0
+  - C🟠🇺🇸hos[🔮📺🎵🎮]_379449c0
+  - C🟠🇺🇸hos[🤖💬🎮✈️]_3803d1d0
+  - D🔴🇦🇹hos[🤖💬🔮🧩]_8408eb8a
   - D🔴🇨🇿hos[🤖💬🔮🧩]_654d560d
-  - D🔴🇩🇪hos[🤖💬🔮📺]_d8b0cf80
-  - D🔴🇩🇪hos[🤖💬🔮🧩]_92e8593b
-  - D🔴🇩🇪hos[🤖💬🔮🧩]_abbba1fa
-  - D🔴🇩🇪hos[🤖💬🧩🎵]_0ed63a74
-  - D🔴🇩🇪hos[🤖💬🧩🎵]_f53c6917
-  - D🔴🇩🇪hos[🤖💬🧩📺]_460e6705
-  - D🔴🇩🇰hos[🤖💬🔮🧩]_1ed30155
-  - D🔴🇪🇨hos_b7f302f8
-  - D🔴🇫🇷hos[📺🎭🎵]_9f8b9b65
-  - D🔴🇫🇷hos[🤖💬🔮🎵]_d04a31b7
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_c3325e1b
-  - D🔴🇫🇷hos[🤖💬🧩🎵]_62c630f3
-  - D🔴🇭🇰hos[🧩🎵🎮✈️]_6624eea7
-  - D🔴🇭🇰hos_a4a827b8
-  - D🔴🇮🇪hos[📺🎵]_e2bb935e
-  - D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
-  - D🔴🇮🇹hos[🎵]_1c28314a
-  - D🔴🇮🇹hos[🤖💬🔮📺]_ed4de7bb
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_04af617c
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_2e294afd
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_3bb0f43a
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_444fcb7f
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_48d202d9
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_544fdd46
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8817c7e2
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8c1c6b5a
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8ed40d75
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_a7740ab5
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_ae9a4420
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_c23341c5
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_d027a441
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_e690e14e
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_e7fda757
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_f2a1583b
+  - D🔴🇩🇪hos[🤖🔮🎮✈️]_4186974d
+  - D🔴🇫🇷hos[📺]_238d1eea
+  - D🔴🇫🇷hos[🤖💬🎮✈️]_9ccf3749
+  - D🔴🇫🇷hos[🤖💬🔮🎮]_a19a479b
+  - D🔴🇫🇷hos[🤖💬🔮🎵]_67a56137
+  - D🔴🇮🇪hos[🤖💬🎮✈️]_37e4a848
+  - D🔴🇮🇹hos[📺]_8c1c6b5a
+  - D🔴🇮🇹hos[📺🎮🔍]_8ed40d75
+  - D🔴🇮🇹hos[🤖💬🔮✈️]_48d202d9
+  - D🔴🇮🇹hos[🤖💬🔮🎞️]_c23341c5
+  - D🔴🇮🇹hos[🤖💬🔮🎮]_e690e14e
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_2e294afd
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_3bb0f43a
+  - D🔴🇮🇹hos[🤖💬🔮🔍]_544fdd46
+  - D🔴🇮🇹hos[🤖🔮🎵🎮]_444fcb7f
+  - D🔴🇮🇹hos[🤖🔮🧩🎵]_ed4de7bb
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
   - D🔴🇯🇵hos[🤖💬🔮🧩]_9d3ee5ab
-  - D🔴🇯🇵hos[🤖🔮🎵🎮]_4900a88a
-  - D🔴🇱🇹hos[🤖💬🔮🎵]_747fd292
-  - D🔴🇱🇻hos[🤖💬🔮🧩]_21c34602
-  - D🔴🇱🇻hos[🤖💬🔮🧩]_a0b4e075
-  - D🔴🇲🇽hos_e24c2bfd
-  - D🔴🇳🇱hos[🤖💬🔮📺]_f03b1640
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_387205ed
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_7a217f0f
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_86fd6822
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_e6da0f6d
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_eaf068c9
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_fb4e77e4
-  - D🔴🇳🇴hos[🤖💬🔮🧩]_573c8c9f
-  - D🔴🇵🇱hos[🤖💬🔮🧩]_78351b27
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_202aca3d
-  - D🔴🇷🇺hos[🔮🎵🎮✈️]_03de321c
-  - D🔴🇷🇺hos[🔮🐙🔍📚]_991270c1
-  - D🔴🇸🇪hos[🤖💬🔮🎵]_180c9335
-  - D🔴🇸🇬hos[🤖💬🎵🎮]_185196af
-  - D🔴🇸🇬hos_731ac5ff
-  - D🔴🇸🇬hos_c8c444fd
-  - D🔴🇹🇭hos[🤖💬🔮🧩]_8da68037
-  - D🔴🇺🇸hos[🎮]_343ae4aa
-  - D🔴🇺🇸hos[🐙]_4e17894f
-  - D🔴🇺🇸hos[📺]_568f056a
-  - D🔴🇺🇸hos[📺]_6de72c54
-  - D🔴🇺🇸hos[🤖💬🎮🔍]_fccd5dab
-  - D🔴🇺🇸hos[🤖💬🔮🎵]_853162e1
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_05011d06
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_1188f394
+  - D🔴🇯🇵hos_4900a88a
+  - D🔴🇰🇷hos[🔮🎵📚]_f7be86c8
+  - D🔴🇳🇱hos[🤖💬🔮🎮]_1ee853a3
+  - D🔴🇳🇱hos[🤖💬🔮🎵]_33ffe908
+  - D🔴🇳🇱hos[🤖💬🔮🎵]_f6303636
+  - D🔴🇳🇱hos[🤖💬🔮📦]_47dbdd00
+  - D🔴🇳🇱hos[🤖💬🔮📦]_5a16ef58
+  - D🔴🇳🇱hos[🤖💬🔮📺]_c6134407
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_9986f45d
+  - D🔴🇵🇭hos_19b515e6
+  - D🔴🇸🇪hos[🤖💬🔮🧩]_180c9335
+  - D🔴🇸🇬hos[🎮✈️🐙🔍]_f56c
+  - D🔴🇸🇬hos[🔮🎵]_c8c444fd
+  - D🔴🇸🇬hos[🤖💬🔮🎵]_185196af
+  - D🔴🇺🇸hos[🎮🐙]_4e17894f
+  - D🔴🇺🇸hos[🤖🎮✈️📚]_34c3c6dd
+  - D🔴🇺🇸hos[🤖🎵✈️🐙]_016d9dc7
+  - D🔴🇺🇸hos[🤖💬🎵]_568f056a
+  - D🔴🇺🇸hos[🤖💬🎵🎞️]_6d6b41c5
+  - D🔴🇺🇸hos[🤖💬🔮🎮]_f4f770d1
+  - D🔴🇺🇸hos[🤖💬🔮🎵]_d37c7415
+  - D🔴🇺🇸hos[🤖💬🔮🎵]_ffebf486
+  - D🔴🇺🇸hos[🤖💬🔮🧩]_0cb09444
   - D🔴🇺🇸hos[🤖💬🔮🧩]_13889823
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_373eb482
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_582c323a
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6d6b41c5
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_8df65cc3
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_d37c7415
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_ffebf486
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_8302b676
-  - D🔴🇺🇸hos_034ba6dd
+  - D🔴🇺🇸hos[🤖🔮📺]_4cc7e454
+  - D🔴🇺🇸hos_342cda1e
+  - D🔴🇺🇸hos_3dc5b537
+  - D🔴🇺🇸hos_60b20da2
   - D🔴🇺🇸hos_a6052a43
-  - D🔴🇻🇳hos[🤖💬🔮📺]_c355101a
-  - U⚪🇯🇵ukn[🤖💬🧩📺]_9d5e5d0d
-  - U⚪🇳🇱ukn[🤖💬🔮🧩]_1b492461
-  - U⚪🇸🇪ukn[🤖💬🔮🧩]_e84afe32
-  - U⚪🏳️ukn[✈️]_2ffaa05b
-  - U⚪🏳️ukn[✈️]_5deb6c23
-  - U⚪🏳️ukn[✈️]_73523249
-  - U⚪🏳️ukn[✈️]_96102a68
-  - U⚪🏳️ukn[✈️]_ad6105c9
-  - U⚪🏳️ukn[✈️]_cb10e9d7
-  - U⚪🏳️ukn[🤖💬🔮🎮]_3e91976f
-  - U⚪🏳️ukn[🤖💬🔮🎵]_2e8886fe
-  - U⚪🏳️ukn[🤖💬🔮🎵]_41ddb3a7
-  - U⚪🏳️ukn[🤖💬🔮🧩]_656b80b8
-  - U⚪🏳️ukn_275e588f
-  - U⚪🏳️ukn_31571c1e
-  - U⚪🏳️ukn_334192ec
-  - U⚪🏳️ukn_49e1aa4a
-  - U⚪🏳️ukn_83529b9e
-  - U⚪🏳️ukn_99fcd799
-  - U⚪🏳️ukn_ba3b7ea2
-  - U⚪🏳️ukn_cebe1823
-  - U⚪🏳️ukn_d89346f5
-  - U⚪🏳️ukn_efb39810
-  - U⚪🏳️ukn_f7be86c8
-  - U⚪🏳️ukn_fa0120b9
+  - U⚪🏳️ukn[🎮✈️🔍📚]_899fc334
+  - U⚪🏳️ukn[💬🎮📚]_92c172b4
+  - U⚪🏳️ukn[🤖💬🔮🎵]_a07afe5c
+  - U⚪🏳️ukn[🤖💬🧩🎮]_78065240
+  - U⚪🏳️ukn[🤖🔮🎵]_1188f394
+  - U⚪🏳️ukn[🤖🔮🎵✈️]_7441ad35
+  - U⚪🏳️ukn_18866abf
+  - U⚪🏳️ukn_5bde06c7
 - name: 📦 NodeToolBox
   type: select
   proxies:
   - 8元老牌专线机场
-  - 德国_935579
-  - 意大利_216AA7
-  - 意大利_6C3EB9
-  - 意大利_74B6E2
-  - 意大利_8FE89B
-  - 意大利_E7C165
-  - 新加坡_8E92A2
-  - 日本_433B1A
-  - 日本_A5ABB3
-  - 法国_41C522
-  - 波兰_37F784
-  - 澳大利亚_402249
-  - 瑞典_5D269D
-  - 瑞典_BBB754
-  - 美国_2C506D
-  - 美国_64ED40
-  - 荷兰_1D9F81
-  - 西班牙_8537A1
+  - 俄罗斯_3360A4
+  - 德国_199E01
+  - 意大利_062254
+  - 意大利_730B33
+  - 意大利_902F2D
+  - 意大利_BFF5B3
+  - 意大利_C669F1
+  - 新加坡_CE8672
+  - 日本_22EEB4
+  - 日本_34DEDF
+  - 波兰_6B859F
+  - 瑞典_46CF5E
+  - 瑞典_9751F1
+  - 美国_A907E7
+  - 美国_BF8668
+  - 美国_F7FC9A
+  - 荷兰_88888E
+  - 西班牙_5493D8
 - name: 📦 zhangkaiitugithub/passcro
   type: select
   proxies:
