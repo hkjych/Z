@@ -31,12 +31,12 @@ proxies:
   port: 25318
   password: b36a14f8-fc3f-4142-968f-48031cf5f330
   sni: 775c8bt.lt4.h1clayd.click
-- name: 🇸🇬217441
+- name: ᴛᴇʟᴇɢʀᴀᴍ
   type: hysteria2
-  server: 54.179.113.70
+  server: 47.129.241.99
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-001.fastervpn.world
+  sni: 127.0.0.1
   skip-cert-verify: true
 - name: 🇺🇸139909
   type: hysteria2
@@ -70,6 +70,12 @@ proxies:
   server: steel7.hadsvpn.com
   port: 443
   password: 23c82941-70f4-4381-90db-bd28e9a902e9
+- name: '@OutlineReleasedKey #3'
+  type: hysteria2
+  server: 212.34.137.105
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: shorts.blog-forme.ru
 - name: '@OutlineReleasedKey #4'
   type: hysteria2
   server: 94.183.164.119
@@ -110,9 +116,21 @@ proxies:
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
+- name: '🇰🇷 韩国 | KOR #1'
+  type: hysteria2
+  server: 3.38.149.130
+  port: 443
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 | KOR
   type: hysteria2
   server: 43.201.148.176
+  port: 443
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  skip-cert-verify: true
+- name: '🇸🇬 新加坡 | SGP #2'
+  type: hysteria2
+  server: 54.151.179.216
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
@@ -124,6 +142,12 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "c8827ab99e316c5bd414e21afa915ddf"
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: hysteria2
+  server: 37.123.193.151
+  port: 4942
+  password: "9263c76e"
+  skip-cert-verify: true
 - name: '@OutlineReleasedKey #5'
   type: hysteria2
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
@@ -131,6 +155,22 @@ proxies:
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   skip-cert-verify: true
+- name: 🇮🇷217684
+  type: hysteria2
+  server: ide.vipvirtualnet.eu
+  port: 30746
+  password: "99a271e85dbc4aa8950f9c7beee06b19"
+  sni: del.vipvirtualnet.eu
+  obfs: salamander
+  obfs-password: 7wjvepshx5g115x4
+- name: 🇮🇷217686
+  type: hysteria2
+  server: tgame.vipvirtualnet.eu
+  port: 15066
+  password: "99a271e85dbc4aa8950f9c7beee06b19"
+  sni: hxo.vipvirtualnet.eu
+  obfs: salamander
+  obfs-password: sg4vykhxd2pzk94n
 - name: '>>@oneclickvpnkeys::LV'
   type: hysteria2
   server: hy2-latvia2.unlimited-access.ru
@@ -217,6 +257,15 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
+- name: 'Telegram@vpnjey #4 #2'
+  type: hysteria2
+  server: 2a0f:5707:aaf1:11a6::1
+  port: 5707
+  password: VPNJEy
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
 - name: 'Telegram@vpnjey #3 #2'
   type: hysteria2
   server: 179.61.138.145
@@ -235,7 +284,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
-- name: 'Telegram@vpnjey #4 #2'
+- name: 'Telegram@vpnjey #4 #3'
   type: hysteria2
   server: 2a0f:5707:aaf1:11a6::1
   port: 5707
@@ -327,6 +376,12 @@ proxies:
   sni: nas.aizhzo.com
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: ♻️93@oneclickvpnkeys
+  type: hysteria2
+  server: 129.159.156.109
+  port: 50160
+  password: "f25f19f29ce3fb53a35bf1b35b452a43"
+  skip-cert-verify: true
 - name: ⚕️35@oneclickvpnkeys
   type: hysteria2
   server: 195.63.128.21
@@ -356,6 +411,13 @@ proxies:
   sni: hy2.aspidnet.xyz
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇸🇬217490丨⚡️Telegram
+  type: hysteria2
+  server: 54.179.113.70
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
 - name: 'Telegram@vpnjey #5 #2'
   type: hysteria2
   server: 179.61.138.145
@@ -374,6 +436,14 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
+- name: 'ᴛᴇʟᴇɢʀᴀᴍ #2'
+  type: hysteria2
+  server: 137.131.177.121
+  port: 20000
+  password: z/yIxn3sBV03PkAxbnX8rg==
+  sni: hy2-br.whuiy.xyz
+  obfs: salamander
+  obfs-password: z/yIxn3sBV03PkAxbnX8rg==
 - name: ⚡️ KURDNET | کورد نت | @vpn_kurdnet
   type: ss
   server: 87.236.166.122
@@ -397,26 +467,33 @@ proxies:
   udp: true
 - name: '⚡️ #3'
   type: ss
-  server: 31.57.185.203
-  port: 53799
+  server: 206.1.103.22
+  port: 44364
   cipher: 2022-blake3-aes-256-gcm
-  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:/5JgcLzZPyhkuYysjWrFlg+/Be49fkgoQX+sIHmQT8k=
+  password: Bz8UfpIg1mfq1NKzWJHCqMJKnir+XnFlmg66uhQwadg=:JUq5CmRM+NCKAIwhqfiVvKX/UJnYaGelTBzBQsQFrAY=
   udp: true
 - name: '⚡️ #4'
   type: ss
   server: 31.57.185.203
   port: 53799
   cipher: 2022-blake3-aes-256-gcm
-  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:6P/mJmwaHFp5FDdB9l04qOY4pmYKFt/bq65iOCP+oBU=
+  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:/5JgcLzZPyhkuYysjWrFlg+/Be49fkgoQX+sIHmQT8k=
   udp: true
 - name: '⚡️ #5'
   type: ss
   server: 31.57.185.203
   port: 53799
   cipher: 2022-blake3-aes-256-gcm
-  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:dH10Q9Khf82k9q2RVRvDY0PtLcucj08Hnunbjo63MPM=
+  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:6P/mJmwaHFp5FDdB9l04qOY4pmYKFt/bq65iOCP+oBU=
   udp: true
 - name: '⚡️ #6'
+  type: ss
+  server: 31.57.185.203
+  port: 53799
+  cipher: 2022-blake3-aes-256-gcm
+  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:dH10Q9Khf82k9q2RVRvDY0PtLcucj08Hnunbjo63MPM=
+  udp: true
+- name: '⚡️ #7'
   type: ss
   server: 31.57.185.203
   port: 53799
@@ -430,35 +507,42 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:xMZdXxFcqjAuzgiuGTBdveBqsh2zHIVZwxQbp/IrLmY=
   udp: true
-- name: '⚡️ #7'
+- name: '⚡️ #8'
   type: ss
   server: 206.1.103.22
   port: 46382
   cipher: 2022-blake3-aes-256-gcm
   password: gFpTQ78gzoU2n9z856azv7cSdalPDP1XQUgR6KhQ6G4=:mxkMMHcfVloLsmx8ycuOTa6bM6EDiAibDlu5TEHDw8U=
   udp: true
-- name: '⚡️ #8'
+- name: '⚡️ #9'
   type: ss
   server: 206.1.103.120
   port: 24374
   cipher: 2022-blake3-aes-256-gcm
   password: hEzBZw+S3SFV5kRjyKhvnfu7NASZXlfkzCosaqj+ios=:6G4o78umabIAHWtUS/wvWmT8EGLQ1FZkQ7M0iB04SAg=
   udp: true
-- name: '⚡️ #9'
+- name: '⚡️ #10'
   type: ss
   server: 206.1.103.120
   port: 24374
   cipher: 2022-blake3-aes-256-gcm
   password: hEzBZw+S3SFV5kRjyKhvnfu7NASZXlfkzCosaqj+ios=:CIGAOWB9WI6ThC+rRufkyyEld6B5Z0AUICHiXPXfYHg=
   udp: true
-- name: '⚡️ #10'
+- name: '⚡️ #11'
   type: ss
   server: 206.1.103.120
   port: 24374
   cipher: 2022-blake3-aes-256-gcm
   password: hEzBZw+S3SFV5kRjyKhvnfu7NASZXlfkzCosaqj+ios=:SSdtSE3r9XCSb/5D0tkvScw8YknCRf9Q+xL6TZY416o=
   udp: true
-- name: '⚡️ #11'
+- name: 🇸🇪217738
+  type: ss
+  server: 51.21.142.135
+  port: 443
+  cipher: 2022-blake3-aes-256-gcm
+  password: hYcjmg6cUWEyhMzwIKye5P9AVyzASvGJtdx2MA1LzCg=:9Ql4I/3Zd7TdTt0JzeWVlelmO74/WnQfQDQdyV5t/E8=
+  udp: true
+- name: '⚡️ #12'
   type: ss
   server: 31.57.185.203
   port: 33073
@@ -479,14 +563,21 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: '@meliproxyy'
+- name: '@V2ray_Alpha⚓'
   type: ss
   server: 47.85.201.22
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   udp: true
-- name: '@V2rayNGVPN'
+- name: 🇩🇪01
+  type: ss
+  server: 18.198.4.216
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: '@v2ray_configs_pools'
   type: ss
   server: 47.245.167.223
   port: 443
@@ -514,9 +605,23 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
+- name: openproxylist
+  type: ss
+  server: 8.211.57.86
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
 - name: '@Shh_Proxy-New⁴'
   type: ss
   server: 18.199.171.99
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: ss-3.121.208.76-443
+  type: ss
+  server: 3.121.208.76
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
@@ -556,16 +661,9 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🕒 | 🇩🇪-7375 | 49.3 MB/s 🔥
+- name: 🕒 | 🇩🇪-7469 | 7.5 MB/s 🔥
   type: ss
-  server: 63.189.231.176
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: 🕒 | 🇩🇪-7374 | 576 KB/s ⚡
-  type: ss
-  server: 8.211.57.86
+  server: 8.209.106.54
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
@@ -577,14 +675,14 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 9PfRlIGvpMs8nD7s65B/3IxccQG+p631X9tCLZy+CRI=
   udp: true
-- name: '@V2rayNGVPN #2'
+- name: '@V2rayNGVPN'
   type: ss
   server: 16.60.10.6
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: '@V2rayNGVPN #3'
+- name: ss-18.134.252.228-443
   type: ss
   server: 18.134.252.228
   port: 443
@@ -605,7 +703,7 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: '@MigMigVPNSHOP'
+- name: '@v2ray_phoenix'
   type: ss
   server: 18.175.123.65
   port: 443
@@ -619,9 +717,9 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: 🕒 | 🇩🇪-7376 | 15.5 MB/s 🔥
+- name: 🕒 | 🇩🇪-7470 | 96.2 MB/s 🔥
   type: ss
-  server: 35.176.112.173
+  server: 3.8.236.216
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
@@ -633,19 +731,19 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: d4M6fAj9Q07uK4HePntATUAs1KBceMzq8hGPy1AFxFA=
   udp: true
-- name: 🕒 | filembad-4
-  type: ss
-  server: 134.98.149.157
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: sryUuQazZY+E0hvI791uDYFQDWytHCESleMSNw+n4eo=
-  udp: true
 - name: Channel
   type: ss
   server: 129.146.61.90
   port: 50356
   cipher: 2022-blake3-chacha20-poly1305
   password: qG5HzrJO2OAzMFY6WDz991qHHonSP2ix6l6jKlHwokY=
+  udp: true
+- name: 'openproxylist #2'
+  type: ss
+  server: 144.21.35.158
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=
   udp: true
 - name: '@ICV2RAY #4'
   type: ss
@@ -654,12 +752,12 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: tolBTSv+yXMxg+JGGEjJbeGi96nnV3Ax5+7q51jCcEk=
   udp: true
-- name: filembad-10
+- name: 'openproxylist #3'
   type: ss
-  server: 5.57.38.193
-  port: 8080
-  cipher: 2022-blake3-aes-128-gcm
-  password: Dig9t4E8rdydV1374b3Euw==:+YvJwjvPzn5JD0A3p92isg==
+  server: 130.61.145.251
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: uou5NTq+xna9PBIG+8jtSSyQ6idxiXZgeK+Uw52qopY=
   udp: true
 - name: '@VPsave'
   type: ss
@@ -682,13 +780,6 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: jUbDNsFamcyDfpm+rI3Zyw==
   udp: true
-- name: 🇩🇪DE-🚀@VPNine1
-  type: ss
-  server: do.mufvaz.ir
-  port: 8080
-  cipher: 2022-blake3-aes-128-gcm
-  password: qOHCLF66+6fJFVFuWPjXZA==:qZbINYVuaY5AG0iohcNViA==
-  udp: true
 - name: 🇦🇹139728
   type: ss
   server: 138.124.90.40
@@ -703,26 +794,19 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: KComEQ28cVXIzVlxdpTy6LXLockXExZUh1xUJT49/nk=:hPqMImCwa6rdBbI/rlAMiUeSZEi5QpNNUZC5G/89ZHc=
   udp: true
-- name: '⚡️ #12'
+- name: '⚡️ #13'
   type: ss
   server: oztq9osla2ad.dop15.com
   port: 26412
   cipher: 2022-blake3-aes-256-gcm
   password: L9F2GjYbyk6gICuLp2LFmHC0lKaEW7HOA32XTf29C6Y=:OvfxPVBCAsZFpN0pIx9AwgxwxV+U3A7XtRagdUwio+U=
   udp: true
-- name: '@v2ray_phoenix'
+- name: '@v2ray_phoenix #2'
   type: ss
   server: 66.bmi.ir.asopardaz.ir
   port: 35176
   cipher: 2022-blake3-aes-256-gcm
   password: NjcyNmVjMTU1ZWU5NDA5ZDk0ODg1NWM1MzJjZTE3NDk=:NDEzZDFkYThhYjQ0NGZiNGEwZDEyOGM2OTBhODI4ODk=
-  udp: true
-- name: 12685@proxy_online_net
-  type: ss
-  server: 66.bmi.ir.asopardaz.ir
-  port: 35176
-  cipher: 2022-blake3-aes-256-gcm
-  password: NjcyNmVjMTU1ZWU5NDA5ZDk0ODg1NWM1MzJjZTE3NDk=:NTgxY2FiM2U1NjQxNDZmNGI0NjAzZGQzY2QyNTQxNDY=
   udp: true
 - name: '@Filtershekan_channel'
   type: ss
@@ -780,13 +864,6 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: eRkyDNHEJODVfPq0RD/nENW8FDSYGZngm3nRSO2aPqI=:sz9AuStUkPobl1YlyuqVhEx7K2B1IV7K0+bZ+mvRVH0=
   udp: true
-- name: Join
-  type: ss
-  server: 18.118.166.169
-  port: 52791
-  cipher: 2022-blake3-aes-256-gcm
-  password: efRFzZhBfWimE7+3kxHNV62scjj9D/hRm1MKpP8jMhg=:K2g3F+JSfU5q/ecm9fxao+Z3FmkENTuFKkELs5gfNGo=
-  udp: true
 - name: 'چنل #2'
   type: ss
   server: daff0a0042136441daff0a0042136441daff0a0042136441.sajjajas.org
@@ -801,26 +878,19 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:aE6MxBTe+MXHd9HoF2FF/BzKFqGTReMpMevlQhvsu0s=
   udp: true
+- name: 🇩🇪DE-🚀@VPNine1
+  type: ss
+  server: 77.90.10.175
+  port: 8086
+  cipher: 2022-blake3-aes-256-gcm
+  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=
+  udp: true
 - name: '@Nexus_Panell #2'
   type: ss
   server: frr.drwrdoh.org
   port: 8086
   cipher: 2022-blake3-aes-256-gcm
   password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=
-  udp: true
-- name: '@VPsave #2'
-  type: ss
-  server: us.sajjajas.org
-  port: 8086
-  cipher: 2022-blake3-aes-256-gcm
-  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:vdlsLBjmWHeUKUyK0zcFgBrUyYw8Xgyu6QugPdM0mhM=
-  udp: true
-- name: YFZ
-  type: ss
-  server: 51.21.142.135
-  port: 443
-  cipher: 2022-blake3-aes-256-gcm
-  password: hYcjmg6cUWEyhMzwIKye5P9AVyzASvGJtdx2MA1LzCg=:9Ql4I/3Zd7TdTt0JzeWVlelmO74/WnQfQDQdyV5t/E8=
   udp: true
 - name: '@sora1co'
   type: ss
@@ -829,33 +899,19 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: im7wQea8A7n+DI+q0O0ZDYpUPNcEnYK6LpOD6gj20NQ=:qnSPecKzN183ZW5eUPioqt0pRlUpg7DYcko33VhhUm4=
   udp: true
-- name: '@v2ray_phoenix #2'
-  type: ss
-  server: 16.171.44.134
-  port: 443
-  cipher: 2022-blake3-aes-256-gcm
-  password: k8IgRTFAIZdpbdRBVtNQpsYvc9ey30MXxTXzjhRs0Uw=:HaUACYvs7z4EUqvZCtOryKvG02thRCZezfzusIfPlMQ=
-  udp: true
-- name: 'Join #2'
-  type: ss
-  server: 13.53.91.116
-  port: 47022
-  cipher: 2022-blake3-aes-256-gcm
-  password: zMs60mW7BeIj7gLbg5YrdH7Ulcey8fB7z/ifZSagtIY=:Wdk07+eJvganPPlxJF9bIT/h9dIcePwSigo75QNSEF8=
-  udp: true
-- name: 'Join #3'
-  type: ss
-  server: 51.21.253.12
-  port: 58317
-  cipher: 2022-blake3-aes-256-gcm
-  password: zUK6nXbPNzQJCYuzw4xOHF+SNUf9JydSJ6FdwJ/Dm0w=:nDWilBlJjxXZ2e/bxyM/VVsUurvl79TDE3OLf8M9ZJE=
-  udp: true
 - name: '@IRAN_V2RAY1 #2'
   type: ss
   server: 51.21.253.12
   port: 58317
   cipher: 2022-blake3-aes-256-gcm
   password: zUK6nXbPNzQJCYuzw4xOHF+SNUf9JydSJ6FdwJ/Dm0w=:xELtXp60XHwS6uUKkcdLHN6IfbblIYtp/0MKXGJHUmc=
+  udp: true
+- name: 🕒 | canfingV2rayNG-10
+  type: ss
+  server: 13.140.83.153
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: 4IxReHOucKiwvosjoRXlLLpu20Pso-rZ
   udp: true
 - name: '@AZARBAYJAB1'
   type: ss
@@ -878,28 +934,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 575hiopq2h28yao6
   udp: true
-- name: 🕒 | 🇨🇦-349 | 603 KB/s ⚡
+- name: '🇸🇬 新加坡 | SGP #7'
   type: ss
-  server: leviko-ca8416.shopingggg.ir
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 575hiopq2h28yao6
-  udp: true
-- name: 🕒 | 🇸🇬-688 | 162 KB/s 🐌
-  type: ss
-  server: 13.250.18.186
+  server: 54.151.179.216
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: 🕒 | 🇰🇷-205 | 801 KB/s ⚡
-  type: ss
-  server: 43.201.56.25
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
-- name: '🇸🇬 新加坡 | SGP #2'
+- name: '🇸🇬 新加坡 | SGP #2 #2'
   type: ss
   server: 54.169.244.129
   port: 8443
@@ -916,6 +958,13 @@ proxies:
 - name: 🇸🇬
   type: ss
   server: 13.229.75.115
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+- name: '@V2rayNPVTConfig'
+  type: ss
+  server: 3.34.42.33
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -948,7 +997,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "8af226b7726f4d4cb5c72fe3b57050f0"
   udp: true
-- name: 🇬🇧 ss-GB-1621...
+- name: ss-54.37.240.40-8080
   type: ss
   server: 54.37.240.40
   port: 8080
@@ -969,24 +1018,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 8zw5j9h
   udp: true
-- name: 🇫🇷FR-🚀@VPNine1
+- name: '[97916]'
+  type: ss
+  server: 104.192.227.162
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 91LFVJhY6a7f8KeJPeuYln
+  udp: true
+- name: 12811@proxy_online_net
   type: ss
   server: dash.chiex.ir
   port: 1349
-  cipher: chacha20-ietf-poly1305
-  password: 9SEaslNl_pEIU3Mg_Lqhvnygb4xM6kkf
-  udp: true
-- name: 🇳🇱217453
-  type: ss
-  server: dns22.m3hrzd.ir
-  port: 1348
-  cipher: chacha20-ietf-poly1305
-  password: 9SEaslNl_pEIU3Mg_Lqhvnygb4xM6kkf
-  udp: true
-- name: 🇳🇱217455
-  type: ss
-  server: dns27.m3hrzd.ir
-  port: 8044
   cipher: chacha20-ietf-poly1305
   password: 9SEaslNl_pEIU3Mg_Lqhvnygb4xM6kkf
   udp: true
@@ -1018,7 +1060,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: -XeqJAqvdwgIkYOLsuSPv4ENWVQ1J1Ta
   udp: true
-- name: ss-51.38.127.93-8080
+- name: "10."
   type: ss
   server: 51.38.127.93
   port: 8080
@@ -1031,6 +1073,13 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 0JtCfjPIHnLCzDia
+  udp: true
+- name: 🕒 | filembad-14
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: 0SxLXFtomY9ypO4o8rrNWEpNSZEFzsMnfhBETUd3oOw=
   udp: true
 - name: 🇰🇷 ss-KR-1126...
   type: ss
@@ -1060,7 +1109,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 1RWwXhwfAB5gAEozU4G2Pg
   udp: true
-- name: 🇩🇪DE-156.67.120.205-0268
+- name: 🇳🇱 ss-NL-1618...
   type: ss
   server: 156.67.120.205
   port: 51628
@@ -1074,7 +1123,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 29irqk0paakcx19v
   udp: true
-- name: 🇨🇿CZ-194.87.233.93-0267
+- name: 🇳🇱 ss-NL-1622...
   type: ss
   server: 194.87.233.93
   port: 46190
@@ -1095,14 +1144,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2cvhpvdg4x7mvbps
   udp: true
-- name: 🕒 | 🇨🇦-350 | 977 KB/s ⚡
-  type: ss
-  server: leviko-ca4638.shopingggg.ir
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 2cvhpvdg4x7mvbps
-  udp: true
-- name: 🇸🇪SE-62.182.193.228-0173
+- name: 🇸🇪 ss-SE-1620...
   type: ss
   server: 62.182.193.228
   port: 8388
@@ -1151,12 +1193,19 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 3h3hb2gptqz6suyt
   udp: true
-- name: ⚡01
+- name: '@V2rayNGVPN #2'
   type: ss
   server: 67.159.56.79
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: ~4HT,}bC@heiRai
+  udp: true
+- name: 🕒 | 🇳🇱-4916 | 89.9 MB/s 🔥
+  type: ss
+  server: dns27.m3hrzd.ir
+  port: 8044
+  cipher: chacha20-ietf-poly1305
+  password: uIhnwj6102ZOtzHVgEN64cSPawtiSjSj
   udp: true
 - name: '@sora1co #2'
   type: ss
@@ -1193,26 +1242,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: wwzVn2ZnHfqYa6l8EWh3eY
   udp: true
-- name: ss-51.77.144.182-8080
+- name: 🇫🇷FR-51.77.144.182-0209
   type: ss
   server: 51.77.144.182
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: x19py0a8ipglqkbe
-  udp: true
-- name: ss-104.238.189.201-446
-  type: ss
-  server: 104.238.189.201
-  port: 446
-  cipher: chacha20-ietf-poly1305
-  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
-  udp: true
-- name: ss-160.236.238.232-543
-  type: ss
-  server: 160.236.238.232
-  port: 543
-  cipher: chacha20-ietf-poly1305
-  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
   udp: true
 - name: '🔺@DemonVpn🔻 #2'
   type: ss
@@ -1220,13 +1255,6 @@ proxies:
   port: 80
   cipher: chacha20-ietf-poly1305
   password: xkud5hn
-  udp: true
-- name: 🇸🇪VEGAAS_VPN
-  type: ss
-  server: vexnet.zqpm.ir
-  port: 8093
-  cipher: chacha20-ietf-poly1305
-  password: xu4zDsV9wcbTItuW39DJbot-toAhvsHz
   udp: true
 - name: '@Cnetvpn'
   type: ss
@@ -1326,7 +1354,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🇦🇹AT-152.53.1.57-0250
+- name: 🇦🇹 ss-AT-1614...
   type: ss
   server: 152.53.1.57
   port: 8388
@@ -1431,13 +1459,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: FD3rCuOsxOay
   udp: true
-- name: 🇨🇦CA-51.161.118.38-2371
-  type: ss
-  server: 51.161.118.38
-  port: 801
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: '@Shh_Proxy-New³'
   type: ss
   server: 20.166.20.135
@@ -1459,6 +1480,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G5p6ww4o67HB
   udp: true
+- name: '@filembad'
+  type: ss
+  server: dash.chiex.ir
+  port: 1349
+  cipher: chacha20-ietf-poly1305
+  password: H4zMxVHzMVuvU1kbGvajXVou2loGbioO
+  udp: true
+- name: 12856@proxy_online_net
+  type: ss
+  server: dns22.m3hrzd.ir
+  port: 1348
+  cipher: chacha20-ietf-poly1305
+  password: H4zMxVHzMVuvU1kbGvajXVou2loGbioO
+  udp: true
 - name: 🇮🇷139797
   type: ss
   server: e3.cover20.ir
@@ -1479,13 +1514,6 @@ proxies:
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: JSt2MItSNojclziLqp74RiVjpCmODfEo
-  udp: true
-- name: US
-  type: ss
-  server: 104.238.140.45
-  port: 11051
-  cipher: chacha20-ietf-poly1305
-  password: JUXsy78dSs6ROkasikmoaL
   udp: true
 - name: 11871@proxy_online_net
   type: ss
@@ -1550,7 +1578,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: '>>@freeland8::XX'
+- name: ss-193.29.139.212-8080
   type: ss
   server: 193.29.139.212
   port: 8080
@@ -1655,6 +1683,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: WTQlw0DYHp6QQjow
   udp: true
+- name: 🕒 | filembad-20
+  type: ss
+  server: irtunh.g44mozgh.ir
+  port: 2085
+  cipher: chacha20-ietf-poly1305
+  password: Wdi8uZgbklG-_xVPVbwe1OmQcvLC7QDc
+  udp: true
 - name: '🔺@DemonVpn🔻 #3'
   type: ss
   server: 13.79.22.98
@@ -1697,6 +1732,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: YF329KNGVTUZ1qrH
   udp: true
+- name: 🇫🇮FI-🚀@VPNine1
+  type: ss
+  server: fn1s.sublinkplas.ir
+  port: 53731
+  cipher: chacha20-ietf-poly1305
+  password: YaOR3CBjS_4aEs6dfBCKQbxd9-pf929G
+  udp: true
 - name: 🇮🇷139798
   type: ss
   server: e1.cover20.ir
@@ -1711,7 +1753,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Ymyji11eZzSzl5AYw9HyjAQd7djfKppb
   udp: true
-- name: '@V2rayNGVPN #4'
+- name: '@V2rayNGVPN #3'
   type: ss
   server: dns27.m3hrzd.ir
   port: 8044
@@ -1837,16 +1879,16 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: eVC634QvVk5l
   udp: true
-- name: ss-54.36.174.140-443
+- name: '@hex_proxy'
   type: ss
-  server: 54.36.174.140
+  server: 54.36.174.134
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eetk7pw
   udp: true
-- name: 🕒 | 🇵🇱-922 | 116 KB/s 🐌
+- name: 🇫🇷FR-54.36.174.140-0213
   type: ss
-  server: leviko-pl5964.shopingggg.ir
+  server: 54.36.174.140
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eetk7pw
@@ -1865,7 +1907,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: fQUUCljoCc
   udp: true
-- name: '@ConfigV2RayNG #5'
+- name: Tel-@ProxyMtAlpha🐆
   type: ss
   server: 57.129.138.142
   port: 8080
@@ -1879,6 +1921,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: gJe7umStIck5Mieg
   udp: true
+- name: 'ᴛᴇʟᴇɢʀᴀᴍ #3'
+  type: ss
+  server: 88.218.18.85
+  port: 1008
+  cipher: chacha20-ietf-poly1305
+  password: gg4ze2bpu0wsy6s6
+  udp: true
 - name: "1008"
   type: ss
   server: bbomb.okamii1.ir
@@ -1886,7 +1935,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: gg4ze2bpu0wsy6s6
   udp: true
-- name: ss-77.221.132.206-24759
+- name: '@V2ray_confiig'
   type: ss
   server: 77.221.132.206
   port: 24759
@@ -1935,7 +1984,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: jiUTzfdPo7fW
   udp: true
-- name: '@V2ray_confiig'
+- name: '@V2ray_confiig #2'
   type: ss
   server: 102.133.161.245
   port: 443
@@ -1956,7 +2005,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱NL-193.29.139.223-0100
+- name: 🇳🇱NL-193.29.139.223-0239
   type: ss
   server: 193.29.139.223
   port: 8080
@@ -1977,14 +2026,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.180-0082
+- name: 🇬🇧GB-82.38.31.180-0252
   type: ss
   server: 82.38.31.180
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.181-0107
+- name: 🇬🇧GB-82.38.31.181-0233
   type: ss
   server: 82.38.31.181
   port: 8080
@@ -1998,7 +2047,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.184-0092
+- name: 🇬🇧GB-82.38.31.184-0242
   type: ss
   server: 82.38.31.184
   port: 8080
@@ -2012,28 +2061,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.187-0079
+- name: ss-82.38.31.187-8080
   type: ss
   server: 82.38.31.187
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.189-0081
+- name: 🇬🇧GB-82.38.31.189-0254
   type: ss
   server: 82.38.31.189
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.190-0101
+- name: 🇬🇧GB-82.38.31.190-0238
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.191-0109
+- name: 🇬🇧GB-82.38.31.191-0076
   type: ss
   server: 82.38.31.191
   port: 8080
@@ -2047,14 +2096,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.193-0087
+- name: 🇬🇧GB-82.38.31.193-0247
   type: ss
   server: 82.38.31.193
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.194-0090
+- name: '@FarazV2ray #2'
   type: ss
   server: 82.38.31.194
   port: 8080
@@ -2075,14 +2124,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.199-0224
+- name: 🇬🇧GB-82.38.31.199-0184
   type: ss
   server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #2'
+- name: '@FarazV2ray #3'
   type: ss
   server: 82.38.31.200
   port: 8080
@@ -2096,7 +2145,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.202-0084
+- name: 🇬🇧GB-82.38.31.202-0250
   type: ss
   server: 82.38.31.202
   port: 8080
@@ -2110,7 +2159,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 12692@proxy_online_net
+- name: 12760@proxy_online_net
   type: ss
   server: 82.38.31.204
   port: 8080
@@ -2124,42 +2173,42 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.206-0108
+- name: 🇬🇧GB-82.38.31.206-0232
   type: ss
   server: 82.38.31.206
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.207-0172
+- name: 🇬🇧GB-82.38.31.207-0074
   type: ss
   server: 82.38.31.207
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.208-0088
+- name: 'TEL;Father_vpn #2'
   type: ss
   server: 82.38.31.208
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.210-0078
+- name: 🇬🇧GB-82.38.31.210-0089
   type: ss
   server: 82.38.31.210
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@V2raySaman'
+- name: IRAN_V2PING@
   type: ss
   server: 82.38.31.211
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.212-0080
+- name: 🇬🇧GB-82.38.31.212-0255
   type: ss
   server: 82.38.31.212
   port: 8080
@@ -2173,28 +2222,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.214-0094
+- name: 🇬🇧GB-82.38.31.214-0241
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@Rayan_Config-82.38.31.215-@beepassvpn_bot'
+- name: '@nofiltering2'
   type: ss
   server: 82.38.31.215
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.216-0098
+- name: 🇬🇧GB-82.38.31.216-0240
   type: ss
   server: 82.38.31.216
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.217-0102
+- name: 🇬🇧GB-82.38.31.217-0077
   type: ss
   server: 82.38.31.217
   port: 8080
@@ -2208,14 +2257,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.219-0225
+- name: 🇬🇧GB-82.38.31.219-0195
   type: ss
   server: 82.38.31.219
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@nofiltering2'
+- name: '@nofiltering2 #2'
   type: ss
   server: 82.38.31.220
   port: 8080
@@ -2236,7 +2285,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: kvrov4vd4iszb3aw
   udp: true
-- name: ss-15.235.57.6-8080
+- name: 🇨🇦CA-15.235.57.6-0164
   type: ss
   server: 15.235.57.6
   port: 8080
@@ -2278,7 +2327,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: n4lfLGpalfuK0Uxh
   udp: true
-- name: '@ConfigV2RayNG #6'
+- name: '@V2ray_Alpha⚓ #2'
   type: ss
   server: 57.131.21.102
   port: 8080
@@ -2299,7 +2348,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oYQ8JwEldYn4KT2gfZ6eNl
   udp: true
-- name: 🇬🇧GB-178.83.185.156-0188
+- name: 🇬🇧GB-178.83.185.156-0141
   type: ss
   server: 178.83.185.156
   port: 8080
@@ -2313,7 +2362,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '>>@freeland8::XX #2'
+- name: '>>@freeland8::XX'
   type: ss
   server: 193.29.139.129
   port: 8080
@@ -2341,7 +2390,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '>>@freeland8::XX #3'
+- name: '>>@freeland8::XX #2'
   type: ss
   server: 193.29.139.225
   port: 8080
@@ -2362,7 +2411,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss-193.29.139.235-443
+- name: 'IRAN_V2PING@ #2'
   type: ss
   server: 193.29.139.235
   port: 443
@@ -2404,7 +2453,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '@v2ray_configs_pools'
+- name: '@v2ray_configs_pools #2'
   type: ss
   server: 82.38.31.156
   port: 8080
@@ -2418,7 +2467,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 12754@proxy_online_net
+- name: ss-82.38.31.165-443
   type: ss
   server: 82.38.31.165
   port: 443
@@ -2467,7 +2516,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.35-0187
+- name: 🇬🇧GB-82.38.31.35-0140
   type: ss
   server: 82.38.31.35
   port: 8080
@@ -2481,7 +2530,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '@V2ray_confiig #2'
+- name: '@V2ray_confiig #3'
   type: ss
   server: 82.38.31.3
   port: 8080
@@ -2495,42 +2544,42 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 'YFZ #2'
+- name: YFZ
   type: ss
   server: 82.38.31.42
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.46-0184
+- name: 🇬🇧GB-82.38.31.46-0151
   type: ss
   server: 82.38.31.46
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.47-0174
+- name: 🇬🇧GB-82.38.31.47-0145
   type: ss
   server: 82.38.31.47
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.48-0189
+- name: 🇬🇧GB-82.38.31.48-0146
   type: ss
   server: 82.38.31.48
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.49-0182
+- name: 🇬🇧GB-82.38.31.49-0138
   type: ss
   server: 82.38.31.49
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.61-0186
+- name: 🇬🇧GB-82.38.31.61-0144
   type: ss
   server: 82.38.31.61
   port: 8080
@@ -2544,7 +2593,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.66-0185
+- name: 🇬🇧GB-82.38.31.66-0142
   type: ss
   server: 82.38.31.66
   port: 8080
@@ -2578,13 +2627,6 @@ proxies:
   port: 20700
   cipher: chacha20-ietf-poly1305
   password: pLGCPnj2WgzxX1IedW8yd7trwRlXqjLa
-  udp: true
-- name: 🇷🇺217388
-  type: ss
-  server: 192.144.59.146
-  port: 29348
-  cipher: chacha20-ietf-poly1305
-  password: por7Eu0qqxHmGMA9mRXys9kR7u8g7KGyNIxUNT
   udp: true
 - name: configprxy
   type: ss
@@ -2642,7 +2684,7 @@ proxies:
   cipher: chacha20-ietf
   password: asd123456
   udp: true
-- name: 🇳🇱NL-109.201.152.181-0163
+- name: 🇳🇱NL-109.201.152.181-0134
   type: ss
   server: 109.201.152.181
   port: 443
@@ -2656,28 +2698,28 @@ proxies:
   cipher: aes-128-gcm
   password: "4e501338a6c03d7626f2fa0e09ed66d6"
   udp: true
-- name: '@OutlineReleasedKey #3'
+- name: '@OutlineReleasedKey #10'
   type: ss
   server: 194.59.250.52
   port: 18501
   cipher: aes-128-gcm
   password: "517403753b63fd4fac88986bf98b11e0"
   udp: true
-- name: '⚡️ #13'
+- name: '⚡️ #14'
   type: ss
   server: 38.180.38.19
   port: 15231
   cipher: aes-128-gcm
   password: "5126ccc78eea4c643cbed4e6c21465e8"
   udp: true
-- name: 🇯🇵JP-168.138.205.100-0229
+- name: 🇯🇵JP-168.138.205.100-0173
   type: ss
   server: 168.138.205.100
   port: 53758
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
   udp: true
-- name: 🇯🇵JP-168.138.205.100-0222
+- name: 🇯🇵JP-168.138.205.100-0178
   type: ss
   server: jpa.123069.xyz
   port: 53758
@@ -2712,21 +2754,21 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇬🇧GB-141.98.101.179-0211
+- name: 🇬🇧GB-141.98.101.179-0253
   type: ss
   server: 141.98.101.179
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇬🇧GB-141.98.101.181-0192
+- name: 🇬🇧GB-141.98.101.181-0139
   type: ss
   server: 141.98.101.181
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '🏳 ss- #6'
+- name: 🇯🇵 ss-JP-5141...
   type: ss
   server: 149.22.87.204
   port: 443
@@ -2740,14 +2782,14 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵JP-149.22.87.241-0175
+- name: 🇯🇵 ss-JP-9223...
   type: ss
   server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-156.146.38.167-0095
+- name: 🇺🇸US-156.146.38.167-0168
   type: ss
   server: 156.146.38.167
   port: 443
@@ -2761,14 +2803,14 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-156.146.38.169-0091
+- name: 🇺🇸US-156.146.38.169-0167
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-156.146.38.170-0103
+- name: 🇺🇸US-156.146.38.170-0170
   type: ss
   server: 156.146.38.170
   port: 443
@@ -2789,7 +2831,7 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-173.244.56.6-5905
+- name: 🇺🇸US-173.244.56.6-0061
   type: ss
   server: 173.244.56.6
   port: 443
@@ -2810,96 +2852,96 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '@ConfigV2RayNG #7'
+- name: '@ConfigV2RayNG #5'
   type: ss
   server: 141.98.101.182
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇪🇸02
+- name: 🇪🇸ES-5.188.181.201-7380
   type: ss
   server: 5.188.181.201
   port: 9031
   cipher: aes-256-cfb
   password: BwcAUZk8hUFAkDGN
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0244
-  type: ss
-  server: 5.188.181.201
-  port: 9019
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-  udp: true
-- name: 🇪🇸ES-5.188.181.201-0237
+- name: 🇪🇸ES-5.188.181.201-0189
   type: ss
   server: 5.188.181.201
   port: 9030
   cipher: aes-256-cfb
   password: GeregetR8cvQHzYr
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0236
+- name: 🇪🇸ES-5.188.181.201-0188
   type: ss
   server: 5.188.181.201
   port: 9027
   cipher: aes-256-cfb
   password: EXN3S3eQpjE7EJu8
   udp: true
-- name: '🇪🇸02 #2'
+- name: 🇪🇸02
   type: ss
   server: 5.188.181.201
   port: 9014
   cipher: aes-256-cfb
   password: KnJGad3FqTvjqbaX
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0245
+- name: 🇪🇸ES-5.188.181.201-0187
   type: ss
   server: 5.188.181.201
   port: 9003
   cipher: aes-256-cfb
   password: JdmRK9gMEqFgs8nP
   udp: true
-- name: 🇵🇱PL-217.30.10.70-5896
+- name: 🇵🇱PL-217.30.10.70-0172
   type: ss
   server: 217.30.10.70
   port: 9045
   cipher: aes-256-cfb
   password: Lp27rqyJq72bZsqX
   udp: true
-- name: 🇪🇸01
-  type: ss
-  server: 5.188.181.201
-  port: 9011
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-  udp: true
-- name: 🇪🇸ES-5.188.181.201-5770
+- name: 🇪🇸ES-5.188.181.201-0183
   type: ss
   server: 5.188.181.201
   port: 9042
   cipher: aes-256-cfb
   password: S7KwUu7yBy58S3Ga
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0249
+- name: 🇪🇸ES-5.188.181.201-7379
+  type: ss
+  server: 5.188.181.201
+  port: 9037
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+  udp: true
+- name: 🇪🇸ES-5.188.181.201-0190
   type: ss
   server: 5.188.181.201
   port: 9041
   cipher: aes-256-cfb
   password: U6qnYRhfyDmn8sgn
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0238
+- name: 🇪🇸ES-5.188.181.201-0191
   type: ss
   server: 5.188.181.201
   port: 9001
   cipher: aes-256-cfb
   password: UkXRsXvR6buDMG2Y
   udp: true
-- name: '⚡01 #2'
+- name: ⚡01
   type: ss
   server: 195.238.126.20
   port: 9001
   cipher: aes-256-cfb
   password: UkXRsXvR6buDMG2Y
+  udp: true
+- name: 🇪🇸ES-5.188.181.201-5217
+  type: ss
+  server: 5.188.181.201
+  port: 9054
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
   udp: true
 - name: '@sora1co #6'
   type: ss
@@ -2908,44 +2950,16 @@ proxies:
   cipher: aes-256-cfb
   password: VcFuyXvND2yQWSFY
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0239
+- name: 🇪🇸ES-5.188.181.201-0193
   type: ss
   server: 5.188.181.201
   port: 9005
   cipher: aes-256-cfb
   password: ZET59LF6DvCC8KVt
   udp: true
-- name: 🇨🇦08
+- name: '🇺🇸 美国 | USA #5'
   type: ss
-  server: 15.156.192.45
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇬🇧GB-16.60.30.137-0165
-  type: ss
-  server: 16.60.30.137
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: ⚡07
-  type: ss
-  server: 18.117.92.138
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: ⚡10
-  type: ss
-  server: 3.145.49.43
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: ⚡15
-  type: ss
-  server: 3.16.78.3
+  server: 3.22.241.58
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -2964,49 +2978,70 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 🇺🇸
+- name: '⚡01 #2'
   type: ss
   server: 18.222.162.16
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: '🇺🇸 #2'
+- name: ss-3.145.49.43-443
+  type: ss
+  server: 3.145.49.43
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-3.148.250.19-443
+  type: ss
+  server: 3.148.250.19
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇺🇸
   type: ss
   server: 98.84.143.49
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0212
+- name: 🇪🇸ES-5.188.181.201-0185
   type: ss
   server: 5.188.181.201
   port: 9029
   cipher: aes-256-cfb
   password: dU3DSNS8wYPXzEKw
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0234
+- name: '⚡01 #3'
+  type: ss
+  server: 195.238.126.20
+  port: 9068
+  cipher: aes-256-cfb
+  password: mwgRg9hRq3b4Qnwb
+  udp: true
+- name: 🇪🇸ES-5.188.181.201-0194
   type: ss
   server: 5.188.181.201
   port: 9040
   cipher: aes-256-cfb
   password: p9z5BVADH2YFs3MN
   udp: true
-- name: 🇰🇷KR-211.178.105.134-0223
+- name: 🇰🇷KR-211.178.105.134-0199
   type: ss
   server: 211.178.105.134
   port: 6123
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: 🇰🇷KR-218.237.185.234-0221
+- name: 🇰🇷KR-218.237.185.234-0198
   type: ss
   server: p141.panda001.net
   port: 4652
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: 🇵🇱PL-217.30.10.70-5895
+- name: 🇵🇱PL-217.30.10.70-0166
   type: ss
   server: 217.30.10.70
   port: 9057
@@ -3020,7 +3055,7 @@ proxies:
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
   udp: true
-- name: 🇯🇵JP-84.247.155.196-0231
+- name: 🇯🇵JP-84.247.155.196-0174
   type: ss
   server: 84.247.155.196
   port: 443
@@ -3071,29 +3106,29 @@ proxies:
   udp: true
 - name: '📡聊天群 #2'
   type: ss
+  server: 4.2.2.3
+  port: 4
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: '📡聊天群 #3'
+  type: ss
   server: 4.5.2.0
   port: 1
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: '📡聊天群 #3'
+- name: '📡聊天群 #4'
   type: ss
   server: 4.5.2.4
   port: 7
   cipher: aes-256-gcm
   password: "123456"
   udp: true
-- name: '📡聊天群 #4'
+- name: '📡聊天群 #5'
   type: ss
   server: 4.7.1.5
   port: 8
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: '📡聊天群 #5'
-  type: ss
-  server: 5.0.2.0
-  port: 2
   cipher: aes-256-gcm
   password: "123456"
   udp: true
@@ -3125,7 +3160,7 @@ proxies:
   cipher: aes-256-gcm
   password: 7BcLdsO1WweoGD0X
   udp: true
-- name: '@VPsave #3'
+- name: '@VPsave #2'
   type: ss
   server: d-ali.200913.xyz
   port: 11071
@@ -3160,7 +3195,7 @@ proxies:
   cipher: aes-256-gcm
   password: BWyPPTusFKhGgzKh
   udp: true
-- name: 🇯🇵 ss-JP-1599...
+- name: 美国+
   type: ss
   server: 154.36.158.197
   port: 8388
@@ -3180,6 +3215,13 @@ proxies:
   port: 1080
   cipher: aes-256-gcm
   password: FJo_V-KMvriDekN0CYkdNH0C
+  udp: true
+- name: '🇺🇸 #2'
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
   udp: true
 - name: '🔺@DemonVpn🔻 #6'
   type: ss
@@ -3237,14 +3279,14 @@ proxies:
   cipher: aes-256-gcm
   password: MDBjY2RiMDRmMjZjYTAwNzg5MWYxMDIwOWMxMzg0
   udp: true
-- name: 🇷🇺RU-185.22.153.117-0210
+- name: 🇷🇺RU-185.22.153.117-0158
   type: ss
   server: 185.22.153.117
   port: 18443
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
-- name: IRAN_V2PING@
+- name: 'IRAN_V2PING@ #3'
   type: ss
   server: 172.105.39.124
   port: 7002
@@ -3258,7 +3300,7 @@ proxies:
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: 🇬🇧GB-94.156.250.148-0230
+- name: 🇬🇧GB-94.156.250.148-0205
   type: ss
   server: 94.156.250.148
   port: 7001
@@ -3335,14 +3377,28 @@ proxies:
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: ss-185.176.204.18-19999
+- name: ss-149.88.106.73-19999
   type: ss
-  server: 185.176.204.18
+  server: 149.88.106.73
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-137.184.89.151-0074
+- name: ss-185.164.175.81-19999
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: ss-57.129.76.233-19999
+  type: ss
+  server: 57.129.76.233
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸US-137.184.89.151-0064
   type: ss
   server: 137.184.89.151
   port: 19999
@@ -3363,35 +3419,28 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-149.40.57.133-0147
+- name: 🇺🇸US-149.40.57.133-0113
   type: ss
   server: 149.40.57.133
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-149.40.57.134-0194
+- name: 🇺🇸US-149.40.57.134-0131
   type: ss
   server: 149.40.57.134
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-149.40.57.138-0146
+- name: 🇺🇸US-149.40.57.138-0068
   type: ss
   server: 149.40.57.138
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇸🇬SG-149.88.106.73-0155
-  type: ss
-  server: 149.88.106.73
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬SG-149.88.106.74-0150
+- name: '🇸🇬 ss-SG-1615... #1'
   type: ss
   server: 149.88.106.74
   port: 19999
@@ -3405,7 +3454,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇸🇬 ss-SG-1615... #1'
+- name: '🇸🇬 ss-SG-1615... #1 #2'
   type: ss
   server: 149.88.107.74
   port: 19999
@@ -3426,21 +3475,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇦🇪AE-151.241.19.29-0097
+- name: 🇦🇪AE-151.241.19.29-0096
   type: ss
   server: 151.241.19.29
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇦🇪AE-151.241.19.36-0099
+- name: 🇦🇪AE-151.241.19.36-0070
   type: ss
   server: 151.241.19.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-162.251.62.31-0124
+- name: 🇺🇸US-162.251.62.31-0112
   type: ss
   server: 162.251.62.31
   port: 19999
@@ -3475,35 +3524,35 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-167.88.62.203-0125
+- name: 🇺🇸US-167.88.62.203-0100
   type: ss
   server: 167.88.62.203
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-167.88.63.99-0115
+- name: 🇺🇸US-167.88.63.99-0102
   type: ss
   server: 167.88.63.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-169.197.142.68-0110
+- name: 🇺🇸US-169.197.142.68-0067
   type: ss
   server: 169.197.142.68
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-172.111.36.123-0120
+- name: 🇺🇸US-172.111.36.123-0086
   type: ss
   server: 172.111.36.123
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-172.111.38.72-0137
+- name: 🇺🇸US-172.111.38.72-0116
   type: ss
   server: 172.111.38.72
   port: 19999
@@ -3517,9 +3566,9 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 ss-IT-1597...
+- name: '@V2rayNGVPN #4'
   type: ss
-  server: 185.164.175.81
+  server: 185.176.204.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3531,7 +3580,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-185.230.230.18-0071
+- name: 🇺🇸US-185.230.230.18-0059
   type: ss
   server: 185.230.230.18
   port: 19999
@@ -3541,13 +3590,6 @@ proxies:
 - name: 🇨🇭 ss-CH-1615...
   type: ss
   server: 186.190.215.251
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@meliproxyy #2'
-  type: ss
-  server: 193.108.117.111
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3566,21 +3608,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-193.151.160.18-0075
+- name: 🇺🇸US-193.151.160.18-0065
   type: ss
   server: 193.151.160.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-193.151.160.9-0076
+- name: 🇺🇸US-193.151.160.9-0062
   type: ss
   server: 193.151.160.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-193.151.163.18-0072
+- name: 🇺🇸US-193.151.163.18-0063
   type: ss
   server: 193.151.163.18
   port: 19999
@@ -3601,14 +3643,14 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹IT-202.50.253.18-0197
+- name: 🇮🇹IT-202.50.253.18-0115
   type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 新西兰+
+- name: 意大利2|@ripaojiedian
   type: ss
   server: 202.50.253.27
   port: 19999
@@ -3622,21 +3664,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹IT-202.50.253.45-0190
+- name: 新西兰+
   type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '新西兰+ #2'
+- name: '🇮🇹 意大利 | ITA #7'
   type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇮🇹 意大利 | ITA #9'
+- name: 意大利|@ripaojiedian
   type: ss
   server: 202.50.253.63
   port: 19999
@@ -3650,35 +3692,35 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇮🇹 意大利 | ITA #8'
+- name: '🇮🇹 意大利 | ITA #1'
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇮🇹 意大利 | ITA #6'
+- name: '新西兰+ #2'
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇮🇹 意大利 | ITA #4'
+- name: '新西兰+ #3'
   type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-216.106.178.169-0113
+- name: 🇺🇸US-216.106.178.169-0154
   type: ss
   server: 216.106.178.169
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-23.150.152.38-0145
+- name: 🇺🇸US-23.150.152.38-0110
   type: ss
   server: 23.150.152.38
   port: 19999
@@ -3692,7 +3734,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇫🇷FR-23.162.152.22-0142
+- name: 🇫🇷 ss-FR-1616...
   type: ss
   server: 23.162.152.22
   port: 19999
@@ -3713,70 +3755,77 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇬🇧 ss-GB-1615... #1'
+- name: '🇬🇧 ss-GB-1615... #2'
   type: ss
   server: 38.114.120.221
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.121.43.18-0157
+- name: 🇺🇸US-38.121.43.18-0087
   type: ss
   server: 38.121.43.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.121.43.225-0167
+- name: 🇺🇸US-38.121.43.225-0103
   type: ss
   server: 38.121.43.225
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.121.43.231-0191
+- name: 🇺🇸US-38.121.43.231-0091
   type: ss
   server: 38.121.43.231
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.128.66.32-0128
+- name: 🇺🇸US-38.128.66.32-0165
   type: ss
   server: 38.128.66.32
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.22.17.129-0114
+- name: 🇺🇸US-38.22.17.129-0078
   type: ss
   server: 38.22.17.129
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.22.17.219-0131
+- name: 🇺🇸US-38.22.17.219-0108
   type: ss
   server: 38.22.17.219
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.91.100.39-0160
+- name: 🇺🇸US-38.91.100.39-0107
   type: ss
   server: 38.91.100.39
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-38.91.107.188-0133
+- name: 🇺🇸US-38.91.107.188-0097
   type: ss
   server: 38.91.107.188
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-45.86.51.18-0073
+- name: US
+  type: ss
+  server: 38.91.107.19
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸US-45.86.51.18-0060
   type: ss
   server: 45.86.51.18
   port: 19999
@@ -3811,16 +3860,9 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '🇨🇭 ss-CH-1615... #1'
+- name: '🇨🇭 ss-CH-1615... #2'
   type: ss
   server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@meliproxyy #3'
-  type: ss
-  server: 79.137.99.183
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3832,21 +3874,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-84.20.27.183-0111
+- name: 🇺🇸US-84.20.27.183-0079
   type: ss
   server: 84.20.27.183
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸US-95.215.201.18-0134
+- name: 🇺🇸US-95.215.201.18-0130
   type: ss
   server: 95.215.201.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@ConfigV2RayNG #8'
+- name: ss-149.40.57.135-19999
   type: ss
   server: 149.40.57.135
   port: 19999
@@ -3860,16 +3902,16 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@V2ray_Alpha⛈️9'
+- name: '@V2ray_confiig #4'
   type: ss
   server: 167.17.67.171
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 'US #2'
+- name: '🇺🇸 #3'
   type: ss
-  server: 167.88.62.56
+  server: 167.88.63.39
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3897,14 +3939,14 @@ proxies:
   udp: true
 - name: '@ICV2RAY #6'
   type: ss
-  server: 193.108.119.83
+  server: 193.108.117.111
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 'US #3'
+- name: '@ICV2RAY #7'
   type: ss
-  server: 38.143.66.146
+  server: 193.108.119.83
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3916,23 +3958,16 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 'US #4'
+- name: '🇺🇸 #4'
   type: ss
-  server: 38.64.138.135
+  server: 38.22.17.214
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: تو
+- name: 'US #2'
   type: ss
   server: 38.91.107.57
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: ss-57.129.76.233-19999
-  type: ss
-  server: 57.129.76.233
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -3944,42 +3979,35 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: ss-67.220.73.178-19999
+- name: '@ghand_sheken #9'
   type: ss
   server: 67.220.73.178
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '@OutlineReleasedKey #10'
+- name: "7"
+  type: ss
+  server: 79.137.99.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '@OutlineReleasedKey #11'
   type: ss
   server: 23.166.88.189
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: ss-23.166.88.127-19999
+- name: 🇨🇭217640
   type: ss
   server: 23.166.88.127
   port: 19999
   cipher: aes-256-gcm
   password: ZRpeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸217464
-  type: ss
-  server: 38.121.43.231
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸217515
-  type: ss
-  server: 38.128.66.32
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '@IRAN_V2RAY1 #6'
+- name: '@cnetvpn #5'
   type: ss
   server: 46.17.47.58
   port: 18443
@@ -3993,7 +4021,7 @@ proxies:
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: 🇨🇦 ss-CA-1545...
+- name: ss-51.79.64.198-8119
   type: ss
   server: 51.79.64.198
   port: 8119
@@ -4007,7 +4035,7 @@ proxies:
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: '🇺🇸 #3'
+- name: '🇺🇸 #5'
   type: ss
   server: 104.36.66.212
   port: 443
@@ -4028,7 +4056,7 @@ proxies:
   cipher: aes-256-gcm
   password: "d1fa2f4b98a38bc8"
   udp: true
-- name: '@ghand_sheken #9'
+- name: '@ghand_sheken #10'
   type: ss
   server: 185.156.47.97
   port: 9443
@@ -4056,7 +4084,7 @@ proxies:
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
   udp: true
-- name: '🇺🇸 #4'
+- name: 'US #3'
   type: ss
   server: 15.204.233.41
   port: 8882
@@ -4084,9 +4112,51 @@ proxies:
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
+- name: 'US #4'
+  type: ss
+  server: 135.148.42.13
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 'US #5'
+  type: ss
+  server: 136.148.77.250
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: "CA"
+  type: ss
+  server: 184.107.106.77
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 'US #6'
+  type: ss
+  server: 40.160.86.43
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 'US #7'
+  type: ss
+  server: 200.102.179.179
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
 - name: '>>@FreakConfig::PL'
   type: ss
   server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 'openproxylist #4'
+  type: ss
+  server: 57.131.27.21
   port: 8388
   cipher: aes-256-gcm
   password: itzvpn@321
@@ -4126,9 +4196,23 @@ proxies:
   cipher: aes-256-gcm
   password: ly7ucs3r3eltbits
   udp: true
-- name: 🇺🇸US-15.204.247.206-0214
+- name: 🇺🇸US-15.204.247.206-0163
   type: ss
   server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 'US #8'
+  type: ss
+  server: 15.204.247.244
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 'US #9'
+  type: ss
+  server: 15.204.247.244
   port: 4444
   cipher: aes-256-gcm
   password: pKEW8JPByTVTLtM
@@ -4147,7 +4231,7 @@ proxies:
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: 🇸🇬SG-139.180.220.175-5897
+- name: 🇸🇬SG-139.180.220.175-0128
   type: ss
   server: 139.180.220.175
   port: 8388
@@ -4168,21 +4252,28 @@ proxies:
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
   udp: true
-- name: 🇨🇦CA-137.184.174.93-0132
+- name: 🇨🇦CA-137.184.174.93-0135
   type: ss
   server: 137.184.174.93
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🇸🇬SG-68.183.227.4-0171
+- name: 🇬🇧GB-146.70.61.37-5242
+  type: ss
+  server: 146.70.61.37
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇸🇬SG-68.183.227.4-0223
   type: ss
   server: 68.183.227.4
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: ⚡06
+- name: ⚡02
   type: ss
   server: 98.98.79.198
   port: 8080
@@ -4203,14 +4294,14 @@ proxies:
   cipher: xchacha20-ietf-poly1305
   password: DIr66gXAEt0sTt2NrkDHWq3gix58BR6LdxcNPURi5xk=
   udp: true
-- name: '@VPsave #4'
+- name: '@VPsave #3'
   type: ss
   server: 178.239.150.77
   port: 11133
   cipher: xchacha20-ietf-poly1305
   password: mDLpXyVaIwCQ5GjuekgBxYMtVT9Z/nkb3K2SXpwHCLU=
   udp: true
-- name: "11133"
+- name: 🇮🇷217636
   type: ss
   server: dlc.deltapc.digital
   port: 11133
@@ -4255,18 +4346,6 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN?26#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: mitivpn.talk
-- name: '@v2ray_phoenix #7'
-  type: trojan
-  server: kimiadollarkimia-production.up.railway.app
-  port: 443
-  password: -ainW_sA2h_JALjfNXrzIWGoRaFI3I9P
-  udp: true
-  sni: kimiadollarkimia-production.up.railway.app
-  network: ws
-  ws-opts:
-    path: /live/2fa2eba2-103a-4ea3-9430-8ca850a61731?ed=2560
-    headers:
-      Host: kimiadollarkimia-production.up.railway.app
 - name: '✅ #4'
   type: trojan
   server: eksmstr-production.up.railway.app
@@ -4279,7 +4358,13 @@ proxies:
     path: /live/d76b7cf8-35ad-4417-bf04-e86cf84a19b4?ed=2560
     headers:
       Host: eksmstr-production.up.railway.app
-- name: '@FarazV2ray #3'
+- name: ⚡
+  type: trojan
+  server: 132.145.51.172
+  port: 443
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  udp: true
+- name: '@FarazV2ray #4'
   type: trojan
   server: image-web-production-2ec53b05.up.railway.app
   port: 443
@@ -4291,7 +4376,7 @@ proxies:
     path: /tr/05cbf32b-7349-4497-b763-65702079929c
     headers:
       Host: image-web-production-2ec53b05.up.railway.app
-- name: '@OutlineReleasedKey #11'
+- name: '@OutlineReleasedKey #12'
   type: trojan
   server: 139.84.231.142
   port: 443
@@ -4327,20 +4412,6 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: discoverparttimepositionsandsupplementyourincomeguide.com
-- name: 'US #5'
-  type: trojan
-  server: 167.88.61.175
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
-- name: '🇺🇸 #5'
-  type: trojan
-  server: 167.88.61.193
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: browseseniorrolesandenhanceyourcareertoday.com
 - name: '@v2ray313'
   type: trojan
   server: 167.88.61.20
@@ -4348,14 +4419,14 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.browseseniorrolesandenhanceyourcareertoday.com
-- name: '@ConfigV2RayNG #9'
+- name: '@ConfigV2RayNG #6'
   type: trojan
   server: 167.88.61.52
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-- name: '@ConfigV2RayNG #10'
+- name: '@ConfigV2RayNG #7'
   type: trojan
   server: 169.197.140.169
   port: 443
@@ -4369,14 +4440,14 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: 🔥Join+Telegram:@Farah_VPN🟣
+- name: '@ConfigV2RayNG #8'
   type: trojan
   server: 169.197.140.208
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: '@ConfigV2RayNG #11'
+- name: '@ConfigV2RayNG #9'
   type: trojan
   server: 169.197.140.214
   port: 443
@@ -4390,20 +4461,20 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: '@ConfigV2RayNG #12'
+- name: '@ConfigV2RayNG #10'
   type: trojan
   server: 169.197.140.245
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #2'
+- name: '@ConfigV2RayNG #11'
   type: trojan
   server: 170.101.101.112
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: 'Channel #4'
+- name: 🔥Join+Telegram:@Farah_VPN🟣
   type: trojan
   server: 170.101.101.131
   port: 443
@@ -4417,27 +4488,27 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #3'
+- name: '🇺🇸 #6'
   type: trojan
   server: 170.101.101.211
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #4'
+- name: '@v2ray313 #2'
   type: trojan
   server: 170.101.101.237
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.explorecreativejobsandenhanceyourcareerportfolio.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #5'
+- name: Tel-@ProxyMtAlpha🗾 3
   type: trojan
   server: 170.101.101.53
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@v2ray313 #2'
+- name: '@v2ray313 #3'
   type: trojan
   server: 170.101.101.67
   port: 443
@@ -4451,7 +4522,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.iloverussia2026.com
-- name: '@OutlineReleasedKey #12'
+- name: '@hex_proxy #2'
   type: trojan
   server: 193.108.119.15
   port: 443
@@ -4465,27 +4536,27 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.iloverussia2026.com
-- name: '@pass_net🍁🌧️'
+- name: '@hex_proxy #3'
   type: trojan
   server: 193.108.119.29
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.iloverussia2026.com
-- name: '@VPNConnectd'
+- name: Telegram
   type: trojan
   server: 193.108.119.34
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.iloverussia2026.com
-- name: '@pass_net🍁🌧️ #2'
+- name: 'openproxylist #5'
   type: trojan
   server: 193.108.119.78
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: 'Config #4'
+- name: '@hex_proxy #4'
   type: trojan
   server: 193.108.119.96
   port: 443
@@ -4504,57 +4575,41 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@v2ray313 #3'
+- name: '@v2ray313 #4'
   type: trojan
   server: 208.69.78.208
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.yourultimateprofessionalcareerhub.com
-- name: '@pass_net🍁🌧️ #3'
+- name: '@pass_net🍁🌧️'
   type: trojan
   server: 208.69.78.222
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: yourultimateprofessionalcareerhub.com
-- name: 'Config #5'
-  type: trojan
-  server: 208.69.78.29
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭CH-208.69.78.33-0148
+- name: 🇨🇭CH-208.69.78.33-0143
   type: trojan
   server: 208.69.78.33
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.yourultimateprofessionalcareerhub.com
-- name: 'Config #6'
-  type: trojan
-  server: 208.69.78.60
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: cdn.yourultimateprofessionalcareerhub.com
-- name: '@ConfigV2RayNG #13'
+- name: '@ConfigV2RayNG #12'
   type: trojan
   server: 216.106.186.155
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.findlocaljobnetworkandbuildcommunityconnections.com
-- name: 'US #6'
+- name: '@ConfigV2RayNG #13'
   type: trojan
   server: 216.106.186.32
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
 - name: '@ConfigV2RayNG #14'
   type: trojan
   server: 216.106.186.33
@@ -4575,7 +4630,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #6'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #2'
   type: trojan
   server: 216.106.186.82
   port: 443
@@ -4615,20 +4670,20 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.connectingpeoplewithgreatjobs.com
-- name: '@V2rayNGVPN #6'
+- name: '@ConfigV2RayNG #16'
   type: trojan
   server: 216.152.147.85
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.connectingpeoplewithgreatjobs.com
-- name: '@V2rayNGVPN #7'
+- name: trojan-216.152.147.89-443
   type: trojan
   server: 216.152.147.89
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: 🇨🇦CA-216.152.147.93-0153
+- name: 🇨🇦
   type: trojan
   server: 216.152.147.93
   port: 443
@@ -4641,7 +4696,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@v2ray313 #4'
+- name: '@v2ray313 #5'
   type: trojan
   server: 216.152.155.158
   port: 443
@@ -4655,14 +4710,14 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.nextjobopportunityandclaimyouridealrole.com
-- name: '@i10VPN³'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #3'
   type: trojan
   server: 216.152.155.23
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.nextjobopportunityandclaimyouridealrole.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #7'
+- name: 12775@proxy_online_net
   type: trojan
   server: 216.152.155.50
   port: 443
@@ -4683,35 +4738,35 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.nextjobopportunityandclaimyouridealrole.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #8'
+- name: trojan-216.152.156.159-443
   type: trojan
   server: 216.152.156.159
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: '@ConfigV2RayNG #16'
+- name: '@ConfigV2RayNG #17'
   type: trojan
   server: 216.152.156.212
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #9'
+- name: '@v2ray_phoenix #7'
   type: trojan
   server: 216.152.156.49
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: '@ConfigV2RayNG #17'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #4'
   type: trojan
   server: 216.152.156.65
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-- name: '@V2ray_Alpha⛈️'
+- name: '@V2ray_confiig #5'
   type: trojan
   server: 216.152.156.81
   port: 443
@@ -4730,79 +4785,76 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: connectwithtopemployersandfindidealjobs.com
-- name: 🇦🇺AU-45.63.30.142-0129
+- name: 🇦🇺AU-45.63.30.142-0083
   type: trojan
   server: 45.63.30.142
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: connectwithemployerstohireyouridealteam.com
-- name: '@ConfigV2RayNG #18'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #5'
   type: trojan
   server: 64.176.7.205
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-- name: 'US #7'
+- name: '@fastkanfig #5'
   type: trojan
   server: 66.163.112.121
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #10'
+- name: '🇺🇸 #7'
   type: trojan
   server: 66.163.112.13
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.unlockyourfuturefindyourperfectcareer.com
-- name: 'US #8'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #6'
   type: trojan
   server: 66.163.112.142
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-- name: 'US #9'
+- name: '@ConfigV2RayNG #18'
   type: trojan
   server: 66.163.112.147
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #11'
+- name: '@ConfigV2RayNG #19'
   type: trojan
   server: 66.163.112.171
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: learn.unlockyourfuturefindyourperfectcareer.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #12'
+- name: '@AZARBAYJAB1 #3'
   type: trojan
   server: 66.163.112.242
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.unlockyourfuturefindyourperfectcareer.com
-- name: '@AZARBAYJAB1 #3'
+- name: '@AZARBAYJAB1 #4'
   type: trojan
   server: 66.163.112.31
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: unlockyourfuturefindyourperfectcareer.com
-- name: 'US #10'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #7'
   type: trojan
   server: 66.163.112.76
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #13'
+- name: '@ConfigV2RayNG #20'
   type: trojan
   server: 66.163.114.106
   port: 443
@@ -4815,28 +4867,28 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: '@ConfigV2RayNG #19'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #8'
   type: trojan
   server: 66.163.114.126
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: openproxylist
+- name: 'Config #4'
   type: trojan
   server: 66.163.114.132
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: '@ConfigV2RayNG #20'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #9'
   type: trojan
   server: 66.163.114.166
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: 'openproxylist #2'
+- name: '@ConfigV2RayNG #21'
   type: trojan
   server: 66.163.114.45
   port: 443
@@ -4850,7 +4902,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: discovergreatjobsandadvanceyourcareer.com
-- name: '@VPsave #5'
+- name: '@VPsave #4'
   type: trojan
   server: 66.163.118.166
   port: 443
@@ -4882,20 +4934,22 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #14'
+- name: 'US #10'
   type: trojan
   server: 66.163.122.113
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: api.searchnationwidecareerchangehelperandguidancetoday.com
-- name: 'Channel #5'
+  skip-cert-verify: true
+- name: 'US #11'
   type: trojan
   server: 66.163.122.25
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
 - name: '@Nexus_Panell #5'
   type: trojan
   server: 66.163.122.26
@@ -4903,7 +4957,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #15'
+- name: '@Nexus_Panell #6'
   type: trojan
   server: 66.163.122.30
   port: 443
@@ -4917,13 +4971,21 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: searchnationwidecareerchangehelperandguidancetoday.com
-- name: '@V2rayNGVPN #8'
+- name: 'US #12'
   type: trojan
   server: 66.163.122.7
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: '@pass_net🍁🌧️ #4'
+- name: 'US #13'
+  type: trojan
+  server: 66.163.122.81
+  port: 443
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  udp: true
+  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
+- name: '@pass_net🍁🌧️ #2'
   type: trojan
   server: 66.163.127.154
   port: 443
@@ -4941,7 +5003,7 @@ proxies:
   port: 443
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
-- name: 🇳🇱NL-66.163.127.225-0143
+- name: '🇳🇱 trojan-NL-... #2'
   type: trojan
   server: 66.163.127.225
   port: 443
@@ -4955,14 +5017,7 @@ proxies:
   password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   udp: true
   sni: learn.indyourperfectremotetechjobfromthecomfortofhome.com
-- name: 🕒 | 🇨🇱-20 | 1.9 MB/s 🔥
-  type: trojan
-  server: leviko-cl8093.shopingggg.ir
-  port: 443
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-  udp: true
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-- name: ⚡
+- name: '⚡ #2'
   type: trojan
   server: series-v1.samanehha.co
   port: 443
@@ -4974,7 +5029,7 @@ proxies:
     path: /43xf5zgeApzDAfhOHq
     headers:
       Host: series-v1.samanehha.co
-- name: '⚡ #2'
+- name: '⚡ #3'
   type: trojan
   server: 51.195.219.173
   port: 443
@@ -4989,13 +5044,44 @@ proxies:
   udp: true
   sni: ali-hk.b-gfw.cfd
   skip-cert-verify: true
-- name: 🌐 Anycast-IP | 🇨🇦 🇹🇼 | [BL]
+- name: 🇹🇼 Taiwan, Taoyuan | [BL]
   type: trojan
   server: 34.80.15.95
   port: 443
   password: "123456"
   udp: true
   sni: tw.ctt25.uk
+- name: 'Config #5'
+  type: trojan
+  server: us.ctt25.uk
+  port: 443
+  password: "123456"
+  udp: true
+  skip-cert-verify: true
+- name: ConfigsHub
+  type: trojan
+  server: 104.129.165.45
+  port: 443
+  password: 13e5d9f4-6a2d-608a-eb64-173d07bbcf66
+  udp: true
+  sni: onex-edge-4b9eb7.onex-f53efa.workers.dev
+  network: ws
+  ws-opts:
+    path: /ws/13e5d9f4-6a2d-608a-eb64-173d07bbcf66
+    headers:
+      Host: onex-edge-4b9eb7.onex-f53efa.workers.dev
+- name: 'ConfigsHub #2'
+  type: trojan
+  server: 104.16.254.120
+  port: 443
+  password: 13e5d9f4-6a2d-608a-eb64-173d07bbcf66
+  udp: true
+  sni: onex-edge-4b9eb7.onex-f53efa.workers.dev
+  network: ws
+  ws-opts:
+    path: /ws/13e5d9f4-6a2d-608a-eb64-173d07bbcf66
+    headers:
+      Host: onex-edge-4b9eb7.onex-f53efa.workers.dev
 - name: '@KAFING_2 #5'
   type: trojan
   server: 172.64.152.23
@@ -5015,20 +5101,18 @@ proxies:
   port: 443
   password: "2223970e6a0b8ad289d3c43dd85dd2c9"
   udp: true
-- name: 'US #11'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #10'
   type: trojan
   server: 216.106.186.66
   port: 443
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
   udp: true
-  skip-cert-verify: true
-- name: 'US #12'
+- name: '@Nexus_Panell #7'
   type: trojan
   server: www.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   password: "242a3d8eee5e4ed1a6bfa4141d549a25"
   udp: true
-  skip-cert-verify: true
 - name: 'kurdconfig #2'
   type: trojan
   server: mtvdderwts-production.up.railway.app
@@ -5041,97 +5125,111 @@ proxies:
     path: /api/zo6GV-
     headers:
       Host: mtvdderwts-production.up.railway.app
-- name: '⚡ #3'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #11'
   type: trojan
-  server: zi.you.usdtvfk.top
+  server: 104.16.0.100
   port: 443
-  password: 4d048fc6-d944-41dd-b327-10856adcc82d
+  password: 3UL92gIM3S
   udp: true
-  sni: zi.you.usdtvfk.top
-- name: '⚡ #4'
-  type: trojan
-  server: cnamemt.ciscocdn1.live
-  port: 443
-  password: 4d706727-996f-4427-930d-60f3bd414cf9
-  udp: true
-  sni: c2mt.ciscocdn1.live
+  sni: amircdn.gholam69.ir
   network: ws
   ws-opts:
-    path: /rDCYQta83d0oPABKBhcIX
+    path: /upload
     headers:
-      Host: c2mt.ciscocdn1.live
-- name: '@VPsave #6'
+      Host: amircdn.gholam69.ir
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #12'
+  type: trojan
+  server: 104.16.0.1
+  port: 443
+  password: 3UL92gIM3S
+  udp: true
+  sni: amircdn.gholam69.ir
+  network: ws
+  ws-opts:
+    path: /upload
+    headers:
+      Host: amircdn.gholam69.ir
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #13'
+  type: trojan
+  server: 104.16.0.2
+  port: 443
+  password: 3UL92gIM3S
+  udp: true
+  sni: amircdn.gholam69.ir
+  network: ws
+  ws-opts:
+    path: /upload
+    headers:
+      Host: amircdn.gholam69.ir
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #14'
+  type: trojan
+  server: 104.16.1.100
+  port: 443
+  password: 3UL92gIM3S
+  udp: true
+  sni: amircdn.gholam69.ir
+  network: ws
+  ws-opts:
+    path: /upload
+    headers:
+      Host: amircdn.gholam69.ir
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #15'
+  type: trojan
+  server: 104.16.1.101
+  port: 443
+  password: 3UL92gIM3S
+  udp: true
+  sni: amircdn.gholam69.ir
+  network: ws
+  ws-opts:
+    path: /upload
+    headers:
+      Host: amircdn.gholam69.ir
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #16'
+  type: trojan
+  server: 104.16.1.1
+  port: 443
+  password: 3UL92gIM3S
+  udp: true
+  sni: amircdn.gholam69.ir
+  network: ws
+  ws-opts:
+    path: /upload
+    headers:
+      Host: amircdn.gholam69.ir
+- name: '⚡ #4'
+  type: trojan
+  server: trus.moonfree.top
+  port: 443
+  password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
+  udp: true
+- name: '@VPsave #5'
   type: trojan
   server: b-cm.jiasu.one
   port: 14525
   password: 5398a62d-6fae-465d-8ffe-19418a8b561e
   udp: true
   sni: us03.200913.xyz
-- name: 'Config #7'
-  type: trojan
-  server: c-cm.jiasu.one
-  port: 47072
-  password: 5398a62d-6fae-465d-8ffe-19418a8b561e
-  udp: true
-  sni: jp04.jiasu.one
-- name: '@VPsave #7'
+- name: '@VPsave #6'
   type: trojan
   server: c-cm.jiasu.one
   port: 54735
   password: 5398a62d-6fae-465d-8ffe-19418a8b561e
   udp: true
   sni: hk04.jiasu.one
-- name: 'Config #8'
-  type: trojan
-  server: c-cm.jiasu.one
-  port: 56262
-  password: 5398a62d-6fae-465d-8ffe-19418a8b561e
-  udp: true
-  sni: hk06.jiasu.one
-- name: '@VPsave #8'
+- name: '@VPsave #7'
   type: trojan
   server: us-1.gsafevpnapi.com
   port: 44370
   password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
   udp: true
-- name: 12700@proxy_online_net
-  type: trojan
-  server: amyrax-panel-a4dwl.sevalla.app
-  port: 443
-  password: 550b21df-e7ca-4325-bd2a-52a8774ffbda
-  udp: true
-  sni: amyrax-panel-a4dwl.sevalla.app
-  network: ws
-  ws-opts:
-    path: /Telegram=@AmyraxVPN
-    headers:
-      Host: amyrax-panel-a4dwl.sevalla.app
-- name: '⚡ #5'
-  type: trojan
-  server: 51.83.186.142
-  port: 443
-  password: 555034c8-6420-45d0-893c-905c02342150
-  udp: true
-  sni: pl1.trojanvh.xyz
 - name: 🇲🇾 trojan-MY-...
   type: trojan
   server: 47.250.84.25
   port: 443
   password: "5931134d1cde66bf83a54acdfebe7ab2"
   udp: true
-- name: '⚡ #6'
-  type: trojan
-  server: cnamemc.ciscocdn1.live
-  port: 443
-  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-  udp: true
-  sni: c3mc.ciscocdn1.live
-  network: ws
-  ws-opts:
-    path: /ywQ9KSLI4ZBm9wOAXUaN
-    headers:
-      Host: c3mc.ciscocdn1.live
-- name: '@V2ray_confiig #3'
+- name: '✅ #5'
   type: trojan
   server: mortedaxsq-production.up.railway.app
   port: 443
@@ -5143,7 +5241,7 @@ proxies:
     path: /api/Ff45FJ
     headers:
       Host: mortedaxsq-production.up.railway.app
-- name: '@pass_net🍁🌧️ #5'
+- name: '@pass_net🍁🌧️ #3'
   type: trojan
   server: 108.61.177.57
   port: 16778
@@ -5157,32 +5255,20 @@ proxies:
   password: 5t6i121em5lkmsmk
   udp: true
   sni: th001.zestapp778.com
-- name: '@v2ray313 #5'
+- name: '@v2ray313 #6'
   type: trojan
   server: in002.zestapp778.com
   port: 42733
   password: 5t6i121em5lkmsmk
   udp: true
   sni: in002.zestapp778.com
-- name: '⚡ #7'
-  type: trojan
-  server: cnamemc1.cdncisco4.co
-  port: 443
-  password: 63779501-4c22-4a03-83d3-9f611b227e7b
-  udp: true
-  sni: c1mc.cdncisco4.co
-  network: ws
-  ws-opts:
-    path: /422Kdfwzf49IxeZJa
-    headers:
-      Host: c1mc.cdncisco4.co
-- name: '⚡ #8'
+- name: '⚡ #5'
   type: trojan
   server: cf.130209.xyz
   port: 2053
   password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #16'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #17'
   type: trojan
   server: 104.16.159.6
   port: 443
@@ -5194,7 +5280,7 @@ proxies:
     path: /6b777a91
     headers:
       Host: bangladeshipatri.com
-- name: 🇺🇸 United States, Los Angeles | [BL]
+- name: 'Config #6'
   type: trojan
   server: us01.node.qixi.best
   port: 443
@@ -5206,7 +5292,7 @@ proxies:
     path: /download
     headers:
       Host: us01.node.qixi.best
-- name: 'Config #9'
+- name: '@V2rayNPVTConfig #2'
   type: trojan
   server: 104.16.72.101
   port: 443
@@ -5218,12 +5304,6 @@ proxies:
     path: /us-gllc@ThePackageCom
     headers:
       Host: space.byu.id.yxls.eu.cc
-- name: '⚡ #9'
-  type: trojan
-  server: 141.94.76.177
-  port: 443
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-  udp: true
 - name: 'Telegram:@v2rayng3 #2'
   type: trojan
   server: 95.40.110.184
@@ -5236,7 +5316,7 @@ proxies:
   port: 50887
   password: "6ec301428255a78a1d826988d86cc87e"
   udp: true
-- name: "443"
+- name: 'Config #7'
   type: trojan
   server: vegatu3-production.up.railway.app
   port: 443
@@ -5248,13 +5328,14 @@ proxies:
     path: /tr/8771fca3-242d-4c68-9fe3-db8c5ab4c86b
     headers:
       Host: vegatu3-production.up.railway.app
-- name: '⚡ #10'
+- name: '⚡ #6'
   type: trojan
-  server: kr1.sanfen001.pics
+  server: hk1.sanfen001.pics
   port: 443
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   udp: true
-- name: '@pass_net🍁🌧️ #6'
+  sni: hk1.sanfen001.pics
+- name: '@pass_net🍁🌧️ #4'
   type: trojan
   server: 104.17.10.171
   port: 443
@@ -5266,7 +5347,7 @@ proxies:
     path: /categories/community/
     headers:
       Host: ltf8.jueson.de5.net
-- name: Telegram
+- name: 'Telegram #2'
   type: trojan
   server: 104.25.95.49
   port: 443
@@ -5283,12 +5364,6 @@ proxies:
   server: 188.114.98.0
   port: 443
   password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
-  udp: true
-- name: '⚡ #11'
-  type: trojan
-  server: jp.iamnotagoodman.com
-  port: 443
-  password: 8aab51da-6b67-4bd2-b6e6-5ab3008cf53e
   udp: true
 - name: '@leviconfigs🪐-13'
   type: trojan
@@ -5309,18 +5384,6 @@ proxies:
     path: /
     headers:
       Host: api.85s.me
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #17'
-  type: trojan
-  server: 5.75.244.105
-  port: 443
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  udp: true
-  sni: api.85s.me
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: api.85s.me
 - name: '@Hope_Net-join-us-on-Telegram'
   type: trojan
   server: 3.10.143.243
@@ -5328,46 +5391,39 @@ proxies:
   password: 8mjHjiRVsOT5
   udp: true
   sni: appsvs.shop
+- name: '⚡ #7'
+  type: trojan
+  server: official.seoulcityhall.com.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  udp: true
+- name: '⚡ #8'
+  type: trojan
+  server: official.seoulcityhall.com.ua
+  port: 8443
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  udp: true
+- name: '⚡ #9'
+  type: trojan
+  server: official.taipeicitygovernment.com.ua
+  port: 8443
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  udp: true
+- name: '⚡ #10'
+  type: trojan
+  server: official.taipeicitygovernment.dp.ua
+  port: 8443
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  udp: true
+- name: '⚡ #11'
+  type: trojan
+  server: official.tokyometropolis.ivano-frankivsk.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  udp: true
 - name: '⚡ #12'
   type: trojan
-  server: fr.test3.net
-  port: 443
-  password: 9498f3a0-2992-11ee-a4c7-1239d0255272
-  udp: true
-  sni: zula.ir
-- name: '⚡ #13'
-  type: trojan
-  server: official.seoulcitygovernment.com.ua
-  port: 8443
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  udp: true
-- name: '⚡ #14'
-  type: trojan
-  server: official.taipeicitygovernment.ivano-frankivsk.ua
-  port: 8443
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  udp: true
-- name: '⚡ #15'
-  type: trojan
-  server: official.taipeicitygovernment.net.ua
-  port: 8443
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  udp: true
-- name: '⚡ #16'
-  type: trojan
-  server: official.tokyometropolis.kherson.ua
-  port: 2053
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  udp: true
-- name: '⚡ #17'
-  type: trojan
   server: official.tokyometropolis.odesa.ua
-  port: 2053
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  udp: true
-- name: '⚡ #18'
-  type: trojan
-  server: official.tokyometropolis.odessa.ua
   port: 2053
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   udp: true
@@ -5383,17 +5439,19 @@ proxies:
     path: /?proxyip=ts.hpc.tw
     headers:
       Host: epge.muarua.filegear-sg.me
-- name: '⚡ #19'
+- name: "443"
   type: trojan
-  server: 209.250.236.93
+  server: karemddert-production.up.railway.app
   port: 443
-  password: Cl150MQWlG
+  password: DRAZ2FG-GbAvAa6b
   udp: true
-  sni: irancell-ir-4.mmdruby13.store
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: '@ICV2RAY #7'
+  sni: karemddert-production.up.railway.app
+  network: ws
+  ws-opts:
+    path: /api/6T-cn5
+    headers:
+      Host: karemddert-production.up.railway.app
+- name: '@ICV2RAY #8'
   type: trojan
   server: mtndderwtede-production.up.railway.app
   port: 443
@@ -5412,20 +5470,21 @@ proxies:
   password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
   udp: true
   sni: kuame.missionsec.us
-- name: '⚡ #20'
+- name: '@v2ray_phoenix #8'
   type: trojan
   server: 95.143.196.97
   port: 443
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   udp: true
-- name: 'TEL;Father_vpn #2'
+  sni: connect-se.mimowhat.online
+- name: 'TEL;Father_vpn #3'
   type: trojan
   server: 91.233.8.25
   port: 443
   password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
   udp: true
   sni: fra34.tracker-ws.click
-- name: 🕒 | 🇳🇱-4871 | 93.6 MB/s 🔥
+- name: 'Config #8'
   type: trojan
   server: mlnoydrettwe-production.up.railway.app
   port: 443
@@ -5515,7 +5574,7 @@ proxies:
     path: /
     headers:
       Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
-- name: '@prrofile_purple #4'
+- name: 'Config #9'
   type: trojan
   server: 199.232.78.101
   port: 443
@@ -5527,7 +5586,7 @@ proxies:
     path: /
     headers:
       Host: mitivpn---ss--s---mitivpn-11e.global.ssl.fastly.net
-- name: '@prrofile_purple #5'
+- name: 'Config #10'
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -5632,7 +5691,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: 4-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-- name: '@v2ray313 #6'
+- name: '@v2ray313 #7'
   type: trojan
   server: 146.75.57.120
   port: 443
@@ -5644,7 +5703,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN
     headers:
       Host: mtlooabmakaakaoijji.global.ssl.fastly.net
-- name: '⚡️ #14'
+- name: '⚡️ #15'
   type: trojan
   server: 146.75.57.160
   port: 443
@@ -5705,7 +5764,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: MiTiVPN-MiTiVPN-MiTiVPN---MiTiVPN--MiTiVPN.global.ssl.fastly.net
-- name: '@prrofile_purple #6'
+- name: '@prrofile_purple #4'
   type: trojan
   server: 151.101.56.255
   port: 443
@@ -5761,7 +5820,7 @@ proxies:
   udp: true
   sni: ssl.fastly.com
   skip-cert-verify: true
-- name: 🕒 | canfingV2rayNG-49
+- name: 🕒 | canfingV2rayNG-52
   type: trojan
   server: 167.82.76.7
   port: 443
@@ -5773,7 +5832,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net
-- name: '@v2ray313 #7'
+- name: '@v2ray313 #8'
   type: trojan
   server: 199.232.78.120
   port: 443
@@ -5785,7 +5844,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN
     headers:
       Host: mtlooabmakaakaoijji.global.ssl.fastly.net
-- name: '⚡️ #15'
+- name: '⚡️ #16'
   type: trojan
   server: 199.232.78.254
   port: 443
@@ -5841,13 +5900,12 @@ proxies:
     path: /de
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
-- name: '⚡ #21'
+- name: '⚡ #13'
   type: trojan
-  server: 207.126.167.150
+  server: 18.179.31.199
   port: 443
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
+  password: ND91608427
   udp: true
-  sni: 207.126.167.150
 - name: 'Vpn_Mafia #7'
   type: trojan
   server: 13.192.168.51
@@ -5891,20 +5949,18 @@ proxies:
     path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
     headers:
       Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-- name: 🇺🇸 United States | 🌐 | [BL]
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #19'
   type: trojan
   server: ipfast.kingmna.com
   port: 443
   password: SiFvGI5bX01GGtGOJ2_nxA
   udp: true
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
     headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-- name: 'TEL;Father_vpn #3'
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+- name: 'TEL;Father_vpn #4'
   type: trojan
   server: 104.17.108.189
   port: 443
@@ -5923,36 +5979,28 @@ proxies:
   password: TgTrWOUNeU
   udp: true
   sni: is1-ssl.mzstatic.com
-- name: '@prrofile_purple #7'
+- name: '@prrofile_purple #5'
   type: trojan
   server: fi.zhabulik.ru
   port: 443
   password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
   udp: true
   sni: fi.zhabulik.ru
-- name: '@v2ray_phoenix #8'
+- name: '@v2ray_phoenix #9'
   type: trojan
   server: 178.17.60.97
   port: 5443
   password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
   udp: true
   sni: fi1.nebulaguard.org
-- name: 'تو #2'
+- name: '@OutlineReleasedKey #13'
   type: trojan
   server: 38.180.101.235
   port: 5443
   password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
   udp: true
   sni: rs.nebulaguard.org
-- name: ᴛᴇʟᴇɢʀᴀᴍ
-  type: trojan
-  server: 160.21.74.183
-  port: 8443
-  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
-  udp: true
-  sni: 160.21.74.183
-  skip-cert-verify: true
-- name: 🕒 | 🇳🇱-4887 | 71.4 MB/s 🔥
+- name: 'Config #11'
   type: trojan
   server: mdsfrthdfrkl-production.up.railway.app
   port: 443
@@ -6000,32 +6048,20 @@ proxies:
     path: /@Azarakhsh_Proxy?ed=2560
     headers:
       Host: tg.cmliussss.us.kg
-- name: '⚡ #22'
-  type: trojan
-  server: 23.227.38.11
-  port: 443
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  udp: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-tr
-    headers:
-      Host: syndication-statutes-wanted-logo.trycloudflare.com
-- name: '⚡ #23'
+- name: '⚡ #14'
   type: trojan
   server: 51.38.99.96
   port: 443
   password: b8808043-6566-4923-9195-e66bfb553d57
   udp: true
   sni: ba24.ir
-- name: 'TEL;Father_vpn #4'
+- name: 'TEL;Father_vpn #5'
   type: trojan
   server: 172.235.63.252
   port: 443
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #19'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #20'
   type: trojan
   server: 190.93.244.202
   port: 443
@@ -6044,7 +6080,7 @@ proxies:
   password: bptHV5U91mWneB61rRKhCQ8f
   udp: true
   sni: 87.121.218.169
-- name: '⚡ #24'
+- name: '⚡ #15'
   type: trojan
   server: 188.164.248.122
   port: 443
@@ -6091,14 +6127,14 @@ proxies:
   password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
   sni: hk.catxstar.com
-- name: 香港+葵兴数据中心
+- name: 🇺🇸US-157.254.38.210-5283
   type: trojan
   server: sclass-b1.catcat321.com
   port: 20051
   password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
   sni: hk.catxstar.com
-- name: '@ConfigV2RayNG #21'
+- name: '@ConfigV2RayNG #22'
   type: trojan
   server: 16.106.7.232
   port: 20086
@@ -6120,7 +6156,7 @@ proxies:
   udp: true
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 🏳 trojan
+- name: '🇦🇪 trojan-AE-... #3'
   type: trojan
   server: sclass-c1.catcat321.com
   port: 20086
@@ -6128,7 +6164,7 @@ proxies:
   udp: true
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: '🇳🇬 尼日利亚 | NGA #2'
+- name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
   type: trojan
   server: sclass-c2.catcat321.com
   port: 20051
@@ -6136,22 +6172,20 @@ proxies:
   udp: true
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 'US #13'
+- name: '@ConfigV2RayNG #23'
   type: trojan
   server: 216.106.186.32
   port: 443
   password: "dba20dcb635e430fa4d3bfc303a149d2"
   udp: true
   sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-- name: 'US #14'
+- name: '@fastkanfig #6'
   type: trojan
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   password: "dba20dcb635e430fa4d3bfc303a149d2"
   udp: true
   sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
 - name: 'TEL:Father_vpn #2'
   type: trojan
   server: 89.116.46.68
@@ -6164,12 +6198,6 @@ proxies:
     path: /my-wbv
     headers:
       Host: zaintest.vuclip.com.cyylr.eu.cc
-- name: 'ᴛᴇʟᴇɢʀᴀᴍ #2'
-  type: trojan
-  server: 193.151.134.182
-  port: 443
-  password: diCyRX1d
-  udp: true
 - name: '@Hope_Net-join-us-on-Telegram #2'
   type: trojan
   server: 18.199.218.181
@@ -6177,31 +6205,7 @@ proxies:
   password: djHTZmNXIVnA
   udp: true
   sni: appsvs.shop
-- name: 'ᴛᴇʟᴇɢʀᴀᴍ #3'
-  type: trojan
-  server: openfpseerw-production.up.railway.app
-  port: 443
-  password: e1deQOTAlVrdN4Fe
-  udp: true
-  sni: openfpseerw-production.up.railway.app
-  network: ws
-  ws-opts:
-    path: /api/Y4wmPr
-    headers:
-      Host: openfpseerw-production.up.railway.app
-- name: '⚡ #25'
-  type: trojan
-  server: notdirect.howhealthyistoomajreally.homes
-  port: 443
-  password: e35026da-e985-49ca-b43b-276062a535a6
-  udp: true
-  sni: notdirect.howhealthyistoomajreally.homes
-  network: ws
-  ws-opts:
-    path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
-    headers:
-      Host: notdirect.howhealthyistoomajreally.homes
-- name: '@v2ray_phoenix #9'
+- name: '@v2ray_phoenix #10'
   type: trojan
   server: vghui9ytyu-production.up.railway.app
   port: 443
@@ -6225,19 +6229,19 @@ proxies:
     path: /tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ
     headers:
       Host: waysi.waysi6688.workers.dev
-- name: '⚡ #26'
+- name: '⚡ #16'
   type: trojan
-  server: 103.133.240.115
-  port: 443
+  server: 104.18.39.91
+  port: 8443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
-  sni: hhcm.hhxaf.cc.cd
+  sni: tjsp.hhxaf.cc.cd
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: hhcm.hhxaf.cc.cd
-- name: '⚡ #27'
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #17'
   type: trojan
   server: 104.18.43.29
   port: 8443
@@ -6249,7 +6253,79 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '⚡ #28'
+- name: '⚡ #18'
+  type: trojan
+  server: 104.253.175.99
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: tjsp.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #19'
+  type: trojan
+  server: 139.162.62.195
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: tjsp.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #20'
+  type: trojan
+  server: 150.230.212.247
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: hhcm.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+- name: '⚡ #21'
+  type: trojan
+  server: 150.230.249.88
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: hhcm.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+- name: '⚡ #22'
+  type: trojan
+  server: 156.246.91.9
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: hhcm.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+- name: '⚡ #23'
+  type: trojan
+  server: 157.254.18.193
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: tjsp.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #24'
   type: trojan
   server: 159.223.41.212
   port: 443
@@ -6261,7 +6337,7 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '⚡ #29'
+- name: '⚡ #25'
   type: trojan
   server: 162.159.12.212
   port: 443
@@ -6273,7 +6349,31 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '⚡ #30'
+- name: '⚡ #26'
+  type: trojan
+  server: 162.159.15.39
+  port: 8443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: tjsp.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #27'
+  type: trojan
+  server: 162.159.3.176
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: tjsp.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #28'
   type: trojan
   server: 162.159.39.153
   port: 443
@@ -6285,7 +6385,19 @@ proxies:
     path: /
     headers:
       Host: hhcm.hhxaf.cc.cd
-- name: '⚡ #31'
+- name: '⚡ #29'
+  type: trojan
+  server: 162.159.60.167
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: hhcm.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+- name: '⚡ #30'
   type: trojan
   server: 168.144.109.68
   port: 443
@@ -6297,9 +6409,9 @@ proxies:
     path: /
     headers:
       Host: hhcm.hhxaf.cc.cd
-- name: '⚡ #32'
+- name: '⚡ #31'
   type: trojan
-  server: 172.104.81.253
+  server: 168.144.96.147
   port: 443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -6309,7 +6421,7 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '⚡ #33'
+- name: '⚡ #32'
   type: trojan
   server: 172.104.86.229
   port: 443
@@ -6321,9 +6433,21 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #33'
+  type: trojan
+  server: 172.237.13.221
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: hhcm.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhcm.hhxaf.cc.cd
 - name: '⚡ #34'
   type: trojan
-  server: 172.64.148.248
+  server: 172.64.148.165
   port: 8443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -6335,19 +6459,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
 - name: '⚡ #35'
   type: trojan
-  server: 172.64.157.230
-  port: 443
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-  sni: hhcm.hhxaf.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-- name: '⚡ #36'
-  type: trojan
-  server: 172.64.229.114
+  server: 172.64.148.248
   port: 8443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -6357,7 +6469,7 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '⚡ #37'
+- name: '⚡ #36'
   type: trojan
   server: 172.64.38.50
   port: 443
@@ -6369,18 +6481,18 @@ proxies:
     path: /
     headers:
       Host: hhcm.hhxaf.cc.cd
-- name: '⚡ #38'
+- name: '⚡ #37'
   type: trojan
-  server: 173.245.58.183
-  port: 8443
+  server: 172.64.53.74
+  port: 443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
-  sni: tjsp.hhxaf.cc.cd
+  sni: hhcm.hhxaf.cc.cd
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: tjsp.hhxaf.cc.cd
+      Host: hhcm.hhxaf.cc.cd
 - name: '[128222]'
   type: trojan
   server: 209.33.173.167
@@ -6393,19 +6505,19 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '⚡ #39'
+- name: '⚡ #38'
   type: trojan
-  server: 216.236.38.234
+  server: 38.207.169.105
   port: 443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
-  sni: hhcm.hhxaf.cc.cd
+  sni: tjsp.hhxaf.cc.cd
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: hhcm.hhxaf.cc.cd
-- name: '⚡ #40'
+      Host: tjsp.hhxaf.cc.cd
+- name: '⚡ #39'
   type: trojan
   server: 38.244.25.17
   port: 443
@@ -6417,9 +6529,21 @@ proxies:
     path: /
     headers:
       Host: hhcm.hhxaf.cc.cd
+- name: '⚡ #40'
+  type: trojan
+  server: 45.128.222.55
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  sni: hhcm.hhxaf.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhcm.hhxaf.cc.cd
 - name: '⚡ #41'
   type: trojan
-  server: 45.38.60.139
+  server: 54.180.151.15
   port: 443
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   udp: true
@@ -6441,21 +6565,19 @@ proxies:
     path: /
     headers:
       Host: tjsp.hhxaf.cc.cd
-- name: '@Nexus_Panell #6'
+- name: '@Nexus_Panell #8'
   type: trojan
   server: 216.106.186.33
   port: 443
   password: "f0eb8c92ce8946aaba856569cff1a16b"
   udp: true
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-- name: 'US #15'
+- name: '@ConfigV2RayNG #24'
   type: trojan
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   password: "f0eb8c92ce8946aaba856569cff1a16b"
   udp: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
 - name: '⚡ #43'
   type: trojan
   server: 51.158.146.183
@@ -6463,7 +6585,7 @@ proxies:
   password: f6a0a650-306e-11ee-b692-1239d0255272
   udp: true
   sni: Speedtest.net
-- name: '@nofiltering2 #2'
+- name: '@nofiltering2 #3'
   type: trojan
   server: 104.25.239.113
   port: 2053
@@ -6487,7 +6609,19 @@ proxies:
     path: /
     headers:
       Host: marvdasht.phonecomparisonblog.org
-- name: 🕒 | 🇳🇱-4884 | 106 MB/s 🔥
+- name: 🕒 | 🇳🇱-4917 | 118.8 MB/s 🔥
+  type: trojan
+  server: cvdgfrrtuer-production.up.railway.app
+  port: 443
+  password: gY6X8Yz5s09gT7ep
+  udp: true
+  sni: cvdgfrrtuer-production.up.railway.app
+  network: ws
+  ws-opts:
+    path: /api/WTIZR4
+    headers:
+      Host: cvdgfrrtuer-production.up.railway.app
+- name: '443 #2'
   type: trojan
   server: bncdsferna-production.up.railway.app
   port: 443
@@ -6511,15 +6645,9 @@ proxies:
     path: /api/Z5B2YW
     headers:
       Host: dklietestyui-production.up.railway.app
-- name: 🕒 | 🇺🇸-5440 | 3 MB/s 🔥
-  type: trojan
-  server: 2607:9d00:2000:29c::9051:bd97
-  port: 2097
-  password: how46st890eft7v3
-  udp: true
 - name: '⚡ #44'
   type: trojan
-  server: 104.16.174.12
+  server: 104.16.174.101
   port: 443
   password: humanity
   udp: true
@@ -6530,7 +6658,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #45'
   type: trojan
-  server: 104.16.174.143
+  server: 104.16.174.117
   port: 443
   password: humanity
   udp: true
@@ -6541,7 +6669,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #46'
   type: trojan
-  server: 104.16.174.148
+  server: 104.16.174.124
   port: 443
   password: humanity
   udp: true
@@ -6552,7 +6680,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #47'
   type: trojan
-  server: 104.16.174.22
+  server: 104.16.174.185
   port: 443
   password: humanity
   udp: true
@@ -6563,7 +6691,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #48'
   type: trojan
-  server: 104.16.174.44
+  server: 104.16.174.22
   port: 443
   password: humanity
   udp: true
@@ -6574,7 +6702,29 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #49'
   type: trojan
-  server: 104.16.174.46
+  server: 104.16.174.36
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: '⚡ #50'
+  type: trojan
+  server: 104.16.174.37
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: '⚡ #51'
+  type: trojan
+  server: 104.16.174.6
   port: 443
   password: humanity
   udp: true
@@ -6594,7 +6744,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '⚡ #50'
+- name: '⚡ #52'
   type: trojan
   server: 104.16.79.73
   port: 443
@@ -6605,7 +6755,18 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: '⚡ #51'
+- name: '⚡ #53'
+  type: trojan
+  server: 104.16.89.120
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.creationlong.org
+- name: '⚡ #54'
   type: trojan
   server: 104.17.121.43
   port: 443
@@ -6616,29 +6777,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '⚡ #52'
-  type: trojan
-  server: 104.17.121.71
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '⚡ #53'
-  type: trojan
-  server: 104.17.177.143
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #20'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #21'
   type: trojan
   server: 104.17.44.17
   port: 443
@@ -6649,20 +6788,9 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '⚡ #54'
-  type: trojan
-  server: 104.18.11.110
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
 - name: '⚡ #55'
   type: trojan
-  server: 104.18.152.133
+  server: 104.18.12.149
   port: 443
   password: humanity
   udp: true
@@ -6673,7 +6801,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #56'
   type: trojan
-  server: 104.18.152.144
+  server: 104.18.152.113
   port: 443
   password: humanity
   udp: true
@@ -6695,7 +6823,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #58'
   type: trojan
-  server: 104.18.152.161
+  server: 104.18.152.155
   port: 443
   password: humanity
   udp: true
@@ -6706,7 +6834,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #59'
   type: trojan
-  server: 104.18.152.219
+  server: 104.18.152.187
   port: 443
   password: humanity
   udp: true
@@ -6717,7 +6845,7 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #60'
   type: trojan
-  server: 104.18.152.229
+  server: 104.18.152.210
   port: 443
   password: humanity
   udp: true
@@ -6728,6 +6856,61 @@ proxies:
       Host: www.ignitelimit.com
 - name: '⚡ #61'
   type: trojan
+  server: 104.18.152.219
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: '⚡ #62'
+  type: trojan
+  server: 104.18.152.225
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: '⚡ #63'
+  type: trojan
+  server: 104.18.152.229
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: '⚡ #64'
+  type: trojan
+  server: 104.18.152.244
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: 🕒 | canfingV2rayNG-55
+  type: trojan
+  server: 104.18.152.246
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmloud.com
+- name: '⚡ #65'
+  type: trojan
   server: 104.18.22.208
   port: 443
   password: humanity
@@ -6737,7 +6920,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #21'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #22'
   type: trojan
   server: 104.18.32.47
   port: 443
@@ -6748,13 +6931,18 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: trojan-104.18.35.86-443
+- name: 'Config #12'
   type: trojan
   server: 104.18.35.86
   port: 443
   password: humanity
   udp: true
-- name: '@v2ray313 #8'
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumerOot.coM.
+- name: '@v2ray313 #9'
   type: trojan
   server: 104.18.37.127
   port: 443
@@ -6776,7 +6964,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #22'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #23'
   type: trojan
   server: 104.18.4.5
   port: 443
@@ -6831,7 +7019,18 @@ proxies:
     path: //assignment
     headers:
       Host: www.calmlunch.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #23'
+- name: '⚡ #66'
+  type: trojan
+  server: 104.19.64.105
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #24'
   type: trojan
   server: 104.21.37.56
   port: 443
@@ -6842,7 +7041,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.volumeroot.com
-- name: '⚡ #62'
+- name: '⚡ #67'
   type: trojan
   server: 104.26.14.137
   port: 443
@@ -6897,7 +7096,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #24'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #25'
   type: trojan
   server: 131.196.254.151
   port: 443
@@ -6908,7 +7107,18 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '@prrofile_purple #8'
+- name: '⚡ #68'
+  type: trojan
+  server: 141.101.90.101
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: 'Config #13'
   type: trojan
   server: 141.193.213.172
   port: 443
@@ -6919,7 +7129,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #25'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #26'
   type: trojan
   server: 144.31.205.106
   port: 443
@@ -6930,7 +7140,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '⚡ #63'
+- name: '⚡ #69'
   type: trojan
   server: 162.159.253.41
   port: 443
@@ -6952,17 +7162,6 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: '⚡ #64'
-  type: trojan
-  server: 162.159.91.211
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
 - name: '@pass_net🎃🕸️🎃 #6'
   type: trojan
   server: 172.64.145.133
@@ -6974,7 +7173,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '@nofiltering2 #3'
+- name: '@nofiltering2 #4'
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -6996,7 +7195,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '@v2ray313 #9'
+- name: '@v2ray313 #10'
   type: trojan
   server: 172.66.40.99
   port: 443
@@ -7007,7 +7206,41 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: '@nofiltering2 #4'
+- name: '⚡ #70'
+  type: trojan
+  server: 172.67.74.2
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: '⚡ #71'
+  type: trojan
+  server: 173.242.51.189
+  port: 443
+  password: humanity
+  udp: true
+- name: '⚡ #72'
+  type: trojan
+  server: 179.255.132.69
+  port: 443
+  password: humanity
+  udp: true
+- name: '⚡ #73'
+  type: trojan
+  server: 185.18.250.245
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '@nofiltering2 #5'
   type: trojan
   server: 185.18.250.252
   port: 443
@@ -7018,7 +7251,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #26'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #27'
   type: trojan
   server: 185.22.172.249
   port: 443
@@ -7040,7 +7273,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #27'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #28'
   type: trojan
   server: 188.114.97.1
   port: 443
@@ -7051,7 +7284,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #28'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #29'
   type: trojan
   server: 188.114.97.2
   port: 443
@@ -7062,7 +7295,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.volumerOot.coM.
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #29'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #30'
   type: trojan
   server: 188.114.97.3
   port: 443
@@ -7073,7 +7306,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #30'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #31'
   type: trojan
   server: 188.114.97.4
   port: 443
@@ -7084,7 +7317,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #31'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #32'
   type: trojan
   server: 188.114.97.5
   port: 443
@@ -7101,7 +7334,7 @@ proxies:
   port: 443
   password: humanity
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #32'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #33'
   type: trojan
   server: 188.114.97.7
   port: 443
@@ -7112,7 +7345,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #33'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #34'
   type: trojan
   server: 188.114.97.8
   port: 443
@@ -7134,7 +7367,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #34'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #35'
   type: trojan
   server: 188.42.145.180
   port: 443
@@ -7156,7 +7389,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: 'TEL;Father_vpn #5'
+- name: 'TEL;Father_vpn #6'
   type: trojan
   server: 198.62.62.23
   port: 443
@@ -7189,7 +7422,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #35'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #36'
   type: trojan
   server: 219.76.13.177
   port: 443
@@ -7211,6 +7444,17 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
+- name: '⚡ #74'
+  type: trojan
+  server: 45.130.125.75
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
 - name: '@pass_net🎃🕸️🎃🇩🇪'
   type: trojan
   server: 45.80.111.7
@@ -7222,7 +7466,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #36'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #37'
   type: trojan
   server: 46.62.204.134
   port: 443
@@ -7233,7 +7477,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #37'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #38'
   type: trojan
   server: 8.47.69.0
   port: 443
@@ -7255,17 +7499,6 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: '⚡ #65'
-  type: trojan
-  server: 86.38.214.205
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
 - name: '@pass_net🎃🕸️🎃 #9'
   type: trojan
   server: 88.216.69.253
@@ -7277,7 +7510,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #38'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #39'
   type: trojan
   server: 92.42.99.143
   port: 443
@@ -7288,7 +7521,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '@v2ray313 #10'
+- name: '@v2ray313 #11'
   type: trojan
   server: 95.85.54.197
   port: 443
@@ -7299,18 +7532,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '⚡ #66'
-  type: trojan
-  server: ip.myip2.qzz.io
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: 'TEL;Father_vpn #6'
+- name: 'TEL;Father_vpn #7'
   type: trojan
   server: srv1.khatibirepair.ir
   port: 443
@@ -7321,7 +7543,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '⚡ #67'
+- name: '⚡ #75'
   type: trojan
   server: www.calmlunch.com
   port: 443
@@ -7354,7 +7576,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.multiplydose.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #39'
+- name: 'Config #14'
   type: trojan
   server: www.speedtest.net
   port: 443
@@ -7365,23 +7587,23 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '⚡ #68'
+- name: 12890@proxy_online_net
   type: trojan
-  server: www.speedtest.org
-  port: 443
-  password: humanity
+  server: 217.78.237.118
+  port: 8446
+  password: jCpBEnDOnqJ7J36rdoJ_cYvrKK5ErK9H
   udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: '⚡ #69'
+  sni: files05f4.static.tv-av.fun
+- name: 12886@proxy_online_net
   type: trojan
-  server: 18.140.67.76
-  port: 443
-  password: iyinglong
+  server: 217.78.237.118
+  port: 8447
+  password: jCpBEnDOnqJ7J36rdoJ_cYvrKK5ErK9H
   udp: true
+  sni: imgffbf.static.tv-av.fun
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 - name: '@vmesskhodam #2'
   type: trojan
   server: 199.232.78.159
@@ -7394,7 +7616,7 @@ proxies:
     path: /
     headers:
       Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-- name: '@v2ray_phoenix #10'
+- name: '@v2ray_phoenix #11'
   type: trojan
   server: fastly2.dunnexa.ir
   port: 443
@@ -7412,37 +7634,7 @@ proxies:
   port: 14822
   password: kst3ovanch3tecki
   udp: true
-- name: '⚡ #70'
-  type: trojan
-  server: 95.179.254.136
-  port: 443
-  password: mainssh-ddoejfv14
-  udp: true
-  sni: frtgrpc.mainssh.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojangrpc
-- name: '⚡ #71'
-  type: trojan
-  server: 108.61.171.167
-  port: 443
-  password: mainssh-niwrhf87
-  udp: true
-  sni: getgrpc.mainssh.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojangrpc
-- name: '⚡ #72'
-  type: trojan
-  server: 95.179.246.122
-  port: 443
-  password: mainssh-niwrhf87
-  udp: true
-  sni: getgrpc.mainssh.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojangrpc
-- name: '@prrofile_purple #9'
+- name: 'Config #15'
   type: trojan
   server: 151.101.56.90
   port: 443
@@ -7454,7 +7646,7 @@ proxies:
     path: /
     headers:
       Host: mitivpn---ss--s---mitivpn-66e.global.ssl.fastly.net
-- name: 'TEL;Father_vpn #7'
+- name: 'TEL;Father_vpn #8'
   type: trojan
   server: 104.16.72.70
   port: 443
@@ -7466,7 +7658,7 @@ proxies:
     path: /index.php/ed=mitivpn
     headers:
       Host: gamingdll.ir
-- name: '@cnetvpn #5'
+- name: '@cnetvpn #6'
   type: trojan
   server: 151.101.36.244
   port: 443
@@ -7514,7 +7706,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-2.global.ssl.fastly.net
-- name: '@nofiltering2 #5'
+- name: '@𝗠𝗲𝘁𝗶𝗩𝗜𝗣⚡🇩🇪⚡•2•'
   type: trojan
   server: 167.82.64.46
   port: 443
@@ -7523,7 +7715,7 @@ proxies:
   sni: firefox.com
   network: ws
   ws-opts:
-    path: /
+    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@@MetiVIP/---@@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@@MetiVIP/---@@MetiVIP---@MetiVIP
     headers:
       Host: mitivpn-mitivpn.ac.ir
 - name: ❤️2
@@ -7550,7 +7742,7 @@ proxies:
     path: /---@Tarkshodeh---@Tarkshodeh/---@Tarkshodeh---@Tarkshodeh/---@Tarkshodeh---@Tarkshodeh/D-e2@Tarkshodeh---@Tarkshodeh/---@Tarkshodeh---@Tarkshodeh/---@Tarkshodeh---@Tarkshodeh
     headers:
       Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
-- name: '@cnetvpn #6'
+- name: '@cnetvpn #7'
   type: trojan
   server: 188.114.97.6
   port: 443
@@ -7586,7 +7778,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-4.global.ssl.fastly.net
-- name: 'TEL;Father_vpn #8'
+- name: 'TEL;Father_vpn #9'
   type: trojan
   server: 27.50.48.49
   port: 443
@@ -7598,13 +7790,12 @@ proxies:
     path: /index.html/ed=mitivpn
     headers:
       Host: gamingdll.ir
-- name: 'Config #10'
+- name: '🇺🇸 #8'
   type: trojan
   server: 69.164.240.85
   port: 50875
   password: nwilryafgkyvuxauc8pz
   udp: true
-  sni: 69.164.240.85
   skip-cert-verify: true
 - name: '🔥Join+Telegram:@Farah_VPN🟣 #40'
   type: trojan
@@ -7638,13 +7829,27 @@ proxies:
   udp: true
   sni: dl2.rahetejarat.com
   network: httpupgrade
-- name: 'TEL;Father_vpn #9'
+- name: 🇰🇷KR-🚀@VPNine1
+  type: trojan
+  server: 154.90.62.70
+  port: 56127
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  udp: true
+  skip-cert-verify: true
+- name: '443 #3'
+  type: trojan
+  server: alireza.karamoz1.ir
+  port: 443
+  password: poimnap
+  udp: true
+  sni: alireza.karamoz1.ir
+- name: 'TEL;Father_vpn #10'
   type: trojan
   server: 172.238.120.124
   port: 443
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   udp: true
-- name: 'TEL;Father_vpn #10'
+- name: 'TEL;Father_vpn #11'
   type: trojan
   server: 172.236.220.10
   port: 443
@@ -7658,13 +7863,18 @@ proxies:
   password: telegram-id-privatevpns
   udp: true
   sni: trojan.burgerip.co.uk
-- name: '⚡ #73'
+- name: 🇺🇸US-🚀@VPNine1
   type: trojan
-  server: 138.124.183.222
+  server: cmdfghrety-production.up.railway.app
   port: 443
-  password: xxoo
+  password: zi-xIc935WTzUG-g
   udp: true
-  sni: 138.124.183.222
+  sni: cmdfghrety-production.up.railway.app
+  network: ws
+  ws-opts:
+    path: /api/g7iw3m
+    headers:
+      Host: cmdfghrety-production.up.railway.app
 - name: MTN
   type: vless
   server: 185.146.173.59
@@ -7709,7 +7919,7 @@ proxies:
     path: /Digiv2ray-
     headers:
       Host: ædígí.RadioTeHran.oRG.
-- name: '🇺🇸 #6'
+- name: '🇺🇸 #9'
   type: vless
   server: 167.17.69.171
   port: 443
@@ -7719,10 +7929,95 @@ proxies:
   tls: true
   servername: www.cloudflare.com
   alpn:
-  - channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn
+  - channel
   reality-opts:
     public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
     short-id: "0990d22f"
+- name: 🕒 | 🇳🇱-4915 | 14.8 MB/s 🔥
+  type: vless
+  server: 188.225.80.176
+  port: 443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  tls: true
+  servername: zoo.vprok.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PjS4HVd8UfX-T_F2-CWYAv1kJ53GWNDU0Hgs-EEgNmQ
+    short-id: "287bd4cc95aee0ef"
+- name: 🕒 | 🇷🇺-660 | 26.6 MB/s 🔥
+  type: vless
+  server: 201.34.137.60
+  port: 8443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  tls: true
+  servername: zoo.vprok.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 06heeafImmf4dWhgh8useDON7LYUivImuLfHDqUUj3U
+    short-id: "db321fe4"
+- name: 🕒 | 🇹🇷-1308 | 24 MB/s 🔥
+  type: vless
+  server: asset-cache.ozonvideo.com
+  port: 443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  tls: true
+  servername: asset-cache.ozonvideo.com
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+- name: 🕒 | 🇵🇱-929 | MB/s 🔥
+  type: vless
+  server: content-cache.pyaterkavideo.com
+  port: 8443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: content-cache.pyaterkavideo.com
+  client-fingerprint: firefox
+- name: 🕒 | 🇦🇪-46 | 2.8 MB/s 🔥
+  type: vless
+  server: frame-register.ozonvideo.com
+  port: 443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  tls: true
+  servername: frame-register.ozonvideo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: v1GW9wXXoVMxmGAL1ddXj1BNcaxL4qTNRdADNHg6hz0
+    short-id: "4717824bd4a0cda7"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🕒 | 🇺🇸-5491 | 5.4 MB/s 🔥
+  type: vless
+  server: scene-notes.ozonvideo.com
+  port: 443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: scene-notes.ozonvideo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: rfD3mZuQE8yx1mQqRLCfx2Oj6s2ZpnK8M6-FWg2kL3c
+    short-id: "919874376d96c7b4"
+- name: 🕒 | 🇬🇧-873 | 24.8 MB/s 🔥
+  type: vless
+  server: thumbs.ozonvideo.com
+  port: 443
+  uuid: 0023c116-9b75-4e19-9507-936e8ebd3f82
+  udp: true
+  tls: true
+  servername: thumbs.ozonvideo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PMFRtVSicGmUsIxvEMkHjV6Cz8fn3zkMe0ePh7E0UQg
+    short-id: "192e68227510e3fc"
 - name: 🇩🇪All³
   type: vless
   server: svrty.fars-remen.ir
@@ -7735,20 +8030,7 @@ proxies:
   reality-opts:
     public-key: oF1oqDphaud14nHcna8QOKpeQxk32E9uhHYSJFfLAWo
     short-id: "d64d4284791187b9"
-- name: '@VPsave #9'
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: 00487d40-deaa-4bfa-871b-dd6af5ffe76c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-- name: '@prrofile_purple #10'
+- name: '@prrofile_purple #6'
   type: vless
   server: 104.21.18.141
   port: 443
@@ -7764,12 +8046,22 @@ proxies:
     path: /vl/uS3nCneDSYbdF04CAp?ed
     headers:
       Host: f2au50vwmige9oftda.netizo14.workers.dev
-- name: Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=&fp=chrome&type=ws&allowInsecure=0&sni=#@prrofile_purple
+- name: 'Config #16'
   type: vless
   server: 172.67.182.80
   port: 443
   uuid: 0050dd81-65fb-439c-abf6-c4c609205c44
   udp: true
+  tls: true
+  servername: F2aU50vwmIGE9oFtda.netIZO14.WOrkErs.Dev
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/e0BN8sjMhlKHJo6UNGRwuI3kOb1I?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed
+    headers:
+      Host: f2au50vwmige9oftda.netizo14.workers.dev
 - name: 🌐服务器26
   type: vless
   server: 167.82.0.1
@@ -7792,18 +8084,6 @@ proxies:
     path: /
     headers:
       Host: tr-cd.sublink-vip2.com
-- name: '[97595]'
-  type: vless
-  server: 212.43.150.30
-  port: 37684
-  uuid: 00726276-f581-4815-8610-ba373a65f00d
-  udp: true
-  tls: true
-  servername: play-apps-features.googleusercontent.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UJXmL43l_agBd7hYNJCKVlvCtkT-oDBMQ0sjlOOxg1Y
-    short-id: "f9"
 - name: '@KAFING_2 #6'
   type: vless
   server: edge.aiteamplus.ir
@@ -7839,22 +8119,6 @@ proxies:
     path: /vless-ws
     headers:
       Host: speedtestmark.com
-- name: '@VPsave #10'
-  type: vless
-  server: 162.159.249.92
-  port: 443
-  uuid: 00c82fcb-2c67-465d-8432-6743a1593efa
-  udp: true
-  tls: true
-  servername: DD-xx.PAGES.DEV
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: dd-xx.pages.dev
 - name: '@pass_net🎃🕸️🎃 #10'
   type: vless
   server: 116.203.7.223
@@ -7887,7 +8151,7 @@ proxies:
     path: /
     headers:
       Host: cdn.melodyshopone2.ir
-- name: '✅ #5'
+- name: '✅ #6'
   type: vless
   server: cdn.cloudof1.ir
   port: 443
@@ -8028,7 +8292,7 @@ proxies:
   port: 2087
   uuid: 01ce1507-0197-4261-9b91-1baab455dd7f
   udp: true
-- name: '@v2ray_configs_pools #2'
+- name: '@v2ray_configs_pools #3'
   type: vless
   server: mabix.dgtr.net
   port: 443
@@ -8047,19 +8311,6 @@ proxies:
   port: 60003
   uuid: 01e1eccc-0e7e-418d-a996-fd2cf33c7c40
   udp: true
-- name: 'Config #11'
-  type: vless
-  server: 147.45.66.208
-  port: 43000
-  uuid: 01e61db7-9e0b-4431-a995-a5288a01b951
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 147.45.66.208
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg
-    short-id: "4d3d8e15"
 - name: 🇩🇪All⁷
   type: vless
   server: 147.45.66.60
@@ -8072,6 +8323,32 @@ proxies:
   reality-opts:
     public-key: DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg
     short-id: "4d3d8e15"
+- name: 🇩🇪217988
+  type: vless
+  server: leviko-tr4478.shopingggg.ir
+  port: 43000
+  uuid: 01e61db7-9e0b-4431-a995-a5288a01b951
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 147.45.66.208
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg
+    short-id: "4d3d8e15"
+- name: 'Config #17'
+  type: vless
+  server: leviko-tr6376.shopingggg.ir
+  port: 43000
+  uuid: 01e61db7-9e0b-4431-a995-a5288a01b951
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 147.45.66.208
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg
+    short-id: "4d3d8e15"
 - name: Brayirani
   type: vless
   server: fr-tx.sbrf-cdn342.ru
@@ -8080,19 +8357,6 @@ proxies:
   udp: true
   tls: true
   servername: sub.sbrf-cdn342.ru
-- name: 🌍217424
-  type: vless
-  server: nl-tx.sbrf-cdn342.ru
-  port: 443
-  uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sub.sbrf-cdn342.ru
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  client-fingerprint: chrome
 - name: '@Shh_Proxy-New⁴ #2'
   type: vless
   server: inexall.cloudvipgamefall.ir
@@ -8102,7 +8366,7 @@ proxies:
   tls: true
   servername: newnexip1.nexvpnfun.com
   client-fingerprint: chrome
-- name: '@MigMigVPNSHOP #2'
+- name: '@MigMigVPNSHOP'
   type: vless
   server: sv.clients.fimrel.ir
   port: 34257
@@ -8122,33 +8386,7 @@ proxies:
     path: /51544/ws
     headers:
       Host: ded1ws.samcdn.shop
-- name: '@VPsave #11'
-  type: vless
-  server: 178.17.60.97
-  port: 443
-  uuid: 02655447-4659-41df-8d0e-d23a3035b7cb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fi1.nebulaguard.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MxtGDhmLnM0c12kBSOjvxJjmflGmabDQsCekNeH85Rk
-    short-id: "d110e87817307d2f"
-- name: '@VPsave #12'
-  type: vless
-  server: 31.77.236.131
-  port: 443
-  uuid: 02655447-4659-41df-8d0e-d23a3035b7cb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ee.nebulaguard.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OjB-nOB0_ebRS3ZUo8RS68vzup_1OKjpjIZimXaRvXU
-    short-id: "d3c6409a7b0dae17"
-- name: '@fastkanfig #5'
+- name: '@fastkanfig #7'
   type: vless
   server: nid3ch.betust.net
   port: 443
@@ -8226,7 +8464,16 @@ proxies:
   reality-opts:
     public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
     short-id: "7a3f9e2b1c8d4f6a"
-- name: 🕒 | ProxyMtpVPN-69
+- name: '@V2rayNPVTConfig #3'
+  type: vless
+  server: 147.135.213.72
+  port: 20049
+  uuid: 03033cd9-817d-486d-bb3b-37d92b8346f0
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless-ws
+- name: '@vpnsal #2'
   type: vless
   server: zibanabz.jonsonvip.ir
   port: 3939
@@ -8259,16 +8506,22 @@ proxies:
     path: /?TELEGRAM-leviconfigs?ed=512
     headers:
       Host: de-new.ariyuz.org
-- name: vless-188.114.97.6-443
+- name: 'Config #18'
   type: vless
   server: 188.114.97.6
   port: 443
   uuid: 03790b11-e3d9-4966-859b-4e524bb04645
   udp: true
   tls: true
+  servername: vfuhf4iqn9b0-pyqr62d.qfem579emmb5z6ne0ejfcb.workers.dev
   alpn:
   - http/1.1
-- name: 'Config #12'
+  network: ws
+  ws-opts:
+    path: /vl/DfvlLmSkjWX3nTYInEaKodZ33E4cvX?ed=2560
+    headers:
+      Host: vfuhf4iqn9b0-pyqr62d.qfem579emmb5z6ne0ejfcb.workers.dev
+- name: 'Config #19'
   type: vless
   server: 91.107.247.173
   port: 2083
@@ -8295,16 +8548,16 @@ proxies:
     path: /
     headers:
       Host: sino.bestsellers1.site
-- name: 🕒 | 🇳🇱-4879 | 29.6 MB/s 🔥
+- name: 🇳🇱NL-🚀@VPNine1
   type: vless
-  server: 2.27.40.12
+  server: 201.58.186.140
   port: 443
   uuid: 038e6b17-84e9-4ace-8973-8ef2308ed6e1
   udp: true
   flow: xtls-rprx-vision
   tls: true
   servername: yandex.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
     short-id: "6ad3c0f1e9b2478a"
@@ -8339,7 +8592,7 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf6.rumedia-cdn.com
-- name: '🇺🇸 #7'
+- name: '🇺🇸 #10'
   type: vless
   server: 69.48.201.136
   port: 30016
@@ -8350,7 +8603,7 @@ proxies:
     path: /usserver
     headers:
       Host: zoom.us
-- name: '🇺🇸 #8'
+- name: '🇺🇸 #11'
   type: vless
   server: uspanel.unixzone.us
   port: 30016
@@ -8449,19 +8702,6 @@ proxies:
     path: /downloader
     headers:
       Host: matoride.adaspoloandco.com
-- name: 'ᴛᴇʟᴇɢʀᴀᴍ #4'
-  type: vless
-  server: 89.125.175.24
-  port: 8443
-  uuid: 052d73c9-1735-4008-b58c-e3a085dc2a37
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: uk-room07.filesnap.tech
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
-    short-id: "dbef98744832b751"
 - name: Tel-@ProxyMtAlpha🥓
   type: vless
   server: 89.125.175.55
@@ -8508,7 +8748,7 @@ proxies:
     path: /?ed
     headers:
       Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-- name: 🇵🇱217512
+- name: '@VPsave #8'
   type: vless
   server: 82.118.22.161
   port: 443
@@ -8534,7 +8774,7 @@ proxies:
     path: /telegram-channel-vlessconfig-ws
     headers:
       Host: telegram-channel-vlessconfig.sohala.uk
-- name: 'تو #3'
+- name: تو
   type: vless
   server: 47.253.226.114
   port: 443
@@ -8569,12 +8809,6 @@ proxies:
     path: /download
     headers:
       Host: sabzb2.global.ssl.fastly.net
-- name: '@ConfigV2RayNG #22'
-  type: vless
-  server: fast.jexmuk.ir
-  port: 44989
-  uuid: 05981755-8790-41f1-8aa0-f59c094f8bf4
-  udp: true
 - name: 'configprxy #4'
   type: vless
   server: 85.17.145.65
@@ -8597,7 +8831,7 @@ proxies:
     path: /
     headers:
       Host: mypanel.unixzone.us
-- name: '⚡ #74'
+- name: '@VPsave #9'
   type: vless
   server: image-web-production-2ec53b05.up.railway.app
   port: 443
@@ -8625,7 +8859,7 @@ proxies:
     path: /api/v1/events
     headers:
       Host: nl5.hap-plus.ru
-- name: '⚡ #75'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #49'
   type: vless
   server: 104.18.35.85
   port: 443
@@ -8639,15 +8873,21 @@ proxies:
     path: /
     headers:
       Host: cf.vless.sandesh.fr
-- name: 'vless-188.114.97.6-443 #2'
+- name: 'Config #20'
   type: vless
   server: 188.114.97.6
   port: 443
   uuid: 06278d74-9385-42e8-be1b-49c78ebc49ea
   udp: true
   tls: true
+  servername: snapp.matialz.ir
   alpn:
   - http/1.1
+  network: ws
+  ws-opts:
+    path: /pgcfws-d7k
+    headers:
+      Host: snapp.matialz.ir
 - name: Arshiavpn12
   type: vless
   server: 104.18.15.19
@@ -8803,7 +9043,7 @@ proxies:
   port: 3174
   uuid: 073d862c-6fdf-4dbd-be8c-ecb650bc3e60
   udp: true
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #49'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #50'
   type: vless
   server: 104.16.24.34
   port: 8880
@@ -8814,7 +9054,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sinaazizpor.wapgiz.workers.dev
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #50'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #51'
   type: vless
   server: 104.16.3.35
   port: 8880
@@ -8825,7 +9065,7 @@ proxies:
     path: /
     headers:
       Host: sinaazizpor.wapgiz.workers.dev
-- name: '@v2ray313 #11'
+- name: '@v2ray313 #12'
   type: vless
   server: app-mi-26.spbstudentlife.com
   port: 443
@@ -8854,7 +9094,46 @@ proxies:
     path: /ws
     headers:
       Host: rust8982-production.up.railway.app
-- name: '@Nexus_Panell #7'
+- name: 🕒 | 🇵🇱-926 | 64.1 MB/s 🔥
+  type: vless
+  server: 177.202.76.255
+  port: 443
+  uuid: 076b9961-51c7-407f-92b8-a8f2c6d42a7f
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: pl-2.vpezid.net
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: CnC08-EGzr6smaBZbQXW7y2mjH4uHcJly0ROcqtv0Gk
+    short-id: "09e501600e39ed57"
+- name: 🕒 | 🇺🇸-5488 | 6.1 MB/s 🔥
+  type: vless
+  server: 193.202.11.67
+  port: 443
+  uuid: 076b9961-51c7-407f-92b8-a8f2c6d42a7f
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: us-1.vpezid.net
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: CnC08-EGzr6smaBZbQXW7y2mjH4uHcJly0ROcqtv0Gk
+    short-id: "09e501600e39ed57"
+- name: 🕒 | 🇩🇪-7457 | 44 MB/s 🔥
+  type: vless
+  server: 84.21.173.183
+  port: 443
+  uuid: 076b9961-51c7-407f-92b8-a8f2c6d42a7f
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: de-3.vpezid.net
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: CnC08-EGzr6smaBZbQXW7y2mjH4uHcJly0ROcqtv0Gk
+    short-id: "09e501600e39ed57"
+- name: '@Nexus_Panell #9'
   type: vless
   server: 157.173.30.204
   port: 8443
@@ -8867,9 +9146,9 @@ proxies:
   reality-opts:
     public-key: MMtQZAfeoLdRLaV_tOQwdkU3haA7OjEAjxkDKQkgfls
     short-id: "745948e442d1db44"
-- name: 🕒 | 🇩🇪-7386 | 110 KB/s 🐌
+- name: 🕒 | 🇩🇪-7476 | 82 KB/s 🐌
   type: vless
-  server: leviko-fi3617.shopingggg.ir
+  server: 79.182.70.199
   port: 443
   uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
   udp: true
@@ -8892,7 +9171,7 @@ proxies:
   reality-opts:
     public-key: yY1fkI_LuyCUjEiJcdltWRSegNPQVEGe8RT_1-e-8kI
     short-id: "55f184e2a4067714"
-- name: '@ICV2RAY #8'
+- name: '@ICV2RAY #9'
   type: vless
   server: 178.18.158.17
   port: 43000
@@ -8914,18 +9193,6 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: 195.110.15.17
-  reality-opts:
-    public-key: U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI
-    short-id: "8cfe1563"
-- name: ♻️31@oneclickvpnkeys
-  type: vless
-  server: 5.83.158.96
-  port: 43000
-  uuid: 0809eed6-5204-49b8-8312-b82a10024022
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 5.83.158.96
   reality-opts:
     public-key: U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI
     short-id: "8cfe1563"
@@ -8985,7 +9252,7 @@ proxies:
   reality-opts:
     public-key: D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU
     short-id: "d211e464747fdf2c"
-- name: 'v2ray_configs_pools #3'
+- name: 'ᴛᴇʟᴇɢʀᴀᴍ #4'
   type: vless
   server: 161.97.66.16
   port: 443
@@ -8997,7 +9264,7 @@ proxies:
   reality-opts:
     public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
     short-id: "086bf957"
-- name: 🔵@chillguy_vpn
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #52'
   type: vless
   server: ai.smrtai.top
   port: 443
@@ -9025,7 +9292,7 @@ proxies:
     path: /ws/08769909-d06c-4585-9092-b051786aeeb4
     headers:
       Host: nanebaget.dpdns.org
-- name: 'Config #13'
+- name: 'Config #21'
   type: vless
   server: 188.130.208.210
   port: 443
@@ -9050,18 +9317,6 @@ proxies:
   port: 58978
   uuid: 08ef1d56-08b7-4dc8-9e64-2a0982622752
   udp: true
-- name: 🕒 | 🇩🇪-7383 | 177.2 MB/s 🔥
-  type: vless
-  server: mergo.vpn.iiproxy.com
-  port: 443
-  uuid: 08fc6597-23e9-4f29-bce2-b3bbc04e8c91
-  udp: true
-  tls: true
-  servername: mergo.vpn.iiproxy.com
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
 - name: '>>@configV2rayNG::FI'
   type: vless
   server: k2.cloud--vpn.site
@@ -9078,34 +9333,6 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: '@iranping24'
-  type: vless
-  server: 216.24.57.1
-  port: 2095
-  uuid: 0916272d-34a8-4f4c-a821-e340d485cedc
-  udp: true
-  network: httpupgrade
-- name: '@iranping24 #2'
-  type: vless
-  server: ipfast.kingmna.com
-  port: 443
-  uuid: 0916272d-34a8-4f4c-a821-e340d485cedc
-  udp: true
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: finalnsdger.global.ssl.fastly.net.
-- name: '@iranping24 #3'
-  type: vless
-  server: render.com
-  port: 2095
-  uuid: 0916272d-34a8-4f4c-a821-e340d485cedc
-  udp: true
-  network: httpupgrade
 - name: '@Tarkshodeh #20'
   type: vless
   server: game.celvixo.ir
@@ -9170,7 +9397,7 @@ proxies:
   reality-opts:
     public-key: OQsVeM4sKyLRiGKO1QDfyo4C0xBJJhFB54EhFlcvzGM
     short-id: "414b8a385e81910a"
-- name: 🇨🇦
+- name: '🇨🇦 #2'
   type: vless
   server: 104.21.227.134
   port: 80
@@ -9181,7 +9408,7 @@ proxies:
     path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
     headers:
       Host: elenaaaaaaaaaa.cloudns.pro
-- name: '🇨🇦 #2'
+- name: '🇨🇦 #3'
   type: vless
   server: 188.114.98.112
   port: 80
@@ -9206,7 +9433,7 @@ proxies:
     path: /proxyip
     headers:
       Host: whitecreeper.pages.dev
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #51'
+- name: '⚡ #76'
   type: vless
   server: 199.232.78.159
   port: 80
@@ -9226,7 +9453,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #52'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #53'
   type: vless
   server: 195.135.252.28
   port: 443
@@ -9302,7 +9529,7 @@ proxies:
   servername: upload.onecloudtraining.com
   alpn:
   - h2
-- name: '443 #2'
+- name: '443 #4'
   type: vless
   server: download.onecloudtraining.com
   port: 443
@@ -9312,7 +9539,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: '443 #3'
+- name: '443 #5'
   type: vless
   server: fetch.onecloudtraining.com
   port: 443
@@ -9340,7 +9567,7 @@ proxies:
   reality-opts:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
     short-id: "cd21e552537c7c0b"
-- name: 'TEL;Father_vpn #11'
+- name: 'TEL;Father_vpn #12'
   type: vless
   server: 45.92.219.119
   port: 7443
@@ -9353,6 +9580,15 @@ proxies:
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
     short-id: "d82fb387"
+- name: '🇷🇺 俄罗斯 | RUS #2'
+  type: vless
+  server: 171.22.133.5
+  port: 443
+  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  udp: true
+  tls: true
+  servername: sw.krabvpn.pro
+  client-fingerprint: firefox
 - name: '🇩🇪 德国 | DEU #5'
   type: vless
   server: 191.217.205.175
@@ -9399,6 +9635,20 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
+- name: 'openproxylist #6'
+  type: vless
+  server: 149.104.5.141
+  port: 443
+  uuid: 0c492b73-98de-4ad2-bbe9-eb25661d17ac
+  udp: true
+  tls: true
+  servername: byyzz.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?proxyip=proxyip.oracle.cmliussss.net
+    headers:
+      Host: byyzz.pages.dev
 - name: 🇬🇧 英国 | GBR
   type: vless
   server: 46.250.231.61
@@ -9436,7 +9686,7 @@ proxies:
     path: /logout
     headers:
       Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #53'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #54'
   type: vless
   server: 104.16.132.136
   port: 80
@@ -9447,7 +9697,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: blue-pine-59a0-ppal03.haleyaw148.workers.dev
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #54'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #55'
   type: vless
   server: 104.24.192.51
   port: 80
@@ -9458,6 +9708,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: blue-pine-59a0-ppal03.haleyaw148.workers.dev
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #56'
+  type: vless
+  server: 83.147.245.126
+  port: 443
+  uuid: 0cf8e402-e801-4aeb-9b7a-00a933f9f1c1
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: assets-str-53.nexus-infinitus.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: gLO2GRqV0iVDmVdytcJLqGyZEB5Swxb-NAOC9AL13UM
+    short-id: "344f1f56582dda0f"
 - name: '@KAFING_2 #11'
   type: vless
   server: 172.67.175.86
@@ -9478,7 +9741,7 @@ proxies:
   port: 45903
   uuid: 0d2d64a3-1d92-4c65-b293-d5a648d2b078
   udp: true
-- name: '@vpnsal #2'
+- name: '@vpnsal #3'
   type: vless
   server: no.cnd.germany.myfilecdn.com
   port: 443
@@ -9505,7 +9768,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 'Channel #6'
+- name: 'Channel #4'
   type: vless
   server: 200.96.106.2
   port: 9889
@@ -9531,13 +9794,13 @@ proxies:
   reality-opts:
     public-key: RRawEiil652RhrCcf0Oq94mBii7I21eN3YyOo34NrTY
     short-id: "47e4cb670b4e547d"
-- name: '@v2ray_phoenix #11'
+- name: '@v2ray_phoenix #12'
   type: vless
   server: HOmE.FiLMbAzOO.IR
   port: 80
   uuid: 0e664014-511c-470c-aa4a-3f779f16b9b1
   udp: true
-- name: '@GozargahAzad|🇩🇪'
+- name: 'Config #22'
   type: vless
   server: www.pexqelo.ir
   port: 443
@@ -9546,11 +9809,11 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: opensuse.org
-  client-fingerprint: chrome
+  client-fingerprint: ios
   reality-opts:
     public-key: EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk
     short-id: "f3f00787a8b3f471"
-- name: ♻️10@oneclickvpnkeys
+- name: Tel@MARAMBASHI
   type: vless
   server: 191.101.8.40
   port: 8443
@@ -9558,13 +9821,14 @@ proxies:
   udp: true
   tls: true
   servername: nl40.homelab-cdn.cloud
+  client-fingerprint: chrome
   reality-opts:
     public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
     short-id: "08"
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: ♻️11@oneclickvpnkeys
+- name: Tel-@ProxyMtAlpha🍟6
   type: vless
   server: 191.101.8.41
   port: 8443
@@ -9592,21 +9856,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: ♻️39@oneclickvpnkeys
-  type: vless
-  server: 88.216.189.20
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  udp: true
-  tls: true
-  servername: thelocal.se
-  reality-opts:
-    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
-    short-id: "08"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '@VPsave #13'
+- name: '@ICV2RAY #10'
   type: vless
   server: 89.106.88.23
   port: 24443
@@ -9688,7 +9938,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: '@VPsave #14'
+- name: '@VPsave #10'
   type: vless
   server: ee125.own-homelab.cloud
   port: 443
@@ -9702,7 +9952,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: '@VPsave #15'
+- name: '@VPsave #11'
   type: vless
   server: ee146.own-homelab.cloud
   port: 443
@@ -9716,7 +9966,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: '@VPsave #16'
+- name: '@VPsave #12'
   type: vless
   server: ee27.own-homelab.cloud
   port: 443
@@ -9730,7 +9980,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: ♻️36@oneclickvpnkeys
+- name: '@meliproxyy'
   type: vless
   server: nl40.homelab-cdn.cloud
   port: 8443
@@ -9738,38 +9988,9 @@ proxies:
   udp: true
   tls: true
   servername: nl40.homelab-cdn.cloud
-  reality-opts:
-    public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
-    short-id: "08"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #55'
-  type: vless
-  server: nl41.homelab-cdn.cloud
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  udp: true
-  tls: true
-  servername: nl41.homelab-cdn.cloud
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
-    short-id: "08"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '@VPsave #17'
-  type: vless
-  server: sweden.dance-tonic.rutube.info
-  port: 8443
-  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-  udp: true
-  tls: true
-  servername: thelocal.se
   client-fingerprint: chrome
   reality-opts:
-    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
+    public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
     short-id: "08"
   network: grpc
   grpc-opts:
@@ -9821,19 +10042,6 @@ proxies:
   reality-opts:
     public-key: uAoKx_ePWGe_jowwFZt7x3oZSNU3VJl9dIQmeYG22FM
     short-id: "9a4d61e8c2f735b0"
-- name: 🕒 | 🇹🇷-1299 | 10 MB/s 🔥
-  type: vless
-  server: trn21.mobileemdad.top
-  port: 443
-  uuid: 0f1a3085-06ae-4cf3-9274-6f59a56f6229
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: delivery.mp.microsoft.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ
-    short-id: "9ed2fa"
 - name: '@NETMelliAnti #3'
   type: vless
   server: 116.202.2.27
@@ -9847,6 +10055,32 @@ proxies:
   reality-opts:
     public-key: kQ80VUyUaQF2Qczqb4XqnNdGD8pYwuVNqBEezMjtBTc
     short-id: "72a35f6d88599886"
+- name: 🕒 | 🇫🇷-1315 | 61 MB/s 🔥
+  type: vless
+  server: 83.141.91.226
+  port: 443
+  uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fr-18-a5vw.wave-inside.online
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mt3YJTFsB89AU2gEUXYActFnCCsuovXHK9GU6Z7rKy8
+    short-id: "cf6de5ede986fd10"
+- name: '@VPsave #13'
+  type: vless
+  server: 94.228.162.227
+  port: 443
+  uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: at-11-d1ca.cdn-lab.online
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ASVlGdmTImXr_8H1ckHdeDl39NemRM6DKnEl9sadsm4
+    short-id: "ed79dd3a38fe3260"
 - name: 🇺🇸139806
   type: vless
   server: 199.232.78.159
@@ -9861,7 +10095,7 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
     headers:
       Host: pan1.global.ssl.fastly.net
-- name: '@VPsave #18'
+- name: canfingV2rayNG-80
   type: vless
   server: 43.174.247.53
   port: 443
@@ -9875,7 +10109,7 @@ proxies:
     path: /55072/api
     headers:
       Host: aron.irandoc.info
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #56'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #57'
   type: vless
   server: 104.16.186.41
   port: 443
@@ -9888,7 +10122,7 @@ proxies:
     path: /sinavm-sinavm/?ed=2560
     headers:
       Host: cr7.traneh.dpdns.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #57'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #58'
   type: vless
   server: 104.16.190.41
   port: 443
@@ -9902,7 +10136,19 @@ proxies:
     path: /
     headers:
       Host: cr7.traneh.dpdns.org
-- name: 'TEL;Father_vpn #12'
+- name: 🌐 Anycast-IP | 🇨🇾 🇬🇧 [*CIDR]
+  type: vless
+  server: 188.225.36.19
+  port: 443
+  uuid: 1032d6d6-3934-44fb-829a-1e109fde78d3
+  udp: true
+  tls: true
+  servername: sweden.b2ai.top
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: E04PLrATdE3UNicE4Ap8w5-yj-ZYutTKO0l-vAlYvEg
+    short-id: ''
+- name: 'TEL;Father_vpn #13'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -9928,7 +10174,7 @@ proxies:
     path: /?
     headers:
       Host: frenchanjaai.global.ssl.fastly.net
-- name: '@ICV2RAY #9'
+- name: '@ICV2RAY #11'
   type: vless
   server: 45.135.194.196
   port: 8080
@@ -9943,7 +10189,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '@ICV2RAY #10'
+- name: '@ICV2RAY #12'
   type: vless
   server: 77.92.151.84
   port: 8080
@@ -9958,7 +10204,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '443 #4'
+- name: '443 #6'
   type: vless
   server: fast1.mrsf.ir
   port: 443
@@ -9969,19 +10215,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-- name: 🇹🇷TR-🚀@VPNine1
-  type: vless
-  server: 188.132.174.69
-  port: 13787
-  uuid: 10af09cf-dc4c-4c08-b524-10e7ef4667d6
-  udp: true
-  tls: true
-  servername: sww.srv-alfarayen.ir
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -U1wp1S-Mi6lN2L2KusY95zw9obuZ3H26n1cbLw7lGs
-    short-id: "41a72194ef86d6"
-- name: 'Channel #7'
+- name: 'Channel #5'
   type: vless
   server: panel.autonetshop.ir
   port: 13787
@@ -9993,7 +10227,7 @@ proxies:
   reality-opts:
     public-key: -U1wp1S-Mi6lN2L2KusY95zw9obuZ3H26n1cbLw7lGs
     short-id: "41a72194ef86d6"
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #58'
+- name: '🔥Join+Telegram:@Farah_VPN🟣 #59'
   type: vless
   server: 172.67.188.9
   port: 443
@@ -10170,225 +10404,6 @@ proxies:
     path: /ws/Default
     headers:
       Host: app-ysgsu34-iehe737-ddf-3d08d6-production.up.railway.app
-- name: '@NETMelliAnti #4'
-  type: vless
-  server: 95.217.24.236
-  port: 2087
-  uuid: 10d85f65-f8d6-4504-b1e2-94649db1577a
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 62.238.41.21
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: KN8tFlpIwPgJGwUCG7Pp9c9c0juYKPvNIv4kFHwqbyk
-    short-id: "a32cfb5deca913ad"
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #59'
-  type: vless
-  server: 104.21.112.1
-  port: 80
-  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-  udp: true
-  network: ws
-  ws-opts:
-    path: /Tel-@V2ray_Alpha
-    headers:
-      Host: masaleini.mahsaamini.dpdns.org
-- name: '🔥Join+Telegram:@Farah_VPN🟣 #60'
-  type: vless
-  server: 172.66.47.63
-  port: 80
-  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: masaleini.mahsaamini.dpdns.org
-- name: 🇳🇱139892
-  type: vless
-  server: yt.nl.xanka.best
-  port: 2761
-  uuid: 10e2817c-9a84-4c42-9eff-a8cfd6ec9283
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nl.xanka.best
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: d9ncsYIjJIiCaqLszDyLhZoZ9-XMYYhBrlHUyuHFxQo
-    short-id: "a4e1fd84"
-- name: سرورها
-  type: vless
-  server: Everyday-VPN.Telegram-Channel
-  port: 443
-  uuid: 11111111-2222-1111-1111-111111111111
-  udp: true
-  tls: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇫🇷 France, Saint-Apollinaire | [BL]
-  type: vless
-  server: jdxl.cf.090227.xyz
-  port: 443
-  uuid: 11111111-2222-3333-4444-555555555555
-  udp: true
-  tls: true
-  servername: q7a223ydvpc5.hostc.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tg-jiedianxielou
-    headers:
-      Host: q7a223ydvpc5.hostc.app
-- name: 'Config #14'
-  type: vless
-  server: 85.155.183.228
-  port: 443
-  uuid: 1157d3c2-58a6-4b34-8d8e-9a66b0a97379
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: node-sw1.ainsight.ru
-  reality-opts:
-    public-key: HiYyQ8Crfz_F945a8exFTWSH_5zjoR0kqhry2-8Obhk
-    short-id: "0faff85d8a8ae779"
-- name: '@v2ray_configs_pools #3'
-  type: vless
-  server: rm3.rmastore.ir
-  port: 2053
-  uuid: 116e7d57-afcf-4558-be0a-01e80fe6cd31
-  udp: true
-  network: ws
-  ws-opts:
-    path: /nlrma
-- name: 'openproxylist #3'
-  type: vless
-  server: 193.163.203.170
-  port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: "b28db60d77c50b4f"
-- name: '>>@v2rayNG_Matsuri::DE'
-  type: vless
-  server: 91.107.190.63
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-- name: 'All #13'
-  type: vless
-  server: hiccuped-tacos.sports-streams.org
-  port: 443
-  uuid: 11b8d1a3-d3f3-48b9-bdf2-fef490069bea
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: liggo.love
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: ''
-- name: '@CUSTOMVPNSERVER #9'
-  type: vless
-  server: 157.173.127.225
-  port: 443
-  uuid: 11beaf11-726d-4c11-8ce9-27308c1c608c
-  udp: true
-  tls: true
-  servername: analytics.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8
-    short-id: "eab26c4a32"
-- name: '@Tarkshodeh #22'
-  type: vless
-  server: 45.91.138.179
-  port: 443
-  uuid: 11f21602-47aa-42e2-9149-69120f2e6df6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: us05.shifor01.life
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 36sTeaLdaAjQQxxzh492XihoPi2YxmttQyncmLuxYHE
-    short-id: "169fc2df88419465"
-- name: حجم
-  type: vless
-  server: plt.starferi.ir
-  port: 8460
-  uuid: 1205caca-020f-4b79-a002-e344cc81fb2c
-  udp: true
-- name: '@fastkanfig #6'
-  type: vless
-  server: chatgpt.com
-  port: 2052
-  uuid: 122b8a33-d923-48a6-8f1b-e721cf842864
-  udp: true
-  network: httpupgrade
-- name: بیا
-  type: vless
-  server: m2.daltoon-server.ir
-  port: 330
-  uuid: 122b8a33-d923-48a6-8f1b-e721cf842864
-  udp: true
-  tls: true
-  servername: amp-api-edge.apps.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg
-    short-id: "45"
-- name: کانفیگ
-  type: vless
-  server: m2.daltoon-server.ir
-  port: 35468
-  uuid: 122b8a33-d923-48a6-8f1b-e721cf842864
-  udp: true
-- name: vless-turkey
-  type: vless
-  server: turkey.daltoon-cloud.ir
-  port: 2083
-  uuid: 122b8a33-d923-48a6-8f1b-e721cf842864
-  udp: true
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-- name: '🏳 vless- #1'
-  type: vless
-  server: music.3apes.online
-  port: 443
-  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: music.3apes.online
-  client-fingerprint: qq
-- name: '@ConfigV2RayNG #23'
-  type: vless
-  server: 185.71.216.177
-  port: 2194
-  uuid: 128bd8ad-4f6c-4d70-af13-15a2cec331d2
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: "55986a94e2228791"
 - name: '说明-来源: Eleven1985/Scrape-By-Country'
   type: trojan
   server: 127.0.0.1
@@ -10396,7 +10411,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1487 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1490 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -10422,6 +10437,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Eleven1985/Scrape-By-Country'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1487 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1490 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
