@@ -73,20 +73,19 @@ proxies:
   port: 55000
   password: 140dfd67-61be-45e8-b234-0a5529d47ebc
   skip-cert-verify: true
-- name: 🇳🇱 Нидерланды — Амстердам 👻
+- name: NL荷兰( 更新)
   type: hysteria2
   server: 9.247.54.188
   port: 443
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   sni: nl1.obxodvpn.us
-- name: 🇰🇷KR_4|593KB/s|A004-260618
+- name: 🇰🇷_KR_韩国
   type: hysteria2
   server: 132.226.226.189
   port: 50160
   password: "1671a252e2a97dc2bda4e515475931da"
-  sni: 132.226.226.189
   skip-cert-verify: true
-- name: 🇯🇵_JP_日本
+- name: 🇯🇵JP_2|125KB/s|A004-260618
   type: hysteria2
   server: 138.3.208.26
   port: 50160
@@ -112,13 +111,13 @@ proxies:
   password: 19f72087-4591-4d72-930b-2697078ec2be
   sni: us4.xiaoliyu.cyou
   skip-cert-verify: true
-- name: 🇰🇷_KR_韩国
+- name: '🇰🇷_KR_韩国 #2'
   type: hysteria2
   server: 152-69-231-175.liao.kdns.fr
   port: 50160
   password: "1beb216e3f60aea9555dae60d219a5ca"
   sni: 152-69-231-175.liao.kdns.fr
-- name: '🇯🇵_JP_日本 #2'
+- name: 🇯🇵_JP_日本
   type: hysteria2
   server: 8.209.217.129
   port: 443
@@ -130,14 +129,14 @@ proxies:
 - name: 剩余流量：0
   type: hysteria2
   server: akjp.fe-9.top
-  port: 49346
+  port: 39013
   password: 21b60363-271b-49f0-975b-dbe315215164
   sni: akjp.fe-9.top
   skip-cert-verify: true
 - name: 🇯🇵 日本-hy2 02
   type: hysteria2
   server: tdjp1.9dai.xyz
-  port: 30477
+  port: 37497
   password: 21b60363-271b-49f0-975b-dbe315215164
   sni: tdjp1.9dai.xyz
   skip-cert-verify: true
@@ -393,13 +392,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: "c13f29db6a638ad2b211b9ce2669ef27"
-- name: 🇰🇷KR_1|351KB/s|R002-260618
-  type: hysteria2
-  server: 152.67.200.82
-  port: 50160
-  password: "3d7634af8cb2c6cb4bac1c0efad8b43d"
-  sni: 152-67-200-82.liao.kdns.fr
-  skip-cert-verify: true
 - name: '🇩🇪_DE_德国 #2'
   type: hysteria2
   server: dg2.mangshe.xyz
@@ -420,14 +412,14 @@ proxies:
   password: 523486c6-c0b5-4e5b-8896-4af2375b41cc
   sni: quic.tyr-agentstvo.tech
   skip-cert-verify: true
-- name: '@OutlineReleasedKey #3'
+- name: '@OutlineReleasedKey #2 #2'
   type: hysteria2
   server: 212.34.137.105
   port: 443
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   sni: shorts.blog-forme.ru
   skip-cert-verify: true
-- name: 🇳🇱NL_51|1.1MB/s|M003-260806
+- name: 🇳🇱NL_52|104KB/s|M003-260806
   type: hysteria2
   server: 94.183.164.119
   port: 24403
@@ -439,17 +431,11 @@ proxies:
   port: 24433
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   sni: lakes.blog-forme.ru
-- name: '@OutlineReleasedKey #5'
+- name: '@OutlineReleasedKey #3'
   type: hysteria2
   server: guide.blog-forme.ru
   port: 443
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-- name: '@vpnsal'
-  type: hysteria2
-  server: 104.165.205.42
-  port: 8443
-  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
-  sni: speedtestmark.com
 - name: 🇲🇾_MY_马来西亚
   type: hysteria2
   server: mlxy1.mangshe.xyz
@@ -457,7 +443,7 @@ proxies:
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: mlxy1.mangshe.xyz
   skip-cert-verify: true
-- name: '🇯🇵_JP_日本 #3'
+- name: '🇯🇵_JP_日本 #2'
   type: hysteria2
   server: msjp1.mangshe.xyz
   port: 20561
@@ -485,7 +471,7 @@ proxies:
   sni: 109.70.74.213
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
-- name: '🇯🇵_JP_日本 #4'
+- name: '🇯🇵_JP_日本 #3'
   type: hysteria2
   server: 8.211.152.47
   port: 443
@@ -531,15 +517,15 @@ proxies:
   password: 73ffcd12-0155-432f-9fd4-c1d2bf9190d7
   sni: music.apple.com
   skip-cert-verify: true
-- name: '🇸🇬 新加坡 | SGP #1'
+- name: '🇸🇬 新加坡 | SGP #2'
   type: hysteria2
-  server: 13.212.48.8
+  server: 13.229.50.232
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP
+- name: '🇸🇬 新加坡 | SGP #1'
   type: hysteria2
-  server: 13.229.50.232
+  server: 13.229.87.193
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
@@ -551,29 +537,17 @@ proxies:
   skip-cert-verify: true
 - name: '🇰🇷 韩国 | KOR #2'
   type: hysteria2
-  server: 3.36.48.199
-  port: 443
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  skip-cert-verify: true
-- name: '🇰🇷 韩国 | KOR #1'
-  type: hysteria2
-  server: 3.38.150.98
-  port: 443
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 | KOR
-  type: hysteria2
   server: 43.201.150.9
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
-- name: '🇸🇬 新加坡 | SGP #2'
+- name: '🇰🇷 韩国 | KOR #2 #2'
   type: hysteria2
-  server: 52.221.227.252
+  server: 43.203.123.202
   port: 443
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   skip-cert-verify: true
-- name: '🇭🇰_HK_中国香港 #2'
+- name: 🔵93@oneclickvpnkeys
   type: hysteria2
   server: 24.233.8.109
   port: 443
@@ -634,18 +608,25 @@ proxies:
   port: 36712
   password: CompanyHy2_2026!
   skip-cert-verify: true
+- name: '@ConfigV2RayNG #2'
+  type: hysteria2
+  server: 150.230.229.100
+  port: 20000
+  password: CyG0RFxMjzs41uQD4OLuHQ==
+  sni: hy2-br2.whuiy.xyz
+  obfs: salamander
+  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
 - name: '🇺🇸_US_美国 #6'
   type: hysteria2
   server: 198.46.159.171
   port: 8443
   password: EkkoHY2_2024!
   skip-cert-verify: true
-- name: 🇹🇼TW_1|473KB/s|A004-260618
+- name: 🇹🇼TW_3|73KB/s|A004-260618
   type: hysteria2
   server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
   skip-cert-verify: true
 - name: 🇺🇲16@exclavevpn
   type: hysteria2
@@ -653,33 +634,19 @@ proxies:
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: 🇫🇷FR_8|2.5MB/s|A004-260618
+- name: 🇫🇷FR_4|129KB/s|C002-260622
   type: hysteria2
   server: 13.36.234.11
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 13.36.234.11
   skip-cert-verify: true
-- name: 🇹🇼TW_4|409KB/s|A004-260618
-  type: hysteria2
-  server: 160.187.100.109
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇩🇪DE_22|2.7MB/s|M003-260806
-  type: hysteria2
-  server: 18.153.65.67
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇩🇪DE_39|367KB/s|M003-260806
+- name: 🇩🇪DE_19|1.1MB/s|A004-260618
   type: hysteria2
   server: 18.193.79.104
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 18.193.79.104
+  sni: 127.0.0.1
   skip-cert-verify: true
 - name: 🔹69@oneclickvpnkeys
   type: hysteria2
@@ -688,37 +655,53 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇭🇰HK_2|596KB/s|M003-260806
+- name: 🇭🇰HK_2|214KB/s|A004-260618
   type: hysteria2
   server: 202.146.222.174
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   skip-cert-verify: true
-- name: 🇭🇰HK_3|172KB/s|A004-260618
+- name: 🇭🇰HK_5|123KB/s|C002-260622
   type: hysteria2
   server: 202.146.222.29
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.29
   skip-cert-verify: true
-- name: 🇭🇰HK_8|172KB/s|M003-260806
+- name: 🇭🇰HK_4|66KB/s|M003-260806
   type: hysteria2
   server: 202.146.222.89
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
   skip-cert-verify: true
-- name: 🇩🇪DE_16|140KB/s|C002-260622
+- name: ❓Other_70|65KB/s|C002-260622
+  type: hysteria2
+  server: 3.69.232.199
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.69.232.199
+  skip-cert-verify: true
+- name: 🇩🇪DE_24|91KB/s|M003-260806
   type: hysteria2
   server: 3.76.203.180
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 3.76.203.180
   skip-cert-verify: true
-- name: 🇩🇪DE_21|225KB/s|A004-260618
+- name: 🇩🇪DE_20|269KB/s|A004-260618
   type: hysteria2
   server: 3.76.221.4
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🔵92@oneclickvpnkeys
+  type: hysteria2
+  server: vpn-hk-004.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-hk-004.fastervpn.world
   skip-cert-verify: true
 - name: '🇮🇳_IN_印度 #2'
   type: hysteria2
@@ -734,19 +717,19 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-jp-002.fastervpn.world
   skip-cert-verify: true
-- name: '🇰🇷_KR_韩国 #2'
+- name: '🇰🇷_KR_韩国 #3'
   type: hysteria2
   server: vpn-kr-003.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
-- name: 🇹🇼TW_3|369KB/s|C002-260622
+- name: 🇹🇼TW_1|231KB/s|A004-260618
   type: hysteria2
   server: vpn-tw-002.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
+  sni: t.me
   skip-cert-verify: true
 - name: 🇬🇧_GB_英国
   type: hysteria2
@@ -832,7 +815,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
-- name: 'Telegram@vpnjey #4'
+- name: 🔵31@oneclickvpnkeys
   type: hysteria2
   server: 2a0f:5707:aaf1:11a6::1
   port: 36264
@@ -841,7 +824,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: Telegram@vpnjey
-- name: 'Telegram@vpnjey #4 #2'
+- name: 'Telegram@vpnjey #4'
   type: hysteria2
   server: 2a0f:5707:aaf1:11a6::1
   port: 5707
@@ -884,12 +867,6 @@ proxies:
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: true
-- name: 🇫🇮 Финляндия — Хельсинки 👻 🇺🇸Каскад
-  type: hysteria2
-  server: 179.253.82.47
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: fl3.nexfile.net
 - name: hy2-179.254.191.251-4444
   type: hysteria2
   server: 179.254.191.251
@@ -970,7 +947,7 @@ proxies:
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   sni: music.apple.com
   skip-cert-verify: true
-- name: '🇭🇰_HK_中国香港 #3'
+- name: '🇭🇰_HK_中国香港 #2'
   type: hysteria2
   server: 31.57.248.176
   port: 50160
@@ -988,12 +965,6 @@ proxies:
   port: 443
   password: b36a14f8-fc3f-4142-968f-48031cf5f330
   sni: hy2-eee-1.aloranode.top
-- name: 🇵🇱 Poland, Warsaw | [BL]
-  type: hysteria2
-  server: 103.246.248.147
-  port: 443
-  password: b384d216-9efa-4fd0-a5ef-bd3c37475e4d
-  sni: pl.anonch.org
 - name: 🇦🇺AU_1|1.9MB/s
   type: hysteria2
   server: 161.33.231.22
@@ -1019,7 +990,13 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-- name: '🇰🇷_KR_韩国 #3'
+- name: 🇭🇰 香港 | HKG
+  type: hysteria2
+  server: 906512ec-tovmo0-tou0p4-1ji20.hk3.hyhuawei.com
+  port: 443
+  password: b7f20af6-7523-11f1-a6a1-f23c913c8d2b
+  skip-cert-verify: true
+- name: '🇰🇷_KR_韩国 #4'
   type: hysteria2
   server: 47.80.61.21
   port: 443
@@ -1095,86 +1072,6 @@ proxies:
   port: 443
   password: "d4ca9415f0eac7897472e1e5b86d2e96"
   sni: promo.betust.net
-- name: '[香港] ₁'
-  type: hysteria2
-  server: byhk1106123.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: byhk1106123.luoyun2.com
-  obfs: salamander
-  obfs-password: ghOmB5Oyibd1YUjY
-- name: '[香港] 原生₇'
-  type: hysteria2
-  server: byhk1113.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: byhk1113.luoyun2.com
-  obfs: salamander
-  obfs-password: r8bIo3oUyFE8zW4O
-- name: '[台湾省] 纯净住宅家宽₈'
-  type: hysteria2
-  server: clean.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: clean.luoyun2.com
-  obfs: salamander
-  obfs-password: uorTO7HA1EySl9ro
-- name: 德国
-  type: hysteria2
-  server: de915.luoyun2.com
-  port: 29971
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: de915.luoyun2.com
-  obfs: salamander
-  obfs-password: dqtfOkNcI698UmPV
-- name: '[香港] ₃'
-  type: hysteria2
-  server: hk1031yd.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: hk1031yd.luoyun2.com
-  obfs: salamander
-  obfs-password: w8uG5sRFPzP6Gb3B
-- name: '[柬埔寨] v6'
-  type: hysteria2
-  server: jps1025.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: jps1025.luoyun2.com
-  obfs: salamander
-  obfs-password: 6xo8oDoPVi43eCjt
-- name: '[格陵兰] iPv6'
-  type: hysteria2
-  server: kll102.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: kll102.luoyun2.com
-  obfs: salamander
-  obfs-password: ZrXQjYN4WHnv4iHf
-- name: '[美国] ₃原生'
-  type: hysteria2
-  server: mg1113.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: mg1113.luoyun2.com
-  obfs: salamander
-  obfs-password: AkV7G7hnRODkiLY6
-- name: '[日本]₀原生'
-  type: hysteria2
-  server: rrrrrr20zzz.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: rrrrrr20zzz.luoyun2.com
-  obfs: salamander
-  obfs-password: Z8Ui9IqFMNpi6RQu
-- name: '[新加坡]₁₀'
-  type: hysteria2
-  server: xxxxxx55595.luoyun2.com
-  port: 22881
-  password: db4742d4-ad15-4ecf-952f-5bba861771d9
-  sni: xxxxxx55595.luoyun2.com
-  obfs: salamander
-  obfs-password: AXAbZayNr5qCXqs4
 - name: '🇸🇬_SG_新加坡 #6'
   type: hysteria2
   server: 8.219.144.195
@@ -1199,7 +1096,7 @@ proxies:
   sni: nas.aizhzo.com
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇮🇱IL_4|79KB/s|R002-260618
+- name: 🇮🇱_IL_以色列
   type: hysteria2
   server: 129.159.156.109
   port: 50160
@@ -1227,18 +1124,18 @@ proxies:
   sni: vn2.yuntong.click
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+- name: 🇸🇬SG_7|137KB/s|R002-260618
+  type: hysteria2
+  server: 138.2.73.238
+  port: 50160
+  password: "f87376e17da040ed04c9665ce8972930"
+  skip-cert-verify: true
 - name: '🇺🇸_US_美国 #11'
   type: hysteria2
   server: 156.229.163.112
   port: 55000
   password: f9e76796-72ba-4af1-9435-a556bd81c140
   skip-cert-verify: true
-- name: 🇬🇧GB_11|1.3MB/s|M003-260806
-  type: hysteria2
-  server: 195.63.128.21
-  port: 10444
-  password: fa937345-6d3e-4ff4-8127-1a836987a0db
-  sni: germany.cloudhouse1.ru
 - name: '@OutlineReleasedKey #8'
   type: hysteria2
   server: 195.63.128.21
@@ -1251,59 +1148,41 @@ proxies:
   port: 10444
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   sni: cloudehouse24.ru
-- name: 🇺🇸US_135|557KB/s|K001-260618
-  type: hysteria2
-  server: 107.149.232.92
-  port: 443
-  password: fanvpn.net
-  skip-cert-verify: true
-- name: 🇳🇱NL_35|116KB/s|B007-260618
-  type: hysteria2
-  server: 5.129.235.85
-  port: 443
-  password: gf1:gfhysteria2024
-  skip-cert-verify: true
-- name: 🇺🇸US_81|82KB/s|M003-260806
-  type: hysteria2
-  server: 66.94.121.46
-  port: 443
-  password: gf1:gfhysteria2024
-  sni: 66.94.121.46
-  skip-cert-verify: true
 - name: 🇫🇷_FR_法国
   type: hysteria2
   server: 173.212.201.85
   port: 443
   password: gf1:gfhysteria2024
   skip-cert-verify: true
-- name: ❓Other_32|9.8MB/s|P002-260618
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  skip-cert-verify: true
 - name: '🇺🇸_US_美国 #12'
+  type: hysteria2
+  server: 66.94.121.46
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: 66.94.121.46
+  skip-cert-verify: true
+- name: '🇺🇸_US_美国 #13'
   type: hysteria2
   server: starlink-ft.251313.xyz
   port: 443
   password: https//xship.2fa.cat
   sni: xship.top
   skip-cert-verify: true
-- name: '🇺🇸_US_美国 #13'
+- name: '🇺🇸_US_美国 #14'
   type: hysteria2
   server: starlink-ft.251313.xyz
   port: 443
   password: https//xship.best
   sni: xship.top
   skip-cert-verify: true
-- name: 🇦🇺AU_1|4.0MB/s
+- name: 🔵100@oneclickvpnkeys
   type: hysteria2
   server: 13.55.52.44
   port: 36712
   password: linlin-2026
   sni: 13.55.52.44
   skip-cert-verify: true
-- name: 🇰🇷KR_2|772KB/s|A001-260618
+- name: '🇰🇷_KR_韩国 #5'
   type: hysteria2
   server: 152.70.237.123
   port: 2053
@@ -1431,36 +1310,28 @@ proxies:
   password: yO8pug5XmwkBXBAjleYIaVt
   sni: 192.255.152.147
   skip-cert-verify: true
-- name: '@ConfigV2RayNG #2'
-  type: hysteria2
-  server: 137.131.177.121
-  port: 20000
-  password: z/yIxn3sBV03PkAxbnX8rg==
-  sni: hy2-br.whuiy.xyz
-  obfs: salamander
-  obfs-password: z/yIxn3sBV03PkAxbnX8rg==
-- name: 美国568频道：@jichangdl
+- name: 美国155频道：@jichangdl
   type: ss
   server: 103.11.76.248
   port: 28679
   cipher: 2022-blake3-aes-128-gcm
   password: NzJlOTQ5NWYtM2ZkYi00Cg==
   udp: true
-- name: 🇺🇸US_63|290KB/s|M003-260806
+- name: 美国997频道：@jichangdl
   type: ss
   server: 38.145.220.193
   port: 8443
   cipher: 2022-blake3-aes-128-gcm
   password: jUbDNsFamcyDfpm+rI3Zyw==
   udp: true
-- name: 德国995频道：@jichangdl
+- name: 德国840频道：@jichangdl
   type: ss
   server: do.mufvaz.ir
   port: 8080
   cipher: 2022-blake3-aes-128-gcm
   password: qOHCLF66+6fJFVFuWPjXZA==:qZbINYVuaY5AG0iohcNViA==
   udp: true
-- name: ShadowsocksM183
+- name: 🇺🇸US_84|267KB/s|B007-260618
   type: ss
   server: 77.90.10.175
   port: 8086
@@ -1474,63 +1345,70 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: pRCipSixOSlsNAigMmwfYttz5VmVznoCYX4Pw1G4LxM=:ovtz25KfnF29DC8nL8tMIpBaQuGoUupwCRQIZUHECks=
   udp: true
-- name: 德国737频道：@jichangdl
+- name: 🇩🇪DE_1|3.2MB/s
+  type: ss
+  server: 47.85.162.44
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  udp: true
+- name: 德国41频道：@jichangdl
   type: ss
   server: 47.85.201.22
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   udp: true
-- name: 德国899频道：@jichangdl
+- name: 德国935频道：@jichangdl
   type: ss
   server: 3.71.19.239
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇩🇪DE_33|713KB/s|S004-260618
+- name: 德国20频道：@jichangdl
   type: ss
   server: 47.245.173.25
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国918频道：@jichangdl
+- name: 德国761频道：@jichangdl
   type: ss
   server: 47.245.174.67
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国44频道：@jichangdl
+- name: 德国134频道：@jichangdl
   type: ss
   server: 47.254.169.3
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国903频道：@jichangdl
+- name: 德国707频道：@jichangdl
   type: ss
   server: 47.254.174.203
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国330频道：@jichangdl
+- name: 德国154频道：@jichangdl
   type: ss
   server: 47.254.175.2
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国86频道：@jichangdl
+- name: 德国595频道：@jichangdl
   type: ss
   server: 47.91.74.232
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国626频道：@jichangdl
+- name: 德国512频道：@jichangdl
   type: ss
   server: 8.220.81.25
   port: 443
@@ -1551,28 +1429,21 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 德国826频道：@jichangdl
+- name: 德国527频道：@jichangdl
   type: ss
   server: 18.134.252.228
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: 🇩🇪DE_41|2.6MB/s|M003-260806
-  type: ss
-  server: 18.134.253.71
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  udp: true
-- name: 德国322频道：@jichangdl
+- name: 德国500频道：@jichangdl
   type: ss
   server: 18.169.163.203
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: 德国726频道：@jichangdl
+- name: 德国286频道：@jichangdl
   type: ss
   server: 18.175.238.57
   port: 443
@@ -1586,44 +1457,86 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: 🇳🇱NL_63|105KB/s|A001-260618
+- name: 🇩🇪DE_42|223KB/s|T001-260618
+  type: ss
+  server: 92.5.21.171
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: oQirp3av7ALs6ICJj5Qf2U8wBxlAxnCk1yk6aoAAN3A=
+  udp: true
+- name: ❓Other_101|132KB/s|A001-260618
   type: ss
   server: 144.21.35.158
   port: 45819
   cipher: 2022-blake3-chacha20-poly1305
   password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=
   udp: true
+- name: '🇬🇧 英国 | GBR #4'
+  type: ss
+  server: 129.151.84.106
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 0KjokXPI9HxPlkgc3ahg2W861kIezVbApareYWcFZG4=
+  udp: true
 - name: '🇩🇪 德国 | DEU #2'
   type: ss
-  server: 47.85.162.44
+  server: 92.5.15.46
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 1xJS+82JzziMfKGNrEtiG5FG9/vneVWuTjt0iwiXsfA=
+  udp: true
+- name: '🇬🇧 英国 | GBR #1'
+  type: ss
+  server: 129.151.83.7
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 88tWkBUC/ZgtLt/8HDYvCNybz7krEsoITaSHbSc6z5g=
+  udp: true
+- name: 新加坡830频道：@jichangdl
+  type: ss
+  server: 43.106.81.90
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  password: 8SrAY2kEk9UHKSgUJjQvfdTJP9oPlSPVP1wICL7n3hk=
   udp: true
-- name: 'Channel id: @ShadowProxy66-264'
+- name: '@V2rayNGVPN > کانفیگ رایگان'
+  type: ss
+  server: 8.211.38.49
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 'Channel id: @ShadowProxy66-166'
   type: ss
   server: leviko-de8738.shopingggg.ir
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: ss-47.254.143.251-443
+- name: 🇩🇪 ss-DE-1622...
   type: ss
   server: 47.254.143.251
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 'Channel id: @ShadowProxy66-1051 🇩🇪'
+- name: 节点
   type: ss
-  server: 8.211.57.86
+  server: 35.159.25.20
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇨🇦𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
+- name: '节点 #2'
   type: ss
-  server: 47.245.167.223
+  server: 47.245.170.82
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🕒 | 🇩🇪-7694 | 808 KB/s ⚡
+  type: ss
+  server: 47.254.167.157
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
@@ -1635,12 +1548,61 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇩🇪𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
+- name: 🕒 | 🇩🇪-7712 | 6.6 MB/s 🔥
   type: ss
-  server: 8.211.38.49
+  server: 8.209.73.203
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🕒 | 🇩🇪-7710 | 90.7 MB/s 🔥
+  type: ss
+  server: 8.211.53.194
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 德国679频道：@jichangdl
+  type: ss
+  server: 18.130.78.177
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  udp: true
+- name: 🕒 | 🇩🇪-7711 | 4.1 MB/s 🔥
+  type: ss
+  server: 13.135.128.67
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  udp: true
+- name: 🕒 | 🇩🇪-7695 | 18.6 MB/s 🔥
+  type: ss
+  server: 18.171.171.149
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  udp: true
+- name: ss-129.146.118.209-50356
+  type: ss
+  server: 129.146.118.209
+  port: 50356
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cghhl0Oo+c50qNSrYzkonAM4ieaWVPo0uW8eC/nR7XM=
+  udp: true
+- name: ss-129.221.253.23-56927
+  type: ss
+  server: 129.221.253.23
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: C34+ziWxv8UL1K4m74bSIqKgUWN3R5XkSDf+3vOj9RE=
+  udp: true
+- name: ss-158.178.230.120-56927
+  type: ss
+  server: 158.178.230.120
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: GMhXRpy/pfPMVrZeCAxOxI5MpuH3llOtZKoeNLUT0n8=
   udp: true
 - name: '🇩🇪_DE_德国 #5'
   type: ss
@@ -1649,6 +1611,20 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: EItZd/Xd+cmdmMJ9FLqMrlkRD6D/u/iVR0p1qJZMblQ=
   udp: true
+- name: ss-129.221.181.20-56927
+  type: ss
+  server: 129.221.181.20
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: FQwWid/yN8BbtdyXcViI+ijKYMtWgeMg+o/OCChCbVc=
+  udp: true
+- name: ss-79.76.105.62-59924
+  type: ss
+  server: 79.76.105.62
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: FmB4HBM/+63LZr+sjxs5zkFIvZmB//5BPqdf8W+wntg=
+  udp: true
 - name: 🇬🇧GB_1|1.3MB/s|GPT⁺|YT-GB|NF|2%
   type: ss
   server: 129.151.80.179
@@ -1656,12 +1632,68 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: Igsmu9RK48BJM4cVZyaLTjq2sCwH660FkdQr/8V4yic=
   udp: true
-- name: 美国547频道：@jichangdl
+- name: '🇳🇱 荷兰 | NLD #7'
+  type: ss
+  server: 92.5.201.121
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: PkcHhmxhWLzglIGwddGUrJ16NckuN7Zi4GThVg+7kSg=
+  udp: true
+- name: ss-161.118.221.20-56927
+  type: ss
+  server: 161.118.221.20
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: RWtTKETUy87lj9TFubxPxfkWDx/JhYaQQwDjZv2Tgg0=
+  udp: true
+- name: ss-129.221.200.94-56927
+  type: ss
+  server: 129.221.200.94
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: TlIl4pvlkROaoDMfiB/8bjOx4cXMnCc7rXLWwqPJDTc=
+  udp: true
+- name: '🇩🇪 德国 | DEU #10'
+  type: ss
+  server: 150.230.159.102
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: cz6f+UAA+0gyS85rpBJzzitys/mNOPWVG84Ba4FZSaw=
+  udp: true
+- name: '🇺🇸 美国 | USA #3'
   type: ss
   server: 129.146.63.18
   port: 50356
   cipher: 2022-blake3-chacha20-poly1305
   password: kqvH28GapPc1bcrPKlTaiHVUK4qCT2Mbn1ZZgqPXwdQ=
+  udp: true
+- name: ss-129.146.38.236-50356
+  type: ss
+  server: 129.146.38.236
+  port: 50356
+  cipher: 2022-blake3-chacha20-poly1305
+  password: lj5rXlwpypP0Ku0nzWOl8haA6R98vLoCsY8vmdGmfl4=
+  udp: true
+- name: '🇬🇧 英国 | GBR #2'
+  type: ss
+  server: 129.151.93.114
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: smCw9x19ebFItolXtF8O5BphmiXaFqdeenIDcB5tLAU=
+  udp: true
+- name: ss-89.168.104.141-59924
+  type: ss
+  server: 89.168.104.141
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: wWdQLZS5jWNT9FjKPBA15TdXtH7ABPXqFaHHQojZmnw=
+  udp: true
+- name: ss-161.118.242.81-56927
+  type: ss
+  server: 161.118.242.81
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: to7FeiLLqmwqAG+Tn64PJ6Rexv6hExiiR6zlNfCSAaY=
   udp: true
 - name: ss-130.61.145.251-59924
   type: ss
@@ -1670,33 +1702,33 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: uou5NTq+xna9PBIG+8jtSSyQ6idxiXZgeK+Uw52qopY=
   udp: true
+- name: ss-158.178.144.201-45819
+  type: ss
+  server: 158.178.144.201
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ucQ0o3YYeedEb6oFUnlOPKrE/wqxTNJkUlQX0LExMO4=
+  udp: true
+- name: '🇳🇱 荷兰 | NLD #6'
+  type: ss
+  server: 158.101.205.73
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: yoow9zuAW2IUx29EL25NzX29/xx20FpSEKOsnu/TnBE=
+  udp: true
+- name: '🇬🇧 英国 | GBR #3'
+  type: ss
+  server: 134.65.59.80
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: zES55biUj1J3casdvf3wd5HqUccPRCc8wk0MlETzYxQ=
+  udp: true
 - name: 🇺🇸US_49|2.5MB/s|GPT⁺|YT-CN
   type: ss
   server: 67.215.235.109
   port: 443
   cipher: 2022-blake3-aes-128-gcm
   password: 7VOMWk6RwicM3IKLPijKrA==
-  udp: true
-- name: 🕒 | 🇧🇬-184 | 5.1 MB/s 🔥
-  type: ss
-  server: 81.12.35.246
-  port: 8080
-  cipher: 2022-blake3-aes-128-gcm
-  password: Dig9t4E8rdydV1374b3Euw==:HsR3EPI3JnXKkerw1++i3g==
-  udp: true
-- name: 🕒 | 🇺🇸-5566 | 2.4 MB/s 🔥
-  type: ss
-  server: 81.12.33.24
-  port: 8080
-  cipher: 2022-blake3-aes-128-gcm
-  password: IsDcGLee0Vlvf3gbDpO+Fw==:HsR3EPI3JnXKkerw1++i3g==
-  udp: true
-- name: 🕒 | 🇮🇹-156 | 7.7 MB/s 🔥
-  type: ss
-  server: 81.12.33.14
-  port: 8443
-  cipher: 2022-blake3-aes-128-gcm
-  password: LD9xA0I5NrE/aPKvmXN0kQ==:HsR3EPI3JnXKkerw1++i3g==
   udp: true
 - name: 阿富汗
   type: ss
@@ -2027,7 +2059,7 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: NGIzOWM0ZDQ3MDRlMjZiOQ==:OTFmNTU4NjMtNzg3MC00OA==
   udp: true
-- name: '德国 #2'
+- name: 德国
   type: ss
   server: ip.xingji.win
   port: 24747
@@ -2664,20 +2696,6 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: NGIzOWM0ZDQ3MDRlMjZiOQ==:OTFmNTU4NjMtNzg3MC00OA==
   udp: true
-- name: 🕒 | 🇩🇪-7617 | 6.6 MB/s 🔥
-  type: ss
-  server: 81.12.35.246
-  port: 8443
-  cipher: 2022-blake3-aes-128-gcm
-  password: SOg9NNrasz6s7bbtrDE7Fw==:HsR3EPI3JnXKkerw1++i3g==
-  udp: true
-- name: 'Channel id: @ShadowProxy66-39 🇭🇰'
-  type: ss
-  server: 23.175.201.177
-  port: 63691
-  cipher: 2022-blake3-aes-128-gcm
-  password: RzXOkLh4ahGs/7Nvd3X0GA==
-  udp: true
 - name: 🇨🇦_CA_加拿大->🇺🇸_US_美国
   type: ss
   server: cdn.shopify.com
@@ -2685,26 +2703,12 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
   udp: true
-- name: 🕒 | 🇫🇮-1873 | 3.9 MB/s 🔥
+- name: ss-103.238.140.162-10002
   type: ss
-  server: 81.12.32.97
-  port: 8080
+  server: 103.238.140.162
+  port: 10002
   cipher: 2022-blake3-aes-128-gcm
-  password: gXqk6/19VX5/wJYYbnV20Q==:HsR3EPI3JnXKkerw1++i3g==
-  udp: true
-- name: 🕒 | 🇫🇷-1330 | 6.3 MB/s 🔥
-  type: ss
-  server: 81.12.33.86
-  port: 8443
-  cipher: 2022-blake3-aes-128-gcm
-  password: kNek+POwGgn5qhhcIOxN+w==:HsR3EPI3JnXKkerw1++i3g==
-  udp: true
-- name: 🕒 | filembad-10
-  type: ss
-  server: afg.pasmazy1.ir
-  port: 2017
-  cipher: 2022-blake3-aes-128-gcm
-  password: iSBCJnkIxg/Q+tcZfGQBlQ==:qiDZq+1n4Nh/5V56Fak1qA==
+  password: qryl6xVLkWXZlqD7CccpQw==
   udp: true
 - name: '@ParsRoute-1000.00GB📊'
   type: ss
@@ -2727,12 +2731,40 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: YZa1hYrK/xilZEfMJbGFPAdN1Oh/YIVIoDpyDZwHW5E=:zN4Jk+n+Va0MxBrTunjmyb+VZ/GjPs2xB4V0wLVM+xw=
   udp: true
-- name: 'Channel id: @ShadowProxy66-268'
+- name: 'Channel id: @ShadowProxy66-170'
   type: ss
   server: leviko-de5987.shopingggg.ir
   port: 1883
   cipher: 2022-blake3-aes-256-gcm
   password: dfINKWLXoOgH3Ox72CAmkCvWmDlP+idaTuu/DdDG4FU=:V9v8Fd5AvDk3+nyah0WxCeqzv8Q5+cMXUj7WjVCgQz0=
+  udp: true
+- name: 'Channel id: @ShadowProxy66-657 🇺🇸'
+  type: ss
+  server: frr.drwrdoh.org
+  port: 8086
+  cipher: 2022-blake3-aes-256-gcm
+  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=
+  udp: true
+- name: 🕒 | 🇫🇮-1891 | 617 KB/s ⚡
+  type: ss
+  server: 837fc5230b71b8c5837fc5230b71b8c5837fc5230b71b8c5.sajjajas.org
+  port: 8085
+  cipher: 2022-blake3-aes-256-gcm
+  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:xd6Z7+GMRJV4IETqpY/M1DBSHQaRSa8Lhxbwx8GucvI=
+  udp: true
+- name: 🕒 | 🇫🇮-1892 | 5.3 MB/s 🔥
+  type: ss
+  server: trk1.sajjajas.org
+  port: 8086
+  cipher: 2022-blake3-aes-256-gcm
+  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:xd6Z7+GMRJV4IETqpY/M1DBSHQaRSa8Lhxbwx8GucvI=
+  udp: true
+- name: 🕒 | 🇺🇸-5601 | 6.6 MB/s 🔥
+  type: ss
+  server: us.sajjajas.org
+  port: 8086
+  cipher: 2022-blake3-aes-256-gcm
+  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:xd6Z7+GMRJV4IETqpY/M1DBSHQaRSa8Lhxbwx8GucvI=
   udp: true
 - name: YFZ 397 @Outline_Vpn
   type: ss
@@ -2783,7 +2815,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
   udp: true
-- name: 荷兰109频道：@jichangdl
+- name: 🇳🇱NL_55|209KB/s|A004-260618
   type: ss
   server: 193.29.139.234
   port: 8080
@@ -2839,19 +2871,26 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 575hiopq2h28yao6
   udp: true
-- name: 🕒 | 🇨🇦-356 | 750 KB/s ⚡
+- name: 🇨🇦 Beauharnois, QC, Canada
   type: ss
   server: leviko-ca4857.shopingggg.ir
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 575hiopq2h28yao6
   udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان'
+- name: '@V2rayNGVPN > کانفیگ رایگان #2'
   type: ss
   server: leviko-ca8416.shopingggg.ir
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 575hiopq2h28yao6
+  udp: true
+- name: ss-205.134.180.151-443
+  type: ss
+  server: 205.134.180.151
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 5cp9Z3iWnJZ2
   udp: true
 - name: 免费梯子
   type: ss
@@ -2860,12 +2899,26 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
   udp: true
+- name: ss-216.107.21.231-158
+  type: ss
+  server: 216.107.21.231
+  port: 158
+  cipher: chacha20-ietf-poly1305
+  password: 5db34ad7-3f1e-4a79-b078-2e56321e4fde
+  udp: true
 - name: کانال+:+@V2rayNGvpni
   type: ss
   server: 52.142.161.9
   port: 34424
   cipher: chacha20-ietf-poly1305
   password: 64LbKHnB3IO759ueEnhgMG
+  udp: true
+- name: 'Channel id: @ShadowProxy66-839 🇫🇮'
+  type: ss
+  server: fn1s.sublinkplas.ir
+  port: 53731
+  cipher: chacha20-ietf-poly1305
+  password: 6VxfNRMfOHIXLlOz_l46Efr0zIZoH2-K
   udp: true
 - name: '💻 Channel 🆔 : @AlienVPN402 👽 #2'
   type: ss
@@ -2916,42 +2969,49 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 73637cec-699d-4d87-99af-0776ac880604
   udp: true
-- name: '🇸🇬 新加坡 | SGP #2 #2'
+- name: '🇸🇬 新加坡 | SGP #3'
   type: ss
-  server: 13.212.48.8
+  server: 13.229.87.193
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: 🕒 | 🇸🇬-701 | 51 KB/s 🐌
+- name: 🕒 | 🇸🇬-705 | 151 KB/s 🐌
   type: ss
-  server: 13.229.50.232
+  server: 175.41.188.76
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: ss-3.36.48.199-8443
-  type: ss
-  server: 3.36.48.199
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
-- name: '🇰🇷 韩国 | KOR #2 #2'
+- name: ss-3.38.150.98-8443
   type: ss
   server: 3.38.150.98
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: 🕒 | 🇰🇷-212 | 162 KB/s 🐌
+- name: 🕒 | 🇰🇷-214 | 69 KB/s 🐌
+  type: ss
+  server: 43.200.255.222
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+- name: '🇰🇷 韩国 | KOR #1'
   type: ss
   server: 43.201.150.9
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
-- name: '🇸🇬 新加坡 | SGP #1 #2'
+- name: '🇰🇷 韩国 | KOR #1 #2'
+  type: ss
+  server: 43.203.123.202
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+- name: ss-52.221.227.252-8443
   type: ss
   server: 52.221.227.252
   port: 8443
@@ -3007,7 +3067,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 8e949d75-3510-4678-8593-3c5032dd931a
   udp: true
-- name: 🇫🇷@FreakConfig
+- name: 🇫🇷@Rxv2ray
   type: ss
   server: 54.37.240.40
   port: 8080
@@ -3020,13 +3080,6 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 97OnDEZYGja4
-  udp: true
-- name: ss-161.97.68.139-443
-  type: ss
-  server: 161.97.68.139
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 94dvoW0TdKRq
   udp: true
 - name: "10603"
   type: ss
@@ -3062,20 +3115,6 @@ proxies:
   port: 59019
   cipher: chacha20-ietf-poly1305
   password: 9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f
-  udp: true
-- name: ss-38.64.138.53-1035
-  type: ss
-  server: 38.64.138.53
-  port: 1035
-  cipher: chacha20-ietf-poly1305
-  password: )1N1E6v0SU_rGTpg
-  udp: true
-- name: ss-79.133.109.56-1036
-  type: ss
-  server: 79.133.109.56
-  port: 1036
-  cipher: chacha20-ietf-poly1305
-  password: )1N1E6v0SU_rGTpg
   udp: true
 - name: '@filembad #2'
   type: ss
@@ -3132,13 +3171,6 @@ proxies:
   port: 54030
   cipher: chacha20-ietf-poly1305
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  udp: true
-- name: 'Channel id: @ShadowProxy66-610 🇦🇱'
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: 0SxLXFtomY9ypO4o8rrNWEpNSZEFzsMnfhBETUd3oOw=
   udp: true
 - name: end-gfw
   type: ss
@@ -3203,7 +3235,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
   udp: true
-- name: '🇫🇷@FreakConfig #2'
+- name: ss-51.83.61.102-8080
   type: ss
   server: 51.83.61.102
   port: 8080
@@ -3231,13 +3263,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2cvhpvdg4x7mvbps
   udp: true
-- name: 🕒 | 🇨🇦-355 | 917 KB/s ⚡
-  type: ss
-  server: leviko-ca8643.shopingggg.ir
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 2cvhpvdg4x7mvbps
-  udp: true
 - name: '免费梯子 #3'
   type: ss
   server: hk01.x.quickcht3.club
@@ -3251,13 +3276,6 @@ proxies:
   port: 52612
   cipher: chacha20-ietf-poly1305
   password: 2be0c954-4291-45ea-b47d-ca713180550b
-  udp: true
-- name: ss-62.182.193.228-8388
-  type: ss
-  server: 62.182.193.228
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: "2e555e46dbc421452416834962fd014f"
   udp: true
 - name: 🇨🇳中国(欢迎订阅Youtube元亨利贞)
   type: ss
@@ -3294,7 +3312,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 3h3hb2gptqz6suyt
   udp: true
-- name: 'Channel id: @ShadowProxy66-386'
+- name: 'Channel id: @ShadowProxy66-288'
   type: ss
   server: 67.159.56.79
   port: 8388
@@ -3324,13 +3342,6 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: u17T3BvpYaaiuW2c
-  udp: true
-- name: ss-57.129.121.230-10443
-  type: ss
-  server: 57.129.121.230
-  port: 10443
-  cipher: chacha20-ietf-poly1305
-  password: uROuEqsL8IUMMVb4wDwnGU
   udp: true
 - name: '@filembad #3'
   type: ss
@@ -3374,7 +3385,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: wcUrFDphT7l-Hp8actMDlg
   udp: true
-- name: ss-51.77.144.182-8080
+- name: 🇦🇹AT_1|2.2MB/s|GPT⁺|NF|D+|6%
+  type: ss
+  server: 89.58.16.116
+  port: 2342
+  cipher: chacha20-ietf-poly1305
+  password: wuW04H6Tq10Zw7ZVOUg6j1
+  udp: true
+- name: '@V2rayNGVPN > کانفیگ رایگان #3'
   type: ss
   server: 51.77.144.182
   port: 8080
@@ -3395,7 +3413,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: y7KeRTzmH0vXT2kp
   udp: true
-- name: 'Channel id: @ShadowProxy66-592 🇦🇱'
+- name: '@FarazV2ray #4'
   type: ss
   server: 130.49.189.158
   port: 43558
@@ -3430,7 +3448,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: zZMNTGpPl38ASlbI1EKOBJ
   udp: true
-- name: 🇳🇴 ss-NO-1220...
+- name: ss-185.213.23.63-990
   type: ss
   server: 185.213.23.63
   port: 990
@@ -3451,7 +3469,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
   udp: true
-- name: '@FarazV2ray #4'
+- name: '@FarazV2ray #5'
   type: ss
   server: dash.chiex.ir
   port: 1349
@@ -3486,7 +3504,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: DAl6fKaoiAVK64kyuaYFaQ
   udp: true
-- name: 荷兰162频道：@jichangdl
+- name: 荷兰347频道：@jichangdl
   type: ss
   server: 104.222.183.180
   port: 47195
@@ -3521,17 +3539,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: FD3rCuOsxOay
   udp: true
-- name: ss-109.169.72.249-802
+- name: YFZ 453 @Outline_Vpn
   type: ss
-  server: 109.169.72.249
-  port: 802
+  server: 20.238.32.201
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
+  password: FJRApmfuC3F14cFF
   udp: true
-- name: ss-109.169.72.249-805
+- name: ss-109.169.72.249-801
   type: ss
   server: 109.169.72.249
-  port: 805
+  port: 801
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3539,6 +3557,13 @@ proxies:
   type: ss
   server: 109.169.72.249
   port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-109.169.72.249-809
+  type: ss
+  server: 109.169.72.249
+  port: 809
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3567,13 +3592,6 @@ proxies:
   type: ss
   server: 134.195.196.178
   port: 803
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-134.195.196.178-804
-  type: ss
-  server: 134.195.196.178
-  port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3619,17 +3637,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-148.66.56.98-805
-  type: ss
-  server: 148.66.56.98
-  port: 805
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: ss-148.66.56.99-802
   type: ss
   server: 148.66.56.99
   port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-148.66.56.99-803
+  type: ss
+  server: 148.66.56.99
+  port: 803
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3640,10 +3658,45 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-148.66.56.99-812
+- name: ss-148.66.56.99-805
   type: ss
   server: 148.66.56.99
-  port: 812
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-148.66.56.99-806
+  type: ss
+  server: 148.66.56.99
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-148.66.56.99-807
+  type: ss
+  server: 148.66.56.99
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-148.66.56.99-809
+  type: ss
+  server: 148.66.56.99
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-162.251.61.221-800
+  type: ss
+  server: 162.251.61.221
+  port: 800
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-162.251.61.221-808
+  type: ss
+  server: 162.251.61.221
+  port: 808
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3654,17 +3707,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-162.251.61.47-808
+- name: ss-162.251.61.47-805
   type: ss
   server: 162.251.61.47
-  port: 808
+  port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-162.251.61.47-810
+- name: ss-162.251.61.47-806
   type: ss
   server: 162.251.61.47
-  port: 810
+  port: 806
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3672,20 +3725,6 @@ proxies:
   type: ss
   server: 163.172.110.153
   port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-167.88.61.236-802
-  type: ss
-  server: 167.88.61.236
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-167.88.61.2-801
-  type: ss
-  server: 167.88.61.2
-  port: 801
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3703,28 +3742,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-167.88.61.2-805
+- name: ss-167.88.61.2-806
   type: ss
   server: 167.88.61.2
-  port: 805
+  port: 806
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-167.88.61.2-809
-  type: ss
-  server: 167.88.61.2
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-167.88.61.2-811
-  type: ss
-  server: 167.88.61.2
-  port: 811
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-172.245.218.162-800
+- name: US_1040
   type: ss
   server: 172.245.218.162
   port: 800
@@ -3738,31 +3763,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-172.245.218.162-809
+- name: ss-172.245.218.162-805
   type: ss
   server: 172.245.218.162
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-172.245.218.162-810
-  type: ss
-  server: 172.245.218.162
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-185.104.184.78-802
-  type: ss
-  server: 185.104.184.78
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-185.172.113.182-800
-  type: ss
-  server: 185.172.113.182
-  port: 800
+  port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3787,10 +3791,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-185.172.113.182-811
+- name: 🇯🇵JP-185.172.113.182-0793
   type: ss
   server: 185.172.113.182
   port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-193.38.139.204-806
+  type: ss
+  server: 193.38.139.204
+  port: 806
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3801,6 +3812,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-196.247.59.154-801
+  type: ss
+  server: 196.247.59.154
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: ss-196.247.59.154-802
   type: ss
   server: 196.247.59.154
@@ -3808,38 +3826,31 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-196.247.59.154-803
+- name: ss-196.247.59.154-809
   type: ss
   server: 196.247.59.154
-  port: 803
+  port: 809
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: 🇨🇦CA-196.247.59.154-6296
-  type: ss
-  server: 196.247.59.154
-  port: 805
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-196.247.59.156-804
+- name: ss-196.247.59.156-801
   type: ss
   server: 196.247.59.156
-  port: 804
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-196.247.59.156-808
-  type: ss
-  server: 196.247.59.156
-  port: 808
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-217.197.161.136-801
-  type: ss
-  server: 217.197.161.136
   port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-196.247.59.156-806
+  type: ss
+  server: 196.247.59.156
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-196.247.59.156-809
+  type: ss
+  server: 196.247.59.156
+  port: 809
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3850,31 +3861,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-217.197.161.136-809
-  type: ss
-  server: 217.197.161.136
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-217.197.161.136-810
-  type: ss
-  server: 217.197.161.136
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: ss-217.197.161.138-800
   type: ss
   server: 217.197.161.138
   port: 800
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-217.197.161.138-802
-  type: ss
-  server: 217.197.161.138
-  port: 802
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3885,17 +3875,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-217.197.161.138-811
+- name: ss-217.197.161.138-807
   type: ss
   server: 217.197.161.138
-  port: 811
+  port: 807
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-3..47-806
+- name: ss-3.67.113.118-810
   type: ss
-  server: 3.10.20.47
-  port: 806
+  server: 3.67.113.118
+  port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3906,10 +3896,24 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-37.120.147.230-809
+- name: ss-37.120.147.230-803
   type: ss
   server: 37.120.147.230
-  port: 809
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-37.120.147.230-804
+  type: ss
+  server: 37.120.147.230
+  port: 804
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-37.120.147.230-810
+  type: ss
+  server: 37.120.147.230
+  port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3941,31 +3945,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-38.68.134.135-809
+- name: ss-37.120.219.218-812
   type: ss
-  server: 38.68.134.135
-  port: 809
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-38.68.134.196-805
-  type: ss
-  server: 38.68.134.196
-  port: 805
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-38.68.134.196-810
-  type: ss
-  server: 38.68.134.196
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-38.68.134.196-812
-  type: ss
-  server: 38.68.134.196
+  server: 37.120.219.218
   port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-38.68.134.196-808
+  type: ss
+  server: 38.68.134.196
+  port: 808
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -3983,24 +3973,24 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-38.91.107.225-809
+- name: ss-43.204.29.0-805
   type: ss
-  server: 38.91.107.225
-  port: 809
+  server: 43.204.29.0
+  port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-38.91.107.225-812
-  type: ss
-  server: 38.91.107.225
-  port: 812
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-45.66.134.176-801
+- name: ss-45.66.134.176-802
   type: ss
   server: 45.66.134.176
-  port: 801
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-45.66.134.176-803
+  type: ss
+  server: 45.66.134.176
+  port: 803
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -4011,17 +4001,24 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
+- name: ss-45.66.134.176-811
+  type: ss
+  server: 45.66.134.176
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-5.181.234.254-809
+  type: ss
+  server: 5.181.234.254
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
 - name: United+States333
   type: ss
   server: 5.181.234.254
   port: 812
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-5.188.0.151-800
-  type: ss
-  server: 5.188.0.151
-  port: 800
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -4032,31 +4029,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-51.161.118.38-806
+- name: ss-51.161.118.38-804
   type: ss
   server: 51.161.118.38
-  port: 806
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-51.161.118.38-810
-  type: ss
-  server: 51.161.118.38
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-51.161.118.38-811
-  type: ss
-  server: 51.161.118.38
-  port: 811
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-51.161.118.38-812
-  type: ss
-  server: 51.161.118.38
-  port: 812
+  port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -4081,7 +4057,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
+- name: ss-51.178.87.37-810
   type: ss
   server: 51.178.87.37
   port: 810
@@ -4095,24 +4071,10 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-78.129.253.9-802
-  type: ss
-  server: 78.129.253.9
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
 - name: ss-78.129.253.9-804
   type: ss
   server: 78.129.253.9
   port: 804
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-78.129.253.9-805
-  type: ss
-  server: 78.129.253.9
-  port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -4123,10 +4085,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: 🇬🇧GB-78.129.253.9-4950
+- name: ss-78.129.253.9-809
   type: ss
   server: 78.129.253.9
-  port: 808
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: ss-78.129.253.9-811
+  type: ss
+  server: 78.129.253.9
+  port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
@@ -4137,23 +4106,30 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #16'
   type: ss
   server: ak1686.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
+- name: "807"
   type: ss
-  server: ak1772.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 810
+  server: ak1760.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 807
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "810"
+- name: '807 #2'
   type: ss
-  server: ak1774.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  server: ak1768.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  udp: true
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #17'
+  type: ss
+  server: ak1772.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
@@ -4165,14 +4141,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: "807"
-  type: ss
-  server: ak1788.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 807
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #18'
   type: ss
   server: ak1790.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 811
@@ -4186,35 +4155,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #19'
   type: ss
   server: ak1809.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #20'
   type: ss
   server: ak1829.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 804
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #22'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #21'
   type: ss
   server: ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 800
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #23'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #22'
   type: ss
   server: ak1846.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #24'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #23'
   type: ss
   server: bia-t-o.outline-vpn.cloud
   port: 804
@@ -5383,26 +5352,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
   udp: true
-- name: ss-78.129.253.9-809
+- name: ss-212.227.146.33-443
   type: ss
-  server: 78.129.253.9
-  port: 809
+  server: 212.227.146.33
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-  udp: true
-- name: ss-38.107.226.146-1230
-  type: ss
-  server: 38.107.226.146
-  port: 1230
-  cipher: chacha20-ietf-poly1305
-  password: H5S0hvcxRi#YLmgU
-  udp: true
-- name: ss-38.91.107.245-1230
-  type: ss
-  server: 38.91.107.245
-  port: 1230
-  cipher: chacha20-ietf-poly1305
-  password: H5S0hvcxRi#YLmgU
+  password: GvsjQ0OZ5nGQXDGfzfWZf5
   udp: true
 - name: '@filembad #4'
   type: ss
@@ -5432,19 +5387,33 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: JMElg8yloaXm4X8a
   udp: true
-- name: 美国912频道：@jichangdl
+- name: 美国466频道：@jichangdl
   type: ss
   server: 104.238.140.45
   port: 11051
   cipher: chacha20-ietf-poly1305
   password: JUXsy78dSs6ROkasikmoaL
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #25'
+- name: 🇦🇱AL_2|70KB/s|M003-260806
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I=
+  udp: true
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #24'
   type: ss
   server: 103.143.209.134
   port: 51348
   cipher: chacha20-ietf-poly1305
   password: JeuVtnGH63MKqOeuc9
+  udp: true
+- name: ss-92.243.27.51-9802
+  type: ss
+  server: 92.243.27.51
+  port: 9802
+  cipher: chacha20-ietf-poly1305
+  password: Kq3iQqtVlyPJBPcD6QpnGE
   udp: true
 - name: '@filembad #5'
   type: ss
@@ -5481,12 +5450,19 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: M7x1mGNOwhPiRB9jSxZJNy
   udp: true
-- name: '@FarazV2ray #5'
+- name: '@FarazV2ray #6'
   type: ss
   server: 40.123.254.236
   port: 443
   cipher: chacha20-ietf-poly1305
   password: M8Z2I7nGjhmwhy2m
+  udp: true
+- name: ss-90.156.228.141-46717
+  type: ss
+  server: 90.156.228.141
+  port: 46717
+  cipher: chacha20-ietf-poly1305
+  password: MjU9yGcudqQlVH1y3KiA8f
   udp: true
 - name: ss-154.17.2.112-18335
   type: ss
@@ -5516,7 +5492,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: NChVdloynewtqS0847jui6PQejHLO3gUuw1tnUmYVPI=
   udp: true
-- name: 🇩🇪DE-57.129.113.16-0249 0.094MB
+- name: '@V2rayNGVPN > کانفیگ رایگان #4'
   type: ss
   server: 57.129.113.16
   port: 8388
@@ -5530,14 +5506,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: NeORiiA1d3vHdXsfPV37Lr
   udp: true
-- name: ss-185.135.86.86-51348
+- name: ss-212.113.106.243-12949
   type: ss
-  server: 185.135.86.86
-  port: 51348
+  server: 212.113.106.243
+  port: 12949
   cipher: chacha20-ietf-poly1305
-  password: PhilEhgKJQ540MNK7mNoim
+  password: P2zxXPewlV3BlfqqYiSthvtLc
   udp: true
-- name: ss-193.29.139.168-8080
+- name: '@FarazV2ray #7'
   type: ss
   server: 193.29.139.168
   port: 8080
@@ -5572,26 +5548,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Qr3RLHJLngbplPWd
   udp: true
-- name: ss-205.134.180.143-443
-  type: ss
-  server: 205.134.180.143
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: R9Xc4dHXGv3c
-  udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #26'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #25'
   type: ss
   server: 876.outline-vpn.cloud
   port: 443
   cipher: chacha20-ietf-poly1305
   password: R9Xc4dHXGv3c
-  udp: true
-- name: ss-51.124.217.177-62048
-  type: ss
-  server: 51.124.217.177
-  port: 62048
-  cipher: chacha20-ietf-poly1305
-  password: TRoGQKepg1AsWO2kTnfPnb
   udp: true
 - name: 🇷🇴 ss-RO-1595...
   type: ss
@@ -5628,7 +5590,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: Ufawbp6zK1Td03IUL9cav7_r6Bbu2FoU
   udp: true
-- name: ss-138.68.248.130-811
+- name: ss-161.35.69.20-811
+  type: ss
+  server: 161.35.69.20
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+  udp: true
+- name: 🇺🇸_油管：全网最强白嫖
   type: ss
   server: 138.68.248.130
   port: 811
@@ -5648,6 +5617,20 @@ proxies:
   port: 443
   cipher: chacha20-ietf-poly1305
   password: VdFUd2u5zZJv
+  udp: true
+- name: YFZ 454 @Outline_Vpn
+  type: ss
+  server: ger2.soft98ver2.com
+  port: 305
+  cipher: chacha20-ietf-poly1305
+  password: W4W6T7Th-x0ivl06YkxYVBr6bTLsItVC
+  udp: true
+- name: YFZ 456 @Outline_Vpn
+  type: ss
+  server: net.soft98ver2.com
+  port: 301
+  cipher: chacha20-ietf-poly1305
+  password: W4W6T7Th-x0ivl06YkxYVBr6bTLsItVC
   udp: true
 - name: "TG频道:@hkaa0▓英国\r_1"
   type: ss
@@ -5677,14 +5660,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: XDv1R7DYAjb4
   udp: true
-- name: 荷兰466频道：@jichangdl
+- name: 荷兰343频道：@jichangdl
   type: ss
   server: 216.172.144.199
   port: 40643
   cipher: chacha20-ietf-poly1305
   password: Xd4G9xn7AgT88msCYC9MZfavMUqd3dWFNAvswi6KfaD9YcexptMbPn4cSECEMzDgvAMomAWJHyweqJer99ssMVYGH6TK8k4c
   udp: true
-- name: ss-102.133.165.160-16233
+- name: 🇿🇦 ss-ZA-1333...
   type: ss
   server: 102.133.165.160
   port: 16233
@@ -5697,6 +5680,20 @@ proxies:
   port: 1664
   cipher: chacha20-ietf-poly1305
   password: Xs9ORT4j65b8HreZrg0p
+  udp: true
+- name: ss-45.79.238.129-443
+  type: ss
+  server: 45.79.238.129
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: YUWX6COLZYmaHlUGiKwDaN
+  udp: true
+- name: '443 #3'
+  type: ss
+  server: ak1808.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: YUWX6COLZYmaHlUGiKwDaN
   udp: true
 - name: 🇮🇷32512丨⚡️Telegram
   type: ss
@@ -5774,6 +5771,13 @@ proxies:
   port: 870
   cipher: chacha20-ietf-poly1305
   password: a5a0a8d9-ab2c-407f-89a4-bf027d216184
+  udp: true
+- name: 🇹🇷TR_2|166KB/s|M003-260806
+  type: ss
+  server: tr.subscriptionservice.ir
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: a6FPx9bj7gel0PGZtGIYILG1XiXVnQ37
   udp: true
 - name: 🇸🇬_油管：全网最强白嫖
   type: ss
@@ -5894,7 +5898,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: b5abc4c0-b518-4195-88b4-57900f16fb65
   udp: true
-- name: 美国204频道：@jichangdl
+- name: 美国194频道：@jichangdl
   type: ss
   server: 216.105.168.18
   port: 443
@@ -5929,13 +5933,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: c74a87f5-6f0f-4cd9-921b-1c8f46f40ef9
   udp: true
-- name: ss-195.123.246.15-51348
-  type: ss
-  server: 195.123.246.15
-  port: 51348
-  cipher: chacha20-ietf-poly1305
-  password: cyi4FDe4FdrTG3rUpna
-  udp: true
 - name: 广东省江门市移动 8
   type: ss
   server: service.ouluyun9803.com
@@ -5957,7 +5954,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   udp: true
-- name: '@FarazV2ray #6'
+- name: ss-198.98.53.130-443
   type: ss
   server: 198.98.53.130
   port: 443
@@ -5971,35 +5968,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: eVC634QvVk5l
   udp: true
-- name: 波兰107频道：@jichangdl
+- name: 波兰782频道：@jichangdl
   type: ss
   server: 54.36.174.134
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eetk7pw
   udp: true
-- name: ss-54.36.174.140-443
+- name: '🏳 ss- #11'
   type: ss
   server: 54.36.174.140
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eetk7pw
   udp: true
-- name: 波兰33频道：@jichangdl
+- name: 波兰701频道：@jichangdl
   type: ss
   server: leviko-pl5964.shopingggg.ir
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eetk7pw
   udp: true
-- name: 波兰554频道：@jichangdl
+- name: 波兰998频道：@jichangdl
   type: ss
   server: pl134.vpnbook.com
   port: 443
   cipher: chacha20-ietf-poly1305
   password: eetk7pw
   udp: true
-- name: 波兰238频道：@jichangdl
+- name: 波兰309频道：@jichangdl
   type: ss
   server: pl140.vpnbook.com
   port: 443
@@ -6027,6 +6024,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
   udp: true
+- name: ss-46.4.162.18-30696
+  type: ss
+  server: 46.4.162.18
+  port: 30696
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+  udp: true
 - name: ss-164.90.234.85-18492
   type: ss
   server: 164.90.234.85
@@ -6041,28 +6045,42 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   udp: true
-- name: 英国391频道：@jichangdl
+- name: 🇬🇧 Bexley, ENG, United Kingdom
   type: ss
   server: 57.129.138.142
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: fwxkzn0tmurzsvrw
   udp: true
-- name: filembad-25
+- name: ss-205.134.180.137-443
   type: ss
-  server: afg.pasmazy1.ir
-  port: 3343
+  server: 205.134.180.137
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: g2cA6XUo9YlNrepJFVkWm-PexUk9G-wZ
+  password: g13S7doXar0A
   udp: true
-- name: 德国388频道：@jichangdl
+- name: 'Channel id: @ShadowProxy66-842 🇫🇮'
+  type: ss
+  server: fn1s.sublinkplas.ir
+  port: 53731
+  cipher: chacha20-ietf-poly1305
+  password: g83niIm75fBPKfJ31nak8pAWTiFWLlXY
+  udp: true
+- name: 'Channel id: @ShadowProxy66-843 🇫🇮'
+  type: ss
+  server: fn1s.sublinkplas.ir
+  port: 53731
+  cipher: chacha20-ietf-poly1305
+  password: gDxit1g_RLr2gUB54x1DYbbhHrjBDXLD
+  udp: true
+- name: 德国841频道：@jichangdl
   type: ss
   server: 78.47.201.144
   port: 1008
   cipher: chacha20-ietf-poly1305
   password: gg4ze2bpu0wsy6s6
   udp: true
-- name: '@FarazV2ray #7'
+- name: '@FarazV2ray #8'
   type: ss
   server: bbomb.okamii1.ir
   port: 1008
@@ -6076,12 +6094,19 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: hCgbUnMaoAfSgvE8IKdnGu
   udp: true
-- name: 美国886频道：@jichangdl
+- name: 美国180频道：@jichangdl
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
+  udp: true
+- name: ss-205.134.180.145-443
+  type: ss
+  server: 205.134.180.145
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hgLCgfLRgB6d
   udp: true
 - name: ss-23.230.52.119-42878
   type: ss
@@ -6090,21 +6115,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
   udp: true
-- name: 荷兰123频道：@jichangdl
+- name: 荷兰236频道：@jichangdl
   type: ss
   server: news.bushyjenz.cyou
   port: 42878
   cipher: chacha20-ietf-poly1305
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #27'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #26'
   type: ss
   server: 52.142.191.152
   port: 20168
   cipher: chacha20-ietf-poly1305
   password: iuzmCRsJ378MsDchtim4u8
   udp: true
-- name: 荷兰392频道：@jichangdl
+- name: 🇳🇱NL_24|288KB/s|B007-260618
   type: ss
   server: 193.29.139.132
   port: 8080
@@ -6118,7 +6143,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱NL_16|92KB/s|B007-260618
+- name: 🇳🇱NL_54|378KB/s|B007-260618
   type: ss
   server: 193.29.139.198
   port: 8080
@@ -6132,105 +6157,105 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #8'
+- name: '@FarazV2ray #9'
   type: ss
   server: 82.38.31.176
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰727频道：@jichangdl
+- name: 🇳🇱NL_7|509KB/s|A004-260618
   type: ss
   server: 82.38.31.178
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.179-8080
+- name: 🇬🇧GB-82.38.31.179-0091
   type: ss
   server: 82.38.31.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.180-8080
+- name: 🇬🇧GB-82.38.31.180-0085
   type: ss
   server: 82.38.31.180
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.181-8080
+- name: 🇬🇧GB-82.38.31.181-0101
   type: ss
   server: 82.38.31.181
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #9'
+- name: '@FarazV2ray #10'
   type: ss
   server: 82.38.31.182
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #10'
+- name: '@FarazV2ray #11'
   type: ss
   server: 82.38.31.183
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.184-8080
+- name: 🇬🇧GB-82.38.31.184-0084
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱NL_30|521KB/s|A004-260618
+- name: '@FarazV2ray #12'
   type: ss
   server: 82.38.31.185
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.186-0241
+- name: ss-82.38.31.186-8080
   type: ss
   server: 82.38.31.186
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.187-0169
+- name: 🇬🇧GB-82.38.31.187-0076
   type: ss
   server: 82.38.31.187
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.189-0069
+- name: ❓Other_3|600KB/s|A003-260618
   type: ss
   server: 82.38.31.189
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.190-0097
+- name: ss-82.38.31.190-8080
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.191-8080
+- name: '@filembad #9'
   type: ss
   server: 82.38.31.191
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #11'
+- name: ss-82.38.31.192-8080
   type: ss
   server: 82.38.31.192
   port: 8080
@@ -6244,84 +6269,84 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.194-8080
+- name: '@FarazV2ray #13'
   type: ss
   server: 82.38.31.194
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰376频道：@jichangdl
+- name: 荷兰202频道：@jichangdl
   type: ss
   server: 82.38.31.195
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰883频道：@jichangdl
+- name: 荷兰359频道：@jichangdl
   type: ss
   server: 82.38.31.198
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.199-0173
+- name: ss-82.38.31.199-8080
   type: ss
   server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #12'
+- name: '@FarazV2ray #14'
   type: ss
   server: 82.38.31.200
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱NL_29|240KB/s|B007-260618
+- name: 🇳🇱NL_13|265KB/s|B007-260618
   type: ss
   server: 82.38.31.201
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.202-0245
+- name: 🇬🇧GB-82.38.31.202-0069
   type: ss
   server: 82.38.31.202
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #13'
+- name: '@FarazV2ray #15'
   type: ss
   server: 82.38.31.203
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #14'
+- name: '@FarazV2ray #16'
   type: ss
   server: 82.38.31.204
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.205-0104
+- name: 🇬🇧GB-82.38.31.205-0081
   type: ss
   server: 82.38.31.205
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss-82.38.31.206-8080
+- name: 🇬🇧GB-82.38.31.206-0080
   type: ss
   server: 82.38.31.206
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #15'
+- name: '@FarazV2ray #17'
   type: ss
   server: 82.38.31.207
   port: 8080
@@ -6335,42 +6360,42 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@filembad #9'
+- name: '@filembad #10'
   type: ss
   server: 82.38.31.210
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰406频道：@jichangdl
+- name: 🇳🇱NL_56|839KB/s|A004-260618
   type: ss
   server: 82.38.31.211
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ❓Other_4|350KB/s|A003-260618
+- name: ss-82.38.31.212-8080
   type: ss
   server: 82.38.31.212
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰267频道：@jichangdl
+- name: 荷兰713频道：@jichangdl
   type: ss
   server: 82.38.31.213
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧GB-82.38.31.214-0089
+- name: 🇬🇧GB-82.38.31.214-0074
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰149频道：@jichangdl
+- name: 🇳🇱NL_14|1.5MB/s
   type: ss
   server: 82.38.31.215
   port: 8080
@@ -6384,7 +6409,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '@FarazV2ray #16'
+- name: ss-82.38.31.217-8080
   type: ss
   server: 82.38.31.217
   port: 8080
@@ -6405,19 +6430,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 荷兰142频道：@jichangdl
+- name: 🇳🇱NL_16|325KB/s|A004-260618
   type: ss
   server: 82.38.31.220
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss-57.129.140.88-8388
-  type: ss
-  server: 57.129.140.88
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: k1v5g9FefdoO
   udp: true
 - name: '@CloudCityy'
   type: ss
@@ -6454,7 +6472,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: lWaGPVFjmnag
   udp: true
-- name: ❓Other_84|177KB/s|B007-260618
+- name: 🇹🇷TR_1|169KB/s|B007-260618
   type: ss
   server: tr.subscriptionservice.ir
   port: 2089
@@ -6510,28 +6528,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: mrs2e9a
   udp: true
-- name: ss-57.131.4.13-8080
+- name: 🇫🇷@FreakConfig
   type: ss
   server: 57.131.4.13
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: mx81glqbtlwuhcjo
   udp: true
-- name: 🕒 | 🌍-537 | 21.9 MB/s 🔥
-  type: ss
-  server: leviko-it4746.shopingggg.ir
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: mx81glqbtlwuhcjo
-  udp: true
-- name: '@V2rayNGVPN > کانفیگ رایگان #2'
+- name: 🇮🇹 Italy
   type: ss
   server: 57.131.21.102
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: n4uygjtq54pz1oiv
   udp: true
-- name: 🇬🇧GB-178.83.185.156-0150
+- name: ss-178.83.185.156-8080
   type: ss
   server: 178.83.185.156
   port: 8080
@@ -6559,14 +6570,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '@FarazV2ray #17'
+- name: '@FarazV2ray #18'
   type: ss
   server: 193.29.139.235
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '@FarazV2ray #18'
+- name: '@FarazV2ray #19'
   type: ss
   server: 82.38.31.10
   port: 8080
@@ -6580,28 +6591,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 荷兰116频道：@jichangdl
+- name: 🇳🇱NL_17|640KB/s|C002-260622
   type: ss
   server: 82.38.31.156
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 荷兰176频道：@jichangdl
+- name: 🇳🇱NL_15|587KB/s|A004-260618
   type: ss
   server: 82.38.31.157
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss-82.38.31.162-443
+- name: 🇬🇧GB-82.38.31.162-0166
   type: ss
   server: 82.38.31.162
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '@FarazV2ray #19'
+- name: '@FarazV2ray #20'
   type: ss
   server: 82.38.31.165
   port: 443
@@ -6629,14 +6640,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱NL_9|335KB/s
+- name: 荷兰431频道：@jichangdl
   type: ss
   server: 82.38.31.39
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.46-0159
+- name: ss-82.38.31.46-8080
   type: ss
   server: 82.38.31.46
   port: 8080
@@ -6650,28 +6661,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.48-0148
+- name: 🇬🇧GB-82.38.31.48-0160
   type: ss
   server: 82.38.31.48
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.49-0152
+- name: ss-82.38.31.49-8080
   type: ss
   server: 82.38.31.49
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇬🇧GB-82.38.31.61-0156
+- name: ss-82.38.31.61-8080
   type: ss
   server: 82.38.31.61
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss-82.38.31.62-8080
+- name: '@FarazV2ray #21'
   type: ss
   server: 82.38.31.62
   port: 8080
@@ -6699,7 +6710,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 俄罗斯474频道：@jichangdl
+- name: ss-40.114.210.138-40943
+  type: ss
+  server: 40.114.210.138
+  port: 40943
+  cipher: chacha20-ietf-poly1305
+  password: pWqTTV6lrnPApdEAF8Qsm8
+  udp: true
+- name: 俄罗斯464频道：@jichangdl
   type: ss
   server: 192.144.59.146
   port: 29348
@@ -6713,26 +6731,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: pryhyxya
   udp: true
-- name: "8080"
+- name: ss-185.77.217.217-443
   type: ss
-  server: passconf.xyz
-  port: 8080
+  server: 185.77.217.217
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: qGjmI8WQlF0tfhDbkLqGdN
-  udp: true
-- name: ss-103.125.147.48-51348
-  type: ss
-  server: 103.125.147.48
-  port: 51348
-  cipher: chacha20-ietf-poly1305
-  password: qe6peFG54F9n4u3x3
-  udp: true
-- name: ss-91.107.189.98-1080
-  type: ss
-  server: 91.107.189.98
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: rIvzNCBP_t5odSW4DiMLDw
+  password: qYAt85SFGV56
   udp: true
 - name: '@v2rayng3 #7'
   type: ss
@@ -6818,13 +6822,6 @@ proxies:
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: ss-14.29.124.168-25207
-  type: ss
-  server: 14.29.124.168
-  port: 25207
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
 - name: TG:@hkaa0|中国
   type: ss
   server: 14.29.124.168
@@ -6839,24 +6836,10 @@ proxies:
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: ss-14.29.124.168-25220
-  type: ss
-  server: 14.29.124.168
-  port: 25220
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
 - name: ss-14.29.124.168-25222
   type: ss
   server: 14.29.124.168
   port: 25222
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- name: ss-14.29.124.168-25231
-  type: ss
-  server: 14.29.124.168
-  port: 25231
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
@@ -6881,24 +6864,59 @@ proxies:
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: ss-14.29.124.168-25241
+- name: ss-14.29.124.168-25251
   type: ss
   server: 14.29.124.168
-  port: 25241
+  port: 25251
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: ss-14.29.124.168-25245
+- name: ss-14.29.124.168-25252
   type: ss
   server: 14.29.124.168
-  port: 25245
+  port: 25252
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: ss-14.29.124.168-25259
+- name: ss-14.29.124.168-25256
   type: ss
   server: 14.29.124.168
-  port: 25259
+  port: 25256
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: ss-14.29.124.168-25261
+  type: ss
+  server: 14.29.124.168
+  port: 25261
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: ss-14.29.124.168-25266
+  type: ss
+  server: 14.29.124.168
+  port: 25266
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: ss-14.29.124.168-25267
+  type: ss
+  server: 14.29.124.168
+  port: 25267
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: ss-14.29.124.168-25268
+  type: ss
+  server: 14.29.124.168
+  port: 25268
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: ss-14.29.124.168-25272
+  type: ss
+  server: 14.29.124.168
+  port: 25272
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
@@ -6930,10 +6948,10 @@ proxies:
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: ss-14.29.124.168-25296
+- name: ss-14.29.124.168-25294
   type: ss
   server: 14.29.124.168
-  port: 25296
+  port: 25294
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
@@ -6944,7 +6962,7 @@ proxies:
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: 🇳🇱NL-109.201.152.181-0133
+- name: ss-109.201.152.181-443
   type: ss
   server: 109.201.152.181
   port: 443
@@ -6958,26 +6976,12 @@ proxies:
   cipher: aes-128-cfb
   password: shadowsocks
   udp: true
-- name: ss-156.146.62.160-443
-  type: ss
-  server: 156.146.62.160
-  port: 443
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
 - name: 套餐流量已用完！
   type: ss
   server: 127.0.0.1
   port: 13133
   cipher: aes-128-gcm
   password: 3a6e30e9-013d-4117-9a5b-372b2f5ecb33
-  udp: true
-- name: ss-129.154.222.205-32702
-  type: ss
-  server: 129.154.222.205
-  port: 32702
-  cipher: aes-128-gcm
-  password: 3a308d5f-72a3-42c0-88a8-549f8ebb5713
   udp: true
 - name: '剩余流量：0 #3'
   type: ss
@@ -7049,7 +7053,7 @@ proxies:
   cipher: aes-128-gcm
   password: 4c8ffcc0-8ab1-4cfa-b06f-f73470bcadfa
   udp: true
-- name: 瑞典609频道：@jichangdl
+- name: 瑞典450频道：@jichangdl
   type: ss
   server: 194.59.250.52
   port: 18501
@@ -7133,21 +7137,21 @@ proxies:
   cipher: aes-128-gcm
   password: 9ba284e6-7fd4-407e-8234-871aedf5aa22
   udp: true
-- name: ss-168.138.205.100-53758
+- name: 🇯🇵JP-168.138.205.100-0196
   type: ss
   server: 168.138.205.100
   port: 53758
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
   udp: true
-- name: 🇯🇵JP-168.138.205.100-0194
+- name: 🇯🇵JP-168.138.205.100-0225
   type: ss
   server: jpa.123069.xyz
   port: 53758
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
   udp: true
-- name: '💻 Channel 🆔 : @AlienVPN402 👽 #28'
+- name: '💻 Channel 🆔 : @AlienVPN402 👽 #27'
   type: ss
   server: 47.242.177.168
   port: 32259
@@ -7189,7 +7193,7 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss-141.98.101.178-443
+- name: 🇬🇧 ss-GB-8004...
   type: ss
   server: 141.98.101.178
   port: 443
@@ -7203,7 +7207,7 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss-141.98.101.181-443
+- name: 🇬🇧 ss-GB-9184...
   type: ss
   server: 141.98.101.181
   port: 443
@@ -7231,7 +7235,7 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇨🇦CA-149.22.95.183-5757
+- name: 🇨🇦CA-149.22.95.183-0144
   type: ss
   server: 149.22.95.183
   port: 443
@@ -7245,21 +7249,21 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-156.146.38.168-0212
+- name: 🇺🇸US-156.146.38.168-0228
   type: ss
   server: 156.146.38.168
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-156.146.38.169-0211
+- name: 🇺🇸US-156.146.38.169-0233
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-156.146.38.170-0215
+- name: ss-156.146.38.170-443
   type: ss
   server: 156.146.38.170
   port: 443
@@ -7280,23 +7284,16 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-173.244.56.6-0061
+- name: ss-173.244.56.6-443
   type: ss
   server: 173.244.56.6
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss-173.244.56.9-443
+- name: 🇺🇸US-173.244.56.9-0136
   type: ss
   server: 173.244.56.9
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss-212.102.53.194-443
-  type: ss
-  server: 212.102.53.194
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -7308,20 +7305,6 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss-212.102.53.78-443
-  type: ss
-  server: 212.102.53.78
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss-212.102.53.80-443
-  type: ss
-  server: 212.102.53.80
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
 - name: ss-212.102.53.81-443
   type: ss
   server: 212.102.53.81
@@ -7329,14 +7312,14 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss-37.19.198.160-443
+- name: ❓Other_99|449KB/s
   type: ss
   server: 37.19.198.160
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸US-37.19.198.236-5704
+- name: 🇺🇸US-37.19.198.236-0054
   type: ss
   server: 37.19.198.236
   port: 443
@@ -7357,14 +7340,28 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🕒 | 🇬🇧-882 | 6.6 MB/s 🔥
+- name: 🇺🇸US-103.224.182.210-7734
+  type: ss
+  server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱NL_63|383KB/s|M003-260806
+  type: ss
+  server: leviko-nl8242.shopingggg.ir
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 Manchester, ENG, United Kingdom
   type: ss
   server: leviko-gb2271.shopingggg.ir
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '🇰🇷_KR_韩国 #4'
+- name: '🇰🇷_KR_韩国 #6'
   type: ss
   server: 49.254.204.134
   port: 1774
@@ -7378,21 +7375,21 @@ proxies:
   cipher: aes-256-cfb
   password: "1e5111699c45496da84112f35db665c4"
   udp: true
-- name: 保加利亚869频道：@jichangdl
+- name: 保加利亚592频道：@jichangdl
   type: ss
   server: 213.183.63.60
   port: 9066
   cipher: aes-256-cfb
   password: 2KUaE2a8NWTvuCZ3
   udp: true
-- name: 🇱🇻LV_6|349KB/s|X001-260618
+- name: 🇱🇻LV_5|164KB/s|X001-260618
   type: ss
   server: 185.135.86.175
   port: 9086
   cipher: aes-256-cfb
   password: 37Z4TFCYhfxcpc9Q
   udp: true
-- name: 立陶宛519频道：@jichangdl
+- name: 🇱🇹LT_3|256KB/s|A004-260618
   type: ss
   server: 195.238.126.20
   port: 9086
@@ -7455,35 +7452,49 @@ proxies:
   cipher: aes-256-cfb
   password: "7eadc6dbe2ae"
   udp: true
-- name: 🇵🇱PL_2|247KB/s|A004-260618
+- name: 🇵🇱PL_3|101KB/s|A004-260618
   type: ss
   server: 217.30.10.44
   port: 9099
   cipher: aes-256-cfb
   password: 7heRqkPG3hg4UnRm
   udp: true
-- name: 🇱🇻LV_5|1.6MB/s|X001-260618
+- name: 🇱🇻LV_6|230KB/s|X001-260618
   type: ss
   server: 185.135.86.175
   port: 9082
   cipher: aes-256-cfb
   password: 45xgMgm386pjWjTx
   udp: true
-- name: 🇧🇬BG_1|2.0MB/s|A004-260618
+- name: 🇧🇬BG_3|206KB/s|A004-260618
   type: ss
   server: 213.183.63.60
   port: 9061
   cipher: aes-256-cfb
   password: 4R3hUfZ2FHhDmNcP
   udp: true
-- name: 🇵🇱PL_5|316KB/s|S004-260618
+- name: ss-185.246.155.35-9059
+  type: ss
+  server: 185.246.155.35
+  port: 9059
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+  udp: true
+- name: ss-213.183.59.211-9059
+  type: ss
+  server: 213.183.59.211
+  port: 9059
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+  udp: true
+- name: 随机123频道：@jichangdl
   type: ss
   server: 217.30.10.70
   port: 9059
   cipher: aes-256-cfb
   password: 9XwYyZsK8SNzQDtY
   udp: true
-- name: 🇮🇹IT_7|749KB/s|A004-260618
+- name: 意大利360频道：@jichangdl
   type: ss
   server: 91.201.65.122
   port: 9059
@@ -7497,47 +7508,33 @@ proxies:
   cipher: aes-256-cfb
   password: "9d6cceaa373bf2c8acb22e60b6a58be6"
   udp: true
-- name: ❓Other_25|290KB/s|A004-260618
-  type: ss
-  server: 213.183.63.60
-  port: 9028
-  cipher: aes-256-cfb
-  password: 9eeJ2fwnZA5Fxgz8
-  udp: true
-- name: 🇧🇬BG_2|1.4MB/s|A004-260618
+- name: 🇧🇬BG_2|248KB/s|A004-260618
   type: ss
   server: 213.183.63.60
   port: 9085
   cipher: aes-256-cfb
   password: 9ej82EKe2gq7gLAM
   udp: true
-- name: ss-185.135.86.173-9020
-  type: ss
-  server: 185.135.86.173
-  port: 9020
-  cipher: aes-256-cfb
-  password: BNmAXXxAHYpTRdzu
-  udp: true
-- name: 波兰424频道：@jichangdl
+- name: ss-217.30.10.70-9020
   type: ss
   server: 217.30.10.70
   port: 9020
   cipher: aes-256-cfb
   password: BNmAXXxAHYpTRdzu
   udp: true
-- name: 西班牙367频道：@jichangdl
+- name: 西班牙236频道：@jichangdl
   type: ss
   server: 5.188.181.201
   port: 9020
   cipher: aes-256-cfb
   password: BNmAXXxAHYpTRdzu
   udp: true
-- name: ss-213.183.59.214-9031
+- name: ss-213.183.59.190-9024
   type: ss
-  server: 213.183.59.214
-  port: 9031
+  server: 213.183.59.190
+  port: 9024
   cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
+  password: BejrQvtu9sqUeNuZ
   udp: true
 - name: ss-217.30.10.68-9031
   type: ss
@@ -7546,14 +7543,14 @@ proxies:
   cipher: aes-256-cfb
   password: BwcAUZk8hUFAkDGN
   udp: true
-- name: ss-45.89.52.66-9031
+- name: 🇹🇷TR-45.89.52.66-0781
   type: ss
   server: 45.89.52.66
   port: 9031
   cipher: aes-256-cfb
   password: BwcAUZk8hUFAkDGN
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0201
+- name: 西班牙591频道：@jichangdl
   type: ss
   server: 5.188.181.201
   port: 9031
@@ -7567,40 +7564,47 @@ proxies:
   cipher: aes-256-cfb
   password: C7XpXsXtLz
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0187
+- name: ss-185.135.86.173-9019
+  type: ss
+  server: 185.135.86.173
+  port: 9019
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+  udp: true
+- name: ss-213.183.59.211-9019
+  type: ss
+  server: 213.183.59.211
+  port: 9019
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+  udp: true
+- name: ss-217.30.10.68-9019
+  type: ss
+  server: 217.30.10.68
+  port: 9019
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+  udp: true
+- name: 🇪🇸ES-5.188.181.201-0203
   type: ss
   server: 5.188.181.201
   port: 9019
   cipher: aes-256-cfb
   password: GA9KzeEgvfxNrgmM
   udp: true
-- name: ss-185.135.86.173-9030
-  type: ss
-  server: 185.135.86.173
-  port: 9030
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-  udp: true
-- name: 🇪🇸ES-5.188.181.201-0192
+- name: ss-5.188.181.201-9030
   type: ss
   server: 5.188.181.201
   port: 9030
   cipher: aes-256-cfb
   password: GeregetR8cvQHzYr
   udp: true
-- name: ss-5.188.181.201-9027
+- name: 🇪🇸ES-5.188.181.201-0208
   type: ss
   server: 5.188.181.201
   port: 9027
   cipher: aes-256-cfb
   password: EXN3S3eQpjE7EJu8
-  udp: true
-- name: ss-213.183.59.206-9006
-  type: ss
-  server: 213.183.59.206
-  port: 9006
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
   udp: true
 - name: ss-213.183.59.211-9006
   type: ss
@@ -7616,7 +7620,7 @@ proxies:
   cipher: aes-256-cfb
   password: FAdUvMJUq5vDgKEq
   udp: true
-- name: 波兰61频道：@jichangdl
+- name: 波兰984频道：@jichangdl
   type: ss
   server: 217.30.10.44
   port: 9006
@@ -7637,21 +7641,7 @@ proxies:
   cipher: aes-256-cfb
   password: FG5ddLsMPbV5CutE
   udp: true
-- name: ss-103.172.116.79-9044
-  type: ss
-  server: 103.172.116.79
-  port: 9044
-  cipher: aes-256-cfb
-  password: KBGjZYcy4SyRShmA
-  udp: true
-- name: ss-217.30.10.68-9014
-  type: ss
-  server: 217.30.10.68
-  port: 9014
-  cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
-  udp: true
-- name: 🇪🇸ES-5.188.181.201-0189
+- name: ss-5.188.181.201-9014
   type: ss
   server: 5.188.181.201
   port: 9014
@@ -7672,12 +7662,40 @@ proxies:
   cipher: aes-256-cfb
   password: KnJGad3FqTvjqbaX
   udp: true
-- name: 拉脱维亚131频道：@jichangdl
+- name: 拉脱维亚324频道：@jichangdl
   type: ss
   server: 185.135.86.175
   port: 9017
   cipher: aes-256-cfb
   password: HAVAdE3nXhqA5nHp
+  udp: true
+- name: ss-103.172.116.6-9043
+  type: ss
+  server: 103.172.116.6
+  port: 9043
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+  udp: true
+- name: ss-185.135.86.173-9043
+  type: ss
+  server: 185.135.86.173
+  port: 9043
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+  udp: true
+- name: ss-213.183.59.206-9043
+  type: ss
+  server: 213.183.59.206
+  port: 9043
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+  udp: true
+- name: ss-217.30.10.68-9043
+  type: ss
+  server: 217.30.10.68
+  port: 9043
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
   udp: true
 - name: ss-45.89.52.66-9043
   type: ss
@@ -7686,19 +7704,12 @@ proxies:
   cipher: aes-256-cfb
   password: HSZuyJQcWe8dxNdF
   udp: true
-- name: 🇱🇹LT_1|260KB/s|A004-260618
+- name: 🇱🇹LT_6|564KB/s|A004-260618
   type: ss
   server: 195.238.126.20
   port: 9078
   cipher: aes-256-cfb
   password: JCJpbRbQZNw9XFZG
-  udp: true
-- name: ss-213.183.59.190-9003
-  type: ss
-  server: 213.183.59.190
-  port: 9003
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
   udp: true
 - name: 🇷🇺_RU_俄罗斯_3
   type: ss
@@ -7707,19 +7718,12 @@ proxies:
   cipher: aes-256-cfb
   password: JdmRK9gMEqFgs8nP
   udp: true
-- name: 🇪🇸ES-5.188.181.201-5751
+- name: 🇪🇸ES-5.188.181.201-0197
   type: ss
   server: 5.188.181.201
   port: 9003
   cipher: aes-256-cfb
   password: JdmRK9gMEqFgs8nP
-  udp: true
-- name: 🇱🇹LT_2|432KB/s|A004-260618
-  type: ss
-  server: 195.238.126.20
-  port: 9045
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
   udp: true
 - name: 🇷🇺_RU_俄罗斯_1
   type: ss
@@ -7728,21 +7732,14 @@ proxies:
   cipher: aes-256-cfb
   password: Lp27rqyJq72bZsqX
   udp: true
-- name: ss-217.30.10.68-9045
+- name: 立陶宛248频道：@jichangdl
   type: ss
-  server: 217.30.10.68
+  server: 195.238.126.20
   port: 9045
   cipher: aes-256-cfb
   password: Lp27rqyJq72bZsqX
   udp: true
-- name: 🇵🇱PL_8|714KB/s|M001-260618
-  type: ss
-  server: 217.30.10.70
-  port: 9045
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-  udp: true
-- name: 🇱🇹LT_3|208KB/s|A004-260618
+- name: 🇱🇹LT_1|416KB/s|A004-260618
   type: ss
   server: 195.238.126.20
   port: 9011
@@ -7756,14 +7753,14 @@ proxies:
   cipher: aes-256-cfb
   password: M3t2ZEQcMGRWBjRa
   udp: true
-- name: 波兰971频道：@jichangdl
+- name: 波兰931频道：@jichangdl
   type: ss
   server: 217.30.10.44
   port: 9095
   cipher: aes-256-cfb
   password: N7j3pdTYkKmsy8CR
   udp: true
-- name: 意大利817频道：@jichangdl
+- name: 意大利531频道：@jichangdl
   type: ss
   server: 91.201.65.122
   port: 9053
@@ -7777,26 +7774,47 @@ proxies:
   cipher: aes-256-cfb
   password: Sn5B7jTqr76aCJT8
   udp: true
-- name: 意大利173频道：@jichangdl
+- name: ss-213.183.59.206-9097
+  type: ss
+  server: 213.183.59.206
+  port: 9097
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
+  udp: true
+- name: 意大利120频道：@jichangdl
   type: ss
   server: 91.201.65.122
   port: 9097
   cipher: aes-256-cfb
   password: Sn5B7jTqr76aCJT8
   udp: true
-- name: 🇧🇬BG_4|222KB/s|A004-260618
+- name: 保加利亚374频道：@jichangdl
   type: ss
   server: 213.183.63.60
   port: 9049
   cipher: aes-256-cfb
   password: PRBf4BS2HvJqtWxY
   udp: true
-- name: 意大利221频道：@jichangdl
+- name: 意大利51频道：@jichangdl
   type: ss
   server: 91.201.65.122
   port: 9065
   cipher: aes-256-cfb
   password: PeHSHm5SqEjBuEXE
+  udp: true
+- name: ss-103.172.116.5-9026
+  type: ss
+  server: 103.172.116.5
+  port: 9026
+  cipher: aes-256-cfb
+  password: QWDDvVE9npNurQfA
+  udp: true
+- name: ss-213.183.59.211-9026
+  type: ss
+  server: 213.183.59.211
+  port: 9026
+  cipher: aes-256-cfb
+  password: QWDDvVE9npNurQfA
   udp: true
 - name: ss-180.101.193.226-10068
   type: ss
@@ -7805,7 +7823,7 @@ proxies:
   cipher: aes-256-cfb
   password: RsDk3peCSuo76B68
   udp: true
-- name: 波兰47频道：@jichangdl
+- name: 🇵🇱PL_4|251KB/s|A004-260618
   type: ss
   server: 217.30.10.44
   port: 9076
@@ -7826,28 +7844,35 @@ proxies:
   cipher: aes-256-cfb
   password: S7KwUu7yBy58S3Ga
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0184
+- name: ss-5.188.181.201-9042
   type: ss
   server: 5.188.181.201
   port: 9042
   cipher: aes-256-cfb
   password: S7KwUu7yBy58S3Ga
   udp: true
-- name: 波兰225频道：@jichangdl
+- name: 波兰150频道：@jichangdl
   type: ss
   server: 217.30.10.44
   port: 9042
   cipher: aes-256-cfb
   password: S7KwUu7yBy58S3Ga
   udp: true
-- name: ss-213.183.59.206-9037
+- name: ss-185.135.86.173-9037
   type: ss
-  server: 213.183.59.206
+  server: 185.135.86.173
   port: 9037
   cipher: aes-256-cfb
   password: TN2YqghxeFDKZfLU
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0196
+- name: ss-45.89.52.66-9037
+  type: ss
+  server: 45.89.52.66
+  port: 9037
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+  udp: true
+- name: 西班牙258频道：@jichangdl
   type: ss
   server: 5.188.181.201
   port: 9037
@@ -7861,28 +7886,21 @@ proxies:
   cipher: aes-256-cfb
   password: TPqX8edgbAURcAMb
   udp: true
-- name: 意大利158频道：@jichangdl
+- name: 🇮🇹IT_3|262KB/s|A004-260618
   type: ss
   server: 91.201.65.122
   port: 9092
   cipher: aes-256-cfb
   password: TyNkGmp9hs6eGpDK
   udp: true
-- name: ss-45.89.52.66-9041
-  type: ss
-  server: 45.89.52.66
-  port: 9041
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-  udp: true
-- name: 西班牙206频道：@jichangdl
+- name: 🇪🇸ES-5.188.181.201-5646
   type: ss
   server: 5.188.181.201
   port: 9041
   cipher: aes-256-cfb
   password: U6qnYRhfyDmn8sgn
   udp: true
-- name: 拉脱维亚135频道：@jichangdl
+- name: 拉脱维亚267频道：@jichangdl
   type: ss
   server: 185.135.86.175
   port: 9033
@@ -7910,9 +7928,9 @@ proxies:
   cipher: aes-256-cfb
   password: UWZQeLRWnkqgkseq
   udp: true
-- name: 🇪🇸ES-5.188.181.201-0176
+- name: ss-213.183.59.211-9001
   type: ss
-  server: 5.188.181.201
+  server: 213.183.59.211
   port: 9001
   cipher: aes-256-cfb
   password: UkXRsXvR6buDMG2Y
@@ -7924,14 +7942,21 @@ proxies:
   cipher: aes-256-cfb
   password: UkXRsXvR6buDMG2Y
   udp: true
-- name: 🇧🇬BG_6|1.5MB/s|A004-260618
+- name: ss-5.188.181.201-9001
+  type: ss
+  server: 5.188.181.201
+  port: 9001
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+  udp: true
+- name: 🇧🇬BG_1|304KB/s|A004-260618
   type: ss
   server: 213.183.63.60
   port: 9054
   cipher: aes-256-cfb
   password: VcFuyXvND2yQWSFY
   udp: true
-- name: 西班牙1频道：@jichangdl
+- name: 西班牙808频道：@jichangdl
   type: ss
   server: 5.188.181.201
   port: 9054
@@ -7945,26 +7970,19 @@ proxies:
   cipher: aes-256-cfb
   password: XPtzA9sCug3SPR4c
   udp: true
-- name: 🇪🇸ES_5|599KB/s|M001-260618
+- name: 🇪🇸ES-5.188.181.201-5649
   type: ss
   server: 5.188.181.201
   port: 9025
   cipher: aes-256-cfb
   password: XPtzA9sCug3SPR4c
   udp: true
-- name: 拉脱维亚346频道：@jichangdl
+- name: 🇱🇻LV_4|1.0MB/s|X001-260618
   type: ss
   server: 185.135.86.175
   port: 9034
   cipher: aes-256-cfb
   password: Yg4MbdXFQ9HFFVY6
-  udp: true
-- name: ss-213.183.59.190-9005
-  type: ss
-  server: 213.183.59.190
-  port: 9005
-  cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
   udp: true
 - name: 🇷🇺_RU_俄罗斯_2
   type: ss
@@ -7973,58 +7991,58 @@ proxies:
   cipher: aes-256-cfb
   password: ZET59LF6DvCC8KVt
   udp: true
-- name: ss-5.188.181.201-9005
+- name: 🇪🇸ES-5.188.181.201-0200
   type: ss
   server: 5.188.181.201
   port: 9005
   cipher: aes-256-cfb
   password: ZET59LF6DvCC8KVt
   udp: true
-- name: 保加利亚399频道：@jichangdl
+- name: 保加利亚171频道：@jichangdl
   type: ss
   server: 213.183.63.60
   port: 9064
   cipher: aes-256-cfb
   password: cp8pRSUAyLhTfVWH
   udp: true
-- name: ss-185.135.86.173-9000
-  type: ss
-  server: 185.135.86.173
-  port: 9000
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-  udp: true
-- name: ss-217.30.10.68-9000
-  type: ss
-  server: 217.30.10.68
-  port: 9000
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-  udp: true
-- name: 🇪🇸ES_7|274KB/s|M003-260806
+- name: 西班牙198频道：@jichangdl
   type: ss
   server: 5.188.181.201
   port: 9000
   cipher: aes-256-cfb
   password: a3GFYt36Sm82Vys9
   udp: true
-- name: 保加利亚593频道：@jichangdl
+- name: ss-103.172.116.5-9098
+  type: ss
+  server: 103.172.116.5
+  port: 9098
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+  udp: true
+- name: ss-213.183.59.214-9098
+  type: ss
+  server: 213.183.59.214
+  port: 9098
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+  udp: true
+- name: 🇵🇱PL_6|342KB/s|M003-260806
+  type: ss
+  server: 217.30.10.70
+  port: 9098
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+  udp: true
+- name: 保加利亚646频道：@jichangdl
   type: ss
   server: 213.183.63.60
   port: 9098
   cipher: aes-256-cfb
   password: aLpQtfEZe445QyHk
   udp: true
-- name: 🇵🇱PL_4|254KB/s|A004-260618
+- name: ss-13.212.199.120-443
   type: ss
-  server: 217.30.10.44
-  port: 9063
-  cipher: aes-256-cfb
-  password: aQqJbtwFGcCCaeL3
-  udp: true
-- name: ss-13.213.2.160-443
-  type: ss
-  server: 13.213.2.160
+  server: 13.212.199.120
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8036,9 +8054,23 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-13.213.46.196-443
+- name: ss-13.215.163.54-443
   type: ss
-  server: 13.213.46.196
+  server: 13.215.163.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-13.215.173.2-443
+  type: ss
+  server: 13.215.173.2
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-13.215.174.243-443
+  type: ss
+  server: 13.215.174.243
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8050,9 +8082,9 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-13.215.200.86-443
+- name: ss-13.215.191.190-443
   type: ss
-  server: 13.215.200.86
+  server: 13.215.191.190
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8071,6 +8103,20 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
+- name: ss-13.250.46.178-443
+  type: ss
+  server: 13.250.46.178
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-13.250.54.18-443
+  type: ss
+  server: 13.250.54.18
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: ss-13.250.8.241-443
   type: ss
   server: 13.250.8.241
@@ -8078,9 +8124,9 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-175.41.205.247-443
+- name: ss-18.142.183.235-443
   type: ss
-  server: 175.41.205.247
+  server: 18.142.183.235
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8092,16 +8138,16 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 'TG:@hkaa0|新加坡 #2'
+- name: ss-3.0.148.195-443
   type: ss
-  server: 3.1.6.229
+  server: 3.0.148.195
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-3.36.118.190-443
+- name: 'TG:@hkaa0|新加坡 #2'
   type: ss
-  server: 3.36.118.190
+  server: 3.1.6.229
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8120,9 +8166,9 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-34.219.40.74-443
+- name: ss-34.217.75.169-443
   type: ss
-  server: 34.219.40.74
+  server: 34.217.75.169
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8169,27 +8215,6 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-43.200.245.35-443
-  type: ss
-  server: 43.200.245.35
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: ss-43.201.108.109-443
-  type: ss
-  server: 43.201.108.109
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: ss-43.201.47.102-443
-  type: ss
-  server: 43.201.47.102
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: TG:@hkaa0|韩国
   type: ss
   server: 43.201.57.87
@@ -8197,16 +8222,16 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-43.201.59.8-443
+- name: 'TG:@hkaa0|韩国 #2'
   type: ss
-  server: 43.201.59.8
+  server: 43.201.86.41
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 'TG:@hkaa0|韩国 #2'
+- name: ss-43.206.219.140-443
   type: ss
-  server: 43.201.86.41
+  server: 43.206.219.140
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8232,9 +8257,16 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: ss-43.207.82.53-443
+- name: ss-54.178.60.213-443
   type: ss
-  server: 43.207.82.53
+  server: 54.178.60.213
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-54.179.221.54-443
+  type: ss
+  server: 54.179.221.54
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8242,13 +8274,6 @@ proxies:
 - name: 🇺🇸_US_美国_7
   type: ss
   server: 54.186.92.34
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: ss-54.187.181.151-443
-  type: ss
-  server: 54.187.181.151
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8263,6 +8288,13 @@ proxies:
 - name: 🇺🇸_US_美国_6
   type: ss
   server: 54.245.207.144
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-54.245.219.99-443
+  type: ss
+  server: 54.245.219.99
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8288,35 +8320,42 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 随机293频道：@jichangdl
+- name: ss-54.254.199.122-443
+  type: ss
+  server: 54.254.199.122
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 随机638频道：@jichangdl
   type: ss
   server: 13.38.12.246
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 加拿大529频道：@jichangdl
+- name: 加拿大256频道：@jichangdl
   type: ss
   server: 15.156.192.45
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 法国941频道：@jichangdl
+- name: 法国834频道：@jichangdl
   type: ss
   server: 15.237.53.254
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 英国58频道：@jichangdl
+- name: 英国211频道：@jichangdl
   type: ss
   server: 16.60.30.137
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 美国973频道：@jichangdl
+- name: 美国377频道：@jichangdl
   type: ss
   server: 18.117.92.138
   port: 443
@@ -8330,7 +8369,7 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 美国589频道：@jichangdl
+- name: 美国372频道：@jichangdl
   type: ss
   server: 3.145.49.43
   port: 443
@@ -8344,14 +8383,14 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 法国373频道：@jichangdl
+- name: 法国448频道：@jichangdl
   type: ss
   server: 51.44.170.122
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 加拿大588频道：@jichangdl
+- name: 加拿大647频道：@jichangdl
   type: ss
   server: 99.79.32.21
   port: 443
@@ -8361,6 +8400,13 @@ proxies:
 - name: 🇮🇪_IE_爱尔兰
   type: ss
   server: 108.129.176.139
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: ss-13.213.46.196-443
+  type: ss
+  server: 13.213.46.196
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -8407,55 +8453,6 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: '🇨🇦_CA_加拿大 #2'
-  type: ss
-  server: 15.223.203.202
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇫🇷_FR_法国 #8'
-  type: ss
-  server: 15.237.137.134
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇫🇷_FR_法国 #9'
-  type: ss
-  server: 15.237.218.241
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇨🇦_CA_加拿大 #3'
-  type: ss
-  server: 16.52.165.74
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇮🇪_IE_爱尔兰 #2'
-  type: ss
-  server: 176.34.158.52
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇬🇧_GB_英国 #5'
-  type: ss
-  server: 18.132.203.206
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇬🇧_GB_英国 #6'
-  type: ss
-  server: 18.133.240.229
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: '说明-来源: hkjych/X'
   type: trojan
   server: 127.0.0.1
@@ -8463,7 +8460,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4364 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4238 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -8489,6 +8486,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: hkjych/X'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4364 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 4238 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
