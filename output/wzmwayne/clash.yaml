@@ -37797,74 +37797,61 @@ proxies:
       Host: fast.145779.xyz
     path: /ws-tesla
   x-toolall-mihomo: true
-- type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
+- type: vmess
+  server: 47.244.120.197
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
   udp: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
   name: 8元老牌专线机场
-- type: vless
-  server: 104.171.135.229
-  port: 443
-  udp: true
-  uuid: Fluffy_VPN-Oth8rOq3
-  tls: true
-  servername: absolute-disaster.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: 俄罗斯_3360A4
-- type: vless
-  server: 2.26.251.236
-  port: 443
-  udp: true
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  tls: true
-  servername: mental-deprivation.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-  flow: xtls-rprx-vision
-  name: 德国_199E01
-- type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_062254
-- type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_730B33
-- type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_902F2D
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_BFF5B3
 - type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_C669F1
+  name: 意大利_E9
+- type: ss
+  server: 57.131.27.21
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+  name: 意大利_23C95E
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_86C3D8
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_8975E5
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_B530D6
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_C0CE6A
 - type: vless
   server: zfapi.zalolink.com
   port: 30322
@@ -37877,7 +37864,7 @@ proxies:
     public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
     short-id: "6a60e7e382d6"
   flow: xtls-rprx-vision
-  name: 新加坡_CE8672
+  name: 新加坡_AF6247
 - type: vless
   server: zfapi.zalolink.com
   port: 43149
@@ -37890,20 +37877,7 @@ proxies:
     public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
     short-id: "15aa0ad4"
   flow: xtls-rprx-vision
-  name: 日本_22EEB4
-- type: vless
-  server: zfapi.zalolink.com
-  port: 46957
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  tls: true
-  servername: psstatic.cdn.bcebos.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: "8f6683a234d3"
-  flow: xtls-rprx-vision
-  name: 日本_34DEDF
+  name: 日本_18F8B0
 - type: vless
   server: 80.47.10.106
   port: 443
@@ -37915,20 +37889,20 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: "a7c92e4b10d6f835"
-  name: 波兰_6B859F
+  name: 波兰_2A06B3
 - type: vless
-  server: 136.148.208.221
-  port: 443
+  server: zfapi.zalolink.com
+  port: 54528
   udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   tls: true
-  servername: 8a2e72t.nl20.h1clayd.shop
-  client-fingerprint: chrome
+  servername: www.apple.com
+  client-fingerprint: ios
   reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: "54cca3c1c1c7"
   flow: xtls-rprx-vision
-  name: 瑞典_46CF5E
+  name: 澳大利亚_943365
 - type: vless
   server: 88.216.60.73
   port: 443
@@ -37940,22 +37914,19 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: "a7c92e4b10d6f835"
-  name: 瑞典_9751F1
+  name: 瑞典_8BB883
 - type: vless
-  server: 162.35.101.177
+  server: 196.245.52.187
   port: 443
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
+  servername: 04535dt.us8.h1clayd.click
+  client-fingerprint: firefox
   reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: 美国_A907E7
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
+  name: 美国_46B0C2
 - type: vless
   server: 84.32.54.237
   port: 443
@@ -37963,11 +37934,11 @@ proxies:
   uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
   tls: true
   servername: rly-gw-cfg.galioncc.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: "868419504747f6de"
-  name: 美国_BF8668
+  name: 美国_C272AC
 - type: vless
   server: zfapi.zalolink.com
   port: 47691
@@ -37980,19 +37951,33 @@ proxies:
     public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
     short-id: "2905326a"
   flow: xtls-rprx-vision
-  name: 美国_F7FC9A
+  name: 美国_FC644D
 - type: vless
-  server: 196.196.148.85
+  server: 136.148.208.221
   port: 443
   udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   tls: true
-  servername: 5d0319t.nl7.h1clayd.click
+  servername: 8a2e72t.nl20.h1clayd.shop
   client-fingerprint: chrome
   reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  name: 荷兰_88888E
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+  flow: xtls-rprx-vision
+  name: 荷兰_15B6B0
+- type: vless
+  server: 104.171.135.229
+  port: 443
+  udp: true
+  uuid: Fluffy_VPN-Oth8rOq3
+  tls: true
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: 荷兰_DD1C19
 - type: vless
   server: 196.199.122.2
   port: 443
@@ -38005,7 +37990,20 @@ proxies:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
   flow: xtls-rprx-vision
-  name: 西班牙_5493D8
+  name: 西班牙_EDF00A
+- type: vless
+  server: free.fugui.lol
+  port: 47396
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  tls: true
+  servername: swdist.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: "fa514b83"
+  flow: xtls-rprx-vision
+  name: 香港_3B0A00
 - name: AT_speednode_0001
   server: au2.pad-sservice.lat
   port: 8443
@@ -39252,7 +39250,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 30416 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 30424 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -39278,7 +39276,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 30416 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 30424 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)
@@ -42654,24 +42652,24 @@ proxy-groups:
   - U⚪🏳️ukn_18866abf
   - U⚪🏳️ukn_5bde06c7
   - 8元老牌专线机场
-  - 俄罗斯_3360A4
-  - 德国_199E01
-  - 意大利_062254
-  - 意大利_730B33
-  - 意大利_902F2D
-  - 意大利_BFF5B3
-  - 意大利_C669F1
-  - 新加坡_CE8672
-  - 日本_22EEB4
-  - 日本_34DEDF
-  - 波兰_6B859F
-  - 瑞典_46CF5E
-  - 瑞典_9751F1
-  - 美国_A907E7
-  - 美国_BF8668
-  - 美国_F7FC9A
-  - 荷兰_88888E
-  - 西班牙_5493D8
+  - 意大利_E9
+  - 意大利_23C95E
+  - 意大利_86C3D8
+  - 意大利_8975E5
+  - 意大利_B530D6
+  - 意大利_C0CE6A
+  - 新加坡_AF6247
+  - 日本_18F8B0
+  - 波兰_2A06B3
+  - 澳大利亚_943365
+  - 瑞典_8BB883
+  - 美国_46B0C2
+  - 美国_C272AC
+  - 美国_FC644D
+  - 荷兰_15B6B0
+  - 荷兰_DD1C19
+  - 西班牙_EDF00A
+  - 香港_3B0A00
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -46145,24 +46143,24 @@ proxy-groups:
   - U⚪🏳️ukn_18866abf
   - U⚪🏳️ukn_5bde06c7
   - 8元老牌专线机场
-  - 俄罗斯_3360A4
-  - 德国_199E01
-  - 意大利_062254
-  - 意大利_730B33
-  - 意大利_902F2D
-  - 意大利_BFF5B3
-  - 意大利_C669F1
-  - 新加坡_CE8672
-  - 日本_22EEB4
-  - 日本_34DEDF
-  - 波兰_6B859F
-  - 瑞典_46CF5E
-  - 瑞典_9751F1
-  - 美国_A907E7
-  - 美国_BF8668
-  - 美国_F7FC9A
-  - 荷兰_88888E
-  - 西班牙_5493D8
+  - 意大利_E9
+  - 意大利_23C95E
+  - 意大利_86C3D8
+  - 意大利_8975E5
+  - 意大利_B530D6
+  - 意大利_C0CE6A
+  - 新加坡_AF6247
+  - 日本_18F8B0
+  - 波兰_2A06B3
+  - 澳大利亚_943365
+  - 瑞典_8BB883
+  - 美国_46B0C2
+  - 美国_C272AC
+  - 美国_FC644D
+  - 荷兰_15B6B0
+  - 荷兰_DD1C19
+  - 西班牙_EDF00A
+  - 香港_3B0A00
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -49649,24 +49647,24 @@ proxy-groups:
   type: select
   proxies:
   - 8元老牌专线机场
-  - 俄罗斯_3360A4
-  - 德国_199E01
-  - 意大利_062254
-  - 意大利_730B33
-  - 意大利_902F2D
-  - 意大利_BFF5B3
-  - 意大利_C669F1
-  - 新加坡_CE8672
-  - 日本_22EEB4
-  - 日本_34DEDF
-  - 波兰_6B859F
-  - 瑞典_46CF5E
-  - 瑞典_9751F1
-  - 美国_A907E7
-  - 美国_BF8668
-  - 美国_F7FC9A
-  - 荷兰_88888E
-  - 西班牙_5493D8
+  - 意大利_E9
+  - 意大利_23C95E
+  - 意大利_86C3D8
+  - 意大利_8975E5
+  - 意大利_B530D6
+  - 意大利_C0CE6A
+  - 新加坡_AF6247
+  - 日本_18F8B0
+  - 波兰_2A06B3
+  - 澳大利亚_943365
+  - 瑞典_8BB883
+  - 美国_46B0C2
+  - 美国_C272AC
+  - 美国_FC644D
+  - 荷兰_15B6B0
+  - 荷兰_DD1C19
+  - 西班牙_EDF00A
+  - 香港_3B0A00
 - name: 📦 zhangkaiitugithub/passcro
   type: select
   proxies:
