@@ -8,115 +8,144 @@ proxies:
   type: http
   server: fan.571589.xyz
   port: 443
-  username: "null"
-  password: "null"
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
-- name: RU
-  type: http
-  server: 178.219.43.226
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: JP - 02
-  type: vless
-  server: 20.48.60.218
-  port: 443
-  uuid: f0c27a33-3e59-42e1-b63a-2eb62f4c2b70
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MulBHO4e6HwJggT2TWtEFgkMTezyh0jpr57een5Bx1Y
-    short-id: "06e9278687a08de7"
-- name: TH
-  type: socks5
-  server: 87.83.236.228
-  port: 62000
-  username: ks8783236c597
-  password: -D3s0GRfhYcd9Z4vaBy04ina
-- name: BR
-  type: socks5
-  server: 191.7.129.186
-  port: 62000
-  username: uf3on6k8
-  password: anlxq4mb
+- name: GB
+  type: ss
+  server: 129.151.64.238
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: hzPKazC8uUQLrBEBDGaFYX2m8kEKf/04N6NrA6EtLgk=
 - name: US
   type: http
-  server: 38.28.193.1
+  server: 137.175.22.16
   port: 443
   tls: true
-  sni: 38.28.193.1
+  sni: 137.175.22.16
   skip-cert-verify: true
-- name: PL
-  type: vless
-  server: 80.47.10.106
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  servername: pl8.galioncc.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-- name: "DE"
+- name: US - 02
   type: http
-  server: 159.69.94.125
+  server: fan.596189.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - 03
+  type: http
+  server: 137.175.22.120
   port: 443
   tls: true
-  sni: 159.69.94.125
+  sni: 137.175.22.120
   skip-cert-verify: true
-- name: SG
+- name: TW
+  type: http
+  server: 114.33.6.158
+  port: 443
+  tls: true
+  sni: 114.33.6.158
+  skip-cert-verify: true
+- name: US - 04
+  type: http
+  server: 137.175.77.35
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - 05
+  type: http
+  server: fan.365747.xyz
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: US - 06
+  type: http
+  server: 23.133.176.14
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 23.133.176.14
+  skip-cert-verify: true
+- name: US - 07
+  type: http
+  server: 107.151.238.27
+  port: 443
+  username: testuser1
+  password: "e4b72b531a2d10900519"
+  tls: true
+  sni: 6b97ee1b.acsnet.co
+- name: US - 08
+  type: http
+  server: 74.208.250.147
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - 09
+  type: http
+  server: 38.28.185.222
+  port: 443
+  tls: true
+  sni: 38.28.185.222
+  skip-cert-verify: true
+- name: US - 10
+  type: http
+  server: 137.175.22.84
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - 11
+  type: http
+  server: 137.175.22.41
+  port: 443
+  tls: true
+  sni: 137.175.22.41
+  skip-cert-verify: true
+- name: US - 12
+  type: http
+  server: 162.244.227.36
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 162.244.227.36
+  skip-cert-verify: true
+- name: US - 13
+  type: http
+  server: 209.148.53.153
+  port: 8090
+  username: "null"
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - 14
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 24.142.229.178
+  skip-cert-verify: true
+- name: ES
   type: vless
-  server: zfapi.zalolink.com
-  port: 30322
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: 196.199.122.2
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   flow: xtls-rprx-vision
   tls: true
-  servername: psstatic.cdn.bcebos.com
-  client-fingerprint: chrome
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: firefox
   reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: "6a60e7e382d6"
-- name: MX
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+- name: TH
   type: socks5
-  server: 94.194.164.147
-  port: 62000
-  username: rVkkraqT
-  password: 2j7CCZQb
-- name: VN
-  type: socks5
-  server: 221.133.22.195
-  port: 62000
-  username: KUs4xRXd
-  password: 480w0Yy4
-- name: HK
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
-- name: "AE"
-  type: trojan
-  server: Sclass-00.catcat321.com
-  port: 20123
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  tls: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: "CA"
-  type: http
-  server: 206.223.183.13
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: JP - 03
-  type: socks5
-  server: 103.248.150.50
+  server: 82.47.154.22
   port: 42000
-  username: paZFN3JA
-  password: EGJDy5Kg
-- name: DE - 02
+  username: userMGEj
+  password: KsySvCAP
+- name: "DE"
   type: http
   server: 158.173.154.3
   port: 9002
@@ -125,79 +154,62 @@ proxies:
   tls: true
   sni: 158.173.154.3
   skip-cert-verify: true
-- name: US - 02
+- name: VN
+  type: socks5
+  server: 103.184.113.190
+  port: 62000
+  username: qT46DZLv
+  password: jHsK2gqs
+- name: IT
   type: http
-  server: 137.175.22.56
+  server: 93.42.177.250
   port: 443
+  username: "null"
+  password: "null"
   tls: true
   skip-cert-verify: true
 - name: TH - 02
   type: socks5
-  server: 103.14.164.202
+  server: 168.222.8.78
   port: 42000
-  username: route164JIa2CBPxfy
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-- name: BR - 02
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: HK
   type: http
-  server: 134.65.17.77
+  server: fan.240104.xyz
   port: 443
-  username: "null"
-  password: "null"
   tls: true
-  sni: 134.65.17.77
+  sni: fan.240104.xyz
   skip-cert-verify: true
-- name: NL
+- name: HK - 02
   type: http
-  server: 51.158.243.91
-  port: 443
-  username: "null"
-  password: None
+  server: 38.76.140.254
+  port: 8443
   tls: true
-  skip-cert-verify: true
-- name: DE - 03
-  type: ss
-  server: 47.85.162.44
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-- name: SG - 02
-  type: vless
-  server: zfapi.zalolink.com
-  port: 30322
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  client-fingerprint: ios
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: "6a60e7e382d6"
-- name: NL - 02
-  type: http
-  server: 185.140.209.235
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 185.140.209.235
   skip-cert-verify: true
 - name: KR
-  type: vless
-  server: vl-x1.qz10086.top
-  port: 38011
-  uuid: 79fedc87-b0c7-4525-9188-10cb3cb26eb4
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Wc9-UQQQt9YoBf2Z71Q1DD02OGOQEWANCCr1hUh4oV8
-    short-id: "2d7f0d76"
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: T2clM0QlM0Q6T2clM0QlM0Q=
 - name: KR - 02
   type: socks5
   server: 121.169.46.116
   port: 1090
+  username: VDJjbE0wUWxNMFE2OlQyY2xNMFFsTTBRNg==
+- name: SG
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: "8888"
+  password: "8888"
+- name: SG - 02
+  type: http
+  server: 43.160.239.37
+  port: 443
+  tls: true
+  sni: 43.160.239.37
+  skip-cert-verify: true
 - name: DE - 01
   type: ss
   server: 47.85.162.44
@@ -205,6 +217,69 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   udp: true
+- name: RU - 02
+  type: vless
+  server: 201.51.12.98
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  network: grpc
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: RU - 03
+  type: vless
+  server: 201.24.116.192
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  network: grpc
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: RU - 01
+  type: vless
+  server: vps3.nemnogogo.com
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  network: grpc
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: EE - 01
+  type: vless
+  server: 5.129.202.80
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mirror-50.topp-con.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
+    short-id: "2ef2b10d5143d798"
+- name: SE - 03
+  type: vless
+  server: 88.216.60.73
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  udp: true
+  network: tcp
+  tls: true
+  servername: ns-api-gw.galioncc.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: "a7c92e4b10d6f835"
 - name: '说明-来源: zhuhaiuk/free-nodes'
   type: trojan
   server: 127.0.0.1
@@ -246,31 +321,40 @@ proxy-groups:
   proxies:
   - DIRECT
   - JP
-  - RU
-  - JP - 02
-  - TH
-  - BR
+  - GB
   - US
-  - PL
-  - "DE"
-  - SG
-  - MX
-  - VN
-  - HK
-  - "AE"
-  - "CA"
-  - JP - 03
-  - DE - 02
   - US - 02
+  - US - 03
+  - TW
+  - US - 04
+  - US - 05
+  - US - 06
+  - US - 07
+  - US - 08
+  - US - 09
+  - US - 10
+  - US - 11
+  - US - 12
+  - US - 13
+  - US - 14
+  - ES
+  - TH
+  - "DE"
+  - VN
+  - IT
   - TH - 02
-  - BR - 02
-  - NL
-  - DE - 03
-  - SG - 02
-  - NL - 02
+  - HK
+  - HK - 02
   - KR
   - KR - 02
+  - SG
+  - SG - 02
   - DE - 01
+  - RU - 02
+  - RU - 03
+  - RU - 01
+  - EE - 01
+  - SE - 03
 rules:
 - GEOSITE,CN,DIRECT
 - GEOIP,CN,DIRECT
