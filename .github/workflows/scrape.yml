@@ -254,17 +254,19 @@ jobs:
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import glob
+          import os
           import yaml
 
           print("## 本轮产物\n")
-          print("| 文件 | 节点数 |")
-          print("| --- | --- |")
+          print("| 文件 | 节点数 | 大小 |")
+          print("| --- | --- | --- |")
           for f in sorted(glob.glob("output/*/clash.yaml")):
               try:
                   d = yaml.safe_load(open(f, encoding="utf-8")) or {}
-                  print(f"| `{f}` | {len(d.get('proxies') or [])} |")
+                  size = os.path.getsize(f) / 1024 / 1024
+                  print(f"| `{f}` | {len(d.get('proxies') or [])} | {size:.2f} MB |")
               except Exception as e:
-                  print(f"| `{f}` | 解析失败: {e} |")
+                  print(f"| `{f}` | 解析失败: {e} | - |")
 
           boxes = sorted(glob.glob("output/*/box.json"))
           if boxes:
