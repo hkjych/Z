@@ -14,6 +14,7 @@ set -uo pipefail
 
 REQUESTED="${SINGBOX_VERSION:-latest}"
 CACHE="${SINGBOX_CACHE:-$HOME/.cache/singbox}"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 case "$(uname -m)" in
   x86_64 | amd64) ARCH=amd64 ;;
@@ -35,26 +36,53 @@ read_release() {
   [ -n "$PY" ] || return 1
   "$PY" - "$ARCH" <<'PY'
 import json
+import os
 import sys
+import time
+import urllib.error
 import urllib.request
 
 arch = sys.argv[1]
-try:
-    req = urllib.request.Request(
-        "https://api.github.com/repos/SagerNet/sing-box/releases/latest",
-        headers={"User-Agent": "proxy-node-bot/1.0"},
-    )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        d = json.load(r)
-except Exception:
+token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
+headers = {
+    "User-Agent": "proxy-node-bot/1.0",
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+}
+if token:
+    headers["Authorization"] = "Bearer %s" % token
+url = "https://api.github.com/repos/SagerNet/sing-box/releases/latest"
+
+data, err = None, "未知错误"
+for attempt in range(3):
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.load(r)
+        err = ""
+        break
+    except urllib.error.HTTPError as e:
+        err = "HTTP %s %s" % (e.code, e.reason)
+        if e.code in (403, 429):
+            err += "（匿名限流 60 次/小时，需传 GH_TOKEN）" if not token else "（限流或权限不足）"
+        if e.code not in (403, 429, 500, 502, 503, 504):
+            break
+    except Exception as e:
+        err = "%s: %s" % (type(e).__name__, e)
+    time.sleep(2 * (attempt + 1))
+
+if data is None:
+    sys.stderr.write("release API 失败: %s\n" % err)
     sys.exit(1)
-tag = d.get("tag_name") or ""
+
+tag = data.get("tag_name") or ""
 if not tag:
+    sys.stderr.write("release API 返回内容缺 tag_name\n")
     sys.exit(1)
 version = tag.lstrip("v")
 name = "sing-box-%s-linux-%s.tar.gz" % (version, arch)
 digest = "-"
-for a in d.get("assets") or []:
+for a in data.get("assets") or []:
     if a.get("name") == name:
         digest = (a.get("digest") or "").replace("sha256:", "") or "-"
         break
@@ -67,13 +95,23 @@ ASSET=""
 DIGEST="-"
 if [ "$REQUESTED" = "latest" ] || [ -z "$REQUESTED" ]; then
   echo "[INFO] 查询 sing-box 最新版本..."
-  if out="$(read_release 2>/dev/null)" && [ -n "$out" ]; then
-    VERSION="$(printf '%s\n' "$out" | awk '{print $1}')"
-    ASSET="$(printf '%s\n' "$out" | awk '{print $2}')"
-    DIGEST="$(printf '%s\n' "$out" | awk '{print $3}')"
+  out="$(read_release 2>&1)"
+  VERSION="$(printf '%s\n' "$out" | awk '/^v[0-9]/ { print $1; exit }')"
+  ASSET="$(printf '%s\n' "$out" | awk '/^v[0-9]/ { print $2; exit }')"
+  DIGEST="$(printf '%s\n' "$out" | awk '/^v[0-9]/ { print $3; exit }')"
+  if [ -z "$VERSION" ]; then
+    echo "[WARN] $(printf '%s\n' "$out" | tail -1)"
+    # API 不可用时回退到仓库固化表(scripts/singbox.sha256)的最后一条,保住校验能力
+    FALLBACK="$(awk 'NF == 3 && $1 ~ /^v/ { line = $0 } END { print line }' "$ROOT/scripts/singbox.sha256" 2>/dev/null)"
+    if [ -n "$FALLBACK" ]; then
+      VERSION="$(printf '%s\n' "$FALLBACK" | awk '{print $1}')"
+      ASSET="$(printf '%s\n' "$FALLBACK" | awk '{print $2}')"
+      DIGEST="$(printf '%s\n' "$FALLBACK" | awk '{print $3}')"
+      echo "::warning::release API 不可用，改用固化版本 $VERSION（仍做 SHA256 校验）"
+    fi
   fi
   if [ -z "$VERSION" ]; then
-    echo "::warning::获取 sing-box 最新版本失败，跳过 sing-box 校验"
+    echo "::warning::获取 sing-box 版本失败且无固化表，跳过 sing-box 校验"
     [ -n "${GITHUB_ENV:-}" ] && echo "SINGBOX_GATE=0" >> "$GITHUB_ENV"
     exit 0
   fi

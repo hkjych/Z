@@ -1,0 +1,5 @@
+# sing-box 发行包 SHA256(格式:版本 文件名 校验和)
+# 在线时 install_singbox.sh 直接取 GitHub release API 的 digest;
+# 这里的固化表在 API 不可用时兜底,仍然做 SHA256 校验(不再直接放弃校验)。
+v1.14.4 sing-box-1.14.4-linux-amd64.tar.gz 699a1b510aa4396b2176d32d1181920399ebf1e267835da6f3b598d0f7c24968
+v1.14.4 sing-box-1.14.4-linux-arm64.tar.gz 436441f76ee2f7fe21b5b2d426d3cb261a480455a704865789ad533e4273ec26

@@ -60,11 +60,15 @@ jobs:
           key: geo-${{ runner.arch }}-v1
 
       - name: Install mihomo core
+        env:
+          GH_TOKEN: ${{ github.token }}   # 带上 token:匿名 60 次/小时会被限流
         run: bash scripts/install_mihomo.sh
 
       # 只为校验生成的 box.json（sing-box 格式）；装不上就跳过校验，不阻断发布
       - name: Install sing-box core（校验 box.json 用）
         continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}   # 同上,避免 release API 匿名限流
         run: bash scripts/install_singbox.sh
 
       # 自建 20MB 测速文件(私有 release 资产匿名不可读时本轮跳过,测速自动只用 Cloudflare)
@@ -178,15 +182,7 @@ jobs:
             if [ "$TEST_BANDWIDTH" = "false" ]; then FLAGS="$FLAGS --no-speed"; fi
             echo "手动参数: test_latency=${TEST_LATENCY:-true} test_bandwidth=${TEST_BANDWIDTH:-true}"
           fi
-          # --merge-only 只用于调试:不能写进精选 AIO,否则会覆盖带测速的精选版
-          # (2026-11-20 手动关掉测速跑过一次,output/aio 变成 22948 节点的合并版)。
-          OUT_AIO="output/aio/clash.yaml"
-          if [ "$FLAGS" = "--merge-only" ]; then
-            OUT_AIO="$RUNNER_TEMP/aio-merge/clash.yaml"
-            mkdir -p "$RUNNER_TEMP/aio-merge"
-            echo "::notice::--merge-only: 不覆盖 output/aio/clash.yaml,调试产物写到 $OUT_AIO"
-          fi
-          python scripts/test_nodes.py $INPUTS -o "$OUT_AIO" $FLAGS \
+          python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml $FLAGS \
             --mihomo "$MIHOMO_BIN" \
             --concurrency 128 \
             --timeout-ms 4500 \
