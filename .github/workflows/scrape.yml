@@ -178,7 +178,15 @@ jobs:
             if [ "$TEST_BANDWIDTH" = "false" ]; then FLAGS="$FLAGS --no-speed"; fi
             echo "手动参数: test_latency=${TEST_LATENCY:-true} test_bandwidth=${TEST_BANDWIDTH:-true}"
           fi
-          python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml $FLAGS \
+          # --merge-only 只用于调试:不能写进精选 AIO,否则会覆盖带测速的精选版
+          # (2026-11-20 手动关掉测速跑过一次,output/aio 变成 22948 节点的合并版)。
+          OUT_AIO="output/aio/clash.yaml"
+          if [ "$FLAGS" = "--merge-only" ]; then
+            OUT_AIO="$RUNNER_TEMP/aio-merge/clash.yaml"
+            mkdir -p "$RUNNER_TEMP/aio-merge"
+            echo "::notice::--merge-only: 不覆盖 output/aio/clash.yaml,调试产物写到 $OUT_AIO"
+          fi
+          python scripts/test_nodes.py $INPUTS -o "$OUT_AIO" $FLAGS \
             --mihomo "$MIHOMO_BIN" \
             --concurrency 128 \
             --timeout-ms 4500 \
