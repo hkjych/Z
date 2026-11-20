@@ -1,24 +1,54 @@
 proxies:
 - name: 香港+葵兴数据中心
   type: trojan
-  server: sclass-01.catcat321.com
-  port: 20103
+  server: sclass-b1.catcat321.com
+  port: 20051
   password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
   sni: hk.catxstar.com
-- name: 英国+
+  skip-cert-verify: true
+- name: 英国+伦敦南岸大学
   type: vless
-  server: 2.26.251.236
+  server: 136.148.208.221
   port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: mental-deprivation.ru
+  servername: 8a2e72t.nl20.h1clayd.shop
   client-fingerprint: chrome
   reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+- name: 新西兰+
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '新西兰+ #2'
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 香港+阿里云
+  type: ss
+  server: 47.85.162.44
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  udp: true
+- name: 瑞士
+  type: vmess
+  server: 179.43.140.24
+  port: 42831
+  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+  alterId: 0
+  cipher: auto
+  udp: true
 - name: 爱沙尼亚+
   type: vless
   server: 196.196.148.85
@@ -31,25 +61,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: "361d0dd59c70516f"
-- name: 新西兰+
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 立陶宛+
-  type: vless
-  server: 88.216.60.73
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  udp: true
-  tls: true
-  servername: ns-api-gw.galioncc.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
 - name: 塞舌尔+
   type: vless
   server: 196.199.122.2
@@ -63,38 +74,19 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
-- name: 台湾省台北市+中华电信
+- name: 英国+
   type: vless
-  server: free.fugui.lol
-  port: 47396
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: swdist.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: "fa514b83"
-- name: '英国+ #2'
-  type: vless
-  server: 80.47.10.106
-  port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  udp: true
-  tls: true
-  servername: pl8.galioncc.com
+  servername: mental-deprivation.ru
   client-fingerprint: firefox
   reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-- name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1

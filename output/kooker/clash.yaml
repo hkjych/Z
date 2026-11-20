@@ -1,133 +1,86 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.0MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|918KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|689KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_1|791KB/s
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 136.148.208.221
-  skip-cert-verify: false
+- name: 🇩🇪DE_1|1.5MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  network: tcp
-  servername: 8a2e72t.nl20.h1clayd.shop
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
-    short-id: "2ef2b10d5143d798"
-  server: 5.129.202.80
+- name: 🇩🇪DE_2|821KB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  xudp: true
-  servername: mirror-50.topp-con.xyz
-- name: 🇹🇭TH_1|1.6MB/s
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.86
+- name: 🇳🇱NL_1|1.7MB/s
+  port: 19362
+  server: 51.159.225.197
   skip-cert-verify: true
-  type: socks5
-  username: AJ3d9gJw
-- name: 🇻🇳VN_1|1.3MB/s
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.190
-  skip-cert-verify: true
-  type: socks5
-  username: qT46DZLv
-- name: 🇳🇱NL_2|1.2MB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  skip-cert-verify: true
-  type: socks5
-  username: test123
-- name: 🇹🇭TH_2|2.0MB/s
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.135
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    path:
-    - /3x
-  name: 🇨🇭CH_1|2.7MB/s
-  network: http
-  port: 42831
-  server: 179.43.140.24
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  tls: true
+  type: http
   udp: true
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-  xudp: true
-- name: 🇹🇭TH_3|1.1MB/s
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.158
+- name: 🇳🇱NL_2|1.3MB/s
+  password: "null"
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
-  type: socks5
-  username: AJ3d9gJw
-- cipher: chacha20-ietf
-  name: 🇳🇱NL_3|1.1MB/s
-  obfs: tls1.2_ticket_auth
-  obfsparam: ''
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  protocolparam: ''
-  server: 109.104.153.43
-  type: ssr
-- name: 🇺🇸US_1|1.4MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+- name: 🇳🇱NL_3|1.5MB/s
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇪IE_1|2.0MB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇱🇻LV_1|1.3MB/s
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇱🇻LV_2|1.7MB/s
+  password: None
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_4|1.5MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_5|778KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_6|1.1MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -135,7 +88,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1145 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1141 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -161,7 +114,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1145 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1141 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
