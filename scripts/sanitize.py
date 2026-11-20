@@ -14,6 +14,11 @@
   5. 说明节点:注入"说明-"假节点与"说明"分组,承载来源/清洗结果/时间/仓库;
   6. 输出为可读 UTF-8 YAML(中文 / emoji 原样写入,不再转义成 \\uXXXX);
   7. 写入前二次解析校验 + 可选 mihomo 内核 `-t` 门禁,任一不过即拒绝发布。
+  8. 字段类型纠正:http-opts.path、http-opts.headers、h2-opts.host/path、
+     ws-opts.path/headers、grpc-opts.grpc-service-name、REALITY short-id、
+     vless flow —— 按 mihomo 的强类型结构体改对(一个坏节点就能让整份订阅失败);
+  9. 门禁兜底:内核仍报错的那个节点(index 从 "proxy N:" 里取)单独剔除后重测,
+     不让单个节点把整份订阅拖死,更不会挤掉上一版已发布文件。
 
 背景:
   go-yaml v3 的读取器只接受白名单码点(U+0009/000A/000D、0x20-0x7E、0x85、
@@ -306,6 +311,158 @@ def _normalize_ss_plugin(proxy: dict) -> list:
     return fixes
 
 
+# REALITY short-id:xray 里是 8 字节以内的十六进制串(偶数位)。上游常见的奇数位、
+# 带非十六进制字符、"off" 之类占位值,mihomo 一律报 "invalid REALITY short ID",
+# 一个节点就能让整份订阅过不了内核门禁。
+_REALITY_SHORT_ID_RE = re.compile(r"^(?:[0-9A-Fa-f]{2}){0,8}$")
+
+
+def _as_str_list(value):
+    """把标量/列表统一成 list[str];实在转不了返回 None。"""
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, bool):
+        return [str(value).lower()]
+    if isinstance(value, (int, float)):
+        return [str(value)]
+    if isinstance(value, list):
+        out = []
+        for v in value:
+            if isinstance(v, str):
+                out.append(v)
+            elif isinstance(v, (int, float)) and not isinstance(v, bool):
+                out.append(str(v))
+            else:
+                return None
+        return out
+    return None
+
+
+def _normalize_transport_opts(proxy: dict) -> list:
+    """按 mihomo 的字段类型纠正传输层参数。
+
+    mihomo 用的是强类型结构体,类型不对直接拒绝加载整份配置:
+      * http-opts.path 必须是 []string(上游常写单个字符串 "/")
+      * http-opts.headers 必须是 map[string][]string
+      * h2-opts.path 必须是 string、h2-opts.host 必须是 []string
+      * ws-opts.path 必须是 string,headers 必须是 map[string]string
+      * grpc-opts.grpc-service-name 必须是 string
+    """
+    fixes = []
+    name = str(proxy.get("name", "?"))[:24]
+
+    http_opts = proxy.get("http-opts")
+    if isinstance(http_opts, dict):
+        path = http_opts.get("path")
+        if path is not None and not isinstance(path, list):
+            http_opts["path"] = _as_str_list(path) or ["/"]
+            fixes.append(f"{name}: http-opts.path->列表({str(path)[:20]})")
+        elif isinstance(path, list):
+            kept = [x for x in path if isinstance(x, str)]
+            if len(kept) != len(path):
+                http_opts["path"] = kept or ["/"]
+                fixes.append(f"{name}: http-opts.path 剔除非字符串项")
+        headers = http_opts.get("headers")
+        if isinstance(headers, dict):
+            rebuilt, changed = {}, False
+            for k, v in headers.items():
+                if isinstance(v, list):
+                    vals = [x for x in v if isinstance(x, str)]
+                    if len(vals) != len(v):
+                        changed = True
+                else:
+                    vals = _as_str_list(v) or []
+                    changed = True
+                rebuilt[str(k)] = vals
+            if changed:
+                http_opts["headers"] = rebuilt
+                fixes.append(f"{name}: http-opts.headers 值->列表")
+
+    h2_opts = proxy.get("h2-opts")
+    if isinstance(h2_opts, dict):
+        path = h2_opts.get("path")
+        if isinstance(path, list):
+            h2_opts["path"] = path[0] if path and isinstance(path[0], str) else "/"
+            fixes.append(f"{name}: h2-opts.path->字符串")
+        host = h2_opts.get("host")
+        if host is not None and not isinstance(host, list):
+            h2_opts["host"] = _as_str_list(host) or []
+            fixes.append(f"{name}: h2-opts.host->列表({str(host)[:20]})")
+
+    ws_opts = proxy.get("ws-opts")
+    if isinstance(ws_opts, dict):
+        path = ws_opts.get("path")
+        if isinstance(path, list):
+            ws_opts["path"] = path[0] if path and isinstance(path[0], str) else "/"
+            fixes.append(f"{name}: ws-opts.path->字符串")
+        headers = ws_opts.get("headers")
+        if isinstance(headers, dict):
+            rebuilt, changed = {}, False
+            for k, v in headers.items():
+                if isinstance(v, str):
+                    rebuilt[str(k)] = v
+                else:
+                    vals = _as_str_list(v) or [""]
+                    rebuilt[str(k)] = vals[0]
+                    changed = True
+            if changed:
+                ws_opts["headers"] = rebuilt
+                fixes.append(f"{name}: ws-opts.headers 值->字符串")
+
+    grpc_opts = proxy.get("grpc-opts")
+    if isinstance(grpc_opts, dict):
+        svc = grpc_opts.get("grpc-service-name")
+        if svc is not None and not isinstance(svc, str):
+            grpc_opts["grpc-service-name"] = str(svc)
+            fixes.append(f"{name}: grpc-service-name->字符串")
+
+    return fixes
+
+
+def _normalize_vless_flow(proxy: dict) -> list:
+    """mihomo 只支持 xtls-rprx-vision;其余(如 xtls-rprx-direct)会让整份配置被拒。"""
+    fixes = []
+    if str(proxy.get("type", "")).strip().lower() != "vless":
+        return fixes
+    flow = proxy.get("flow")
+    if not isinstance(flow, str):
+        return fixes
+    text = flow.strip().lower()
+    if text in ("", "xtls-rprx-vision"):
+        if text != flow:
+            proxy["flow"] = text
+        return fixes
+    del proxy["flow"]
+    fixes.append(f"{str(proxy.get('name', '?'))[:24]}: 丢弃不支持的 xtls flow({flow[:20]})")
+    return fixes
+
+
+def _normalize_reality(proxy: dict) -> list:
+    """纠正 REALITY 参数:short-id 必须是偶数位十六进制,否则整份配置被内核拒绝。"""
+    fixes = []
+    name = str(proxy.get("name", "?"))[:24]
+    reality = proxy.get("reality-opts")
+    if not isinstance(reality, dict):
+        return fixes
+
+    sid = reality.get("short-id")
+    if sid is not None:
+        text = sid.strip() if isinstance(sid, str) else str(sid).strip()
+        if not _REALITY_SHORT_ID_RE.match(text):
+            del reality["short-id"]
+            fixes.append(
+                f"{name}: 丢弃非法 REALITY short-id({text[:16] or '空值'},需偶数位十六进制≤16)"
+            )
+        elif text != sid:
+            reality["short-id"] = text
+
+    pk = reality.get("public-key")
+    if pk is not None and (not isinstance(pk, str) or not pk.strip()):
+        del reality["public-key"]
+        fixes.append(f"{name}: 丢弃空 REALITY public-key")
+    return fixes
+
+
 def normalize_proxy_fields(proxy: dict) -> list:
     """把上游常见的老字段/错字段改成 mihomo 认识的写法,返回修复说明。
 
@@ -317,6 +474,15 @@ def normalize_proxy_fields(proxy: dict) -> list:
 
     # ss 插件参数(mode 空值/非法会直接让内核拒绝整份配置)
     fixes.extend(_normalize_ss_plugin(proxy))
+
+    # 传输层参数类型(http-opts.path / h2-opts.host / ws-opts.path ...)
+    fixes.extend(_normalize_transport_opts(proxy))
+
+    # REALITY 参数(short-id 非偶数位十六进制会让整份配置被拒)
+    fixes.extend(_normalize_reality(proxy))
+
+    # vless 的 flow 只认 xtls-rprx-vision(其余写法会让整份配置被拒)
+    fixes.extend(_normalize_vless_flow(proxy))
 
     # REALITY 必须开 TLS,否则 mihomo 报 "REALITY requires TLS" 拒绝整份配置
     if proxy.get("reality-opts") and proxy.get("tls") is not True:
@@ -721,6 +887,15 @@ def repair_references(data):
     return fixes
 
 
+MAX_GATE_PRUNE = 30
+
+
+def _gate_proxy_index(detail: str):
+    """从 mihomo -t 的报错里取出出错的节点下标:proxy 4963: 'http-opts.path' ..."""
+    m = re.search(r"proxy (\d+):", detail or "")
+    return int(m.group(1)) if m else None
+
+
 def mihomo_test(config_path, mihomo_bin, workdir, timeout=120):
     """用 mihomo 内核 `-t` 校验配置,返回 (是否通过, 关键输出)。"""
     os.makedirs(workdir, exist_ok=True)
@@ -882,35 +1057,62 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
     )
 
     # 8) 输出为可读 UTF-8 YAML(中文 / emoji 原样保留,不再转义成 \\uXXXX)
-    out = yaml.dump(
-        data,
-        Dumper=SafeDumper,
-        allow_unicode=True,
-        default_flow_style=False,
-        sort_keys=False,
-    ).encode("utf-8")
+    def render():
+        return yaml.dump(
+            data,
+            Dumper=SafeDumper,
+            allow_unicode=True,
+            default_flow_style=False,
+            sort_keys=False,
+        ).encode("utf-8")
+
+    out = render()
 
     # 9) 二次校验:重新解析输出,值层面必须零违规
     violations = check_values(yaml.safe_load(out))
     if violations:
         raise SystemExit(f"[FAIL] {dst} 清洗后仍含非法码点: {violations[:5]}")
 
-    # 10) 先写临时文件,内核门禁通过后再原子替换,保证已发布文件永不倒退
+    # 10) 先写临时文件,内核门禁通过后再原子替换,保证已发布文件永不倒退。
+    #     上游偶尔出现脚本没覆盖到的字段类型错误:此时只丢报错的那个节点并重测,
+    #     而不是让整份订阅被一个坏节点拖死(更不会把上一版挤掉)。
     tmp = dst + ".tmp"
-    with open(tmp, "wb") as f:
-        f.write(out)
+    gate_pruned = []
     if gate:
-        ok, detail = mihomo_test(tmp, mihomo_bin, mihomo_dir or os.path.dirname(os.path.abspath(tmp)))
+        ok, detail = False, ""
+        for _ in range(MAX_GATE_PRUNE + 1):
+            with open(tmp, "wb") as f:
+                f.write(out)
+            ok, detail = mihomo_test(
+                tmp, mihomo_bin, mihomo_dir or os.path.dirname(os.path.abspath(tmp))
+            )
+            if ok:
+                break
+            idx = _gate_proxy_index(detail)
+            proxies = data.get("proxies")
+            if idx is None or not isinstance(proxies, list) or not 0 <= idx < len(proxies):
+                break
+            victim = proxies.pop(idx)
+            gate_pruned.append(str(victim.get("name", "?"))[:24])
+            repair_references(data)
+            out = render()
+            violations = check_values(yaml.safe_load(out))
+            if violations:
+                raise SystemExit(f"[FAIL] {dst} 清洗后仍含非法码点: {violations[:5]}")
         if not ok:
             try:
                 os.unlink(tmp)
             except OSError:
                 pass
             raise SystemExit(f"[FAIL] {src} 未通过 mihomo 内核校验,拒绝发布: {detail}")
+    else:
+        with open(tmp, "wb") as f:
+            f.write(out)
     os.replace(tmp, dst)
 
     total = len(dropped_nodes) + len(dup_nodes) + len(dropped_groups) + len(dup_groups) \
-        + dropped_rules + len(dropped_other) + len(junk_keys) + len(fixes) + len(rename) + len(field_fixes)
+        + dropped_rules + len(dropped_other) + len(junk_keys) + len(fixes) + len(rename) \
+        + len(field_fixes) + len(gate_pruned)
     print(f"[OK] {src} -> {dst} (来源: {source_label})")
     print(f"     节点: 丢弃 {len(dropped_nodes)} 个(控制字符)、{len(dup_nodes)} 个(无名/重复)")
     if dropped_names:
@@ -935,6 +1137,8 @@ def clean_yaml(src, dst, source, gate=False, mihomo_bin=None, mihomo_dir=None):
         print(f"     未知配置段(保留): {unknown_keys}")
     if dropped_other:
         print(f"     其他: 剔除 {len(dropped_other)} 项: {dropped_other[:5]}")
+    if gate_pruned:
+        print(f"     门禁兜底: 内核仍报错的 {len(gate_pruned)} 个节点已剔除: {gate_pruned[:5]}")
     print(f"     非 ASCII 字符: {escaped_chars} 个")
     if gate:
         print("     内核门禁: mihomo -t 通过")
