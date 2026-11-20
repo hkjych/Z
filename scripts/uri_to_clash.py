@@ -31,7 +31,7 @@ import urllib.parse
 
 import yaml
 
-DEFAULT_MAX_NODES = 1200
+DEFAULT_MAX_NODES = 0
 
 # mihomo 认识的 network(传输层)
 NETWORKS = {"tcp", "udp", "ws", "grpc", "h2", "http", "httpupgrade", "quic"}
