@@ -1,65 +1,136 @@
 proxies:
-- name: 美国+
+- name: 美国+得克萨斯州
   type: hysteria2
-  server: 168.113.254.247
+  server: starlink-ft.251313.xyz
   port: 443
-  password: b006650f-8771-0001-b7fa-e18fc6e80ef1
-  sni: vcerx-ru-67sb.my-fade.cloud
+  password: https://xship.2fa.cat
+  sni: xship.top
   skip-cert-verify: true
-- name: 日本
-  type: vmess
-  server: dp8yk.xiaoyan.io
-  port: 16616
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
+- name: 西班牙+
+  type: vless
+  server: 196.196.149.81
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+- name: 新西兰+
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 英国+伦敦南岸大学
+  type: vless
+  server: 136.148.208.221
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+- name: 美国+CloudFlare节点
+  type: vless
+  server: 172.64.229.239
+  port: 2083
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  udp: true
+  tls: true
+  servername: cdn.lahjy.xyz
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-- name: 新西兰+
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 香港+阿里云
-  type: ss
-  server: 47.85.162.44
+      Host: cdn.lahjy.xyz
+- name: 罗马尼亚+
+  type: vless
+  server: 188.213.170.198
   port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
   udp: true
+  tls: true
+  servername: v5-4b5.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v5-4b5.pages.dev
 - name: 台湾省台北市+中华电信
   type: vless
   server: free.fugui.lol
-  port: 51283
+  port: 62015
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
   udp: true
   flow: xtls-rprx-vision
   tls: true
   servername: swdist.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: ios
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
     short-id: "fa514b83"
-- name: '新西兰+ #3'
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 爱沙尼亚+
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: "361d0dd59c70516f"
+- name: '爱沙尼亚+ #2'
+  type: vless
+  server: 196.196.148.76
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+- name: '美国+CloudFlare节点 #2'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: v2n6.11676767.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ranking/htm
+    headers:
+      Host: v2n6.11676767.xyz
+- name: 澳大利亚+
+  type: trojan
+  server: 103.11.76.183
+  port: 443
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  udp: true
+  sni: likejennie.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: likejennie.pages.dev
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -67,7 +138,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 28 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 55 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -93,6 +164,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 28 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 55 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

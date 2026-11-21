@@ -17,6 +17,32 @@ proxies:
       Host: 47.244.120.197
   name: 8元老牌专线机场
 - type: vless
+  server: free.fugui.lol
+  port: 47396
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  tls: true
+  servername: swdist.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: "fa514b83"
+  flow: xtls-rprx-vision
+  name: 香港_394924
+- type: vless
+  server: free.fugui.lol
+  port: 62015
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  tls: true
+  servername: swdist.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: "fa514b83"
+  flow: xtls-rprx-vision
+  name: 英国_1B3AFC
+- type: vless
   server: 162.35.101.177
   port: 443
   udp: true
@@ -30,20 +56,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: "99f2107b03f8"
-  name: 美国_D2D926
-- type: vless
-  server: 185.112.59.157
-  port: 443
-  udp: true
-  uuid: 03786aa4-21a5-4e7c-83d6-873aafc41217
-  tls: true
-  servername: nl-06.neverspy.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: sZXAejndrxL9cgna_fPXmbSB28y8yAJ9Ln6hRzy5TV0
-    short-id: "86af85a72387ef02"
-  flow: xtls-rprx-vision
-  name: 荷兰_CCE93B
+  name: 美国_2CEF07
 - type: vless
   server: 2.26.251.236
   port: 443
@@ -56,47 +69,116 @@ proxies:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: "4ff31b18d1bd8227"
   flow: xtls-rprx-vision
-  name: 德国_9C4DAF
+  name: 德国_BA833B
+- type: vless
+  server: 185.112.59.157
+  port: 443
+  udp: true
+  uuid: 03786aa4-21a5-4e7c-83d6-873aafc41217
+  tls: true
+  servername: nl-06.neverspy.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: sZXAejndrxL9cgna_fPXmbSB28y8yAJ9Ln6hRzy5TV0
+    short-id: "86af85a72387ef02"
+  flow: xtls-rprx-vision
+  name: 荷兰_53A204
+- type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_8E9C31
+- type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_34428A
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_B4D733
+- type: vless
+  server: 196.196.149.81
+  port: 443
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+  flow: xtls-rprx-vision
+  name: 西班牙_4FBFCD
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_17D073
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_C2D2BF
+- type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_F4569F
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_EC38D1
+- type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_05F3D4
 - type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_6A243D
+  name: 意大利_F9E22E
 - type: ss
   server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_BE5C75
+  name: 意大利_239283
 - type: vless
-  server: 104.171.135.229
-  port: 443
-  udp: true
-  uuid: Fluffy_VPN-Oth8rOq3
-  tls: true
-  servername: absolute-disaster.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: 俄罗斯_8FE80A
-- type: vless
-  server: 196.199.122.2
+  server: 196.196.148.76
   port: 443
   udp: true
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   tls: true
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: chrome
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: firefox
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
   flow: xtls-rprx-vision
-  name: 西班牙_633EBA
+  name: 德国_597F66
 - name: '说明-来源: NodeToolBox'
   type: trojan
   server: 127.0.0.1
@@ -104,7 +186,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 58 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 112 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -130,19 +212,29 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: NodeToolBox'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 58 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 112 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 节点选择
   type: select
   proxies:
   - 8元老牌专线机场
-  - 美国_D2D926
-  - 荷兰_CCE93B
-  - 德国_9C4DAF
-  - 意大利_6A243D
-  - 意大利_BE5C75
-  - 俄罗斯_8FE80A
-  - 西班牙_633EBA
+  - 香港_394924
+  - 英国_1B3AFC
+  - 美国_2CEF07
+  - 德国_BA833B
+  - 荷兰_53A204
+  - 意大利_8E9C31
+  - 意大利_34428A
+  - 意大利_B4D733
+  - 西班牙_4FBFCD
+  - 意大利_17D073
+  - 意大利_C2D2BF
+  - 意大利_F4569F
+  - 意大利_EC38D1
+  - 意大利_05F3D4
+  - 意大利_F9E22E
+  - 意大利_239283
+  - 德国_597F66
 rules:
 - MATCH,节点选择
