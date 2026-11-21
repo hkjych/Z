@@ -1,84 +1,11 @@
 proxies:
-- name: 🇨🇿CZ_1|1.0MB/s
-  password: ''
-  port: 443
-  server: 185.216.35.66
+- name: 🇹🇭TH_1|840KB/s
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.202
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇧🇪BE_1|681KB/s
-  password: ''
-  port: 443
-  server: 146.70.176.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇪🇸ES_1|819KB/s
-  password: ''
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺RU_1|1.5MB/s
-  network: grpc
-  port: 443
-  server: 201.51.12.98
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  xudp: true
-  servername: vps3.nemnogogo.com
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺RU_2|1.3MB/s
-  network: grpc
-  port: 443
-  server: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  xudp: true
-  servername: vps3.nemnogogo.com
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇸🇬SG_1|2.2MB/s
-  password: ClzJLvRzIxivCXbf5X5jnSU0pLg5ffCEUL2AZoeLg94=
-  port: 8388
-  server: 43.160.213.146
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_1|1.5MB/s
-  password: ''
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_1|1.1MB/s|P002-260618
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+  type: socks5
+  username: route164JIa2CBPxfy
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -86,7 +13,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1135 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1121 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -112,7 +39,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1135 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1121 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
