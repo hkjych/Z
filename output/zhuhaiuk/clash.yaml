@@ -4,170 +4,197 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: US
+- name: GB
   type: http
-  server: 38.28.193.188
+  server: 212.102.63.31
   port: 443
   tls: true
   skip-cert-verify: true
-- name: "DE"
+- name: US
   type: http
-  server: 158.173.154.1
-  port: 9002
+  server: fan.596189.xyz
+  port: 443
   username: "null"
   password: "null"
   tls: true
-  skip-cert-verify: true
-- name: TH
-  type: socks5
-  server: 168.222.8.119
-  port: 42000
-  username: JPjarpW3
-  password: ao3W5ZML
-- name: JP
-  type: socks5
-  server: 103.248.150.166
-  port: 42000
-  username: x0dM1dTw
-  password: ZWCdC3C1
-- name: TH - 02
-  type: socks5
-  server: 82.47.152.113
-  port: 42000
-  username: userLjVB
-  password: Ks4Iab43
-- name: CH
+  sni: fan.596189.xyz
+- name: FR
   type: http
-  server: 37.120.213.210
-  port: 9443
+  server: 84.235.228.156
+  port: 443
   tls: true
+  sni: 84.235.228.156
+  skip-cert-verify: true
+- name: IE
+  type: http
+  server: 149.88.96.12
+  port: 443
+  tls: true
+  sni: 149.88.96.12
   skip-cert-verify: true
 - name: US - 02
   type: http
-  server: 162.191.87.112
-  port: 8443
-  tls: true
-  sni: 162.191.87.112
-  skip-cert-verify: true
-- name: MX
-  type: socks5
-  server: 144.225.47.8
-  port: 42000
-  username: Tek2x6av
-  password: DJy1T0dt
-- name: NL
-  type: http
-  server: 84.17.47.146
+  server: 138.199.35.216
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: DE - 02
-  type: http
-  server: 158.173.154.3
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: IL
-  type: http
-  server: 62.90.77.30
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: TH - 03
-  type: socks5
-  server: 82.47.152.95
-  port: 42000
-  username: userLjVB
-  password: Ks4Iab43
-- name: JP - 02
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
-- name: NL - 02
-  type: http
-  server: 84.17.47.150
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 84.17.47.150
-  skip-cert-verify: true
-- name: NL - 03
-  type: http
-  server: 84.17.47.123
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 84.17.47.123
-  skip-cert-verify: true
-- name: NL - 04
-  type: http
-  server: 51.159.225.196
-  port: 23856
   username: "null"
   password: None
   tls: true
-  sni: 51.159.225.196
   skip-cert-verify: true
-- name: LT
-  type: http
-  server: 89.124.11.9
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: JP - 03
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-- name: NL - 05
-  type: http
-  server: 84.17.47.124
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: MX - 02
-  type: socks5
-  server: 144.225.47.68
-  port: 42000
-  username: DJy1T0dt
-  password: sZnD8GTz
-- name: JP - 04
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-- name: RU
-  type: http
-  server: 46.29.166.134
-  port: 1446
-  tls: true
-  skip-cert-verify: true
-- name: ID
-  type: socks5
-  server: 198.87.102.86
-  port: 62000
-  username: Q7rN4d2S
-  password: KzL82W3E
 - name: HK
-  type: socks5
-  server: 47.242.19.215
-  port: 8899
-  username: admin
-  password: admin
-- name: HK - 02
   type: http
-  server: fan.240104.xyz
+  server: 202.85.53.25
   port: 443
   tls: true
-  sni: fan.240104.xyz
+  sni: 202.85.53.25
+  skip-cert-verify: true
+- name: US - 03
+  type: http
+  server: 66.64.100.66
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 66.64.100.66
+  skip-cert-verify: true
+- name: US - 04
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 24.142.229.178
+  skip-cert-verify: true
+- name: GR
+  type: http
+  server: 149.22.85.65
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - 05
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  tls: true
+  sni: 24.142.229.178
+  skip-cert-verify: true
+- name: US - 06
+  type: http
+  server: 172.64.69.89
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 172.64.69.89
+  skip-cert-verify: true
+- name: FR - 02
+  type: http
+  server: 82.66.235.221
+  port: 443
+  tls: true
+  sni: 82.66.235.221
+  skip-cert-verify: true
+- name: ES
+  type: http
+  server: 80.24.34.107
+  port: 8090
+  tls: true
+  sni: 80.24.34.107
+  skip-cert-verify: true
+- name: US - 07
+  type: http
+  server: 137.175.22.52
+  port: 443
+  tls: true
+  sni: 137.175.22.52
+  skip-cert-verify: true
+- name: US - 08
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
+- name: FR - 03
+  type: http
+  server: 87.98.174.157
+  port: 6103
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 87.98.174.157
+  skip-cert-verify: true
+- name: FR - 04
+  type: http
+  server: 87.98.174.157
+  port: 6103
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: US - 09
+  type: http
+  server: 38.28.193.39
+  port: 443
+  tls: true
+  sni: 38.28.193.39
+  skip-cert-verify: true
+- name: US - 10
+  type: http
+  server: 137.175.77.35
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IE - 02
+  type: http
+  server: 18.200.158.139
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: US - 11
+  type: http
+  server: 137.175.22.29
+  port: 443
+  tls: true
+  sni: 137.175.22.29
+  skip-cert-verify: true
+- name: IE - 03
+  type: http
+  server: 18.200.158.139
+  port: 443
+  tls: true
+  sni: 18.200.158.139
+  skip-cert-verify: true
+- name: US - 12
+  type: http
+  server: 45.150.164.18
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: JP
+  type: vless
+  server: 139.162.101.74
+  port: 443
+  uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
+    short-id: "7e1e09f4"
+- name: US - 13
+  type: http
+  server: 71.43.26.234
+  port: 443
+  tls: true
+  sni: 71.43.26.234
   skip-cert-verify: true
 - name: KR
   type: http
@@ -176,12 +203,9 @@ proxies:
   tls: true
   skip-cert-verify: true
 - name: KR - 02
-  type: http
-  server: 152.69.230.221
-  port: 443
-  tls: true
-  sni: 152.69.230.221
-  skip-cert-verify: true
+  type: socks5
+  server: 183.106.215.208
+  port: 1080
 - name: SG
   type: socks5
   server: 66.80.2.252
@@ -189,36 +213,23 @@ proxies:
   username: usereb7d
   password: "c0a34a"
 - name: SG - 02
-  type: http
-  server: 154.26.139.24
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - 03
-  type: vless
-  server: 162.35.101.177
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-- name: DE - 03
-  type: vless
-  server: 189.24.115.30
-  port: 443
-  uuid: 3a1c6827-72a1-4d1c-9413-44109ff815f4
-  tls: true
-  servername: navi.bankrate.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: "2da72ce6"
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: "8888"
+  password: "8888"
+- name: VN
+  type: socks5
+  server: 221.133.22.195
+  port: 62000
+  username: KUs4xRXd
+  password: 480w0Yy4
+- name: ID
+  type: socks5
+  server: 203.84.138.59
+  port: 62000
+  username: 9tcjLp2W
+  password: RRWtX6XP
 - name: IT
   type: ss
   server: 202.50.253.72
@@ -231,41 +242,13 @@ proxies:
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: RU - 01
-  type: vless
-  server: 201.51.12.98
+- name: DE - 02
+  type: ss
+  server: 47.254.167.157
   port: 443
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-  network: grpc
-  tls: true
-  servername: vps3.nemnogogo.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: RU - 02
-  type: vless
-  server: vps3.nemnogogo.com
-  port: 443
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  udp: true
-  network: grpc
-  tls: true
-  servername: vps3.nemnogogo.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: DE - 01
-  type: vless
-  server: 176.98.176.60
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mosaic.topp-con.xyz
-  client-fingerprint: firefox
 - name: '说明-来源: zhuhaiuk/free-nodes'
   type: trojan
   server: 127.0.0.1
@@ -306,42 +289,40 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - GB
   - US
-  - "DE"
-  - TH
-  - JP
-  - TH - 02
-  - CH
+  - FR
+  - IE
   - US - 02
-  - MX
-  - NL
-  - DE - 02
-  - IL
-  - TH - 03
-  - JP - 02
-  - NL - 02
-  - NL - 03
-  - NL - 04
-  - LT
-  - JP - 03
-  - NL - 05
-  - MX - 02
-  - JP - 04
-  - RU
-  - ID
   - HK
-  - HK - 02
+  - US - 03
+  - US - 04
+  - GR
+  - US - 05
+  - US - 06
+  - FR - 02
+  - ES
+  - US - 07
+  - US - 08
+  - FR - 03
+  - FR - 04
+  - US - 09
+  - US - 10
+  - IE - 02
+  - US - 11
+  - IE - 03
+  - US - 12
+  - JP
+  - US - 13
   - KR
   - KR - 02
   - SG
   - SG - 02
-  - US - 03
-  - DE - 03
+  - VN
+  - ID
   - IT
   - IT - 02
-  - RU - 01
-  - RU - 02
-  - DE - 01
+  - DE - 02
 rules:
 - GEOSITE,CN,DIRECT
 - GEOIP,CN,DIRECT

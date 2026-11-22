@@ -31,121 +31,92 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
-- name: 🇺🇸US_579|1.1MB/s|A004-260618 [b98eb2cf7d3d]
-  cipher: aes-128-gcm
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.9
+- name: '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #1'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 137.184.89.151
   type: ss
   udp: true
-- name: 🇺🇸US_96|849KB/s|R002-260618 [17627f7d48bd]
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_59|174KB/s [60b18e513b09]
-  cipher: aes-128-gcm
-  password: shadowsocks
+- name: '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #2'
+  alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  network: ws
   port: 443
-  server: 156.146.38.168
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+  packet-encoding: xudp
+  servername: freeceshi6.frii.site
+- name: '🇺🇸US_465|1.0MB/s|A004-260618 [9b10e8e6bf84] #1'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
   type: ss
   udp: true
-- name: 🇺🇸US_200|791KB/s|P002-260618 [66ebf6ae1341]
-  password: ''
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- name: '🇺🇸US_648|1.0MB/s|M003-260806 [dc2acf418afb] #1'
+  cipher: chacha20-ietf-poly1305
+  password: JUXsy78dSs6ROkasikmoaL
+  port: 11051
+  server: 104.238.140.45
+  type: ss
   udp: true
-- name: 🇺🇸US_354|710KB/s [30c7d2c10924]
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- name: '🇺🇸US_402|1.3MB/s|M003-260806 [5762fa2cd8d3] #2'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.88.62.203
+  type: ss
   udp: true
-- name: 🇺🇸US_72|717KB/s|R002-260618 [1ac4d958cac3]
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_119|815KB/s|R002-260618 [1fd0f978ab09]
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_83|812KB/s|P002-260618 [0002809537c4]
-  password: ''
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_190|794KB/s|R002-260618 [82a1098fb882]
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_664|686KB/s|B007-260618 [19066448f416]
-  client-fingerprint: chrome
-  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+- name: '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #2'
   port: 443
-  server: 66.163.112.242
+  server: 149.22.88.65
   skip-cert-verify: true
-  type: trojan
+  tls: true
+  type: http
   udp: true
+- name: '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #2'
+  alterId: 0
+  cipher: auto
   network: tcp
-- name: 🇺🇸US_634|833KB/s|R002-260618 [4a53bd159496]
-  password: ''
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  sni: 138.199.35.209
-  tls: true
-  type: http
-  username: ''
+  port: 18000
+  server: 84.17.41.2
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 🇺🇸US_660|937KB/s|A004-260618 [906bb4421f38]
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: bj1aa2zyjxyamyuk.v=ns.vip
+- name: '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #1'
   cipher: aes-128-gcm
   password: shadowsocks
   port: 443
-  server: 173.244.56.6
+  server: 149.22.95.183
   type: ss
   udp: true
-- name: 🇺🇸US_102|797KB/s [1b4f015d4078]
+- name: '🇫🇷FR_57|7.2MB/s [602eec94e97e] #1'
   password: ''
-  port: 9002
-  server: 138.199.35.217
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
   udp: true
-- name: 🇺🇸US_189|814KB/s|R002-260618 [024ef203ebf1]
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇷FR_76|8.7MB/s [0aa0aa38a3d8]
+- name: '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #1'
   password: ''
   port: 443
   server: 172.64.68.89
@@ -154,127 +125,218 @@ proxies:
   type: http
   username: ''
   udp: true
-- name: 🇺🇸US_155|834KB/s|R002-260618 [073cbc5426d6]
-  port: 9002
-  server: 138.199.35.213
+- name: '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #2'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  udp: true
+- name: '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #1'
+  port: 443
+  server: 149.22.88.65
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_98|806KB/s|R002-260618 [2d2bb008072d]
+- name: '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #1'
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.54.250
+  type: ss
+  udp: true
+- name: '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #2'
   password: ''
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
   udp: true
-- name: 🇺🇸US_65|752KB/s|R002-260618 [5bfea617b8dd]
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #1'
+  alterId: 0
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 84.17.41.2
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 🇺🇸US_120|777KB/s [518e0351a46f]
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: bj1aa2zyjxyamyuk.v=ns.vip
+- name: '🇫🇷FR_57|7.2MB/s [602eec94e97e] #2'
   password: ''
-  port: 9002
-  server: 138.199.35.203
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
   udp: true
-- name: 🇺🇸US_330|1.0MB/s|M003-260806 [37b95c07165e]
+- name: '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #2'
+  client-fingerprint: chrome
+  network: ws
+  port: 8443
+  server: 172.64.154.113
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+  servername: freeceshi6.frii.site
+- name: '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #1'
+  client-fingerprint: chrome
+  network: ws
+  port: 8443
+  server: 172.64.154.113
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+  servername: freeceshi6.frii.site
+- name: '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #2'
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 23.150.152.38
+  server: 137.184.89.151
   type: ss
   udp: true
-- name: 🇺🇸US_139|808KB/s|P002-260618 [a8fb52dac60b]
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: '🇺🇸US_10|953KB/s|A004-260618 [0e40b52615aa] #2'
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.197
+  type: ss
   udp: true
-- name: 🇺🇸US_16|782KB/s|R002-260618 [670189fb9e73]
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_184|831KB/s|P002-260618 [0448992a4efa]
-  password: ''
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_103|827KB/s|P002-260618 [30c40c01fb3e]
-  password: ''
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_595|789KB/s|P002-260618 [2cca269a4ba7]
-  password: ''
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_128|846KB/s|P002-260618 [64d55366a21c]
-  password: ''
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_100|820KB/s|R002-260618 [270506a48418]
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_192|722KB/s|P002-260618 [5db2cbf40ac3]
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_317|254KB/s|P002-260618 [8662975011c7]
-  password: ''
+- name: '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #1'
+  alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  network: ws
   port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
+  server: 188.114.98.0
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇺🇸US_63|758KB/s|R002-260618 [430dc52727da]
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+  packet-encoding: xudp
+  servername: freeceshi6.frii.site
+- name: '🇺🇸US_292|925KB/s|M003-260806 [6568f73d0636] #1'
+  client-fingerprint: chrome
+  password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  port: 443
+  server: 167.88.61.198
+  skip-cert-verify: false
+  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
+  type: trojan
+  udp: true
+  network: tcp
+- name: '🇺🇸US_650|1.1MB/s|M003-260806 [7d6eb581864e] #1'
+  alpn:
+  - ''
+  alterId: "0"
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    path:
+    - /x
+  network: http
+  port: 54321
+  server: 107.150.19.24
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2659ef8a-3456-48f8-95fe-08b82d3f4984
+  xudp: true
+  packet-encoding: xudp
+- name: '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #1'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.143.66.146
+  type: ss
+  udp: true
+- name: '🇺🇸US_189|1.4MB/s [b3491eae71bd] #2'
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+  udp: true
+- name: '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #2'
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.54.250
+  type: ss
+  udp: true
+- name: '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #2'
+  alterId: "0"
+  cipher: auto
+  network: tcp
+  port: 1270
+  server: 169.197.142.68
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+  packet-encoding: xudp
+  servername: xmfhlpy.com
+- name: '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #1'
+  alterId: "0"
+  cipher: auto
+  network: tcp
+  port: 1270
+  server: 169.197.142.68
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+  packet-encoding: xudp
+  servername: xmfhlpy.com
+- name: '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #2'
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.143.66.146
+  type: ss
+  udp: true
+- name: '🇺🇸US_189|1.4MB/s [b3491eae71bd] #1'
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
   udp: true
 - name: '说明-来源: hkjych/Y'
   type: trojan
@@ -318,36 +380,36 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
-  - 🇺🇸US_579|1.1MB/s|A004-260618 [b98eb2cf7d3d]
-  - 🇺🇸US_96|849KB/s|R002-260618 [17627f7d48bd]
-  - 🇺🇸US_59|174KB/s [60b18e513b09]
-  - 🇺🇸US_200|791KB/s|P002-260618 [66ebf6ae1341]
-  - 🇺🇸US_354|710KB/s [30c7d2c10924]
-  - 🇺🇸US_72|717KB/s|R002-260618 [1ac4d958cac3]
-  - 🇺🇸US_119|815KB/s|R002-260618 [1fd0f978ab09]
-  - 🇺🇸US_83|812KB/s|P002-260618 [0002809537c4]
-  - 🇺🇸US_190|794KB/s|R002-260618 [82a1098fb882]
-  - 🇺🇸US_664|686KB/s|B007-260618 [19066448f416]
-  - 🇺🇸US_634|833KB/s|R002-260618 [4a53bd159496]
-  - 🇺🇸US_660|937KB/s|A004-260618 [906bb4421f38]
-  - 🇺🇸US_102|797KB/s [1b4f015d4078]
-  - 🇺🇸US_189|814KB/s|R002-260618 [024ef203ebf1]
-  - 🇫🇷FR_76|8.7MB/s [0aa0aa38a3d8]
-  - 🇺🇸US_155|834KB/s|R002-260618 [073cbc5426d6]
-  - 🇺🇸US_98|806KB/s|R002-260618 [2d2bb008072d]
-  - 🇺🇸US_65|752KB/s|R002-260618 [5bfea617b8dd]
-  - 🇺🇸US_120|777KB/s [518e0351a46f]
-  - 🇺🇸US_330|1.0MB/s|M003-260806 [37b95c07165e]
-  - 🇺🇸US_139|808KB/s|P002-260618 [a8fb52dac60b]
-  - 🇺🇸US_16|782KB/s|R002-260618 [670189fb9e73]
-  - 🇺🇸US_184|831KB/s|P002-260618 [0448992a4efa]
-  - 🇺🇸US_103|827KB/s|P002-260618 [30c40c01fb3e]
-  - 🇺🇸US_595|789KB/s|P002-260618 [2cca269a4ba7]
-  - 🇺🇸US_128|846KB/s|P002-260618 [64d55366a21c]
-  - 🇺🇸US_100|820KB/s|R002-260618 [270506a48418]
-  - 🇺🇸US_192|722KB/s|P002-260618 [5db2cbf40ac3]
-  - 🇺🇸US_317|254KB/s|P002-260618 [8662975011c7]
-  - 🇺🇸US_63|758KB/s|R002-260618 [430dc52727da]
+  - '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #1'
+  - '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #2'
+  - '🇺🇸US_465|1.0MB/s|A004-260618 [9b10e8e6bf84] #1'
+  - '🇺🇸US_648|1.0MB/s|M003-260806 [dc2acf418afb] #1'
+  - '🇺🇸US_402|1.3MB/s|M003-260806 [5762fa2cd8d3] #2'
+  - '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #2'
+  - '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #2'
+  - '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #1'
+  - '🇫🇷FR_57|7.2MB/s [602eec94e97e] #1'
+  - '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #1'
+  - '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #2'
+  - '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #1'
+  - '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #1'
+  - '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #2'
+  - '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #1'
+  - '🇫🇷FR_57|7.2MB/s [602eec94e97e] #2'
+  - '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #2'
+  - '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #1'
+  - '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #2'
+  - '🇺🇸US_10|953KB/s|A004-260618 [0e40b52615aa] #2'
+  - '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #1'
+  - '🇺🇸US_292|925KB/s|M003-260806 [6568f73d0636] #1'
+  - '🇺🇸US_650|1.1MB/s|M003-260806 [7d6eb581864e] #1'
+  - '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #1'
+  - '🇺🇸US_189|1.4MB/s [b3491eae71bd] #2'
+  - '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #2'
+  - '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #2'
+  - '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #1'
+  - '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #2'
+  - '🇺🇸US_189|1.4MB/s [b3491eae71bd] #1'
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -355,36 +417,36 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 🇺🇸US_579|1.1MB/s|A004-260618 [b98eb2cf7d3d]
-  - 🇺🇸US_96|849KB/s|R002-260618 [17627f7d48bd]
-  - 🇺🇸US_59|174KB/s [60b18e513b09]
-  - 🇺🇸US_200|791KB/s|P002-260618 [66ebf6ae1341]
-  - 🇺🇸US_354|710KB/s [30c7d2c10924]
-  - 🇺🇸US_72|717KB/s|R002-260618 [1ac4d958cac3]
-  - 🇺🇸US_119|815KB/s|R002-260618 [1fd0f978ab09]
-  - 🇺🇸US_83|812KB/s|P002-260618 [0002809537c4]
-  - 🇺🇸US_190|794KB/s|R002-260618 [82a1098fb882]
-  - 🇺🇸US_664|686KB/s|B007-260618 [19066448f416]
-  - 🇺🇸US_634|833KB/s|R002-260618 [4a53bd159496]
-  - 🇺🇸US_660|937KB/s|A004-260618 [906bb4421f38]
-  - 🇺🇸US_102|797KB/s [1b4f015d4078]
-  - 🇺🇸US_189|814KB/s|R002-260618 [024ef203ebf1]
-  - 🇫🇷FR_76|8.7MB/s [0aa0aa38a3d8]
-  - 🇺🇸US_155|834KB/s|R002-260618 [073cbc5426d6]
-  - 🇺🇸US_98|806KB/s|R002-260618 [2d2bb008072d]
-  - 🇺🇸US_65|752KB/s|R002-260618 [5bfea617b8dd]
-  - 🇺🇸US_120|777KB/s [518e0351a46f]
-  - 🇺🇸US_330|1.0MB/s|M003-260806 [37b95c07165e]
-  - 🇺🇸US_139|808KB/s|P002-260618 [a8fb52dac60b]
-  - 🇺🇸US_16|782KB/s|R002-260618 [670189fb9e73]
-  - 🇺🇸US_184|831KB/s|P002-260618 [0448992a4efa]
-  - 🇺🇸US_103|827KB/s|P002-260618 [30c40c01fb3e]
-  - 🇺🇸US_595|789KB/s|P002-260618 [2cca269a4ba7]
-  - 🇺🇸US_128|846KB/s|P002-260618 [64d55366a21c]
-  - 🇺🇸US_100|820KB/s|R002-260618 [270506a48418]
-  - 🇺🇸US_192|722KB/s|P002-260618 [5db2cbf40ac3]
-  - 🇺🇸US_317|254KB/s|P002-260618 [8662975011c7]
-  - 🇺🇸US_63|758KB/s|R002-260618 [430dc52727da]
+  - '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #1'
+  - '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #2'
+  - '🇺🇸US_465|1.0MB/s|A004-260618 [9b10e8e6bf84] #1'
+  - '🇺🇸US_648|1.0MB/s|M003-260806 [dc2acf418afb] #1'
+  - '🇺🇸US_402|1.3MB/s|M003-260806 [5762fa2cd8d3] #2'
+  - '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #2'
+  - '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #2'
+  - '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #1'
+  - '🇫🇷FR_57|7.2MB/s [602eec94e97e] #1'
+  - '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #1'
+  - '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #2'
+  - '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #1'
+  - '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #1'
+  - '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #2'
+  - '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #1'
+  - '🇫🇷FR_57|7.2MB/s [602eec94e97e] #2'
+  - '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #2'
+  - '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #1'
+  - '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #2'
+  - '🇺🇸US_10|953KB/s|A004-260618 [0e40b52615aa] #2'
+  - '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #1'
+  - '🇺🇸US_292|925KB/s|M003-260806 [6568f73d0636] #1'
+  - '🇺🇸US_650|1.1MB/s|M003-260806 [7d6eb581864e] #1'
+  - '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #1'
+  - '🇺🇸US_189|1.4MB/s [b3491eae71bd] #2'
+  - '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #2'
+  - '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #2'
+  - '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #1'
+  - '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #2'
+  - '🇺🇸US_189|1.4MB/s [b3491eae71bd] #1'
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -392,35 +454,35 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
-  - 🇺🇸US_579|1.1MB/s|A004-260618 [b98eb2cf7d3d]
-  - 🇺🇸US_96|849KB/s|R002-260618 [17627f7d48bd]
-  - 🇺🇸US_59|174KB/s [60b18e513b09]
-  - 🇺🇸US_200|791KB/s|P002-260618 [66ebf6ae1341]
-  - 🇺🇸US_354|710KB/s [30c7d2c10924]
-  - 🇺🇸US_72|717KB/s|R002-260618 [1ac4d958cac3]
-  - 🇺🇸US_119|815KB/s|R002-260618 [1fd0f978ab09]
-  - 🇺🇸US_83|812KB/s|P002-260618 [0002809537c4]
-  - 🇺🇸US_190|794KB/s|R002-260618 [82a1098fb882]
-  - 🇺🇸US_664|686KB/s|B007-260618 [19066448f416]
-  - 🇺🇸US_634|833KB/s|R002-260618 [4a53bd159496]
-  - 🇺🇸US_660|937KB/s|A004-260618 [906bb4421f38]
-  - 🇺🇸US_102|797KB/s [1b4f015d4078]
-  - 🇺🇸US_189|814KB/s|R002-260618 [024ef203ebf1]
-  - 🇫🇷FR_76|8.7MB/s [0aa0aa38a3d8]
-  - 🇺🇸US_155|834KB/s|R002-260618 [073cbc5426d6]
-  - 🇺🇸US_98|806KB/s|R002-260618 [2d2bb008072d]
-  - 🇺🇸US_65|752KB/s|R002-260618 [5bfea617b8dd]
-  - 🇺🇸US_120|777KB/s [518e0351a46f]
-  - 🇺🇸US_330|1.0MB/s|M003-260806 [37b95c07165e]
-  - 🇺🇸US_139|808KB/s|P002-260618 [a8fb52dac60b]
-  - 🇺🇸US_16|782KB/s|R002-260618 [670189fb9e73]
-  - 🇺🇸US_184|831KB/s|P002-260618 [0448992a4efa]
-  - 🇺🇸US_103|827KB/s|P002-260618 [30c40c01fb3e]
-  - 🇺🇸US_595|789KB/s|P002-260618 [2cca269a4ba7]
-  - 🇺🇸US_128|846KB/s|P002-260618 [64d55366a21c]
-  - 🇺🇸US_100|820KB/s|R002-260618 [270506a48418]
-  - 🇺🇸US_192|722KB/s|P002-260618 [5db2cbf40ac3]
-  - 🇺🇸US_317|254KB/s|P002-260618 [8662975011c7]
-  - 🇺🇸US_63|758KB/s|R002-260618 [430dc52727da]
+  - '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #1'
+  - '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #2'
+  - '🇺🇸US_465|1.0MB/s|A004-260618 [9b10e8e6bf84] #1'
+  - '🇺🇸US_648|1.0MB/s|M003-260806 [dc2acf418afb] #1'
+  - '🇺🇸US_402|1.3MB/s|M003-260806 [5762fa2cd8d3] #2'
+  - '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #2'
+  - '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #2'
+  - '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #1'
+  - '🇫🇷FR_57|7.2MB/s [602eec94e97e] #1'
+  - '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #1'
+  - '🇨🇦CA_53|904KB/s|A004-260618 [3fb3343bd43b] #2'
+  - '🇺🇸US_573|527KB/s|R002-260618 [13dede6e3b21] #1'
+  - '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #1'
+  - '🇫🇷FR_64|2.7MB/s [0aa0aa38a3d8] #2'
+  - '🇺🇸US_395|924KB/s|B007-260618 [1e4cf35bc8fc] #1'
+  - '🇫🇷FR_57|7.2MB/s [602eec94e97e] #2'
+  - '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #2'
+  - '🇫🇷FR_106|1.0MB/s|S001-260618 [db3c93d2ce7c] #1'
+  - '🇺🇸US_397|862KB/s|M003-260806 [3de23dd74123] #2'
+  - '🇺🇸US_10|953KB/s|A004-260618 [0e40b52615aa] #2'
+  - '🇫🇷FR_111|1011KB/s|M003-260806 [9d1a5a93f275] #1'
+  - '🇺🇸US_292|925KB/s|M003-260806 [6568f73d0636] #1'
+  - '🇺🇸US_650|1.1MB/s|M003-260806 [7d6eb581864e] #1'
+  - '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #1'
+  - '🇺🇸US_189|1.4MB/s [b3491eae71bd] #2'
+  - '🇺🇸US_235|888KB/s|A004-260618 [d92318afee09] #2'
+  - '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #2'
+  - '🇺🇸US_439|261KB/s|K001-260618 [f2f0beef5403] #1'
+  - '🇺🇸US_413|983KB/s|M003-260806 [8741a1f6093f] #2'
+  - '🇺🇸US_189|1.4MB/s [b3491eae71bd] #1'
 rules:
 - MATCH,节点选择
