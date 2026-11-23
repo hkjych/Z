@@ -1,37 +1,87 @@
 proxies:
-- name: 🇹🇼TW_1|1.4MB/s
-  password: "2902c46c8493"
+- name: 🇸🇬SG_1|4.7MB/s
+  port: 9090
+  server: 128.199.254.13
+  skip-cert-verify: false
+  tls: false
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|687KB/s
+  network: ws
+  port: 16632
+  server: pdmv4.xiaoyan.io
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- name: 🇮🇪IE_1|1.7MB/s
   port: 443
-  server: rtifgjdr.df6h451rh.xin
-  skip-cert-verify: true
-  sni: docs.microsoft.com
-  type: anytls
-  udp: true
-- name: 🇨🇭CH_1|1.4MB/s
-  port: 9443
-  server: 37.120.213.210
+  server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇧🇷BR_1|1.0MB/s
-  password: 0mvrt5jb
+- name: 🇳🇱NL_1|845KB/s
+  password: "null"
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+- name: 🇹🇭TH_1|630KB/s
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.158
+  skip-cert-verify: true
+  type: socks5
+  username: AJ3d9gJw
+- name: 🇵🇭PH_1|2.8MB/s
+  password: s6a1j38q
+  port: 42000
+  server: 103.18.230.88
+  skip-cert-verify: true
+  type: socks5
+  username: uv4oakg5
+- name: 🇹🇭TH_2|826KB/s
+  password: zdnivBaI
   port: 62000
-  server: 191.7.129.133
+  server: 109.66.136.194
   skip-cert-verify: true
   type: socks5
-  username: uwrgfkwg
-- name: 🇮🇹IT_1|1.7MB/s
-  password: ''
-  port: 2010
-  server: 91.199.137.149
+  username: r3ZzP8WW
+- name: 🇹🇭TH_3|1.7MB/s
+  password: ao3W5ZML
+  port: 42000
+  server: 168.222.8.119
   skip-cert-verify: true
   type: socks5
-  username: ''
-- client-fingerprint: firefox
+  username: JPjarpW3
+- name: 🇹🇭TH_4|4.1MB/s
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.202
+  skip-cert-verify: true
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: 🇹🇭TH_5|1.7MB/s
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.30
+  skip-cert-verify: true
+  type: socks5
+  username: route164JIa2CBPxfy
+- client-fingerprint: chrome
+  encryption: none
   grpc-opts:
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺RU_1|2.3MB/s
+  name: 🇷🇺RU_1|1.0MB/s
   network: grpc
   port: 443
   server: 201.24.116.192
@@ -41,10 +91,51 @@ proxies:
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   xudp: true
   servername: vps3.nemnogogo.com
+- name: 🇹🇼TW_1|537KB/s
+  password: "0324fbc29561"
+  port: 443
+  server: a54ge.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+  username: "0324fbc29561"
+- client-fingerprint: firefox
+  name: 🇫🇮FI_1|2.1MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: _yJGJ5q-8IxTuWFcoy5wpKKYtk9p9q4lQ6svfXC1IUU
+    short-id: "621290c77645b731"
+  server: 196.196.208.22
+  tls: true
+  type: vless
+  udp: true
+  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
+  xhttp-opts:
+    host: 9303d6x.fi-p1b.h1clayd.click
+    mode: auto
+    path: /f57a81c99fea
+  servername: 9303d6x.fi-p1b.h1clayd.click
+- name: 🇹🇼TW_2|1.0MB/s
+  password: "2902c46c8493"
+  port: 443
+  server: rtifgjdr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+- name: 🇰🇷KR_1|2.6MB/s
+  password: ''
+  port: 1080
+  server: 59.11.209.162
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺RU_2|2.5MB/s
+  name: 🇷🇺RU_2|889KB/s
   network: grpc
   port: 443
   server: 201.51.12.98
@@ -59,7 +150,7 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺RU_3|2.5MB/s
+  name: 🇷🇺RU_3|667KB/s
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
@@ -69,139 +160,6 @@ proxies:
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   xudp: true
   servername: vps3.nemnogogo.com
-- name: 🇹🇭TH_1|826KB/s
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.158
-  skip-cert-verify: true
-  type: socks5
-  username: AJ3d9gJw
-- name: 🇹🇭TH_2|677KB/s
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.135
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- name: 🇹🇭TH_3|2.5MB/s
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.194
-  skip-cert-verify: true
-  type: socks5
-  username: r3ZzP8WW
-- name: 🇩🇪DE_1|2.0MB/s
-  password: ''
-  port: 10809
-  server: 91.107.179.68
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🇹🇭TH_4|1.6MB/s
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.42
-  skip-cert-verify: true
-  type: socks5
-  username: r3ZzP8WW
-- name: 🇵🇭PH_1|3.6MB/s
-  password: s6a1j38q
-  port: 42000
-  server: 103.18.230.88
-  skip-cert-verify: true
-  type: socks5
-  username: uv4oakg5
-- name: 🇹🇭TH_5|1.2MB/s
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.82
-  skip-cert-verify: true
-  type: socks5
-  username: rnt2L4XO
-- name: 🇹🇭TH_6|2.3MB/s
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.119
-  skip-cert-verify: true
-  type: socks5
-  username: JPjarpW3
-- name: 🇹🇭TH_7|1.5MB/s
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.192
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- name: 🇹🇭TH_8|4.1MB/s
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: 42000
-  server: 103.14.164.202
-  skip-cert-verify: true
-  type: socks5
-  username: route164JIa2CBPxfy
-- name: 🇹🇭TH_9|1.1MB/s
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.86
-  skip-cert-verify: true
-  type: socks5
-  username: AJ3d9gJw
-- name: 🇮🇩ID_1|2.2MB/s
-  password: RRWtX6XP
-  port: 62000
-  server: 203.84.138.59
-  skip-cert-verify: true
-  type: socks5
-  username: 9tcjLp2W
-- name: 🇹🇭TH_10|3.5MB/s
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: 42000
-  server: 103.14.164.30
-  skip-cert-verify: true
-  type: socks5
-  username: route164JIa2CBPxfy
-- name: 🇻🇳VN_1|982KB/s
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.190
-  skip-cert-verify: true
-  type: socks5
-  username: qT46DZLv
-- name: 🇹🇭TH_11|2.1MB/s
-  password: fAgE2jqK
-  port: 42000
-  server: 151.246.108.69
-  skip-cert-verify: true
-  type: socks5
-  username: h87527jJ
-- name: 🇲🇽MX_1|1.4MB/s
-  password: KsPAxZGn
-  port: 42000
-  server: 94.194.166.52
-  skip-cert-verify: true
-  type: socks5
-  username: userLRgK
-- name: 🇰🇷KR_1|858KB/s
-  password: ''
-  port: 1080
-  server: 183.106.215.208
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🇸🇬SG_1|2.1MB/s
-  password: "c0a34a"
-  port: 62000
-  server: 66.80.2.252
-  skip-cert-verify: true
-  type: socks5
-  username: usereb7d
-- name: 🇺🇸US_1|2.2MB/s
-  password: ''
-  port: 7070
-  server: 20.83.154.79
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -209,7 +167,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1171 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1153 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -235,7 +193,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1171 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1153 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择

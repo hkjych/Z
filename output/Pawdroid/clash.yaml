@@ -1,25 +1,40 @@
 proxies:
-- name: 加拿大+温尼伯大学
-  type: vless
-  server: 142.132.140.143
-  port: 1003
-  uuid: 0e6cd6ca-fba2-4b86-923c-f0a021f7ad15
-  udp: true
-- name: 波兰+
-  type: trojan
-  server: sclass-c1.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  sni: hk.catxstar.com
 - name: 新西兰+
   type: ss
-  server: 202.50.253.36
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国+Xerox
+- name: '新西兰+ #2'
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 荷兰+
+  type: trojan
+  server: 77.93.89.2
+  port: 443
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  sni: bgsg1.hikigo.com
+  skip-cert-verify: true
+- name: 英国+
+  type: vless
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mental-deprivation.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
+- name: 美国+
   type: vless
   server: 8a2e72t.nl20.h1clayd.shop
   port: 443
@@ -32,55 +47,33 @@ proxies:
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: "8d0d0679f42ffd98"
-- name: '新西兰+ #2'
+- name: 英国+伦敦南岸大学
+  type: vless
+  server: 136.148.208.221
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+- name: '新西兰+ #3'
   type: ss
-  server: 202.50.253.63
+  server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 英国+伦敦南岸大学
-  type: vless
-  server: 136.148.83.69
+- name: 德国+阿里云
+  type: ss
+  server: 47.254.167.157
   port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  client-fingerprint: chrome
-- name: 荷兰+
-  type: trojan
-  server: bgsg1.hikigo.com
-  port: 443
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  sni: bgsg1.hikigo.com
-  skip-cert-verify: true
-- name: '英国+伦敦南岸大学 #2'
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  udp: true
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: qq
-- name: 美国+纽约(Prudential)
-  type: vless
-  server: 48.102.205.89
-  port: 22444
-  uuid: a9ff24d3-f308-4e72-acb9-a76062583837
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fontanka.ru
-  client-fingerprint: edge
-  reality-opts:
-    public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
-    short-id: "6ad3c0f1e9b2478a"
 - name: 西班牙+
   type: vless
   server: 196.196.149.80
@@ -96,6 +89,26 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
+- name: 新加坡+Amazon数据中心
+  type: trojan
+  server: sclass-b1.catcat321.com
+  port: 20051
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 美国+Xerox
+  type: vless
+  server: 5d0319t.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: "361d0dd59c70516f"
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -103,7 +116,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 43 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 40 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -129,6 +142,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 43 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 40 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
