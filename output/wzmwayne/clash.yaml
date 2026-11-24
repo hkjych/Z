@@ -34937,6 +34937,20 @@ proxies:
     headers:
       Host: 47.244.120.197
   name: 8元老牌专线机场
+- type: ss
+  server: 47.254.167.157
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+  name: 德国_32C8E1
+- type: ss
+  server: 47.254.128.109
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+  name: 德国_3F66B5
 - type: vless
   server: 196.196.148.177
   port: 443
@@ -34949,32 +34963,7 @@ proxies:
     public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
     short-id: "6976d670818644cc"
   flow: xtls-rprx-vision
-  name: 德国_11794C
-- type: vless
-  server: 2.26.251.236
-  port: 443
-  udp: true
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  tls: true
-  servername: mental-deprivation.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-  flow: xtls-rprx-vision
-  name: 德国_41AE03
-- type: vless
-  server: f0d7aft.nl13.h1clayd.click
-  port: 443
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: f0d7aft.nl13.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
-    short-id: "8956c57cb4c4f8d2"
-  name: 德国_432A6D
+  name: 德国_4680FD
 - type: vless
   server: 8a2e72t.nl20.h1clayd.shop
   port: 443
@@ -34987,91 +34976,96 @@ proxies:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: "8d0d0679f42ffd98"
   flow: xtls-rprx-vision
-  name: 德国_D33E81
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_347FD8
-- type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_890E52
-- type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: 意大利_D9C1A5
+  name: 德国_9AC93D
 - type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_F54F1F
+  name: 意大利_2CD18A
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_565773
 - type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: 意大利_FB81F0
+  name: 意大利_A223D4
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_A3D592
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: 意大利_F34030
 - type: vless
-  server: 13.141.51.2
+  server: 196.196.148.63
   port: 443
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: 04535dt.us8.h1clayd.click
+  servername: 717252g.nl8.h1clayd.click
   client-fingerprint: firefox
   reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  name: 美国_267862
-- type: vmess
-  server: pdmv4.xiaoyan.io
-  port: 16648
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-  name: 美国_41AC78
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: "d3bd772514c87d28"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: "204adda7e3da"
+  name: 美国_8BA8BD
 - type: vless
-  server: 71b840t.de7.h1clayd.click
+  server: 162.35.101.177
   port: 443
   udp: true
-  uuid: 26843758-24de-4f76-b5d0-624038e353c4
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: 71b840t.de7.h1clayd.click
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: "bd8f712209a9c283"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: "99f2107b03f8"
+  name: 美国_F3F27D
+- type: vless
+  server: a80b5386.fi2.h1clayd.click
+  port: 443
+  udp: true
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  tls: true
+  servername: a80b5386.fi2.h1clayd.click
   client-fingerprint: chrome
   reality-opts:
-    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
-    short-id: "e572b6579ea525d4"
-  name: 美国_A4F165
+    public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
+    short-id: "cc678f10161992a9"
+  name: 英国_A02770
 - type: vless
-  server: 196.196.148.85
+  server: 5d0319t.nl7.h1clayd.click
   port: 443
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
   servername: 5d0319t.nl7.h1clayd.click
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: "361d0dd59c70516f"
-  name: 荷兰_478950
+  name: 荷兰_03FCA9
 - type: vless
   server: 196.196.149.80
   port: 443
@@ -35084,46 +35078,7 @@ proxies:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
   flow: xtls-rprx-vision
-  name: 西班牙_253BDC
-- type: vless
-  server: 8.217.1.203
-  port: 8443
-  udp: true
-  uuid: 8b17beac-b143-447d-aa68-14cbb121a602
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38
-    short-id: "0bf55f64"
-  flow: xtls-rprx-vision
-  name: 香港_93558D
-- type: vmess
-  server: byr3a.xiaoyan.io
-  port: 16622
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-  name: 香港_B17441
-- type: vmess
-  server: pdmv4.xiaoyan.io
-  port: 16632
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-  name: 香港_FA91E2
+  name: 西班牙_6B9EEC
 - name: BE_speednode_0001
   server: 146.70.123.98
   port: 443
@@ -35925,17 +35880,8 @@ proxies:
       Host: 6-M17.kuwAit.kDns.Fr
   skip-cert-verify: true
   udp: true
-- type: ss
-  name: ❓未知丨#2
-  server: 47.254.128.109
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - type: vless
-  name: '❓未知(2) #2'
+  name: ❓未知丨#2
   server: 104.17.136.102
   port: 2087
   uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
@@ -35948,6 +35894,15 @@ proxies:
     path: /
     headers:
       Host: rezanoori4295.pages.dev
+- type: ss
+  name: '❓未知(2) #2'
+  server: 47.254.128.109
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  udp: true
+  tls: false
+  skip-cert-verify: false
 - type: vless
   name: ❓未知(52)
   server: 178.17.53.154
@@ -35982,8 +35937,19 @@ proxies:
   xhttp-opts:
     path: /
     mode: auto
+- type: anytls
+  name: 🇭🇰HK香港(10)
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  password: "2902c46c8493"
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - type: trojan
-  name: 🇭🇰HK香港丨#2
+  name: 🇭🇰HK香港(7)
   server: sclass-00.catcat321.com
   port: 20103
   password: d9064589-74af-432a-9390-5d8a9da281bf
@@ -35991,6 +35957,27 @@ proxies:
   tls: true
   servername: hk.catxstar.com
   sni: hk.catxstar.com
+  skip-cert-verify: false
+- type: anytls
+  name: 🇭🇰HK香港(8)
+  server: 5641sdds.df6h451rh.xin
+  port: 443
+  password: "0324fbc29561"
+  udp: true
+  tls: true
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- type: anytls
+  name: 🇭🇰HK香港(9)
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  password: "2902c46c8493"
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
   skip-cert-verify: false
 - type: vless
   name: 🇮🇷 伊朗
@@ -36032,6 +36019,17 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
+- type: anytls
+  name: 🇹🇼TW台湾
+  server: a54ge.df6h451rh.xin
+  port: 443
+  password: "0324fbc29561"
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: '说明-来源: wzmwayne/proxy-node'
   type: trojan
   server: 127.0.0.1
@@ -36039,7 +36037,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 27774 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 27810 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -36065,7 +36063,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: wzmwayne/proxy-node'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 27774 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 27810 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择(全部)
@@ -39369,23 +39367,20 @@ proxy-groups:
   - U⚪🏳️ukn[🔍]_d16fb539
   - U⚪🏳️ukn[🤖🎮🔍📚]_85c0a17a
   - 8元老牌专线机场
-  - 德国_11794C
-  - 德国_41AE03
-  - 德国_432A6D
-  - 德国_D33E81
-  - 意大利_347FD8
-  - 意大利_890E52
-  - 意大利_D9C1A5
-  - 意大利_F54F1F
-  - 意大利_FB81F0
-  - 美国_267862
-  - 美国_41AC78
-  - 美国_A4F165
-  - 荷兰_478950
-  - 西班牙_253BDC
-  - 香港_93558D
-  - 香港_B17441
-  - 香港_FA91E2
+  - 德国_32C8E1
+  - 德国_3F66B5
+  - 德国_4680FD
+  - 德国_9AC93D
+  - 意大利_2CD18A
+  - 意大利_565773
+  - 意大利_A223D4
+  - 意大利_A3D592
+  - 意大利_F34030
+  - 美国_8BA8BD
+  - 美国_F3F27D
+  - 英国_A02770
+  - 荷兰_03FCA9
+  - 西班牙_6B9EEC
   - BE_speednode_0001
   - BR_speednode_0002
   - DE_speednode_0003
@@ -39456,10 +39451,14 @@ proxy-groups:
   - '❓未知(2) #2'
   - ❓未知(52)
   - 🇩🇪德國
-  - 🇭🇰HK香港丨#2
+  - 🇭🇰HK香港(10)
+  - 🇭🇰HK香港(7)
+  - 🇭🇰HK香港(8)
+  - 🇭🇰HK香港(9)
   - 🇮🇷 伊朗
   - 🇰🇷KR韩国
   - 🇹🇷土耳其
+  - 🇹🇼TW台湾
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -42763,23 +42762,20 @@ proxy-groups:
   - U⚪🏳️ukn[🔍]_d16fb539
   - U⚪🏳️ukn[🤖🎮🔍📚]_85c0a17a
   - 8元老牌专线机场
-  - 德国_11794C
-  - 德国_41AE03
-  - 德国_432A6D
-  - 德国_D33E81
-  - 意大利_347FD8
-  - 意大利_890E52
-  - 意大利_D9C1A5
-  - 意大利_F54F1F
-  - 意大利_FB81F0
-  - 美国_267862
-  - 美国_41AC78
-  - 美国_A4F165
-  - 荷兰_478950
-  - 西班牙_253BDC
-  - 香港_93558D
-  - 香港_B17441
-  - 香港_FA91E2
+  - 德国_32C8E1
+  - 德国_3F66B5
+  - 德国_4680FD
+  - 德国_9AC93D
+  - 意大利_2CD18A
+  - 意大利_565773
+  - 意大利_A223D4
+  - 意大利_A3D592
+  - 意大利_F34030
+  - 美国_8BA8BD
+  - 美国_F3F27D
+  - 英国_A02770
+  - 荷兰_03FCA9
+  - 西班牙_6B9EEC
   - BE_speednode_0001
   - BR_speednode_0002
   - DE_speednode_0003
@@ -42850,10 +42846,14 @@ proxy-groups:
   - '❓未知(2) #2'
   - ❓未知(52)
   - 🇩🇪德國
-  - 🇭🇰HK香港丨#2
+  - 🇭🇰HK香港(10)
+  - 🇭🇰HK香港(7)
+  - 🇭🇰HK香港(8)
+  - 🇭🇰HK香港(9)
   - 🇮🇷 伊朗
   - 🇰🇷KR韩国
   - 🇹🇷土耳其
+  - 🇹🇼TW台湾
 - name: 📦 anaer
   type: select
   proxies:
@@ -46170,23 +46170,20 @@ proxy-groups:
   type: select
   proxies:
   - 8元老牌专线机场
-  - 德国_11794C
-  - 德国_41AE03
-  - 德国_432A6D
-  - 德国_D33E81
-  - 意大利_347FD8
-  - 意大利_890E52
-  - 意大利_D9C1A5
-  - 意大利_F54F1F
-  - 意大利_FB81F0
-  - 美国_267862
-  - 美国_41AC78
-  - 美国_A4F165
-  - 荷兰_478950
-  - 西班牙_253BDC
-  - 香港_93558D
-  - 香港_B17441
-  - 香港_FA91E2
+  - 德国_32C8E1
+  - 德国_3F66B5
+  - 德国_4680FD
+  - 德国_9AC93D
+  - 意大利_2CD18A
+  - 意大利_565773
+  - 意大利_A223D4
+  - 意大利_A3D592
+  - 意大利_F34030
+  - 美国_8BA8BD
+  - 美国_F3F27D
+  - 英国_A02770
+  - 荷兰_03FCA9
+  - 西班牙_6B9EEC
 - name: 📦 zhangkaiitugithub/passcro
   type: select
   proxies:
@@ -46269,9 +46266,13 @@ proxy-groups:
   - '❓未知(2) #2'
   - ❓未知(52)
   - 🇩🇪德國
-  - 🇭🇰HK香港丨#2
+  - 🇭🇰HK香港(10)
+  - 🇭🇰HK香港(7)
+  - 🇭🇰HK香港(8)
+  - 🇭🇰HK香港(9)
   - 🇮🇷 伊朗
   - 🇰🇷KR韩国
   - 🇹🇷土耳其
+  - 🇹🇼TW台湾
 rules:
 - MATCH,🚀 节点选择(全部)
