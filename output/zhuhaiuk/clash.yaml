@@ -4,39 +4,146 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: HK
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-  sni: fan.240104.xyz
-  skip-cert-verify: true
 - name: "DE"
   type: http
-  server: 37.203.35.27
+  server: 79.127.156.177
   port: 443
   tls: true
-  sni: 37.203.35.27
+  sni: 79.127.156.177
   skip-cert-verify: true
-- name: TH
-  type: socks5
-  server: 131.143.142.68
-  port: 62000
-  username: 91X6zEp7
-  password: 4bnDELxq
-- name: US
+- name: JP
   type: http
-  server: 138.199.35.199
-  port: 9002
+  server: 8.216.57.38
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: NL
+  type: http
+  server: 84.17.47.126
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 84.17.47.126
+  skip-cert-verify: true
+- name: NL - 02
+  type: http
+  server: 51.158.243.91
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: NL - 03
   type: http
   server: 82.196.9.7
   port: 443
   username: testuser1
   password: "e4b72b531a2d10900519"
   tls: true
+  sni: 82.196.9.7
+  skip-cert-verify: true
+- name: NL - 04
+  type: http
+  server: 84.17.47.146
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 84.17.47.146
+  skip-cert-verify: true
+- name: JP - 02
+  type: socks5
+  server: 139.162.78.109
+  port: 1080
+- name: NL - 05
+  type: http
+  server: 5.2.73.112
+  port: 443
+  tls: true
+  sni: 5.2.73.112
+  skip-cert-verify: true
+- name: US
+  type: http
+  server: 138.199.35.210
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - 02
+  type: http
+  server: 38.28.185.224
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: JP - 03
+  type: http
+  server: 64.176.51.83
+  port: 8443
+  tls: true
+  sni: 64.176.51.83
+  skip-cert-verify: true
+- name: US - 03
+  type: http
+  server: 38.28.185.143
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - 04
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
+- name: US - 05
+  type: http
+  server: 172.64.68.89
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: US - 06
+  type: http
+  server: 137.175.22.85
+  port: 443
+  tls: true
+  sni: 137.175.22.85
+  skip-cert-verify: true
+- name: US - 07
+  type: http
+  server: fan.365747.xyz
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: VN
+  type: http
+  server: 14.225.71.128
+  port: 443
+  tls: true
+  sni: 14.225.71.128
+  skip-cert-verify: true
+- name: ES
+  type: http
+  server: 80.24.34.107
+  port: 8090
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 80.24.34.107
+  skip-cert-verify: true
+- name: RU
+  type: http
+  server: 46.29.166.134
+  port: 1446
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 46.29.166.134
   skip-cert-verify: true
 - name: DE - 02
   type: http
@@ -45,168 +152,104 @@ proxies:
   username: testuser1
   password: "e4b72b531a2d10900519"
   tls: true
-  sni: 167.172.172.190
-  skip-cert-verify: true
-- name: US - 02
+  sni: a7acacbe.acsnet.co
+- name: US - 08
   type: http
-  server: 138.199.35.211
-  port: 9002
-  username: "null"
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: NL - 02
-  type: http
-  server: 103.97.88.154
+  server: 172.64.69.89
   port: 443
-  username: "null"
-  password: "null"
   tls: true
-  sni: 103.97.88.154
+  sni: 172.64.69.89
   skip-cert-verify: true
-- name: JP
+- name: GB
   type: http
-  server: fan.571589.xyz
+  server: 37.120.233.18
   port: 443
-  username: bnVsbDpudWxs
   tls: true
-  sni: fan.571589.xyz
   skip-cert-verify: true
 - name: DE - 03
   type: http
-  server: 213.109.163.119
+  server: 159.69.94.125
   port: 443
   username: "null"
   password: "null"
   tls: true
   skip-cert-verify: true
-- name: PH
-  type: socks5
-  server: 103.18.230.88
-  port: 42000
-  username: uv4oakg5
-  password: s6a1j38q
-- name: US - 03
+- name: GB - 02
   type: http
-  server: 162.243.146.243
+  server: 206.189.118.214
   port: 443
   username: testuser1
   password: "e4b72b531a2d10900519"
   tls: true
-  sni: a2f392f3.acsnet.co
-- name: DE - 04
-  type: http
-  server: 87.249.132.97
-  port: 9443
-  tls: true
+  sni: cebd76d6.acsnet.co
   skip-cert-verify: true
-- name: JP - 02
-  type: http
-  server: 64.176.51.83
-  port: 8443
-  tls: true
-  sni: 64.176.51.83
-  skip-cert-verify: true
-- name: SG
-  type: http
-  server: 43.160.239.37
-  port: 443
-  tls: true
-  sni: 43.160.239.37
-  skip-cert-verify: true
-- name: US - 04
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: JP - 03
+- name: HK
   type: socks5
-  server: 103.248.150.238
-  port: 42000
-  username: tB4vN7qP
-  password: J5rM2xL9
-- name: US - 05
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: HK - 02
   type: http
-  server: 38.28.185.130
-  port: 443
+  server: 119.28.24.235
+  port: 3128
   tls: true
-  skip-cert-verify: true
-- name: US - 06
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: "CA"
-  type: anytls
-  server: im.lovehk.xyz
-  port: 443
-  password: 26ba2310-31aa-4fe6-86b1-47fcd14cabb2
-  udp: true
-  sni: im.lovehk.xyz
-- name: FR
-  type: http
-  server: 141.94.16.4
-  port: 443
-  tls: true
-  sni: 141.94.16.4
-  skip-cert-verify: true
-- name: US - 07
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 138.199.35.201
   skip-cert-verify: true
 - name: KR
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+- name: KR - 02
   type: http
   server: 152.69.230.221
   port: 443
   tls: true
   skip-cert-verify: true
-- name: KR - 02
+- name: SG
   type: socks5
-  server: 59.11.209.162
-  port: 1080
-- name: NL - 03
-  type: vless
-  server: 79.110.231.7
+  server: 66.80.2.252
+  port: 62000
+  username: usereb7d
+  password: "c0a34a"
+- name: SG - 02
+  type: http
+  server: 154.26.139.24
   port: 443
-  uuid: fe38b644-d563-46a5-855d-a9dec4fe88d4
+  tls: true
+  skip-cert-verify: true
+- name: SG - 03
+  type: vless
+  server: free.server.darknetlk.com
+  port: 443
+  uuid: 076799f8-d922-4bf1-805d-e758e6eb925f
+  tls: true
+  servername: aka.ms
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: HK - 03
+  type: vless
+  server: 38.55.99.155
+  port: 39585
+  uuid: 4539ac62-e083-4003-9a3c-4ece2639a0ac
   flow: xtls-rprx-vision
   tls: true
-  servername: www.yahoo.co.jp
+  servername: www.microsoft.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: sg0tdkCXEdTLIya2MRKcvlqF6whA5fBNWZeFBNR9TGI
-    short-id: "6437318ca6efde86"
-- name: US - 08
-  type: vless
-  server: 162.35.101.177
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-- name: DE - 01
+    public-key: 01Y4xTUgcsmFIff0Rio4_weNbdo6-vAvWwK3_Q28uA0
+    short-id: "b32f2490045d5296"
+- name: IT
   type: ss
-  server: 47.254.167.157
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT - 02
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: RU - 01
   type: vless
   server: 201.24.116.192
@@ -216,12 +259,24 @@ proxies:
   network: grpc
   tls: true
   servername: vps3.nemnogogo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: RU - 03
+  type: vless
+  server: 201.51.12.98
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  network: grpc
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
 - name: RU - 02
   type: vless
-  server: 201.51.12.98
+  server: leviko-ru4448.shopingggg.ir
   port: 443
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   udp: true
@@ -240,44 +295,9 @@ proxies:
   network: grpc
   tls: true
   servername: vps3.nemnogogo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: CH - 01
-  type: vless
-  server: 193.233.89.130
-  port: 8443
-  uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
-  udp: true
-  network: grpc
-  tls: true
-  servername: g.play2go.gay
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
-  grpc-opts:
-    grpc-service-name: grpc
-- name: RU - 03
-  type: vless
-  server: leviko-ru4448.shopingggg.ir
-  port: 443
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  udp: true
-  network: grpc
-  tls: true
-  servername: vps3.nemnogogo.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: FR - 01
-  type: vless
-  server: 88.151.197.87
-  port: 2025
-  uuid: 1697852e-cd5c-472d-b377-0def0f301d98
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
 - name: '说明-来源: zhuhaiuk/free-nodes'
   type: trojan
   server: 127.0.0.1
@@ -318,39 +338,44 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - HK
   - "DE"
-  - TH
-  - US
-  - NL
-  - DE - 02
-  - US - 02
-  - NL - 02
   - JP
-  - DE - 03
-  - PH
-  - US - 03
-  - DE - 04
+  - NL
+  - NL - 02
+  - NL - 03
+  - NL - 04
   - JP - 02
-  - SG
-  - US - 04
+  - NL - 05
+  - US
+  - US - 02
   - JP - 03
+  - US - 03
+  - US - 04
   - US - 05
   - US - 06
-  - "CA"
-  - FR
   - US - 07
+  - VN
+  - ES
+  - RU
+  - DE - 02
+  - US - 08
+  - GB
+  - DE - 03
+  - GB - 02
+  - HK
+  - HK - 02
   - KR
   - KR - 02
-  - NL - 03
-  - US - 08
-  - DE - 01
+  - SG
+  - SG - 02
+  - SG - 03
+  - HK - 03
+  - IT
+  - IT - 02
   - RU - 01
+  - RU - 03
   - RU - 02
   - RU - 04
-  - CH - 01
-  - RU - 03
-  - FR - 01
 rules:
 - GEOSITE,CN,DIRECT
 - GEOIP,CN,DIRECT

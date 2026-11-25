@@ -2,90 +2,230 @@ allow-lan: false
 mixed-port: 7890
 mode: rule
 proxies:
-- name: D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
+- down: 200
+  fast-open: true
+  name: C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
+  password: GeH9cDNl6FcXvgpfU8Sz0MNwQgPEm7Cv
+  port: 443
+  server: 43.165.129.121
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+  x-toolall-mihomo: true
+- name: A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20089
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: sg.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: C🟠🇭🇰hos[🤖💬🔮🧩]_61b0e1ad
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20147
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇲🇾res[🤖💬🔮🧩]_922d3184
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20143
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇻🇳res[🤖💬🔮🧩]_7d5131d6
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20175
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇰🇷res[🤖💬🔮🧩]_c219ac8e
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20139
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇺🇸hos[🤖💬🧩📺]_f9030b1a
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20080
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇯🇵hos[🤖💬🔮🧩]_7c60c2a4
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20128
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn[🤖💬🔮🧩]_53a0fb8e
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 40074
+  server: 36d.catcat321.com
+  skip-cert-verify: true
+  sni: d.hkj2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇻🇳res[🤖💬🔮🧩]_e17842e5
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20121
+  server: sclass-00.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇭🇰res[🤖💬🔮🧩]_b9bb3f24
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20135
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇸🇬res[🤖💬🔮🧩]_4eb855be
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 44114
+  server: 36d.catcat321.com
+  skip-cert-verify: true
+  sni: d.sgj2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇸🇬hos[🤖💬🧩📺]_481de09f
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20060
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: sg.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn_cde14d11
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 59188
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.tw3.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: C🟠🇯🇵hos[💬📺✈️🐙]_8dd4a27b
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 32581
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.JP2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn[💬🔮📺🎭]_ce21c8d2
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 48425
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.KR2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇻🇳res[🤖💬🔮🧩]_fdaf6db5
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20176
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇺🇸hos[💬📺🎵🎮]_fc4a1075
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20152
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: us.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn_bdf20467
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 40465
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.JP13.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇹🇼res[🤖💬🧩📺]_8201cec6
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20025
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇯🇵hos[🤖💬🔮🧩]_906a0d86
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20128
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇩🇪hos[🤖💬🎵🎮]_f53c6917
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
   password: "null"
-  port: 6103
-  server: 87.98.174.157
+  port: 9002
+  server: 84.17.47.147
   skip-cert-verify: true
-  sub_tag: R002-260618
+  sni: 84.17.47.147
   tls: true
   type: http
-  udp: true
   username: "null"
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🧩🎵]_847f2db1
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_e42a580a
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_beaebbc0
   password: "null"
   port: 9002
-  server: 138.199.35.220
+  server: 193.176.84.19
   skip-cert-verify: true
   tls: true
   type: http
   username: "null"
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_f03b1640
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇷🇴hos[🤖💬🔮🧩]_4efcc5ec
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🧩📺]_cc9cfe69
-  password: ''
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🧩📺]_df2b9dfe
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇷🇴hos[🤖💬🔮🧩]_c2a23261
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_caa83497
   password: "null"
   port: 9002
-  server: 193.176.84.33
+  server: 193.176.84.23
   skip-cert-verify: true
-  sni: 193.176.84.33
   tls: true
   type: http
   username: "null"
-- name: D🔴🇺🇸hos[🤖💬🧩📺]_cf54b49d
+- name: D🔴🇺🇸hos[🤖💬🧩🎵]_cf54b49d
   password: "null"
   port: 9002
   server: 138.199.35.206
@@ -102,30 +242,16 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  password: ''
-  port: 443
-  server: 149.22.85.78
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_c562dcb3
+  port: 9002
+  server: 193.176.84.27
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🤖💬🧩📺]_ddf71604
+- name: D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
   password: None
   port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  password: None
-  port: 9002
-  server: 84.17.47.123
+  server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
@@ -139,27 +265,47 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
+- name: D🔴🇺🇸hos[🤖💬🧩🎞️]_ddf71604
   password: None
   port: 9002
-  server: 84.17.47.149
+  server: 138.199.35.196
   skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: D🔴🇩🇪mob[🤖💬🔮📺]_ee253411
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: 443
-  server: 47.254.128.109
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
+- name: D🔴🇺🇸hos[🤖💬🧩🎵]_c6a884b6
+  password: "null"
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  username: "null"
+- name: D🔴🇺🇸hos[🎵]_a6052a43
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_4b2bbcd9
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_5e718bf2
+  password: "null"
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: "null"
 - cipher: chacha20-ietf
-  name: D🔴🇺🇸hos[🤖🔮🧩✈️]_4cec6c79
+  name: D🔴🇺🇸hos[🤖🔮🧩📺]_4cec6c79
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: dongtaiwang.com
@@ -169,106 +315,252 @@ proxies:
   server: ssr2.762988.xyz
   type: ssr
   x-toolall-mihomo: true
-- name: D🔴🇫🇷hos[🤖💬🔮🧩]_84ab3d39
-  port: 443
-  server: 82.66.235.221
+- name: A🟢🇰🇷res[💬🎵]_a02ae585
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 24977
+  server: ddrr1.tube-cat.com
   skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
+  sni: r.KR2.cat.bilibili.com
+  type: trojan
   udp: true
   x-toolall-mihomo: true
-- name: D🔴🇺🇸hos_a6052a43
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: "7d5abcd7d8a1"
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_e82485d8
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
-    short-id: "6d289ff0f47c0aac"
-  server: 45.9.120.53
-  servername: 961ec0g.nl13.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: C🟠🇳🇱hos[🐙]_ac0e39f1
-  port: 2244
-  server: 188.166.104.93
-  type: http
-- name: D🔴🇺🇸hos[🤖💬🔮🧩]_6103d5ef
-  port: 443
-  server: 172.64.68.89
+- name: U⚪🇺🇸ukn[📚]_bb2f169d
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 42099
+  server: ddrr2.tube-cat.com
   skip-cert-verify: true
-  sni: 172.64.68.89
-  sub_tag: P002-260618
-  tls: true
-  type: http
+  sni: r.US6.cat.bilibili.com
+  type: trojan
   udp: true
   x-toolall-mihomo: true
-- cipher: chacha20-ietf
-  name: U⚪🇳🇱ukn[🤖💬📺🎵]_ad12022f
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  protocol-param: ''
-  server: 109.104.153.43
-  type: ssr
+- name: C🟠🇺🇸hos[🎞️🐙]_daf88949
+  port: 2192
+  server: 132.145.164.194
+  type: http
+- name: U⚪🏳️ukn_7ea3ac2e
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 31468
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.US10.cat.bilibili.com
+  type: trojan
+  udp: true
   x-toolall-mihomo: true
-- name: D🔴🇷🇴hos[🤖💬🔮🧩]_caa83497
-  password: "null"
+- name: U⚪🏳️ukn[💬🐙]_da0f0340
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 27353
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.tw2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇫🇷res[🤖💬🔮🧩]_f08f0fd8
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20064
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🇭🇰ukn[🤖🎞️📚]_a58fa2ba
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 30492
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.hk9.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_834e9703
   port: 9002
-  server: 193.176.84.23
+  server: 193.176.84.37
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- name: D🔴🇩🇪hos[🤖💬🧩📺]_4bdd61b7
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_690c5e10
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: C🟠🇺🇸hos_c0874414
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 27074
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.US6.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇺🇦hos[🤖💬🔮🧩]_38562eb3
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20066
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
   password: None
-  port: 443
-  server: 149.36.50.1
+  port: 9002
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: A🟢🇬🇧res[🎭🎞️🐙]_5aa3e6c6
-  port: 9480
-  server: 136.228.225.250
-  type: http
-- name: D🔴🇷🇴hos[🤖💬🔮🧩]_0b5076bf
-  password: ''
+- name: C🟠🇺🇸hos[💬🔮🧩🎮]_49d7b29f
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 42969
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.US4.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_c8b57947
   port: 9002
-  server: 193.176.84.26
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_49894881
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: A🟢🇰🇷res[🤖🎵🐙🔍]_d8f5ec33
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 32896
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.KR2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
+  password: ''
+  port: 443
+  server: 149.22.85.78
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: C🟠🇬🇧hos[📺🎭🎵🎞️]_628c35bf
+- name: A🟢🇩🇪res[🤖💬🔮🧩]_bd9c1e43
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20003
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_12ca5365
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_c2a23261
+  password: "null"
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sni: 193.176.84.33
+  tls: true
+  type: http
+  username: "null"
+- name: C🟠🇺🇸hos[🎵🎮🐙]_de543918
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 12928
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.US4.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn_40ed6284
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 31730
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.hk13.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn[🤖📦🎮✈️]_f35213c1
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 28478
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.tw2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇫🇷res[🤖💬🔮📺]_66c9e1d6
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20024
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇲🇽res_24835ec5
+  password: lcFa8dTH
+  port: 62000
+  server: 94.194.165.96
+  type: socks5
+  username: QyVdo5ks
+- name: U⚪🏳️ukn[📺🔍]_b6a2acc5
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 31771
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.jp12.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: C🟠🇹🇭hos_5acf8d13
+  password: KT5hiU8o
+  port: 42000
+  server: 104.234.70.82
+  type: socks5
+  username: rnt2L4XO
+- name: D🔴🇺🇸hos[🤖💬📺🎵]_016d9dc7
+  password: ''
   port: 443
-  server: 212.102.63.31
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: C🟠🇨🇿hos[🤖💬🧩📺]_4ed6383e
+  password: None
+  port: 9443
+  server: 152.233.16.174
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: A🟢🇲🇽res[📺]_1aa34d5e
-  password: 2j7CCZQb
-  port: 62000
-  server: 94.194.164.203
-  type: socks5
-  username: rVkkraqT
 - name: D🔴🇪🇨hos[🤖💬🧩📺]_b7f302f8
   password: ''
   port: 9443
@@ -279,340 +571,28 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[📺]_016d9dc7
-  password: ''
-  port: 443
-  server: 149.88.21.129
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_cf95381b
+  password: "null"
+  port: 9002
+  server: 193.176.84.27
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
-  password: ''
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: U⚪🇺🇸ukn[📦🐙]_d22e84be
-  port: 5671
-  server: 192.187.118.142
-  type: http
-- name: D🔴🇺🇸hos_034ba6dd
-  password: 75bPoRcB
-  port: 62000
-  server: 216.132.114.27
-  type: socks5
-  username: JzufiJ62
-- client-fingerprint: qq
-  name: U⚪🏳️ukn[🔍]_c47c7aa0
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  x-toolall-mihomo: true
-- name: D🔴🇨🇿hos[🤖💬🧩📺]_4ed6383e
-  password: None
-  port: 9443
-  server: 152.233.16.174
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: "7d5abcd7d8a1"
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_ceed12b5
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
-    short-id: "6d289ff0f47c0aac"
-  server: 961ec0g.nl13.h1clayd.click
-  servername: 961ec0g.nl13.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: U⚪🇹🇷ukn[🤖💬🔮📺]_9e933bd8
-  password: freeuser1
-  port: 9251
-  server: br3-tr.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- client-fingerprint: chrome
-  name: C🟠🇯🇵hos[🤖💬🧩🎵]_40445759
-  network: ws
-  port: 42648
-  server: dj.zjlo.top
-  servername: dj.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07b59149-e6d2-4740-c4f3-f0908dd9b5a9
-  ws-opts:
-    headers:
-      Host: dl.google.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  x-toolall-mihomo: true
-  xudp: true
-- name: D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇯🇵hos[🤖💬🔮📺]_9d3ee5ab
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: C🟠🇯🇵hos[🤖💬🧩🎵]_553adaac
-  network: ws
-  port: 42648
-  server: dj.zjlo.top
-  servername: dj.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8dbb6b6-ef0c-4ec2-d953-f857a0d0a42a
-  ws-opts:
-    headers:
-      Host: dl.google.com
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /
-  x-toolall-mihomo: true
-  xudp: true
-- name: C🟠🇲🇽hos_445b01af
-  password: DJy1T0dt
-  port: 42000
-  server: 144.225.47.8
-  type: socks5
-  username: Tek2x6av
-- cipher: 2022-blake3-aes-256-gcm
-  name: D🔴🇭🇰hos[🔮🧩📺🎭]_5283af7f
-  password: j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A=
-  port: 8388
-  server: 27.124.5.86
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🔍]_343ae4aa
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_9f940a28
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇬🇷hos[🤖💬🧩📺]_8d8bfa9f
-  password: ''
-  port: 443
-  server: 149.22.85.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: A🟢🇺🇸res[🤖💬🧩📺]_72ccc46a
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: "5b79e8a94241"
-  name: A🟢🇳🇱res[🤖💬🔮🧩]_8b497d9a
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
-    short-id: "50a749f0eccb628c"
-  server: 15b171g.nl7.h1clayd.click
-  servername: 15b171g.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_4d943620
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
-    short-id: "8956c57cb4c4f8d2"
-  server: f0d7aft.nl13.h1clayd.click
-  servername: f0d7aft.nl13.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮📺]_04808d3a
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_379449c0
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 162.35.101.177
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: A🟢🇹🇭res[💬]_15bcdd51
+  username: "null"
+- name: A🟢🇹🇭res[🤖📺🎵]_5d41bcce
   password: mpbK00Pl
   port: 42000
-  server: 192.204.15.138
+  server: 192.204.15.135
   type: socks5
   username: X3s3JteD
-- name: A🟢🇸🇬res[🤖💬📺🎵]_903162eb
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
+- name: D🔴🇺🇸hos[🤖💬🔮🧩]_1188f394
+  port: 443
+  server: fan.226278.xyz
   tls: true
   type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🎵]_30207bf9
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: C🟠🇹🇭hos_5acf8d13
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.82
-  type: socks5
-  username: rnt2L4XO
-- name: D🔴🇺🇸hos[🤖💬📺🎵]_568f056a
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: C🟠🇹🇭hos_7f140622
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.136
-  type: socks5
-  username: rnt2L4XO
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[🤖💬🔮📺]_e49a43e6
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 153.56.230.6
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮📺]_25decbaa
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- name: A🟢🇹🇭res_441fecdf
-  password: fAgE2jqK
-  port: 42000
-  server: 151.246.108.69
-  type: socks5
-  username: h87527jJ
-- name: A🟢🇹🇭res[🔮🎮]_72bd5c3a
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.192
-  type: socks5
-  username: X3s3JteD
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🧩]_e0e3bc52
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_8ed40d75
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- name: A🟢🇹🇭res_ad18bbea
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.242
-  type: socks5
-  username: r3ZzP8WW
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬📺🎵]_ae9a4420
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇹🇭res_affc047b
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.119
-  type: socks5
-  username: JPjarpW3
-- name: D🔴🇸🇬hos[🤖💬🔮🎵]_185196af
-  port: 443
-  server: 154.26.139.24
+- name: D🔴🇷🇴hos[🤖💬🔮🧩]_0c9de1a9
+  port: 9002
+  server: 193.176.84.26
   skip-cert-verify: true
   tls: true
   type: http
@@ -622,317 +602,225 @@ proxies:
   server: 82.47.152.151
   type: socks5
   username: userLjVB
-- name: A🟢🇹🇭res[💬📺]_a8a9e262
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: 42000
-  server: 103.14.164.30
-  type: socks5
-  username: route164JIa2CBPxfy
-- client-fingerprint: chrome
-  name: U⚪🏳️ukn[🔍]_38816c17
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+- name: C🟠🇬🇧hos[🤖💬🔮🧩]_3b170c0b
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20020
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: U⚪🏳️ukn[🤖💬🔮🧩]_d40a8279
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20158
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: us.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- cipher: chacha20-ietf
+  name: A🟢🇳🇱res[💬🧩📺🎵]_2433c44b
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: 109.104.153.43
+  type: ssr
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🎵]_3bb0f43a
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_e4fa7507
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇯🇵hos[🔮✈️🔍]_586f17fa
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 15238
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.JP7.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇮🇹res[🤖💬🔮🧩]_a710464b
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20065
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_885d389b
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: D🔴🇮🇹hos[🤖💬🔮🧩]_c23341c5
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: A🟢🇹🇭res_18746d5d
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.42
-  type: socks5
-  username: r3ZzP8WW
-- name: C🟠🇲🇽hos_aff11c5d
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.68
-  type: socks5
-  username: DJy1T0dt
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🎵]_0a1416ce
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮📺]_885d389b
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬📺🎵]_ed9e5a0d
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_691b76b5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 7aa271t.es9.h1clayd.click
-  servername: 7aa271t.es9.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: A🟢🇹🇭res[📺]_021435aa
-  password: YlRoWvE0dL_cUqS94wPeKnA4
-  port: 62000
-  server: 87.84.49.245
-  type: socks5
-  username: ks878449260d
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮📺]_79faec8a
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
   skip-cert-verify: false
   tls: false
   type: ss
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮📺]_641a38ed
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_25decbaa
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.27
+  server: 202.50.253.36
   type: ss
+- name: D🔴🇯🇵hos[🤖💬🔮🧩]_9d3ee5ab
+  port: 443
+  server: fan.571589.xyz
+  tls: true
+  type: http
 - cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🎵]_d027a441
+  name: D🔴🇮🇹hos[🤖💬🔮🧩]_e690e14e
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: "5b79e8a94241"
-  name: A🟢🇳🇱res[🤖💬🔮🧩]_51960e30
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
-    short-id: "50a749f0eccb628c"
-  server: 15b171g.nl7.h1clayd.click
-  servername: 15b171g.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: C🟠🇺🇸hos[🤖💬🔮📺]_0df08e97
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 13.141.51.2
-  servername: 04535dt.us8.h1clayd.click
-  skip-cert-verify: false
-  sni: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
   udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[🤖💬🔮🧩]_7e88745b
-  network: grpc
+- name: D🔴🇺🇸hos[🤖💬🔮🧩]_ffebf486
+  password: "null"
   port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 89.124.122.19
-  servername: 0592efg.us8.h1clayd.click
+  server: fan.365747.xyz
+  sni: fan.365747.xyz
   tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[📺🎮✈️🔍]_e63ac61b
-  network: grpc
-  packet-encoding: xudp
+  type: http
+  username: "null"
+- name: C🟠🇩🇪hos[🤖💬🧩📺]_4bdd61b7
+  password: None
   port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 89.124.122.19
-  servername: 0592efg.us8.h1clayd.click
+  server: 149.36.50.1
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  type: http
+  udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮🎵]_c9cdfff6
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: A🟢🇩🇪res[🤖💬🔮🎮]_ef0c78ef
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 8a2e72t.nl20.h1clayd.shop
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: A🟢🇳🇱res[🤖💬🔮🎮]_fbb5c550
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🎮]_48d202d9
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: C🟠🇺🇸hos[💬🔮🎮]_1a5ad23a
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 196.245.52.187
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: D🔴🇮🇹hos[📺]_1c28314a
-  password: JdFlrZhqHP
-  port: 1080
-  server: 69.16.157.244
-  type: socks5
-  username: ufCobhydz4Wd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎮]_1e395538
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_c851b7e4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[💬🔮🎮🔍]_562212cb
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮🎵]_7210a2a4
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🎵]_ed4de7bb
+  name: D🔴🇮🇹hos[🤖💬🔮🎵]_8ed40d75
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
-  skip-cert-verify: false
-  tls: false
+  type: ss
+- name: D🔴🇧🇷hos[🤖💬🔮🎵]_7e42146d
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20114
+  server: sclass-00.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_c9cdfff6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
   type: ss
   udp: true
   x-toolall-mihomo: true
-- name: A🟢🇲🇽res[🐙]_ef0304ae
-  port: 999
-  server: 189.187.131.201
-  type: http
-- client-fingerprint: chrome
-  name: A🟢🇳🇱res[🤖💬🔮🎮]_8a208f4c
-  network: tcp
+- name: C🟠🇲🇽hos_445b01af
+  password: DJy1T0dt
+  port: 42000
+  server: 144.225.47.8
+  type: socks5
+  username: Tek2x6av
+- name: A🟢🇹🇭res[🤖💬🔮🧩]_50d53112
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20169
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇸🇬hos[🤖💬🔮📺]_185196af
   port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
+  server: 154.26.139.24
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  type: http
+- cipher: aes-256-gcm
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_04808d3a
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_92c172b4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- name: B🟡🇯🇵bus[🤖💬🔮🧩]_972de45e
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20129
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇺🇸hos[🤖💬📺🎵]_568f056a
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- name: D🔴🇬🇷hos[🤖💬🧩📺]_8d8bfa9f
+  password: ''
+  port: 443
+  server: 149.22.85.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: A🟢🇹🇭res_bf81894b
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.158
+  type: socks5
+  username: AJ3d9gJw
+- name: A🟢🇦🇷res[🤖🔮📺🎵]_76d6a578
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20002
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: C🟠🇬🇧hos[🤖💬🔮📺]_38d64b16
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20019
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: A🟢🇸🇬res[🤖💬🎮✈️]_903162eb
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
   x-toolall-mihomo: true
 - client-fingerprint: firefox
   grpc-opts:
@@ -950,82 +838,49 @@ proxies:
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: A🟢🇳🇱res[🤖💬🔮🎮]_e0876948
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: D🔴🇺🇸hos[🐙]_4e17894f
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: qq
-  name: U⚪🏳️ukn[🔍]_d16fb539
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
-  sni: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  x-toolall-mihomo: true
-- name: A🟢🇧🇷res[🤖]_936e7dd6
-  password: 0mvrt5jb
-  port: 62000
-  server: 191.7.129.133
-  type: socks5
-  username: uwrgfkwg
-- client-fingerprint: qq
-  name: U⚪🏳️ukn[🔍]_6cdae8fd
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
-  sni: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮📺]_a7740ab5
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
+- name: D🔴🇧🇷hos[🤖💬🔮🎮]_e9e3fed4
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20114
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
   udp: true
   x-toolall-mihomo: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: C🟠🇪🇸hos[🤖💬🔮✈️]_7abde24d
+  name: A🟢🇮🇱res[🤖💬🔮🎮]_d02c5ccc
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+  server: 196.196.148.76
+  servername: 8a2e72t.nl20.h1clayd.shop
   tls: true
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: C🟠🇮🇹hos[🤖💬🔮🧩]_07162a4c
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: D🔴🇮🇳hos[🤖💬🔮🧩]_85ceffae
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20174
+  server: sclass-00.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
 - client-fingerprint: firefox
-  name: A🟢🇳🇱res[🤖💬🔮🎮]_3e91976f
+  name: A🟢🇳🇱res[🤖💬🔮🎮]_2e8886fe
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
@@ -1036,41 +891,18 @@ proxies:
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- name: A🟢🇮🇩res[💬]_fb9599de
-  password: APJ7RmY9
-  port: 62000
-  server: 202.155.99.32
-  type: socks5
-  username: gebHTLF6
-- client-fingerprint: chrome
-  name: U⚪🏳️ukn[🔍]_57fa3bc7
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+- name: C🟠🇵🇭hos[🤖💬🔮🎮]_ddabf0fd
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20063
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
   x-toolall-mihomo: true
-- client-fingerprint: ios
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: D🔴🇸🇬hos[🎮✈️🐙🔍]_146ca5ea
+  name: C🟠🇩🇪hos[🤖💬🔮🎮]_73a2815a
   network: tcp
-  port: 51283
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: "fa514b83"
-  server: free.fugui.lol
-  servername: swdist.apple.com
-  tls: true
-  type: vless
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇩🇪hos[🤖💬🔮🧩]_3a31cbda
-  network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
@@ -1081,121 +913,84 @@ proxies:
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   x-toolall-mihomo: true
-- name: A🟢🇻🇳res[🔮🎵]_8b68a714
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.236
-  type: socks5
-  username: qT46DZLv
-- cipher: aes-256-gcm
-  name: C🟠🇮🇹hos[🤖💬🔮📺]_e4fa7507
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: D🔴🇮🇹hos[🤖💬🔮🧩]_544fdd46
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
+- alterId: 64
+  cipher: auto
+  name: D🔴🇺🇸hos[🤖🔮🧩🎵]_9370a067
+  network: ws
+  port: 30004
+  server: 38.11.69.48
+  servername: www.83761815.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.83761815.xyz
+    path: /path/1698843555400
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: C🟠🇯🇵hos[💬🎮✈️📚]_bd5beb5b
+  name: C🟠🇺🇸hos[🤖💬🔮🎮]_3c052db8
   network: tcp
-  packet-encoding: xudp
-  port: 23169
-  server: 155.248.175.201
-  servername: djj.zjlo.top
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
+  server: 196.245.52.187
+  servername: 04535dt.us8.h1clayd.click
   tls: true
   type: vless
-  uuid: f67b1159-a61f-4ae4-9844-0701b716a290
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- name: A🟢🇹🇭res_976fc8cd
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.4
-  type: socks5
-  username: JPjarpW3
-- name: A🟢🇯🇵res[🤖💬🔮📺]_f0de605f
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
+- name: D🔴🇷🇴hos[🤖💬🔮📺]_f4f4c48a
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  udp: true
+  x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: U⚪🏳️ukn[🤖🎮🔍📚]_85c0a17a
+  name: C🟠🇩🇪hos[🤖💬🔮🎵]_bb50a52c
   network: tcp
-  port: 23169
-  server: djj.zjlo.top
-  servername: djj.zjlo.top
+  port: 443
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: "6976d670818644cc"
+  server: 4935e4t.de25.h1clayd.click
+  servername: 4935e4t.de25.h1clayd.click
   tls: true
   type: vless
-  udp: true
-  uuid: 9da605d3-f5f7-4135-f806-450f036f9351
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   x-toolall-mihomo: true
-  xudp: true
-- name: D🔴🇩🇪hos[🤖💬🎵🎞️]_0ed63a74
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
+- name: D🔴🇺🇸hos[🐙]_4e17894f
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
   type: http
+  username: fQ67Dpe5dU
+- name: D🔴🇸🇬hos[🤖💬🧩🎭]_d08d2f3c
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20180
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: sg.catxstar.com
+  type: trojan
   udp: true
   x-toolall-mihomo: true
-- name: A🟢🇹🇭res_c0c3add9
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.234
-  type: socks5
-  username: r3ZzP8WW
-- name: C🟠🇺🇸hos[🤖💬🎮✈️]_08d7e43e
-  password: https://xship.best
+- name: C🟠🇺🇸hos[🤖💬🎮🐙]_e26c34b2
+  password: https://xship.2fa.cat
   port: 443
   server: starlink-ft.251313.xyz
   skip-cert-verify: true
-  sni: xship.top
   type: hysteria2
-  udp: true
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: C🟠🇭🇰hos[🔮🎮✈️🔍]_cc6a668d
-  network: tcp
-  port: 47396
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: "fa514b83"
-  server: free.fugui.lol
-  servername: swdist.apple.com
-  tls: true
-  type: vless
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-  x-toolall-mihomo: true
-- name: C🟠🇭🇰hos_47d8185d
-  password: "111"
-  port: 11211
-  server: 47.243.173.50
+- name: C🟠🇲🇽hos_aff11c5d
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.68
   type: socks5
-  username: "111"
-- name: D🔴🇩🇪hos[🤖💬📺🎵]_f53c6917
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+  username: DJy1T0dt
 - name: U⚪🇳🇱ukn[🤖💬🔮🎵]_1b492461
   password: freeuser1
   port: 9251
@@ -1204,29 +999,40 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: C🟠🇯🇵hos[🤖💬🎵🎮]_e7ce069e
-  network: tcp
-  port: 23169
-  server: 155.248.175.201
-  servername: djj.zjlo.top
-  tls: true
-  type: vless
-  uuid: f67b1159-a61f-4ae4-9844-0701b716a290
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: U⚪🏳️ukn[✈️]_f54a90b4
-  network: tcp
+- cipher: aes-256-gcm
+  name: D🔴🇮🇹hos[🤖💬🔮🎵]_2e294afd
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- name: D🔴🇺🇸hos_e7a92f7a
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: U⚪🏳️ukn_fa0120b9
+  network: ws
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 163.245.42.87
-  servername: mother-earth.fyi
+  server: 104.18.42.163
+  servername: guanwang.awsno.com
   tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+  x-toolall-mihomo: true
+- name: D🔴🇦🇪hos[🤖💬🔮🎮]_e221a65c
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20123
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
   x-toolall-mihomo: true
 - name: '说明-来源: Ruk1ng001/freeSub'
   type: trojan
@@ -1235,7 +1041,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 2271 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 2415 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -1261,7 +1067,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Ruk1ng001/freeSub'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 2271 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 2415 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: ♻️
@@ -1271,113 +1077,123 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_847f2db1
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f03b1640
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_4efcc5ec
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - D🔴🇺🇸hos[🤖💬🧩📺]_cc9cfe69
-  - D🔴🇺🇸hos[🤖💬🧩📺]_df2b9dfe
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_c2a23261
-  - D🔴🇺🇸hos[🤖💬🧩📺]_cf54b49d
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_9b101db6
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - D🔴🇺🇸hos[🤖💬🧩📺]_ddf71604
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  - D🔴🇩🇪mob[🤖💬🔮📺]_ee253411
-  - D🔴🇺🇸hos[🤖🔮🧩✈️]_4cec6c79
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_84ab3d39
-  - D🔴🇺🇸hos_a6052a43
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_e82485d8
-  - C🟠🇳🇱hos[🐙]_ac0e39f1
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6103d5ef
-  - U⚪🇳🇱ukn[🤖💬📺🎵]_ad12022f
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
+  - A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
+  - C🟠🇭🇰hos[🤖💬🔮🧩]_61b0e1ad
+  - A🟢🇲🇾res[🤖💬🔮🧩]_922d3184
+  - A🟢🇻🇳res[🤖💬🔮🧩]_7d5131d6
+  - A🟢🇰🇷res[🤖💬🔮🧩]_c219ac8e
+  - D🔴🇺🇸hos[🤖💬🧩📺]_f9030b1a
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_7c60c2a4
+  - U⚪🏳️ukn[🤖💬🔮🧩]_53a0fb8e
+  - A🟢🇻🇳res[🤖💬🔮🧩]_e17842e5
+  - A🟢🇭🇰res[🤖💬🔮🧩]_b9bb3f24
+  - A🟢🇸🇬res[🤖💬🔮🧩]_4eb855be
+  - D🔴🇸🇬hos[🤖💬🧩📺]_481de09f
+  - U⚪🏳️ukn_cde14d11
+  - C🟠🇯🇵hos[💬📺✈️🐙]_8dd4a27b
+  - U⚪🏳️ukn[💬🔮📺🎭]_ce21c8d2
+  - A🟢🇻🇳res[🤖💬🔮🧩]_fdaf6db5
+  - D🔴🇺🇸hos[💬📺🎵🎮]_fc4a1075
+  - U⚪🏳️ukn_bdf20467
+  - A🟢🇹🇼res[🤖💬🧩📺]_8201cec6
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_906a0d86
+  - D🔴🇩🇪hos[🤖💬🎵🎮]_f53c6917
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_e42a580a
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_beaebbc0
   - D🔴🇷🇴hos[🤖💬🔮🧩]_caa83497
-  - D🔴🇩🇪hos[🤖💬🧩📺]_4bdd61b7
-  - A🟢🇬🇧res[🎭🎞️🐙]_5aa3e6c6
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_0b5076bf
-  - C🟠🇬🇧hos[📺🎭🎵🎞️]_628c35bf
-  - A🟢🇲🇽res[📺]_1aa34d5e
-  - D🔴🇪🇨hos[🤖💬🧩📺]_b7f302f8
-  - D🔴🇺🇸hos[📺]_016d9dc7
-  - D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
-  - U⚪🇺🇸ukn[📦🐙]_d22e84be
-  - D🔴🇺🇸hos_034ba6dd
-  - U⚪🏳️ukn[🔍]_c47c7aa0
-  - D🔴🇨🇿hos[🤖💬🧩📺]_4ed6383e
-  - U⚪🇹🇷ukn[🤖💬🔮📺]_9e933bd8
-  - C🟠🇯🇵hos[🤖💬🧩🎵]_40445759
-  - D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
-  - D🔴🇯🇵hos[🤖💬🔮📺]_9d3ee5ab
-  - C🟠🇯🇵hos[🤖💬🧩🎵]_553adaac
-  - C🟠🇲🇽hos_445b01af
-  - D🔴🇭🇰hos[🔮🧩📺🎭]_5283af7f
-  - D🔴🇺🇸hos[🔍]_343ae4aa
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_9f940a28
-  - C🟠🇬🇷hos[🤖💬🧩📺]_8d8bfa9f
-  - A🟢🇺🇸res[🤖💬🧩📺]_72ccc46a
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_4d943620
-  - C🟠🇮🇹hos[🤖💬🔮📺]_04808d3a
-  - A🟢🇹🇭res[💬]_15bcdd51
-  - A🟢🇸🇬res[🤖💬📺🎵]_903162eb
-  - C🟠🇮🇹hos[🤖💬🔮🎵]_30207bf9
+  - D🔴🇺🇸hos[🤖💬🧩🎵]_cf54b49d
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_9b101db6
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_c562dcb3
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
+  - D🔴🇺🇸hos[🤖💬🧩🎞️]_ddf71604
+  - D🔴🇺🇸hos[🤖💬🧩🎵]_c6a884b6
+  - D🔴🇺🇸hos[🎵]_a6052a43
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_4b2bbcd9
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_5e718bf2
+  - D🔴🇺🇸hos[🤖🔮🧩📺]_4cec6c79
+  - A🟢🇰🇷res[💬🎵]_a02ae585
+  - U⚪🇺🇸ukn[📚]_bb2f169d
+  - C🟠🇺🇸hos[🎞️🐙]_daf88949
+  - U⚪🏳️ukn_7ea3ac2e
+  - U⚪🏳️ukn[💬🐙]_da0f0340
+  - A🟢🇫🇷res[🤖💬🔮🧩]_f08f0fd8
+  - U⚪🇭🇰ukn[🤖🎞️📚]_a58fa2ba
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_834e9703
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_690c5e10
+  - C🟠🇺🇸hos_c0874414
+  - D🔴🇺🇦hos[🤖💬🔮🧩]_38562eb3
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
+  - C🟠🇺🇸hos[💬🔮🧩🎮]_49d7b29f
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_c8b57947
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_49894881
+  - A🟢🇰🇷res[🤖🎵🐙🔍]_d8f5ec33
+  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
+  - A🟢🇩🇪res[🤖💬🔮🧩]_bd9c1e43
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_12ca5365
+  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_c2a23261
+  - C🟠🇺🇸hos[🎵🎮🐙]_de543918
+  - U⚪🏳️ukn_40ed6284
+  - U⚪🏳️ukn[🤖📦🎮✈️]_f35213c1
+  - A🟢🇫🇷res[🤖💬🔮📺]_66c9e1d6
+  - A🟢🇲🇽res_24835ec5
+  - U⚪🏳️ukn[📺🔍]_b6a2acc5
   - C🟠🇹🇭hos_5acf8d13
-  - D🔴🇺🇸hos[🤖💬📺🎵]_568f056a
-  - C🟠🇹🇭hos_7f140622
-  - C🟠🇮🇹hos[🤖💬🔮📺]_25decbaa
-  - A🟢🇹🇭res_441fecdf
-  - A🟢🇹🇭res[🔮🎮]_72bd5c3a
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_e0e3bc52
-  - D🔴🇮🇹hos[🤖💬🔮🧩]_8ed40d75
-  - A🟢🇹🇭res_ad18bbea
-  - D🔴🇮🇹hos[🤖💬📺🎵]_ae9a4420
-  - A🟢🇹🇭res_affc047b
-  - D🔴🇸🇬hos[🤖💬🔮🎵]_185196af
+  - D🔴🇺🇸hos[🤖💬📺🎵]_016d9dc7
+  - C🟠🇨🇿hos[🤖💬🧩📺]_4ed6383e
+  - D🔴🇪🇨hos[🤖💬🧩📺]_b7f302f8
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_cf95381b
+  - A🟢🇹🇭res[🤖📺🎵]_5d41bcce
+  - D🔴🇺🇸hos[🤖💬🔮🧩]_1188f394
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_0c9de1a9
   - A🟢🇹🇭res_63f8b36e
-  - A🟢🇹🇭res[💬📺]_a8a9e262
-  - U⚪🏳️ukn[🔍]_38816c17
-  - D🔴🇮🇹hos[🤖💬🔮🎵]_3bb0f43a
-  - A🟢🇹🇭res_18746d5d
-  - C🟠🇲🇽hos_aff11c5d
-  - D🔴🇮🇹hos[🤖💬🔮🎵]_0a1416ce
-  - C🟠🇮🇹hos[🤖💬🔮📺]_885d389b
-  - C🟠🇮🇹hos[🤖💬📺🎵]_ed9e5a0d
-  - A🟢🇹🇭res[📺]_021435aa
-  - C🟠🇮🇹hos[🤖💬🔮📺]_79faec8a
-  - C🟠🇮🇹hos[🤖💬🔮📺]_641a38ed
-  - C🟠🇺🇸hos[🤖💬🔮📺]_0df08e97
-  - C🟠🇮🇹hos[🤖💬🔮🎵]_c9cdfff6
-  - D🔴🇮🇹hos[🤖💬🔮🎮]_48d202d9
-  - C🟠🇪🇸hos[💬🔮🎮🔍]_562212cb
-  - D🔴🇮🇹hos[🤖💬🔮🎵]_ed4de7bb
-  - A🟢🇲🇽res[🐙]_ef0304ae
+  - C🟠🇬🇧hos[🤖💬🔮🧩]_3b170c0b
+  - U⚪🏳️ukn[🤖💬🔮🧩]_d40a8279
+  - A🟢🇳🇱res[💬🧩📺🎵]_2433c44b
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_e4fa7507
+  - D🔴🇯🇵hos[🔮✈️🔍]_586f17fa
+  - A🟢🇮🇹res[🤖💬🔮🧩]_a710464b
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_885d389b
+  - D🔴🇮🇹hos[🤖💬🔮🧩]_c23341c5
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_25decbaa
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_9d3ee5ab
+  - D🔴🇮🇹hos[🤖💬🔮🧩]_e690e14e
+  - D🔴🇺🇸hos[🤖💬🔮🧩]_ffebf486
+  - C🟠🇩🇪hos[🤖💬🧩📺]_4bdd61b7
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_8ed40d75
+  - D🔴🇧🇷hos[🤖💬🔮🎵]_7e42146d
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_c9cdfff6
+  - C🟠🇲🇽hos_445b01af
+  - A🟢🇹🇭res[🤖💬🔮🧩]_50d53112
+  - D🔴🇸🇬hos[🤖💬🔮📺]_185196af
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_04808d3a
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_92c172b4
+  - B🟡🇯🇵bus[🤖💬🔮🧩]_972de45e
+  - D🔴🇺🇸hos[🤖💬📺🎵]_568f056a
+  - D🔴🇬🇷hos[🤖💬🧩📺]_8d8bfa9f
+  - A🟢🇹🇭res_bf81894b
+  - A🟢🇦🇷res[🤖🔮📺🎵]_76d6a578
+  - C🟠🇬🇧hos[🤖💬🔮📺]_38d64b16
+  - A🟢🇸🇬res[🤖💬🎮✈️]_903162eb
+  - A🟢🇳🇱res[🤖💬🔮🎵]_becbee42
+  - D🔴🇧🇷hos[🤖💬🔮🎮]_e9e3fed4
+  - C🟠🇮🇹hos[🤖💬🔮🧩]_07162a4c
+  - D🔴🇮🇳hos[🤖💬🔮🧩]_85ceffae
+  - A🟢🇳🇱res[🤖💬🔮🎮]_2e8886fe
+  - C🟠🇵🇭hos[🤖💬🔮🎮]_ddabf0fd
+  - C🟠🇩🇪hos[🤖💬🔮🎮]_73a2815a
+  - D🔴🇷🇴hos[🤖💬🔮📺]_f4f4c48a
+  - C🟠🇩🇪hos[🤖💬🔮🎵]_bb50a52c
   - D🔴🇺🇸hos[🐙]_4e17894f
-  - U⚪🏳️ukn[🔍]_d16fb539
-  - A🟢🇧🇷res[🤖]_936e7dd6
-  - U⚪🏳️ukn[🔍]_6cdae8fd
-  - D🔴🇮🇹hos[🤖💬🔮📺]_a7740ab5
-  - C🟠🇪🇸hos[🤖💬🔮✈️]_7abde24d
-  - A🟢🇮🇩res[💬]_fb9599de
-  - U⚪🏳️ukn[🔍]_57fa3bc7
-  - D🔴🇸🇬hos[🎮✈️🐙🔍]_146ca5ea
-  - C🟠🇩🇪hos[🤖💬🔮🧩]_3a31cbda
-  - C🟠🇮🇹hos[🤖💬🔮📺]_e4fa7507
-  - C🟠🇯🇵hos[💬🎮✈️📚]_bd5beb5b
-  - A🟢🇹🇭res_976fc8cd
-  - A🟢🇯🇵res[🤖💬🔮📺]_f0de605f
-  - U⚪🏳️ukn[🤖🎮🔍📚]_85c0a17a
-  - D🔴🇩🇪hos[🤖💬🎵🎞️]_0ed63a74
-  - A🟢🇹🇭res_c0c3add9
-  - C🟠🇺🇸hos[🤖💬🎮✈️]_08d7e43e
-  - C🟠🇭🇰hos[🔮🎮✈️🔍]_cc6a668d
-  - C🟠🇭🇰hos_47d8185d
-  - D🔴🇩🇪hos[🤖💬📺🎵]_f53c6917
+  - C🟠🇲🇽hos_aff11c5d
   - U⚪🇳🇱ukn[🤖💬🔮🎵]_1b492461
-  - C🟠🇯🇵hos[🤖💬🎵🎮]_e7ce069e
-  - U⚪🏳️ukn[✈️]_f54a90b4
+  - D🔴🇮🇹hos[🤖💬🔮🎵]_2e294afd
+  - D🔴🇺🇸hos_e7a92f7a
+  - U⚪🏳️ukn_fa0120b9
+  - D🔴🇦🇪hos[🤖💬🔮🎮]_e221a65c
 - name: 🇭🇰
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -1385,7 +1201,16 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - D🔴🇭🇰hos[🔮🧩📺🎭]_5283af7f
+  - C🟠🇭🇰hos[🤖💬🔮🧩]_61b0e1ad
+  - ♻️
+- name: 🇹🇼
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 80
+  lazy: true
+  proxies:
+  - A🟢🇹🇼res[🤖💬🧩📺]_8201cec6
   - ♻️
 - name: 🇯🇵
   type: fallback
@@ -1394,7 +1219,7 @@ proxy-groups:
   tolerance: 80
   lazy: true
   proxies:
-  - D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
   - ♻️
 - name: 🇸🇬
   type: fallback
@@ -1403,7 +1228,7 @@ proxy-groups:
   tolerance: 80
   lazy: true
   proxies:
-  - A🟢🇸🇬res[🤖💬📺🎵]_903162eb
+  - A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
   - ♻️
 - name: 🇺🇸
   type: fallback
@@ -1412,7 +1237,16 @@ proxy-groups:
   tolerance: 150
   lazy: true
   proxies:
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_847f2db1
+  - D🔴🇺🇸hos[🤖💬🧩📺]_f9030b1a
+  - ♻️
+- name: 🇰🇷
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+  lazy: true
+  proxies:
+  - A🟢🇰🇷res[🤖💬🔮🧩]_c219ac8e
   - ♻️
 - name: 🎬
   type: fallback
@@ -1432,7 +1266,7 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f03b1640
+  - A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
   - ♻️
 - name: 🎭
   type: fallback
@@ -1441,16 +1275,19 @@ proxy-groups:
   tolerance: 150
   lazy: true
   proxies:
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f03b1640
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_84ab3d39
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6103d5ef
-  - D🔴🇩🇪hos[🤖💬🧩📺]_4bdd61b7
-  - A🟢🇬🇧res[🎭🎞️🐙]_5aa3e6c6
-  - C🟠🇬🇧hos[📺🎭🎵🎞️]_628c35bf
-  - D🔴🇭🇰hos[🔮🧩📺🎭]_5283af7f
-  - A🟢🇺🇸res[🤖💬🧩📺]_72ccc46a
+  - A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
+  - C🟠🇭🇰hos[🤖💬🔮🧩]_61b0e1ad
+  - A🟢🇲🇾res[🤖💬🔮🧩]_922d3184
+  - A🟢🇰🇷res[🤖💬🔮🧩]_c219ac8e
+  - D🔴🇺🇸hos[🤖💬🧩📺]_f9030b1a
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_7c60c2a4
+  - U⚪🏳️ukn[🤖💬🔮🧩]_53a0fb8e
+  - A🟢🇭🇰res[🤖💬🔮🧩]_b9bb3f24
+  - U⚪🏳️ukn[💬🔮📺🎭]_ce21c8d2
+  - A🟢🇹🇼res[🤖💬🧩📺]_8201cec6
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_906a0d86
+  - A🟢🇩🇪res[🤖💬🔮🧩]_bd9c1e43
+  - U⚪🏳️ukn[🤖💬🔮🧩]_d40a8279
   - 🇭🇰
   - 🇸🇬
   - ♻️
@@ -1461,26 +1298,26 @@ proxy-groups:
   tolerance: 80
   lazy: true
   proxies:
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_847f2db1
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f03b1640
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_4efcc5ec
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - D🔴🇺🇸hos[🤖💬🧩📺]_cc9cfe69
-  - D🔴🇺🇸hos[🤖💬🧩📺]_df2b9dfe
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_c2a23261
-  - D🔴🇺🇸hos[🤖💬🧩📺]_cf54b49d
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_9b101db6
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - D🔴🇺🇸hos[🤖💬🧩📺]_ddf71604
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  - D🔴🇩🇪mob[🤖💬🔮📺]_ee253411
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_84ab3d39
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_e82485d8
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6103d5ef
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
+  - A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
+  - C🟠🇭🇰hos[🤖💬🔮🧩]_61b0e1ad
+  - A🟢🇲🇾res[🤖💬🔮🧩]_922d3184
+  - A🟢🇻🇳res[🤖💬🔮🧩]_7d5131d6
+  - A🟢🇰🇷res[🤖💬🔮🧩]_c219ac8e
+  - D🔴🇺🇸hos[🤖💬🧩📺]_f9030b1a
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_7c60c2a4
+  - U⚪🏳️ukn[🤖💬🔮🧩]_53a0fb8e
+  - A🟢🇻🇳res[🤖💬🔮🧩]_e17842e5
+  - A🟢🇭🇰res[🤖💬🔮🧩]_b9bb3f24
+  - A🟢🇸🇬res[🤖💬🔮🧩]_4eb855be
+  - D🔴🇸🇬hos[🤖💬🧩📺]_481de09f
+  - A🟢🇻🇳res[🤖💬🔮🧩]_fdaf6db5
+  - D🔴🇺🇸hos[💬📺🎵🎮]_fc4a1075
+  - A🟢🇹🇼res[🤖💬🧩📺]_8201cec6
+  - D🔴🇩🇪hos[🤖💬🎵🎮]_f53c6917
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_beaebbc0
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_caa83497
   - ♻️
 - name: 🎪
   type: fallback
@@ -1508,7 +1345,7 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
   - 🇺🇸
   - 🇯🇵
   - 🇸🇬
@@ -1548,7 +1385,7 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
   - ♻️
 - name: 📥
   type: load-balance
@@ -1557,7 +1394,7 @@ proxy-groups:
   lazy: true
   strategy: consistent-hashing
   proxies:
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
   - ♻️
 - name: 🎯
   type: select
@@ -1570,56 +1407,56 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_262bcecb
-  - D🔴🇺🇸hos[🤖💬🧩🎵]_847f2db1
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f03b1640
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_4efcc5ec
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_4cc7e454
-  - D🔴🇺🇸hos[🤖💬🧩📺]_cc9cfe69
-  - D🔴🇺🇸hos[🤖💬🧩📺]_df2b9dfe
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_c2a23261
-  - D🔴🇺🇸hos[🤖💬🧩📺]_cf54b49d
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_9b101db6
-  - C🟠🇬🇷hos[🤖💬🧩📺]_4cc1e630
-  - D🔴🇺🇸hos[🤖💬🧩📺]_ddf71604
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_5a16ef58
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
-  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
-  - D🔴🇩🇪mob[🤖💬🔮📺]_ee253411
-  - D🔴🇺🇸hos[🤖🔮🧩✈️]_4cec6c79
-  - D🔴🇫🇷hos[🤖💬🔮🧩]_84ab3d39
-  - D🔴🇺🇸hos_a6052a43
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_e82485d8
-  - C🟠🇳🇱hos[🐙]_ac0e39f1
-  - D🔴🇺🇸hos[🤖💬🔮🧩]_6103d5ef
-  - U⚪🇳🇱ukn[🤖💬📺🎵]_ad12022f
+  - C🟠🇯🇵hos[🤖🔮🧩🎵]_e33e9dba
+  - A🟢🇸🇬res[🤖💬🔮🧩]_83fa2f5b
+  - C🟠🇭🇰hos[🤖💬🔮🧩]_61b0e1ad
+  - A🟢🇲🇾res[🤖💬🔮🧩]_922d3184
+  - A🟢🇻🇳res[🤖💬🔮🧩]_7d5131d6
+  - A🟢🇰🇷res[🤖💬🔮🧩]_c219ac8e
+  - D🔴🇺🇸hos[🤖💬🧩📺]_f9030b1a
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_7c60c2a4
+  - U⚪🏳️ukn[🤖💬🔮🧩]_53a0fb8e
+  - A🟢🇻🇳res[🤖💬🔮🧩]_e17842e5
+  - A🟢🇭🇰res[🤖💬🔮🧩]_b9bb3f24
+  - A🟢🇸🇬res[🤖💬🔮🧩]_4eb855be
+  - D🔴🇸🇬hos[🤖💬🧩📺]_481de09f
+  - U⚪🏳️ukn_cde14d11
+  - C🟠🇯🇵hos[💬📺✈️🐙]_8dd4a27b
+  - U⚪🏳️ukn[💬🔮📺🎭]_ce21c8d2
+  - A🟢🇻🇳res[🤖💬🔮🧩]_fdaf6db5
+  - D🔴🇺🇸hos[💬📺🎵🎮]_fc4a1075
+  - U⚪🏳️ukn_bdf20467
+  - A🟢🇹🇼res[🤖💬🧩📺]_8201cec6
+  - D🔴🇯🇵hos[🤖💬🔮🧩]_906a0d86
+  - D🔴🇩🇪hos[🤖💬🎵🎮]_f53c6917
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_47dbdd00
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_e42a580a
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_beaebbc0
   - D🔴🇷🇴hos[🤖💬🔮🧩]_caa83497
-  - D🔴🇩🇪hos[🤖💬🧩📺]_4bdd61b7
-  - A🟢🇬🇧res[🎭🎞️🐙]_5aa3e6c6
-  - D🔴🇷🇴hos[🤖💬🔮🧩]_0b5076bf
-  - C🟠🇬🇧hos[📺🎭🎵🎞️]_628c35bf
-  - A🟢🇲🇽res[📺]_1aa34d5e
-  - D🔴🇪🇨hos[🤖💬🧩📺]_b7f302f8
-  - D🔴🇺🇸hos[📺]_016d9dc7
-  - D🔴🇯🇵hos[🤖💬🔮🧩]_0f4839b8
-  - U⚪🇺🇸ukn[📦🐙]_d22e84be
-  - D🔴🇺🇸hos_034ba6dd
-  - U⚪🏳️ukn[🔍]_c47c7aa0
-  - D🔴🇨🇿hos[🤖💬🧩📺]_4ed6383e
-  - U⚪🇹🇷ukn[🤖💬🔮📺]_9e933bd8
-  - C🟠🇯🇵hos[🤖💬🧩🎵]_40445759
-  - D🔴🇮🇪hos[🤖💬🧩🎵]_37e4a848
-  - D🔴🇯🇵hos[🤖💬🔮📺]_9d3ee5ab
-  - C🟠🇯🇵hos[🤖💬🧩🎵]_553adaac
-  - C🟠🇲🇽hos_445b01af
-  - D🔴🇭🇰hos[🔮🧩📺🎭]_5283af7f
-  - D🔴🇺🇸hos[🔍]_343ae4aa
-  - C🟠🇮🇹hos[🤖💬🔮🧩]_9f940a28
-  - C🟠🇬🇷hos[🤖💬🧩📺]_8d8bfa9f
-  - A🟢🇺🇸res[🤖💬🧩📺]_72ccc46a
-  - C🟠🇺🇸hos[🤖💬🔮🧩]_4d943620
-  - C🟠🇮🇹hos[🤖💬🔮📺]_04808d3a
+  - D🔴🇺🇸hos[🤖💬🧩🎵]_cf54b49d
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_9b101db6
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_c562dcb3
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_461db3e8
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_33ffe908
+  - D🔴🇺🇸hos[🤖💬🧩🎞️]_ddf71604
+  - D🔴🇺🇸hos[🤖💬🧩🎵]_c6a884b6
+  - D🔴🇺🇸hos[🎵]_a6052a43
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_4b2bbcd9
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_5e718bf2
+  - D🔴🇺🇸hos[🤖🔮🧩📺]_4cec6c79
+  - A🟢🇰🇷res[💬🎵]_a02ae585
+  - U⚪🇺🇸ukn[📚]_bb2f169d
+  - C🟠🇺🇸hos[🎞️🐙]_daf88949
+  - U⚪🏳️ukn_7ea3ac2e
+  - U⚪🏳️ukn[💬🐙]_da0f0340
+  - A🟢🇫🇷res[🤖💬🔮🧩]_f08f0fd8
+  - U⚪🇭🇰ukn[🤖🎞️📚]_a58fa2ba
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_834e9703
+  - D🔴🇷🇴hos[🤖💬🔮🧩]_690c5e10
+  - C🟠🇺🇸hos_c0874414
+  - D🔴🇺🇦hos[🤖💬🔮🧩]_38562eb3
+  - D🔴🇳🇱hos[🤖💬🔮🧩]_f6303636
+  - C🟠🇺🇸hos[💬🔮🧩🎮]_49d7b29f
   - ♻️
 - name: 🌍
   type: select
@@ -1641,9 +1478,11 @@ proxy-groups:
   - 🐧
   - 🧑‍💻
   - 🇭🇰
+  - 🇹🇼
   - 🇯🇵
   - 🇸🇬
   - 🇺🇸
+  - 🇰🇷
   - DIRECT
 - name: 🛡️
   type: select
