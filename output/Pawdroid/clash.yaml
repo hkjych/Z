@@ -1,22 +1,27 @@
 proxies:
-- name: 英国+伦敦南岸大学
+- name: 爱沙尼亚+
   type: vless
-  server: 136.148.83.70
+  server: 196.196.148.76
   port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
+  flow: xtls-rprx-vision
   tls: true
-  servername: aszbk-ru-78dc.my-fade.cloud
-- name: 俄罗斯+
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+- name: 新西兰+
   type: ss
-  server: 194.87.69.12
-  port: 18443
+  server: 202.50.253.36
+  port: 19999
   cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 塞舌尔+
+- name: 西班牙+
   type: vless
-  server: 196.199.122.2
+  server: 196.196.149.80
   port: 443
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
@@ -27,29 +32,6 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
-- name: 新西兰+
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '新西兰+ #2'
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '英国+伦敦南岸大学 #2'
-  type: vless
-  server: 136.148.83.71
-  port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
-  udp: true
-  tls: true
-  servername: wccfu-ru-79dc.my-fade.cloud
-  client-fingerprint: qq
 - name: 德国+阿里云
   type: ss
   server: 47.254.167.157
@@ -57,33 +39,93 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: '俄罗斯+ #2'
+- name: '西班牙+ #2'
   type: vless
-  server: 185.134.203.106
+  server: 196.245.52.187
   port: 443
-  uuid: 3af3f8f0-569f-4dd3-be99-2ef4bfe7867c
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
-  flow: xtls-rprx-vision
   tls: true
-  servername: api.vk.me
-  client-fingerprint: chrome
+  servername: 04535dt.us8.h1clayd.click
+  client-fingerprint: firefox
   reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: "db04ce8bdb8900f1"
-- name: '新西兰+ #3'
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
+- name: 俄罗斯+
+  type: vless
+  server: devcdn.icu
+  port: 443
+  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  udp: true
+  tls: true
+  servername: devcdn.icu
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /edge/chunk/b2265efffa29/
+    headers:
+      Host: devcdn.icu
+- name: '新西兰+ #2'
   type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '新西兰+ #4'
+- name: 美国+Xerox
+  type: vless
+  server: 13.141.36.127
+  port: 443
+  uuid: 73ebb72a-e2a8-44c8-a0e3-938740a4f578
+  udp: true
+  tls: true
+  servername: 079b6et.ee5.h1clayd.shop
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U
+    short-id: "35a329a23bb50d2b"
+- name: '爱沙尼亚+ #2'
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: "361d0dd59c70516f"
+- name: '新西兰+ #3'
   type: ss
-  server: 202.50.253.18
+  server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: '美国+Xerox #2'
+  type: vless
+  server: 8a2e72t.nl20.h1clayd.shop
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+- name: 英国+伦敦南岸大学
+  type: vless
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: wccfu-ru-79dc.my-fade.cloud
 - name: '说明-来源: Pawdroid/Free-servers'
   type: trojan
   server: 127.0.0.1
@@ -91,7 +133,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 42 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 43 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -117,6 +159,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Pawdroid/Free-servers'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 42 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 43 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

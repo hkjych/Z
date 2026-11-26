@@ -1,65 +1,123 @@
 proxies:
-- delay: 2269
-  name: 🇩🇪DE_1|1.7MB/s
+- name: 🇧🇪BE_1|1.6MB/s
+  port: 443
+  server: 146.70.123.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_1|1.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_2|843KB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_3|1.0MB/s
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
-- delay: 2301
-  name: 🇫🇷FR_1|2.1MB/s
+  udp: true
+- name: 🇫🇷FR_1|1.5MB/s
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-- delay: 2262
-  name: 🇳🇱NL_1|1.8MB/s
-  password: "null"
+  udp: true
+- name: 🇬🇧GB_1|1.3MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇪IE_1|1.0MB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇪IE_2|1.6MB/s
+  port: 443
+  server: 18.200.158.139
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_1|1.4MB/s
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_2|555KB/s
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
-  username: "null"
-- delay: 2269
-  name: 🇳🇱NL_2|1.4MB/s
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 2302
-  name: 🇳🇱NL_3|663KB/s
+  udp: true
+- name: 🇳🇱NL_3|798KB/s
   password: "null"
   port: 9002
   server: 84.17.47.147
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
   username: "null"
-- down: ''
-  name: 🇩🇪DE_2|2.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.190
+- name: 🇳🇱NL_4|1.3MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.149
   skip-cert-verify: true
-  sni: mother-earth.fyi
-  type: hysteria2
-  up: ''
-- down: ''
-  name: 🇩🇪DE_3|4.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.57
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_5|1.5MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.123
   skip-cert-verify: true
-  sni: mother-earth.fyi
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱NL_6|734KB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_1|1.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  sni: usgp1-cdn-route.couldflare-cdn.com
+- name: 🇺🇸US_2|1.2MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -67,7 +125,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1133 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1151 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -93,7 +151,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1133 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1151 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
