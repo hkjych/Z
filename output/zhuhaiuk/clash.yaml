@@ -4,167 +4,73 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: "DE"
-  type: http
-  server: 149.36.50.157
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US
   type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  sni: 138.199.35.197
-  skip-cert-verify: true
-- name: US - 02
-  type: http
-  server: 141.148.181.144
+  server: 107.151.238.27
   port: 443
+  username: testuser1
+  password: "e4b72b531a2d10900519"
   tls: true
-  sni: 141.148.181.144
+  sni: 107.151.238.27
   skip-cert-verify: true
-- name: US - 03
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: US - 04
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: US - 05
-  type: http
-  server: 137.175.22.40
-  port: 443
-  tls: true
-  sni: 137.175.22.40
-  skip-cert-verify: true
-- name: US - 06
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  tls: true
-  sni: 138.199.35.210
-  skip-cert-verify: true
-- name: US - 07
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 138.199.35.218
-  skip-cert-verify: true
-- name: CH
-  type: http
-  server: 37.120.213.210
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: US - 08
-  type: http
-  server: 38.28.185.166
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: JP
+- name: "DE"
   type: vless
-  server: 139.162.101.74
+  server: 189.24.106.163
   port: 443
-  uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
+  uuid: ed94398f-893f-40c6-b14c-bf02b5f6be16
   tls: true
-  servername: itunes.apple.com
+  servername: navi.bankrate.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: "2da72ce6"
+- name: TW
+  type: anytls
+  server: site.ddddd.site
+  port: 36039
+  password: 517406f2-6d1e-4a83-a614-aeda01165379
+  udp: true
+  sni: virtual.ubuntu24.com
   skip-cert-verify: true
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-  reality-opts:
-    public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
-    short-id: "7e1e09f4"
-- name: US - 09
+- name: DE - 02
   type: http
-  server: 38.28.185.205
-  port: 443
-  tls: true
-  sni: 38.28.185.205
-  skip-cert-verify: true
-- name: AT
-  type: http
-  server: 146.70.244.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - 10
-  type: http
-  server: 23.133.176.14
-  port: 443
+  server: 158.173.154.4
+  port: 9002
   username: "null"
   password: "null"
   tls: true
+  sni: 158.173.154.4
+  skip-cert-verify: true
+- name: US - 02
+  type: vless
+  server: 179.254.92.134
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: assets-70.topp-con.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
+    short-id: "c33807f76b689c9a"
+- name: IT
+  type: http
+  server: 91.243.118.217
+  port: 443
+  tls: true
+  sni: 91.243.118.217
+  skip-cert-verify: true
+- name: GB
+  type: hysteria2
+  server: 128.254.186.190
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  sni: mother-earth.fyi
   skip-cert-verify: true
 - name: NL
   type: vless
-  server: 5d0319t.nl7.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 5d0319t.nl7.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-- name: SG
-  type: vless
-  server: 172.104.186.185
-  port: 443
-  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
-  tls: true
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-  reality-opts:
-    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
-    short-id: "b29516da"
-- name: US - 11
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: US - 12
-  type: socks5
-  server: 69.55.49.177
-  port: 38182
-- name: US - 13
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  username: "null"
-  password: None
-  tls: true
-  sni: 138.199.35.209
-  skip-cert-verify: true
-- name: NL - 02
-  type: vless
-  server: 79.182.39.135
+  server: 15b171g.nl7.h1clayd.click
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
@@ -176,56 +82,118 @@ proxies:
   reality-opts:
     public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
     short-id: "50a749f0eccb628c"
-- name: US - 14
+- name: CZ
   type: http
-  server: 129.153.93.183
-  port: 443
-  username: "null"
-  password: "null"
+  server: 152.233.16.174
+  port: 9443
   tls: true
-  sni: 129.153.93.183
+  sni: 152.233.16.174
   skip-cert-verify: true
-- name: SG - 02
-  type: vless
-  server: free.fugui.lol
-  port: 51283
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-  flow: xtls-rprx-vision
-  tls: true
-  servername: swdist.apple.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: "fa514b83"
-- name: US - 15
+- name: DE - 03
   type: http
-  server: 138.199.35.209
-  port: 9002
-  username: "null"
-  password: "null"
+  server: 130.17.13.234
+  port: 8443
   tls: true
-  sni: 138.199.35.209
-  skip-cert-verify: true
-- name: DE - 02
-  type: http
-  server: 213.109.163.119
-  port: 443
-  tls: true
-  sni: 213.109.163.119
   skip-cert-verify: true
 - name: HK
   type: http
-  server: 119.28.24.235
-  port: 3128
+  server: 209.33.167.96
+  port: 8443
   tls: true
+  sni: 209.33.167.96
+  skip-cert-verify: true
+- name: IT - 02
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: ID
+  type: http
+  server: 178.248.73.58
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 178.248.73.58
+  skip-cert-verify: true
+- name: JP
+  type: vless
+  server: 139.162.91.247
+  port: 443
+  uuid: 8cfdacf8-e781-42f0-9872-8d1d22469de5
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: _gFFckW3h8hFfllawgec9U2PDBeLJeCK_Jgk1S5tgC8
+    short-id: "536d7739"
+- name: DE - 04
+  type: http
+  server: 193.233.75.115
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: TW - 02
+  type: anytls
+  server: theme.lovehk.xyz
+  port: 443
+  password: 4029698d-89a9-4e90-9eac-9b8c7bf4b5b5
+  udp: true
+  sni: theme.lovehk.xyz
+  skip-cert-verify: true
+- name: IL
+  type: http
+  server: 62.90.77.30
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 62.90.77.30
+  skip-cert-verify: true
+- name: LV
+  type: http
+  server: 185.219.159.15
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: JP - 02
+  type: http
+  server: 8.216.57.38
+  port: 443
+  tls: true
+  sni: 8.216.57.38
+  skip-cert-verify: true
+- name: ID - 02
+  type: http
+  server: 103.86.117.202
+  port: 443
+  username: "null"
+  password: "null"
+  tls: true
+  sni: 103.86.117.202
   skip-cert-verify: true
 - name: HK - 02
   type: http
-  server: fan.240104.xyz
+  server: 151.242.183.28
   port: 443
   tls: true
-  sni: fan.240104.xyz
+  sni: 151.242.183.28
   skip-cert-verify: true
+- name: DE - 05
+  type: anytls
+  server: signal.frnhk.xyz
+  port: 443
+  password: 9f662cd7-13d4-4571-82a6-9d8b613dad7c
+  udp: true
+  sni: signal.frnhk.xyz
 - name: KR
   type: http
   server: 152.69.230.221
@@ -236,30 +204,18 @@ proxies:
   type: socks5
   server: 59.11.209.162
   port: 1080
-- name: ID
+- name: SG
   type: socks5
-  server: 203.84.138.59
+  server: 66.80.2.252
   port: 62000
-  username: 9tcjLp2W
-  password: RRWtX6XP
-- name: VN
-  type: socks5
-  server: 221.133.22.51
-  port: 62000
-  username: KUs4xRXd
-  password: 480w0Yy4
-- name: IT
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT - 02
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  username: usereb7d
+  password: "c0a34a"
+- name: SG - 02
+  type: http
+  server: 154.26.139.24
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: RU - 01
   type: vless
   server: 201.24.116.192
@@ -348,38 +304,32 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - "DE"
   - US
-  - US - 02
-  - US - 03
-  - US - 04
-  - US - 05
-  - US - 06
-  - US - 07
-  - CH
-  - US - 08
-  - JP
-  - US - 09
-  - AT
-  - US - 10
-  - NL
-  - SG
-  - US - 11
-  - US - 12
-  - US - 13
-  - NL - 02
-  - US - 14
-  - SG - 02
-  - US - 15
+  - "DE"
+  - TW
   - DE - 02
+  - US - 02
+  - IT
+  - GB
+  - NL
+  - CZ
+  - DE - 03
   - HK
+  - IT - 02
+  - ID
+  - JP
+  - DE - 04
+  - TW - 02
+  - IL
+  - LV
+  - JP - 02
+  - ID - 02
   - HK - 02
+  - DE - 05
   - KR
   - KR - 02
-  - ID
-  - VN
-  - IT
-  - IT - 02
+  - SG
+  - SG - 02
   - RU - 01
   - RU - 03
   - RU - 02

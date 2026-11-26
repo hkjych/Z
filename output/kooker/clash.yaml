@@ -1,139 +1,74 @@
 proxies:
-- name: 🇩🇪DE_1|1.3MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
   udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_1|1.2MB/s
-  password: "null"
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  sni: 84.17.47.147
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴RO_1|1.0MB/s
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_2|1.5MB/s
-  password: "null"
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: 193.176.84.35
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴RO_3|615KB/s
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_2|551KB/s
-  password: None
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|2.1MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
   udp: true
-  x-toolall-mihomo: true
-- name: 🇳🇱NL_3|912KB/s
-  password: "null"
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: 🇷🇴RO_4|2.6MB/s
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_4|1.9MB/s
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|1.7MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
   udp: true
-  x-toolall-mihomo: true
-- name: 🇷🇴RO_5|797KB/s
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_6|1.5MB/s
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_7|1.3MB/s
-  password: "null"
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  sni: 193.176.84.33
-  tls: true
-  type: http
-  username: "null"
-- name: 🇲🇽MX_1|1.5MB/s
-  password: lcFa8dTH
-  port: 62000
-  server: 94.194.165.96
-  type: socks5
-  username: QyVdo5ks
-- name: 🇹🇭TH_1|985KB/s
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.82
-  type: socks5
-  username: rnt2L4XO
-- name: 🇷🇴RO_8|539KB/s
-  password: "null"
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: 🇹🇭TH_2|993KB/s
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.135
-  type: socks5
-  username: X3s3JteD
-- name: 🇹🇭TH_3|2.3MB/s
-  password: Ks4Iab43
-  port: 42000
-  server: 82.47.152.151
-  type: socks5
-  username: userLjVB
-- name: 🇲🇽MX_2|765KB/s
-  password: DJy1T0dt
-  port: 42000
-  server: 144.225.47.8
-  type: socks5
-  username: Tek2x6av
-- name: 🇹🇭TH_4|1.4MB/s
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.158
-  type: socks5
-  username: AJ3d9gJw
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_5|1.5MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_6|2.1MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_7|2.0MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_8|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_9|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_10|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -141,7 +76,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1157 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1139 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -167,7 +102,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1157 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1139 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
