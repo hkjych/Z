@@ -4,64 +4,74 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+- name: "DE"
+  type: http
+  server: 130.17.13.234
+  port: 8443
+  tls: true
+  sni: 130.17.13.234
+  skip-cert-verify: true
+- name: VN
+  type: socks5
+  server: 221.133.22.195
+  port: 62000
+  username: KUs4xRXd
+  password: 480w0Yy4
 - name: US
   type: http
-  server: 38.28.185.152
-  port: 443
+  server: 23.161.192.49
+  port: 9443
   tls: true
   skip-cert-verify: true
 - name: US - 02
   type: http
-  server: 38.28.185.130
-  port: 443
+  server: 138.199.35.207
+  port: 9002
+  username: "null"
+  password: "null"
   tls: true
+  skip-cert-verify: true
+- name: "CA"
+  type: http
+  server: 198.44.142.27
+  port: 9443
+  tls: true
+  sni: 198.44.142.27
   skip-cert-verify: true
 - name: US - 03
   type: http
-  server: 138.199.35.195
-  port: 9002
-  username: "null"
-  password: "null"
+  server: fan.596189.xyz
+  port: 443
+  username: bnVsbDpudWxs
   tls: true
+  sni: fan.596189.xyz
+- name: TW
+  type: anytls
+  server: rtifgjdr.df6h451rh.xin
+  port: 443
+  password: "2902c46c8493"
+  udp: true
+  sni: rtifgjdr.df6h451rh.xin
+  skip-cert-verify: true
+- name: TH
+  type: socks5
+  server: 82.47.152.113
+  port: 42000
+  username: userLjVB
+  password: Ks4Iab43
+- name: DE - 02
+  type: http
+  server: 87.106.223.158
+  port: 443
+  tls: true
+  sni: 87.106.223.158
   skip-cert-verify: true
 - name: US - 04
   type: http
-  server: 138.199.35.196
-  port: 9002
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: NL
-  type: http
-  server: 84.17.47.124
-  port: 9002
-  tls: true
-  sni: 84.17.47.124
-  skip-cert-verify: true
-- name: NL - 02
-  type: vless
-  server: 153.56.231.73
+  server: 38.28.193.71
   port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: 717252g.nl8.h1clayd.click
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-- name: NL - 03
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  username: "null"
-  password: None
-  tls: true
-  sni: 51.159.225.196
+  sni: 38.28.193.71
   skip-cert-verify: true
 - name: HK
   type: anytls
@@ -70,141 +80,83 @@ proxies:
   password: "0324fbc29561"
   udp: true
   skip-cert-verify: true
-- name: US - 05
+- name: NL
   type: http
-  server: fan.365747.xyz
-  port: 443
-  tls: true
-  sni: fan.365747.xyz
-  skip-cert-verify: true
-- name: US - 06
-  type: http
-  server: 138.199.35.202
+  server: 84.17.47.148
   port: 9002
+  username: "null"
+  password: "null"
   tls: true
-  sni: 138.199.35.202
   skip-cert-verify: true
 - name: JP
-  type: vless
-  server: 172.105.203.15
+  type: http
+  server: fan.587475.xyz
   port: 443
-  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
   tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
+  sni: fan.587475.xyz
+  skip-cert-verify: true
+- name: BR
+  type: socks5
+  server: 191.7.129.133
+  port: 62000
+  username: uwrgfkwg
+  password: 0mvrt5jb
+- name: MX
+  type: vless
+  server: dddz-1-x.473221.xyz
+  port: 43116
+  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: v1-dy.ixigua.com
+  client-fingerprint: edge
   reality-opts:
-    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
-    short-id: "0784b134"
-- name: ES
-  type: vless
-  server: 196.196.149.80
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  tls: true
-  servername: b3cd32g.es1.h1clayd.click
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts: null
-  reality-opts:
-    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
-    short-id: "e7cffac9f8cfb434"
-- name: US - 07
+    public-key: rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE
+    short-id: "29ad689280e2f0ec"
+- name: TW - 02
   type: http
-  server: 50.76.211.251
-  port: 8090
+  server: 47.243.181.85
+  port: 42536
   tls: true
-  sni: 50.76.211.251
-  skip-cert-verify: true
-- name: US - 08
-  type: http
-  server: 45.145.72.122
-  port: 8443
-  tls: true
-  sni: 45.145.72.122
-  skip-cert-verify: true
-- name: TW
-  type: anytls
-  server: rtifgjdr.df6h451rh.xin
-  port: 443
-  password: "2902c46c8493"
-  udp: true
-  skip-cert-verify: true
-- name: US - 09
-  type: http
-  server: 162.244.227.36
-  port: 443
-  tls: true
-  sni: 162.244.227.36
-  skip-cert-verify: true
-- name: JP - 02
-  type: vless
-  server: 213.183.41.31
-  port: 8463
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  tls: true
-  servername: share.plumstatic.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws
-- name: US - 10
-  type: http
-  server: 23.133.176.14
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-- name: US - 11
-  type: http
-  server: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
-  port: 5443
-  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  tls: true
-  sni: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
-- name: US - 12
-  type: http
-  server: 38.28.185.247
-  port: 443
-  tls: true
-  sni: 38.28.185.247
-  skip-cert-verify: true
-- name: US - 13
-  type: http
-  server: 137.175.22.85
-  port: 443
-  tls: true
-  sni: 137.175.22.85
-  skip-cert-verify: true
-- name: US - 14
-  type: http
-  server: 162.244.227.36
-  port: 443
-  username: "null"
-  password: "null"
-  tls: true
-  sni: 162.244.227.36
   skip-cert-verify: true
 - name: KR
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+- name: US - 05
   type: http
-  server: 152.69.230.221
+  server: 138.199.35.195
+  port: 9002
+  username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+- name: TH - 02
+  type: socks5
+  server: 168.222.8.66
+  port: 42000
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: US - 06
+  type: http
+  server: 66.135.172.202
   port: 443
   tls: true
   skip-cert-verify: true
-- name: KR - 02
+- name: IL
   type: http
-  server: 152.69.230.221
+  server: 62.90.77.30
   port: 443
+  username: "null"
+  password: "null"
   tls: true
-  sni: 152.69.230.221
   skip-cert-verify: true
+- name: HK - 02
+  type: ss
+  server: e.node001.download
+  port: 33878
+  cipher: chacha20-ietf-poly1305
+  password: aqfNMqGyxRTHwXOy
 - name: SG
   type: socks5
   server: 66.80.2.252
@@ -217,21 +169,9 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: VN
-  type: socks5
-  server: 221.133.22.195
-  port: 62000
-  username: KUs4xRXd
-  password: 480w0Yy4
-- name: VN - 02
-  type: socks5
-  server: 221.133.22.51
-  port: 62000
-  username: KUs4xRXd
-  password: 480w0Yy4
-- name: RU - 03
+- name: RU - 01
   type: vless
-  server: 201.24.116.192
+  server: vps3.nemnogogo.com
   port: 443
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   udp: true
@@ -241,18 +181,20 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: RU - 02
+- name: US - 01
   type: vless
-  server: 201.51.12.98
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
   port: 443
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
   udp: true
-  network: grpc
+  network: ws
   tls: true
-  servername: vps3.nemnogogo.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  skip-cert-verify: true
+  ws-opts:
+    path: /ffad70ffdfc3bcda
+    headers:
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
 - name: '说明-来源: zhuhaiuk/free-nodes'
   type: trojan
   server: 127.0.0.1
@@ -293,36 +235,32 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - "DE"
+  - VN
   - US
   - US - 02
+  - "CA"
   - US - 03
-  - US - 04
-  - NL
-  - NL - 02
-  - NL - 03
-  - HK
-  - US - 05
-  - US - 06
-  - JP
-  - ES
-  - US - 07
-  - US - 08
   - TW
-  - US - 09
-  - JP - 02
-  - US - 10
-  - US - 11
-  - US - 12
-  - US - 13
-  - US - 14
+  - TH
+  - DE - 02
+  - US - 04
+  - HK
+  - NL
+  - JP
+  - BR
+  - MX
+  - TW - 02
   - KR
-  - KR - 02
+  - US - 05
+  - TH - 02
+  - US - 06
+  - IL
+  - HK - 02
   - SG
   - SG - 02
-  - VN
-  - VN - 02
-  - RU - 03
-  - RU - 02
+  - RU - 01
+  - US - 01
 rules:
 - GEOSITE,CN,DIRECT
 - GEOIP,CN,DIRECT

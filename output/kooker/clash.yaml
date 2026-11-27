@@ -1,12 +1,12 @@
 proxies:
-- name: 🇧🇪BE_1|1.6MB/s
+- name: 🇧🇪BE_1|898KB/s
   port: 443
   server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_1|1.8MB/s
+- name: 🇩🇪DE_1|1.6MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -14,14 +14,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_2|843KB/s
+- name: 🇩🇪DE_2|525KB/s
+  password: None
   port: 9002
-  server: 158.173.154.1
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_3|1.0MB/s
+- name: 🇩🇪DE_3|750KB/s
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
@@ -35,51 +36,51 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB_1|1.3MB/s
+- name: 🇬🇧GB_1|1.5MB/s
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇮🇪IE_1|1.0MB/s
+- name: 🇮🇪IE_1|1.5MB/s
   port: 443
   server: 34.249.214.108
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇮🇪IE_2|1.6MB/s
+- name: 🇮🇪IE_2|1.3MB/s
   port: 443
   server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL_1|1.4MB/s
+- name: 🇳🇱NL_1|1.2MB/s
   port: 443
   server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL_2|555KB/s
+- name: 🇳🇱NL_2|853KB/s
+  password: "null"
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL_3|798KB/s
-  password: "null"
+  username: "null"
+- name: 🇳🇱NL_3|1.1MB/s
   port: 9002
-  server: 84.17.47.147
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: "null"
-- name: 🇳🇱NL_4|1.3MB/s
+- name: 🇳🇱NL_4|1.5MB/s
   password: None
   port: 9002
   server: 84.17.47.149
@@ -87,7 +88,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL_5|1.5MB/s
+- name: 🇳🇱NL_5|1.1MB/s
   password: None
   port: 9002
   server: 84.17.47.123
@@ -95,29 +96,186 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇳🇱NL_6|734KB/s
+- name: 🇳🇱NL_6|1017KB/s
   port: 9002
   server: 84.17.47.124
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_1|1.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- down: ''
+  name: 🇩🇪DE_4|3.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: uk-tube-01.stre4m.net
+  skip-cert-verify: true
+  sni: mother-earth.fyi
+  type: hysteria2
+  up: ''
+- cipher: 2022-blake3-chacha20-poly1305
+  name: ❓Other_1|2.1MB/s
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
-  server: usgp1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
+  server: 47.254.167.157
+  type: ss
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  sni: usgp1-cdn-route.couldflare-cdn.com
-- name: 🇺🇸US_2|1.2MB/s
-  port: 443
-  server: 172.64.69.89
+- name: 🇰🇷KR_1|3.8MB/s
+  password: ''
+  port: 1080
+  server: 59.11.209.162
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇷🇴RO_1|1.4MB/s
+  password: "null"
+  port: 9002
+  server: 193.176.84.19
   skip-cert-verify: true
   tls: true
   type: http
+  username: "null"
+- name: 🇳🇱NL_7|1.2MB/s
+  password: "null"
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: "null"
+- name: 🇮🇩ID_1|1.3MB/s
+  password: APJ7RmY9
+  port: 62000
+  server: 202.155.99.32
+  skip-cert-verify: true
+  type: socks5
+  username: gebHTLF6
+- name: 🇹🇭TH_1|4.0MB/s
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.202
+  skip-cert-verify: true
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: 🇮🇩ID_2|780KB/s
+  password: RRWtX6XP
+  port: 62000
+  server: 203.84.138.59
+  skip-cert-verify: true
+  type: socks5
+  username: 9tcjLp2W
+- name: 🇹🇭TH_2|4.1MB/s
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.30
+  skip-cert-verify: true
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: 🇷🇴RO_2|2.1MB/s
+  password: ''
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇲🇰MK_1|919KB/s
+  password: ''
+  port: 443
+  server: 185.225.28.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇬🇧GB_2|2.0MB/s
+  password: ''
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇨🇾CY_1|544KB/s
+  password: ''
+  port: 9443
+  server: 46.199.75.105
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇨🇭CH_1|2.0MB/s
+  password: ''
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇷🇴RO_3|1.8MB/s
+  password: ''
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇷🇴RO_4|1.4MB/s
+  password: ''
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺RU_1|2.4MB/s
+  network: grpc
+  port: 443
+  server: vps3.nemnogogo.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  xudp: true
+  servername: vps3.nemnogogo.com
+- name: 🇺🇸US_1|1.7MB/s
+  network: ws
+  port: 443
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+  ws-opts:
+    headers:
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    path: /ffad70ffdfc3bcda
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇩🇪DE_5|1.7MB/s
+  network: ws
+  port: 443
+  server: bookend.filnex.baby
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  ws-opts:
+    headers:
+      Host: bookend.filnex.baby
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /api/de1/stream
+  xudp: true
+  servername: ferncrest.gerqix.online
 - name: '说明-来源: kooker/FreeSubsCheck'
   type: trojan
   server: 127.0.0.1
@@ -125,7 +283,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1151 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1184 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -151,7 +309,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: kooker/FreeSubsCheck'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1151 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 1184 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
