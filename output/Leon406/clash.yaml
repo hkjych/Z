@@ -1,793 +1,74 @@
 proxies:
-- name: 中国_112803003
-  type: trojan
-  server: ja304.magiclampcloud.cn
-  port: 59443
-  password: "06cf12a7fab279375e55e2f0cfdef381"
-  udp: true
-  skip-cert-verify: true
-- name: 丹麦_112803001+M46
-  type: ss
-  server: 158.173.24.73
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 伊朗_112803001+L0
-  type: ss
-  server: 151.241.19.29
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 伊朗_112803002+L0
-  type: ss
-  server: 151.241.19.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 俄罗斯联邦_112803001+L0
-  type: ss
-  server: 194.87.69.12
-  port: 18443
-  cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-  udp: true
-- name: 俄罗斯联邦_112803257+L0
-  type: ss
-  server: 185.22.152.168
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
-- name: 加拿大_112803004 L36
+- name: CF中转_11281010830 L0
   type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  server: 104.17.77.77
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: none
+  udp: true
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: CF中转_112810203 L0
+  type: vmess
+  server: 104.21.0.1
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   udp: true
-- name: 加拿大_112803008+M45
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 加拿大_112803009+L36
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 加拿大_112803012
-  type: ss
-  server: 192.99.151.230
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 加拿大_112803089+M45
-  type: ss
-  server: 134.195.198.163
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: PmCqK98WqhSC
-  udp: true
-- name: 南非_112803001+H81
-  type: ss
-  server: 185.230.230.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 奥地利_112803001+L0
-  type: ss
-  server: 152.53.1.57
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
-- name: 德国_112803003+M48
-  type: ss
-  server: 57.129.113.16
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  udp: true
-- name: 德国_112803004+M50
-  type: ss
-  server: 193.108.116.98
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 德国_112803005+L33
-  type: ss
-  server: 57.129.76.233
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 捷克_112803001+M58
-  type: ss
-  server: 45.86.51.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 新加坡_112803002 L0
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: CF中转_112810207 L6
   type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  server: 172.67.187.145
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   udp: true
-- name: 新加坡_112803003+L0
-  type: ss
-  server: 149.88.107.47
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 新加坡_112803004+L0
-  type: ss
-  server: 149.88.106.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 新加坡_112803005+M46
-  type: ss
-  server: 149.88.106.73
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 新加坡_112803364
-  type: ss
-  server: leviko-sg3063.shopingggg.ir
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 日本_112803004
-  type: ss
-  server: jpa.123069.xyz
-  port: 53758
-  cipher: aes-128-gcm
-  password: Bwlqh7GcFB
-  udp: true
-- name: 日本_112803005+L4
-  type: ss
-  server: 168.138.205.100
-  port: 53758
-  cipher: aes-128-gcm
-  password: Bwlqh7GcFB
-  udp: true
-- name: 日本_112803023+L0
-  type: ss
-  server: 47.91.15.175
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803024+L0
-  type: ss
-  server: 47.74.40.77
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803025+L0
-  type: ss
-  server: 47.91.2.13
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803026+L0
-  type: ss
-  server: 47.74.9.21
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803027+L0
-  type: ss
-  server: 47.74.0.207
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803028+L0
-  type: ss
-  server: 47.91.31.150
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803029+L0
-  type: ss
-  server: 47.91.18.202
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803030+L0
-  type: ss
-  server: 47.74.27.11
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803031+L0
-  type: ss
-  server: 8.216.11.25
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803032+L0
-  type: ss
-  server: 8.216.5.230
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803033+L0
-  type: ss
-  server: 8.216.6.223
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803034+L0
-  type: ss
-  server: 8.216.9.217
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803035+L0
-  type: ss
-  server: 8.216.19.169
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803036+L0
-  type: ss
-  server: 8.216.8.185
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803037+L0
-  type: ss
-  server: 8.209.221.183
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803038+L0
-  type: ss
-  server: 8.216.14.94
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803039+L0
-  type: ss
-  server: 8.211.154.126
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803040+L0
-  type: ss
-  server: 8.216.9.190
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803041+L0
-  type: ss
-  server: 8.216.8.176
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803042+L0
-  type: ss
-  server: 8.209.236.2
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803043+L0
-  type: ss
-  server: 8.216.16.98
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803044+L0
-  type: ss
-  server: 8.216.4.158
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803045+L0
-  type: ss
-  server: 8.216.18.170
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803046+L0
-  type: ss
-  server: 8.216.15.55
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803047+L0
-  type: ss
-  server: 8.216.8.135
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803048+L0
-  type: ss
-  server: 8.216.17.86
-  port: 6666
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803049+L0
-  type: ss
-  server: 8.216.15.46
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803050+L0
-  type: ss
-  server: 8.216.9.15
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803051+L0
-  type: ss
-  server: 8.216.17.19
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803052+L0
-  type: ss
-  server: 8.211.174.60
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803053+L0
-  type: ss
-  server: 8.209.236.164
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803054+L0
-  type: ss
-  server: 8.216.18.173
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803055+L0
-  type: ss
-  server: 8.216.3.83
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803056+L0
-  type: ss
-  server: 8.216.18.189
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803057+L0
-  type: ss
-  server: 8.209.221.90
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803058+L0
-  type: ss
-  server: 8.216.18.139
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803059+L0
-  type: ss
-  server: 8.216.1.127
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803060+L0
-  type: ss
-  server: 8.211.130.59
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803061+L0
-  type: ss
-  server: 47.245.42.226
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803062+L0
-  type: ss
-  server: 47.245.54.15
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803064+L0
-  type: ss
-  server: 47.245.40.193
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803213+L0
-  type: ss
-  server: 8.209.197.190
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803222+L0
-  type: ss
-  server: 8.216.7.10
-  port: 6666
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803223+L0
-  type: ss
-  server: 47.91.16.50
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803224+L0
-  type: ss
-  server: 47.74.40.243
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803225+L0
-  type: ss
-  server: 47.74.49.154
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803226+L0
-  type: ss
-  server: 8.209.196.11
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803227+L0
-  type: ss
-  server: 8.209.198.176
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803228+L0
-  type: ss
-  server: 8.209.199.75
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803229+L0
-  type: ss
-  server: 8.209.222.150
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803230+L0
-  type: ss
-  server: 8.209.245.25
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803231+L0
-  type: ss
-  server: 8.209.249.190
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803232+L0
-  type: ss
-  server: 8.209.249.205
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803233+L0
-  type: ss
-  server: 8.209.253.213
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803234+L0
-  type: ss
-  server: 8.211.128.146
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803235+L0
-  type: ss
-  server: 8.211.131.30
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803236+L0
-  type: ss
-  server: 8.211.132.94
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803237+L0
-  type: ss
-  server: 8.211.174.191
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803238+L0
-  type: ss
-  server: 8.216.0.168
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803239+L0
-  type: ss
-  server: 8.216.10.204
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803240+L0
-  type: ss
-  server: 8.216.14.14
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803241+L0
-  type: ss
-  server: 8.216.15.30
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803242+L0
-  type: ss
-  server: 8.216.16.102
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803243+L0
-  type: ss
-  server: 8.216.17.189
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803244+L0
-  type: ss
-  server: 8.216.17.52
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803245+L0
-  type: ss
-  server: 8.216.18.167
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803246+L0
-  type: ss
-  server: 8.216.4.146
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803247+L0
-  type: ss
-  server: 8.216.5.89
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803248+L0
-  type: ss
-  server: 8.216.6.19
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803249+L0
-  type: ss
-  server: 8.216.8.0
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803250+L0
-  type: ss
-  server: 8.216.8.84
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803251+L0
-  type: ss
-  server: 8.216.9.142
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803252+L0
-  type: ss
-  server: 8.216.9.151
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803253+L0
-  type: ss
-  server: 8.216.9.154
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803254+L0
-  type: ss
-  server: 8.216.9.41
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803255+L0
-  type: ss
-  server: 8.216.9.42
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803256+L0
-  type: ss
-  server: 47.91.29.60
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803257+L0
-  type: ss
-  server: 47.91.15.111
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803258+L0
-  type: ss
-  server: 8.216.3.160
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803259+L0
-  type: ss
-  server: 47.74.41.139
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803260+L0
-  type: ss
-  server: 47.74.18.249
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803261+L0
-  type: ss
-  server: 47.74.17.125
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803262+L0
-  type: ss
-  server: 47.74.24.29
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803263+L0
-  type: ss
-  server: 47.245.32.129
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803264+L0
-  type: ss
-  server: 8.211.129.80
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803269+L0
-  type: ss
-  server: 8.216.7.48
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 日本_112803270+L0
-  type: ss
-  server: 103.106.228.187
-  port: 14603
-  cipher: aes-128-gcm
-  password: +kjIMXiRJevupAgyKqXN5e0HSd8aV22b
-  udp: true
-- name: 日本_112803271+L0
-  type: ss
-  server: 8.216.7.248
-  port: 5555
-  cipher: aes-256-gcm
-  password: "123456"
-  udp: true
-- name: 未知_1128032300
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: CF中转_112810208 L0
   type: vmess
-  server: chatgpt.com
+  server: 188.114.99.137
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: CF中转_112810499 L0
+  type: vmess
+  server: 104.21.7.133
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: CF中转_1128108956 L0
+  type: vmess
+  server: 104.21.91.53
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
@@ -800,134 +81,997 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 法国_112803003+H94
+- name: 中国_112810003
+  type: trojan
+  server: ja304.magiclampcloud.cn
+  port: 59443
+  password: "06cf12a7fab279375e55e2f0cfdef381"
+  udp: true
+  skip-cert-verify: true
+- name: 中国_112810005+L0
   type: ss
-  server: 23.162.152.22
+  server: 103.115.17.65
+  port: 8388
+  cipher: aes-256-gcm
+  password: lnBTw6qYYXi6TXfp
+  udp: true
+- name: 丹麦_112810001+M46
+  type: ss
+  server: 158.173.24.73
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 丹麦_112810018+M60
+  type: ss
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 丹麦_112810020
+  type: ss
+  server: leviko-nl1751.shopingggg.ir
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 伊朗_112810001+L0
+  type: ss
+  server: 151.241.19.29
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 法国_112803004+H
+- name: 伊朗_112810002+L0
+  type: ss
+  server: 151.241.19.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 伊朗_112810009
+  type: vmess
+  server: Ir.wbzo.ir
+  port: 2080
+  uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 俄罗斯联邦_112810001+L0
+  type: ss
+  server: 194.87.69.12
+  port: 18443
+  cipher: aes-256-gcm
+  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
+  udp: true
+- name: 俄罗斯联邦_112810256+L0
+  type: ss
+  server: 185.22.152.168
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  udp: true
+- name: 加拿大_112810004 L36
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 加拿大_112810020+M45
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 加拿大_112810021+L36
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 加拿大_112810022+L36
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 加拿大_112810024
+  type: ss
+  server: 192.99.151.230
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 加拿大_112810025+M59
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 加拿大_112810100+M45
+  type: ss
+  server: 134.195.198.163
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: PmCqK98WqhSC
+  udp: true
+- name: 南非_112810001+H81
+  type: ss
+  server: 185.230.230.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 奥地利_112810001+L0
+  type: ss
+  server: 152.53.1.57
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  udp: true
+- name: 德国_112810005+M50
+  type: ss
+  server: 193.108.116.98
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 德国_112810006+L33
+  type: ss
+  server: 57.129.76.233
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 德国_112810012+M48
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 德国_112810483+L18
+  type: ss
+  server: 213.202.208.199
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 捷克_112810001+M58
+  type: ss
+  server: 45.86.51.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 新加坡_112810002 L0
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 新加坡_112810004+L0
+  type: ss
+  server: 149.88.107.47
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 新加坡_112810005+L0
+  type: ss
+  server: 149.88.106.74
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 新加坡_112810006+M46
+  type: ss
+  server: 149.88.106.73
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 新加坡_112810362
+  type: ss
+  server: leviko-sg3063.shopingggg.ir
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 新加坡_112810408 L0
+  type: vmess
+  server: 8.222.172.146
+  port: 54327
+  uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pages
+- name: 日本_112810005
+  type: ss
+  server: jpa.123069.xyz
+  port: 53758
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+  udp: true
+- name: 日本_112810006+L4
+  type: ss
+  server: 168.138.205.100
+  port: 53758
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+  udp: true
+- name: 日本_112810015+L0
+  type: ss
+  server: 47.245.40.193
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810022
+  type: vmess
+  server: l3gzwx9-g05.jp06-jz-vm0.entry.fr0528.art
+  port: 28787
+  uuid: 8ba17b4b-600f-34d1-b082-548a7bc05d1e
+  alterId: 1
+  cipher: auto
+  udp: true
+  tls: true
+- name: 日本_112810025+L0
+  type: ss
+  server: 47.74.41.139
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810026+L0
+  type: ss
+  server: 47.74.0.207
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810027+L0
+  type: ss
+  server: 47.91.31.150
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810028+L0
+  type: ss
+  server: 47.91.18.202
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810029+L0
+  type: ss
+  server: 47.91.15.175
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810030+L0
+  type: ss
+  server: 47.74.40.77
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810031+L0
+  type: ss
+  server: 47.91.2.13
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810032+L0
+  type: ss
+  server: 47.74.27.11
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810033+L0
+  type: ss
+  server: 47.74.9.21
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810034+L0
+  type: ss
+  server: 8.216.15.46
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810035+L0
+  type: ss
+  server: 8.216.19.169
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810036+L0
+  type: ss
+  server: 8.209.236.2
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810037+L0
+  type: ss
+  server: 8.216.15.30
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810038+L0
+  type: ss
+  server: 8.216.9.154
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810039+L0
+  type: ss
+  server: 8.216.17.52
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810040+L0
+  type: ss
+  server: 8.209.245.25
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810041+L0
+  type: ss
+  server: 8.216.16.98
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810042+L0
+  type: ss
+  server: 8.211.131.30
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810043+L0
+  type: ss
+  server: 8.216.3.160
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810044+L0
+  type: ss
+  server: 8.216.5.230
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810045+L0
+  type: ss
+  server: 8.216.9.42
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810046+L0
+  type: ss
+  server: 8.216.18.167
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810047+L0
+  type: ss
+  server: 8.216.10.204
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810048+L0
+  type: ss
+  server: 8.209.249.190
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810049+L0
+  type: ss
+  server: 8.211.132.94
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810050+L0
+  type: ss
+  server: 8.216.9.41
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810051+L0
+  type: ss
+  server: 8.216.9.190
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810052+L0
+  type: ss
+  server: 8.216.4.158
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810053+L0
+  type: ss
+  server: 8.209.196.11
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810054+L0
+  type: ss
+  server: 8.209.253.213
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810055+L0
+  type: ss
+  server: 8.209.222.150
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810056+L0
+  type: ss
+  server: 8.216.8.84
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810057+L0
+  type: ss
+  server: 8.216.6.223
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810058+L0
+  type: ss
+  server: 8.216.18.170
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810059+L0
+  type: ss
+  server: 8.216.15.55
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810060+L0
+  type: ss
+  server: 8.216.9.217
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810061+L0
+  type: ss
+  server: 8.216.8.176
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810062+L0
+  type: ss
+  server: 8.216.8.185
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810063+L0
+  type: ss
+  server: 8.211.154.126
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810064+L0
+  type: ss
+  server: 8.216.18.189
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810065+L0
+  type: ss
+  server: 8.209.221.90
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810066+L0
+  type: ss
+  server: 8.216.18.139
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810067+L0
+  type: ss
+  server: 8.216.1.127
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810068+L0
+  type: ss
+  server: 8.211.130.59
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810069+L0
+  type: ss
+  server: 8.216.11.25
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810070+L0
+  type: ss
+  server: 8.216.3.83
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810071+L0
+  type: ss
+  server: 8.216.18.173
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810072+L0
+  type: ss
+  server: 8.209.236.164
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810073+L0
+  type: ss
+  server: 8.211.174.60
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810074+L0
+  type: ss
+  server: 8.216.17.19
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810075+L0
+  type: ss
+  server: 8.216.9.15
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810076+L0
+  type: ss
+  server: 8.209.221.183
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810077+L0
+  type: ss
+  server: 8.216.17.86
+  port: 6666
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810078+L0
+  type: ss
+  server: 8.216.8.135
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810079+L0
+  type: ss
+  server: 8.216.14.94
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810080+L0
+  type: ss
+  server: 47.245.42.226
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810081+L0
+  type: ss
+  server: 47.245.54.15
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810222+L0
+  type: ss
+  server: 8.209.197.190
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810224+L0
+  type: ss
+  server: 8.216.7.10
+  port: 6666
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810225+L0
+  type: ss
+  server: 47.91.16.50
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810226+L0
+  type: ss
+  server: 47.74.40.243
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810227+L0
+  type: ss
+  server: 47.74.49.154
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810228+L0
+  type: ss
+  server: 8.209.198.176
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810229+L0
+  type: ss
+  server: 8.209.199.75
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810230+L0
+  type: ss
+  server: 8.209.249.205
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810231+L0
+  type: ss
+  server: 8.211.128.146
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810232+L0
+  type: ss
+  server: 8.211.174.191
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810233+L0
+  type: ss
+  server: 8.216.0.168
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810234+L0
+  type: ss
+  server: 8.216.14.14
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810235+L0
+  type: ss
+  server: 8.216.16.102
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810236+L0
+  type: ss
+  server: 8.216.17.189
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810237+L0
+  type: ss
+  server: 8.216.4.146
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810238+L0
+  type: ss
+  server: 8.216.5.89
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810239+L0
+  type: ss
+  server: 8.216.6.19
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810240+L0
+  type: ss
+  server: 8.216.8.0
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810241+L0
+  type: ss
+  server: 8.216.9.142
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810242+L0
+  type: ss
+  server: 8.216.9.151
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810243+L0
+  type: ss
+  server: 47.91.29.60
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810244+L0
+  type: ss
+  server: 47.91.15.111
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810245+L0
+  type: ss
+  server: 47.74.18.249
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810246+L0
+  type: ss
+  server: 47.74.17.125
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810247+L0
+  type: ss
+  server: 47.74.24.29
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810248+L0
+  type: ss
+  server: 47.245.32.129
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810249+L0
+  type: ss
+  server: 8.211.129.80
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810250+L0
+  type: ss
+  server: 8.216.7.48
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 日本_112810251+L0
+  type: ss
+  server: 103.106.228.187
+  port: 14603
+  cipher: aes-128-gcm
+  password: +kjIMXiRJevupAgyKqXN5e0HSd8aV22b
+  udp: true
+- name: 日本_112810252+L0
+  type: ss
+  server: 8.216.7.248
+  port: 5555
+  cipher: aes-256-gcm
+  password: "123456"
+  udp: true
+- name: 法国_112810004+H
+  type: ss
+  server: 172.99.189.142
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 法国_112810005+H
   type: ss
   server: 38.109.228.110
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 法国_112803204+H82
+- name: 法国_112810006+H94
   type: ss
-  server: 51.195.248.85
-  port: 14114
-  cipher: aes-128-gcm
-  password: 8bc8CZHJUuNcD6pI66wcSxXhYWB4iORQ
+  server: 23.162.152.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 法国_112803205+H94
+- name: 法国_112810011
+  type: ss
+  server: 57.131.27.21
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 法国_112810205+H94
   type: ss
   server: 79.137.99.183
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 法国_112803207
+- name: 法国_112810206
   type: ss
   server: leviko-fr1459.shopingggg.ir
   port: 443
   cipher: chacha20-ietf-poly1305
   password: ySGkGhr2sKHV
   udp: true
-- name: 法国_112803212+H87
+- name: 法国_112810210+H87
   type: ss
   server: 23.162.152.245
   port: 443
   cipher: chacha20-ietf-poly1305
   password: ySGkGhr2sKHV
   udp: true
-- name: 法国_112803217+L33
+- name: 法国_112810211
+  type: ss
+  server: leviko-fr5418.shopingggg.ir
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 法国_112810215+L33
   type: ss
   server: 51.158.26.27
   port: 15104
   cipher: aes-128-gcm
   password: vldolmlmzmypc36okhum
   udp: true
-- name: 法国_112803237+H82
-  type: ss
-  server: 51.195.248.87
-  port: 14116
-  cipher: aes-128-gcm
-  password: 8bc8CZHJUuNcD6pI66wcSxXhYWB4iORQ
-  udp: true
-- name: 波兰_112803001+L0
+- name: 波兰_112810001+L0
   type: ss
   server: 156.67.120.205
   port: 51628
   cipher: chacha20-ietf-poly1305
   password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
   udp: true
-- name: 瑞典_112803002+L36
+- name: 瑞典_112810002+L36
   type: ss
   server: 138.199.55.243
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 瑞士_112803002+M51
+- name: 瑞士_112810004+M51
   type: ss
   server: 186.190.215.251
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 瑞士_112803003+H96
-  type: ss
-  server: 23.166.88.127
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 瑞士_112803004+L0
+- name: 瑞士_112810005+L0
   type: ss
   server: 178.83.185.156
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 瑞士_112803006+H95
+- name: 瑞士_112810006+H96
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 瑞士_112810008+H95
   type: ss
   server: 23.166.88.189
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 瑞士_112803053
+- name: 瑞士_112810052
   type: ss
   server: leviko-ch7340.shopingggg.ir
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 瑞士_112803054 L13
-  type: vmess
-  server: 179.43.140.24
-  port: 42831
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: 瑞士_112803057
+- name: 瑞士_112810053
   type: ss
   server: leviko-ch0322.shopingggg.ir
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 瑞士_112803058
+- name: 瑞士_112810054
   type: ss
   server: leviko-ch5965.shopingggg.ir
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803016 H86
+- name: 美国_112810015 M56
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国_112810016 H86
   type: vmess
   server: 38.91.107.49
   port: 18000
@@ -935,7 +1079,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国_112803017 H71
+- name: 美国_112810017 H71
   type: vmess
   server: 38.110.1.246
   port: 18000
@@ -943,294 +1087,308 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国_112803018+M55
-  type: ss
-  server: 193.151.163.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803019+M58
-  type: ss
-  server: 193.151.160.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803020+M58
+- name: 美国_112810033+M58
   type: ss
   server: 193.151.160.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803021+M60
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 美国_112803022+M60
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 美国_112803023+H70
-  type: ss
-  server: 149.40.57.138
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803024+H89
-  type: ss
-  server: 167.88.63.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803025+M60
+- name: 美国_112810034+M60
   type: ss
   server: 37.19.198.244
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 美国_112803026+M57
-  type: ss
-  server: 84.20.27.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803027+M68
-  type: ss
-  server: 38.91.107.188
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803028+H75
-  type: ss
-  server: 162.251.62.31
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803029+H76
-  type: ss
-  server: 169.197.142.68
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803030+H76
-  type: ss
-  server: 149.40.57.134
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803031+H86
+- name: 美国_112810035+H86
   type: ss
   server: 38.22.17.129
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803032+H90
-  type: ss
-  server: 216.106.178.169
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803033+H84
-  type: ss
-  server: 38.128.66.32
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803036+H79
-  type: ss
-  server: 38.22.17.219
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803037+H88
-  type: ss
-  server: 23.150.152.38
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803038+H94
-  type: ss
-  server: 172.111.36.123
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803039+H81
-  type: ss
-  server: 38.91.100.39
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803040+M64
+- name: 美国_112810036+M64
   type: ss
   server: 38.121.43.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803041+M67
+- name: 美国_112810037+M67
   type: ss
   server: 38.121.43.231
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803043+H79
+- name: 美国_112810038+M60
   type: ss
-  server: 137.184.89.151
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: 美国_112803044+H94
-  type: ss
-  server: 167.17.64.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803045+H87
-  type: ss
-  server: 149.40.57.133
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803046+H96
-  type: ss
-  server: 172.111.38.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 美国_112803047+L0
+- name: 美国_112810039+L0
   type: ss
   server: 38.121.43.225
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803048+H90
+- name: 美国_112810040+H89
   type: ss
-  server: 167.17.64.27
+  server: 167.88.63.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803050+H83
+- name: 美国_112810041+M58
   type: ss
-  server: 167.17.64.175
+  server: 193.151.160.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803051+M41
+- name: 美国_112810042+M60
   type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 美国_112803052+L20
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: 美国_112803054+M41
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 美国_112803055+M50
-  type: ss
-  server: 15.204.247.244
+  server: 37.19.198.243
   port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: 美国_112803057+L0
+- name: 美国_112810043+H94
   type: ss
-  server: 23.230.52.119
-  port: 42878
-  cipher: chacha20-ietf-poly1305
-  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  server: 172.111.36.123
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803058
+- name: 美国_112810044+M55
+  type: ss
+  server: 193.151.163.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810045+H70
+  type: ss
+  server: 149.40.57.138
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810046+H84
+  type: ss
+  server: 38.128.66.32
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810047+H79
+  type: ss
+  server: 38.22.17.219
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810048+M57
+  type: ss
+  server: 84.20.27.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810049+H76
+  type: ss
+  server: 149.40.57.134
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810050+M68
+  type: ss
+  server: 38.91.107.188
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810051+H75
+  type: ss
+  server: 162.251.62.31
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810052+H90
+  type: ss
+  server: 216.106.178.169
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810053+H81
+  type: ss
+  server: 38.91.100.39
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810054+H79
+  type: ss
+  server: 137.184.89.151
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810055
   type: ss
   server: waic.pro.main.sys-metric-report.com
   port: 28014
   cipher: chacha20-ietf-poly1305
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   udp: true
-- name: 美国_112803062+H81
+- name: 美国_112810056+H94
+  type: ss
+  server: 167.17.64.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810057+H96
+  type: ss
+  server: 172.111.38.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810058+H76
+  type: ss
+  server: 169.197.142.68
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810059+H87
+  type: ss
+  server: 149.40.57.133
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810060+H88
+  type: ss
+  server: 23.150.152.38
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810061+H90
+  type: ss
+  server: 167.17.64.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810062+H83
+  type: ss
+  server: 167.17.64.175
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 美国_112810063+M41
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 美国_112810064+L20
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 美国_112810066+M41
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 美国_112810067+M50
+  type: ss
+  server: 15.204.247.244
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 美国_112810068+L0
+  type: ss
+  server: 23.230.52.119
+  port: 42878
+  cipher: chacha20-ietf-poly1305
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  udp: true
+- name: 美国_112810077+H81
   type: ss
   server: 38.22.17.214
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803067+H80
+- name: 美国_112810082+H80
   type: ss
   server: 169.197.140.247
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803069+H90
+- name: 美国_112810084+H90
   type: ss
   server: 38.143.66.146
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_112803070+M50
+- name: 美国_112810085+M50
   type: ss
   server: 15.204.246.107
   port: 8888
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: 美国_112803072+H88
+- name: 美国_112810087+H88
   type: ss
   server: 38.64.138.135
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034135+H74
+- name: 美国_112810181+L38
+  type: trojan
+  server: 66.23.203.21
+  port: 59689
+  password: ae7eb4dwyaz25pxwgq59
+  udp: true
+  skip-cert-verify: true
+- name: 美国_112810198+L0
+  type: ss
+  server: 143.20.71.68
+  port: 28014
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  udp: true
+- name: 美国_1128104161+H74
   type: ss
   server: 66.163.125.120
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034154 L1
+- name: 美国_1128104177 L1
   type: vmess
   server: 161.33.20.255
   port: 8880
@@ -1241,114 +1399,98 @@ proxies:
   network: ws
   ws-opts:
     path: /e0856508-d693-450a-a099-455091dc4f25-vm
-- name: 美国_1128034163+L0
+- name: 美国_1128104183+L0
   type: ss
   server: 216.172.144.199
   port: 40643
   cipher: chacha20-ietf-poly1305
   password: Xd4G9xn7AgT88msCYC9MZfavMUqd3dWFNAvswi6KfaD9YcexptMbPn4cSECEMzDgvAMomAWJHyweqJer99ssMVYGH6TK8k4c
   udp: true
-- name: 美国_1128034169+M52
+- name: 美国_1128104187+H
+  type: ss
+  server: 15.204.247.175
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 美国_1128104188+M52
   type: ss
   server: 108.181.133.138
   port: 443
   cipher: chacha20-ietf-poly1305
   password: H12pAAJYL
   udp: true
-- name: 美国_1128034172+M53
+- name: 美国_1128104191+M53
   type: ss
   server: 67.220.73.247
   port: 443
   cipher: chacha20-ietf-poly1305
   password: DGjtV63aPW3E
   udp: true
-- name: 美国_1128034173 L34
-  type: vmess
-  server: 107.150.19.24
-  port: 54321
-  uuid: 2659ef8a-3456-48f8-95fe-08b82d3f4984
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: 美国_1128034180+M50
+- name: 美国_1128104197+M50
   type: ss
   server: 15.204.247.244
   port: 4444
   cipher: aes-256-gcm
   password: pKEW8JPByTVTLtM
   udp: true
-- name: 美国_1128034184
+- name: 美国_1128104201
   type: ss
   server: news.bushyjenz.cyou
   port: 42878
   cipher: chacha20-ietf-poly1305
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
   udp: true
-- name: 美国_1128034187+L38
-  type: trojan
-  server: 66.23.203.21
-  port: 59689
-  password: ae7eb4dwyaz25pxwgq59
-  udp: true
-  sni: 66.23.203.21
-  skip-cert-verify: true
-- name: 美国_1128034191+H70
+- name: 美国_1128104204+H70
   type: ss
   server: 38.91.107.19
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034192+H85
+- name: 美国_1128104205+H85
   type: ss
   server: 38.91.107.57
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034194+M60
+- name: 美国_1128104207+M60
   type: ss
   server: 38.99.82.34
   port: 443
   cipher: chacha20-ietf-poly1305
   password: TyWIy6paiFUX
   udp: true
-- name: 美国_1128034195+H91
+- name: 美国_1128104208+H91
   type: ss
   server: 67.220.73.178
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034196+M52
+- name: 美国_1128104209+M52
   type: ss
   server: 108.181.88.2
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 6yzcGxLalx0T
   udp: true
-- name: 美国_1128034197+H85
+- name: 美国_1128104210+H85
   type: ss
   server: 38.22.17.139
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034200+H
-  type: ss
-  server: 64.42.181.98
-  port: 12992
-  cipher: aes-128-gcm
-  password: "dbf6a2305d0c50e7217ff13513c20a4b"
-  udp: true
-- name: 美国_1128034202+H82
+- name: 美国_1128104214+H82
   type: ss
   server: 149.40.57.135
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034214+L25
+- name: 美国_1128104224+L25
   type: trojan
   server: 69.164.240.85
   port: 50875
@@ -1356,14 +1498,14 @@ proxies:
   udp: true
   sni: 69.164.240.85
   skip-cert-verify: true
-- name: 美国_1128034217+H78
+- name: 美国_1128104226+H78
   type: ss
   server: 167.88.63.39
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 美国_1128034263 H71
+- name: 美国_1128104257 H71
   type: vmess
   server: 38.110.1.246
   port: 18000
@@ -1371,205 +1513,324 @@ proxies:
   alterId: 0
   cipher: none
   udp: true
-- name: 美国_1128034267+L29
+- name: 美国_1128104258+L29
   type: ss
   server: 67.217.56.100
   port: 14230
   cipher: aes-128-gcm
   password: ahhpWAB4exD49AGpYyfwXs9cQSjX8CCL
   udp: true
-- name: 美国_1128034268+M44
-  type: ss
-  server: 64.74.162.53
-  port: 18306
-  cipher: aes-128-gcm
-  password: TuL5oa+yed5zbDB+S4AYiq8KylsvbIhx
-  udp: true
-- name: 美国_1128034269+M46
-  type: ss
-  server: 14.1.28.76
-  port: 10742
-  cipher: aes-128-gcm
-  password: ySB4LpztxHRDLr6rR5WUL2ad1SLQD74u
-  udp: true
-- name: 美国_1128034627+L38
+- name: 美国_1128104261+L38
   type: ss
   server: 66.23.204.190
   port: 12085
   cipher: aes-128-gcm
   password: YNyMBvc60OHxas5rkYKnRdFdkXMb+0u6
   udp: true
-- name: 美国_1128034631+M42
-  type: ss
-  server: 64.74.163.118
-  port: 18540
-  cipher: aes-128-gcm
-  password: 6pCowZjgx3NCHcnxsvhjYNXM97N+xo3m
-  udp: true
-- name: 美国_1128034633+L29
+- name: 美国_1128104263+L29
   type: ss
   server: 205.209.104.93
   port: 17896
   cipher: aes-128-gcm
   password: WsyCkNCkGfnoq+xs7qURQzVEbwXUlJGe
   udp: true
-- name: 美国_1128034636+L20
+- name: 美国_1128104264+L20
   type: ss
   server: 205.209.104.94
   port: 17897
   cipher: aes-128-gcm
   password: WsyCkNCkGfnoq+xs7qURQzVEbwXUlJGe
   udp: true
-- name: 英国_112803002+M58
+- name: 美国_1128104270+L23
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: 0SxLXFtomY9ypO4o8rrNWEpNSZEFzsMnfhBETUd3oOw=
+  udp: true
+- name: 美国_1128104271+L23
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
+  udp: true
+- name: 美国_1128104272+L23
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I=
+  udp: true
+- name: 美国_1128104273+L23
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: PL4ahSoLNqrJ8mQZ1uKFLG8o8W4TcYDUIW0gldp9Grs=
+  udp: true
+- name: 美国_1128104296+L0
+  type: ss
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 美国_1128104554 M56
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: none
+  udp: true
+- name: 美国_1128104560 M56
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: aes-128-gcm
+  udp: true
+- name: 美国_1128104628+M63
+  type: ss
+  server: 66.163.117.245
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: n87cM0Lv7Y3T
+  udp: true
+- name: 美国_1128104629
+  type: ss
+  server: jp-telegram-khp25-viber-09773510813.premiumx.giize.com
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: "53dea5063dff45e4961fb9cba5d3f83a"
+  udp: true
+- name: 美国_1128104632+H
+  type: ss
+  server: 148.72.168.35
+  port: 18615
+  cipher: aes-128-gcm
+  password: WEGiotjOzfN0eTF3WXMqacLb1G8QTHwh
+  udp: true
+- name: 美国_1128104633+M52
+  type: ss
+  server: 108.181.9.202
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: G5p6ww4o67HB
+  udp: true
+- name: 美国_1128104637+L38
+  type: ss
+  server: 66.23.205.84
+  port: 17530
+  cipher: aes-128-gcm
+  password: Z0m3oFlLVtts6UvlKQzMXCIL9jFR70s3
+  udp: true
+- name: 美国_1128104642+L0
+  type: ss
+  server: 66.23.204.186
+  port: 12081
+  cipher: aes-128-gcm
+  password: YNyMBvc60OHxas5rkYKnRdFdkXMb+0u6
+  udp: true
+- name: 英国_112810004+M58
   type: ss
   server: 185.176.206.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 英国_112803003+H91
+- name: 英国_112810005+H91
   type: ss
   server: 198.244.202.215
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 英国_112803004+H92
+- name: 英国_112810006+H92
   type: ss
   server: 198.244.201.129
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 英国_112803005+H95
-  type: ss
-  server: 142.202.51.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 英国_112803006+H90
+- name: 英国_112810007+H90
   type: ss
   server: 38.114.120.221
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 英国_112803007+L0
+- name: 英国_112810008+H95
+  type: ss
+  server: 142.202.51.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 英国_112810009+L0
   type: ss
   server: 82.38.31.157
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 英国_112803008+L0
+- name: 英国_112810010+L0
   type: ss
   server: 82.38.31.220
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 英国_112803327+L0
+- name: 英国_112810327
+  type: ss
+  server: tr.subscriptionservice.ir
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: lZZzfo1mqH7PqnloAogdi2XBhlgiofMy
+  udp: true
+- name: 英国_112810329+L0
   type: ss
   server: 82.38.31.165
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 荷兰_112803002+L0
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 荷兰_112803003+L0
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 荷兰_112803004+L0
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 荷兰_112803005+L0
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 荷兰_112803006+L0
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 荷兰_112803007+L0
+- name: 荷兰_112810004+L0
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 荷兰_112803666+M52
+- name: 荷兰_112810005+L0
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 荷兰_112810006+L0
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 荷兰_112810007+L0
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 荷兰_112810008+L0
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 荷兰_112810009+L0
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 荷兰_112810671+M52
   type: ss
   server: 108.181.122.170
   port: 443
   cipher: chacha20-ietf-poly1305
   password: CJmTCCx7Ltud
   udp: true
-- name: 荷兰_112803667+M55
+- name: 荷兰_112810672+M55
   type: ss
   server: 193.29.139.235
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 西班牙_112803031+M52
+- name: 荷兰_112810732+M52
+  type: ss
+  server: 108.181.124.226
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6daLqV3AjUb3
+  udp: true
+- name: 西班牙_112810032+M52
   type: ss
   server: 108.181.121.178
   port: 443
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
   udp: true
-- name: 韩国_112803006+L0
+- name: 西班牙_112810040
+  type: ss
+  server: S23.fusetea.ir
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: DVlt-OeAV4RiLMwT9e0T72nnFtMG2W3o
+  udp: true
+- name: 西班牙_112810041+L0
+  type: ss
+  server: 85.155.226.213
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: DVlt-OeAV4RiLMwT9e0T72nnFtMG2W3o
+  udp: true
+- name: 西班牙_112810042
+  type: ss
+  server: S23.fusetea.ir
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP
+  udp: true
+- name: 西班牙_112810043
+  type: ss
+  server: s23.fusetea.ir
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP
+  udp: true
+- name: 西班牙_112810044+L0
+  type: ss
+  server: 85.155.226.213
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP
+  udp: true
+- name: 阿联酋_112810069
+  type: ss
+  server: uk.fusetea.ir
+  port: 154
+  cipher: chacha20-ietf-poly1305
+  password: eCUs1n3b2Fh9b6WATvkNILLBzYbruQ_X
+  udp: true
+- name: 阿联酋_112810070+L26
+  type: ss
+  server: 31.57.108.24
+  port: 154
+  cipher: chacha20-ietf-poly1305
+  password: eCUs1n3b2Fh9b6WATvkNILLBzYbruQ_X
+  udp: true
+- name: 阿联酋_112810071+L16
+  type: ss
+  server: 212.192.13.240
+  port: 8388
+  cipher: aes-256-gcm
+  password: AiepJULF227ZNsjC
+  udp: true
+- name: 韩国_112810007+L0
   type: ss
   server: 211.233.33.228
   port: 8388
   cipher: aes-256-gcm
   password: qpowi_vip_tunnel_2026_secure
   udp: true
-- name: 香港_112803001 L0
-  type: vmess
-  server: 47.86.90.31
-  port: 443
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: bywxdhirqkjj8xaz.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: bywxdhirqkjj8xaz.v.3dns.vip
-- name: 香港_112803109
-  type: vmess
-  server: dog-jp.kunlun01dns.com
-  port: 21015
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: 马来西亚_112803001 L0
+- name: 马来西亚_112810001 L0
   type: vmess
   server: 47.250.135.244
   port: 10000
@@ -1577,13 +1838,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 马来西亚_112803003+L0
-  type: trojan
-  server: 47.250.84.25
-  port: 443
-  password: "5931134d1cde66bf83a54acdfebe7ab2"
-  udp: true
-  skip-cert-verify: true
 - name: '说明-来源: Leon406/SubCrawler'
   type: trojan
   server: 127.0.0.1
@@ -1591,7 +1845,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 466 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 539 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -1617,6 +1871,6 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: Leon406/SubCrawler'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 466 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 539 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'

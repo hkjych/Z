@@ -144,22 +144,6 @@ proxies:
   udp: true
   sni: px.ads.linkedin.com
   skip-cert-verify: true
-- name: 🇭🇰 香港|@ripaojiedian
-  server: jp2mqtt.jumpernode.site
-  port: 443
-  type: vless
-  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
-    short-id: "6a3c0a718181"
-  servername: stg.nvbugspro.nvidia.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇮🇹 意大利2|@ripaojiedian
   server: 202.50.253.18
   port: 19999
@@ -336,6 +320,39 @@ proxies:
       Host: itunes.apple.com
     v2ray-http-upgrade: false
   udp: true
+- name: 🇭🇰 香港|@ripaojiedian
+  server: 216.236.51.44
+  port: 1891
+  type: vless
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: senflarelink-node-71i.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    v2ray-http-upgrade: false
+  udp: true
+- name: 🇭🇰 香港3|@ripaojiedian
+  server: 38.207.172.59
+  port: 28418
+  type: vless
+  uuid: e6552569-97ce-430c-a324-53ad1c546e05
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: mfxE6lW_fuPZKWtrySdTx9HOh0vtX3-7aMiYDCh2YCA
+    short-id: "ddd21e20"
+  servername: op.gg
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: '说明-来源: ripaojiedian/freenode'
   type: trojan
   server: 127.0.0.1
@@ -343,7 +360,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 18519 个非 ASCII 字符'
+- name: '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 18555 个非 ASCII 字符'
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -369,7 +386,7 @@ proxy-groups:
   type: select
   proxies:
   - '说明-来源: ripaojiedian/freenode'
-  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 18519 个非 ASCII 字符'
+  - '说明-清洗结果: 清理 0 个节点、修复 0 处引用、含 18555 个非 ASCII 字符'
   - '说明-作者: github'
   - '说明-仓库: hkjych/Z'
 - name: 🚀 节点选择
@@ -384,7 +401,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -395,6 +411,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -408,7 +426,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -419,6 +436,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -432,7 +451,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -443,6 +461,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: 📲 电报信息
   type: select
   proxies:
@@ -455,7 +475,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -466,6 +485,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -478,7 +499,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -489,6 +509,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -501,7 +523,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -512,6 +533,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -525,7 +548,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -536,6 +558,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -565,7 +589,6 @@ proxy-groups:
   - 🇹🇼 台湾2|@ripaojiedian
   - 🇺🇸 美国1|@ripaojiedian
   - 🇹🇼 台湾3|@ripaojiedian
-  - 🇭🇰 香港|@ripaojiedian
   - 🇮🇹 意大利2|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇯🇵 日本1|@ripaojiedian
@@ -576,6 +599,8 @@ proxy-groups:
   - 🇺🇸 美国2|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
+  - 🇭🇰 香港|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
